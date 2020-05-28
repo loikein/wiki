@@ -2,7 +2,14 @@
 
 ## Computer
 
-* [Git](./docs/Git.md)
+* [Git](./computer/git.md)
+
+## Life Log
+
+* [Books](./life-log/books.md)
+* [Films & TV](./life-log/films.md)
+* [TV Shows](./life-log/tv-shows.md)
+* 
 
 <!-- ## Use headings to create page groups like this one​
 
