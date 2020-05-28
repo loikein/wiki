@@ -1,6 +1,10 @@
 ‌# Summary​
 
-## Use headings to create page groups like this one​
+## Computer
+
+* [Git](./docs/Git.md)
+
+<!-- ## Use headings to create page groups like this one​
 
 * [First page's title](page1/README.md)    
     * [Some child page](page1/page1-1.md)    
@@ -13,3 +17,4 @@
 ## A second-page group​
 
 * [Yet another page](another-page.md)
+ -->

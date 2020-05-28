@@ -1,6 +1,4 @@
-# Git
-
-# General
+## General
 
 ```sh
 # Difference btw now and last commit
@@ -26,7 +24,7 @@ $ git ls-tree --full-tree -r --name-only HEAD
 $ git reset --soft HEAD~2 && git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
-# `.gitignore`
+## `.gitignore`
 
 ```sh
 # Add late ignore
