@@ -1,3 +1,3 @@
-My personal wiki, an experiment.
+My personal wiki, cheat sheet, knowledge base…
 
-Inspired by [Nikita Voloboev's Personal Wiki](https://wiki.nikitavoloboev.xyz/).
+An experiment inspired by [Nikita Voloboev's Personal Wiki](https://wiki.nikitavoloboev.xyz/).

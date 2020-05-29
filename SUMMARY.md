@@ -3,13 +3,14 @@
 ## Computer
 
 * [Git](./computer/git.md)
+* [macOS](./computer/macos.md)
 
 ## Life Log
 
 * [Books](./life-log/books.md)
-* [Films & TV](./life-log/films.md)
+* [Films](./life-log/films.md)
 * [TV Shows](./life-log/tv-shows.md)
-* 
+* [Music](./life-log/music.md)
 
 <!-- ## Use headings to create page groups like this one​
 
