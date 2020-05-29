@@ -4,6 +4,7 @@
 
 * [Git](./computer/git.md)
 * [macOS](./computer/macos.md)
+* [LaTeX](./computer/latex.md)
 * [Python](./computer/python/README.md)
     * [Plotting](./computer/python/plotting.md)
 
