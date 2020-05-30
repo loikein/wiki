@@ -80,3 +80,9 @@ Spaces in equations: $$\begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end
 ```latex
 \begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}
 ```
+
+Braces with multiple lines: $$\underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}$$
+
+```latex
+\underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}
+```
