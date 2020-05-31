@@ -1,1 +1,1 @@
-Python related things I have found useful.
+Python related stuff I that have found useful.
