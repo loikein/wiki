@@ -1,1 +1,1 @@
-List of books that I have read.
+Books that I have read.

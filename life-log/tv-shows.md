@@ -1,1 +1,1 @@
-List of TV shows that I have watched.
+TV shows that I have watched.

@@ -8,6 +8,7 @@
     * [Apps](./computer/macos/apps.md)
 * [LaTeX](./computer/latex.md)
 * [Python](./computer/python/README.md)
+    * [Documentation](./computer/python/documentation.md)
     * [Plotting](./computer/python/plotting.md)
 
 ## Life Log
