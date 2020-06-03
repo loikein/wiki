@@ -1,14 +1,14 @@
 ## Life & Philosophy
 
 | # | video   | title | category | importance |
-| - | ------------------------------------------------------------ | -------- | ---------- | ------------------------------------------------------------ |
-|  | <a href="http://www.youtube.com/watch?v=C25qzDhGLx8" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/C25qzDhGLx8/0.jpg"/></a> |  Why Die? | life | ref |
-|  | <a href="http://www.youtube.com/watch?v=cZYNADOHhVY" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/cZYNADOHhVY/0.jpg"/></a> |  The Fable of the Dragon-Tyrant | life | ref |
-|  | <a href="http://www.youtube.com/watch?v=MBRqu0YOH14" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/MBRqu0YOH14/0.jpg"/></a> |  Optimistic Nihilism | life | ref |
-|  | <a href="http://www.youtube.com/watch?v=wfYbgdo8e-8" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/wfYbgdo8e-8/0.jpg"/></a> |  You Are Two | life | ref |
-|  | <a href="http://www.youtube.com/watch?v=nQHBAdShgYI" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/nQHBAdShgYI/0.jpg"/></a> |  The Trouble with Transporters | life | ref |
-|  | <a href="http://www.youtube.com/watch?v=NVGuFdX5guE" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/NVGuFdX5guE/0.jpg"/></a> |  Your New Year's Resolution Has Already Failed | life | ref |
-|  | <a href="http://www.youtube.com/watch?v=wf2VxeIm1no" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/wf2VxeIm1no/0.jpg"/></a> |  Thinking About Attention -- Walk with Me | life | ref |
+| - | ------------------------------------------------------------ | -------- | ---------- | ---------- |
+|  | http://www.youtube.com/watch?v=C25qzDhGLx8 |  Why Die? | life | ref |
+|  | http://www.youtube.com/watch?v=cZYNADOHhVY |  The Fable of the Dragon-Tyrant | life | ref |
+|  | http://www.youtube.com/watch?v=MBRqu0YOH14 |  Optimistic Nihilism | life | ref |
+|  | http://www.youtube.com/watch?v=wfYbgdo8e-8 |  You Are Two | life | ref |
+|  | http://www.youtube.com/watch?v=nQHBAdShgYI |  The Trouble with Transporters | life | ref |
+|  | http://www.youtube.com/watch?v=NVGuFdX5guE |  Your New Year's Resolution Has Already Failed | life | ref |
+|  | http://www.youtube.com/watch?v=wf2VxeIm1no |  Thinking About Attention -- Walk with Me | life | ref |
 
 
 ## Computer & Technology
