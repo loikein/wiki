@@ -126,12 +126,15 @@ Parameters
 ----------
 x : type
     Description of `x`. Type can be ``int``, ``float``, etc.
+    Note that this breaks when there are multiple variables.
 
-a, b : type, optional
-    Description of `a` and `b` (default values are 10, 1, respectively). Note that this breaks when there are more variables.
+a : type, optional
+    Description of `a` (default values is 10).
+    Note that this breaks when there are multiple variables.
 
 type c, d, e
     Description of `c`, `d` and `e`.
+    The only way to get multiple variables in the same line.
 ```
 
 
