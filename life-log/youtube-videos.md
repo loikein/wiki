@@ -1,14 +1,14 @@
 ## Life & Philosophy
 
 | # | video   | title | category | importance |
-| - | ------------------------------------------------------------ | -------- | ---------- | ---------- |
-|  | http://www.youtube.com/watch?v=C25qzDhGLx8 |  Why Die? | life | ref |
-|  | http://www.youtube.com/watch?v=cZYNADOHhVY |  The Fable of the Dragon-Tyrant | life | ref |
-|  | http://www.youtube.com/watch?v=MBRqu0YOH14 |  Optimistic Nihilism | life | ref |
-|  | http://www.youtube.com/watch?v=wfYbgdo8e-8 |  You Are Two | life | ref |
-|  | http://www.youtube.com/watch?v=nQHBAdShgYI |  The Trouble with Transporters | life | ref |
-|  | http://www.youtube.com/watch?v=NVGuFdX5guE |  Your New Year's Resolution Has Already Failed | life | ref |
-|  | http://www.youtube.com/watch?v=wf2VxeIm1no |  Thinking About Attention -- Walk with Me | life | ref |
+| - | ------------------------------------------------------- | -------- | ---------- | ------------------------------------------------------------ |
+| 1 | <img src="http://img.youtube.com/vi/C25qzDhGLx8/0.jpg"/> |  <a href="http://www.youtube.com/watch?v=C25qzDhGLx8" rel="noopener noreferrer">Why Die?</a> | life | ref |
+| 2 | <img src="http://img.youtube.com/vi/cZYNADOHhVY/0.jpg"/> |  <a href="http://www.youtube.com/watch?v=cZYNADOHhVY" rel="noopener noreferrer">The Fable of the Dragon-Tyrant</a> | life | ref |
+| 3 | <img src="http://img.youtube.com/vi/MBRqu0YOH14/0.jpg"/> |  <a href="http://www.youtube.com/watch?v=MBRqu0YOH14" rel="noopener noreferrer">Optimistic Nihilism</a> | life | ref |
+| 4 | <img src="http://img.youtube.com/vi/wfYbgdo8e-8/0.jpg"/> |  <a href="http://www.youtube.com/watch?v=wfYbgdo8e-8" rel="noopener noreferrer">You Are Two</a> | life | ref |
+| 5 | <img src="http://img.youtube.com/vi/nQHBAdShgYI/0.jpg"/> |  <a href="http://www.youtube.com/watch?v=nQHBAdShgYI" rel="noopener noreferrer">The Trouble with Transporters</a> | life | ref |
+| 6 | <img src="http://img.youtube.com/vi/NVGuFdX5guE/0.jpg"/> |  <a href="http://www.youtube.com/watch?v=NVGuFdX5guE" rel="noopener noreferrer">Your New Year's Resolution Has Already Failed</a> | life | ref |
+| 7 | <img src="http://img.youtube.com/vi/wf2VxeIm1no/0.jpg"/> |  <a href="http://www.youtube.com/watch?v=wf2VxeIm1no" rel="noopener noreferrer">Thinking About Attention -- Walk with Me</a> | life | ref |
 
 
 ## Computer & Technology
@@ -16,13 +16,13 @@
 | # | video   | title | category | importance |
 | - | ------------------------------------------------------------ | -------- | ---------- | ------------------------------------------------------------ |
 |  | <a href="http://www.youtube.com/watch?v=7Pq-S557XQU" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/7Pq-S557XQU/0.jpg"/></a> |  Humans Need Not Apply | tech | ref |
-| | <a href="http://www.youtube.com/watch?v=PPg1Nvv7zTM" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/PPg1Nvv7zTM/0.jpg"/></a>   | 50 Gadgets under $50 | tech     | to-buy |
-| | <a href="http://www.youtube.com/watch?v=S5intFO3r-4" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/S5intFO3r-4/0.jpg"/></a>   | Ken “Fixed” The iPhone Headphone Jack... | tech     | to-buy |
-| | <a href="http://www.youtube.com/watch?v=rI8tNMsozo0" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/rI8tNMsozo0/0.jpg"/></a> | Simplicity Matters by Rich Hickey | tech | watch |
-| | <a href="http://www.youtube.com/watch?v=-ZpsliNmJLo" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/-ZpsliNmJLo/0.jpg"/></a> | I tried to edit an ENTIRE video on iPad Pro... | tech | importance |
-| | <a href="https://vimeo.com/100377108" rel="noopener noreferrer"><img src="https://i.vimeocdn.com/video/483049838.jpg"/></a> | Keynote does Material Design | news | watch |
+|  | <a href="http://www.youtube.com/watch?v=PPg1Nvv7zTM" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/PPg1Nvv7zTM/0.jpg"/></a>   | 50 Gadgets under $50 | tech     | to-buy |
+|  | <a href="http://www.youtube.com/watch?v=S5intFO3r-4" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/S5intFO3r-4/0.jpg"/></a>   | Ken “Fixed” The iPhone Headphone Jack... | tech     | to-buy |
+|  | <a href="http://www.youtube.com/watch?v=rI8tNMsozo0" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/rI8tNMsozo0/0.jpg"/></a> | Simplicity Matters by Rich Hickey | tech | watch |
+|  | <a href="http://www.youtube.com/watch?v=-ZpsliNmJLo" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/-ZpsliNmJLo/0.jpg"/></a> | I tried to edit an ENTIRE video on iPad Pro... | tech | importance |
+|  | <a href="https://vimeo.com/100377108" rel="noopener noreferrer"><img src="https://i.vimeocdn.com/video/483049838.jpg"/></a> | Keynote does Material Design | news | watch |
 |  | <a href="http://www.youtube.com/watch?v=pzKcWl95q0c" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/pzKcWl95q0c/0.jpg"/></a> |  Rewatching the Original iPad Keynote | tech | ref |
-| | <a href="http://www.youtube.com/watch?v=YTBID" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/YTBID/0.jpg"/></a> | title                                    | tech | ref |
+|  | <a href="http://www.youtube.com/watch?v=YTBID" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/YTBID/0.jpg"/></a> | title                                    | tech | ref |
 
 
 ## News and Political Events
