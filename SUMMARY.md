@@ -14,6 +14,7 @@
 
 ## Meta Life
 
+* [学习语言](./meta-life/learning-languages.md)
 * [Time Tracking](./meta-life/time-tracking.md)
 * [Task Management](./meta-life/task-management.md)
 
