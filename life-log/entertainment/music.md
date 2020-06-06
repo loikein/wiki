@@ -38,7 +38,7 @@ Songs & musicians that I like.
 | <img src="https://img.youtube.com/vi/AqAJLh9wuZ0/0.jpg"> | [【Taylor Swift - The Man (Official Video)](https://www.youtube.com/watch?v=AqAJLh9wuZ0) |
 | <img src="https://img.youtube.com/vi/lFhDStU8-ko/0.jpg"> | [Jon Batiste: "BLACCK"](https://www.youtube.com/watch?v=lFhDStU8-ko) |
 | <img src="https://img.youtube.com/vi/kLLP033jBs8/0.jpg"> | [【歌ってみた】生きていたんだよな covered by 花譜](https://www.youtube.com/watch?v=kLLP033jBs8) |
-| <img src="https://img.youtube.com/vi/-5aaJJQFvOg/0.jpg"> | [Havana - swing cover | dodie feat. FLASHBACK](https://www.youtube.com/watch?v=-5aaJJQFvOg) |
+| <img src="https://img.youtube.com/vi/-5aaJJQFvOg/0.jpg"> | [Havana - swing cover \| dodie feat. FLASHBACK](https://www.youtube.com/watch?v=-5aaJJQFvOg) |
 | <img src="https://img.youtube.com/vi/qxDcWvZCSRg/0.jpg"> | [Apocalyptica - I Don't Care ft. Adam Gontier (Official Video)](https://www.youtube.com/watch?v=qxDcWvZCSRg) |
 | <img src="https://img.youtube.com/vi/KTZ-y85Erus/0.jpg"> | [ヨルシカ - だから僕は音楽を辞めた (Music Video)](https://www.youtube.com/watch?v=KTZ-y85Erus) |
 | <img src="https://img.youtube.com/vi/lvEVP7NPklU/0.jpg"> | [MONKEY MAJIK × 岡崎体育 / 留学生](https://www.youtube.com/watch?v=lvEVP7NPklU) |
