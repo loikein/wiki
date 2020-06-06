@@ -1,4 +1,6 @@
-##  General
+# Plotting
+
+## General
 
 Start plotting:
 
@@ -13,7 +15,7 @@ fig, ax = plt.subplots()
 fig, ax = plt.subplots(1,3)
 ```
 
-End plotting: ([credit](https://stackoverflow.com/questions/6541123/improve-subplot-size-spacing-with-many-subplots-in-matplotlib))
+End plotting: \([credit](https://stackoverflow.com/questions/6541123/improve-subplot-size-spacing-with-many-subplots-in-matplotlib)\)
 
 ```python
 # Show legend:
@@ -55,7 +57,6 @@ ax.plot([x1, x2], [y1, y2])
 ### Colours
 
 Any `colormap` can be reversed by adding `_r` after its name, e.g. `cmap="RdBu_r"` makes the smaller value blue and the bigger value red.
-
 
 ### Title
 
@@ -122,13 +123,13 @@ Adjust position of labels:
 ax.xaxis.get_majorticklabels()[1].set_horizontalalignment("right")
 ```
 
-##  Plot With Subplots
+## Plot With Subplots
 
 Generally the above-mentioned methods will work with adding indices like: `ax[0,1].set_xlabel(r"$x_1$")`, etc.
 
-###  Title 
+### Title
 
-Main title: ([credit](https://stackoverflow.com/a/29814281/10668706))
+Main title: \([credit](https://stackoverflow.com/a/29814281/10668706)\)
 
 ```python
 fig, ax = plt.subplots(2,2)
@@ -137,14 +138,13 @@ plt.subplots_adjust(top=0.9)
 grid.fig.suptitle("This is a big title")
 ```
 
-Sub titles: `ax[0, 0].set_title('Axis [0, 0]')`  
+Sub titles: `ax[0, 0].set_title('Axis [0, 0]')`
 
 ```python
 fig, ax = plt.subplots(2,2)
 
 ax[1, 0].set_title(r"$X_2$ vs $Y_1$")
 ```
-
 
 ### Total size
 
@@ -153,3 +153,4 @@ If there are three subplots:
 ```python
 fig, ax = plt.subplots(1, 3, figsize=(12, 4))
 ```
+

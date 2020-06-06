@@ -1,23 +1,24 @@
+# Documentation
+
 ## References
 
 Documentation:
 
-- [numpydoc docstring guide — numpydoc v1.1.dev0 Manual](https://numpydoc.readthedocs.io/en/latest/format.html)
-- [Example — numpydoc v1.1.dev0 Manual](https://numpydoc.readthedocs.io/en/latest/example.html#example)
-- [sampledoc tutorial — sampledoc 1.0 documentation](https://matplotlib.org/sampledoc/)
+* [numpydoc docstring guide — numpydoc v1.1.dev0 Manual](https://numpydoc.readthedocs.io/en/latest/format.html)
+* [Example — numpydoc v1.1.dev0 Manual](https://numpydoc.readthedocs.io/en/latest/example.html#example)
+* [sampledoc tutorial — sampledoc 1.0 documentation](https://matplotlib.org/sampledoc/)
 
 General reST:
 
-- [A ReStructuredText Primer](https://docutils.sourceforge.io/docs/user/rst/quickstart.html)
-- [reStructuredText Markup Specification](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#syntax-details)
-- More details: [reStructuredText Directives](https://docutils.sourceforge.io/docs/ref/rst/directives.html)
-
+* [A ReStructuredText Primer](https://docutils.sourceforge.io/docs/user/rst/quickstart.html)
+* [reStructuredText Markup Specification](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#syntax-details)
+* More details: [reStructuredText Directives](https://docutils.sourceforge.io/docs/ref/rst/directives.html)
 
 ## Main Commands
 
 In `./docs/`:
 
-```sh
+```bash
 $ conda activate my_env
 
 # either
@@ -29,22 +30,20 @@ $ make html
 $ open build/html/index.html
 ```
 
-
 ## Example Folder Tree
 
-```
+```text
 ├── docs
-│   ├── Makefile
-│   ├── _static
-│   │   └── images
-│   │       └── image.jpg
-│   └── source
-│       └── document_file.rst
+│   ├── Makefile
+│   ├── _static
+│   │   └── images
+│   │       └── image.jpg
+│   └── source
+│       └── document_file.rst
 └── code
-    ├── __init__.py
-    └── main_code.py
+    ├── __init__.py
+    └── main_code.py
 ```
-
 
 ## Working Example from [OpenSourceEconomics/temfpy](https://github.com/OpenSourceEconomics/temfpy)
 
@@ -116,12 +115,11 @@ def eoq_model(x, r=0.1):
     return y
 ```
 
-
 ## Variables
 
 [I have reported a bug](https://github.com/sphinx-doc/sphinx/issues/7780) that stops combined parameters from rendering.
 
-```
+```text
 Parameters
 ----------
 x : type
@@ -137,12 +135,11 @@ type c, d, e
     The only way to get multiple variables in the same line.
 ```
 
-
 ## Image
 
 If in `document_file.rst`:
 
-```
+```text
 .. image:: ../../_static/images/image.jpg
    :align: center
    :alt: a great image
@@ -150,19 +147,19 @@ If in `document_file.rst`:
 
 If in `main_code.py`:
 
-```
+```text
 .. image:: ../../docs/_static/images/image.jpg
    :align: center
    :alt: a great image
 ```
 
-
 ## Math
 
 Both inline and block math will work.
 
-```
+```text
 .. math:: y = \sqrt{\frac{24 x_0 x_2}{r x_1}}
 
 :math:`y = \sqrt{\frac{24 x_0 x_2}{r x_1}}`
 ```
+

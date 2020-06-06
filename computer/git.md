@@ -1,35 +1,36 @@
+# Git
+
 ## General
 
-```sh
+```bash
 # Difference btw now and last commit
 $ git diff HEAD^..HEAD
 ```
 
-```sh
+```bash
 # Show remote URL
 $ git remote show origin
 ```
 
-```sh
+```bash
 # Change last commit message
 $ git commit --amend
 ```
 
-```sh
+```bash
 # Show the file tree under git version control
 $ git ls-tree --full-tree -r --name-only HEAD
 ```
 
-```sh
+```bash
 # Gently squash last two commits
 # Commit first!!
 $ git reset --soft HEAD~2 && git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
-
 ## `.gitignore`
 
-```sh
+```bash
 # Add late ignore
 $ git commit -m "add/change .gitignore"
 $ subl .gitignore
@@ -37,28 +38,26 @@ $ subl .gitignore
 
 In `.gitignore`:
 
-```
+```text
 .DS_Store
 **/.DS_Store
 ```
 
-
-```sh
+```bash
 # Apply change
 $ git rm -r --cached . && git add . && git commit -m ".gitignore is now working"
 ```
-
 
 ## Submodules
 
 [Easy way to pull latest of all git submodules - Stack Overflow](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
 
-```sh
+```bash
 # Initial pull submodule
 $ git submodule update --init --recursive
 ```
 
-```sh
+```bash
 # Update all submodules
 $ git submodule update --recursive --remote
 
@@ -68,9 +67,10 @@ $ git submodule -q foreach git pull -q origin master
 
 In `.gitmodules`:
 
-```
+```text
 [submodule "something"]
     path = something
     url = https://github.com/something/something.git
 +    ignore = untracked
 ```
+

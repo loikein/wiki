@@ -1,16 +1,18 @@
+# LaTeX
+
 Most of time I only use LaTeX for maths.
 
 ## Spaces
 
 Positive space: $$a\phantom{00000}b$$
 
-```latex
+```text
 a\phantom{00000}b
 ```
 
-Negative space: $$\mkern12mu\not\mkern-24mu\iff$$ ([credit](https://tex.stackexchange.com/a/67913/206709))
+Negative space: $$\mkern12mu\not\mkern-24mu\iff$$ \([credit](https://tex.stackexchange.com/a/67913/206709)\)
 
-```latex
+```text
 % The first part is for stopping eating into contents before
 \mkern12mu\not\mkern-24mu\iff
 ```
@@ -19,19 +21,19 @@ Negative space: $$\mkern12mu\not\mkern-24mu\iff$$ ([credit](https://tex.stackexc
 
 Bold: $$\mathbf{X}$$
 
-```latex
+```text
 \mathbf{X}
 ```
 
 Bold hollow: $$\mathbb{R}$$
 
-```latex
+```text
 \mathbb{R}
 ```
 
 Cursive: $$\mathcal{N}$$
 
-```latex
+```text
 \mathcal{N}
 ```
 
@@ -47,7 +49,7 @@ $$
 \sum_{i=1}^{10} i
 $$
 
-```latex
+```text
 \textstyle{\sum}_{i=1}^{10}
 
 \sum_{i=1}^{10}
@@ -57,7 +59,7 @@ $$
 
 Above: $$x\overset{!}{=}0$$
 
-```latex
+```text
 x\overset{!}{=}0
 ```
 
@@ -65,24 +67,25 @@ x\overset{!}{=}0
 
 Cases: $$\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}$$
 
-```latex
+```text
 \begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}
 ```
 
 Equations: $$\begin{aligned}x &= 1 \\ abcde &= 2 \end{aligned}$$
 
-```latex
+```text
 \begin{aligned}x &= 1 \\ abcde &= 2 \end{aligned}
 ```
 
 Spaces in equations: $$\begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}$$
 
-```latex
+```text
 \begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}
 ```
 
 Braces with multiple lines: $$\underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}$$
 
-```latex
+```text
 \underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}
 ```
+

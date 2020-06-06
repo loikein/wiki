@@ -1,20 +1,22 @@
+# Shell
+
 ## System Maintenance
 
-```sh
+```bash
 # Kill Quick Look
 $ killall -9 -v QuickLookUIService
 ```
 
 When trackpad is malfunctioning:
 
-```sh
+```bash
 # Kill dock
 $ killall Dock
 ```
 
 When `stow` complains about it:
 
-```sh
+```bash
 # Find and delete all .DS_Store files in current folder
 $ find . -name '.DS_Store' -type f -delete
 ```
@@ -23,25 +25,25 @@ $ find . -name '.DS_Store' -type f -delete
 
 When some file cannot be accessed:
 
-```sh
+```bash
 $ sudo chown -R $(whoami) $(brew --prefix)/*
 ```
 
 ## Working With `npm`
 
-```sh
+```bash
 $ npm list -g --depth=0
 ```
 
-```sh
+```bash
 $ npm -g uninstall <name> --save
 ```
 
 ## Working with LaTeX
 
-When `\xdef\@fontenc@load@list{\@fontenc@load@list undefined control sequence` happens: ([credit](https://stackoverflow.com/a/60493558/10668706))
+When `\xdef\@fontenc@load@list{\@fontenc@load@list undefined control sequence` happens: \([credit](https://stackoverflow.com/a/60493558/10668706)\)
 
-```sh
+```bash
 $ fmtutil-sys --all
 ```
 
