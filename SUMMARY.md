@@ -21,8 +21,11 @@
 
 ## Life Log
 
-* [Books](./life-log/books.md)
-* [Films](./life-log/films.md)
-* [TV Shows](./life-log/tv-shows.md)
-* [Music](./life-log/music.md)
-* [YouTube Videos](./life-log/youtube-videos.md)
+* [Shopping List](./life-log/shopping-list/README.md)
+    * Food(./life-log/shopping-list/food.md)
+* [Entertainment](./life-log/entertainment/README.md)
+    * [YouTube Videos](./life-log/entertainment/youtube-videos.md)
+    * [Music](./life-log/entertainment/music.md)
+    * [TV Shows](./life-log/entertainment/tv-shows.md)
+    * [Films](./life-log/entertainment/films.md)
+    * [Books](./life-log/entertainment/books.md)

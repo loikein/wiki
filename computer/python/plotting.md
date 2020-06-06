@@ -144,3 +144,12 @@ fig, ax = plt.subplots(2,2)
 
 ax[1, 0].set_title(r"$X_2$ vs $Y_1$")
 ```
+
+
+### Total size
+
+If there are three subplots:
+
+```python
+fig, ax = plt.subplots(1, 3, figsize=(12, 4))
+```
