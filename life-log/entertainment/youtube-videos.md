@@ -1,11 +1,73 @@
-## News and Political Events
+## Templates
 
 | # | Thumbnail   | Title | Tag |
 | - | ------------------------------------------------------- | -------- | -------- |
-| 1 | <img src="http://img.youtube.com/vi/1l26UFQ06eQ/0.jpg"> | [Welcome to Hell](http://www.youtube.com/watch?v=1l26UFQ06eQ)  | ref |
-| 2 | <img src="http://img.youtube.com/vi/d5Se_8pFw5I/0.jpg"> | [我告诉你女孩子一生都要害怕些什么](http://www.youtube.com/watch?v=d5Se_8pFw5I)  | ref |
-| 3 | <img src="http://img.youtube.com/vi/0GtK2I__bno/0.jpg"> | [天朝渣男图鉴](http://www.youtube.com/watch?v=0GtK2I__bno) | ref |
-| 4 | <img src="https://i.vimeocdn.com/video/661458550.jpg">  | [AN OPEN SECRET](https://vimeo.com/142444429) | watch |
+|  | <img src="https://img.youtube.com/vi/YTBID/0.jpg"> | [Title](https://www.youtube.com/watch?v=YTBID) |  |
+|  | <img src="https://i.vimeocdn.com/video/randomnumber.jpg">  | [Title](https://vimeo.com/VMID) |  |
+
+
+## News and Social Events
+
+| # | Thumbnail   | Title | Tag |
+| - | ------------------------------------------------------- | -------- | -------- |
+| 1 | <img src="https://img.youtube.com/vi/1l26UFQ06eQ/0.jpg"> | [Welcome to Hell](https://www.youtube.com/watch?v=1l26UFQ06eQ)  | ref |
+| 2 | <img src="https://img.youtube.com/vi/d5Se_8pFw5I/0.jpg"> | [我告诉你女孩子一生都要害怕些什么](https://www.youtube.com/watch?v=d5Se_8pFw5I)  | ref |
+| 3 | <img src="https://img.youtube.com/vi/0GtK2I__bno/0.jpg"> | [天朝渣男图鉴](https://www.youtube.com/watch?v=0GtK2I__bno) | ref |
+| 4 | <img src="https://img.youtube.com/vi/qrrz54UtkCc/0.jpg"> | [Cell Block Tango](https://www.youtube.com/watch?v=qrrz54UtkCc) | ref |
+| 5 | <img src="https://i.vimeocdn.com/video/661458550.jpg">  | [AN OPEN SECRET](https://vimeo.com/142444429) | watch |
+| 6 | <img src="https://img.youtube.com/vi/MJEAGd1bQuc/0.jpg"> | [Meet Your Second Wife - SNL](https://www.youtube.com/watch?v=MJEAGd1bQuc) | watch |
+| 7 | <img src="https://img.youtube.com/vi/vZRzJJcq6Rs/0.jpg"> | [GE Big Boys - SNL](https://www.youtube.com/watch?v=vZRzJJcq6Rs) | entertainment |
+| 8 | <img src="https://img.youtube.com/vi/vl6jn-DdafM/0.jpg"> | [We Are Going](https://www.youtube.com/watch?v=vl6jn-DdafM) | ref |
+| 9 | <img src="https://img.youtube.com/vi/23MFMWTB6m8/0.jpg"> | [The Real Sugar Baby (The Original video)](https://www.youtube.com/watch?v=23MFMWTB6m8) | ref |
+
+
+## Entertainment
+
+### General
+
+| # | Thumbnail   | Title | Tag |
+| - | -------------------------------------------------------- | -------- | -------- |
+| 1 | <img src="https://img.youtube.com/vi/P8tcvzg4Zbs/0.jpg"> | [Relay FM Podcastathon for St. Jude (2019)](https://www.youtube.com/watch?v=P8tcvzg4Zbs) | entertainment |
+| 2 | <img src="https://img.youtube.com/vi/9TzZNdqSohU/0.jpg"> | [Only In Mandarin (是真的)](https://www.youtube.com/watch?v=9TzZNdqSohU) | entertainment |
+| 3 | <img src="https://img.youtube.com/vi/yb2zkxHDfUE/0.jpg"> | [When Spreadsheets Attack!](https://www.youtube.com/watch?v=yb2zkxHDfUE) | entertainment |
+| 4 | <img src="https://img.youtube.com/vi/Yihl3yLtKvk/0.jpg"> | [CGP Grey but out of Context](https://www.youtube.com/watch?v=Yihl3yLtKvk) | entertainment |
+| 5 | <img src="https://img.youtube.com/vi/M_Ccpl1Opew/0.jpg"> | [Samsung makes Fun of Apple #5 (You will hate Apple after seeing this)](https://www.youtube.com/watch?v=M_Ccpl1Opew) | entertainment |
+| 6 | <img src="https://img.youtube.com/vi/xV1mZ1BjKa8/0.jpg"> | [A Cellist's Nightmare - The Piano Guys "Rockelbel's Canon"](https://www.youtube.com/watch?v=xV1mZ1BjKa8) | entertainment |
+| 7 | <img src="https://img.youtube.com/vi/s1ikwG0V2BQ/0.jpg"> | [L-O-V-E](https://www.youtube.com/watch?v=s1ikwG0V2BQ) | entertainment |
+| 8 | <img src="https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg"> | [Complete 66 Mac vs PC ads + Mac & PC WWDC Intro + Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) | entertainment |
+
+
+### Dancing
+
+| # | Thumbnail   | Title | Tag |
+| - | ------------------------------------------------------- | -------- | -------- |
+| 1 | <img src="https://img.youtube.com/vi/ktX-0a7hfRU/0.jpg"> | [Whirling Dervish sema dance at the Konya Mevlana Museum in Turkey](https://www.youtube.com/watch?v=ktX-0a7hfRU) | watch |
+| 2 | <img src="https://img.youtube.com/vi/nKikNWDs7ko/0.jpg"> | [[릴레이댄스] 마마무(MAMAMOO) - HIP](https://www.youtube.com/watch?v=nKikNWDs7ko) | watch |
+| 3 | <img src="https://img.youtube.com/vi/wm98afryPf4/0.jpg"> | [LAND OF ALL - contemporary dance - MN DANCE COMPANY](https://www.youtube.com/watch?v=wm98afryPf4) | watch |
+| 4 | <img src="https://img.youtube.com/vi/hG4lT4fxj8M/0.jpg"> | [Billie Eilish - Ocean Eyes (Dance Performance Video)](https://www.youtube.com/watch?v=hG4lT4fxj8M) | watch |
+
+
+### Music
+
+See [/life-log/entertainment/music#from-youtube].
+
+
+### Game-Playing
+
+| # | Thumbnail   | Title | Tag |
+| - | ------------------------------------------------------- | -------- | -------- |
+| 1 | <img src="https://img.youtube.com/vi/o27W2ELMfho/0.jpg"> | [BeatSaber ダースモールプレイ 13 Light It Up](https://www.youtube.com/watch?v=o27W2ELMfho) | entertainment |
+| 1 | <img src="https://img.youtube.com/vi/KnuBxD1vYe0/0.jpg"> | [Golfing Over It - FULL GAME](https://www.youtube.com/watch?v=KnuBxD1vYe0) | entertainment |
+
+
+### Anime & Cinematic Clips
+
+| # | Thumbnail   | Title | Tag |
+| - | ------------------------------------------------------- | -------- | -------- |
+| 1 | <img src="https://img.youtube.com/vi/Sy2o_U2I9Xk/0.jpg"> | [Yuri on Ice (ED)](https://www.youtube.com/watch?v=Sy2o_U2I9Xk) | watch |
+| 2 | <img src="https://img.youtube.com/vi/ORDXWrL5EuQ/0.jpg"> | [Yuri!!! on Ice ユーリ！！！on ICE Opening "History Maker"](https://www.youtube.com/watch?v=ORDXWrL5EuQ) | watch |
+| 3 | <img src="https://img.youtube.com/vi/XfTgCPUJwRk/0.jpg"> | [Think of Me - Andrew Lloyd Webber's The Phantom of the Opera](https://www.youtube.com/watch?v=XfTgCPUJwRk) | watch |
+| 4 | <img src="https://img.youtube.com/vi/RgHtBxOs4qw/0.jpg"> | [West Side Story (7/10) Movie CLIP - I Feel Pretty (1961) HD](https://www.youtube.com/watch?v=RgHtBxOs4qw) | watch |
 
 
 ## Life & Philosophy
@@ -78,10 +140,11 @@
 
 | # | Thumbnail   | Title | Tag |
 | - | -------------------------------------------------------- | -------- | -------- |
-| 1 | <img src="https://img.youtube.com/vi/mCFP5i_0ibE/0.jpg"> | [盧曼(Niklas Luhmann)介紹紙片盒（訪談片段）](https://www.youtube.com/watch?v=mCFP5i_0ibE) | zettel |
+| 1 | <img src="https://img.youtube.com/vi/mCFP5i_0ibE/0.jpg"> | [盧曼(Niklas Luhmann)介紹紙片盒（訪談片段）](https://www.youtube.com/watch?v=mCFP5i_0ibE) | writing |
 | 2 | <img src="https://img.youtube.com/vi/6YcvA23uG-U/0.jpg"> | [How to Clean & Condition Boots](https://www.youtube.com/watch?v=6YcvA23uG-U) | cloths |
 | 3 | <img src="https://img.youtube.com/vi/thlzJj1EHiY/0.jpg"> | [How to Add Pockets to Pocketless Skirts & Dresses](https://www.youtube.com/watch?v=thlzJj1EHiY) | cloths |
-| 4 | <img src="https://img.youtube.com/vi/P8tcvzg4Zbs/0.jpg"> | [Relay FM Podcastathon for St. Jude (2019)](https://www.youtube.com/watch?v=P8tcvzg4Zbs) | entertainment |
-| 5 | <img src="https://img.youtube.com/vi/9TzZNdqSohU/0.jpg"> | [Only In Mandarin (是真的)](https://www.youtube.com/watch?v=9TzZNdqSohU) | entertainment |
-| 6 | <img src="https://img.youtube.com/vi/yb2zkxHDfUE/0.jpg"> | [When Spreadsheets Attack!](https://www.youtube.com/watch?v=yb2zkxHDfUE) | entertainment |
-| 7 | <img src="https://img.youtube.com/vi/ewnfWoSQz3o/0.jpg"> | [The Carter Family: Wildwood Flower](https://www.youtube.com/watch?v=ewnfWoSQz3o) | music |
+| 4 | <img src="https://img.youtube.com/vi/z7yqtW4Isec/0.jpg"> | [Watchtower of Turkey](https://www.youtube.com/watch?v=z7yqtW4Isec) | ref |
+| 5 | <img src="https://img.youtube.com/vi/iQi3aMQXip8/0.jpg"> | [imai / Fly feat.79, 中村佳穂](https://www.youtube.com/watch?v=iQi3aMQXip8) | watch |
+| 5 | <img src="https://img.youtube.com/vi/iKcWu0tsiZM/0.jpg"> | [Modern Educayshun](https://www.youtube.com/watch?v=iKcWu0tsiZM) | ref |
+| 6 | <img src="https://img.youtube.com/vi/HE3oHBYrwM0/0.jpg"> | [OnePlus Piano](https://www.youtube.com/watch?v=HE3oHBYrwM0) | watch |
+
