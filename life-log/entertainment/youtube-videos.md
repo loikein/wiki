@@ -49,7 +49,7 @@
 
 ### Music
 
-See [/life-log/entertainment/music#from-youtube].
+See [Music#From YouTube](/life-log/entertainment/music#from-youtube).
 
 
 ### Game-Playing
