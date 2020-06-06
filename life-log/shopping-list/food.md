@@ -14,7 +14,7 @@ For a whole week, I need…
 
 ## Snacks
 
-Any of the followings
+Any one of the followings:
 
 * Studentenfutter \(trail mix\) 400g ~ 800g
 * Butter cookie 200g ~ 300g
