@@ -14,7 +14,6 @@ TODO: Add Spotify & other playlists.
 | Song Title | Singer Name | Album Name | 20XX | [🔗](#) |
 | Song Title | Singer Name | Album Name | 20XX | [🔗](#) |
 
-
 ## No Vocal
 
 | Title      | Musician    | Album      | Year | SongLink |
@@ -22,7 +21,6 @@ TODO: Add Spotify & other playlists.
 | Beethoven Minuet in G | Arthur Grumiaux | Favourite Violin Encores | 1995 | [🔗](https://song.link/y/wbwUBlYU9eQ) |
 | BLACCK | Jon Batiste | Chronology Of A Dream | 2019 | [🔗](https://song.link/i/1478913098) |
 | Pastorale | Claude Bolling | Bolling: Suites for Flute & Jazz Piano Trio | 1987 | [🔗](https://song.link/y/zfPkin977eo) |
-| Song Title | Singer Name | Album Name | 20XX | [🔗](#) |
 
 ## English
 
@@ -40,11 +38,9 @@ TODO: Add Spotify & other playlists.
 | Havana | dodie ft. FLASHBACK (cover) | | 2018 | [YouTube](https://www.youtube.com/watch?v=-5aaJJQFvOg) |
 | I Don't Care | Apocalyptica ft. Adam Gontier  | Worlds Collide | 2007 | [🔗](https://song.link/y/qxDcWvZCSRg) |
 | 9 Crimes | Damien Rice ft. Lisa Hannigan | 9 Crimes | 2006 | [🔗](https://song.link/i/203046337) |
-| Falling Slowly | Glen Hansard & Lisa Hannigan ft. John Sheahan
- (cover) |  | 2014 | [YouTube](https://www.youtube.com/watch?v=VFkfhbQsXiA) |
+| Falling Slowly | Glen Hansard & Lisa Hannigan ft. John Sheahan (cover) |  | 2014 | [YouTube](https://www.youtube.com/watch?v=VFkfhbQsXiA) |
 | Tommie Sunshine's Megasix Smash-Up | Katy Perry | Teenage Dream: The Complete Confection | 2012 | [🔗](https://song.link/i/716085673) |
 | Born This Way | Lady Gaga | Born This Way | 2011 | [🔗](https://song.link/i/1440824264) |
-
 
 ## Japanese
 
@@ -63,13 +59,11 @@ TODO: Add Spotify & other playlists.
 | エイリアンズ | キリンジ | エイリアンズ | 2000 | [🔗](https://song.link/P2sKxCxGzKRdg) |
 | 初恋 | 村下孝蔵 | 初恋/丘の上から | 1983 | [🔗](https://song.link/y/OKizrDxp54c) |
 
-
 ## Chinese
 
 | Title      | Musician    | Album      | Year | SongLink |
 |------------|-------------|------------|------|----------|
 | 雨霖铃 | 尧十三 | 船，宇航员 | 2015 | [🔗](https://song.link/y/L8f6NbamNpU) |
-
 
 ## Other Languages
 
