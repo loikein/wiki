@@ -35,6 +35,7 @@
 | 6 | ![](https://img.youtube.com/vi/xV1mZ1BjKa8/0.jpg) | [A Cellist's Nightmare - The Piano Guys "Rockelbel's Canon"](https://www.youtube.com/watch?v=xV1mZ1BjKa8) |
 | 7 | ![](https://img.youtube.com/vi/s1ikwG0V2BQ/0.jpg) | [L-O-V-E](https://www.youtube.com/watch?v=s1ikwG0V2BQ) |
 | 8 | ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads + Mac & PC WWDC Intro + Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
+| 9 | ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | [(NSFW) Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) |
 
 ### Dancing
 
@@ -47,7 +48,7 @@
 
 ### Music
 
-See [Music\#From YouTube](music.md#from-youtube).
+See [Music](music.md).
 
 ### Game-Playing
 
