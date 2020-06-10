@@ -48,6 +48,21 @@ In `.gitignore`:
 $ git rm -r --cached . && git add . && git commit -m ".gitignore is now working"
 ```
 
+## Branches
+
+Create branch:
+
+```bash
+$ git branch my-new-branch
+$ git checkout my-new-branch
+```
+
+Merge master to new branch: ([credit](https://stackoverflow.com/questions/16955980/git-merge-master-into-feature-branch#comment83176031_16957483))
+
+```bash
+$ git pull origin master
+```
+
 ## Submodules
 
 [Easy way to pull latest of all git submodules - Stack Overflow](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
