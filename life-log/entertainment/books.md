@@ -18,7 +18,8 @@ Books that I have read.
 | Refactoring UI | Adam Wathan, Steve Schoger |  | 2018 | [GoodReads](https://www.goodreads.com/book/show/43190966-refactoring-ui) | 2020-05-05 | ★★★★☆ | |
 | 珠海红星村口述史 | 万向东 | 中山大学出版社 | 2019 | [豆瓣](https://book.douban.com/subject/34955501/) | 2020-06-08 | ★★★☆☆ | |
 | 万万没想到 | 万维钢 | 电子工业出版社 | 2014 | [豆瓣](https://book.douban.com/subject/25986341/) | 2020-06-09 | ★★★☆☆ |  |
-| 智识分子 | 万维钢 | 电子工业出版社 | 2016 | [豆瓣](https://book.douban.com/subject/26692468/) |  |  |  |
+| 智识分子 | 万维钢 | 电子工业出版社 | 2016 | [豆瓣](https://book.douban.com/subject/26692468/) | 2020-06-10 | ★★★☆☆ |  |
+| 邏輯新引 | 殷海光 | 桂冠圖書 | 1990 | [Google](https://books.google.de/books?id=km0STeLDqy8C) |  |  |  |
 | 中国影帝温家宝 | 余杰 |  | 2010 | [Google](https://books.google.de/books?id=Ls2lDwAAQBAJ) |  |  |  |
 
 ## Fictions

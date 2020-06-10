@@ -16,7 +16,7 @@ General reST:
 
 ## Main Commands
 
-In `./docs/`:
+Under `./docs/`:
 
 ```bash
 $ conda activate my_env
@@ -108,7 +108,7 @@ def eoq_model(x, r=0.1):
     >>> y = eoq_model(x, r=0.1)
     >>> np.testing.assert_almost_equal(y, 18.973665961010276)
     """
-
+    # No blank line is allowed for functions.
     m, c, s = x
     y = np.sqrt((24 * m * s) / (r * c))
 

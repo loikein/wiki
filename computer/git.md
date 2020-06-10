@@ -2,36 +2,41 @@
 
 ## General
 
+Difference btw now and last commit:
+
 ```bash
-# Difference btw now and last commit
 $ git diff HEAD^..HEAD
 ```
 
-```bash
-# Show remote URL
-$ git remote show origin
-```
+Show remote URL:
 
 ```bash
-# Change last commit message
+$ git remote show origin
+```
+Change last commit message:
+
+```bash
 $ git commit --amend
 ```
 
+Show the file tree under git version control:
+
 ```bash
-# Show the file tree under git version control
 $ git ls-tree --full-tree -r --name-only HEAD
 ```
 
+Gently squash last two commits:
+
 ```bash
-# Gently squash last two commits
 # Commit first!!
 $ git reset --soft HEAD~2 && git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
 ## `.gitignore`
 
+Add late ignore:
+
 ```bash
-# Add late ignore
 $ git commit -m "add/change .gitignore"
 $ subl .gitignore
 ```
@@ -43,8 +48,9 @@ In `.gitignore`:
 **/.DS_Store
 ```
 
+Apply changes:
+
 ```bash
-# Apply change
 $ git rm -r --cached . && git add . && git commit -m ".gitignore is now working"
 ```
 
@@ -65,15 +71,17 @@ $ git pull origin master
 
 ## Submodules
 
-[Easy way to pull latest of all git submodules - Stack Overflow](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
+Ref: [Easy way to pull latest of all git submodules - Stack Overflow](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
+
+Initial pull submodule:
 
 ```bash
-# Initial pull submodule
 $ git submodule update --init --recursive
 ```
 
+Update all submodules:
+
 ```bash
-# Update all submodules
 $ git submodule update --recursive --remote
 
 # or

@@ -8,4 +8,4 @@ Rating system:
 - ★★★★☆: Good
 - ★★★☆☆: Not a waste of time
 - ★★☆☆☆: Meh
-- ★☆☆☆☆: Don't
+- ★☆☆☆☆: Don't bother
