@@ -26,7 +26,7 @@
 * [Entertainment](life-log/entertainment/README.md)
   * [Online Videos](life-log/entertainment/online-videos.md)
   * [Music](life-log/entertainment/music.md)
-  * [TV Shows](life-log/entertainment/tv-shows.md)
+  * [TV Shows & Animes](life-log/entertainment/tv-shows.md)
   * [Films](life-log/entertainment/films.md)
   * [Books](life-log/entertainment/books.md)
 
