@@ -17,6 +17,6 @@ TV shows & Animes that I am watching/have watched.
 | Title | Director | Production/Studio | Year | Link | Progress/Finish date | Rating |
 |------------|-------------|--------------|------|-------|-------|--------|
 | アルテ | 浜名孝行 | Seven Arcs | 2020 | [MyAnimeList](https://myanimelist.net/anime/40128/) | Stopped (E03) | ★★☆☆☆ |
-| グレイプニル | 米田和弘 | PINE JAM | 2020 | [MyAnimeList](https://myanimelist.net/anime/39463/) | E09 |  |
+| グレイプニル | 米田和弘 | PINE JAM | 2020 | [MyAnimeList](https://myanimelist.net/anime/39463/) | E10 |  |
 | 乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… | 井上圭介 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/38555/) | E10 |  |
 | 波よ聞いてくれ | 南川達馬 | SUNRISE | 2020 | [MyAnimeList](https://myanimelist.net/anime/40513/) | E06 |  |

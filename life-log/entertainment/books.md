@@ -1,6 +1,6 @@
 # Books
 
-Books that I have read.
+Books that I am reading/have read.
 
 ## Template
 
@@ -20,6 +20,7 @@ Books that I have read.
 | 万万没想到 | 万维钢 | 电子工业出版社 | 2014 | [豆瓣](https://book.douban.com/subject/25986341/) | 2020-06-09 | ★★★☆☆ |  |
 | 智识分子 | 万维钢 | 电子工业出版社 | 2016 | [豆瓣](https://book.douban.com/subject/26692468/) | 2020-06-10 | ★★★☆☆ |  |
 | 邏輯新引 | 殷海光 | 桂冠圖書 | 1990 | [Google](https://books.google.de/books?id=km0STeLDqy8C) | 2020-06-11 | ★★★★☆ |  |
+| Free Software, Free Society (3rd Ed.) | Richard M. Stallman (北京 GNU/Linux 用戶组) |  | 2016 | [Google](https://books.google.de/books?id=Ls2lDwAAQBAJ) | 2020-06-14 | ★★★☆☆ | The last chapter is the best part. |
 | 中国影帝温家宝 | 余杰 |  | 2010 | [Google](https://books.google.de/books?id=Ls2lDwAAQBAJ) |  |  |  |
 
 ## Fictions
