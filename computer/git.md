@@ -69,6 +69,12 @@ Merge master to new branch: ([credit](https://stackoverflow.com/questions/169559
 $ git pull origin master
 ```
 
+Delete local branch:
+
+```bash
+$ git branch -d my-old-branch
+```
+
 ## Submodules
 
 Ref: [Easy way to pull latest of all git submodules - Stack Overflow](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)

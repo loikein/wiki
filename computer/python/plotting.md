@@ -89,7 +89,20 @@ ax.set_xlim(left=0)
 ax.set_ylim(bottom=0)
 ```
 
-### Labels
+### Ticks
+
+Adjust label formats:
+
+(In this examle, the numbers will have thousand separators and/or 4 digit decimals.)
+
+```python
+import matplotlib as mpl
+
+fig, ax = plt.subplots()
+
+ax.xaxis.set_major_formatter(mpl.ticker.StrMethodFormatter("{x:,.4f}"))
+ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter("{x:,.0f}"))
+```
 
 Manually specify tick position & corresponding labels:
 
@@ -152,5 +165,39 @@ If there are three subplots:
 
 ```python
 fig, ax = plt.subplots(1, 3, figsize=(12, 4))
+```
+
+## Plot With `jointplot`
+
+Make the figure:
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+g = sns.jointplot(x=x[1], y=y, kind="hex")
+```
+
+Show the figure:
+
+```python
+g.fig
+```
+
+### Axis
+
+```python
+g.set_axis_labels(r"$x_1$", "y")
+```
+
+### Ticks
+
+Set formatter:
+
+```python
+import matplotlib as mpl
+
+g.ax_joint.get_yaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
+g.ax_joint.get_xaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.4f}'))
 ```
 

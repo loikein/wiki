@@ -42,4 +42,5 @@ Books that I am reading/have read.
 | 一剑九琊 | 一十四洲 | 2017 | [扫文小院](http://saowen.net/novels/view/42940) | 2020-06-04 | ★★★☆☆ |  |
 | 猫咪的玫瑰 | 一十四洲 | 2018 | [扫文小院](http://saowen.net/novels/view/46414) | Stopped |  |  |
 | 二零一三 | 非天夜翔 | 2011 | [扫文小院](http://saowen.net/novels/view/294) | Stopped |  |  |
+| 全世界都在等我们分手 | 不是风动 | 2020 | [扫文小院](http://saowen.net/novels/view/62441) | 2020-06-16 | ★★★★★ |  |
 
