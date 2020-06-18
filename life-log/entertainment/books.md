@@ -21,8 +21,14 @@ Books that I am reading/have read.
 | 智识分子 | 万维钢 | 电子工业出版社 | 2016 | [豆瓣](https://book.douban.com/subject/26692468/) | 2020-06-10 | ★★★☆☆ |  |
 | 邏輯新引 | 殷海光 | 桂冠圖書 | 1990 | [豆瓣](https://book.douban.com/subject/4710165/) | 2020-06-11 | ★★★★☆ |  |
 | Free Software, Free Society (3rd Ed.) | Richard M. Stallman (北京 GNU/Linux 用戶组) |  | 2016 | [GoodReads](https://www.goodreads.com/book/show/942560.Free_Software_Free_Society), [豆瓣](https://book.douban.com/subject/26921083/) | 2020-06-14 | ★★★☆☆ | The last chapter is the best part. |
-| 中国影帝温家宝 | 余杰 |  | 2010 | [Google](https://books.google.de/books?id=Ls2lDwAAQBAJ) | 2020-06-15 | ★★★★☆ | 不同章节像不同人写的，不过还是值得一读。 |
-| Shark's Fin and Sichuan Pepper | Fuchsia Dunlop (何雨珈) | 上海译文出版社 | 2018 | [GoodReads](https://www.goodreads.com/book/show/1195268.Shark_s_Fin_and_Sichuan_Pepper), [豆瓣](https://book.douban.com/subject/30183051/) |  |  |  |
+| 中国影帝温家宝 | 余杰 | ? | 2010 | [GoodReads](https://www.goodreads.com/book/show/49852646) | 2020-06-15 | ★★★★☆ | 不同章节像不同人写的，不过还是值得一读。 |
+| Shark's Fin and Sichuan Pepper | Fuchsia Dunlop (何雨珈) | 上海译文出版社 | 2018 | [GoodReads](https://www.goodreads.com/book/show/1195268.Shark_s_Fin_and_Sichuan_Pepper), [豆瓣](https://book.douban.com/subject/30183051/) | 2020-06-17 | ★★★★☆ |  |
+
+### Reference Books
+
+| Title | Author (Translator) | Publisher | Year | Link | Read | Rating | Review |
+|------------|-------------|--------------|------|-------|--------|--------|--------|
+| 大众川菜 | 刘建成 胡廉泉 杨镜吾 舒孝钧 | 四川科学技术出版社 | 1997 | [豆瓣](https://book.douban.com/subject/1626109/) | 2020-06-17 | ★★★★★ |  |
 
 ## Fictions
 
