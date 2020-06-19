@@ -2,7 +2,7 @@
 
 ## General
 
-Difference btw now and last commit:
+Difference between now and last commit:
 
 ```bash
 $ git diff HEAD^..HEAD
@@ -72,7 +72,14 @@ $ git pull origin master
 Delete local branch:
 
 ```bash
+$ git checkout master
 $ git branch -d my-old-branch
+```
+
+Delete remote branch:
+
+```bash
+$ git push -d origin my-old-branch
 ```
 
 ## Submodules

@@ -23,6 +23,7 @@ Books that I am reading/have read.
 | Free Software, Free Society (3rd Ed.) | Richard M. Stallman (北京 GNU/Linux 用戶组) |  | 2016 | [GoodReads](https://www.goodreads.com/book/show/942560.Free_Software_Free_Society), [豆瓣](https://book.douban.com/subject/26921083/) | 2020-06-14 | ★★★☆☆ | The last chapter is the best part. |
 | 中国影帝温家宝 | 余杰 | ? | 2010 | [GoodReads](https://www.goodreads.com/book/show/49852646) | 2020-06-15 | ★★★★☆ | 不同章节像不同人写的，不过还是值得一读。 |
 | Shark's Fin and Sichuan Pepper | Fuchsia Dunlop (何雨珈) | 上海译文出版社 | 2018 | [GoodReads](https://www.goodreads.com/book/show/1195268.Shark_s_Fin_and_Sichuan_Pepper), [豆瓣](https://book.douban.com/subject/30183051/) | 2020-06-17 | ★★★★☆ |  |
+| 地下：东欧萨米亚特随笔 | Ivan Klima et al (景凯旋) | 花城出版社 | 2010 | [豆瓣](https://book.douban.com/subject/4841640/) |  |  |  |
 
 ### Reference Books
 
