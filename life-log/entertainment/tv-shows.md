@@ -8,7 +8,7 @@ TV shows & Animes that I am watching/have watched.
 |------------|-------------|--------------|------|-------|-------|--------|
 | Show Title | Director Name | Production Company | 20XX | [IMDb](#) | 20XX-XX-XX | ★★★☆☆ |
 | Show Title | Director Name | Production Company | 20XX | [豆瓣](#) | SXXEXX |  |
-| Show Title | Director Name | Production Company | 20XX | [myanimelist](#) | 20XX-XX-XX | ★★★★☆ |
+| Show Title | Director Name | Production Company | 20XX | [MyAnimeList](#) | 20XX-XX-XX | ★★★★☆ |
 
 ## TV Shows
 
