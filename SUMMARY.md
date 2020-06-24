@@ -12,6 +12,9 @@
 * [Python](computer/python/README.md)
   * [Documentation](computer/python/documentation.md)
   * [Plotting](computer/python/plotting.md)
+  * [Numpy](computer/python/numpy.md)
+  * [rpy2](computer/python/rpy2.md)
+* [R](computer/r.md)
 
 ## Meta Life
 
