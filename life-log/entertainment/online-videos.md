@@ -74,6 +74,7 @@ See [Music](music.md).
 | ![](https://img.youtube.com/vi/ORDXWrL5EuQ/0.jpg) | [Yuri!!! on Ice ユーリ！！！on ICE Opening "History Maker"](https://www.youtube.com/watch?v=ORDXWrL5EuQ) |
 | ![](https://img.youtube.com/vi/XfTgCPUJwRk/0.jpg) | [Think of Me - Andrew Lloyd Webber's The Phantom of the Opera](https://www.youtube.com/watch?v=XfTgCPUJwRk) |
 | ![](https://img.youtube.com/vi/RgHtBxOs4qw/0.jpg) | [West Side Story \(7/10\) Movie CLIP - I Feel Pretty \(1961\) HD](https://www.youtube.com/watch?v=RgHtBxOs4qw) |
+| ![](https://img.youtube.com/vi/XWfJTaFqDJs/0.jpg) | [\# Gleipnir Opening \| Altern-ate- — H-el-ical//](https://www.youtube.com/watch?v=XWfJTaFqDJs) |
 
 ## Life & Philosophy
 
