@@ -34,3 +34,15 @@ sigma
 #        [-1,  2, -1],
 #        [ 0, -1,  2]])
 ```
+
+Make diagonal matrix: ([credit](https://stackoverflow.com/a/52989703/10668706))
+
+```python
+sigma = np.diagflat([-1] * 3)
+sigma
+
+# array([[-1,  0,  0],
+#        [ 0, -1,  0],
+#        [ 0,  0, -1]])
+```
+

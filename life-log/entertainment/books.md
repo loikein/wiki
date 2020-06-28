@@ -66,6 +66,10 @@ TODO: Move from Saowen.
 | 全世界都在等我们分手 | 不是风动 | 2020 | [扫文小院](http://saowen.net/novels/view/62441/) | 2020-06-16 | ★★★★☆ |  |
 | 不要在垃圾桶里捡男朋友 | 骑鲸南去 | 2019 | [扫文小院](http://saowen.net/novels/view/48069/) | 2020-06-20 | ★★★★★ |  |
 | 全道门都欠我一个人情 | 骑鲸南去 | 2019 | [扫文小院](http://saowen.net/novels/view/62441/) | 2020-06-21 | ★★★★☆ |  |
+| 收到了宿敌的组队邀请怎么破 | 一十四洲 | 2017 | [扫文小院](http://saowen.net/novels/view/42876/) | 2020-06-26 | ★★★★☆ |  |
+| 游戏加载中 | 龙柒 | 2019 | [扫文小院](http://saowen.net/novels/view/50924/) | Stopped |  |  |
+| 想飞升就谈恋爱 | 龙柒 | 2018 | [扫文小院](http://saowen.net/novels/view/46483/) | Stopped |  |  |
+| 孺子帝 | 冰临神下 | 2017 | [扫文小院](http://saowen.net/novels/view/61887/) |  |  |  |
 
 <!-- 
 | 麒麟 | 桔子树 | 2008~ | [扫文小院](http://saowen.net/novels/view/675/) | About 2010 | ★★★★★ | 作者本人不行。 |
