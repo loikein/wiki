@@ -1,16 +1,30 @@
 # Shell
 
-## System Maintenance
+## System Info
+
+Find main board ID:
 
 ```bash
-# Kill Quick Look
+$ ioreg -l | grep board-id
+```
+
+Find Mac model ID:
+
+```bash
+$ sysctl hw.model
+```
+
+## System Maintenance
+
+Kill Quick Look:
+
+```bash
 $ killall -9 -v QuickLookUIService
 ```
 
 When trackpad is malfunctioning:
 
 ```bash
-# Kill dock
 $ killall Dock
 ```
 

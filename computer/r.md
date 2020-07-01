@@ -17,3 +17,9 @@ Sys.getenv()
 
 Sys.getlocale()
 ```
+
+Check the location of `RHOME`:
+
+```bash
+$ R RHOME
+```

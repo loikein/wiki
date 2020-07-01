@@ -49,8 +49,9 @@
 | ![](https://img.youtube.com/vi/Y-9TpxtVFsU/0.jpg) | [Chinese Classical Dance - Fan Hua Chang Bian](https://www.youtube.com/watch?v=Y-9TpxtVFsU) |
 | ![](https://img.youtube.com/vi/729dnMIpgWQ/0.jpg) | [《扇舞丹青》—— 王亚彬 高清](https://www.youtube.com/watch?v=729dnMIpgWQ) |
 | ![](https://i1.hdslb.com/bfs/archive/73fd9ee4c268aa35f3b5bbf0b4e81700b5e48f2d.jpg) | [《逍遥舞境古典舞《醉太平》](https://www.bilibili.com/video/av52046593) |
-| ![](https://i0.hdslb.com/bfs/archive/6896252e900c2ece0665d73436cb184db853bb75.jpg) | [【原曲重剪辑】李响 -- 行者（无观众喝彩版）](https://www.bilibili.com/video/av70477234) |
-| ![](https://i2.hdslb.com/bfs/archive/d82bed9d44eb0459e245a2cbe0bce5be23489bbf.jpg) | [【经典翻跳】玉人舞 ❀ 舞剧《孔子》节选](https://www.bilibili.com/video/av68752705) |
+| ![](http://i0.hdslb.com/bfs/archive/6896252e900c2ece0665d73436cb184db853bb75.jpg) | [【原曲重剪辑】李响 -- 行者（无观众喝彩版）](https://www.bilibili.com/video/av70477234) |
+| ![](https://img.youtube.com/vi/5loWidbGO54/0.jpg) | [《玉人舞》石雪涵 - 1080p](https://www.youtube.com/watch?v=5loWidbGO54) |
+| ![](https://img.youtube.com/vi/Qt3RNnq4v8o/0.jpg) | [【唐诗逸】《玉人舞》](https://www.youtube.com/watch?v=Qt3RNnq4v8o) |
 | ![](https://img.youtube.com/vi/oMjKNG9EB_Y/0.jpg) | [2019 World Gala Exhibition Yuzuru Hanyu - CCTV](https://www.youtube.com/watch?v=oMjKNG9EB_Y) |
 | ![](https://img.youtube.com/vi/-I-SE6Q9Le0/0.jpg) | [CRY ME A RIVER - Justin Timberlake - Dance Video](https://www.youtube.com/watch?v=-I-SE6Q9Le0) |
 | ![](https://img.youtube.com/vi/skHbZBsS7hM/0.jpg) | [Billie Eilish - hostage](https://www.youtube.com/watch?v=skHbZBsS7hM) |
@@ -107,6 +108,7 @@ See [Music](music.md).
 | :--- | :--- |
 | ![](https://img.youtube.com/vi/rI8tNMsozo0/0.jpg) | [Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0) |
 | ![](https://img.youtube.com/vi/4kH4T8uwHMw/0.jpg) | [Piet Programming Language Tutorial](https://www.youtube.com/watch?v=4kH4T8uwHMw) |
+| ![](https://img.youtube.com/vi/o9pEzgHorH0/0.jpg) | [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0) |
 
 ### Design
 
@@ -126,7 +128,6 @@ See [Music](music.md).
 | ![](https://img.youtube.com/vi/kY-BCNHd_dM/0.jpg) | [A Multi-Armed Bandit Framework for Recommendations at Netflix](https://www.youtube.com/watch?v=kY-BCNHd_dM) |
 | ![](https://img.youtube.com/vi/1UOOo_HVLs8/0.jpg) | [Multi-armed bandit @ Wikipedia](https://www.youtube.com/watch?v=1UOOo_HVLs8) |
 | ![](https://img.youtube.com/vi/iqjgN_KNHgM/0.jpg) | [Typing basic mathematical formulas with GNU TeXmacs](https://www.youtube.com/watch?v=iqjgN_KNHgM) |
-| ![](https://img.youtube.com/vi/o9pEzgHorH0/0.jpg) | [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0) |
 
 ### Statistics / Econometrics
 
