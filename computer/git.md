@@ -2,10 +2,10 @@
 
 ## General
 
-Difference between most recent commit and second most recent commit:
+Difference between most recent commit and second most recent commit: ([ref](https://stackoverflow.com/a/9903611/10668706))
 
 ```bash
-$ git diff HEAD^..HEAD
+$ git diff HEAD^ HEAD
 ```
 
 Difference between staged changes and most recent commit:
@@ -35,7 +35,8 @@ Gently squash last two commits:
 
 ```bash
 # Commit first!!
-$ git reset --soft HEAD~2 && git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+$ git reset --soft HEAD~2
+$ git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
 ## `.gitignore`
