@@ -2,10 +2,16 @@
 
 ## General
 
-Difference between now and last commit:
+Difference between most recent commit and second most recent commit:
 
 ```bash
 $ git diff HEAD^..HEAD
+```
+
+Difference between staged changes and most recent commit:
+
+```bash
+$ git diff --cached
 ```
 
 Show remote URL:

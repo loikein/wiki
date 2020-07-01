@@ -48,7 +48,7 @@
 | ![](https://img.youtube.com/vi/mBowksYVtRQ/0.jpg) | [LOVELY- BILLIE EILISH & KHALID - PARIS CAVANAGH CHOREOGRAPHY](https://www.youtube.com/watch?v=mBowksYVtRQ) |
 | ![](https://img.youtube.com/vi/Y-9TpxtVFsU/0.jpg) | [Chinese Classical Dance - Fan Hua Chang Bian](https://www.youtube.com/watch?v=Y-9TpxtVFsU) |
 | ![](https://img.youtube.com/vi/729dnMIpgWQ/0.jpg) | [《扇舞丹青》—— 王亚彬 高清](https://www.youtube.com/watch?v=729dnMIpgWQ) |
-| ![](https://i1.hdslb.com/bfs/archive/73fd9ee4c268aa35f3b5bbf0b4e81700b5e48f2d.jpg) | [《逍遥舞境古典舞《醉太平》](https://www.bilibili.com/video/av52046593) |
+| ![](http://i1.hdslb.com/bfs/archive/73fd9ee4c268aa35f3b5bbf0b4e81700b5e48f2d.jpg) | [《逍遥舞境古典舞《醉太平》](https://www.bilibili.com/video/av52046593) |
 | ![](http://i0.hdslb.com/bfs/archive/6896252e900c2ece0665d73436cb184db853bb75.jpg) | [【原曲重剪辑】李响 -- 行者（无观众喝彩版）](https://www.bilibili.com/video/av70477234) |
 | ![](https://img.youtube.com/vi/5loWidbGO54/0.jpg) | [《玉人舞》石雪涵 - 1080p](https://www.youtube.com/watch?v=5loWidbGO54) |
 | ![](https://img.youtube.com/vi/Qt3RNnq4v8o/0.jpg) | [【唐诗逸】《玉人舞》](https://www.youtube.com/watch?v=Qt3RNnq4v8o) |
@@ -66,6 +66,7 @@ See [Music](music.md).
 | :--- | :--- |
 | ![](https://img.youtube.com/vi/o27W2ELMfho/0.jpg) | [BeatSaber ダースモールプレイ 13 Light It Up](https://www.youtube.com/watch?v=o27W2ELMfho) |
 | ![](https://img.youtube.com/vi/KnuBxD1vYe0/0.jpg) | [Golfing Over It - FULL GAME](https://www.youtube.com/watch?v=KnuBxD1vYe0) |
+| ![](https://img.youtube.com/vi/PykMKfxPx0w/0.jpg) | [【Darth Maul】BeatSaber - Lost in the Rhythm - Jamie Berry ft. Octavia Rose](https://www.youtube.com/watch?v=PykMKfxPx0w) |
 
 ### Anime & Cinematic Clips
 
