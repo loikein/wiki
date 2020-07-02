@@ -76,7 +76,7 @@ TODO: Move from Saowen.
 | 收到了宿敌的组队邀请怎么破 | 一十四洲 | 2017 | [扫文小院](http://saowen.net/novels/view/42876/) | 2020-06-26 | ★★★★☆ |  |
 | 游戏加载中 | 龙柒 | 2019 | [扫文小院](http://saowen.net/novels/view/50924/) | Stopped |  |  |
 | 想飞升就谈恋爱 | 龙柒 | 2018 | [扫文小院](http://saowen.net/novels/view/46483/) | Stopped |  |  |
-| 孺子帝 | 冰临神下 | 2017 | [扫文小院](http://saowen.net/novels/view/61887/) |  |  |  |
+| 孺子帝 | 冰临神下 | 2017 | [扫文小院](http://saowen.net/novels/view/61887/) | 2020-07-02 | ★★★★☆ | 「挣扎与改变就是生活本身。」 |
 
 <!-- 
 | 麒麟 | 桔子树 | 2008~ | [扫文小院](http://saowen.net/novels/view/675/) | About 2010 | ★★★★★ | 作者本人不行。 |
