@@ -31,7 +31,7 @@ Films that I have seen.
 | 小武 | 贾樟柯 | 贾樟柯 | 1998 | [IMDb](https://www.imdb.com/title/tt0144020/), [豆瓣](https://movie.douban.com/subject/1291851/) | 2018-03-20 | ★★★☆☆ | |
 | Valérian and the City of a Thousand Planets | Luc Besson | Luc Besson | 2017 | [IMDb](https://www.imdb.com/title/tt2239822/), [豆瓣](https://movie.douban.com/subject/11502973/) | 2018-04-08 | ★★★☆☆ | |
 | Ready Player One | Steven Spielberg | Zak Penn, Ernest Cline | 2018 | [IMDb](https://www.imdb.com/title/tt1677720/), [豆瓣](https://movie.douban.com/subject/4920389/) | 2018-04-30 | ★★★★★ | |
-| Blade Runner | Ridley Scott  Hampton Fancher, David Peoples | 1982 | [IMDb](https://www.imdb.com/title/tt0083658/), [豆瓣](https://movie.douban.com/subject/1291839/) | 2018-05-10 | ★★★★★ | |
+| Blade Runner | Ridley Scott | Hampton Fancher, David Peoples | 1982 | [IMDb](https://www.imdb.com/title/tt0083658/), [豆瓣](https://movie.douban.com/subject/1291839/) | 2018-05-10 | ★★★★★ | |
 | Blade Runner 2049 | Denis Villeneuve | Hampton Fancher, Michael Green | 2017 | [IMDb](https://www.imdb.com/title/tt1856101/), [豆瓣](https://movie.douban.com/subject/10512661/) | 2018-05-10 | ★★★★★ | |
 | Three Billboards Outside Ebbing, Missouri | Martin McDonagh | Martin McDonagh | 2017 | [IMDb](https://www.imdb.com/title/tt5027774/), [豆瓣](https://movie.douban.com/subject/26611804/) | 2018-05-25 | ★★★★★ | |
 | Deadpool 2 | David Leitch | Rhett Reese, Paul Wernick, Ryan Reynolds | 2018 | [IMDb](https://www.imdb.com/title/tt5463162/), [豆瓣](https://movie.douban.com/subject/26588308/) | 2018-06-01 | ★★★☆☆ | |
