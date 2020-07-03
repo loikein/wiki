@@ -2,7 +2,7 @@
 
 TODO: Move from Douban.
 
-Rating system:
+Rating system (non-sequential):
 
 - ★★★★★: Worth reading/watching twice
 - ★★★★☆: Recommendable
