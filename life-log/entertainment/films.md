@@ -57,6 +57,5 @@ Films that I have seen.
 | Title | Director | Screenwriter | Year | Link | Progress/Finish date | Rating | Review |
 |------------|-------------|--------------|------|-------|-------|--------|--------|
 | 君の名は。 | 新海誠 | 新海誠 | 2016 | [IMDb](https://www.imdb.com/title/tt5311514/), [豆瓣](https://movie.douban.com/subject/26683290/) | 2016-09-09 | ★★★★★ | |
-
 | パプリカ | 今敏 | 水上清資, 今敏 | 2006 | [IMDb](https://www.imdb.com/title/tt0851578/), [豆瓣](https://movie.douban.com/subject/1865703/) | 2018-01-20 | ★★★★★ | |
 | The Lion King | Jon Favreau | Jeff Nathanson | 2019 | [IMDb](https://www.imdb.com/title/tt6105098/), [豆瓣](https://movie.douban.com/subject/26884354/) | 2019-08-06 | ★★★★☆ | |
