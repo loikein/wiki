@@ -16,7 +16,7 @@ Films that I have seen.
 
 | Title | Director | Screenwriter | Year | Link | Progress/Finish date | Rating | Review |
 |------------|-------------|--------------|------|-------|-------|--------|--------|
-| Sherlock: The Abominable Bride | Todd Haynes | Phyllis Nagy | 2016 | [IMDb](https://www.imdb.com/title/tt3845232/), [豆瓣](https://movie.douban.com/subject/25920885/) | 2016-02-19 | ★★★★☆ | |
+| Sherlock: The Abominable Bride |  Douglas Mackinnon | Mark Gatiss, Steven Moffat | 2016 | [IMDb](https://www.imdb.com/title/tt3845232/), [豆瓣](https://movie.douban.com/subject/25920885/) | 2016-02-19 | ★★★☆☆ | |
 | Carol | Todd Haynes | Phyllis Nagy | 2016 | [IMDb](https://www.imdb.com/title/tt2402927/), [豆瓣](https://movie.douban.com/subject/10757577/) | 2016-02-19 | ★★★☆☆ | |
 | Star Trek Beyond (AOS Ep. 3) | Justin Lin | Simon Pegg, Doug Jung | 2016 | [IMDb](https://www.imdb.com/title/tt2660888/), [豆瓣](https://movie.douban.com/subject/22939161/) | 2016-10-28 | ★★☆☆☆ | |
 | Fantastic Beasts and Where to Find Them | David Yates | J. K. Rowling | 2016 | [IMDb](https://www.imdb.com/title/tt3183660/), [豆瓣](https://movie.douban.com/subject/25726614/) | 2016-12-06 | ★★★★★ | |
