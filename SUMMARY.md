@@ -4,10 +4,10 @@
 
 ## Computer
 
-* [Git](computer/git.md)
 * [macOS](computer/macos/README.md)
   * [Shell](computer/macos/shell.md)
   * [Apps](computer/macos/apps.md)
+* [Git](computer/git.md)
 * [LaTeX](computer/latex.md)
 * [Python](computer/python/README.md)
   * [Documentation](computer/python/documentation.md)

@@ -117,3 +117,32 @@ In `.gitmodules`:
 +    ignore = untracked
 ```
 
+## Git Flow
+
+Ref:
+
+- [Learn Version Control with Git - Workflows with git-flow](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/git-flow) ([中文版](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow))
+- [petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/petervanderdoes/gitflow-avh)
+- [Command Line Arguments · nvie/gitflow Wiki](https://github.com/nvie/gitflow/wiki/Command-Line-Arguments)
+
+Installation:
+
+```bash
+$ brew install git-flow-avh
+```
+
+Init: (`-d` means using default branch names)
+
+```bash
+$ git flow init -d
+```
+
+Write new feature:
+
+```bash
+# Before beginning
+$ git flow feature start my-new-feature
+
+# After final commit
+$ git flow feature finish my-new-feature
+```
