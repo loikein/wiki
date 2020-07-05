@@ -51,8 +51,13 @@ $ subl .gitignore
 In `.gitignore`:
 
 ```text
+# Things to ignore
 .DS_Store
 **/.DS_Store
+**/*.pdf
+
+# Things to keep
+!roadmap.pdf
 ```
 
 Apply changes:

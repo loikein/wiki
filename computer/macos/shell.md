@@ -14,6 +14,24 @@ Find Mac model ID:
 $ sysctl hw.model
 ```
 
+## Set Language
+
+Set everything to English:
+
+```text
+# In .zshrc
+
+export LANG=en_US.UTF-8
+```
+
+…except `git`: \([credit](https://askubuntu.com/a/320663)\)
+
+```text
+# In .zshrc
+
+alias git='LANG="zh_CN.UTF-8" git'
+```
+
 ## System Maintenance
 
 Kill Quick Look:

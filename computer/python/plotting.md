@@ -93,7 +93,7 @@ ax.set_ylim(bottom=0)
 
 Adjust label formats:
 
-(In this examle, the numbers will have thousand separators and/or 4 digit decimals.)
+\(In this examle, the numbers will have thousand separators and/or 4 digit decimals.\)
 
 ```python
 import matplotlib as mpl
