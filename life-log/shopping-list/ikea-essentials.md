@@ -12,8 +12,8 @@
 
 | Image | Label | Article Name | Article Number | Price | Link |
 |-------|-------|--------------|----------------|-------|------|
-| ![](https://www.ikea.com/de/de/images/products/fixa-screwdriver-drill-li-ion__0711977_PE728604_S5.JPG) | FIXA | Screwdriver / drill | 502.329.03 | 29.23 € | [🔗](https://www.ikea.com/de/de/p/fixa-schrauber-bohrmaschine-li-ion-akku-50232903/) |
 | ![](https://www.ikea.com/de/de/images/products/fixa-screwdriver-li-ion__0711972_PE728600_S5.JPG) | FIXA | Cordless screwdriver | 202.141.99 | 8.77 € | [🔗](https://www.ikea.com/de/de/p/fixa-akkuschrauber-li-ion-akku-20214199/) |
+| ![](https://www.ikea.com/de/de/images/products/fixa-screwdriver-drill-li-ion__0711977_PE728604_S5.JPG) | FIXA | Screwdriver / drill | 502.329.03 | 29.23 € | [🔗](https://www.ikea.com/de/de/p/fixa-schrauber-bohrmaschine-li-ion-akku-50232903/) |
 
 ## On the Go
 
@@ -41,11 +41,11 @@
 
 | Image | Label | Article Name | Article Number | Price | Link |
 |-------|-------|--------------|----------------|-------|------|
-| ![](https://www.ikea.com/de/de/images/products/moerkraedd-led-nightlight-with-sensor__0879294_PE660015_S5.JPG) | MÖRKRÄDD | LED night light with sensor | 703.498.60 | 4.86 € / 2 p | [🔗](https://www.ikea.com/de/de/p/moerkraedd-led-nachtlicht-mit-sensor-weiss-70349860/) |
-| ![](https://www.ikea.com/de/de/images/products/livboj-wireless-charger-black__0721949_PE733426_S5.JPG) | LIVBOJ | Wireless charger | 404.470.51 | 4.87 € | [🔗](https://www.ikea.com/de/de/p/livboj-ladepad-schwarz-40447051/) |
-| ![](https://www.ikea.com/de/de/images/products/solvinden-led-solar-powered-floor-lamp-outdoor-plastic-white__0759917_PE750547_S5.JPG) | SOLVINDEN | Solar floor lamp | 704.517.01 | 17.54 € | [🔗](https://www.ikea.com/de/de/p/solvinden-solarstandleuchte-led-fuer-draussen-kunststoff-weiss-70451701/) |
-| ![](https://www.ikea.com/de/de/images/products/bergenes-holder-for-mobile-phone-tablet__0730866_PE737824_S5.JPG?f=g) | BERGENES | Mobile phone / tablet holder | 104.579.99 | 2.91 € | [🔗](https://www.ikea.com/de/de/p/bergenes-halter-fuer-mobiltelefon-tablet-bambus-10457999/) |
 | ![](https://www.ikea.com/de/de/images/products/stomma-wall-clock__0904594_PE668218_S5.JPG?f=g) | STOMMA | Wall clock | 003.741.36 | 1.95 € | [🔗](https://www.ikea.com/de/de/p/stomma-wanduhr-weiss-00374136/) |
+| ![](https://www.ikea.com/de/de/images/products/bergenes-holder-for-mobile-phone-tablet__0730866_PE737824_S5.JPG?f=g) | BERGENES | Mobile phone / tablet holder | 104.579.99 | 2.91 € | [🔗](https://www.ikea.com/de/de/p/bergenes-halter-fuer-mobiltelefon-tablet-bambus-10457999/) |
+| ![](https://www.ikea.com/de/de/images/products/livboj-wireless-charger-black__0721949_PE733426_S5.JPG) | LIVBOJ | Wireless charger | 404.470.51 | 4.87 € | [🔗](https://www.ikea.com/de/de/p/livboj-ladepad-schwarz-40447051/) |
+| ![](https://www.ikea.com/de/de/images/products/moerkraedd-led-nightlight-with-sensor__0879294_PE660015_S5.JPG) | MÖRKRÄDD | LED night light with sensor | 703.498.60 | 4.86 € / 2 p | [🔗](https://www.ikea.com/de/de/p/moerkraedd-led-nachtlicht-mit-sensor-weiss-70349860/) |
+| ![](https://www.ikea.com/de/de/images/products/solvinden-led-solar-powered-floor-lamp-outdoor-plastic-white__0759917_PE750547_S5.JPG) | SOLVINDEN | Solar floor lamp | 704.517.01 | 17.54 € | [🔗](https://www.ikea.com/de/de/p/solvinden-solarstandleuchte-led-fuer-draussen-kunststoff-weiss-70451701/) |
 
 ### Kitchen
 
@@ -103,6 +103,7 @@
 
 | Image | Label | Article Name | Article Number | Price | Link |
 |-------|-------|--------------|----------------|-------|------|
+| ![](https://www.ikea.com/de/de/images/products/stickat-bed-pocket-black__0876987_PE638821_S5.JPG?f=g) | STICKAT | Textile storage | 803.783.38 | 3.89 € | [🔗](https://www.ikea.com/de/de/p/stickat-textile-aufbewahrung-schwarz-80378338/) |
 | ![](https://www.ikea.com/de/de/images/products/moejlighet-bed-pocket__0876302_PE694785_S5.JPG) | MÖJLIGHET | Textile storage | 804.213.89 | 5.84€ | [🔗](https://www.ikea.com/de/de/p/moejlighet-textile-aufbewahrung-blau-80421389/) |
 | ![](https://www.ikea.com/de/de/images/products/ullvide-fitted-sheet-grey__0604097_PE681038_S5.JPG?f=g) | ULLVIDE | Fitted sheet | 703.427.74 | 14.61 € | [🔗](https://www.ikea.com/de/de/p/ullvide-spannbettlaken-grau-70342774/) |
 | ![](https://www.ikea.com/de/de/images/products/stjaernloek-mattress-protector__0658746_PE710399_S5.JPG?f=g) | STJÄRNLÖK | Mattress protector | 704.012.59 | 3.90 € | [🔗](https://www.ikea.com/de/de/p/stjaernloek-matratzenschoner-70401259/) |
