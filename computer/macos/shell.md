@@ -43,6 +43,12 @@ When some file cannot be accessed:
 $ sudo chown -R $(whoami) $(brew --prefix)/*
 ```
 
+Edit host file:
+
+```bash
+$ sudo subl /private/etc/hosts
+```
+
 ## Working With `npm`
 
 ```bash

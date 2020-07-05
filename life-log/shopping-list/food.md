@@ -9,18 +9,23 @@ For a whole week, I need…
 
 ## Fruits
 
+Any one of the following:
+
 * Cherry tomatoes 500g
-* Apples or peaches or pears 500g ~ 1000g
+* Apples or peaches or pears 500g
 
 ## Snacks
 
-Any one of the followings:
+Any two of the following:
 
-* Studentenfutter \(trail mix\) 400g ~ 800g
-* Butter cookie 200g ~ 300g
+* Studentenfutter (trail mix) 400g
+* Butter cookie 200g
+* Iced tea (lime flavour) 1L
+* Chocolate milk 1L
+* Coconut milk 1L
 
 ## Beverages
 
-* Capsule coffee \* 20
-* Black tea bags \* 10
+* Capsule coffee \* 18 (2.5 per day)
+* Black tea bags \* 7 (1 per day)
 

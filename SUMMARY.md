@@ -26,6 +26,7 @@
 
 * [Shopping List](life-log/shopping-list/README.md)
   * [Food](life-log/shopping-list/food.md)
+  * [Electronics](life-log/shopping-list/electronics.md)
 * [Entertainment](life-log/entertainment/README.md)
   * [Online Videos](life-log/entertainment/online-videos.md)
   * [Music](life-log/entertainment/music.md)
