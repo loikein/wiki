@@ -28,14 +28,14 @@
 | Thumbnail | Title |
 | :--- | :--- |
 | ![](https://img.youtube.com/vi/P8tcvzg4Zbs/0.jpg) | [Relay FM Podcastathon for St. Jude \(2019\)](https://www.youtube.com/watch?v=P8tcvzg4Zbs) |
-| ![](https://img.youtube.com/vi/9TzZNdqSohU/0.jpg) | [Only In Mandarin \(是真的\)](https://www.youtube.com/watch?v=9TzZNdqSohU) |
+| ![](https://img.youtube.com/vi/9TzZNdqSohU/0.jpg) | [Only In Mandarin](https://www.youtube.com/watch?v=9TzZNdqSohU) \(是真的\) |
 | ![](https://img.youtube.com/vi/yb2zkxHDfUE/0.jpg) | [When Spreadsheets Attack!](https://www.youtube.com/watch?v=yb2zkxHDfUE) |
 | ![](https://img.youtube.com/vi/Yihl3yLtKvk/0.jpg) | [CGP Grey but out of Context](https://www.youtube.com/watch?v=Yihl3yLtKvk) |
 | ![](https://img.youtube.com/vi/M_Ccpl1Opew/0.jpg) | [Samsung makes Fun of Apple \#5 \(You will hate Apple after seeing this\)](https://www.youtube.com/watch?v=M_Ccpl1Opew) |
 | ![](https://img.youtube.com/vi/xV1mZ1BjKa8/0.jpg) | [A Cellist's Nightmare - The Piano Guys "Rockelbel's Canon"](https://www.youtube.com/watch?v=xV1mZ1BjKa8) |
 | ![](https://img.youtube.com/vi/s1ikwG0V2BQ/0.jpg) | [L-O-V-E](https://www.youtube.com/watch?v=s1ikwG0V2BQ) |
 | ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads + Mac & PC WWDC Intro + Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
-| ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | [(NSFW) Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) |
+| ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | [Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) \(NSFW\) |
 
 ### Dancing
 
@@ -86,7 +86,7 @@ See [Music](music.md).
 | ![](https://img.youtube.com/vi/cZYNADOHhVY/0.jpg) | [The Fable of the Dragon-Tyrant](https://www.youtube.com/watch?v=cZYNADOHhVY) |
 | ![](https://img.youtube.com/vi/MBRqu0YOH14/0.jpg) | [Optimistic Nihilism](https://www.youtube.com/watch?v=MBRqu0YOH14) |
 | ![](https://img.youtube.com/vi/wfYbgdo8e-8/0.jpg) | [You Are Two](https://www.youtube.com/watch?v=wfYbgdo8e-8) |
-| ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube.com/watch?v=nQHBAdShgYI) |
+| ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube.com/watch?v=nQHBAdShgYI) \(You can't stay awake forever\) |
 | ![](https://img.youtube.com/vi/NVGuFdX5guE/0.jpg) | [Your New Year's Resolution Has Already Failed](https://www.youtube.com/watch?v=NVGuFdX5guE) |
 | ![](https://img.youtube.com/vi/wf2VxeIm1no/0.jpg) | [Thinking About Attention -- Walk with Me](https://www.youtube.com/watch?v=wf2VxeIm1no) |
 | ![](https://img.youtube.com/vi/7Pq-S557XQU/0.jpg) | [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU) |
@@ -102,6 +102,7 @@ See [Music](music.md).
 | ![](https://img.youtube.com/vi/-ZpsliNmJLo/0.jpg) | [I tried to edit an ENTIRE video on iPad Pro...](https://www.youtube.com/watch?v=-ZpsliNmJLo) |
 | ![](https://img.youtube.com/vi/pzKcWl95q0c/0.jpg) | [Rewatching the Original iPad Keynote](https://www.youtube.com/watch?v=pzKcWl95q0c) |
 | ![](https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/38680_480x360.jpg) | [Yochai Benkler: The new open-source economics \| TED Talk](https://www.ted.com/talks/yochai_benkler_the_new_open_source_economics) |
+| ![](https://img.youtube.com/vi/hJiSog_EN0k/0.jpg) | [Identifying Apple Adapters by Touch](https://www.youtube.com/watch?v=hJiSog_EN0k) |
 
 ### Coding
 
