@@ -39,6 +39,30 @@ $ git reset --soft HEAD~2
 $ git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
+### Oh-My-Zsh Aliases
+
+References:
+
+- [Cheatsheet · ohmyzsh/ohmyzsh Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet#git)
+- [Oh-My-Zsh Git Aliases](https://jasonm23.github.io/oh-my-git-aliases.html)
+
+```bash
+# git status
+$ gst
+
+# git pull
+$ gl
+
+# git push
+$ gp
+
+# git checkout master
+$ gcm
+
+# git commit -m
+$ gcmsg "message here"
+```
+
 ## `.gitignore`
 
 Add late ignore:

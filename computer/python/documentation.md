@@ -33,6 +33,7 @@ $ open build/html/index.html
 ## Example Folder Tree
 
 ```text
+.
 ├── docs
 │   ├── Makefile
 │   ├── _static
