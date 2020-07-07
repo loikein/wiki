@@ -53,6 +53,12 @@ When `stow` complains about it:
 $ find . -name '.DS_Store' -type f -delete
 ```
 
+Show hidden files: \([credit](https://apple.stackexchange.com/a/100040/218914)\)
+
+```bash
+$ defaults write com.apple.finder AppleShowAllFiles 1
+```
+
 ### Danger Zone
 
 When some file cannot be accessed:

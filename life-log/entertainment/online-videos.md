@@ -20,6 +20,7 @@
 | ![](https://img.youtube.com/vi/vZRzJJcq6Rs/0.jpg) | [GE Big Boys - SNL](https://www.youtube.com/watch?v=vZRzJJcq6Rs) |
 | ![](https://img.youtube.com/vi/vl6jn-DdafM/0.jpg) | [We Are Going](https://www.youtube.com/watch?v=vl6jn-DdafM) |
 | ![](https://img.youtube.com/vi/23MFMWTB6m8/0.jpg) | [The Real Sugar Baby \(The Original video\)](https://www.youtube.com/watch?v=23MFMWTB6m8) |
+| ![](https://img.youtube.com/vi/pcSlowAhvUk/0.jpg) | [Glenn Greenwald: Why privacy matters](https://www.youtube.com/watch?v=pcSlowAhvUk) |
 
 ## Entertainment
 

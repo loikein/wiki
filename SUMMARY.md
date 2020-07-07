@@ -15,9 +15,11 @@
   * [Numpy](computer/python/numpy.md)
   * [rpy2](computer/python/rpy2.md)
 * [R](computer/r.md)
+* [Gatsby](computer/gatsby.md)
 
 ## Meta Life
 
+* [贝叶斯定理](meta-life/bayes-theorem.md)
 * [学习语言](meta-life/learning-languages.md)
 * [Time Tracking](meta-life/time-tracking.md)
 * [Task Management](meta-life/task-management.md)
