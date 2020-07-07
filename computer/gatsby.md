@@ -25,7 +25,6 @@ $ gatsby build
 $ gatsby serve
 ```
 
-
 ## Debugging
 
 Start local server:
