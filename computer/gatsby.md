@@ -6,14 +6,30 @@ References:
 
 ## Basics
 
+### Installation
+
 Create new site from template:
 
 ```bash
 # create a new Gatsby site using the garden theme starter
-$ gatsby new my-digital-garden https://github.com/mathieudutour/gatsby-starter-digital-garden
+$ gatsby new garden-source https://github.com/mathieudutour/gatsby-starter-digital-garden
 
-$ cd my-digital-garden
+$ cd garden-source
+
+# install dependencies
+$ npm install
+
+# update dependencies
+$ npm update
 ```
+
+If this happens: `npm WARN {something} requires a peer of {other thing} but none is installed. You must install peer dependencies yourself`, do this: \([credit]()\)
+
+```bash
+$ npm install --save-dev "{other thing}"
+```
+
+### Building Site
 
 Build site:
 
@@ -38,6 +54,13 @@ File tree:
 ```text
 .
 ├── garden
+│   ├── subdir
+│   ├── index
+│   ├── index.html
+│   ├── page-data
+│   ├── static
+│   ├── webpack.stats.json
+│   └── ...
 └── garden-source
     ├── LICENSE
     ├── README.md
