@@ -4,21 +4,29 @@
 
 ## Computer
 
-* [macOS](computer/macos/README.md)
+* [macOS](computer/macos/)
   * [Shell](computer/macos/shell.md)
-  * [Apps](computer/macos/apps.md)
-* [Software](computer/software/README.md)
-  * [Firefox](computer/software/firefox.md)
-  * [espanso](computer/software/espanso.md)
+  * [Software Collection](computer/macos/software.md)
+
 * [Git](computer/git.md)
+
 * [LaTeX](computer/latex.md)
-* [Python](computer/python/README.md)
+
+* [Python](computer/python/)
   * [Documentation](computer/python/documentation.md)
   * [Plotting](computer/python/plotting.md)
   * [Numpy](computer/python/numpy.md)
   * [rpy2](computer/python/rpy2.md)
+
 * [R](computer/r.md)
-* [Gatsby](computer/gatsby.md)
+
+* [Static Site Generators](computer/static-site/)
+  * [Hugo/Blogdown](computer/static-site/hugo-blogdown.md)
+  * [Gatsby](computer/static-site/gatsby.md)
+
+* [Other Software](computer/software-usage/)
+  * [Firefox](computer/software-usage/firefox.md)
+  * [espanso](computer/software-usage/espanso.md)
 
 ## Meta Life
 
@@ -29,12 +37,13 @@
 
 ## Life Log
 
-* [Shopping List](life-log/shopping-list/README.md)
+* [Shopping List](life-log/shopping-list/)
   * [Food](life-log/shopping-list/food.md)
   * [Electronics](life-log/shopping-list/electronics.md)
   * [IKEA Essentials](life-log/shopping-list/ikea-essentials.md)
   * [Amazon Essentials](life-log/shopping-list/amazon-essentials.md)
-* [Entertainment](life-log/entertainment/README.md)
+
+* [Entertainment](life-log/entertainment/)
   * [Online Videos](life-log/entertainment/online-videos.md)
   * [Music](life-log/entertainment/music.md)
   * [TV Shows & Animes](life-log/entertainment/tv-shows.md)
