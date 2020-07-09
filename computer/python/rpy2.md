@@ -4,13 +4,16 @@
 
 [rpy2 3.3.1 documentation](https://rpy2.github.io/doc/latest/html/index.html)
 
-## Install
+## Install with Anaconda/Miniconda
 
-Install for conda: in `environment.yml`:
+In `environment.yml`:
 
 ```yaml
-- pip:
+dependencies:
+  - r-base
+  - r-r.utils
   - rpy2
+  # (other r packages)
 ```
 
 ## Basic Use

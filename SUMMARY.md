@@ -43,7 +43,7 @@
   * [IKEA Essentials](life-log/shopping-list/ikea-essentials.md)
   * [Amazon Essentials](life-log/shopping-list/amazon-essentials.md)
 
-* [Entertainment](life-log/entertainment/)
+* [Entertainment](life-log/entertainment/README.md)
   * [Online Videos](life-log/entertainment/online-videos.md)
   * [Music](life-log/entertainment/music.md)
   * [TV Shows & Animes](life-log/entertainment/tv-shows.md)

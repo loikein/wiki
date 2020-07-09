@@ -2,7 +2,7 @@
 
 ## General
 
-Difference between most recent commit and second most recent commit: ([ref](https://stackoverflow.com/a/9903611/10668706))
+Difference between most recent commit and second most recent commit: ([credit](https://stackoverflow.com/a/9903611/10668706))
 
 ```bash
 $ git diff HEAD^ HEAD
@@ -76,7 +76,6 @@ In `.gitignore`:
 
 ```text
 # Things to ignore
-.DS_Store
 **/.DS_Store
 **/*.pdf
 
@@ -148,7 +147,7 @@ In `.gitmodules`:
 
 ## Git Flow
 
-Ref:
+References:
 
 - [Learn Version Control with Git - Workflows with git-flow](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/git-flow) ([中文版](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow))
 - [petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/petervanderdoes/gitflow-avh)

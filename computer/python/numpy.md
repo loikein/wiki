@@ -7,7 +7,7 @@ Make array of 1 \~ 100:
 ```python
 import numpy as np
 
-sigma = np.arange(1,101).reshape(10,10)
+sigma = np.arange(1, 101).reshape(10, 10)
 sigma
 
 # array([[  1,   2,   3,   4,   5,   6,   7,   8,   9,  10],
@@ -22,12 +22,12 @@ sigma
 #        [ 91,  92,  93,  94,  95,  96,  97,  98,  99, 100]])
 ```
 
-Make array out of arbitrary numbers: ([taken from here](https://www.math.utah.edu/~zwick/Classes/Fall2012_2270/Lectures/Lecture33_with_Examples.pdf), a positive definite matrix)
+Make array out of arbitrary numbers: \([taken from here](https://www.math.utah.edu/~zwick/Classes/Fall2012_2270/Lectures/Lecture33_with_Examples.pdf), a positive definite matrix\)
 
 ```python
 import numpy as np
 
-sigma = np.reshape((2,-1,0,-1,2,-1,0,-1,2),(3, 3))
+sigma = np.reshape((2, -1, 0, -1, 2, -1, 0, -1, 2), (3, 3))
 sigma
 
 # array([[ 2, -1,  0],
@@ -35,7 +35,7 @@ sigma
 #        [ 0, -1,  2]])
 ```
 
-Make diagonal matrix: ([credit](https://stackoverflow.com/a/52989703/10668706))
+Make diagonal matrix: \([credit](https://stackoverflow.com/a/52989703/10668706)\)
 
 ```python
 sigma = np.diagflat([-1] * 3)
