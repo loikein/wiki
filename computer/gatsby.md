@@ -47,6 +47,13 @@ Start debugging server:
 $ gatsby develop
 ```
 
+Useful shell aliases:
+
+```text
+alias gy='gatsby build && gatsby serve'
+alias gyd='gatsby develop'
+```
+
 ## Use External Path for Public Files
 
 File tree:
