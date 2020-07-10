@@ -4,13 +4,17 @@
 
 ## Computer
 
+* [Search the Internet](computer/search-internet.md)
+
 * [macOS](computer/macos/)
   * [Shell](computer/macos/shell.md)
   * [Software Collection](computer/macos/software.md)
 
 * [Git](computer/git.md)
 
-* [LaTeX](computer/latex.md)
+* [LaTeX & Friends](computer/latex-friends/)
+  * [LaTeX](computer/latex-friends/latex.md)
+  * [Pandoc](computer/latex-friends/pandoc.md)
 
 * [Python](computer/python/)
   * [Documentation](computer/python/documentation.md)
