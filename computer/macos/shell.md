@@ -59,6 +59,13 @@ Show hidden files: \([credit](https://apple.stackexchange.com/a/100040/218914)\)
 $ defaults write com.apple.finder AppleShowAllFiles 1
 ```
 
+Turn off Power Chime: \([credit](https://apple.stackexchange.com/a/309947)\)
+
+```bash
+$ defaults write com.apple.PowerChime ChimeOnNoHardware 0
+$ killall PowerChime
+```
+
 ### Danger Zone
 
 When some file cannot be accessed:
@@ -76,11 +83,11 @@ $ sudo subl /private/etc/hosts
 ## Working With `npm`
 
 ```bash
-$ npm list -g --depth=0
+$ npm list --global --depth=0
 ```
 
 ```bash
-$ npm -g uninstall <name> --save
+$ npm --global uninstall <name> --save
 ```
 
 ## Working with LaTeX
