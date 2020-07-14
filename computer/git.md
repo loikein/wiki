@@ -119,7 +119,11 @@ $ git push -d origin my-old-branch
 
 ## Submodules
 
-Ref: [Easy way to pull latest of all git submodules - Stack Overflow](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
+Add submodule:
+
+```bash
+$ git submodule add https://github.com/something/something.git
+```
 
 Initial pull submodule:
 
@@ -127,7 +131,7 @@ Initial pull submodule:
 $ git submodule update --init --recursive
 ```
 
-Update all submodules:
+Update all submodules: \([credit](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)\)
 
 ```bash
 $ git submodule update --recursive --remote
@@ -159,7 +163,7 @@ Installation:
 $ brew install git-flow-avh
 ```
 
-Init: (`-d` means using default branch names)
+Initialise: (`-d` means using default branch names)
 
 ```bash
 $ git flow init -d
