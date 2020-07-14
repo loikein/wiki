@@ -89,7 +89,34 @@ Apply changes:
 $ git rm -r --cached . && git add . && git commit -m ".gitignore is now working"
 ```
 
-## Branches
+## Repository Operations
+
+### Pull Updates from Origin of Fork
+
+Ref: [git - Pull new updates from original GitHub repository into forked GitHub repository - Stack Overflow](https://stackoverflow.com/a/3903835/10668706)
+
+Scenario: I have a forked repository at GitHub, cloned to local machine, and want to pull the updates from the original repository.
+
+Add remote upstream:
+
+```bash
+$ git remote add upstream https://github.com/something/something.git
+$ git fetch upstream
+```
+
+If have uncommitted work:
+
+```bash
+$ git merge upstream/master master
+```
+
+If workspace is clean:
+
+```bash
+$ git rebase upstream/master
+```
+
+### Branches
 
 Create branch:
 
@@ -117,7 +144,7 @@ Delete remote branch:
 $ git push -d origin my-old-branch
 ```
 
-## Submodules
+### Submodules
 
 Add submodule:
 
