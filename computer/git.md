@@ -95,9 +95,9 @@ $ git rm -r --cached . && git add . && git commit -m ".gitignore is now working"
 
 Ref: [git - Pull new updates from original GitHub repository into forked GitHub repository - Stack Overflow](https://stackoverflow.com/a/3903835/10668706)
 
-Scenario: I have a forked repository at GitHub, cloned to local machine, and want to pull the updates from the original repository.
+Scenario: I have a forked repository on GitHub, cloned to local machine, and want to pull the updates from the original repository.
 
-Add remote upstream:
+Add original repository as remote upstream:
 
 ```bash
 $ git remote add upstream https://github.com/something/something.git
