@@ -22,3 +22,4 @@ TV shows & Animes that I am watching/have watched.
 | 本好きの下剋上 (S2) | 本郷みつる | 亜細亜堂 | 2019 | [MyAnimeList](https://myanimelist.net/anime/40815/), [豆瓣](https://movie.douban.com/subject/34966406/) | 2020-06-28 | ★★★★☆ |
 | 乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… | 井上圭介 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/38555/), [豆瓣](https://movie.douban.com/subject/30358101/) | 2020-06-28 | ★★★☆☆ |
 | グレイプニル | 米田和弘 | PINE JAM | 2020 | [MyAnimeList](https://myanimelist.net/anime/39463/), [豆瓣](https://movie.douban.com/subject/30482079/) | 2020-06-28 | ★★★★★ |
+| 異種族レビュアーズ | 小川優樹 | Passione | 2020 | [MyAnimeList](https://myanimelist.net/anime/40010/), [豆瓣](https://movie.douban.com/subject/34447531/) | 2020-07-16 | ★★★★☆ |

@@ -34,7 +34,7 @@ Repository: [UB-Mannheim/zotero-ocr: Zotero Plugin for OCR](https://github.com/U
 
 ## Use Sci-Hub as Default PDF Finder
 
-Open Preferences > Advanced > Config Editor, search for `extensions.zotero.findPDFs.resolvers`, paste the following to Value: \([credit](https://zhuanlan.zhihu.com/p/112141757)\)
+Open Preferences > Advanced > Config Editor, search for `extensions.zotero.findPDFs.resolvers`, paste the following into Value: \([credit](https://zhuanlan.zhihu.com/p/112141757)\)
 
 ```json
 {

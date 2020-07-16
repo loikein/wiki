@@ -104,13 +104,13 @@ $ git remote add upstream https://github.com/something/something.git
 $ git fetch upstream
 ```
 
-If have uncommitted work:
+If have uncommitted work, or want to keep all commits:
 
 ```bash
 $ git merge upstream/master master
 ```
 
-If workspace is clean:
+If want clean commit history:
 
 ```bash
 $ git rebase upstream/master
