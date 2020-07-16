@@ -21,6 +21,8 @@
 | ![](https://img.youtube.com/vi/vl6jn-DdafM/0.jpg) | [We Are Going](https://www.youtube.com/watch?v=vl6jn-DdafM) |
 | ![](https://img.youtube.com/vi/23MFMWTB6m8/0.jpg) | [The Real Sugar Baby \(The Original video\)](https://www.youtube.com/watch?v=23MFMWTB6m8) |
 | ![](https://img.youtube.com/vi/pcSlowAhvUk/0.jpg) | [Glenn Greenwald: Why privacy matters](https://www.youtube.com/watch?v=pcSlowAhvUk) |
+| ![](https://img.youtube.com/vi/q5TSmPlXkrY/0.jpg) | [周孝正：中国社会问题分析（完整版）](https://www.youtube.com/watch?v=q5TSmPlXkrY) |
+| ![](https://img.youtube.com/vi/Bj0ymOFbaXU/0.jpg) | [i call this piece "echoes of the past"](https://www.youtube.com/watch?v=Bj0ymOFbaXU) |
 
 ## Entertainment
 
@@ -33,11 +35,10 @@
 | ![](https://img.youtube.com/vi/yb2zkxHDfUE/0.jpg) | [When Spreadsheets Attack!](https://www.youtube.com/watch?v=yb2zkxHDfUE) |
 | ![](https://img.youtube.com/vi/Yihl3yLtKvk/0.jpg) | [CGP Grey but out of Context](https://www.youtube.com/watch?v=Yihl3yLtKvk) |
 | ![](https://img.youtube.com/vi/M_Ccpl1Opew/0.jpg) | [Samsung makes Fun of Apple \#5 \(You will hate Apple after seeing this\)](https://www.youtube.com/watch?v=M_Ccpl1Opew) |
-| ![](https://img.youtube.com/vi/xV1mZ1BjKa8/0.jpg) | [A Cellist's Nightmare - The Piano Guys "Rockelbel's Canon"](https://www.youtube.com/watch?v=xV1mZ1BjKa8) |
 | ![](https://img.youtube.com/vi/s1ikwG0V2BQ/0.jpg) | [L-O-V-E](https://www.youtube.com/watch?v=s1ikwG0V2BQ) |
-| ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads + Mac & PC WWDC Intro + Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
+| ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads \+ Mac & PC WWDC Intro \+ Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
 | ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | [Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) \(NSFW\) |
-| ![](https://img.youtube.com/vi/kEB11PQ9Eo8/0.jpg) | [Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8) |
+| ![](https://img.youtube.com/vi/IjCydO_ZgUM/0.jpg) | [me playing loudest sound ever created by humans \(on special synth\)](https://www.youtube.com/watch?v=IjCydO_ZgUM) |
 
 ### Dancing
 
@@ -60,7 +61,18 @@
 
 ### Music
 
-See [Music](music.md).
+Also see [Music](music.md).
+
+| Thumbnail | Title |
+| :--- | :--- | :--- |
+| ![](https://img.youtube.com/vi/8uCEeCUecNI/0.jpg) | [music genre: video game](https://www.youtube.com/watch?v=8uCEeCUecNI) |
+| ![](https://img.youtube.com/vi/P3MBQciFeHo/0.jpg) | [music genre: video game 2](https://www.youtube.com/watch?v=P3MBQciFeHo) |
+| ![](https://img.youtube.com/vi/WmWxsyIXcDs/0.jpg) | [video game christmas music](https://www.youtube.com/watch?v=WmWxsyIXcDs) |
+| ![](https://img.youtube.com/vi/VSPuRXkUWoU/0.jpg) | [how to create billie eilish's "bad guy"](https://www.youtube.com/watch?v=VSPuRXkUWoU) |
+| ![](https://img.youtube.com/vi/HmltHR0uB9E/0.jpg) | [HARRY POTTER Theme but played on my WASHER & DRYER](https://www.youtube.com/watch?v=HmltHR0uB9E) |
+| ![](https://img.youtube.com/vi/cjcNbgqXwms/0.jpg) | [wii theme but it's played on the nintendo labo piano](https://www.youtube.com/watch?v=cjcNbgqXwms) |
+| ![](https://img.youtube.com/vi/xV1mZ1BjKa8/0.jpg) | [A Cellist's Nightmare - The Piano Guys "Rockelbel's Canon"](https://www.youtube.com/watch?v=xV1mZ1BjKa8) |
+| ![](https://img.youtube.com/vi/aLX6I4Q79q8/0.jpg) | [How to create Drake’s One Dance](https://www.youtube.com/watch?v=aLX6I4Q79q8) |
 
 ### Game-Playing
 
@@ -69,6 +81,7 @@ See [Music](music.md).
 | ![](https://img.youtube.com/vi/o27W2ELMfho/0.jpg) | [BeatSaber ダースモールプレイ 13 Light It Up](https://www.youtube.com/watch?v=o27W2ELMfho) |
 | ![](https://img.youtube.com/vi/KnuBxD1vYe0/0.jpg) | [Golfing Over It - FULL GAME](https://www.youtube.com/watch?v=KnuBxD1vYe0) |
 | ![](https://img.youtube.com/vi/PykMKfxPx0w/0.jpg) | [【Darth Maul】BeatSaber - Lost in the Rhythm - Jamie Berry ft. Octavia Rose](https://www.youtube.com/watch?v=PykMKfxPx0w) |
+| ![](https://img.youtube.com/vi/kEB11PQ9Eo8/0.jpg) | [Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8) |
 
 ### Anime & Cinematic Clips
 
