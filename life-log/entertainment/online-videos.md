@@ -18,7 +18,6 @@
 | ![](https://i.vimeocdn.com/video/661458550.jpg) | [AN OPEN SECRET](https://vimeo.com/142444429) |
 | ![](https://img.youtube.com/vi/MJEAGd1bQuc/0.jpg) | [Meet Your Second Wife - SNL](https://www.youtube.com/watch?v=MJEAGd1bQuc) |
 | ![](https://img.youtube.com/vi/vZRzJJcq6Rs/0.jpg) | [GE Big Boys - SNL](https://www.youtube.com/watch?v=vZRzJJcq6Rs) |
-| ![](https://img.youtube.com/vi/vl6jn-DdafM/0.jpg) | [We Are Going](https://www.youtube.com/watch?v=vl6jn-DdafM) |
 | ![](https://img.youtube.com/vi/23MFMWTB6m8/0.jpg) | [The Real Sugar Baby \(The Original video\)](https://www.youtube.com/watch?v=23MFMWTB6m8) |
 | ![](https://img.youtube.com/vi/pcSlowAhvUk/0.jpg) | [Glenn Greenwald: Why privacy matters](https://www.youtube.com/watch?v=pcSlowAhvUk) |
 | ![](https://img.youtube.com/vi/q5TSmPlXkrY/0.jpg) | [周孝正：中国社会问题分析（完整版）](https://www.youtube.com/watch?v=q5TSmPlXkrY) |
@@ -41,8 +40,9 @@
 | ![](https://img.youtube.com/vi/M_Ccpl1Opew/0.jpg) | [Samsung makes Fun of Apple \#5 \(You will hate Apple after seeing this\)](https://www.youtube.com/watch?v=M_Ccpl1Opew) |
 | ![](https://img.youtube.com/vi/s1ikwG0V2BQ/0.jpg) | [L-O-V-E](https://www.youtube.com/watch?v=s1ikwG0V2BQ) |
 | ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads \+ Mac & PC WWDC Intro \+ Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
-| ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | [Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) \(NSFW\) |
+| ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | \(NSFW\!\) [Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) |
 | ![](https://img.youtube.com/vi/IjCydO_ZgUM/0.jpg) | [me playing loudest sound ever created by humans \(on special synth\)](https://www.youtube.com/watch?v=IjCydO_ZgUM) |
+| ![](https://img.youtube.com/vi/G025oxyWv0E/0.jpg) | [If Educational Videos Were Filmed Like Music Videos](https://www.youtube.com/watch?v=G025oxyWv0E) |
 
 ### Dancing
 
@@ -97,7 +97,9 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/RgHtBxOs4qw/0.jpg) | [West Side Story \(7/10\) Movie CLIP - I Feel Pretty \(1961\) HD](https://www.youtube.com/watch?v=RgHtBxOs4qw) |
 | ![](https://img.youtube.com/vi/XWfJTaFqDJs/0.jpg) | [\# Gleipnir Opening \| Altern-ate- — H-el-ical//](https://www.youtube.com/watch?v=XWfJTaFqDJs) |
 
-## Life & Philosophy
+## Life Philosophy
+
+### Epistemology & Meaning-Making
 
 | Thumbnail | Title |
 | :--- | :--- |
@@ -105,14 +107,28 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/cZYNADOHhVY/0.jpg) | [The Fable of the Dragon-Tyrant](https://www.youtube.com/watch?v=cZYNADOHhVY) |
 | ![](https://img.youtube.com/vi/MBRqu0YOH14/0.jpg) | [Optimistic Nihilism](https://www.youtube.com/watch?v=MBRqu0YOH14) |
 | ![](https://img.youtube.com/vi/wfYbgdo8e-8/0.jpg) | [You Are Two](https://www.youtube.com/watch?v=wfYbgdo8e-8) |
-| ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube.com/watch?v=nQHBAdShgYI) \(You can't stay awake forever\) |
-| ![](https://img.youtube.com/vi/NVGuFdX5guE/0.jpg) | [Your New Year's Resolution Has Already Failed](https://www.youtube.com/watch?v=NVGuFdX5guE) |
-| ![](https://img.youtube.com/vi/wf2VxeIm1no/0.jpg) | [Thinking About Attention -- Walk with Me](https://www.youtube.com/watch?v=wf2VxeIm1no) |
-| ![](https://img.youtube.com/vi/7Pq-S557XQU/0.jpg) | [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU) |
+| ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube.com/watch?v=nQHBAdShgYI) \(You can't stay awake forever\)
+
+### Psychology
+
+| Thumbnail | Title |
+| :--- | :--- |
+| ![](https://img.youtube.com/vi/xYemnKEKx0c/0.jpg) | [Strange answers to the psychopath test \| Jon Ronson](https://www.youtube.com/watch?v=xYemnKEKx0c) |
 | ![](https://img.youtube.com/vi/lMYyGsVT3Eo/0.jpg) | [Pride & Patriotism: STANHOPE, PETERSON, HICKS & CARLIN](https://www.youtube.com/watch?v=lMYyGsVT3Eo) |
+
+### Methodology
+
+| Thumbnail | Title |
+| :--- | :--- |
+| ![](https://img.youtube.com/vi/lA-zdh_bQBo/0.jpg) | [Barry Schwartz: Our loss of wisdom](https://www.youtube.com/watch?v=lA-zdh_bQBo) \(moral will & moral skill\) |
+| ![](https://img.youtube.com/vi/wf2VxeIm1no/0.jpg) | [Thinking About Attention -- Walk with Me](https://www.youtube.com/watch?v=wf2VxeIm1no) |
+| ![](https://img.youtube.com/vi/NVGuFdX5guE/0.jpg) | [Your New Year's Resolution Has Already Failed](https://www.youtube.com/watch?v=NVGuFdX5guE) |
+| ![](https://img.youtube.com/vi/IRVdiHu1VCc/0.jpg) | [Learning from dirty jobs \| Mike Rowe](https://www.youtube.com/watch?v=IRVdiHu1VCc) |
 | ![](https://img.youtube.com/vi/se9V-PJnKj8/0.jpg) | [Not Uniquely Human: Barbara Natterson-Horowitz](https://www.youtube.com/watch?v=se9V-PJnKj8) |
 
 ## Computer & Technology
+
+### General
 
 | Thumbnail | Title |
 | :--- | :--- |
@@ -122,6 +138,13 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/pzKcWl95q0c/0.jpg) | [Rewatching the Original iPad Keynote](https://www.youtube.com/watch?v=pzKcWl95q0c) |
 | ![](https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/38680_480x360.jpg) | [Yochai Benkler: The new open-source economics \| TED Talk](https://www.ted.com/talks/yochai_benkler_the_new_open_source_economics) |
 | ![](https://img.youtube.com/vi/hJiSog_EN0k/0.jpg) | [Identifying Apple Adapters by Touch](https://www.youtube.com/watch?v=hJiSog_EN0k) |
+
+### Futurology
+
+| Thumbnail | Title |
+| :--- | :--- |
+| ![](https://img.youtube.com/vi/7Pq-S557XQU/0.jpg) | [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU) |
+| ![](https://img.youtube.com/vi/vl6jn-DdafM/0.jpg) | [We Are Going](https://www.youtube.com/watch?v=vl6jn-DdafM) |
 
 ### Coding
 
