@@ -20,7 +20,7 @@
 | ![](https://img.youtube.com/vi/vZRzJJcq6Rs/0.jpg) | [GE Big Boys - SNL](https://www.youtube.com/watch?v=vZRzJJcq6Rs) |
 | ![](https://img.youtube.com/vi/23MFMWTB6m8/0.jpg) | [The Real Sugar Baby \(The Original video\)](https://www.youtube.com/watch?v=23MFMWTB6m8) |
 | ![](https://img.youtube.com/vi/pcSlowAhvUk/0.jpg) | [Glenn Greenwald: Why privacy matters](https://www.youtube.com/watch?v=pcSlowAhvUk) |
-| ![](https://img.youtube.com/vi/q5TSmPlXkrY/0.jpg) | [周孝正：中国社会问题分析（完整版）](https://www.youtube.com/watch?v=q5TSmPlXkrY) |
+| ![](https://img.youtube.com/vi/q5TSmPlXkrY/0.jpg) | [周孝正：中国社会问题分析（完整版）](https://www.youtube.com/watch?v=q5TSmPlXkrY&t=32s) |
 | ![](https://img.youtube.com/vi/Bj0ymOFbaXU/0.jpg) | [i call this piece "echoes of the past"](https://www.youtube.com/watch?v=Bj0ymOFbaXU) |
 
 ## Entertainment
@@ -33,16 +33,22 @@
 | ![](https://img.youtube.com/vi/_QdPW8JrYzQ/0.jpg) | [This is what happens when you reply to spam email \| James Veitch](https://www.youtube.com/watch?v=_QdPW8JrYzQ) |
 | ![](https://img.youtube.com/vi/C4Uc-cztsJo/0.jpg) | [More adventures in replying to spam \| James Veitch](https://www.youtube.com/watch?v=C4Uc-cztsJo) |
 | ![](https://img.youtube.com/vi/f5d8pVg3Qtg/0.jpg) | [James Veitch Is A Terrible Roommate \- CONAN on TBS](https://www.youtube.com/watch?v=f5d8pVg3Qtg) |
-| ![](https://img.youtube.com/vi/P8tcvzg4Zbs/0.jpg) | [Relay FM Podcastathon for St. Jude \(2019\)](https://www.youtube.com/watch?v=P8tcvzg4Zbs) |
 | ![](https://img.youtube.com/vi/9TzZNdqSohU/0.jpg) | [Only In Mandarin](https://www.youtube.com/watch?v=9TzZNdqSohU) \(是真的\) |
 | ![](https://img.youtube.com/vi/yb2zkxHDfUE/0.jpg) | [When Spreadsheets Attack!](https://www.youtube.com/watch?v=yb2zkxHDfUE) |
 | ![](https://img.youtube.com/vi/Yihl3yLtKvk/0.jpg) | [CGP Grey but out of Context](https://www.youtube.com/watch?v=Yihl3yLtKvk) |
-| ![](https://img.youtube.com/vi/M_Ccpl1Opew/0.jpg) | [Samsung makes Fun of Apple \#5 \(You will hate Apple after seeing this\)](https://www.youtube.com/watch?v=M_Ccpl1Opew) |
 | ![](https://img.youtube.com/vi/s1ikwG0V2BQ/0.jpg) | [L-O-V-E](https://www.youtube.com/watch?v=s1ikwG0V2BQ) |
-| ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads \+ Mac & PC WWDC Intro \+ Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
 | ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | \(NSFW\!\) [Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) |
 | ![](https://img.youtube.com/vi/IjCydO_ZgUM/0.jpg) | [me playing loudest sound ever created by humans \(on special synth\)](https://www.youtube.com/watch?v=IjCydO_ZgUM) |
 | ![](https://img.youtube.com/vi/G025oxyWv0E/0.jpg) | [If Educational Videos Were Filmed Like Music Videos](https://www.youtube.com/watch?v=G025oxyWv0E) |
+
+### Advertisement
+
+| Thumbnail | Title |
+| :--- | :--- |
+| ![](https://img.youtube.com/vi/P8tcvzg4Zbs/0.jpg) | [Relay FM Podcastathon for St. Jude \(2019\)](https://www.youtube.com/watch?v=P8tcvzg4Zbs) |
+| ![](https://img.youtube.com/vi/M_Ccpl1Opew/0.jpg) | [Samsung makes Fun of Apple \#5 \(You will hate Apple after seeing this\)](https://www.youtube.com/watch?v=M_Ccpl1Opew) |
+| ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads \+ Mac & PC WWDC Intro \+ Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
+| ![](https://img.youtube.com/vi/HE3oHBYrwM0/0.jpg) | [OnePlus Piano](https://www.youtube.com/watch?v=HE3oHBYrwM0) |
 
 ### Dancing
 
@@ -77,6 +83,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/cjcNbgqXwms/0.jpg) | [wii theme but it's played on the nintendo labo piano](https://www.youtube.com/watch?v=cjcNbgqXwms) |
 | ![](https://img.youtube.com/vi/xV1mZ1BjKa8/0.jpg) | [A Cellist's Nightmare - The Piano Guys "Rockelbel's Canon"](https://www.youtube.com/watch?v=xV1mZ1BjKa8) |
 | ![](https://img.youtube.com/vi/aLX6I4Q79q8/0.jpg) | [How to create Drake’s One Dance](https://www.youtube.com/watch?v=aLX6I4Q79q8) |
+| ![](https://img.youtube.com/vi/ilRoc89a2O4/0.jpg) | [MATT PLESS \- Black-Eyed Susan \| A Fistful Of Vinyl](https://www.youtube.com/watch?v=ilRoc89a2O4) |
 
 ### Game-Playing
 
@@ -124,7 +131,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/wf2VxeIm1no/0.jpg) | [Thinking About Attention -- Walk with Me](https://www.youtube.com/watch?v=wf2VxeIm1no) |
 | ![](https://img.youtube.com/vi/NVGuFdX5guE/0.jpg) | [Your New Year's Resolution Has Already Failed](https://www.youtube.com/watch?v=NVGuFdX5guE) |
 | ![](https://img.youtube.com/vi/IRVdiHu1VCc/0.jpg) | [Learning from dirty jobs \| Mike Rowe](https://www.youtube.com/watch?v=IRVdiHu1VCc) |
-| ![](https://img.youtube.com/vi/se9V-PJnKj8/0.jpg) | [Not Uniquely Human: Barbara Natterson-Horowitz](https://www.youtube.com/watch?v=se9V-PJnKj8) |
+| ![](https://img.youtube.com/vi/lrYx7HaUlMY/0.jpg) | [I've lived as a man & a woman \-\- here's what I learned \| Paula Stone Williams \| TEDxMileHigh](https://www.youtube.com/watch?v=lrYx7HaUlMY) |
 
 ## Computer & Technology
 
@@ -192,5 +199,6 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/z7yqtW4Isec/0.jpg) | [Watchtower of Turkey](https://www.youtube.com/watch?v=z7yqtW4Isec) | film editing |
 | ![](https://img.youtube.com/vi/iQi3aMQXip8/0.jpg) | [imai / Fly feat.79, 中村佳穂](https://www.youtube.com/watch?v=iQi3aMQXip8) | stop motion animation |
 | ![](https://img.youtube.com/vi/iKcWu0tsiZM/0.jpg) | [Modern Educayshun](https://www.youtube.com/watch?v=iKcWu0tsiZM) | SF |
-| ![](https://img.youtube.com/vi/HE3oHBYrwM0/0.jpg) | [OnePlus Piano](https://www.youtube.com/watch?v=HE3oHBYrwM0) | advertisement |
+| ![](https://img.youtube.com/vi/se9V-PJnKj8/0.jpg) | [Not Uniquely Human: Barbara Natterson-Horowitz](https://www.youtube.com/watch?v=se9V-PJnKj8) |
+
 
