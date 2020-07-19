@@ -121,7 +121,6 @@ Also see [Music](music.md).
 | Thumbnail | Title |
 | :--- | :--- |
 | ![](https://img.youtube.com/vi/xYemnKEKx0c/0.jpg) | [Strange answers to the psychopath test \| Jon Ronson](https://www.youtube.com/watch?v=xYemnKEKx0c) |
-| ![](https://img.youtube.com/vi/lMYyGsVT3Eo/0.jpg) | [Pride & Patriotism: STANHOPE, PETERSON, HICKS & CARLIN](https://www.youtube.com/watch?v=lMYyGsVT3Eo) |
 
 ### Methodology
 
@@ -131,7 +130,9 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/wf2VxeIm1no/0.jpg) | [Thinking About Attention -- Walk with Me](https://www.youtube.com/watch?v=wf2VxeIm1no) |
 | ![](https://img.youtube.com/vi/NVGuFdX5guE/0.jpg) | [Your New Year's Resolution Has Already Failed](https://www.youtube.com/watch?v=NVGuFdX5guE) |
 | ![](https://img.youtube.com/vi/IRVdiHu1VCc/0.jpg) | [Learning from dirty jobs \| Mike Rowe](https://www.youtube.com/watch?v=IRVdiHu1VCc) |
+| ![](https://img.youtube.com/vi/ks1FEtWlzTU/0.jpg) | [Looks aren't everything. Believe me, I'm a model \- Cameron Russell](https://www.youtube.com/watch?v=ks1FEtWlzTU) |
 | ![](https://img.youtube.com/vi/lrYx7HaUlMY/0.jpg) | [I've lived as a man & a woman \-\- here's what I learned \| Paula Stone Williams \| TEDxMileHigh](https://www.youtube.com/watch?v=lrYx7HaUlMY) |
+| ![](https://img.youtube.com/vi/lMYyGsVT3Eo/0.jpg) | [Pride & Patriotism: STANHOPE, PETERSON, HICKS & CARLIN](https://www.youtube.com/watch?v=lMYyGsVT3Eo) |
 
 ## Computer & Technology
 
