@@ -42,6 +42,9 @@
 
 ## Life Log
 
+* [衣着打扮](life-log/dressing-grooming/README.md)
+  * [指甲](life-log/dressing-grooming/nails.md)
+
 * [Shopping List](life-log/shopping-list/)
   * [Food](life-log/shopping-list/food.md)
   * [Electronics](life-log/shopping-list/electronics.md)
