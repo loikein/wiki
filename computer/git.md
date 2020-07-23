@@ -144,6 +144,10 @@ Delete remote branch:
 $ git push -d origin my-old-branch
 ```
 
+### Merge Master into Branch
+
+TODO
+
 ### Submodules
 
 Add submodule:
