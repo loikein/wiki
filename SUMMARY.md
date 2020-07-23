@@ -28,6 +28,10 @@
   * [Hugo/Blogdown](computer/static-site/hugo-blogdown.md)
   * [Gatsby](computer/static-site/gatsby.md)
 
+* [Internet](computer/internet/)
+  * [Custom CSS](computer/internet/css.md)
+  * [Custom JavaScript](computer/internet/js.md)
+
 * [Other Software](computer/software-usage/)
   * [Firefox](computer/software-usage/firefox.md)
   * [Zotero](computer/software-usage/zotero.md)
