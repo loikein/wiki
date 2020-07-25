@@ -40,6 +40,8 @@
 | ![](https://img.youtube.com/vi/3v79CLLhoyE/0.jpg) | \(NSFW\!\) [Ricardo Milos dances to DotA by Basshunter](https://www.youtube.com/watch?v=3v79CLLhoyE) |
 | ![](https://img.youtube.com/vi/IjCydO_ZgUM/0.jpg) | [me playing loudest sound ever created by humans \(on special synth\)](https://www.youtube.com/watch?v=IjCydO_ZgUM) |
 | ![](https://img.youtube.com/vi/G025oxyWv0E/0.jpg) | [If Educational Videos Were Filmed Like Music Videos](https://www.youtube.com/watch?v=G025oxyWv0E) |
+| ![](https://img.youtube.com/vi/IGYv6ev3-4U/0.jpg) | [Sasha Velour \| NIGHTGOWNS 1 \| "Love Song For A Vampire"](https://www.youtube.com/watch?v=IGYv6ev3-4U) |
+| ![](https://img.youtube.com/vi/n0DcGR6T1eA/0.jpg) | [【刀剣乱舞】やればできる刀達【手描き 】](https://www.youtube.com/watch?v=n0DcGR6T1eA) |
 
 ### Advertisement
 

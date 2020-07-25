@@ -21,9 +21,8 @@ Under `./docs/`:
 ```bash
 $ conda activate my_env
 
-# either
+# the following two are same if there is a makefile
 $ sphinx-build  -M html source build
-# or
 $ make html
 
 # open in default browser

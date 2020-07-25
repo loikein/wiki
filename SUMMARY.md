@@ -17,10 +17,13 @@
   * [Pandoc](computer/latex-friends/pandoc.md)
 
 * [Python](computer/python/)
+  * [Anaconda/Miniconda](computer/python/conda.md)
   * [Documentation](computer/python/documentation.md)
   * [Plotting](computer/python/plotting.md)
   * [Numpy](computer/python/numpy.md)
+  * [Jupyter Notebook & Lab](computer/python/jupyter.md)
   * [rpy2](computer/python/rpy2.md)
+  * [Example Project Flow](computer/python/example-project.md)
 
 * [R](computer/r.md)
 
@@ -29,6 +32,7 @@
   * [Gatsby](computer/static-site/gatsby.md)
 
 * [Internet](computer/internet/)
+  * [Search the Internet](computer/internet/search.md)
   * [Custom CSS](computer/internet/css.md)
   * [Custom JavaScript](computer/internet/js.md)
 
