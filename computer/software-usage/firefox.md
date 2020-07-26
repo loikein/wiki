@@ -1,56 +1,73 @@
 # Firefox
 
-## Useful Extensions
+## Useful Add-Ons
 
-Read first: [All recommended extensions](https://addons.mozilla.org/en-US/firefox/search/?recommended=true&type=extension)
+Reference: [All recommended extensions](https://addons.mozilla.org/en-US/firefox/search/?recommended=true&type=extension)
+
+Complete list: [My add-on collection](https://addons.mozilla.org/en-US/firefox/collections/16122644/Default/?page=1&collection_sort=added)
 
 ### Basics
 
-- [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/):
-Automatically suspend tabs that have not been touched for a while.
-- [Perfect Home](https://addons.mozilla.org/en-US/firefox/addon/perfect-home/):
-Opera style new tab.  
+- [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/): Automatically suspend tabs that have not been touched for a while.
+- [Perfect Home](https://addons.mozilla.org/en-US/firefox/addon/perfect-home/): Opera style new tab.  
 Must be installed after any other extensions that modifies new tab because Firefox only recognise the last extension that does it.
 - [Open Tabs Next to Current](https://addons.mozilla.org/en-US/firefox/addon/open-tabs-next-to-current/)
-- [Duplicate tab](https://addons.mozilla.org/en-US/firefox/addon/duplicate_tab/):
-Add a configurable shortcut to duplicate current tab with reserving all history.
-- [Pretty XML](https://addons.mozilla.org/en-US/firefox/addon/pretty-xml/):
-Human-readable RSS pages.
+- [Duplicate tab](https://addons.mozilla.org/en-US/firefox/addon/duplicate_tab/): Add a configurable shortcut to duplicate current tab with reserving all history.
+- [Awesome RSS](https://addons.mozilla.org/en-US/firefox/addon/awesome-rss/): Show all RSS feeds on current page.
+- [Pretty XML](https://addons.mozilla.org/en-US/firefox/addon/pretty-xml/): Human-readable RSS pages.
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
+- [Link Text and Location Copier](https://addons.mozilla.org/en-US/firefox/addon/link-text-and-location-copier/)
+- [Copy Selection as Markdown](https://addons.mozilla.org/en-US/firefox/addon/copy-selection-as-markdown/)
 
 ### Privacy
 
 - [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
 - [Cookie AutoDelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
-- [Untrack Me](https://addons.mozilla.org/en-US/firefox/addon/untrack-me/):
-Remove tracking information from the URLs, can be paused for 3 minutes when (rarely) causes unexpected behaviour.
-- [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/):
-Also works as IE tabs.
+- [Untrack Me](https://addons.mozilla.org/en-US/firefox/addon/untrack-me/): Remove tracking information from the URLs like [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/), but can be paused for 3 minutes when (rarely) causes unexpected behaviour.
+- [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/): Also works as IE tabs.
+- [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/): Summarises the terms of service of the current website.
 
 ### Customise the Web
 
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/):
-Custom CSS, see [Custom CSS](../internet/css.md).
-- [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/):
-Custom JavaScript, see [Custom JavaScript](../internet/js.md).
+- [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/): Custom CSS, see [Custom CSS](../internet/css.md).
+- [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): Custom JavaScript, see [Custom JavaScript](../internet/js.md).
 
 ### Accessibility
 
-- [Smart TOC](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/):
-Add floating table of contents.
-- [HeadingsMap](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/):
-Add table of contents to side of the window including HTML5 landmarks.
-- [Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/):
-File tree for GitHub.
+- [Smart TOC](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/): Add floating table of contents.
+- [HeadingsMap](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/): Add table of contents to side of the window including HTML5 landmarks.
+- [Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/): File tree for GitHub.
+- [axe - Web Accessibility Testing](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
 
 ### Others
 
+- [Bionic Reading](https://addons.mozilla.org/en-US/firefox/addon/bionicreading/)
 - [Keepa - Amazon Price Tracker](https://addons.mozilla.org/en-US/firefox/addon/keepa/)
-- [Workona](https://addons.mozilla.org/en-US/firefox/addon/workona/):
-Great tabs & workspaces manager.
-- [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/):
-Remove comments from any website.
+- [Workona](https://addons.mozilla.org/en-US/firefox/addon/workona/): Great tabs & workspaces manager.
+- [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/): Remove comments from any website.
+- [HighlightAll](https://addons.mozilla.org/en-US/firefox/addon/highlightall/): Highlight multiple keywords.
+
+## Privacy-Focused Configurations
+
+References:
+
+- [The Firefox Privacy Guide For Dummies! – 12Bytes.org](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies)
+- [Firefox Privacy: A Guide to Better Browsing](https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/)
+- [Firefox Profilemaker](https://ffprofile.com/)
+
+### Modify `about:config` Directly
+
+Reference: [Firefox: Privacy Related "about:config" Tweaks | PrivacyTools](https://www.privacytools.io/browsers/#about_config)
+
+Ones that I do not follow:
+
+- `dom.event.clipboardevents.enabled`: Setting to `False` will disable [Link Text and Location Copier](https://addons.mozilla.org/en-US/firefox/addon/link-text-and-location-copier/), which I use daily.
+- `network.cookie.cookieBehavior`: New versions of Firefox has default `4`, which I think is good enough. Setting to `2` will stop Google from login \(why?\)
+
+### Better Way: `user.js`
+
+Reference: [GitHub - ghacksuserjs/ghacks-user.js: An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting](https://github.com/ghacksuserjs/ghacks-user.js)
 
 ## Browser CSS
 
@@ -58,7 +75,7 @@ Ref: [Tutorial: How to create and live-debug userChrome.css : r/FirefoxCSS](http
 
 First, access `about:config` in Firefox, and enable `toolkit.legacyUserProfileCustomizations.stylesheets` option (set to `true`).
 
-For macOS, the user profile folder is under: `~/Library/Application Support/Firefox/Profiles/`. If there are multiple profiles, access `about:support` in Firefox to see which is the current profile.
+For macOS, the user profile folder is under: `~/Library/Application Support/Firefox/Profiles/`, regardless of Firefox versions. If there are multiple profiles, access `about:support` in Firefox to see which is the current profile (opening this page may cause some Macs to make strange noises, just cope with it).
 
 In the profile folder, create a folder and two CSS files with the following names:
 
