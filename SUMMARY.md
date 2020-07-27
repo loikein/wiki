@@ -8,27 +8,6 @@
 
 * [Zsh](computer/zsh.md)
 
-* [Git](computer/git.md)
-
-* [LaTeX & Friends](computer/latex-friends/)
-  * [LaTeX](computer/latex-friends/latex.md)
-  * [Pandoc](computer/latex-friends/pandoc.md)
-
-* [Python](computer/python/)
-  * [Anaconda/Miniconda](computer/python/conda.md)
-  * [Documentation](computer/python/documentation.md)
-  * [Plotting](computer/python/plotting.md)
-  * [Numpy](computer/python/numpy.md)
-  * [Jupyter Notebook & Lab](computer/python/jupyter.md)
-  * [rpy2](computer/python/rpy2.md)
-  * [Example Project Flow](computer/python/example-project.md)
-
-* [R](computer/r.md)
-
-* [Static Site Generators](computer/static-site/)
-  * [Hugo/Blogdown](computer/static-site/hugo-blogdown.md)
-  * [Gatsby](computer/static-site/gatsby.md)
-
 * [Internet](computer/internet/)
   * [Search the Internet](computer/internet/search.md)
   * [Custom CSS](computer/internet/css.md)
@@ -38,6 +17,29 @@
   * [Firefox](computer/software-usage/firefox.md)
   * [Zotero](computer/software-usage/zotero.md)
   * [espanso](computer/software-usage/espanso.md)
+
+## Programming
+
+* [Git](programming/git.md)
+
+* [LaTeX & Friends](programming/latex-friends/)
+  * [LaTeX](programming/latex-friends/latex.md)
+  * [Pandoc](programming/latex-friends/pandoc.md)
+
+* [Python](programming/python/)
+  * [Anaconda/Miniconda](programming/python/conda.md)
+  * [Documentation](programming/python/documentation.md)
+  * [Plotting](programming/python/plotting.md)
+  * [Numpy](programming/python/numpy.md)
+  * [Jupyter Notebook & Lab](programming/python/jupyter.md)
+  * [rpy2](programming/python/rpy2.md)
+  * [Example Project Flow](programming/python/example-project.md)
+
+* [R](programming/r.md)
+
+* [Static Site Generators](programming/static-site/)
+  * [Hugo/Blogdown](programming/static-site/hugo-blogdown.md)
+  * [Gatsby](programming/static-site/gatsby.md)
 
 ## Meta Life
 
@@ -63,4 +65,3 @@
   * [TV Shows & Animes](life-log/entertainment/tv-shows.md)
   * [Films](life-log/entertainment/films.md)
   * [Books](life-log/entertainment/books.md)
-

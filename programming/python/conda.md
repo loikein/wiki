@@ -13,7 +13,12 @@ Create an environment from file:
 ```bash
 $ conda env create --file environment.yml
 $ conda env create -f environment.yml
+```
 
+Update an environment:
+
+```bash
+$ conda env update
 ```
 
 Delete an environment:
