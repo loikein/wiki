@@ -1,6 +1,27 @@
-# Shell
+# macOS
 
-## System Info
+## Software
+
+Programmes that I love or cannot use my Mac without.
+
+### System-Maintenance Related Software
+
+TBA
+
+## App Store
+
+### Get App Bundle ID
+
+Ref: [Finding the App Bundle ID | PSPDFKit](https://pspdfkit.com/guides/ios/current/faq/finding-the-app-bundle-id/)
+
+1. With a store link, copy the app ID, and access the URL: `https://itunes.apple.com/lookup?id=ID`.
+1. If everything has been typed correctly, the URL will return a `.txt` file.
+1. Open the file, among the last lines (the 4th last for now) is a name `bundleID`.
+1. The corresponding value is the bundle ID of this app.
+
+## Shell
+
+### System Info
 
 Find main board ID:
 
@@ -14,25 +35,7 @@ Find Mac model ID:
 $ sysctl hw.model
 ```
 
-## Set Language
-
-Set everything to English:
-
-```text
-# In .zshrc
-
-export LANG=en_US.UTF-8
-```
-
-…except `git`: \([credit](https://askubuntu.com/a/320663)\)
-
-```text
-# In .zshrc
-
-alias git='LANG="zh_CN.UTF-8" git'
-```
-
-## System Maintenance
+### System Maintenance
 
 Kill Quick Look:
 
@@ -79,22 +82,3 @@ Edit host file:
 ```bash
 $ sudo subl /private/etc/hosts
 ```
-
-## Working With `npm`
-
-```bash
-$ npm list --global --depth=0
-```
-
-```bash
-$ npm --global uninstall <name> --save
-```
-
-## Working with LaTeX
-
-When `\xdef\@fontenc@load@list{\@fontenc@load@list undefined control sequence` happens: \([credit](https://stackoverflow.com/a/60493558/10668706)\)
-
-```bash
-$ fmtutil-sys --all
-```
-

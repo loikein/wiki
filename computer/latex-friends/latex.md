@@ -2,7 +2,17 @@
 
 Most of time I only use LaTeX for maths.
 
-## Spaces
+## Debugging in Shell
+
+When `\xdef\@fontenc@load@list{\@fontenc@load@list undefined control sequence` happens: \([credit](https://stackoverflow.com/a/60493558/10668706)\)
+
+```bash
+$ fmtutil-sys --all
+```
+
+### Math Stuff
+
+### Spaces
 
 Positive space: $$a\phantom{00000}b$$
 
@@ -17,7 +27,7 @@ Negative space: $$\mkern12mu\not\mkern-24mu\iff$$ \([credit](https://tex.stackex
 \mkern12mu\not\mkern-24mu\iff
 ```
 
-## Math Fonts
+### Math Fonts
 
 Bold: $$\mathbf{X}$$
 
@@ -37,7 +47,7 @@ Cursive: $$\mathcal{N}$$
 \mathcal{N}
 ```
 
-## Force Non-Display Size
+### Force Non-Display Size
 
 Compare:
 
@@ -55,7 +65,7 @@ $$
 \sum_{i=1}^{10}
 ```
 
-## Combining Symbols
+### Combining Symbols
 
 Above: $$x\overset{!}{=}0$$
 
@@ -63,7 +73,7 @@ Above: $$x\overset{!}{=}0$$
 x\overset{!}{=}0
 ```
 
-## Alignment
+### Alignment
 
 Cases: $$\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}$$
 

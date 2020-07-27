@@ -44,9 +44,12 @@ Must be installed after any other extensions that modifies new tab because Firef
 
 - [Bionic Reading](https://addons.mozilla.org/en-US/firefox/addon/bionicreading/)
 - [Keepa - Amazon Price Tracker](https://addons.mozilla.org/en-US/firefox/addon/keepa/)
+- [Augmented Steam](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam-an-itad-fork/)
 - [Workona](https://addons.mozilla.org/en-US/firefox/addon/workona/): Great tabs & workspaces manager.
 - [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/): Remove comments from any website.
 - [HighlightAll](https://addons.mozilla.org/en-US/firefox/addon/highlightall/): Highlight multiple keywords.
+- [Unpinterested!](https://addons.mozilla.org/en-US/firefox/addon/unpinterested/): Remove results from Pinterest in Google image search, or optionally, all searches.  
+Disclaimer: I use Pinterest a lot, but it is polluting search results too much I hate it.
 
 ## Privacy-Focused Configurations
 

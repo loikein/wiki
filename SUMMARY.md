@@ -4,11 +4,7 @@
 
 ## Computer
 
-* [Search the Internet](computer/search-internet.md)
-
-* [macOS](computer/macos/)
-  * [Shell](computer/macos/shell.md)
-  * [Software Collection](computer/macos/software.md)
+* [Zsh](computer/zsh.md)
 
 * [Git](computer/git.md)
 
@@ -35,6 +31,8 @@
   * [Search the Internet](computer/internet/search.md)
   * [Custom CSS](computer/internet/css.md)
   * [Custom JavaScript](computer/internet/js.md)
+
+* [macOS](computer/macos.md)
 
 * [Other Software](computer/software-usage/)
   * [Firefox](computer/software-usage/firefox.md)
