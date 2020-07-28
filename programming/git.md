@@ -39,6 +39,16 @@ $ git reset --soft HEAD~2
 $ git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
+Find out how many files are being tracked: \([credit](https://stackoverflow.com/a/9468981/10668706)\)
+
+```bash
+# All files
+$ git ls-files | wc -l
+
+# Some kind of file (e.g. Markdown)
+$ git ls-files | grep "\.md$" | wc -l
+```
+
 ### Oh-My-Zsh Aliases
 
 References:
