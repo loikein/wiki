@@ -4,7 +4,7 @@ Reference: [Documentation \- espanso \- Cross-platform Text Expander written in 
 
 ## Basics
 
-User profile path: `~/Library/Preferences/espanso/`
+User profile path: `~/Library/Preferences/espanso/`  
 Config file: `~/Library/Preferences/espanso/default.yml`
 
 To find out about this:

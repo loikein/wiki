@@ -12,7 +12,7 @@ TBA
 
 ### Get App Bundle ID
 
-Ref: [Finding the App Bundle ID | PSPDFKit](https://pspdfkit.com/guides/ios/current/faq/finding-the-app-bundle-id/)
+Reference: [Finding the App Bundle ID | PSPDFKit](https://pspdfkit.com/guides/ios/current/faq/finding-the-app-bundle-id/)
 
 1. With a store link, copy the app ID, and access the URL: `https://itunes.apple.com/lookup?id=ID`.
 1. If everything has been typed correctly, the URL will return a `.txt` file.
@@ -49,10 +49,9 @@ When trackpad is malfunctioning:
 $ killall Dock
 ```
 
-When `stow` complains about it:
+Find and delete all .DS_Store files in current folder:
 
 ```bash
-# Find and delete all .DS_Store files in current folder
 $ find . -name '.DS_Store' -type f -delete
 ```
 
