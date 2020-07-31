@@ -23,6 +23,12 @@ My configuration:
 Get DOIs for new items:     Long DOIs
 ```
 
+<!-- 
+### ZotFile
+
+Repository: [jlegewie/zotfile: Zotero plugin to manage your attachments](https://github.com/jlegewie/zotfile)
+ -->
+
 ### QuickLook
 
 Repository: [mronkko/ZoteroQuickLook: Implements QuickLook in Zotero](https://github.com/mronkko/ZoteroQuickLook)
@@ -31,6 +37,9 @@ Repository: [mronkko/ZoteroQuickLook: Implements QuickLook in Zotero](https://gi
 
 Repository: [UB-Mannheim/zotero-ocr: Zotero Plugin for OCR](https://github.com/UB-Mannheim/zotero-ocr)
 
+### Date Grabber
+
+Repository: [retorquere/zotero-date-from-last-modified](https://github.com/retorquere/zotero-date-from-last-modified/tree/master)
 
 ## Use Sci-Hub as Default PDF Finder
 

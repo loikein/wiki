@@ -29,10 +29,6 @@
 
 | Thumbnail | Title |
 | :--- | :--- |
-| ![](https://img.youtube.com/vi/Dceyy0cX6J4/0.jpg) | [The agony of trying to unsubscribe \| James Veitch](https://www.youtube.com/watch?v=Dceyy0cX6J4) |
-| ![](https://img.youtube.com/vi/_QdPW8JrYzQ/0.jpg) | [This is what happens when you reply to spam email \| James Veitch](https://www.youtube.com/watch?v=_QdPW8JrYzQ) |
-| ![](https://img.youtube.com/vi/C4Uc-cztsJo/0.jpg) | [More adventures in replying to spam \| James Veitch](https://www.youtube.com/watch?v=C4Uc-cztsJo) |
-| ![](https://img.youtube.com/vi/f5d8pVg3Qtg/0.jpg) | [James Veitch Is A Terrible Roommate \- CONAN on TBS](https://www.youtube.com/watch?v=f5d8pVg3Qtg) |
 | ![](https://img.youtube.com/vi/9TzZNdqSohU/0.jpg) | [Only In Mandarin](https://www.youtube.com/watch?v=9TzZNdqSohU) \(是真的\) |
 | ![](https://img.youtube.com/vi/yb2zkxHDfUE/0.jpg) | [When Spreadsheets Attack!](https://www.youtube.com/watch?v=yb2zkxHDfUE) |
 | ![](https://img.youtube.com/vi/Yihl3yLtKvk/0.jpg) | [CGP Grey but out of Context](https://www.youtube.com/watch?v=Yihl3yLtKvk) |
@@ -42,6 +38,24 @@
 | ![](https://img.youtube.com/vi/G025oxyWv0E/0.jpg) | [If Educational Videos Were Filmed Like Music Videos](https://www.youtube.com/watch?v=G025oxyWv0E) |
 | ![](https://img.youtube.com/vi/IGYv6ev3-4U/0.jpg) | [Sasha Velour \| NIGHTGOWNS 1 \| "Love Song For A Vampire"](https://www.youtube.com/watch?v=IGYv6ev3-4U) |
 | ![](https://img.youtube.com/vi/n0DcGR6T1eA/0.jpg) | [【刀剣乱舞】やればできる刀達【手描き 】](https://www.youtube.com/watch?v=n0DcGR6T1eA) |
+| ![](https://img.youtube.com/vi/xuCn8ux2gbs/0.jpg) | [history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs) |
+
+### Comedy
+
+| Thumbnail | Title |
+| :--- | :--- |
+| ![](https://img.youtube.com/vi/Dceyy0cX6J4/0.jpg) | [The agony of trying to unsubscribe \| James Veitch](https://www.youtube.com/watch?v=Dceyy0cX6J4) |
+| ![](https://img.youtube.com/vi/_QdPW8JrYzQ/0.jpg) | [This is what happens when you reply to spam email \| James Veitch](https://www.youtube.com/watch?v=_QdPW8JrYzQ) |
+| ![](https://img.youtube.com/vi/C4Uc-cztsJo/0.jpg) | [More adventures in replying to spam \| James Veitch](https://www.youtube.com/watch?v=C4Uc-cztsJo) |
+| ![](https://img.youtube.com/vi/f5d8pVg3Qtg/0.jpg) | [James Veitch Is A Terrible Roommate \- CONAN on TBS](https://www.youtube.com/watch?v=f5d8pVg3Qtg) |
+| ![](https://img.youtube.com/vi/beb8zCGMsbI/0.jpg) | [James Veitch’s Elaborate Wrong Number Prank \- CONAN on TBS](https://www.youtube.com/watch?v=beb8zCGMsbI) |
+| ![](https://img.youtube.com/vi/78cDjLJDRgA/0.jpg) | [\(NSFW\!\) "Indian Tech Support" \| Russell Peters \- Almost Famous](https://www.youtube.com/watch?v=78cDjLJDRgA) |
+| ![](https://img.youtube.com/vi/aBQjiFMle0k/0.jpg) | ["Gay Indians" \| Russell Peters](https://www.youtube.com/watch?v=aBQjiFMle0k) |
+| ![](https://img.youtube.com/vi/ITwPzduUmCw/0.jpg) | ["Be A Man!" \| Russell Peters \(Chinese and Indian cannot do business together\)](https://www.youtube.com/watch?v=ITwPzduUmCw) |
+| ![](https://img.youtube.com/vi/oSzgCDIUzq0/0.jpg) | ["Indians are Cheap" \| Russell Peters \- Red, White, and Brown](https://www.youtube.com/watch?v=oSzgCDIUzq0) |
+| ![](https://img.youtube.com/vi/goMsCPQYhlQ/0.jpg) | ["Louis Vuitton" \| Russell Peters \- Red, White, and Brown \(Take it and go\)](https://www.youtube.com/watch?v=goMsCPQYhlQ) |
+| ![](https://img.youtube.com/vi/z4KhEj0ai5E/0.jpg) | ["Accents" \| Russell Peters](https://www.youtube.com/watch?v=z4KhEj0ai5E) |
+| ![](https://img.youtube.com/vi/dI38GtWFihY/0.jpg) | [Chris James \- Black British Accent \(Stand Up Comedy\)](https://www.youtube.com/watch?v=dI38GtWFihY) |
 
 ### Advertisement
 
@@ -51,6 +65,7 @@
 | ![](https://img.youtube.com/vi/M_Ccpl1Opew/0.jpg) | [Samsung makes Fun of Apple \#5 \(You will hate Apple after seeing this\)](https://www.youtube.com/watch?v=M_Ccpl1Opew) |
 | ![](https://img.youtube.com/vi/0eEG5LVXdKo/0.jpg) | [Complete 66 Mac vs PC ads \+ Mac & PC WWDC Intro \+ Siri Intro](https://www.youtube.com/watch?v=0eEG5LVXdKo) |
 | ![](https://img.youtube.com/vi/HE3oHBYrwM0/0.jpg) | [OnePlus Piano](https://www.youtube.com/watch?v=HE3oHBYrwM0) |
+| ![](https://img.youtube.com/vi/Cxqca4RQd_M/0.jpg) | [If Google Was A Guy \(Full Series\)](https://www.youtube.com/watch?v=Cxqca4RQd_M) |
 
 ### Dancing
 
@@ -86,6 +101,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/xV1mZ1BjKa8/0.jpg) | [A Cellist's Nightmare - The Piano Guys "Rockelbel's Canon"](https://www.youtube.com/watch?v=xV1mZ1BjKa8) |
 | ![](https://img.youtube.com/vi/aLX6I4Q79q8/0.jpg) | [How to create Drake’s One Dance](https://www.youtube.com/watch?v=aLX6I4Q79q8) |
 | ![](https://img.youtube.com/vi/ilRoc89a2O4/0.jpg) | [MATT PLESS \- Black-Eyed Susan \| A Fistful Of Vinyl](https://www.youtube.com/watch?v=ilRoc89a2O4) |
+| ![](https://img.youtube.com/vi/T9iFcb5yfAc/0.jpg) | [【v flower】Close to You【カバー】](https://www.youtube.com/watch?v=T9iFcb5yfAc) |
 
 ### Game-Playing
 

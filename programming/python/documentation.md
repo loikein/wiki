@@ -153,6 +153,19 @@ If in `main_code.py`:
    :alt: a great image
 ```
 
+## Hyperlinks
+
+Note: the text must have same indentation as the URL it's referring to, see example:
+
+```text
+Some text
+
+    Some indented text `a link that points outwards with long URL`_.
+
+    .. _a link that points outwards with long URL: https://chaospy.readthedocs.io/
+    en/master/search.html?q=sobol&check_keywords=yes&area=default
+```
+
 ## Math
 
 Both inline and block math will work.

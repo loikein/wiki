@@ -1,5 +1,9 @@
 # macOS
 
+## Hardware
+
+The <kbd>delete</kbd> on Mac keyboards functions as <kbd>backspace</kbd>, but <kbd>fn</kbd> + <kbd>delete</kbd> function as the actual <kbd>del</kbd>.
+
 ## Software
 
 Programmes that I love or cannot use my Mac without.
