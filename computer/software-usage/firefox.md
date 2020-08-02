@@ -51,6 +51,10 @@ Must be installed after any other extensions that modifies new tab because Firef
 - [Unpinterested!](https://addons.mozilla.org/en-US/firefox/addon/unpinterested/): Remove results from Pinterest in Google image search, or optionally, all searches.  
 Disclaimer: I use Pinterest a lot, but it is polluting search results too much I hate it.
 
+## Vimium-FF
+
+See [Vimium](vimium.md).
+
 ## Privacy-Focused Configurations
 
 References:

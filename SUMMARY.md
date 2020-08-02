@@ -15,6 +15,7 @@
 
 * [Other Software](computer/software-usage/)
   * [Firefox](computer/software-usage/firefox.md)
+  * [Vimium](computer/software-usage/vimium.md)
   * [Zotero](computer/software-usage/zotero.md)
   * [espanso](computer/software-usage/espanso.md)
 

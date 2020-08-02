@@ -2,7 +2,7 @@
 
 ## Hardware
 
-The <kbd>delete</kbd> on Mac keyboards functions as <kbd>backspace</kbd>, but <kbd>fn</kbd> + <kbd>delete</kbd> function as the actual <kbd>del</kbd>.
+The `delete` on Mac keyboards functions as `backspace`, but `fn` + `delete` function as the actual `del`.
 
 ## Software
 
@@ -11,6 +11,13 @@ Programmes that I love or cannot use my Mac without.
 ### System-Maintenance Related Software
 
 TBA
+
+### Parallels Desktop
+
+```text
+devices.mac_hw_model = "MacBookPro15,2"
+devices.smbios.board_id = "Mac-827FB448E656EC26"
+```
 
 ## App Store
 

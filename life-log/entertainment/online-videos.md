@@ -103,15 +103,6 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/ilRoc89a2O4/0.jpg) | [MATT PLESS \- Black-Eyed Susan \| A Fistful Of Vinyl](https://www.youtube.com/watch?v=ilRoc89a2O4) |
 | ![](https://img.youtube.com/vi/T9iFcb5yfAc/0.jpg) | [【v flower】Close to You【カバー】](https://www.youtube.com/watch?v=T9iFcb5yfAc) |
 
-### Game-Playing
-
-| Thumbnail | Title |
-| :--- | :--- |
-| ![](https://img.youtube.com/vi/o27W2ELMfho/0.jpg) | [BeatSaber ダースモールプレイ 13 Light It Up](https://www.youtube.com/watch?v=o27W2ELMfho) |
-| ![](https://img.youtube.com/vi/KnuBxD1vYe0/0.jpg) | [Golfing Over It - FULL GAME](https://www.youtube.com/watch?v=KnuBxD1vYe0) |
-| ![](https://img.youtube.com/vi/PykMKfxPx0w/0.jpg) | [【Darth Maul】BeatSaber - Lost in the Rhythm - Jamie Berry ft. Octavia Rose](https://www.youtube.com/watch?v=PykMKfxPx0w) |
-| ![](https://img.youtube.com/vi/kEB11PQ9Eo8/0.jpg) | [Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8) |
-
 ### Anime & Cinematic Clips
 
 | Thumbnail | Title |
@@ -121,6 +112,16 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/XfTgCPUJwRk/0.jpg) | [Think of Me - Andrew Lloyd Webber's The Phantom of the Opera](https://www.youtube.com/watch?v=XfTgCPUJwRk) |
 | ![](https://img.youtube.com/vi/RgHtBxOs4qw/0.jpg) | [West Side Story \(7/10\) Movie CLIP - I Feel Pretty \(1961\) HD](https://www.youtube.com/watch?v=RgHtBxOs4qw) |
 | ![](https://img.youtube.com/vi/XWfJTaFqDJs/0.jpg) | [\# Gleipnir Opening \| Altern-ate- — H-el-ical//](https://www.youtube.com/watch?v=XWfJTaFqDJs) |
+| ![](https://img.youtube.com/vi/tKVN2mAKRI/0.jpg) | [DAOKO × 米津玄師『打上花火』MUSIC VIDEO](https://www.youtube.com/watch?v=tKVN2mAKRI) |
+
+### Game-Playing
+
+| Thumbnail | Title |
+| :--- | :--- |
+| ![](https://img.youtube.com/vi/o27W2ELMfho/0.jpg) | [BeatSaber ダースモールプレイ 13 Light It Up](https://www.youtube.com/watch?v=o27W2ELMfho) |
+| ![](https://img.youtube.com/vi/KnuBxD1vYe0/0.jpg) | [Golfing Over It - FULL GAME](https://www.youtube.com/watch?v=KnuBxD1vYe0) |
+| ![](https://img.youtube.com/vi/PykMKfxPx0w/0.jpg) | [【Darth Maul】BeatSaber - Lost in the Rhythm - Jamie Berry ft. Octavia Rose](https://www.youtube.com/watch?v=PykMKfxPx0w) |
+| ![](https://img.youtube.com/vi/kEB11PQ9Eo8/0.jpg) | [Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8) |
 
 ## Life Philosophy
 
