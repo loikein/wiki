@@ -47,12 +47,42 @@ Open Preferences > Advanced > Config Editor, search for `extensions.zotero.findP
 
 ```json
 {
-    "name":"Sci-Hub",
-    "method":"GET",
-    "url":"https://sci-hub.tw/{doi}",
-    "mode":"html",
-    "selector":"#pdf",
-    "attribute":"src",
-    "automatic":true
+	"name":"Sci-Hub",
+	"method":"GET",
+	"url":"https://sci-hub.tw/{doi}",
+	"mode":"html",
+	"selector":"#pdf",
+	"attribute":"src",
+	"automatic":true
 }
+```
+
+## Add Custom Lookup Engines
+
+References:
+
+- [locate \[Zotero Documentation\]](https://www.zotero.org/support/locate)
+- [Adding search engines \- Zotero Forums](https://forums.zotero.org/discussion/37129/adding-search-engines)
+- Some other engines: [zotero\-tools/engines.json](https://github.com/bwiernik/zotero-tools/blob/master/engines.json)
+
+1. Open `~/Zotero/locate/engines.json`.
+2. Before the closing `]`, add the following code:
+3. Download the icon, rename and place it at `~/Zotero/locate/sementic_scholar.png`.
+4. Restart Zotero.
+
+```json
+	,
+	{
+		"_name": "Semantic Scholar Search",
+		"_alias": "Semantic Scholar",
+		"_description": "Semantic Scholar Search",
+		"_icon": "file:///Users/loikein/Zotero/locate/sementic_scholar.png",
+		"_urlTemplate": "https://www.semanticscholar.org/search?year%5B0%5D={z:year?}&year%5B1%5D={z:year?}&q={z:title}&sort=relevance",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.semanticscholar.org/img/favicon.png"
+	}
 ```

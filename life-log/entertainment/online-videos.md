@@ -22,6 +22,7 @@
 | ![](https://img.youtube.com/vi/pcSlowAhvUk/0.jpg) | [Glenn Greenwald: Why privacy matters](https://www.youtube.com/watch?v=pcSlowAhvUk) |
 | ![](https://img.youtube.com/vi/q5TSmPlXkrY/0.jpg) | [周孝正：中国社会问题分析（完整版）](https://www.youtube.com/watch?v=q5TSmPlXkrY&t=32s) |
 | ![](https://img.youtube.com/vi/Bj0ymOFbaXU/0.jpg) | [i call this piece "echoes of the past"](https://www.youtube.com/watch?v=Bj0ymOFbaXU) |
+| ![](https://img.youtube.com/vi/ngO-YS_34RM/0.jpg) | [端傳媒五週年：我們還能在斷裂世界中建立連結嗎？](https://www.youtube.com/watch?v=ngO-YS_34RM) |
 
 ## Entertainment
 
