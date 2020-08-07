@@ -51,6 +51,7 @@ Films that I have seen.
 | Star Wars (Episode IV – A New Hope) | George Lucas | George Lucas | 1977 | [IMDb](https://www.imdb.com/title/tt0076759/), [豆瓣](https://movie.douban.com/subject/1293838/) | 2020-06-21 | ★★★☆☆ | |
 | Star Wars (Episode V) - The Empire Strikes Back |  Irvin Kershner |  Leigh Brackett, Lawrence Kasdan, George Lucas | 1980 | [IMDb](https://www.imdb.com/title/tt0080684/), [豆瓣](https://movie.douban.com/subject/1296528/) | 2020-06-22 | ★★★★☆ | |
 | Star Wars (Episode VI) - Return of the Jedi | Richard Marquand | Lawrence Kasdan, George Lucas | 1983 | [IMDb](https://www.imdb.com/title/tt0086190/), [豆瓣](https://movie.douban.com/subject/1297151/) | 2020-07-03 | ★★★★☆ | |
+| Radioactive | Marjane Satrapi | Jack Thorne | 2019 | [IMDb](https://www.imdb.com/title/tt6017756/), [豆瓣](https://movie.douban.com/subject/26979354/) | 2020-08-05 | ★★☆☆☆ | 剧本零碎得一塌糊涂，感觉很有野心然而并没有什么卵用，白瞎了牛逼卡司和牛逼摄影。 |
 
 ## Animated Films
 

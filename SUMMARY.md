@@ -14,6 +14,7 @@
   * [Custom JavaScript](computer/internet/js.md)
 
 * [Other Software](computer/software-usage/)
+  * [Command Line Tools](computer/software-usage/command-line.md)
   * [Firefox](computer/software-usage/firefox.md)
   * [Vimium](computer/software-usage/vimium.md)
   * [Zotero](computer/software-usage/zotero.md)
