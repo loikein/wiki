@@ -3,7 +3,8 @@
 References:
 
 - [The Linux man-pages project](https://www.kernel.org/doc/man-pages/)
-- [Data Wrangling · the missing semester of your cs education](https://missing.csail.mit.edu/2020/data-wrangling/)
+- [Data Wrangling · the missing semester of your cs education (2020)](https://missing.csail.mit.edu/2020/data-wrangling/)
+- [Command-line environment · the missing semester of your cs education (2019)](https://missing.csail.mit.edu/2019/command-line/)
 
 Benchmark for some of the examples:
 
@@ -22,9 +23,24 @@ $ curl --head --silent google.com
 # 
 ```
 
+## cd
+
+Online manual: [cd(1p) - Linux manual page](https://man7.org/linux/man-pages/man1/cd.1p.html)
+
+```bash
+# Go to home
+$ cd ~
+
+# Go to last directory
+$ cd -
+```
+
 ## grep
 
 Online manual: [grep(1) - Linux manual page](https://man7.org/linux/man-pages/man1/grep.1.html)
+
+- Use extended regex: `grep -E` or `egrep` (E for extended-regexp)
+- Use fixed string instead of regex: `grep -F` or `fgrep` (F for fixed-strings)
 
 Example:
 
@@ -34,11 +50,32 @@ $ curl --head --silent google.com | grep GMT
 # Expires: Sun, 06 Sep 2020 19:19:53 GMT
 ```
 
-## less
+## head, tail
+
+Online manual:
+
+- [head(1) - Linux manual page](https://man7.org/linux/man-pages/man1/head.1.html)
+- [tail(1) - Linux manual page](https://man7.org/linux/man-pages/man1/tail.1.html)
+
+- By number of lines: `head -n 10 <file name>`, `tail -n 10 <file name>`
+
+Example:
+
+```bash
+$ curl --head --silent google.com | head -n 2
+# HTTP/1.1 301 Moved Permanently
+# Location: http://www.google.com/
+
+$ curl --head --silent google.com | tail -n 2
+# X-Frame-Options: SAMEORIGIN
+# 
+```
+
+## less (man, git diff, git log, etc.)
 
 Online manual: [less(1) - Linux manual page](https://man7.org/linux/man-pages/man1/less.1.html)
 
-Text displayer, or: pager.
+Text displayer, aka, pager.
 
 ```bash
 $ curl www.google.com | less
@@ -80,6 +117,15 @@ $ seq 15 | sed '/.*[05]$/s//Buzz/; n; s//Buzz/; n; s//Buzz/; s/^[0-9]*/Fizz/'
 # 14
 # FizzBuzz
 ```
+
+## sort
+
+Online manual: [sort(1) - Linux manual page](https://man7.org/linux/man-pages/man1/sort.1.html)
+
+- Ascending order: (A-Z): `sort`
+- Descending order (Z-A): `sort -r` (r for reverse)
+- Ascending number order (1-9): `sort -n` (n for numeric-sort)
+- Descending number order (9-1): `sort -nr`
 
 ## tac
 
@@ -131,3 +177,27 @@ $ curl --head --silent google.com | tac
 Online manual: [top(1) - Linux manual page](https://man7.org/linux/man-pages/man1/top.1.html)
 
 Activity monitor in the shell.
+
+- Help: `?`
+- Sort by name: `o`
+- Search by pid: `O`
+
+## uniq
+
+Online manual: [uniq(1) - Linux manual page](https://man7.org/linux/man-pages/man1/uniq.1.html)
+
+- Display number of occurrences of each line, sorted by the most frequent: `sort <file> | uniq -c | sort -nr` (c for count, n for number, r for reverse)
+
+## wc
+
+Online manual: [wc(1) - Linux manual page](https://man7.org/linux/man-pages/man1/wc.1.html)
+
+Count number of lines/words/characters.
+
+Example:
+
+```bash
+$ curl --head --silent google.com | wc --lines
+$ curl --head --silent google.com | wc -l
+#       11
+```

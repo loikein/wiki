@@ -46,7 +46,7 @@ Find Mac model ID:
 $ sysctl hw.model
 ```
 
-### System Maintenance
+### System Setting & Maintenance
 
 Kill Quick Look:
 
