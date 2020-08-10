@@ -79,6 +79,13 @@ $ defaults write com.apple.PowerChime ChimeOnNoHardware 0
 $ killall PowerChime
 ```
 
+Make hidden apps' icon transparent in the dock: \([credit](https://missing.csail.mit.edu/2019/os-customization/#macos)\)
+
+```bash
+$ defaults write com.apple.dock showhidden 1
+$ killall Dock
+```
+
 ### Danger Zone
 
 When some file cannot be accessed:

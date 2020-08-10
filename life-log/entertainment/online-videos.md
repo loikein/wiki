@@ -166,6 +166,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/pzKcWl95q0c/0.jpg) | [Rewatching the Original iPad Keynote](https://www.youtube.com/watch?v=pzKcWl95q0c) |
 | ![](https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/38680_480x360.jpg) | [Yochai Benkler: The new open-source economics \| TED Talk](https://www.ted.com/talks/yochai_benkler_the_new_open_source_economics) |
 | ![](https://img.youtube.com/vi/hJiSog_EN0k/0.jpg) | [Identifying Apple Adapters by Touch](https://www.youtube.com/watch?v=hJiSog_EN0k) |
+| ![](https://img.youtube.com/vi/DDtM9caQ97I/0.jpg) | [Securing Web Apps with Modern Platform Features \(Google I/O ’19\)](https://www.youtube.com/watch?v=DDtM9caQ97I) |
 
 ### Futurology
 

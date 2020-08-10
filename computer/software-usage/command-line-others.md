@@ -47,6 +47,10 @@ Repository: [BurntSushi/ripgrep: ripgrep recursively searches directories for a 
 
 ## Others
 
+### buku (bookmark manager)
+
+Repository: [jarun/buku: Browser-independent bookmark manager](https://github.com/jarun/buku)
+
 ### fzf (find anything)
 
 Repository: [junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)  
