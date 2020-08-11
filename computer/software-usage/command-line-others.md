@@ -88,6 +88,13 @@ Repository: [jarun/buku: Browser-independent bookmark manager](https://github.co
 Repository: [junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)  
 A great demo video: [Vim universe. fzf - command line fuzzy finder - YouTube](https://www.youtube.com/watch?v=qgG5Jhi_Els)
 
+### ranger (file manager)
+
+Repository: [ranger/ranger: A VIM-inspired filemanager for the console](https://github.com/ranger/ranger)  
+Documentation: [ranger.github.io/](https://ranger.github.io/)
+
+Add some icons: [alexanderjeurissen/ranger_devicons: Ranger plugin that adds file glyphs / icon support to Ranger](https://github.com/alexanderjeurissen/ranger_devicons)
+
 ### tldr (simplified man)
 
 Repository: [tldr-pages/tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr)  

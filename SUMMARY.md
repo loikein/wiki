@@ -20,6 +20,7 @@
   * [Vimium](computer/software-usage/vimium.md)
   * [Zotero](computer/software-usage/zotero.md)
   * [espanso](computer/software-usage/espanso.md)
+  * [Alfred](computer/software-usage/alfred.md)
 
 ## Programming
 

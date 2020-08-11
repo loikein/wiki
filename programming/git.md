@@ -254,9 +254,9 @@ $ git merge origin/master
 $ git commit
 ```
 
-### Submodules
+## Submodule
 
-Add submodule:
+### Add
 
 ```bash
 $ git submodule add https://github.com/something/something.git
@@ -267,6 +267,8 @@ Initial pull submodule:
 ```bash
 $ git submodule update --init --recursive
 ```
+
+### Update (Fetch)
 
 Update all submodules: \([credit](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules#comment9839868_1032653)\)
 
@@ -280,6 +282,8 @@ Show list of all submodules without entering less: \([credit](https://stackoverf
 $ git config --file .gitmodules --get-regexp path | awk '{ print $2 }'
 ```
 
+### Edit
+
 Make changes to submodules without committing: (in `.gitmodules`)
 
 ```text
@@ -288,6 +292,17 @@ Make changes to submodules without committing: (in `.gitmodules`)
     url = https://github.com/something/something.git
 +    ignore = untracked
 ```
+
+Change the directory name for a submodule: \([credit](https://stackoverflow.com/a/5540263/10668706)\)
+
+1. Update `.gitmodules`.
+1. Run `git add .gitmodules`
+1. Run `git mv /path/to/old/directory /path/to/new/directory`
+1. Run `git add .`
+
+### Remove
+
+Reference: [github - What is the current way to remove a git submodule? - Stack Overflow](https://stackoverflow.com/questions/29850029/what-is-the-current-way-to-remove-a-git-submodule)
 
 ## Git Flow
 
