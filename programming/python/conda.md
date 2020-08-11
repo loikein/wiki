@@ -27,3 +27,27 @@ Delete an environment:
 $ conda remove --name my-env --all --yes
 $ conda remove -n my-env --all -y
 ```
+
+## Managing Packages
+
+### Force Re-installation
+
+Force reinstalling:
+
+```bash
+$ conda install numpy --force-reinstall
+```
+
+If that doesn't work:
+
+1. Open conda's package directories. (example: Miniconda)
+    - `/opt/miniconda3/pkgs/`
+    - `/opt/miniconda3/envs/my-env/lib/python3.7/site-packages/`
+1. Remove the package.
+1. Run `conda env update`.
+
+If that doesn't work:
+
+1. Switch to base environment.
+1. Delete `my-env` with `conda remove -n my-env --all -y`
+1. Create it again with `conda env create -f environment.yml`

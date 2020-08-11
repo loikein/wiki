@@ -43,7 +43,39 @@ Online manual: [htop(1) - Linux manual page](https://www.man7.org/linux/man-page
 
 ### ripgrep, rg (grep)
 
-Repository: [BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern](https://github.com/BurntSushi/ripgrep)
+Repository: [BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern](https://github.com/BurntSushi/ripgrep)  
+Guide: [ripgrep/GUIDE.md at master · BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)
+
+- Literal match: `rg -F <string>` (F for fixed-strings)
+- Case insensitive: `rg -i` (i for ignore-case)
+
+Example: find text in all files in current directory
+
+```sh
+$ rg -i readme
+# programming/static-site/gatsby.md
+# 73:    ├── README.md
+# 
+# computer/software-usage/command-line-built-in.md
+# 139:$ cat README.md
+# 148:$ tac README.md
+# 
+# computer/software-usage/command-line-others.md
+# 55:$ rg -i readme
+# 57:# 139:$ cat README.md
+# 58:# 148:$ tac README.md
+# 61:# 3:* [Introduction](README.md)
+# 62:# 32:* [Python](programming/python/README.md)
+# 63:# 56:* [衣着打扮](life-log/dressing-grooming/README.md)
+# 64:# 65:* [Entertainment](life-log/entertainment/README.md)
+# 67:# 73:    ├── README.md
+# 
+# SUMMARY.md
+# 3:* [Introduction](README.md)
+# 32:* [Python](programming/python/README.md)
+# 56:* [衣着打扮](life-log/dressing-grooming/README.md)
+# 65:* [Entertainment](life-log/entertainment/README.md)
+```
 
 ## Others
 

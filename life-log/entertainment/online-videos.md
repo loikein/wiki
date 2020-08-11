@@ -182,6 +182,8 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/rI8tNMsozo0/0.jpg) | [Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0) |
 | ![](https://img.youtube.com/vi/4kH4T8uwHMw/0.jpg) | [Piet Programming Language Tutorial](https://www.youtube.com/watch?v=4kH4T8uwHMw) |
 | ![](https://img.youtube.com/vi/o9pEzgHorH0/0.jpg) | [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0) |
+| ![](https://img.youtube.com/vi/uzMzriVj75M/0.jpg) | [The web is my private playground \| Louis Hoebregts](https://www.youtube.com/watch?v=uzMzriVj75M) |
+| ![](https://img.youtube.com/vi/aoBWhCu6Gq0/0.jpg) | [dotCSS 2017 \- Louis Hoebregts \- CSS Christmath](https://www.youtube.com/watch?v=aoBWhCu6Gq0) |
 
 ### Design
 
