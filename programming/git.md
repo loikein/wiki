@@ -304,6 +304,8 @@ Change the directory name for a submodule: \([credit](https://stackoverflow.com/
 
 Reference: [github - What is the current way to remove a git submodule? - Stack Overflow](https://stackoverflow.com/questions/29850029/what-is-the-current-way-to-remove-a-git-submodule)
 
+## Pre-Commit Hook
+
 ## Git Flow
 
 References:

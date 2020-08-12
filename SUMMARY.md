@@ -16,6 +16,7 @@
 * [Other Software](computer/software-usage/)
   * [Built-In Shell Commands](computer/software-usage/command-line-built-in.md)
   * [Other Command Line Tools](computer/software-usage/command-line-others.md)
+  * [Vim](computer/software-usage/vim.md)
   * [Firefox](computer/software-usage/firefox.md)
   * [Vimium](computer/software-usage/vimium.md)
   * [Zotero](computer/software-usage/zotero.md)

@@ -48,6 +48,6 @@ If that doesn't work:
 
 If that doesn't work:
 
-1. Switch to base environment.
+1. Switch to base environment or run `conda deactivate`
 1. Delete `my-env` with `conda remove -n my-env --all -y`
 1. Create it again with `conda env create -f environment.yml`
