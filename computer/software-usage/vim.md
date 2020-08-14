@@ -1,5 +1,11 @@
 # Vim
 
+References:
+
+- [Editors (Vim) · the missing semester of your cs education](https://missing.csail.mit.edu/2020/editors/)
+- `$ vimtutor`
+- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
+
 ## General
 
 General notes:
@@ -61,6 +67,9 @@ e
 
 " Previous word's first letter (back)
 b
+
+" Previous word's last letter
+ge
 
 " Beginning of the line
 0
@@ -142,6 +151,9 @@ x
 " Undo
 u
 
+" Undo the whole line
+U
+
 " Redo
 <C>r
 ```
@@ -197,7 +209,7 @@ yy
 " Copy (example: from cursor until the end of the word)
 ye
 
-" Paste
+" Paste, or put what's just deleted below the cursor
 p
 ```
 

@@ -88,6 +88,8 @@ Repository: [jarun/buku: Browser-independent bookmark manager](https://github.co
 Repository: [junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)  
 A great demo video: [Vim universe. fzf - command line fuzzy finder - YouTube](https://www.youtube.com/watch?v=qgG5Jhi_Els)
 
+[\[Question\] how can I toggle exact match behavior in fzf · Issue \#1265 · junegunn/fzf](https://github.com/junegunn/fzf/issues/1265)
+
 ### ranger (file manager)
 
 Repository: [ranger/ranger: A VIM-inspired filemanager for the console](https://github.com/ranger/ranger)  

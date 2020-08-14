@@ -23,6 +23,7 @@
 | ![](https://img.youtube.com/vi/q5TSmPlXkrY/0.jpg) | [周孝正：中国社会问题分析（完整版）](https://www.youtube.com/watch?v=q5TSmPlXkrY&t=32s) |
 | ![](https://img.youtube.com/vi/Bj0ymOFbaXU/0.jpg) | [i call this piece "echoes of the past"](https://www.youtube.com/watch?v=Bj0ymOFbaXU) |
 | ![](https://img.youtube.com/vi/ngO-YS_34RM/0.jpg) | [端傳媒五週年：我們還能在斷裂世界中建立連結嗎？](https://www.youtube.com/watch?v=ngO-YS_34RM) |
+| ![](https://img.youtube.com/vi/eeAki05r8ZI/0.jpg) | [李敖北大演讲 高清完全版（未删减）](https://www.youtube.com/watch?v=eeAki05r8ZI&t=645) |
 
 ## Entertainment
 
@@ -134,7 +135,8 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/cZYNADOHhVY/0.jpg) | [The Fable of the Dragon-Tyrant](https://www.youtube.com/watch?v=cZYNADOHhVY) |
 | ![](https://img.youtube.com/vi/MBRqu0YOH14/0.jpg) | [Optimistic Nihilism](https://www.youtube.com/watch?v=MBRqu0YOH14) |
 | ![](https://img.youtube.com/vi/wfYbgdo8e-8/0.jpg) | [You Are Two](https://www.youtube.com/watch?v=wfYbgdo8e-8) |
-| ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube.com/watch?v=nQHBAdShgYI) \(You can't stay awake forever\)
+| ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube.com/watch?v=nQHBAdShgYI) \(You can't stay awake forever\) |
+| ![](https://img.youtube.com/vi/9dZZY4Xi4UU/0.jpg) | [迈克尔・桑德尔 正义 如何做是好？【12 集完整版】](https://www.youtube.com/watch?v=9dZZY4Xi4UU) |
 
 ### Psychology
 
