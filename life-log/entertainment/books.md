@@ -62,7 +62,7 @@ DOING: Move from Douban.
 
 | Title | Author | Year | Link | Finish | Rating | Review |
 |------------|-------------|------|-------|--------|--------|--------|
-| 全职高手 | 蝴蝶蓝 | 2014 | [扫文小院](http://saowen.net/novels/view/572/) | ? | ★★★★★ | 正在看第二遍 |
+| 全职高手 | 蝴蝶蓝 | 2014 | [扫文小院](http://saowen.net/novels/view/572/) | ? | ★★★★★ | 看了两遍 |
 | 美食供应商 | 会做菜的猫 | 2016~now | [起点](https://book.qidian.com/info/1003667321/) | Pausing | ★★★★☆ |  |
 | 刀锋与诗行 | 荀予刃 | 2017 | [扫文小院](http://saowen.net/novels/view/41495/) | 2017-08-28 | ★★★★☆ | [🔗](https://blog.loikein.one/2017/08/blog-post_29.html) |
 | 设计师 | 常叁思 | 2016 | [扫文小院](http://saowen.net/novels/view/19428/) | ? | ★★★★★ | 看了两遍 |
@@ -103,7 +103,8 @@ DOING: Move from Douban.
 | 侯门医女 | 安筱楼 | 2014 | | 2020-08-02 | Stopped | 作者写不好大场面，越往后越无聊。 |
 | 老攻身患绝症 | 不会下棋 | 2019 | [扫文小院](http://saowen.net/novels/view/61202/) | 2020-08-09 | ★★★★☆ | 不要多想，无脑看就挺爽的。 |
 | 宁死也要 OOC | 不是风动 | 2018 | [扫文小院](http://saowen.net/novels/view/48183/) | 2020-08-09 | ★★★★☆ | |
-| 不败战神 | 方想 | 2015 | [扫文小院](http://saowen.net/novels/view/36772/) | 2020.08.11 | ★★★★☆ | 本来以为已经属于该作者较不烂尾的书之一了，没想到大结局几行字就交待完了，真是烂得彻底。 |
+| 不败战神 | 方想 | 2015 | [扫文小院](http://saowen.net/novels/view/36772/) | 2020.08.11 | ★★★☆☆ | 本来以为已经属于该作者较不烂尾的书之一了，没想到大结局几行字就交待完了，真是烂得彻底。 |
+| 卡徒 | 方想 | 2010 | [扫文小院](http://saowen.net/novels/view/2582/) | 2020.08.15 | ★★★★☆ | 居然大结局还不错。 |
 
 <!--
 | 麒麟 | 桔子树 | 2008~ | [扫文小院](http://saowen.net/novels/view/675/) | About 2010 | ★★★★★ | 作者本人不行。 |
