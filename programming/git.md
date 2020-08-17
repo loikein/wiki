@@ -239,19 +239,18 @@ $ git push -d origin my-old-branch
 
 ### Merge Master into Branch
 
-Credits: [1](https://stackoverflow.com/questions/16955980/git-merge-master-into-feature-branch#comment66136906_16957483), [2](https://gist.github.com/santisbon/a1a60db1fb8eecd1beeacd986ae5d3ca)
+Credit: GitHub
 
 ```bash
-# Pull newest version
-$ git fetch
+# #From your project repository, bring in the changes and test.
+$ git fetch origin
+$ git checkout -b "my-branch" "origin/my-branch"
+$ git merge "master"
 
-# Do the merge
-$ git merge origin/master
-
-# If any conflict appears, solve it…
-
-# Finally
-$ git commit
+# Merge the changes and update on remote.
+$ git checkout "master"
+$ git merge --no-ff "my-branch"
+$ git push origin "master"
 ```
 
 ## Submodule
