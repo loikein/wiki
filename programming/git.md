@@ -242,7 +242,7 @@ $ git push -d origin my-old-branch
 Credit: GitHub
 
 ```bash
-# #From your project repository, bring in the changes and test.
+# From your project repository, bring in the changes and test.
 $ git fetch origin
 $ git checkout -b "my-branch" "origin/my-branch"
 $ git merge "master"

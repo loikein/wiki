@@ -12,6 +12,16 @@ Encode space as: +
 Keyword:         es
 ```
 
+### hndex
+
+Full-text search engine for Hacker News.
+
+```text
+URL:             https://hndex.org/?q={query}
+Encode space as: +
+Keyword:         hn
+```
+
 ### Linguee
 
 Set the keyword the same as dictionary's shortcut to remind yourself there's that.
@@ -22,7 +32,7 @@ Encode space as: +
 Keyword:         d
 ```
 
-## Useful Workflows ()
+## Useful Workflows
 
 Workflow function requires a paid license. All tested with Alfred 4.1 on macOS 10.15.
 
