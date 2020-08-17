@@ -8,6 +8,19 @@ References:
 
 ## Managing Environments
 
+Toggling channel priority:
+
+```bash
+# see the current setting
+$ conda config --describe channel_priority
+
+# set to flexible if environment conflict just won't resolve
+$ conda config --set channel_priority flexible
+
+# set to strict if feeling lucky
+$ conda config --set channel_priority strict
+```
+
 Create an environment from file:
 
 ```bash
