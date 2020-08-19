@@ -114,7 +114,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/XfTgCPUJwRk/0.jpg) | [Think of Me - Andrew Lloyd Webber's The Phantom of the Opera](https://www.youtube.com/watch?v=XfTgCPUJwRk) |
 | ![](https://img.youtube.com/vi/RgHtBxOs4qw/0.jpg) | [West Side Story \(7/10\) Movie CLIP - I Feel Pretty \(1961\) HD](https://www.youtube.com/watch?v=RgHtBxOs4qw) |
 | ![](https://img.youtube.com/vi/XWfJTaFqDJs/0.jpg) | [\# Gleipnir Opening \| Altern-ate- — H-el-ical//](https://www.youtube.com/watch?v=XWfJTaFqDJs) |
-| ![](https://img.youtube.com/vi/tKVN2mAKRI/0.jpg) | [DAOKO × 米津玄師『打上花火』MUSIC VIDEO](https://www.youtube.com/watch?v=tKVN2mAKRI) |
+| ![](https://img.youtube.com/vi/-tKVN2mAKRI/0.jpg) | [DAOKO × 米津玄師『打上花火』MUSIC VIDEO](https://www.youtube.com/watch?v=-tKVN2mAKRI) |
 
 ### Game-Playing
 
