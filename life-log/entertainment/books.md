@@ -30,7 +30,8 @@ DOING: Move from Douban.
 | Free Software, Free Society (3rd Ed.) | Richard M. Stallman (北京 GNU/Linux 用戶组) |  | 2016 | [GoodReads](https://www.goodreads.com/book/show/942560/), [豆瓣](https://book.douban.com/subject/26921083/) | 2020-06-14 | ★★★☆☆ | The last chapter is the best part. |
 | 中国影帝温家宝 | 余杰 | ? | 2010 | [GoodReads](https://www.goodreads.com/book/show/49852646/) | 2020-06-15 | ★★★★☆ | 不同章节像不同人写的，不过还是值得一读。 |
 | Shark's Fin and Sichuan Pepper | Fuchsia Dunlop (何雨珈) | 上海译文出版社 | 2018 | [GoodReads](https://www.goodreads.com/book/show/1195268/), [豆瓣](https://book.douban.com/subject/30183051/) | 2020-06-17 | ★★★★☆ |  |
-| Grokking Algorithms | Aditya Bhargava (袁国忠) | 人民邮电出版社 | 2017 | [GoodReads](https://www.goodreads.com/book/show/22847284/), [豆瓣](https://book.douban.com/subject/26979890/) | 2020-08-20 | ★★★★☆ |  |
+| Grokking Algorithms | Aditya Bhargava (袁国忠) | 人民邮电出版社 | 2017 | [GoodReads](https://www.goodreads.com/book/show/22847284/), [豆瓣](https://book.douban.com/subject/26979890/) | 2020-08-20 | ★★★★☆ | 看完书再看[写给媳妇儿的算法](https://www.jianshu.com/nb/29241420)，效果尤佳。 |
+| 十個詞彙裡的中國 | 余華 | 麥田出版 | 2010 | [GoodReads](https://www.goodreads.com/book/show/12884314/) | 2020-08-20 | ★★★★☆ |  |
 | 地下：东欧萨米亚特随笔 (Samizdat Writings of Eastern Europe) | Ivan Klima et al (景凯旋) | 花城出版社 | 2010 | [豆瓣](https://book.douban.com/subject/4841640/) |  |  |  |
 
 ### Reference Books
@@ -53,6 +54,8 @@ DOING: Move from Douban.
 | Never Let Me Go | Kazuo Ishiguro (Narrated: Rosalyn Landor) | Random House Audio | 2005 | [GoodReads](https://www.goodreads.com/book/show/13079982/), [豆瓣](https://book.douban.com/subject/5247109/)  | 2018-10-15 | ★★★★★ | |
 | Harry Potter and the Methods of Rationality | Eliezer Yudkowsky (HPMOR 翻译组) |  | 2015 | [GoodReads](https://www.goodreads.com/book/show/10016013/), [豆瓣](https://book.douban.com/subject/30180915/) | 2020-03-20 | ★★★★★ | |
 | Hyperion | Dan Simmons (潘振华, 官善明, 李懿) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/77566/), [豆瓣](https://book.douban.com/subject/25941890/) | 2020-08-18 | ★★★★☆ | |
+| The Fall of Hyperion | Dan Simmons (潘振华, 李懿) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/77565/), [豆瓣](https://book.douban.com/subject/25941905/) | 2020-08-20 | ★★★★☆ | |
+| The Gods Themselves | Isaac Asimov (崔正男) | 江苏凤凰文艺出版社 | 2014 | [GoodReads](https://www.goodreads.com/book/show/41821/), [豆瓣](https://book.douban.com/subject/26264967/) | 2020-08-20 | ★★★☆☆ | |
 
 ### Mangas
 

@@ -41,6 +41,8 @@
 | ![](https://img.youtube.com/vi/IGYv6ev3-4U/0.jpg) | [Sasha Velour \| NIGHTGOWNS 1 \| "Love Song For A Vampire"](https://www.youtube.com/watch?v=IGYv6ev3-4U) |
 | ![](https://img.youtube.com/vi/n0DcGR6T1eA/0.jpg) | [【刀剣乱舞】やればできる刀達【手描き 】](https://www.youtube.com/watch?v=n0DcGR6T1eA) |
 | ![](https://img.youtube.com/vi/xuCn8ux2gbs/0.jpg) | [history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs) |
+| ![](https://img.youtube.com/vi/Rcf9zK9FfDQ/0.jpg) | [XX 小区 XX 群租房整点新闻](https://www.youtube.com/watch?v=Rcf9zK9FfDQ) |
+| ![](https://img.youtube.com/vi/WynMZz_7V_U/0.jpg) | [群租房整点新闻（第二集）\(有高清模式\)](https://www.youtube.com/watch?v=WynMZz_7V_U) |
 
 ### Comedy
 
