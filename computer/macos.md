@@ -66,6 +66,12 @@ Find and delete all .DS_Store files in current folder:
 $ find . -name '.DS_Store' -type f -delete
 ```
 
+Enable three-finger dragging: \([credit](https://apple.stackexchange.com/a/362308)\)
+
+```bash
+$ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag 1 && defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag 1
+```
+
 Show hidden files: \([credit](https://apple.stackexchange.com/a/100040/218914)\)
 
 ```bash

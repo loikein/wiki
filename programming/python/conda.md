@@ -45,10 +45,12 @@ $ conda remove -n my-env --all -y
 
 ### Force Re-installation
 
-Force reinstalling:
+First, deactivate the current environment and activate again.
+
+If that doesn't work:
 
 ```bash
-$ conda install numpy --force-reinstall
+$ conda install some-bad-package --force-reinstall
 ```
 
 If that doesn't work:

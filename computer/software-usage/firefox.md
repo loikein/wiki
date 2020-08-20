@@ -55,6 +55,15 @@ Disclaimer: I use Pinterest a lot, but it is polluting search results too much I
 
 See [Vimium](vimium.md).
 
+## Hidden Configuration Pages
+
+```text
+about:about         All hidden pages
+about:config        Advanced settings
+about:profiles      Profile manager
+about:support       Detailed "about this browser"
+```
+
 ## Privacy-Focused Configurations
 
 References:
