@@ -56,6 +56,12 @@ DOING: Move from Douban.
 | Hyperion | Dan Simmons (潘振华, 官善明, 李懿) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/77566/), [豆瓣](https://book.douban.com/subject/25941890/) | 2020-08-18 | ★★★★☆ | |
 | The Fall of Hyperion | Dan Simmons (潘振华, 李懿) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/77565/), [豆瓣](https://book.douban.com/subject/25941905/) | 2020-08-20 | ★★★★☆ | |
 | The Gods Themselves | Isaac Asimov (崔正男) | 江苏凤凰文艺出版社 | 2014 | [GoodReads](https://www.goodreads.com/book/show/41821/), [豆瓣](https://book.douban.com/subject/26264967/) | 2020-08-20 | ★★★☆☆ | |
+| 尸语者 | 秦明 | 湖南文艺出版社 | 2012 | [GoodReads](https://www.goodreads.com/book/show/19093187/), [豆瓣](https://book.douban.com/subject/19950139/) | 2020-08-21 | ★★★☆☆ | |
+| 无声的证词 | 秦明 | 漓江出版社 | 2013 | [GoodReads](https://www.goodreads.com/book/show/22878656/), [豆瓣](https://book.douban.com/subject/24531011/) | 2020-08-21 | ★★★★☆ | |
+| 第十一根手指 | 秦明 | 湖南文艺出版社 | 2014 | [GoodReads](https://www.goodreads.com/book/show/32454985/), [豆瓣](https://book.douban.com/subject/25896617/) | 2020-08-22 | ★★★★☆ | |
+| 清道夫 | 秦明 | 湖南文艺出版社 | 2015 | [GoodReads](https://www.goodreads.com/book/show/25785472/), [豆瓣](https://book.douban.com/subject/26349251/) | 2020-08-22 | ★★★☆☆ | |
+| 幸存者 | 秦明 | 湖南文艺出版社 | 2016 | [GoodReads](https://www.goodreads.com/book/show/32613863/), [豆瓣](https://book.douban.com/subject/26772419/) | 2020-08-23 | ★★★★☆ | |
+| 偷窥者 | 秦明 | 湖南文艺出版社 | 2017 | [GoodReads](https://www.goodreads.com/book/show/36635542/), [豆瓣](https://book.douban.com/subject/27083910/) | Stopped | | 一上来大段第三人称环境描写，不像纪实小说了，不喜欢。 |
 
 ### Mangas
 
