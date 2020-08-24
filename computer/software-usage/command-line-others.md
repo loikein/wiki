@@ -26,14 +26,17 @@ $ curl www.google.com | bat
 ### exa (ls)
 
 Repository: [ogham/exa: A modern version of ‘ls’.](https://github.com/ogham/exa)  
-Documentation: [Introduction · exa](https://the.exa.website/introduction)
+Documentation: [Command-line options · exa](https://the.exa.website/docs/command-line-options)
+
+- Modified date in reverse order (newest on top): `exa --long --reverse --sort=modified` or `ll -rs=mod` with alias below.
+- Always put folders on top: `exa --group-directories-first`
 
 Useful alias:
 
 ```bash
-alias ls='exa --icons --all'
-alias ll='exa --long --icons --all'
-alias lt='exa --long --icons --all --tree --level=2'
+alias ls='exa --all --icons'
+alias ll='exa --all --icons --header --long'
+alias lt='exa --all --icons --header --long --tree --level=2'
 ```
 
 ### htop (top)

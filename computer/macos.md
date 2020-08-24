@@ -12,6 +12,12 @@ Programmes that I love or cannot use my Mac without.
 
 TBA
 
+### Export Safari Reading List
+
+According to [Export a list of URLs from Safari Reading List – alexwlchan](https://alexwlchan.net/2015/11/export-urls-from-safari-reading-list/), just download the script and put it anywhere, then call it with `python3 readinglist.py`.
+
+Just in case, I have created a copy of the script [here](https://gist.github.com/loikein/d9ebc90e65839c81088ec65caca3ebbe).
+
 ### Parallels Desktop
 
 ```text

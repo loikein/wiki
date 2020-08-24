@@ -64,6 +64,19 @@ about:profiles      Profile manager
 about:support       Detailed "about this browser"
 ```
 
+For example, to enable `prefers-reduced-motion` within the browser, add the following pair to `about:config`: \([credit](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#User_Preferences)\)
+
+```text
+ui.prefersReducedMotion        true
+```
+
+or add the following to [`user.js`](#better-way-user-js):
+
+```text
+// set prefers-reduced-motion
+user_pref("ui.prefersReducedMotion", true);
+```
+
 ## Privacy-Focused Configurations
 
 References:
