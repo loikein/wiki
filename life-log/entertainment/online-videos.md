@@ -43,6 +43,7 @@
 | ![](https://img.youtube.com/vi/xuCn8ux2gbs/0.jpg) | [history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs) |
 | ![](https://img.youtube.com/vi/Rcf9zK9FfDQ/0.jpg) | [XX 小区 XX 群租房整点新闻](https://www.youtube.com/watch?v=Rcf9zK9FfDQ) |
 | ![](https://img.youtube.com/vi/WynMZz_7V_U/0.jpg) | [群租房整点新闻（第二集）\(有高清模式\)](https://www.youtube.com/watch?v=WynMZz_7V_U) |
+| ![](http://i0.hdslb.com/bfs/archive/99b7596eca852e813fafe0fc3c3b2f7b3936de17.jpg) | [建议改成：骚 话 之 王](https://www.bilibili.com/video/av498099462) \(《海绵宝宝》骚话集\) |
 
 ### Comedy
 
@@ -139,6 +140,8 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/wfYbgdo8e-8/0.jpg) | [You Are Two](https://www.youtube.com/watch?v=wfYbgdo8e-8) |
 | ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube.com/watch?v=nQHBAdShgYI) \(You can't stay awake forever\) |
 | ![](https://img.youtube.com/vi/9dZZY4Xi4UU/0.jpg) | [迈克尔・桑德尔 正义 如何做是好？【12 集完整版】](https://www.youtube.com/watch?v=9dZZY4Xi4UU) |
+| ![](http://i0.hdslb.com/bfs/archive/f686399a41661f6be22a15a809109d23668c9d3f.jpg) | [章鱼哥【一个成年人的独白】 ](https://www.bilibili.com/video/av926338538) |
+| ![](http://i2.hdslb.com/bfs/archive/6d792b21efd828d498424acdc75e63fb4f0e16da.jpg) | [小时候看笑话，长大后看真实 ](https://www.bilibili.com/video/av285774045) |
 
 ### Psychology
 
@@ -178,6 +181,7 @@ Also see [Music](music.md).
 | :--- | :--- |
 | ![](https://img.youtube.com/vi/7Pq-S557XQU/0.jpg) | [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU) |
 | ![](https://img.youtube.com/vi/vl6jn-DdafM/0.jpg) | [We Are Going](https://www.youtube.com/watch?v=vl6jn-DdafM) |
+| ![](https://img.youtube.com/vi/MnT1xgZgkpk/0.jpg) | [What happens when our computers get smarter than we are? \| Nick Bostrom](https://www.youtube.com/watch?v=MnT1xgZgkpk) |
 
 ### Coding
 

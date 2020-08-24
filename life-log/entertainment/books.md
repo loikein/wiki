@@ -55,7 +55,7 @@ DOING: Move from Douban.
 | Harry Potter and the Methods of Rationality | Eliezer Yudkowsky (HPMOR 翻译组) |  | 2015 | [GoodReads](https://www.goodreads.com/book/show/10016013/), [豆瓣](https://book.douban.com/subject/30180915/) | 2020-03-20 | ★★★★★ | |
 | Hyperion | Dan Simmons (潘振华, 官善明, 李懿) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/77566/), [豆瓣](https://book.douban.com/subject/25941890/) | 2020-08-18 | ★★★★☆ | |
 | The Fall of Hyperion | Dan Simmons (潘振华, 李懿) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/77565/), [豆瓣](https://book.douban.com/subject/25941905/) | 2020-08-20 | ★★★★☆ | |
-| The Gods Themselves | Isaac Asimov (崔正男) | 江苏凤凰文艺出版社 | 2014 | [GoodReads](https://www.goodreads.com/book/show/41821/), [豆瓣](https://book.douban.com/subject/26264967/) | 2020-08-20 | ★★★☆☆ | |
+| The Gods Themselves | Isaac Asimov (崔正男) | 江苏凤凰文艺出版社 | 2014 | [GoodReads](https://www.goodreads.com/book/show/41821/), [豆瓣](https://book.douban.com/subject/26264967/) | 2020-08-20 | ★★★☆☆ | 第一章和第三章能打四星，第二章的设定是什么奇葩，最多只能打一星…… |
 | 尸语者 | 秦明 | 湖南文艺出版社 | 2012 | [GoodReads](https://www.goodreads.com/book/show/19093187/), [豆瓣](https://book.douban.com/subject/19950139/) | 2020-08-21 | ★★★☆☆ | |
 | 无声的证词 | 秦明 | 漓江出版社 | 2013 | [GoodReads](https://www.goodreads.com/book/show/22878656/), [豆瓣](https://book.douban.com/subject/24531011/) | 2020-08-21 | ★★★★☆ | |
 | 第十一根手指 | 秦明 | 湖南文艺出版社 | 2014 | [GoodReads](https://www.goodreads.com/book/show/32454985/), [豆瓣](https://book.douban.com/subject/25896617/) | 2020-08-22 | ★★★★☆ | |
