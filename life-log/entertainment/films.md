@@ -54,7 +54,7 @@ Films that I have seen.
 | Radioactive | Marjane Satrapi | Jack Thorne | 2019 | [IMDb](https://www.imdb.com/title/tt6017756/), [豆瓣](https://movie.douban.com/subject/26979354/) | 2020-08-05 | ★★☆☆☆ | 剧本零碎得一塌糊涂，感觉很有野心然而并没有什么卵用，白瞎了牛逼卡司和牛逼摄影。 |
 | Interstellar | Christopher Nolan | Jonathan Nolan, Christopher Nolan | 2014 | [IMDb](https://www.imdb.com/title/tt0816692/), [豆瓣](https://movie.douban.com/subject/1889243/) | 2020-08-15 | ★★★★★ | |
 | Irresistible  | Jon Stewart | Jon Stewart | 2020 | [IMDb](https://www.imdb.com/title/tt9076562/), [豆瓣](https://movie.douban.com/subject/30482204/) | 2020-08-17 | ★★★★☆ | |
-| Tenet | Christopher Nolan | Christopher Nolan | 2020 | [IMDb](https://www.imdb.com/title/tt6723592/), [豆瓣](https://movie.douban.com/subject/30444960/) | 2020-08-28 | ? | |
+| Tenet | Christopher Nolan | Christopher Nolan | 2020 | [IMDb](https://www.imdb.com/title/tt6723592/), [豆瓣](https://movie.douban.com/subject/30444960/) | 2020-08-31 | ★★★★★ | |
 
 <!-- 
 | The Syrian Bride | Eran Riklis | Suha Arraf, Eran Riklis | 2004 | [IMDb](https://www.imdb.com/title/tt0423310/), [豆瓣](https://movie.douban.com/subject/1785380/) | ? | ? | |

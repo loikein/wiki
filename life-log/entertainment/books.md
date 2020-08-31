@@ -119,9 +119,12 @@ DOING: Move from Douban.
 | 重生之人渣反派自救系统 | 墨香铜臭 | 2014 | [扫文小院](http://saowen.net/novels/view/13283/) | Stopped | | 男二什么脑残…… |
 | 天官赐福 | 墨香铜臭 | 2018 | [扫文小院](http://saowen.net/novels/view/43847/) | 2020-08-17 | ★★★★★ | |
 | 一觉醒来我变成了妖艳贱货 | 木瓜黄 | 2016 | [扫文小院](http://saowen.net/novels/view/41878/) | Stopped | | 请不要侮辱我的智商。 |
-| 快穿之打脸狂魔 | 风流书呆 | 2015 | [扫文小院](http://saowen.net/novels/view/16041/) | 2020-08-27 |★★★☆☆  | 除了第一个世界过于大纲文之外，其他十余个世界的设定情节俱佳，倒是主线不清不楚的。 |
-| 老师变成魅魔以后 | 黑糖煮酸梅 | 2017 | [扫文小院](http://saowen.net/novels/view/41227/) | 2020-08-28 |★★★★☆  | |
-
+| 快穿之打脸狂魔 | 风流书呆 | 2015 | [扫文小院](http://saowen.net/novels/view/16041/) | 2020-08-27 | ★★★☆☆ |除了第一个世界过于大纲文之外，其他十余个世界的设定情节俱佳，倒是主线不清不楚的。 |
+| 老师变成魅魔以后 | 黑糖煮酸梅 | 2017 | [扫文小院](http://saowen.net/novels/view/41227/) | 2020-08-28 | ★★★★☆ | |
+| 地下城生长日志 | 黑糖煮酸梅 | 2016 | [晋江](https://www.jjwxc.net/onebook.php?novelid=2658955) | 2020-08-29 | ★★★★★ | |
+| 这个梦我喜欢！ | 黑糖煮酸梅 | 2016 | [晋江](https://www.jjwxc.net/onebook.php?novelid=2569443) | 2020-08-30 | ★★★☆☆ | |
+| 致施法者伯里斯阁下及家属 | matthia | 2017 | [扫文小院](http://saowen.net/novels/view/41062/) | 2020-08-31 | ★★★☆☆ | |
+| 迷途 | 年终 | 2019 | [扫文小院](http://saowen.net/novels/view/49593/) |  |  | |
 
 <!--
 | 麒麟 | 桔子树 | 2008~ | [扫文小院](http://saowen.net/novels/view/675/) | About 2010 | ★★★★★ | 作者本人不行。 |

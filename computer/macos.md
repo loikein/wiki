@@ -54,6 +54,13 @@ $ sysctl hw.model
 
 ### System Setting & Maintenance
 
+Check SIP status:
+
+```bash
+$ csrutil status
+# System Integrity Protection status: enabled.
+```
+
 Kill Quick Look:
 
 ```bash
@@ -99,6 +106,8 @@ $ killall Dock
 ```
 
 ### Danger Zone
+
+Reference: [How to remove driver and kexts on Mac? : SteamController](https://www.reddit.com/r/SteamController/comments/edkq1r/how_to_remove_driver_and_kexts_on_mac/)
 
 When some file cannot be accessed:
 
