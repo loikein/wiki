@@ -105,6 +105,13 @@ $ defaults write com.apple.dock showhidden 1
 $ killall Dock
 ```
 
+Show Safari develop & debug menu item: \([credit](https://oku.edu.mie-u.ac.jp/~okumura/macosx/)\)
+
+```bash
+$ defaults write com.apple.Safari IncludeDebugMenu 1
+$ defaults write com.apple.Safari IncludeInternalDebugMenu 1
+```
+
 ### Danger Zone
 
 Reference: [How to remove driver and kexts on Mac? : SteamController](https://www.reddit.com/r/SteamController/comments/edkq1r/how_to_remove_driver_and_kexts_on_mac/)

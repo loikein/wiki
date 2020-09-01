@@ -73,6 +73,12 @@ Difference between most recent commit and second most recent commit: \([credit](
 $ git diff HEAD^ HEAD
 ```
 
+Difference between branches: \([credit](https://stackoverflow.com/a/9834872)\)
+
+```bash
+$ git diff branch_1..branch_2
+```
+
 Difference between staged \(added\) changes and most recent commit:
 
 ```bash
@@ -206,6 +212,13 @@ $ git checkout my-new-branch
 
 # or
 $ git checkout -b my-new-branch
+```
+
+Move files changes to another branch: \([credit](https://stackoverflow.com/a/35742820)\)
+
+```bash
+# p for patch
+$ git checkout <other_branch_name> <files/to/grab in/list/separated/by/spaces> -p
 ```
 
 Merge master to new branch: ([credit](https://stackoverflow.com/questions/16955980/git-merge-master-into-feature-branch#comment83176031_16957483))
