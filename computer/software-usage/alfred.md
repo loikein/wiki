@@ -32,6 +32,23 @@ Encode space as: +
 Keyword:         d
 ```
 
+### Google Translation
+
+```text
+URL:             https://translate.google.com/?tl=zh-CN&op=translate&sl=auto&tl=zh-CN#view=home&op=translate&sl=auto&tl=zh-CN&text={query}
+Encode space as: %20
+Keyword:         tran
+```
+
+
+### DeepL Translation
+
+```text
+URL:             https://www.deepl.com/translator#de/zh/{query}
+Encode space as: 
+Keyword:         tran
+```
+
 ## Useful Workflows
 
 Workflow function requires a paid license. All tested with Alfred 4.1 on macOS 10.15.

@@ -10,7 +10,11 @@ TV shows & Animes that I am watching/have watched.
 | Show Title | Director Name | Production Company | 20XX | [豆瓣](#) | SXXEXX |  | |
 | Show Title | Director Name | Production Company | 20XX | [MyAnimeList](#) | 20XX-XX-XX | ★★★★☆ | |
 
-## TV Shows
+## Live-Action
+
+| Title | Director/Main Creator | Production/Studio | Year | Link | Progress/Finish date | Rating | Review |
+|------------|-------------|--------------|------|-------|-------|--------|--------|
+| Almost Human | J. H. Wyman | Frequency Films, Bad Robot Productions, Warner Bros. Television | 2013 | [IMDb](https://www.imdb.com/title/tt2654580/), [豆瓣](https://movie.douban.com/subject/22519837/) |  |  | |
 
 ## Anime
 
@@ -25,5 +29,5 @@ TV shows & Animes that I am watching/have watched.
 | 異種族レビュアーズ | 小川優樹 | Passione | 2020 | [MyAnimeList](https://myanimelist.net/anime/40010/), [豆瓣](https://movie.douban.com/subject/34447531/) | 2020-07-16 | ★★★★★ | 色情画面不少，但基本都是擦边球，披着里番皮探索种族融合和女性主义的话题，应该任何性别的人看都会找到乐趣。 |
 | 転生したらスライムだった件 | 菊地康仁 | eight bit | 2019 | [MyAnimeList](https://myanimelist.net/anime/37430/), [豆瓣](https://movie.douban.com/subject/30163731/) | 2020-07-19 | ★★★★☆ | |
 | 転生したらスライムだった件 OVA | 菊地康仁 | eight bit | 2020 | [MyAnimeList](https://myanimelist.net/anime/38793/), [豆瓣](https://movie.douban.com/subject/30447592/) | E04 | |
-| この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | Stopped (E02) | ★☆☆☆☆ | 大笑了好几次但是实在蠢得没法看。 |
+| この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | Stopped (E02) | ★☆☆☆☆ | 实在蠢得没法看。 |
 | 宝石の国 | 京極尚彦 | Orange | 2017 | [MyAnimeList](https://myanimelist.net/anime/35557/), [豆瓣](https://movie.douban.com/subject/27047873/) | 2017-12-? | ★★★★★ | 首播的时候看的，正在看第二遍。(E03) |
