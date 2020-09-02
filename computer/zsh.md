@@ -23,7 +23,11 @@ alias git='LANG="zh_CN.UTF-8" git'
 ## Print All Colours
 
 ```sh
-$  for i in {0..255}; do print -Pn "%K{$i}  %...)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done
+$  for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done
+
+# or
+
+$ for i in {0..255}; do printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n"; done
 ```
 
 ## Antigen

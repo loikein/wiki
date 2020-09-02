@@ -7,8 +7,7 @@ References:
 - [Tmux Cheat Sheet & Quick Reference](https://tmuxcheatsheet.com/)
 - [tmux(1) - Linux manual page](https://man7.org/linux/man-pages/man1/tmux.1.html)
 - [Tmux 使用教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
-
-Note: consider changing the default key binding (`<C>a`) on local machine to work more smoothly on remote machines.
+- [The best and greatest tmux.conf ever](https://gist.github.com/spicycode/1229612)
 
 ## Session
 
@@ -31,11 +30,13 @@ $ tmux ls
 
 In Tmux sessions:
 
-- Detach: `<C>b d`
+- Detach current session: `<C>b d`
+- Rename current session: `<C>b $`
 
 ## Window (Tab)
 
 - Create new window: `<C>b c`
+- Close current window: `<C>b &`
 - Rename current window: `<C>b ,`
 - Go to window by order: `<C>b 0`, `<C>b 1`, etc.
 - Go to previous window: `<C>b p`
@@ -45,16 +46,39 @@ In Tmux sessions:
 
 - Split current window into horizontal panes: `<C>b "`
 - Split current window into vertical panes: `<C>b %`
+- Close current pane: `<C>b x`
 - Move between panes: `<C>b direction-key`
 - Zoom in & out to a pane: `<C>b z`
 - Change pane size: `<C>b <C>direction-key`
 
 ## Configuration
 
-### Scroll
+### Change Prefix Key
+
+In `.tmux.conf`:
+
+```text
+set-option prefix C-a
+```
+
+### 256 Colour
+
+Set alias: \([credit](https://unix.stackexchange.com/a/355391)\)
+
+```bash
+alias tmux='tmux -2'
+```
+
+In `.tmux.conf`:
+
+```text
+set -g default-terminal "screen-256color"
+```
+
+### Scroll & Click to Switch Panes
 
 Credit: [How do I scroll in tmux? - Super User](https://superuser.com/a/510310)
 
-```vim
+```text
 set -g mouse on
 ```
