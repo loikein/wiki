@@ -44,12 +44,14 @@ In Tmux sessions:
 
 ## Panes
 
-- Split current window into horizontal panes: `<C>b "`
-- Split current window into vertical panes: `<C>b %`
+- Split current window into horizontal panes \(`=`\): `<C>b "`
+- Split current window into vertical panes \(`||`\): `<C>b %`
 - Close current pane: `<C>b x`
 - Move between panes: `<C>b direction-key`
 - Zoom in & out to a pane: `<C>b z`
 - Change pane size: `<C>b <C>direction-key`
+
+<!-- - Rename current pane: `$ printf '\033]2;%s\033\\' 'title'` -->
 
 ## Configuration
 
@@ -81,4 +83,15 @@ Credit: [How do I scroll in tmux? - Super User](https://superuser.com/a/510310)
 
 ```text
 set -g mouse on
+```
+
+### Automatically Rename Window
+
+In `.tmux.conf`: \([credit](https://stackoverflow.com/a/45010147)\)
+
+```text
+# Automatically rename status
+set-option -g status-interval 5
+set-option -g automatic-rename on
+set-option -g automatic-rename-format '#{b:pane_current_path}'
 ```
