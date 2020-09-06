@@ -23,7 +23,8 @@ Must be installed after any other extensions that modifies new tab because Firef
 
 - [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
 - [Cookie AutoDelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
-- [Untrack Me](https://addons.mozilla.org/en-US/firefox/addon/untrack-me/): Remove tracking information from the URLs like [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/), but can be paused for 3 minutes when (rarely) causes unexpected behaviour.
+- [Neat URL](https://addons.mozilla.org/en-US/firefox/addon/neat-url/): Remove tracking information from the URLs like [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/), but can be paused for 3 minutes when (rarely) causes unexpected behaviour.  
+(Replaced [Untrack Me](https://addons.mozilla.org/en-US/firefox/addon/untrack-me/).)
 - [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/): Also works as IE tabs.
 - [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/): Summarises the terms of service of the current website.
 
