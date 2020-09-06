@@ -67,8 +67,9 @@
   * [Amazon Essentials](life-log/shopping-list/amazon-essentials.md)
 
 * [Entertainment](life-log/entertainment/README.md)
-  * [Online Videos](life-log/entertainment/online-videos.md)
-  * [Music](life-log/entertainment/music.md)
-  * [TV Shows & Animes](life-log/entertainment/tv-shows.md)
-  * [Films](life-log/entertainment/films.md)
   * [Books](life-log/entertainment/books.md)
+  * [Music](life-log/entertainment/music.md)
+  * [Films](life-log/entertainment/films.md)
+  * [TV Shows & Animes](life-log/entertainment/tv-shows.md)
+  * [Online Videos](life-log/entertainment/online-videos.md)
+  * [Video Games](life-log/entertainment/video-games.md)

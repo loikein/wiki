@@ -124,7 +124,8 @@ DOING: Move from Douban.
 | 地下城生长日志 | 黑糖煮酸梅 | 2016 | [晋江](https://www.jjwxc.net/onebook.php?novelid=2658955) | 2020-08-29 | ★★★★★ | |
 | 这个梦我喜欢！ | 黑糖煮酸梅 | 2016 | [晋江](https://www.jjwxc.net/onebook.php?novelid=2569443) | 2020-08-30 | ★★★☆☆ | |
 | 致施法者伯里斯阁下及家属 | matthia | 2017 | [扫文小院](http://saowen.net/novels/view/41062/) | 2020-08-31 | ★★★☆☆ | |
-| 迷途 | 年终 | 2019 | [扫文小院](http://saowen.net/novels/view/49593/) |  |  | |
+| 迷途 | 年终 | 2019 | [扫文小院](http://saowen.net/novels/view/49593/) | 2020-09-05 | ★★★★☆ | 很慢热，但是个好故事。 |
+| 深渊 | 棉 | 2010 | [扫文小院](http://saowen.net/novels/view/404/) |  |  |  |
 
 <!--
 | 麒麟 | 桔子树 | 2008~ | [扫文小院](http://saowen.net/novels/view/675/) | About 2010 | ★★★★★ | 作者本人不行。 |
