@@ -12,7 +12,7 @@ DOING: Move from Douban.
 | Book Title | Author Name | Publisher Name | 20XX | [GoodReads](#) | 20XX-XX-XX | ★★★★☆ | [🔗](#) |
 | Book Title | Author Name | Publisher Name | 20XX | [Google](#) | 20XX-XX-XX | ★★★☆☆ | [🔗](#) |
 
-## Non-Fictional
+## Non-Fiction
 
 | Title | Author (Translator) | Publisher | Year | Link | Finish | Rating | Review |
 |------------|-------------|--------------|------|-------|--------|--------|--------|
@@ -32,13 +32,13 @@ DOING: Move from Douban.
 | 十個詞彙裡的中國 | 余華 | 麥田出版 | 2010 | [GoodReads](https://www.goodreads.com/book/show/12884314/) | 2020-08-20 | ★★★★☆ |  |
 | 地下：东欧萨米亚特随笔 (Samizdat Writings of Eastern Europe) | Ivan Klima et al (景凯旋) | 花城出版社 | 2010 | [豆瓣](https://book.douban.com/subject/4841640/) |  |  |  |
 
-### Reference Books
+### Reference Book
 
 | Title | Author (Translator) | Publisher | Year | Link | Read | Rating | Review |
 |------------|-------------|--------------|------|-------|--------|--------|--------|
 | 大众川菜 | 刘建成 胡廉泉 杨镜吾 舒孝钧 | 四川科学技术出版社 | 1997 | [豆瓣](https://book.douban.com/subject/1626109/) | 2020-06-17 | ★★★★★ |  |
 
-## Fictions
+## Fiction
 
 | Title | Author (Translator) | Publisher | Year | Link | Finish | Rating | Review |
 |------------|-------------|--------------|------|-------|--------|--------|--------|
@@ -61,7 +61,7 @@ DOING: Move from Douban.
 | 幸存者 | 秦明 | 湖南文艺出版社 | 2016 | [GoodReads](https://www.goodreads.com/book/show/32613863/), [豆瓣](https://book.douban.com/subject/26772419/) | 2020-08-23 | ★★★★☆ | |
 | 偷窥者 | 秦明 | 湖南文艺出版社 | 2017 | [GoodReads](https://www.goodreads.com/book/show/36635542/), [豆瓣](https://book.douban.com/subject/27083910/) | Stopped | | 一上来大段第三人称环境描写，不像纪实小说了，不喜欢。 |
 
-### Mangas
+## Manga
 
 | Title | Author (Translator) | Publisher | Year | Link | Finish | Rating | Review |
 |------------|-------------|--------------|------|-------|--------|--------|--------|
