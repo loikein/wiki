@@ -24,6 +24,7 @@
 | ![](https://img.youtube.com/vi/Bj0ymOFbaXU/0.jpg) | [i call this piece "echoes of the past"](https://www.youtube.com/watch?v=Bj0ymOFbaXU) |
 | ![](https://img.youtube.com/vi/ngO-YS_34RM/0.jpg) | [端傳媒五週年：我們還能在斷裂世界中建立連結嗎？](https://www.youtube.com/watch?v=ngO-YS_34RM) |
 | ![](https://img.youtube.com/vi/eeAki05r8ZI/0.jpg) | [李敖北大演讲 高清完全版（未删减）](https://www.youtube.com/watch?v=eeAki05r8ZI&t=645) |
+| ![](https://img.youtube.com/vi/WYZoQytPcRE/0.jpg) | [ブラック企業社員の 1 日ルーティン](https://www.youtube.com/watch?v=WYZoQytPcRE) |
 
 ## Entertainment
 
@@ -107,6 +108,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/aLX6I4Q79q8/0.jpg) | [How to create Drake’s One Dance](https://www.youtube.com/watch?v=aLX6I4Q79q8) |
 | ![](https://img.youtube.com/vi/ilRoc89a2O4/0.jpg) | [MATT PLESS \- Black-Eyed Susan \| A Fistful Of Vinyl](https://www.youtube.com/watch?v=ilRoc89a2O4) |
 | ![](https://img.youtube.com/vi/T9iFcb5yfAc/0.jpg) | [【v flower】Close to You【カバー】](https://www.youtube.com/watch?v=T9iFcb5yfAc) |
+| ![](https://img.youtube.com/vi/PjnaciNT-wQ/0.jpg) | [Debussy \- « Clair de Lune » on the theremin](https://www.youtube.com/watch?v=PjnaciNT-wQ) |
 
 ### Anime & Cinematic Clips
 

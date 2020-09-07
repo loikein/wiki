@@ -41,6 +41,20 @@ $ conda remove --name my-env --all --yes
 $ conda remove -n my-env --all -y
 ```
 
+### Manage Jupyter Notebook Installation
+
+```yaml
+dependencies:
+  - ipykernel
+
+  # If need Jupyter Lab
+  - jupyterlab
+
+  # If need extensions
+  - jupyter_contrib_nbextensions
+  … (List of extensions that need installation)
+```
+
 ## Managing Packages
 
 ### Force Re-installation
