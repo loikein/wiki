@@ -60,6 +60,7 @@ DOING: Move from Douban.
 | 清道夫 | 秦明 | 湖南文艺出版社 | 2015 | [GoodReads](https://www.goodreads.com/book/show/25785472/), [豆瓣](https://book.douban.com/subject/26349251/) | 2020-08-22 | ★★★☆☆ | |
 | 幸存者 | 秦明 | 湖南文艺出版社 | 2016 | [GoodReads](https://www.goodreads.com/book/show/32613863/), [豆瓣](https://book.douban.com/subject/26772419/) | 2020-08-23 | ★★★★☆ | |
 | 偷窥者 | 秦明 | 湖南文艺出版社 | 2017 | [GoodReads](https://www.goodreads.com/book/show/36635542/), [豆瓣](https://book.douban.com/subject/27083910/) | Stopped | | 一上来大段第三人称环境描写，不像纪实小说了，不喜欢。 |
+| Endymion | Dan Simmons (潘振华) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/3977/), [豆瓣](https://book.douban.com/subject/25941891/) | | | |
 
 ## Manga
 

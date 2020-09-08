@@ -42,6 +42,9 @@ $ gcmsg "message here"
 # git diff --cached
 # git diff --staged
 $ gds
+
+# git diff --word-diff
+$ gdw
 ```
 
 ### Others

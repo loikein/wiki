@@ -82,7 +82,8 @@ TODO: Dump Apple note.
 | 迷途 | 年终 | 2019 | [扫文小院](http://saowen.net/novels/view/49593/) | 2020-09-05 | ★★★★☆ | 很慢热，但是个好故事。 |
 | 深渊 | 棉 | 2010 | [扫文小院](http://saowen.net/novels/view/404/) | 2020-09-06 | ★★★★★ | 既然是古早文，暂且原谅一下其中穿插的各种问卷。 |
 | 欢迎来到噩梦游戏 | 薄暮冰轮 | 2016 | [扫文小院](http://saowen.net/novels/view/18836/) | Stopped |  |  |
-| 长河 | 破茶杯 | 2015 | [扫文小院](http://saowen.net/novels/view/37377/) | |  |  |
+| 长河 | 破茶杯 | 2015 | [扫文小院](http://saowen.net/novels/view/37377/) | 2020-09-07 | ★★★★★ |  |
+| 一银币一磅的恶魔 | 星河蛋挞 | 2017 | [扫文小院](http://saowen.net/novels/view/41555/) | 2020-09-08 | ★★★★★ |  |
 
 ## Fan Fiction
 
