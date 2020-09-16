@@ -162,6 +162,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/ks1FEtWlzTU/0.jpg) | [Looks aren't everything. Believe me, I'm a model \- Cameron Russell](https://www.youtube.com/watch?v=ks1FEtWlzTU) |
 | ![](https://img.youtube.com/vi/lrYx7HaUlMY/0.jpg) | [I've lived as a man & a woman \-\- here's what I learned \| Paula Stone Williams \| TEDxMileHigh](https://www.youtube.com/watch?v=lrYx7HaUlMY) |
 | ![](https://img.youtube.com/vi/lMYyGsVT3Eo/0.jpg) | [Pride & Patriotism: STANHOPE, PETERSON, HICKS & CARLIN](https://www.youtube.com/watch?v=lMYyGsVT3Eo) |
+| ![](https://img.youtube.com/vi/YOllmFfELT8/0.jpg) | [Arvind Gupta: Toys from trash for learning](https://www.youtube.com/watch?v=YOllmFfELT8) |
 
 ## Computer & Technology
 

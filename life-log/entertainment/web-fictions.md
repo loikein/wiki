@@ -25,6 +25,7 @@ TODO: Dump Apple note.
 | 孺子帝 | 冰临神下 | 2017 | [扫文小院](http://saowen.net/novels/view/61887/) | 2020-07-02 | ★★★★☆ | 「挣扎与改变就是生活本身。」 |
 | 不败战神 | 方想 | 2015 | [扫文小院](http://saowen.net/novels/view/36772/) | 2020.08.11 | ★★★☆☆ | 本来以为已经属于该作者较不烂尾的书之一了，没想到大结局几行字就交待完了，真是烂得彻底。 |
 | 卡徒 | 方想 | 2010 | [扫文小院](http://saowen.net/novels/view/2582/) | 2020.08.15 | ★★★★☆ | 居然大结局还不错。 |
+| 请勿洞察 | matthia | 2019 | [扫文小院](http://saowen.net/novels/view/47525/) | 2020-09-09 | ★★★☆☆ | 确实是恐怖小说，有点过于为克而克了。 |
 
 ### Heterosexual
 
@@ -84,6 +85,8 @@ TODO: Dump Apple note.
 | 欢迎来到噩梦游戏 | 薄暮冰轮 | 2016 | [扫文小院](http://saowen.net/novels/view/18836/) | Stopped |  |  |
 | 长河 | 破茶杯 | 2015 | [扫文小院](http://saowen.net/novels/view/37377/) | 2020-09-07 | ★★★★★ |  |
 | 一银币一磅的恶魔 | 星河蛋挞 | 2017 | [扫文小院](http://saowen.net/novels/view/41555/) | 2020-09-08 | ★★★★★ |  |
+| 不朽者 | Dew | 2019 | [扫文小院](http://saowen.net/novels/view/49648/) |  |  |  |
+| 无威胁群体庇护协会 | matthia | 2014 | [扫文小院](http://saowen.net/novels/view/8285/) |  |  |  |
 
 ## Fan Fiction
 

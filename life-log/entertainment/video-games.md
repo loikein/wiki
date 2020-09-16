@@ -17,5 +17,6 @@
 ## Multiplayer
 
 | Title | Platform | Studio/Developer | Year | Link | Rating | Review |
-|------------|-------------|--------------|------|-------|-------|--------|--------|
+|------------|-------------|--------------|------|-------|-------|--------|
 | Sky: Children of the Light | iOS | Thatgamecompany | 2019 | [Official](https://thatskygame.com/) | ★★★★★ | |
+| Hitman: Sniper | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/hitman-sniper/id904278510) | ★★☆☆☆ | |
