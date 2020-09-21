@@ -21,11 +21,13 @@ TODO: Dump Apple note.
 | 全职高手 | 蝴蝶蓝 | 2014 | [扫文小院](http://saowen.net/novels/view/572/) | ? | ★★★★★ | 看了两遍 |
 | 将夜 | 猫腻 | 2017 | [起点](https://book.qidian.com/info/2083259/) | ? | ★★★★★ | 看了两遍 |
 | 美食供应商 | 会做菜的猫 | 2016~now | [起点](https://book.qidian.com/info/1003667321/) | Pausing | ★★★★☆ |  |
-| 诡秘之主 | 爱潜水的乌贼 | 2020 | [扫文小院](http://saowen.net/novels/view/48846/) | 2020-05-01 | ★★★★★ | [🔗](https://blog.loikein.one/2020/05/blog-post.html) |
+| 诡秘之主 | 爱潜水的乌贼 | 2020 | [扫文小院](http://saowen.net/novels/view/48846/) | 2020-05-01 | ★★★★★ | [🔗](https://blog.loikein.one/2020/05/blog-post.html) 看了两遍 |
 | 孺子帝 | 冰临神下 | 2017 | [扫文小院](http://saowen.net/novels/view/61887/) | 2020-07-02 | ★★★★☆ | 「挣扎与改变就是生活本身。」 |
 | 不败战神 | 方想 | 2015 | [扫文小院](http://saowen.net/novels/view/36772/) | 2020.08.11 | ★★★☆☆ | 本来以为已经属于该作者较不烂尾的书之一了，没想到大结局几行字就交待完了，真是烂得彻底。 |
 | 卡徒 | 方想 | 2010 | [扫文小院](http://saowen.net/novels/view/2582/) | 2020.08.15 | ★★★★☆ | 居然大结局还不错。 |
 | 请勿洞察 | matthia | 2019 | [扫文小院](http://saowen.net/novels/view/47525/) | 2020-09-09 | ★★★☆☆ | 确实是恐怖小说，有点过于为克而克了。 |
+| 禁区之狐 | 林海听涛 | 2020~now | [起点](https://book.qidian.com/info/1017653178/) | Stopped |  | 像个小学生写的，看不下去。 |
+| 我修炼开了外挂 | 周流星位 | 2020~now | [起点](https://book.qidian.com/info/1019941228/) |  |  |  |
 
 ### Heterosexual
 
