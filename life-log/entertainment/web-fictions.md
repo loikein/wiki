@@ -27,7 +27,7 @@ TODO: Dump Apple note.
 | 卡徒 | 方想 | 2010 | [扫文小院](http://saowen.net/novels/view/2582/) | 2020.08.15 | ★★★★☆ | 居然大结局还不错。 |
 | 请勿洞察 | matthia | 2019 | [扫文小院](http://saowen.net/novels/view/47525/) | 2020-09-09 | ★★★☆☆ | 确实是恐怖小说，有点过于为克而克了。 |
 | 禁区之狐 | 林海听涛 | 2020~now | [起点](https://book.qidian.com/info/1017653178/) | Stopped |  | 像个小学生写的，看不下去。 |
-| 我修炼开了外挂 | 周流星位 | 2020~now | [起点](https://book.qidian.com/info/1019941228/) |  |  |  |
+| 我修炼开了外挂 | 周流星位 | 2020~now | [起点](https://book.qidian.com/info/1019941228/) | 第二卷 第十四章 | ★★☆☆☆ | 中规中矩，文笔尚可，看过《一世之尊》后发现设定全是抄的。 |
 
 ### Heterosexual
 
@@ -36,12 +36,13 @@ TODO: Dump Apple note.
 | 女为悦己者 | 御井烹香 | 2018 | [晋江](http://www.jjwxc.net/onebook.php?novelid=3279975) | 2018-10-06 | ★★★★☆ | [🔗](https://blog.loikein.one/2018/10/blog-post_6.html) |
 | 枕边有你 | 三水小草 | 2019 | [晋江](http://www.jjwxc.net/onebook.php?novelid=3414702) | 2019-12-? | ★★★★☆ |  |
 | 太子妃升职记 | 鲜橙 | 2012 | [豆瓣](https://book.douban.com/subject/10559304/) | 2019-12-? | ★★★★★ | 看了两遍 |
-| 龙族 | 江南 | 2009~now | [扫文小院](http://saowen.net/novels/view/11053/) | Stopped |  | 越看越气，谢谢。 |
-| 庆余年 | 猫腻 | 2009 | [扫文小院](http://saowen.net/novels/view/9677/) | Pausing | ★★★★☆ |  |
+| 龙族 | 江南 | 2009~now | [扫文小院](http://saowen.net/novels/view/11053/) | 龙族 4 楔子七 |  | 越看越气，不看了。 |
+| 庆余年 | 猫腻 | 2009 | [扫文小院](http://saowen.net/novels/view/9677/) | 第六卷 第一百一十一章 | ★★★★☆ |  |
 | 重生为山 | 一目尽天涯 | 2013 | [起点](https://book.qidian.com/info/2841013) | 2020-07-31 | ★★☆☆☆ | 其实不错，就是腰斩了。 |
 | 侯门医女 | 安筱楼 | 2014 | | 2020-08-02 | Stopped | 作者写不好大场面，越往后越无聊。 |
 | 地下城生长日志 | 黑糖煮酸梅 | 2016 | [晋江](https://www.jjwxc.net/onebook.php?novelid=2658955) | 2020-08-29 | ★★★★★ | 圆了我看《重生为山》被腰斩的憋屈。 |
 | 这个梦我喜欢！ | 黑糖煮酸梅 | 2016 | [晋江](https://www.jjwxc.net/onebook.php?novelid=2569443) | 2020-08-30 | ★★★☆☆ | |
+| 一世之尊 | 爱潜水的乌贼 | 2016 | [扫文小院](http://saowen.net/novels/view/37390/) | 第二卷 第十六章 |  | 太冗长了，看不下去。 |
 
 ### Homosexual
 
@@ -60,7 +61,7 @@ TODO: Dump Apple note.
 | 天资愚钝 | 九月买的饼干 | 2018 | [扫文小院](http://saowen.net/novels/view/43047/) | Stopped | ★★☆☆☆ |  |
 | 金丝雀 | 狐狸不归 | 2017 | [扫文小院](http://saowen.net/novels/view/44110/) | 2017-10-24 | ★★☆☆☆ |  |
 | 死亡诞生在臀部之下 | 匪六 | 2009~ | [扫文小院](http://saowen.net/novels/view/4052/) | 2017-11-07 | ★★★★☆ |  |
-| 残次品 | priest | 2017 | [扫文小院](http://saowen.net/novels/view/43155/) | Stopped | ★★☆☆☆ |  |
+| 残次品 | priest | 2017 | [扫文小院](http://saowen.net/novels/view/43155/) | 第 103 章 | ★★☆☆☆ |  |
 | 魔道祖师 | 墨香铜臭 | 2016 | [扫文小院](http://saowen.net/novels/view/15305/) | ? | ★★★★☆ |  |
 | C 语言修仙  | 一十四洲 | 2019 | [扫文小院](http://saowen.net/novels/view/51976/) | 2020-06-01 | ★★★★★ |  |
 | 朝圣 | 非天夜翔 | 2010 | [扫文小院](http://saowen.net/novels/view/394/) | 2020-06-01 | ★★★☆☆ |  |

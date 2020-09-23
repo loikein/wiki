@@ -3,7 +3,7 @@
 References: 
 
 - [Is there any way to force subtitles in a YouTube video? \- Web Applications Stack Exchange](https://webapps.stackexchange.com/questions/27669/is-there-any-way-to-force-subtitles-in-a-youtube-video)
-- [Enabling Captions and Subtitles in Embeds by Default g– Vimeo Help Center](https://vimeo.zendesk.com/hc/en-us/articles/360027818211-Enabling-Captions-and-Subtitles-in-Embeds-by-Default)
+- [Enabling Captions and Subtitles in Embeds by Default – Vimeo Help Center](https://vimeo.zendesk.com/hc/en-us/articles/360027818211-Enabling-Captions-and-Subtitles-in-Embeds-by-Default)
 - [关于博客园内嵌入 bilibili 视频 \- 王陸 \- 博客园](https://www.cnblogs.com/wkfvawl/p/12268980.html)
 
 

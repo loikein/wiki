@@ -55,6 +55,7 @@ Films that I have seen.
 | Interstellar | Christopher Nolan | Jonathan Nolan, Christopher Nolan | 2014 | [IMDb](https://www.imdb.com/title/tt0816692/), [豆瓣](https://movie.douban.com/subject/1889243/) | 2020-08-15 | ★★★★★ | |
 | Irresistible  | Jon Stewart | Jon Stewart | 2020 | [IMDb](https://www.imdb.com/title/tt9076562/), [豆瓣](https://movie.douban.com/subject/30482204/) | 2020-08-17 | ★★★★☆ | |
 | Tenet | Christopher Nolan | Christopher Nolan | 2020 | [IMDb](https://www.imdb.com/title/tt6723592/), [豆瓣](https://movie.douban.com/subject/30444960/) | 2020-08-31 | ★★★★★ | |
+| The New Mutants | Josh Boone | Josh Boone, Knate Lee | 2020 | [IMDb](https://www.imdb.com/title/tt4682266/), [豆瓣](https://movie.douban.com/subject/26389321/) | 2020-09-21 | ★★☆☆☆ | 确实恐怖，但是没意思。 |
 
 <!-- 
 | The Syrian Bride | Eran Riklis | Suha Arraf, Eran Riklis | 2004 | [IMDb](https://www.imdb.com/title/tt0423310/), [豆瓣](https://movie.douban.com/subject/1785380/) | ? | ? | |
