@@ -6,7 +6,7 @@ TODO: Dump Apple note.
 
 ## Template
 
-| Title | Author (Translator) | Year | Link | Finish | Rating | Review |
+| Title | Author (Translator) | Year | Link | Finish/Progress | Rating | Review |
 |------------|-------------|------|-------|-------|--------|--------|
 | Title | Author Name | 20XX | [扫文小院](#) | 20XX-XX-XX | ★★★★☆ | [🔗](#) |
 | Title | Author Name | 20XX | [晋江](#) | 20XX-XX-XX | ★★★★☆ | [🔗](#) |
@@ -16,7 +16,7 @@ TODO: Dump Apple note.
 
 ### Non-Romantic
 
-| Title | Author | Year | Link | Finish | Rating | Review |
+| Title | Author | Year | Link | Finish/Progress | Rating | Review |
 |------------|-------------|------|-------|--------|--------|--------|
 | 全职高手 | 蝴蝶蓝 | 2014 | [扫文小院](http://saowen.net/novels/view/572/) | ? | ★★★★★ | 看了两遍 |
 | 将夜 | 猫腻 | 2017 | [起点](https://book.qidian.com/info/2083259/) | ? | ★★★★★ | 看了两遍 |
@@ -27,11 +27,12 @@ TODO: Dump Apple note.
 | 卡徒 | 方想 | 2010 | [扫文小院](http://saowen.net/novels/view/2582/) | 2020.08.15 | ★★★★☆ | 居然大结局还不错。 |
 | 请勿洞察 | matthia | 2019 | [扫文小院](http://saowen.net/novels/view/47525/) | 2020-09-09 | ★★★☆☆ | 确实是恐怖小说，有点过于为克而克了。 |
 | 禁区之狐 | 林海听涛 | 2020~now | [起点](https://book.qidian.com/info/1017653178/) | Stopped |  | 像个小学生写的，看不下去。 |
-| 我修炼开了外挂 | 周流星位 | 2020~now | [起点](https://book.qidian.com/info/1019941228/) | 第二卷 第十四章 | ★★☆☆☆ | 中规中矩，文笔尚可，看过《一世之尊》后发现设定全是抄的。 |
+| 我修炼开了外挂 | 周流星位 | 2020~now | [起点](https://book.qidian.com/info/1019941228/) | 第二卷 第十四章 | ★☆☆☆☆ | 中规中矩，文笔尚可，不过看过《一世之尊》后发现设定全是抄的。 |
+| 为龙 | 张龙象 | 2020~now | [起点](https://book.qidian.com/info/1020691940/) | 第五十四章 |  |  |
 
 ### Heterosexual
 
-| Title | Author | Year | Link | Finish | Rating | Review |
+| Title | Author | Year | Link | Finish/Progress | Rating | Review |
 |------------|-------------|------|-------|--------|--------|--------|
 | 女为悦己者 | 御井烹香 | 2018 | [晋江](http://www.jjwxc.net/onebook.php?novelid=3279975) | 2018-10-06 | ★★★★☆ | [🔗](https://blog.loikein.one/2018/10/blog-post_6.html) |
 | 枕边有你 | 三水小草 | 2019 | [晋江](http://www.jjwxc.net/onebook.php?novelid=3414702) | 2019-12-? | ★★★★☆ |  |
@@ -46,7 +47,7 @@ TODO: Dump Apple note.
 
 ### Homosexual
 
-| Title | Author | Year | Link | Finish | Rating | Review |
+| Title | Author | Year | Link | Finish/Progress | Rating | Review |
 |------------|-------------|------|-------|--------|--------|--------|
 | 刀锋与诗行 | 荀予刃 | 2017 | [扫文小院](http://saowen.net/novels/view/41495/) | 2017-08-28 | ★★★★☆ | [🔗](https://blog.loikein.one/2017/08/blog-post_29.html) |
 | 设计师 | 常叁思 | 2016 | [扫文小院](http://saowen.net/novels/view/19428/) | ? | ★★★★★ | 看了两遍 |
@@ -93,7 +94,7 @@ TODO: Dump Apple note.
 
 ## Fan Fiction
 
-| Title | Author | Year | Link | Finish | Rating | Review |
+| Title | Author | Year | Link | Finish/Progress | Rating | Review |
 |------------|-------------|------|-------|--------|--------|--------|
 | 麒麟 | 桔子树 | 2008~ | [扫文小院](http://saowen.net/novels/view/675/) | About 2010 | ★★★★★ | 除了作者本人之外都好。 |
 
