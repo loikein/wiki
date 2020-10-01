@@ -28,9 +28,10 @@ TODO: Dump Apple note.
 | 请勿洞察 | matthia | 2019 | [扫文小院](http://saowen.net/novels/view/47525/) | 2020-09-09 | ★★★☆☆ | 确实是恐怖小说，有点过于为克而克了。 |
 | 禁区之狐 | 林海听涛 | 2020~now | [起点](https://book.qidian.com/info/1017653178/) | Stopped |  | 像个小学生写的，看不下去。 |
 | 我修炼开了外挂 | 周流星位 | 2020~now | [起点](https://book.qidian.com/info/1019941228/) | 第二卷 第十四章 | ★☆☆☆☆ | 中规中矩，文笔尚可，不过看过《一世之尊》后发现设定全是抄的。 |
-| 为龙 | 张龙象 | 2020~now | [起点](https://book.qidian.com/info/1020691940/) | 第五十四章 |  |  |
+| 为龙 | 张龙象 | 2020~now | [起点](https://book.qidian.com/info/1020691940/) | 第五十四章 |  | 不错，但是写得太慢了。 |
 | 我的细胞监狱 | 穿黄衣的阿肥 | 2019~now | [起点](https://book.qidian.com/info/1015397821/) | 第一千一百二十一章 | ★★★☆☆ | 文笔略差，其他还行。 |
 | 这个刺客有毛病 | 任秋溟 | 2019~now | [起点](https://book.qidian.com/info/1017433918/) | 第三卷第一百四十八章 | ★★★★★ |  |
+| 直播之荒野挑战 | 土土士 | 2017~now | [起点](https://book.qidian.com/info/1005403859/) | 2020-10-01 | ★★☆☆☆ | 每个副本都差不多，看两三个就腻了。 |
 
 ### Heterosexual
 
