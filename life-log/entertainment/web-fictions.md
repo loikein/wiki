@@ -29,8 +29,8 @@ TODO: Dump Apple note.
 | 禁区之狐 | 林海听涛 | 2020~now | [起点](https://book.qidian.com/info/1017653178/) | Stopped |  | 像个小学生写的，看不下去。 |
 | 我修炼开了外挂 | 周流星位 | 2020~now | [起点](https://book.qidian.com/info/1019941228/) | 第二卷 第十四章 | ★☆☆☆☆ | 中规中矩，文笔尚可，不过看过《一世之尊》后发现设定全是抄的。 |
 | 为龙 | 张龙象 | 2020~now | [起点](https://book.qidian.com/info/1020691940/) | 第五十四章 |  |  |
-| 我的细胞监狱 | 穿黄衣的阿肥 | 2019~now | [起点](https://book.qidian.com/info/1015397821/) | 第一千一百一十八章 | ★★★☆☆ | 文笔略差，其他还行。 |
-| 这个刺客有毛病 | 任秋溟 | 2019~now | [起点](https://book.qidian.com/info/1017433918/) | 第二十四章 |  |  |
+| 我的细胞监狱 | 穿黄衣的阿肥 | 2019~now | [起点](https://book.qidian.com/info/1015397821/) | 第一千一百二十一章 | ★★★☆☆ | 文笔略差，其他还行。 |
+| 这个刺客有毛病 | 任秋溟 | 2019~now | [起点](https://book.qidian.com/info/1017433918/) | 第三卷第一百四十八章 | ★★★★★ |  |
 
 ### Heterosexual
 
@@ -91,7 +91,7 @@ TODO: Dump Apple note.
 | 欢迎来到噩梦游戏 | 薄暮冰轮 | 2016 | [扫文小院](http://saowen.net/novels/view/18836/) | Stopped |  |  |
 | 长河 | 破茶杯 | 2015 | [扫文小院](http://saowen.net/novels/view/37377/) | 2020-09-07 | ★★★★★ |  |
 | 一银币一磅的恶魔 | 星河蛋挞 | 2017 | [扫文小院](http://saowen.net/novels/view/41555/) | 2020-09-08 | ★★★★★ |  |
-| 不朽者 | Dew | 2019 | [扫文小院](http://saowen.net/novels/view/49648/) |  |  |  |
+| 不朽者 | Dew | 2019 | [扫文小院](http://saowen.net/novels/view/49648/) | 第四章 二 |  |  |
 | 无威胁群体庇护协会 | matthia | 2014 | [扫文小院](http://saowen.net/novels/view/8285/) |  |  |  |
 
 ## Fan Fiction
