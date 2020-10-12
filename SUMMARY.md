@@ -4,6 +4,8 @@
 
 ## Computer
 
+* [Keyboard Stuff](computer/keyboards.md)
+
 * [macOS](computer/macos.md)
 
 * [Zsh](computer/zsh.md)
