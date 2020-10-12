@@ -41,7 +41,7 @@ $ subl .gitignore
 $ pre-commit install
 $ pre-commit run
 
-$ git add -all
+$ git add --all
 $ git commit -m "Init commit"
 
 # after creating empty repository on GitHub

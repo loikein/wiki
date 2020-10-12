@@ -36,11 +36,12 @@
 * [Python](programming/python/README.md)
   * [Anaconda/Miniconda](programming/python/conda.md)
   * [Documentation](programming/python/documentation.md)
-  * [Plotting](programming/python/plotting.md)
-  * [Numpy](programming/python/numpy.md)
-  * [Jupyter Notebook & Lab](programming/python/jupyter.md)
-  * [rpy2](programming/python/rpy2.md)
   * [Example Project Flow](programming/python/example-project.md)
+  * [File System and Path](programming/python/file-path.md)
+  * [Jupyter Notebook & Lab](programming/python/jupyter.md)
+  * [Numpy](programming/python/numpy.md)
+  * [Plotting](programming/python/plotting.md)
+  * [rpy2](programming/python/rpy2.md)
 
 * [R](programming/r.md)
 
