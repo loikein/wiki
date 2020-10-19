@@ -54,6 +54,7 @@ References:
 | ![](https://img.youtube.com/vi/WynMZz_7V_U/0.jpg) | [群租房整点新闻（第二集）\(有高清模式\)](https://www.youtube.com/embed/WynMZz_7V_U?cc_load_policy=1) |
 | ![](http://i0.hdslb.com/bfs/archive/99b7596eca852e813fafe0fc3c3b2f7b3936de17.jpg) | [建议改成：骚 话 之 王](https://player.bilibili.com/player.html?aid=498099462&high_quality=1&danmaku=0) \(《海绵宝宝》骚话集\) |
 | ![](https://img.youtube.com/vi/tQq53-g25d4/0.jpg) | [5g-Minute Crafts Makes the Worst Life Hacks of All Time](https://www.youtube.com/embed/tQq53-g25d4?cc_load_policy=1) |
+| ![](https://img.youtube.com/vi/eDW44A_noK8/0.jpg) | [if smartphone commercials were honest.](https://www.youtube.com/embed/eDW44A_noK8?cc_load_policy=1) |
 
 ### Comedy
 

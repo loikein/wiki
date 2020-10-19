@@ -32,3 +32,4 @@ TV shows & Animes that I am watching/have watched.
 | この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | Stopped (E02) | ★☆☆☆☆ | 实在蠢得没法看。 |
 | 宝石の国 | 京極尚彦 | Orange | 2017 | [MyAnimeList](https://myanimelist.net/anime/35557/), [豆瓣](https://movie.douban.com/subject/27047873/) | 2017-12-? | ★★★★★ | 首播的时候看的，正在看第二遍。(E03) |
 | 魔法科高校の劣等生 | 小野学 | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/20785/), [豆瓣](https://movie.douban.com/subject/25741564/) | 2020-09-18 | ★★★☆☆ | 配角故事什么都好，就是主角兄妹真的太尬了，拖了好几次没看下去，终于看完了。 |
+| デスマーチからはじまる異世界狂想曲 | 大沼心 | SILVER LINK. × CONNECT  | 2018 | [MyAnimeList](https://myanimelist.net/anime/34497/), [豆瓣](https://movie.douban.com/subject/26934287/) | 2020-10-19 | ★★★☆☆ | 我还蛮喜欢这种慢慢旅游的动画，要是有第二季就好了。 |
