@@ -33,3 +33,6 @@ TV shows & Animes that I am watching/have watched.
 | 宝石の国 | 京極尚彦 | Orange | 2017 | [MyAnimeList](https://myanimelist.net/anime/35557/), [豆瓣](https://movie.douban.com/subject/27047873/) | 2017-12-? | ★★★★★ | 首播的时候看的，正在看第二遍。(E03) |
 | 魔法科高校の劣等生 | 小野学 | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/20785/), [豆瓣](https://movie.douban.com/subject/25741564/) | 2020-09-18 | ★★★☆☆ | 配角故事什么都好，就是主角兄妹真的太尬了，拖了好几次没看下去，终于看完了。 |
 | デスマーチからはじまる異世界狂想曲 | 大沼心 | SILVER LINK. × CONNECT  | 2018 | [MyAnimeList](https://myanimelist.net/anime/34497/), [豆瓣](https://movie.douban.com/subject/26934287/) | 2020-10-19 | ★★★☆☆ | 我还蛮喜欢这种慢慢旅游的动画，要是有第二季就好了。 |
+| ログ・ホライズン (S1) | 石平信司 | SATELIGHT | 2014 | [MyAnimeList](https://myanimelist.net/anime/17265/), [豆瓣](https://movie.douban.com/subject/21323283/) | 2020-10-21 | ★★★★☆ |  |
+| ログ・ホライズン (S2) | 石平信司 | Studio DEEN | 2015 | [MyAnimeList](https://myanimelist.net/anime/23321/), [豆瓣](https://movie.douban.com/subject/25851661/) | 2020-10-21 | ★★★☆☆ | E10 哭惨我了，但是整季来看并没有第一季好。 |
+| 魔王学院の不適合者 | 大沼心 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/40496/), [豆瓣](https://movie.douban.com/subject/34852268/) | 2020-10-22 | ★★☆☆☆ | What the fuck is this. |

@@ -12,12 +12,13 @@
 
 | Title | Platform | Studio/Developer | Year | Link | Progress/Finish date | Rating | Review |
 |------------|-------------|--------------|------|-------|-------|--------|--------|
-| Lara Croft Go | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/lara-croft-go/id971304016) | 2020-09-06 | ★★★★☆ | |
-| Oxenfree | iOS | Night School Studio | 2016 | [App Store](https://apps.apple.com/us/app/oxenfree/id1179177872) | 2020-09-22 | ★★★★★ | |
+| Lara Croft Go | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/lara-croft-go/id971304016/) | 2020-09-06 | ★★★★☆ | |
+| Oxenfree | iOS | Night School Studio | 2016 | [App Store](https://apps.apple.com/us/app/oxenfree/id1179177872/) | 2020-09-22 | ★★★★★ | |
+| Genshin Impact | iOS | miHoYo | 2020 | [Official](https://genshin.mihoyo.com/) | ★★★☆☆ | |
 
 ## Multiplayer
 
 | Title | Platform | Studio/Developer | Year | Link | Rating | Review |
 |------------|-------------|--------------|------|-------|-------|--------|
 | Sky: Children of the Light | iOS | Thatgamecompany | 2019 | [Official](https://thatskygame.com/) | ★★★★★ | |
-| Hitman: Sniper | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/hitman-sniper/id904278510) | ★★☆☆☆ | |
+| Hitman: Sniper | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/hitman-sniper/id904278510/) | ★★☆☆☆ | |
