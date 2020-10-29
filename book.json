@@ -10,8 +10,8 @@
     },
     "links": {
         "sidebar": {
-            "Home": "http://loinein.one"
-        }
+            "Home": "http://loinein.one",
+        },
     },
     "extension": ["epub", "pdf"],
     "plugins": ["edit-link", "github", "katex", "rss"],
@@ -24,9 +24,7 @@
             "url": "https://github.com/loinein/wiki",
         },
         "sharing": {
-           "all": [
-               "google", "twitter", "instapaper",
-           ]
+           "all": ["google", "twitter", "instapaper",],
         },
         "rss": {
             "title": "loikein's wiki",
@@ -37,5 +35,5 @@
             "managingEditor": "wanleiqiong@gmail.com",
             "webMaster": "wanleiqiong@gmail.com", 
         },
-    }
+    },
 }
