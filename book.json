@@ -1,0 +1,21 @@
+{
+    "title": "loikein's wiki",
+    "author": "loikein",
+    "language": "en",
+    "root": ".",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md",
+    },
+    "links": {
+        "sidebar": {
+            "Home": "http://loinein.one"
+        }
+    },
+    "plugins": ["rss"],
+    "pluginsConfig": {
+       "github": {
+            "url": "https://github.com/loinein/wiki"
+        },
+    }
+}
