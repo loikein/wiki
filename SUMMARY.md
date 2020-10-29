@@ -72,6 +72,7 @@
 * [Entertainment](life-log/entertainment/README.md)
   * [Books](life-log/entertainment/books.md)
   * [Web Fictions](life-log/entertainment/web-fictions.md)
+  * [Podcast](life-log/entertainment/podcast.md)
   * [Music](life-log/entertainment/music.md)
   * [Films](life-log/entertainment/films.md)
   * [TV Shows & Animes](life-log/entertainment/tv-shows.md)

@@ -20,7 +20,7 @@ TV shows & Animes that I am watching/have watched.
 
 | Title | Director | Production/Studio | Year | Link | Progress/Finish date | Rating | Review |
 |------------|-------------|--------------|------|-------|-------|--------|--------|
-| アルテ | 浜名孝行 | Seven Arcs | 2020 | [MyAnimeList](https://myanimelist.net/anime/40128/), [豆瓣](https://movie.douban.com/subject/34617228/) | Stopped (E03) | ★★☆☆☆ | |
+| アルテ | 浜名孝行 | Seven Arcs | 2020 | [MyAnimeList](https://myanimelist.net/anime/40128/), [豆瓣](https://movie.douban.com/subject/34617228/) | Abandoned (E03) | ★★☆☆☆ | |
 | 本好きの下剋上 (S1) | 本郷みつる | 亜細亜堂 | 2019 | [MyAnimeList](https://myanimelist.net/anime/39468/), [豆瓣](https://movie.douban.com/subject/30483637/) | 2020-06-18 | ★★★☆☆ | |
 | 波よ聞いてくれ | 南川達馬 | SUNRISE | 2020 | [MyAnimeList](https://myanimelist.net/anime/40513/), [豆瓣](https://movie.douban.com/subject/33383697/) | E06 | | |
 | 本好きの下剋上 (S2) | 本郷みつる | 亜細亜堂 | 2019 | [MyAnimeList](https://myanimelist.net/anime/40815/), [豆瓣](https://movie.douban.com/subject/34966406/) | 2020-06-28 | ★★★★☆ | |
@@ -29,7 +29,7 @@ TV shows & Animes that I am watching/have watched.
 | 異種族レビュアーズ | 小川優樹 | Passione | 2020 | [MyAnimeList](https://myanimelist.net/anime/40010/), [豆瓣](https://movie.douban.com/subject/34447531/) | 2020-07-16 | ★★★★★ | 色情画面不少，但基本都是擦边球，披着里番皮探索种族融合和女性主义的话题，应该任何性别的人看都会找到乐趣。 |
 | 転生したらスライムだった件 | 菊地康仁 | eight bit | 2019 | [MyAnimeList](https://myanimelist.net/anime/37430/), [豆瓣](https://movie.douban.com/subject/30163731/) | 2020-07-19 | ★★★★☆ | |
 | 転生したらスライムだった件 OVA | 菊地康仁 | eight bit | 2020 | [MyAnimeList](https://myanimelist.net/anime/38793/), [豆瓣](https://movie.douban.com/subject/30447592/) | E04 | |
-| この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | Stopped (E02) | ★☆☆☆☆ | 实在蠢得没法看。 |
+| この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | Abandoned (E02) | ★☆☆☆☆ | 实在蠢得没法看。 |
 | 宝石の国 | 京極尚彦 | Orange | 2017 | [MyAnimeList](https://myanimelist.net/anime/35557/), [豆瓣](https://movie.douban.com/subject/27047873/) | 2017-12-? | ★★★★★ | 首播的时候看的，正在看第二遍。(E03) |
 | 魔法科高校の劣等生 | 小野学 | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/20785/), [豆瓣](https://movie.douban.com/subject/25741564/) | 2020-09-18 | ★★★☆☆ | 配角故事什么都好，就是主角兄妹真的太尬了，拖了好几次没看下去，终于看完了。 |
 | デスマーチからはじまる異世界狂想曲 | 大沼心 | SILVER LINK. × CONNECT  | 2018 | [MyAnimeList](https://myanimelist.net/anime/34497/), [豆瓣](https://movie.douban.com/subject/26934287/) | 2020-10-19 | ★★★☆☆ | 我还蛮喜欢这种慢慢旅游的动画，要是有第二季就好了。 |
