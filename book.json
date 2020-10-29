@@ -1,6 +1,7 @@
 {
     "title": "loikein's wiki",
     "author": "loikein",
+    "description": "loikein's personal wiki site",
     "language": "en",
     "root": ".",
     "structure": {
@@ -12,10 +13,29 @@
             "Home": "http://loinein.one"
         }
     },
-    "plugins": ["rss"],
+    "extension": ["epub", "pdf"],
+    "plugins": ["edit-link", "github", "katex", "rss"],
     "pluginsConfig": {
-       "github": {
-            "url": "https://github.com/loinein/wiki"
+        "edit-link": {
+            "base": "https://github.com/loikein/wiki/edit/master",
+            "label": "Edit on GitHub",
+        },
+        "github": {
+            "url": "https://github.com/loinein/wiki",
+        },
+        "sharing": {
+           "all": [
+               "google", "twitter", "instapaper",
+           ]
+        },
+        "rss": {
+            "title": "loikein's wiki",
+            "author": "loikein",
+            "description": "loikein's personal wiki site",
+            "feed_url": "https://wiki.loikein.one/feed",
+            "site_url": "https://wiki.loikein.one/",
+            "managingEditor": "wanleiqiong@gmail.com",
+            "webMaster": "wanleiqiong@gmail.com", 
         },
     }
 }
