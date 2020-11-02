@@ -108,6 +108,7 @@ Also see [Music](music.md).
 
 | Thumbnail | Title |
 | :--- | :--- | :--- |
+| ![](https://img.youtube.com/vi/YpKT_eeCVNI/0.jpg) | [Yosuke Yamashita, Burning Piano 2008](https://www.youtube.com/embed/YpKT_eeCVNI?start=181) |
 | ![](https://img.youtube.com/vi/8uCEeCUecNI/0.jpg) | [music genre: video game](https://www.youtube.com/embed/8uCEeCUecNI) |
 | ![](https://img.youtube.com/vi/P3MBQciFeHo/0.jpg) | [music genre: video game 2](https://www.youtube.com/embed/P3MBQciFeHo) |
 | ![](https://img.youtube.com/vi/WmWxsyIXcDs/0.jpg) | [video game christmas music](https://www.youtube.com/embed/WmWxsyIXcDs) |
