@@ -20,7 +20,7 @@ My overview of podcast: [播客世界的邀请函：听播客，发现新播客�
 | Cortex | CGP Grey, Myke Hurley | Relay FM | 1.5~2 hr | 2015~now | [Official](https://www.relay.fm/cortex/) | \#107 | |
 | Pragmatic | John Chidgey | The Engineered Network | 1~2 hr | 2013~now | [Official](https://engineered.network/pragmatic/) | Abandoned | It's more of a monologue than a discussion |
 | Supercomputer | Alex Cox, Matthew Cassinelli | - | 1 hr | 2018~2019 | [iTunes](https://podcasts.apple.com/us/podcast/supercomputer/id1423113378/) | Finished | |
-| yatteiki.fm | r7kamura, 9m, soramugi, itopoid (and 15 more) |  | 0.5~1 hr | 2016~now | [Official](https://yatteiki.fm/) | \#58 (descending) | Finally a Japanese tech podcast! |
+| yatteiki.fm | r7kamura, 9m, soramugi, itopoid (and 15 more) | - | 0.5~1 hr | 2016~now | [Official](https://yatteiki.fm/) | \#58 (descending) | Finally a Japanese tech podcast! |
 
 ### Apple-focused
 

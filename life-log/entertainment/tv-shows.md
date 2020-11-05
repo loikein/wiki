@@ -36,3 +36,6 @@ TV shows & Animes that I am watching/have watched.
 | ログ・ホライズン (S1) | 石平信司 | SATELIGHT | 2014 | [MyAnimeList](https://myanimelist.net/anime/17265/), [豆瓣](https://movie.douban.com/subject/21323283/) | 2020-10-21 | ★★★★☆ |  |
 | ログ・ホライズン (S2) | 石平信司 | Studio DEEN | 2015 | [MyAnimeList](https://myanimelist.net/anime/23321/), [豆瓣](https://movie.douban.com/subject/25851661/) | 2020-10-21 | ★★★☆☆ | E10 哭惨我了，但是整季来看并没有第一季好。 |
 | 魔王学院の不適合者 | 大沼心 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/40496/), [豆瓣](https://movie.douban.com/subject/34852268/) | 2020-10-22 | ★★☆☆☆ | What the fuck is this. |
+| ソードアート・オンライン (S1) | 伊藤智彦 | A-1 Pictures | 2012 | [MyAnimeList](https://myanimelist.net/anime/11757/), [豆瓣](https://movie.douban.com/subject/6869376/) | 2020-11-03 | ★★★☆☆ | |
+| ソードアート・オンライン Extra Edition | 伊藤智彦 | A-1 Pictures | 2013 | [MyAnimeList](https://myanimelist.net/anime/20021/), [豆瓣](https://movie.douban.com/subject/25805197/) | 2020-11-03 | ★★★★☆ | 看这个就不用看第一季了呢。 |
+| ソードアート・オンライン II | 伊藤智彦 | A-1 Pictures | 2014 | [MyAnimeList](https://myanimelist.net/anime/21881/), [豆瓣](https://movie.douban.com/subject/25804168/) | E10 |  |  |
