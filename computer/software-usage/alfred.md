@@ -104,14 +104,21 @@ Encode space as: +
 Keyword:         d
 ```
 
+### Reverso Context
+
+```text
+URL:             https://context.reverso.net/translation/english-chinese/{query}
+Encode space as: +
+Keyword:         d
+```
+
 ### Google Translation
 
 ```text
-URL:             https://translate.google.com/?tl=zh-CN&op=translate&sl=auto&tl=zh-CN#view=home&op=translate&sl=auto&tl=zh-CN&text={query}
+URL:             https://translate.google.com/?sl=auto&tl=zh-CN&text={query}&op=translate
 Encode space as: %20
 Keyword:         tran
 ```
-
 
 ### DeepL Translation
 

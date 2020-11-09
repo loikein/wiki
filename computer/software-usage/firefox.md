@@ -38,7 +38,7 @@ Must be installed after any other extensions that modifies new tab because Firef
 
 - [Smart TOC](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/): Add floating table of contents.
 - [HeadingsMap](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/): Add table of contents to side of the window including HTML5 landmarks.
-- [Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/): File tree for GitHub.
+- [Gitako - Github file tree](https://addons.mozilla.org/en-US/firefox/addon/gitako-github-file-tree/): File tree for GitHub. \(Replaced [Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/).\)
 - [axe - Web Accessibility Testing](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
 
 ### Others
