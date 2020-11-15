@@ -15,6 +15,18 @@ References:
 | ![](https://i.vimeocdn.com/video/randomnumber.jpg) | [Title](https://player.vimeo.com/video/VMID?texttrack=en) |
 | ![](https://i0.hdslb.com/bfs/archive/randomnumber.jpg) | [Title](https://player.bilibili.com/player.html?aid=AVID&high_quality=1&danmaku=0) |
 
+For Vimeo thumbnail number search in original page:
+
+```html
+<div class="vp-preview" data-thumb="https://i.vimeocdn.com/video/???.jpg
+```
+
+For Bilibili thumbnail number search:
+
+```html
+<meta data-vue-meta="true" itemprop="image" content="http://???.hdslb.com/bfs/archive/???.jpg
+```
+
 ## News and Social Events
 
 | Thumbnail | Title |
@@ -207,6 +219,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/o9pEzgHorH0/0.jpg) | [Stop Writing Classes](https://www.youtube.com/embed/o9pEzgHorH0?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/uzMzriVj75M/0.jpg) | [The web is my private playground \| Louis Hoebregts](https://www.youtube.com/embed/uzMzriVj75M?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/aoBWhCu6Gq0/0.jpg) | [dotCSS 2017 \- Louis Hoebregts \- CSS Christmath](https://www.youtube.com/embed/aoBWhCu6Gq0?cc_load_policy=1) |
+| ![](https://i.vimeocdn.com/video/993352264.jpg) | [What Is ARIA Even For](https://player.vimeo.com/video/478398140?texttrack=en) |
 
 ### Design
 
@@ -236,16 +249,30 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/ZLJqjiI0aHM/0.jpg) | [Method of Moments and Generalised Method of Moments Estimation - part 2](https://www.youtube.com/embed/ZLJqjiI0aHM?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/JH6W-f5Dz-8/0.jpg) | [The Efficient Generalized Method of Moments \(GMM\) Estimator](https://www.youtube.com/embed/JH6W-f5Dz-8?cc_load_policy=1) |
 
+## DIY
+
+### Electronics
+
+| Thumbnail | Title |
+| :--- | :--- | :--- |
+| ![](https://img.youtube.com/vi/CfirQC99xPc/0.jpg) | [Build a DIY screen out of recycled parts for cheap](https://www.youtube.com/embed/CfirQC99xPc?cc_load_policy=1&hl=en) |
+| ![](https://img.youtube.com/vi/Y2KK4YiOO1o/0.jpg) | [How to make a relaxing "false window" light panel \(using old laptop screens\)](https://www.youtube.com/embed/Y2KK4YiOO1o?cc_load_policy=1&hl=en) |
+| ![](https://img.youtube.com/vi/WLP_L7Mgz6M/0.jpg) | [Things you can make from old, dead laptops](https://www.youtube.com/embed/WLP_L7Mgz6M?cc_load_policy=1&hl=en) |
+| ![](https://img.youtube.com/vi/V-vFtiDYiIw/0.jpg) | [Converting devices to USB Type\-C](https://www.youtube.com/embed/V-vFtiDYiIw?cc_load_policy=1&hl=en) |
+
+### Cloths
+
+| Thumbnail | Title |
+| :--- | :--- | :--- |
+| ![](https://img.youtube.com/vi/6YcvA23uG-U/0.jpg) | [How to Clean & Condition Boots](https://www.youtube.com/embed/6YcvA23uG-U?cc_load_policy=1) |
+| ![](https://img.youtube.com/vi/thlzJj1EHiY/0.jpg) | [How to Add Pockets to Pocketless Skirts & Dresses](https://www.youtube.com/embed/thlzJj1EHiY?cc_load_policy=1) |
+
 ## Others
 
 | Thumbnail | Title | Remarks |
 | :--- | :--- | :--- |
 | ![](https://img.youtube.com/vi/mCFP5i_0ibE/0.jpg) | [盧曼\(Niklas Luhmann\)介紹紙片盒（訪談片段）](https://www.youtube.com/embed/mCFP5i_0ibE?cc_load_policy=1) | writing |
-| ![](https://img.youtube.com/vi/6YcvA23uG-U/0.jpg) | [How to Clean & Condition Boots](https://www.youtube.com/embed/6YcvA23uG-U?cc_load_policy=1) | DIY |
-| ![](https://img.youtube.com/vi/thlzJj1EHiY/0.jpg) | [How to Add Pockets to Pocketless Skirts & Dresses](https://www.youtube.com/embed/thlzJj1EHiY?cc_load_policy=1) | DIY |
 | ![](https://img.youtube.com/vi/z7yqtW4Isec/0.jpg) | [Watchtower of Turkey](https://www.youtube.com/embed/z7yqtW4Isec?cc_load_policy=1) | film editing |
 | ![](https://img.youtube.com/vi/iQi3aMQXip8/0.jpg) | [imai / Fly feat.79, 中村佳穂](https://www.youtube.com/embed/iQi3aMQXip8?cc_load_policy=1) | stop motion animation |
 | ![](https://img.youtube.com/vi/iKcWu0tsiZM/0.jpg) | [Modern Educayshun](https://www.youtube.com/embed/iKcWu0tsiZM?cc_load_policy=1) | SF |
-| ![](https://img.youtube.com/vi/se9V-PJnKj8/0.jpg) | [Not Uniquely Human: Barbara Natterson-Horowitz](https://www.youtube.com/embed/se9V-PJnKj8?cc_load_policy=1) |
-
-
+| ![](https://img.youtube.com/vi/se9V-PJnKj8/0.jpg) | [Not Uniquely Human: Barbara Natterson-Horowitz](https://www.youtube.com/embed/se9V-PJnKj8?cc_load_policy=1) | |
