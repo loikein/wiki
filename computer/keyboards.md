@@ -2,7 +2,7 @@
 
 ## General Shortcuts
 
-TBA
+- `delete` key on Mac keyboards functions as `backspace`, and `fn` + `delete` function as the actual `del`.
 
 ## Layout-Specific Input
 

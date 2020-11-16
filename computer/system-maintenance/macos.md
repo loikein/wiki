@@ -1,40 +1,21 @@
-# macOS
+# macOS Maintenance
 
-## Hardware
+## Useful Software
 
-The `delete` on Mac keyboards functions as `backspace`, but `fn` + `delete` function as the actual `del`.
+### Setting
 
-## Software
+- [Titanium Software \| Operating system utilities for Mac \- OnyX](https://www.titanium-software.fr/en/onyx.html)
+- [TinkerTool: Description](https://www.bresink.com/osx/TinkerTool.html)
 
-Programmes that I love or cannot use my Mac without.
+### Runtime/Internet
 
-### System-Maintenance Related Software
+- [App Tamer](https://www.stclairsoft.com/AppTamer/)
+- [Objective-See: KnockKnock](https://objective-see.com/products/knockknock.html)
+- [Objective-See: LuLu](https://objective-see.com/products/lulu.html)
 
-TBA
+### Microphone/Camera
 
-### Export Safari Reading List
-
-According to [Export a list of URLs from Safari Reading List – alexwlchan](https://alexwlchan.net/2015/11/export-urls-from-safari-reading-list/), just download the script and put it anywhere, then call it with `python3 readinglist.py`.
-
-Just in case, I have created a copy of the script [here](https://gist.github.com/loikein/d9ebc90e65839c81088ec65caca3ebbe).
-
-### Parallels Desktop
-
-```text
-devices.mac_hw_model = "MacBookPro15,2"
-devices.smbios.board_id = "Mac-827FB448E656EC26"
-```
-
-## App Store
-
-### Get App Bundle ID
-
-Reference: [Finding the App Bundle ID | PSPDFKit](https://pspdfkit.com/guides/ios/current/faq/finding-the-app-bundle-id/)
-
-1. With a store link, copy the app ID, and access the URL: `https://itunes.apple.com/lookup?id=ID`.
-1. If everything has been typed correctly, the URL will return a `.txt` file.
-1. Open the file, among the last lines (the 4th last for now) is a name `bundleID`.
-1. The corresponding value is the bundle ID of this app.
+- [Objective-See: OverSight](https://objective-see.com/products/oversight.html)
 
 ## Shell
 
@@ -52,14 +33,7 @@ Find Mac model ID:
 $ sysctl hw.model
 ```
 
-### System Setting & Maintenance
-
-Check SIP status:
-
-```bash
-$ csrutil status
-# System Integrity Protection status: enabled.
-```
+### Useful Operations
 
 Kill Quick Look:
 
@@ -77,6 +51,15 @@ Find and delete all .DS_Store files in current folder:
 
 ```bash
 $ find . -name '.DS_Store' -type f -delete
+```
+
+### Settings
+
+Check SIP status:
+
+```bash
+$ csrutil status
+# System Integrity Protection status: enabled.
 ```
 
 Enable three-finger dragging: \([credit](https://apple.stackexchange.com/a/362308)\)
@@ -112,17 +95,39 @@ $ defaults write com.apple.Safari IncludeDebugMenu 1
 $ defaults write com.apple.Safari IncludeInternalDebugMenu 1
 ```
 
-### Danger Zone
+## Danger Zone
+
+### Edit Launch Items
+
+\([credit 1](https://stackoverflow.com/a/16727754), [2](https://apple.stackexchange.com/a/308421)\)
+
+- PID: running
+- Status:
+    - `0` = finished
+    - Positive = error
+    - Negative = terminated
+
+```bash
+# Find
+$ launchctl list | grep epicgames
+# PID     Status  Label
+# -       1       com.epicgames.launcher
+
+# Remove
+$ launchctl remove com.epicgames.launcher
+```
+
+### Edit File Status
 
 Reference: [How to remove driver and kexts on Mac? : SteamController](https://www.reddit.com/r/SteamController/comments/edkq1r/how_to_remove_driver_and_kexts_on_mac/)
 
-When some file cannot be accessed:
+When some file cannot be accessed by Homebrew:
 
 ```bash
 $ sudo chown -R $(whoami) $(brew --prefix)/*
 ```
 
-Edit host file:
+### Edit Host File
 
 ```bash
 $ sudo subl /private/etc/hosts
