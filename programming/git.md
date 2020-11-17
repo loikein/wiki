@@ -237,7 +237,14 @@ $ git checkout master
 $ git branch -d my-old-branch
 ```
 
-Delete all gone local branches: \([credit](https://medium.com/@kcmueller/delete-local-git-branches-that-were-deleted-on-remote-repository-b596b71b530c)\)
+Delete all gone local branches: \([credit](https://stackoverflow.com/a/28464339)\)
+
+```bash
+$ git remote prune origin
+```
+
+<!--
+\([credit](https://medium.com/@kcmueller/delete-local-git-branches-that-were-deleted-on-remote-repository-b596b71b530c)\)
 
 ```bash
 # Pull newest version
@@ -245,7 +252,7 @@ $ git fetch --prune origin
 
 # Delete all gone branches
 $ git branch -v | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r git branch -d
-```
+``` -->
 
 Delete remote branch:
 
