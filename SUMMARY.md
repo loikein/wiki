@@ -6,14 +6,15 @@
 
 * [Keyboard Stuff](computer/keyboards.md)
 
-* [macOS](computer/macos.md)
-
 * [Zsh](computer/zsh.md)
+
+* [System Maintenance](computer/system-maintenance/)
+  * [macOS](computer/system-maintenance/masos.md)
 
 * [Internet](computer/internet/)
   * [Search the Internet](computer/internet/search.md)
   * [Custom CSS](computer/internet/css.md)
-  * [Custom JavaScript](computer/internet/js.md)
+  * [Userscript](computer/internet/userscript.md)
 
 * [Other Software](computer/software-usage/)
   * [Built-In Shell Commands](computer/software-usage/command-line-built-in.md)
@@ -26,6 +27,7 @@
   * [Vimium](computer/software-usage/vimium.md)
   * [Vim](computer/software-usage/vim.md)
   * [Zotero](computer/software-usage/zotero.md)
+  * [Other macOS Software](computer/software-usage/masos-software.md)
 
 ## Programming
 

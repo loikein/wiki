@@ -1,5 +1,9 @@
 # Firefox
 
+## Tricks
+
+- Hold `option` on Mac, `alt` on Windows to select any word without opening the link.
+
 ## Useful Add-Ons
 
 Reference: [All recommended extensions](https://addons.mozilla.org/en-US/firefox/search/?recommended=true&type=extension)
@@ -33,6 +37,7 @@ Must be installed after any other extensions that modifies new tab because Firef
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/): Custom CSS, see [Custom CSS](../internet/css.md).
 - [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): Custom JavaScript, see [Custom JavaScript](../internet/js.md).
+    - See [Userscripts](userscripts.md)
 
 ### Accessibility
 
