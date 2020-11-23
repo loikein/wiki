@@ -67,6 +67,8 @@ For Bilibili thumbnail number search:
 | ![](http://i0.hdslb.com/bfs/archive/99b7596eca852e813fafe0fc3c3b2f7b3936de17.jpg) | [建议改成：骚 话 之 王](https://player.bilibili.com/player.html?aid=498099462&high_quality=1&danmaku=0) \(《海绵宝宝》骚话集\) |
 | ![](https://img.youtube.com/vi/tQq53-g25d4/0.jpg) | [5g-Minute Crafts Makes the Worst Life Hacks of All Time](https://www.youtube.com/embed/tQq53-g25d4?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/eDW44A_noK8/0.jpg) | [if smartphone commercials were honest.](https://www.youtube.com/embed/eDW44A_noK8?cc_load_policy=1) |
+| ![](https://img.youtube.com/vi/BZbChKzedEk/0.jpg) | [Can You Swim in Shade Balls?](https://www.youtube.com/embed/BZbChKzedEk?cc_load_policy=1) |
+| ![](https://img.youtube.com/vi/BnzN3zDKFEI/0.jpg) | [A Park Bench Public Apology](https://www.youtube.com/embed/BnzN3zDKFEI?cc_load_policy=1) |
 
 ### Comedy
 
@@ -276,3 +278,4 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/iQi3aMQXip8/0.jpg) | [imai / Fly feat.79, 中村佳穂](https://www.youtube.com/embed/iQi3aMQXip8?cc_load_policy=1) | stop motion animation |
 | ![](https://img.youtube.com/vi/iKcWu0tsiZM/0.jpg) | [Modern Educayshun](https://www.youtube.com/embed/iKcWu0tsiZM?cc_load_policy=1) | SF |
 | ![](https://img.youtube.com/vi/se9V-PJnKj8/0.jpg) | [Not Uniquely Human: Barbara Natterson-Horowitz](https://www.youtube.com/embed/se9V-PJnKj8?cc_load_policy=1) | |
+| ![](https://img.youtube.com/vi/D1WqlRx2siQ/0.jpg) | [What Matt and Tom Use To Make Videos: The Kit List, 2017 Edition](https://www.youtube.com/embed/D1WqlRx2siQ?cc_load_policy=1) | |

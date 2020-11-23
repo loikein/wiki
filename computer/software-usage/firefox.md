@@ -56,6 +56,7 @@ Must be installed after any other extensions that modifies new tab because Firef
 - [HighlightAll](https://addons.mozilla.org/en-US/firefox/addon/highlightall/): Highlight multiple keywords.
 - [Unpinterested!](https://addons.mozilla.org/en-US/firefox/addon/unpinterested/): Remove results from Pinterest in Google image search, or optionally, all searches.  
 Disclaimer: I use Pinterest a lot, but it is polluting search results too much I hate it.
+- [Ruffle \| Flash Player emulator written in the Rust programming language](https://ruffle.rs/#usage)
 
 ## Vimium-FF
 
@@ -68,6 +69,8 @@ about:about         All hidden pages
 about:config        Advanced settings
 about:profiles      Profile manager
 about:support       Detailed "about this browser"
+about:debugging#/runtime/this-firefox
+                    Load unsigned extension without changing setting
 ```
 
 For example, to enable `prefers-reduced-motion` within the browser, add the following pair to `about:config`: \([credit](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#User_Preferences)\)
