@@ -9,7 +9,7 @@
 * [Zsh](computer/zsh.md)
 
 * [System Maintenance](computer/system-maintenance/)
-  * [macOS](computer/system-maintenance/masos.md)
+  * [macOS](computer/system-maintenance/macos.md)
 
 * [Internet](computer/internet/)
   * [Search the Internet](computer/internet/search.md)
@@ -27,7 +27,7 @@
   * [Vimium](computer/software-usage/vimium.md)
   * [Vim](computer/software-usage/vim.md)
   * [Zotero](computer/software-usage/zotero.md)
-  * [Other macOS Software](computer/software-usage/masos-software.md)
+  * [Other macOS Software](computer/software-usage/macos-software.md)
 
 ## Programming
 
