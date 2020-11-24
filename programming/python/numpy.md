@@ -2,6 +2,19 @@
 
 ## Array
 
+Make array of five 0's:
+
+```python
+import numpy as np
+
+y = np.tile(0, 5)
+y
+
+# array([0, 0, 0, 0, 0])
+```
+
+## Matrix
+
 Make array of 1 \~ 100:
 
 ```python

@@ -95,7 +95,32 @@ $ defaults write com.apple.Safari IncludeDebugMenu 1
 $ defaults write com.apple.Safari IncludeInternalDebugMenu 1
 ```
 
+### Find Third Party Kernel Extensions
+
+[Credit](https://apple.stackexchange.com/a/310758)
+
+```bash
+$ kextstat | grep -v com.apple
+```
+
 ## Danger Zone
+
+### Remove Snapz Pro
+
+[Credit](https://www.macworld.com/article/3128854/how-to-remove-snapz-pro-in-macos-sierra.html)
+
+```bash
+$ sudo kextunload -b com.AmbrosiaSW.AudioSupport
+
+$ cd /Library/Extensions/
+$ sudo rm -r AmbrosiaAudioSupport.kext # r for recursive
+
+$ cd /Library/LaunchDaemons/
+$ sudo rm com.ambrosiasw.ambrosiaaudiosupporthelper.daemon.plist
+
+$ cd ~/Library/Containers/
+$ sudo rm -r com.ambrosiasw.snapz-pro-x
+```
 
 ### Edit Launch Items
 

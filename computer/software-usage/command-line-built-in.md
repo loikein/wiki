@@ -39,8 +39,9 @@ $ cd -
 
 Online manual: [grep(1) - Linux manual page](https://man7.org/linux/man-pages/man1/grep.1.html)
 
-- Use extended regex: `grep -E` or `egrep` (E for extended-regexp)
-- Use fixed string instead of regex: `grep -F` or `fgrep` (F for fixed-strings)
+- Use extended regex: `grep -E` or `egrep` (E for `extended-regexp`)
+- Use fixed string instead of regex: `grep -F` or `fgrep` (F for `fixed-strings`)
+- Reverse match (match without): `grep -v` (v for `invert-match`)
 
 Example:
 
