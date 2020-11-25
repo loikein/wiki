@@ -14,6 +14,11 @@ For the list of supported browsers, see [Greasy Fork #Step 1: install a user scr
 - [Google Hit Hider by Domain (Search Filter / Block Sites)](https://greasyfork.org/en/scripts/1682/)
 - [jmlntw/google-search-sidebar: A user script and user style to move Google search tools to sidebar.](https://github.com/jmlntw/google-search-sidebar)
 - [Inject Google Translate Widget](https://greasyfork.org/en/scripts/391935-inject-google-translate-widget)
+- [AC-baidu:google_sogou_bing_RedirectRemove_favicon_adaway_TwoLine](https://greasyfork.org/en/scripts/14178-ac-baidu-%E9%87%8D%E5%AE%9A%E5%90%91%E4%BC%98%E5%8C%96%E7%99%BE%E5%BA%A6%E6%90%9C%E7%8B%97%E8%B0%B7%E6%AD%8C%E5%BF%85%E5%BA%94%E6%90%9C%E7%B4%A2-favicon-%E5%8F%8C%E5%88%97): The title is very busy there, but essentially its functions include the followings for major search engines:
+    - Add domain block
+    - Add favicon
+    - Add counter
+    - Other custom CSS
 
 ## Douban
 

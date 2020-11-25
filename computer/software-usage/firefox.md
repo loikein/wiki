@@ -31,6 +31,8 @@ Must be installed after any other extensions that modifies new tab because Firef
 (Replaced [Untrack Me](https://addons.mozilla.org/en-US/firefox/addon/untrack-me/).)
 - [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/): Also works as IE tabs.
 - [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/): Summarises the terms of service of the current website.
+- [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/): Separate Google sites (including YouTube) from other history.
+- [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/): Stop trackings from CDN \(I don't quite understand, but it looks promising\).
 
 ### Customise the Web
 
@@ -57,6 +59,7 @@ Must be installed after any other extensions that modifies new tab because Firef
 - [Unpinterested!](https://addons.mozilla.org/en-US/firefox/addon/unpinterested/): Remove results from Pinterest in Google image search, or optionally, all searches.  
 Disclaimer: I use Pinterest a lot, but it is polluting search results too much I hate it.
 - [Ruffle \| Flash Player emulator written in the Rust programming language](https://ruffle.rs/#usage)
+- [SearchPreview](https://addons.mozilla.org/en-US/firefox/addon/searchpreview/): Add thumbnails to major search engines' results page \(or as the youngsters say, SERP\).
 
 ## Vimium-FF
 
