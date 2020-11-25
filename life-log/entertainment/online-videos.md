@@ -134,6 +134,8 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/ilRoc89a2O4/0.jpg) | [MATT PLESS \- Black-Eyed Susan \| A Fistful Of Vinyl](https://www.youtube.com/embed/ilRoc89a2O4) |
 | ![](https://img.youtube.com/vi/T9iFcb5yfAc/0.jpg) | [【v flower】Close to You【カバー】](https://www.youtube.com/embed/T9iFcb5yfAc) |
 | ![](https://img.youtube.com/vi/PjnaciNT-wQ/0.jpg) | [Debussy \- « Clair de Lune » on the theremin](https://www.youtube.com/embed/PjnaciNT-wQ) |
+| ![](https://img.youtube.com/vi/PZ4PVavi6F0/0.jpg) | [Andrea Bocelli "I Believe"](https://www.youtube.com/embed/PZ4PVavi6F0) |
+| ![](https://img.youtube.com/vi/9GgI-V_R3wI/0.jpg) | [Rudy's Elite Strike Force Continues To Fail Spectacularly On Behalf Of Their Client, The President](https://www.youtube.com/embed/9GgI-V_R3wI?start=617) \(Jon Batiste's awful Thanksgiving songs\) |
 
 ### Anime & Cinematic Clips
 
@@ -279,3 +281,4 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/iKcWu0tsiZM/0.jpg) | [Modern Educayshun](https://www.youtube.com/embed/iKcWu0tsiZM?cc_load_policy=1) | SF |
 | ![](https://img.youtube.com/vi/se9V-PJnKj8/0.jpg) | [Not Uniquely Human: Barbara Natterson-Horowitz](https://www.youtube.com/embed/se9V-PJnKj8?cc_load_policy=1) | |
 | ![](https://img.youtube.com/vi/D1WqlRx2siQ/0.jpg) | [What Matt and Tom Use To Make Videos: The Kit List, 2017 Edition](https://www.youtube.com/embed/D1WqlRx2siQ?cc_load_policy=1) | |
+| ![](https://img.youtube.com/vi/4g-YY5LnSJw/0.jpg) | [The story behind Motoi Yamamoto's salt art \| Documentary](https://www.youtube.com/embed/4g-YY5LnSJw?cc_load_policy=1) | |

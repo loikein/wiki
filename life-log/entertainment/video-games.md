@@ -22,3 +22,4 @@
 |------------|-------------|--------------|------|-------|-------|--------|
 | Sky: Children of the Light | iOS | Thatgamecompany | 2019 | [Official](https://thatskygame.com/) | ★★★★★ | |
 | Hitman: Sniper | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/hitman-sniper/id904278510/) | ★★☆☆☆ | |
+| Rise of Kingdoms: Lost Crusade | iOS | Lilith Games | 2018 | [App Store](https://apps.apple.com/us/app/rise-of-kingdoms-lost-crusade/id1354260888/) | ★★★☆☆ | Surprisingly well-made for its kind, but I just cannot appreciate this genre. |
