@@ -10,6 +10,7 @@
 
 * [System Maintenance](computer/system-maintenance/)
   * [macOS](computer/system-maintenance/macos.md)
+  * [Raspberry Pi](computer/system-maintenance/raspberry-pi.md)
 
 * [Internet](computer/internet/)
   * [Search the Internet](computer/internet/search.md)

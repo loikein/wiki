@@ -1,3 +1,5 @@
+# Raspberry Pi
+
 ## Fresh Install
 
 1. Install `raspberry-pi-imager` on macOS.
@@ -22,7 +24,27 @@
     - The initial password is `raspberry`.
     - The pre-install text editor is `nano`.
 
+When connected to a screen, Pi will prompt to upgrade stuff. Don't do it (press `skip`).
+
+## Use VNC Environment for Remote Desktop
+
+Reference: [How to Use IOS Devices As a Monitor of Raspberry Pi : 6 Steps (with Pictures) - Instructables](https://www.instructables.com/How-to-Use-Ios-Devices-As-a-Monitor-of-Raspberry-P/)
+
+- SSH to the Pi.
+- Run `$ sudo apt-get install tightvncserver`
+- Run `$ tightvncserver`
+- Note down the port (`1` for example)
+- On a machine with screen, connect to the server (`192.168.0.105:1` for example)
+
+Do the stuff from iPad:
+
+- iOS SSH client: [‎Termius - SSH client on the App Store](https://apps.apple.com/us/app/termius-ssh-client/id549039908#?platform=ipad)
+- iOS VNC client is [‎VNC Viewer - Remote Desktop on the App Store](https://apps.apple.com/us/app/vnc-viewer-remote-desktop/id352019548#?platform=ipad)
+
+<!-- 
 ## Configure LCD Display
+
+Setup:
 
 ```bash
 $ git clone  https://github.com/goodtft/LCD-show.git
@@ -31,7 +53,8 @@ $ cd LCD-show/
 $ sudo ./LCD35-show
 ```
 
-<!-- 
+Error message:
+
 ```bash
 ubuntu@ubuntu:~/LCD-show-ubuntu$ sudo ./LCD35-show
 cp: cannot create regular file '/usr/share/X11/xorg.conf.d/99-fbturbo.conf': No such file or directory
@@ -46,15 +69,15 @@ reboot now
 
 ## How To…
 
-- Reboot: `$ sudo shutdown -r now` or `$ sudo reboot`
-- Shutdown: `$ ` or `$ sudo halt`
+- Reboot: `$ sudo reboot`
+- Shutdown: `$ sudo halt`
 - See list of running processes by uptime: `$ ps -aux --sort -time`
 
 ## Troubleshooting
 
-### Something 1
+### `reason is APT is installing or removing packages`
 
-Try in sequence: `$ sudo apt-get clean`
+Try in sequence:
 
 ```bash
 $ sudo apt-get clean
@@ -76,7 +99,7 @@ $ sudo dpkg --configure -a
 
 ### Cannot SSH after re-installation
 
-If see this:
+If see this on local machine:
 
 ```text
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -87,5 +110,5 @@ If see this:
 Try this:
 
 ```bash
-$ ssh-keygen -R "<ip of server>"
+$ ssh-keygen -R "<ip of server>" # 192.168.0.105, for example
 ```
