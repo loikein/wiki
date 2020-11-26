@@ -44,6 +44,11 @@ alias lt='exa --all --icons --header --long --tree --level=2'
 Repository: [hishamhm/htop: htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'.](https://github.com/hishamhm/htop)  
 Online manual: [htop(1) - Linux manual page](https://www.man7.org/linux/man-pages/man1/htop.1.html)
 
+### nmap (ping for local devices)
+
+- Ping iPhone: `nmap -Pn <ip address>`
+
+
 ### ripgrep, rg (grep)
 
 Repository: [BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern](https://github.com/BurntSushi/ripgrep)  
