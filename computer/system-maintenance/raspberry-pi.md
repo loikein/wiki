@@ -36,6 +36,12 @@ Reference: [How to Use IOS Devices As a Monitor of Raspberry Pi : 6 Steps (with 
 - Note down the port (`1` for example)
 - On a machine with screen, connect to the server (`192.168.0.105:1` for example)
 
+For auto-start at booting, add the following to `$ nano ~/.bashrc`
+
+```bash
+if [ -x "$(command -v tightvncserver)" ]; then tightvncserver; fi
+```
+
 Do the stuff from iPad:
 
 - iOS SSH client: [‎Termius - SSH client on the App Store](https://apps.apple.com/us/app/termius-ssh-client/id549039908#?platform=ipad)
@@ -69,9 +75,20 @@ reboot now
 
 ## How To…
 
+- See OS info: `$ cat /etc/os-release`
 - Reboot: `$ sudo reboot`
 - Shutdown: `$ sudo halt`
 - See list of running processes by uptime: `$ ps -aux --sort -time`
+- SSH without a password:
+
+    ```sh
+    $ ssh-copy-id pi@192.168.0.105
+    # Number of key(s) added:        1
+
+    # Now try logging into the machine, with:   "ssh 'pi@192.168.0.105'"
+    # and check to make sure that only the key(s) you wanted were added.
+    $ ssh pi@192.168.0.105
+    ```
 
 ## Troubleshooting
 

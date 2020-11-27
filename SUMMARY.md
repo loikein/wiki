@@ -24,6 +24,7 @@
   * [espanso](computer/software-usage/espanso.md)
   * [ffmpeg](computer/software-usage/ffmpeg.md)
   * [Firefox](computer/software-usage/firefox.md)
+  * [Pleroma](computer/software-usage/pleroma.md)
   * [tmux](computer/software-usage/tmux.md)
   * [Vimium](computer/software-usage/vimium.md)
   * [Vim](computer/software-usage/vim.md)

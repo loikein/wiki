@@ -2,6 +2,8 @@
 
 ## Config
 
+Where to put it? [Nobody knows]((https://github.com/homebridge/homebridge/issues/2210)). All of them. \(It's `~/.homebridge/config.json`\).
+
 ```json
 {
     "bridge": {
@@ -16,7 +18,7 @@
             "name": "Switch",
             "delay": 5000,
             "retries": 3,
-            "macAddress": "F6:9B:56:E3:2A:F3",
+            "macAddress": "F6:9B:56:E3:2A:F3"
        }
     ],
     "platforms": [
