@@ -13,3 +13,18 @@ Batch extract while preserving the file names: \([credit](https://stackoverflow.
 ```bash
 $ for f in *.mp4;  do ffmpeg -i "$f" -vn -acodec copy "${f%.mp4}".m4a;  done
 ```
+
+## Merge Multiple Audio Files
+
+Credit: [linux - Join many MP3, OGG, and FLAC files into one WAV or FLAC - Super User 
+](https://superuser.com/a/584122)
+
+The `-safe 0` is necessary because [ffmpeg will complain](https://stackoverflow.com/a/38999363).
+
+```bash
+# make a list of needed files
+$ for f in ./*.flac; do echo "file '$f'" >> inputs.txt; done
+
+# merge them
+$ ffmpeg -f concat -safe 0 -i inputs.txt output.flac
+```
