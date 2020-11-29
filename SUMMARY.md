@@ -39,6 +39,8 @@
   * [LaTeX](programming/latex-friends/latex.md)
   * [Pandoc](programming/latex-friends/pandoc.md)
 
+* [JavaScript](programming/javascript/README.md)
+
 * [Python](programming/python/README.md)
   * [Anaconda/Miniconda](programming/python/conda.md)
   * [Documentation](programming/python/documentation.md)

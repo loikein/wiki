@@ -136,6 +136,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/PjnaciNT-wQ/0.jpg) | [Debussy \- « Clair de Lune » on the theremin](https://www.youtube.com/embed/PjnaciNT-wQ) |
 | ![](https://img.youtube.com/vi/PZ4PVavi6F0/0.jpg) | [Andrea Bocelli "I Believe"](https://www.youtube.com/embed/PZ4PVavi6F0) |
 | ![](https://img.youtube.com/vi/9GgI-V_R3wI/0.jpg) | [Rudy's Elite Strike Force Continues To Fail Spectacularly On Behalf Of Their Client, The President](https://www.youtube.com/embed/9GgI-V_R3wI?start=617) \(Jon Batiste's awful Thanksgiving songs\) |
+| ![](https://img.youtube.com/vi/iesdgpyKjwM/0.jpg) | [One Round More](https://www.youtube.com/embed/iesdgpyKjwM) |
 
 ### Anime & Cinematic Clips
 
@@ -213,6 +214,7 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/vl6jn-DdafM/0.jpg) | [We Are Going](https://www.youtube.com/embed/vl6jn-DdafM?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/MnT1xgZgkpk/0.jpg) | [What happens when our computers get smarter than we are? \| Nick Bostrom](https://www.youtube.com/embed/MnT1xgZgkpk?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/mQhvNEVRo7w/0.jpg) | [Stephen Hawking: We Must Leave Earth To Survive \| Expedition New Earth \| Earth Lab](https://www.youtube.com/embed/mQhvNEVRo7w?cc_load_policy=1) |
+| ![](https://img.youtube.com/vi/_kBlH-DQsEg/0.jpg) | [2030: Privacy's Dead. What happens next?](https://www.youtube.com/embed/_kBlH-DQsEg?cc_load_policy=1) |
 
 ### Coding
 
