@@ -217,6 +217,13 @@ $ git checkout my-new-branch
 $ git checkout -b my-new-branch
 ```
 
+Change branch name"
+
+```bash
+$ git checkout brach_with_bad_name
+$ git branch -m fancy_name
+```
+
 Move files changes to another branch: \([credit](https://stackoverflow.com/a/35742820)\)
 
 ```bash

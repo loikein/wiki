@@ -86,6 +86,7 @@ For Bilibili thumbnail number search:
 | ![](https://img.youtube.com/vi/goMsCPQYhlQ/0.jpg) | ["Louis Vuitton" \| Russell Peters \- Red, White, and Brown \(Take it and go\)](https://www.youtube.com/embed/goMsCPQYhlQ?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/z4KhEj0ai5E/0.jpg) | ["Accents" \| Russell Peters](https://www.youtube.com/embed/z4KhEj0ai5E?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/dI38GtWFihY/0.jpg) | [Chris James \- Black British Accent \(Stand Up Comedy\)](https://www.youtube.com/embed/dI38GtWFihY?cc_load_policy=1) |
+| ![](https://img.youtube.com/vi/Mw7Gryt-rcc/0.jpg) | [John Mulaney Plays “What’s New Pussycat?” 21 Times on a Diner Jukebox](https://www.youtube.com/embed/Mw7Gryt-rcc?cc_load_policy=1) |
 
 ### Advertisement
 
