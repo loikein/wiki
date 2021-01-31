@@ -53,6 +53,12 @@ Find and delete all .DS_Store files in current folder:
 $ find . -name '.DS_Store' -type f -delete
 ```
 
+Fix Xcode hanging: \([credit](https://apple.stackexchange.com/questions/119864/xcodebuild-firing-after-every-terminal-command)\)
+
+```bash
+$ sudo xcodebuild -license accept
+```
+
 ### Settings
 
 Check SIP status:

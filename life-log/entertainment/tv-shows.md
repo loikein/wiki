@@ -28,7 +28,6 @@ TV shows & Animes that I am watching/have watched.
 | グレイプニル | 米田和弘 | PINE JAM | 2020 | [MyAnimeList](https://myanimelist.net/anime/39463/), [豆瓣](https://movie.douban.com/subject/30482079/) | 2020-06-28 | ★★★★☆ | |
 | 異種族レビュアーズ | 小川優樹 | Passione | 2020 | [MyAnimeList](https://myanimelist.net/anime/40010/), [豆瓣](https://movie.douban.com/subject/34447531/) | 2020-07-16 | ★★★★★ | 色情画面不少，但基本都是擦边球，披着里番皮探索种族融合和女性主义的话题，应该任何性别的人看都会找到乐趣。 |
 | 転生したらスライムだった件 | 菊地康仁 | eight bit | 2019 | [MyAnimeList](https://myanimelist.net/anime/37430/), [豆瓣](https://movie.douban.com/subject/30163731/) | 2020-07-19 | ★★★★☆ | |
-| 転生したらスライムだった件 OVA | 菊地康仁 | eight bit | 2020 | [MyAnimeList](https://myanimelist.net/anime/38793/), [豆瓣](https://movie.douban.com/subject/30447592/) | E04 | |
 | この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | Abandoned (E02) | ★☆☆☆☆ | 实在蠢得没法看。 |
 | 宝石の国 | 京極尚彦 | Orange | 2017 | [MyAnimeList](https://myanimelist.net/anime/35557/), [豆瓣](https://movie.douban.com/subject/27047873/) | 2017-12-? | ★★★★★ | 首播的时候看的，正在看第二遍。(E03) |
 | 魔法科高校の劣等生 | 小野学 | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/20785/), [豆瓣](https://movie.douban.com/subject/25741564/) | 2020-09-18 | ★★★☆☆ | 配角故事什么都好，就是主角兄妹真的太尬了，拖了好几次没看下去，终于看完了。 |
@@ -39,3 +38,8 @@ TV shows & Animes that I am watching/have watched.
 | ソードアート・オンライン (S1) | 伊藤智彦 | A-1 Pictures | 2012 | [MyAnimeList](https://myanimelist.net/anime/11757/), [豆瓣](https://movie.douban.com/subject/6869376/) | 2020-11-03 | ★★★☆☆ | |
 | ソードアート・オンライン Extra Edition | 伊藤智彦 | A-1 Pictures | 2013 | [MyAnimeList](https://myanimelist.net/anime/20021/), [豆瓣](https://movie.douban.com/subject/25805197/) | 2020-11-03 | ★★★★☆ | 看这个就不用看第一季了呢。 |
 | ソードアート・オンライン II | 伊藤智彦 | A-1 Pictures | 2014 | [MyAnimeList](https://myanimelist.net/anime/21881/), [豆瓣](https://movie.douban.com/subject/25804168/) | E10 |  |  |
+| 転生したらスライムだった件 OVA | 菊地康仁 | eight bit | 2020 | [MyAnimeList](https://myanimelist.net/anime/38793/), [豆瓣](https://movie.douban.com/subject/30447592/) | 2021-01-29 | ★★★★☆ | 真可爱。 |
+| 痛いのは嫌なので防御力に極振りしたいと思います。 | 大沼心, 湊未來  | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/38790/), [豆瓣](https://movie.douban.com/subject/30397673/) | Stopped (E04) | ★★☆☆☆ | 可爱是可爱，没什么特别想看下去的感觉…… |
+| 賢者の孫 | 田村正文 | SILVER LINK. | 2019 | [MyAnimeList](https://myanimelist.net/anime/36407/), [豆瓣](https://movie.douban.com/subject/27149559/) | 2021-01-31 | ★★★☆☆ |  |
+| 転生したらスライムだった件 S2 | 菊地康仁 | eight bit | 2021 | [MyAnimeList](https://myanimelist.net/anime/39551/), [豆瓣](https://movie.douban.com/subject/27186493/) | E03 |  | |
+| ログ・ホライズン (S3) | 石平信司 | Studio DEEN | 2021 | [MyAnimeList](https://myanimelist.net/anime/41109/), [豆瓣](https://movie.douban.com/subject/34959193/) | E01 |  |  |
