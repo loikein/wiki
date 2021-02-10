@@ -43,3 +43,8 @@ TV shows & Animes that I am watching/have watched.
 | 賢者の孫 | 田村正文 | SILVER LINK. | 2019 | [MyAnimeList](https://myanimelist.net/anime/36407/), [豆瓣](https://movie.douban.com/subject/27149559/) | 2021-01-31 | ★★★☆☆ |  |
 | 転生したらスライムだった件 S2 | 菊地康仁 | eight bit | 2021 | [MyAnimeList](https://myanimelist.net/anime/39551/), [豆瓣](https://movie.douban.com/subject/27186493/) | E03 |  | |
 | ログ・ホライズン (S3) | 石平信司 | Studio DEEN | 2021 | [MyAnimeList](https://myanimelist.net/anime/41109/), [豆瓣](https://movie.douban.com/subject/34959193/) | E01 |  |  |
+| イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
+| 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
+| 舟を編む |  |  | 2016 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/26752720/) | TODO |  |  |
+| 約束のネバーランド |  |  | 2019 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/30206430/) | TODO |  |  |
+| Dr.STONE |  |  | 2019 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/30377498/) | TODO |  |  |

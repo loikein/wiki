@@ -56,6 +56,7 @@
 * [Static Site Generators](programming/static-site/)
   * [Hugo/Blogdown](programming/static-site/hugo-blogdown.md)
   * [Gatsby](programming/static-site/gatsby.md)
+  * [Jekyll](programming/static-site/jekyll.md)
 
 ## Meta Life
 
