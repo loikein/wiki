@@ -1,5 +1,7 @@
 # 贝叶斯定理
 
+![Modified Bayes' Theorem](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
+
 参见：[修正贝叶斯定理 - XKCD 中文站](https://xkcd.in/comic?lg=cn&id=2059)
 
 ## 定理
