@@ -1,9 +1,5 @@
 # 贝叶斯定理
 
-![Modified Bayes' Theorem](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
-
-参见：[修正贝叶斯定理 - XKCD 中文站](https://xkcd.in/comic?lg=cn&id=2059)
-
 ## 定理
 
 $$
@@ -49,3 +45,9 @@ $$
 >这就是冤假错案产生的数学原理，这也是为什么卡尔·萨根说“超乎寻常的论断需要超乎寻常的证据”。
 
 Source: 智识分子. 万维钢. Part III. 贝叶斯定理的胆识.
+
+## Trivia
+
+![Modified Bayes' Theorem](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
+
+翻译：[修正贝叶斯定理 - XKCD 中文站](https://xkcd.in/comic?lg=cn&id=2059)

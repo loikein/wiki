@@ -2,7 +2,13 @@
 
 Most of time I only use LaTeX for maths.
 
-## Debugging in Shell
+## Debugging (in Shell)
+
+Find out the current version of LaTeX: \([credit](https://superuser.com/a/492743)\)
+
+```bash
+$ pdflatex --version
+```
 
 When `\xdef\@fontenc@load@list{\@fontenc@load@list undefined control sequence` happens: \([credit](https://stackoverflow.com/a/60493558/10668706)\)
 
