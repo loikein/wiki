@@ -33,6 +33,14 @@ Find Mac model ID:
 $ sysctl hw.model
 ```
 
+### Solve "App is damaged and can't be opened"
+
+Credit: [macOS Catalina: "App is damaged and can't be opened. You should move it to the trash." - Ask Different](https://apple.stackexchange.com/a/372208)
+
+```bash
+$ sudo xattr -rd com.apple.quarantine "path/to/file.app"
+```
+
 ### Useful Operations
 
 Kill Quick Look:
@@ -53,13 +61,13 @@ Find and delete all .DS_Store files in current folder:
 $ find . -name '.DS_Store' -type f -delete
 ```
 
-Fix Xcode hanging: \([credit](https://apple.stackexchange.com/a/308125)\)
+Fix Xcode hanging in Terminal: \([credit](https://apple.stackexchange.com/a/308125)\)
 
 ```bash
 $ sudo xcodebuild -license accept
 ```
 
-### Settings
+### Advanced Settings
 
 Check SIP status:
 

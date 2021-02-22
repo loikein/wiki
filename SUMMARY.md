@@ -25,6 +25,7 @@
   * [ffmpeg](computer/software-usage/ffmpeg.md)
   * [Firefox](computer/software-usage/firefox.md)
   * [Pleroma](computer/software-usage/pleroma.md)
+  * [Shimeji for Mac](computer/software-usage/shimeji-for-mac.md)
   * [tmux](computer/software-usage/tmux.md)
   * [Vimium](computer/software-usage/vimium.md)
   * [Vim](computer/software-usage/vim.md)
