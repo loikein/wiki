@@ -2,7 +2,7 @@
 
 Main reference: [@zkdlsoo on Twitter](https://twitter.com/zkdlsoo/status/986176637946359808)
 
-This article was originally posted in Chinese at my blog: [Shimeji（桌宠） on macOS](https://blog.loikein.one/2021/02/shimeji-on-macos.html). Go take a look at my demo video there if you want to know how it looks.
+This article was originally posted in Chinese at my blog: [Shimeji（桌宠） on macOS](https://blog.loikein.one/2021/02/shimeji-on-macos.html). Go take a look at my demo video there if you want to know how it looks in action.
 
 ## Prerequisites
 
@@ -22,10 +22,10 @@ This article was originally posted in Chinese at my blog: [Shimeji（桌宠） o
 1. Unzip the Shimeji of your choice to, say, `folder1`.
 1. Unzip the Hetalia Shimeji to `folder2`.
 1. Just to make sure, try running it first.
-    1. Right click `folder2/Shimeji.app`, and click `Show Package Contents`.
-    1. Find `Shimeji.app/Contents/Resources/Java/Shimeji.jar`, double click to run.
-    1. Does it work? It worked on my machine (macOS 10.15).
-    1. To make it easier to access, make a symlink. Right click `Shimeji.jar`, and click `Make Alias`. Now cut & paste this to the top of `folder2`.
+    a. Right click `folder2/Shimeji.app`, and click `Show Package Contents`.
+    a. Find `Shimeji.app/Contents/Resources/Java/Shimeji.jar`, double click to run.
+    a. Does it work? It worked on my machine (macOS 10.15).
+    a. To make it easier to access, make a symlink. Right click `Shimeji.jar`, and click `Make Alias`. Now cut & paste this directly under `folder2`.
 1. Rename `folder2/img/` to something else, say, `img_2`.
 1. Copy `folder1/img/` & paste under `folder2/`.
 1. Observe the structure of `folder2/img_2/`. This is the target structure.
@@ -33,3 +33,13 @@ This article was originally posted in Chinese at my blog: [Shimeji（桌宠） o
     - Everything is put directly in the folder, no subfolders.
 1. Observe the structure of `folder2/img/`. If it is different to `folder2/img_2/`, edit accordingly.
 1. Run `Shimeji.jar` again. This time the Shimeji of your choice should show up.
+
+## Translation of the menu items
+
+From top to bottom:
+
+- Add one more
+- Gather all
+- Clean all but one
+- Restore window (no idea what this does)
+- Exit
