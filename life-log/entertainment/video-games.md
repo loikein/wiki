@@ -25,4 +25,5 @@
 | Rise of Kingdoms: Lost Crusade | iOS | Lilith Games | 2018 | [App Store](https://apps.apple.com/us/app/rise-of-kingdoms-lost-crusade/id1354260888/) | ★★★☆☆ | Surprisingly well-made for its kind, but I just cannot appreciate this genre. |
 | Genshin Impact | iOS | miHoYo | 2020 | [Official](https://genshin.mihoyo.com/) | ★★★★☆ | |
 | Tales of Crestoria | iOS | BANDAI NAMCO | 2020 | [Official](https://crestoria-en.tales-ch.jp/index.php) | ★★☆☆☆ | Bad graphics, bad interface, this must be a game purely for existing fans I imagine. |
-| 幻书启世录 | iOS | 网易 | 2020 | [iTunes](https://apps.apple.com/cn/app/%E5%B9%BB%E4%B9%A6%E5%90%AF%E4%B8%96%E5%BD%95/id1505260942) | ★★☆☆☆ | 先不说二十年前的 UI，这缝合居然还没被骂死，我直接裂开。 |
+| 幻书启世录 | iOS | 网易 | 2020 | [iTunes](https://apps.apple.com/cn/app/id1505260942) | ★★☆☆☆ | 先不说二十年前的 UI，这缝合居然还没被骂死，我直接裂开。 |
+| Sword Art Online Alicization Rising Steel | iOS | BANDAI NAMCO | 2019 | [Official](https://ab.sao-game.jp/) | ★★★☆☆ | 画面上佳，关卡移动实在弱智，而且原创剧情就无感…… |

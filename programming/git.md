@@ -107,6 +107,21 @@ $ git ls-files | wc -l
 $ git ls-files | grep "\.md$" | wc -l
 ```
 
+### Blame
+
+Reference: [Git - git-blame Documentation](https://git-scm.com/docs/git-blame)
+
+```bash
+# Inspect lines 20~30
+$ git blame a-file.md -L 20,30
+
+# Inspect from start of file to line 30
+$ git blame a-file.md -L ,30
+
+# Inspect from line 20 to end of file
+$ git blame a-file.md -L 20,
+```
+
 ### Remote
 
 Show all remote URLs:

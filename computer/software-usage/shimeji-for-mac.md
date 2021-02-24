@@ -30,7 +30,7 @@ This article was originally posted in Chinese on my blog: [Shimeji（桌宠） o
 1. Copy `folder1/img/` & paste under `folder2/`.
 1. Observe the structure of `folder2/img_2/`. This is the target structure.
     - It contains one `icon.png` and several `shimeXX.png`.
-    - Everything is put directly in the folder, no subfolders.
+    - Everything is put directly under the folder, no subfolders.
 1. Observe the structure of `folder2/img/`. If it is different to `folder2/img_2/`, edit accordingly.
 1. Run `Shimeji.jar` again. This time the Shimeji of your choice should show up.
 
