@@ -18,8 +18,10 @@
   * [Userscript](computer/internet/userscript.md)
 
 * [Other Software](computer/software-usage/)
-  * [Built-In Shell Commands](computer/software-usage/command-line-built-in.md)
-  * [Other Command Line Tools](computer/software-usage/command-line-others.md)
+  * [System & Web Related Commands](computer/software-usage/command-line-system.md)
+  * [Text Related Commands](computer/software-usage/command-line-tedt.md)
+  * [Media Related Commands](computer/software-usage/command-line-media.md)
+  <!-- * [Other Command Line Tools](computer/software-usage/command-line-others.md) -->
   * [Alfred](computer/software-usage/alfred.md)
   * [espanso](computer/software-usage/espanso.md)
   * [ffmpeg](computer/software-usage/ffmpeg.md)

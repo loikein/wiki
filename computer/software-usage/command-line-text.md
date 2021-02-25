@@ -1,10 +1,4 @@
-# Built-In Shell Commands
-
-References:
-
-- [The Linux man-pages project](https://www.kernel.org/doc/man-pages/)
-- [Data Wrangling · the missing semester of your cs education (2020)](https://missing.csail.mit.edu/2020/data-wrangling/)
-- [Command-line environment · the missing semester of your cs education (2019)](https://missing.csail.mit.edu/2019/command-line/)
+# Text Related Shell Commands
 
 Benchmark for some of the examples:
 
@@ -23,17 +17,12 @@ $ curl --head --silent google.com
 # 
 ```
 
-## cd
+## fzf (find files)
 
-Online manual: [cd(1p) - Linux manual page](https://man7.org/linux/man-pages/man1/cd.1p.html)
+Repository: [junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)  
+A great demo video: [Vim universe. fzf - command line fuzzy finder - YouTube](https://www.youtube.com/watch?v=qgG5Jhi_Els)
 
-```bash
-# Go to home
-$ cd ~
-
-# Go to last directory
-$ cd -
-```
+[\[Question\] how can I toggle exact match behavior in fzf · Issue \#1265 · junegunn/fzf](https://github.com/junegunn/fzf/issues/1265)
 
 ## grep
 
@@ -49,6 +38,42 @@ Example:
 $ curl --head --silent google.com | grep GMT
 # Date: Fri, 07 Aug 2020 19:19:53 GMT
 # Expires: Sun, 06 Sep 2020 19:19:53 GMT
+```
+
+### ripgrep, rg
+
+Repository: [BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern](https://github.com/BurntSushi/ripgrep)  
+Guide: [ripgrep/GUIDE.md at master · BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)
+
+- Literal match: `rg -F <string>` (F for fixed-strings)
+- Case insensitive: `rg -i` (i for ignore-case)
+
+Example: find text in all files in current directory
+
+```sh
+$ rg -i readme
+# programming/static-site/gatsby.md
+# 73:    ├── README.md
+# 
+# computer/software-usage/command-line-built-in.md
+# 139:$ cat README.md
+# 148:$ tac README.md
+# 
+# computer/software-usage/command-line-others.md
+# 55:$ rg -i readme
+# 57:# 139:$ cat README.md
+# 58:# 148:$ tac README.md
+# 61:# 3:* [Introduction](README.md)
+# 62:# 32:* [Python](programming/python/README.md)
+# 63:# 56:* [衣着打扮](life-log/dressing-grooming/README.md)
+# 64:# 65:* [Entertainment](life-log/entertainment/README.md)
+# 67:# 73:    ├── README.md
+# 
+# SUMMARY.md
+# 3:* [Introduction](README.md)
+# 32:* [Python](programming/python/README.md)
+# 56:* [衣着打扮](life-log/dressing-grooming/README.md)
+# 65:* [Entertainment](life-log/entertainment/README.md)
 ```
 
 ## head, tail
@@ -81,6 +106,28 @@ Text displayer, aka, pager.
 ```bash
 $ curl www.google.com | less
 ```
+
+### bat (cat, less)
+
+Repository: [sharkdp/bat: A cat(1) clone with wings.](https://github.com/sharkdp/bat)
+
+- Show non-printable characters: `bat -A` (A for show-all)
+
+Change theme: (in `~/.zshrc`)
+
+```bash
+export BAT_THEME='ansi-dark'
+```
+
+Example:
+
+```bash
+# Compare the outcomes:
+
+$ curl www.google.com | less
+$ curl www.google.com | bat
+```
+
 
 ## sed
 
@@ -172,16 +219,6 @@ $ curl --head --silent google.com | tac
 # Location: http://www.google.com/
 # HTTP/1.1 301 Moved Permanently
 ```
-
-## top
-
-Online manual: [top(1) - Linux manual page](https://man7.org/linux/man-pages/man1/top.1.html)
-
-Activity monitor in the shell.
-
-- Help: `?`
-- Sort by name: `o`
-- Search by pid: `O`
 
 ## uniq
 
