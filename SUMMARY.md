@@ -19,7 +19,7 @@
 
 * [Other Software](computer/software-usage/)
   * [System & Web Related Commands](computer/software-usage/command-line-system.md)
-  * [Text Related Commands](computer/software-usage/command-line-tedt.md)
+  * [Text Related Commands](computer/software-usage/command-line-text.md)
   * [Media Related Commands](computer/software-usage/command-line-media.md)
   <!-- * [Other Command Line Tools](computer/software-usage/command-line-others.md) -->
   * [Alfred](computer/software-usage/alfred.md)
