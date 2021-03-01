@@ -24,6 +24,8 @@
 | Hitman: Sniper | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/hitman-sniper/id904278510/) | ★★☆☆☆ | |
 | Rise of Kingdoms: Lost Crusade | iOS | Lilith Games | 2018 | [App Store](https://apps.apple.com/us/app/rise-of-kingdoms-lost-crusade/id1354260888/) | ★★★☆☆ | Surprisingly well-made for its kind, but I just cannot appreciate this genre. |
 | Genshin Impact | iOS | miHoYo | 2020 | [Official](https://genshin.mihoyo.com/) | ★★★★☆ | |
-| Tales of Crestoria | iOS | BANDAI NAMCO | 2020 | [Official](https://crestoria-en.tales-ch.jp/index.php) | ★★☆☆☆ | Bad graphics, bad interface, this must be a game purely for existing fans I imagine. |
-| 幻书启世录 | iOS | 网易 | 2020 | [iTunes](https://apps.apple.com/cn/app/id1505260942) | ★★☆☆☆ | 先不说二十年前的 UI，这缝合居然还没被骂死，我直接裂开。 |
-| Sword Art Online Alicization Rising Steel | iOS | BANDAI NAMCO | 2019 | [Official](https://ab.sao-game.jp/) | ★★★☆☆ | 画面上佳，关卡移动实在弱智，而且原创剧情就无感…… |
+| Tales of Crestoria | iOS | BANDAI NAMCO | 2020 | [Official](https://crestoria-en.tales-ch.jp/index.php) | ★☆☆☆☆ | Bad graphics, bad interface, this must be a game purely for existing fans I imagine. |
+| 幻书启世录 | iOS | 网易 | 2020 | [iTunes](https://apps.apple.com/cn/app/id1505260942) | ★☆☆☆☆ | 二十年前的 UI，十年前的画面…… |
+| Honkai Impact 3rd | iOS | miHoYo | 2016 | [Official](https://honkaiimpact3.mihoyo.com/) | ★★☆☆☆ | 好玩是好玩，太肝了。如果只玩这一个的话可能体验还行。 |
+| Sword Art Online Alicization Rising Steel | iOS | BANDAI NAMCO | 2019 | [Official](https://ab.sao-game.jp/) | ★★☆☆☆ | 画面上佳，关卡移动弱智，原创剧情就无感…… |
+| Princess Connect! Re: Dive | iOS | Cygames | 2018 | [Official](https://www.crunchyroll.com/games/princessconnectredive/index.html) | ★★☆☆☆ | 这战斗系统有啥意思啊，有这空不如看几个视频。 |

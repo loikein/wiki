@@ -74,6 +74,8 @@ Only with workflow: [Running commands from Alfred · Issue #2638 · alacritty/al
 
 ## Custom Search
 
+A curated list: [🎩 Alfred Custom Web Searches](https://alfred.pory.app/)
+
 ### explainshell
 
 Does the same thing as [svsool/alfred-explainshell: Explain Shell workflow for Alfred](https://github.com/svsool/alfred-explainshell). \([credit](https://www.alfredforum.com/topic/3070-manpages-using-explainshellcom/?do=findComment&comment=21096)\)
