@@ -298,6 +298,25 @@ $ git merge --no-ff "my-branch"
 $ git push origin "master"
 ```
 
+## Split Repo
+
+Credit: [git subtree - Detach (move) subdirectory into separate Git repository - Stack Overflow](https://stackoverflow.com/a/17864475)
+
+```bash
+# Prepare the old repo
+$ cd <big-repo>
+$ git subtree split -P <name-of-folder> -b <name-of-new-branch>
+
+# Create new repo
+$ mkdir ~/<new-repo> && cd ~/<new-repo>
+$ git init
+$ git pull </path/to/big-repo> <name-of-new-branch>
+
+# Clean old repo
+$ cd <big-repo>
+$ git rm -rf <name-of-folder>
+```
+
 ## Submodule
 
 ### Add

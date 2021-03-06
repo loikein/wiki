@@ -29,3 +29,4 @@
 | Honkai Impact 3rd | iOS | miHoYo | 2016 | [Official](https://honkaiimpact3.mihoyo.com/) | ★★☆☆☆ | 好玩是好玩，太肝了。如果只玩这一个的话可能体验还行。 |
 | Sword Art Online Alicization Rising Steel | iOS | BANDAI NAMCO | 2019 | [Official](https://ab.sao-game.jp/) | ★★☆☆☆ | 画面上佳，关卡移动弱智，原创剧情就无感…… |
 | Princess Connect! Re: Dive | iOS | Cygames | 2018 | [Official](https://www.crunchyroll.com/games/princessconnectredive/index.html) | ★★☆☆☆ | 这战斗系统有啥意思啊，有这空不如看几个视频。 |
+| Aura Kingdom ‪2 | iOS | X-Legend | 2019 | [Official](https://www.x-legend.com/aurakingdom2/) | ★☆☆☆☆ | 自动寻路，行，寻完之后罔顾我 auto off 直接打起来了，不行。坐骑绵羊可爱，但连绵羊都有闲置动作而人物没有就离谱。 |
