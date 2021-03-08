@@ -109,6 +109,12 @@ $ defaults write com.apple.Safari IncludeDebugMenu 1
 $ defaults write com.apple.Safari IncludeInternalDebugMenu 1
 ```
 
+Disable elastic scrolling in Safari: \([credit](https://osxdaily.com/2012/05/10/disable-elastic-rubber-band-scrolling-in-mac-os-x/)\)
+
+```bash
+$ defaults write -g NSScrollViewRubberbanding 0
+```
+
 ### Find Third Party Kernel Extensions
 
 [Credit](https://apple.stackexchange.com/a/310758)
