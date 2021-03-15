@@ -31,7 +31,9 @@
 | Princess Connect! Re: Dive | iOS | Cygames | 2018 | [Official](https://www.crunchyroll.com/games/princessconnectredive/index.html) | ★★☆☆☆ | 这战斗系统有啥意思啊？有这空不如看几个视频。 |
 | Aura Kingdom ‪2 | iOS | X-Legend | 2019 | [Official](https://www.x-legend.com/aurakingdom2/) | ★☆☆☆☆ | 自动寻路，行，寻完之后罔顾我 auto off 直接打起来了，不行。坐骑绵羊很可爱，但连绵羊都有闲置动作而人物没有就离谱。 |
 | Hundred Soul | iOS | HOUND 13 | 2018 | [Official](https://eu.hundredsoul.com/) | ★★★☆☆ | Was fun at first, then became repetitive very quickly.  |
-| 映月城与电子姬 | iOS | 咸脆饼工作室 | 2020 | [TapTap](https://www.taptap.com/app/192531/) | ★★☆☆☆ | 真的很容易腻，甚至主线第一章都没通就想删了。玩法本身不够好，再怎么搞彩蛋啊讽刺啊路人（我）都不会买账的。 |
+| 映月城与电子姬 | iOS | 咸脆饼工作室 | 2020 | [TapTap](https://www.taptap.com/app/192531/) | ★★☆☆☆ | 真的很容易腻，甚至主线第一章都没通就删了。我知道有彩蛋啊讽刺啊之类的，但是玩法不太适合我这种路人。 |
 | 天喻 | iOS | 网易 | 2021 | [TapTap](https://www.taptap.com/app/91974/) | ★☆☆☆☆ | 捏脸三星，游戏本体零星。 |
 | 一梦江湖 (楚留香) | iOS | 网易 | 2018 | [TapTap](https://www.taptap.com/app/50500/) | ★☆☆☆☆ | 剧情怕不是写给幼儿园小朋友看的…… |
 | 烟雨江湖 | iOS | 杭州蓝鲸 | 2019 | [TapTap](https://www.taptap.com/app/169054/) | ★★☆☆☆ | 氛围很不错，但是妳不是真的在做 Flash 游戏啊喂，这画质，这手动保存，这战斗系统，算了有空玩点啥不好。 |
+| 解神者 | iOS | SIVA 游戏制作委员会 | 2020 | [TapTap](https://www.taptap.com/app/162615/) | ★★★☆☆ | 游戏本身挺好玩的，有点肝，UI 逻辑还有待提升。剧情……这算物极必反吗，真就所有角色都无脑舔玩家，有点受不了。 |
+| 战双帕弥什 | iOS | 库洛游戏 | 2019 | [TapTap](https://www.taptap.com/app/130651/) | ★★★☆☆ | 粤语配音惊艳，但是三消太随机了，不是很想继续玩。 |
