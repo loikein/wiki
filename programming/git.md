@@ -153,6 +153,12 @@ $ git reset --soft HEAD~2
 $ git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
+Undo last commit: \([credit](https://stackoverflow.com/a/927386)\)
+
+```bash
+$ git reset HEAD~1
+```
+
 ### Apply Late `.gitignore`
 
 Commit first:
@@ -333,27 +339,29 @@ $ git submodule update --init --recursive
 
 ### Update (Fetch)
 
-Update all submodules: \([credit](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules#comment9839868_1032653)\)
+Update all submodules: \([credit](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_pulling)\)
 
 ```bash
-$ git submodule -q foreach git pull -q origin master
+$ git submodule update --remote
 ```
 
-Show list of all submodules without entering less: \([credit](https://stackoverflow.com/a/12641787)\)
+Show list of all submodules: \([credit](https://stackoverflow.com/a/54238999)\)
 
 ```bash
-$ git config --file .gitmodules --get-regexp path | awk '{ print $2 }'
+# Either will work
+$ git ls-tree -r HEAD
+$ git submodule status
 ```
 
 ### Edit
 
 Make changes to submodules without committing: (in `.gitmodules`)
 
-```text
+```diff
 [submodule "something"]
     path = something
     url = https://github.com/something/something.git
-+    ignore = untracked
++   ignore = untracked
 ```
 
 Change the directory name for a submodule: \([credit](https://stackoverflow.com/a/5540263/10668706)\)
@@ -373,7 +381,7 @@ Reference: [github - What is the current way to remove a git submodule? - Stack 
 
 References:
 
-- [Learn Version Control with Git - Workflows with git-flow](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/git-flow) ([中文版](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow))
+- [Learn Version Control with Git - Workflows with git-flow](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/git-flow) \([中文版](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)\)
 - [petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/petervanderdoes/gitflow-avh)
 - [Command Line Arguments · nvie/gitflow Wiki](https://github.com/nvie/gitflow/wiki/Command-Line-Arguments)
 
