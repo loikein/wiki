@@ -327,8 +327,17 @@ $ git rm -rf <name-of-folder>
 
 ### Add
 
+Credit [1](https://stackoverflow.com/a/15782629), [2](https://stackoverflow.com/a/55885186)
+
 ```bash
-$ git submodule add https://github.com/something/something.git
+# Default branch
+$ git submodule add <remote-URL>
+
+# Specify branch
+$ git submodule add -b <branch-name> <remote-URL> <preferred-folder-name>
+
+# Track a specific branch after init
+$ git submodule set-branch --branch <branch-name> <folder-name>
 ```
 
 Initial pull submodule:
@@ -373,9 +382,18 @@ Change the directory name for a submodule: \([credit](https://stackoverflow.com/
 
 ### Remove
 
-Reference: [github - What is the current way to remove a git submodule? - Stack Overflow](https://stackoverflow.com/questions/29850029/what-is-the-current-way-to-remove-a-git-submodule)
+The easy way: `$ git rm <path-to-submodule>`
 
-## Pre-Commit Hook
+The hard way: \([credit](https://stackoverflow.com/a/1260982)\)
+
+1. Delete the relevant section from the `.gitmodules` file.
+1. `$ git add .gitmodules`
+1. Delete the relevant section from `.git/config`.
+1. `$ git rm --cached <path-to-submodule>`
+1. `$ rm -rf .git/modules/<path-to-submodule>`
+1. `$ rm -rf <path-to-submodule>`
+
+## Pre-Commit
 
 ## Git Flow
 
