@@ -4,6 +4,34 @@ Programmes that I love or cannot use my Mac without.
 
 Also see [macOS Maintenance \#Useful Software](../system-maintenance/macos.md#useful-software).
 
+## Homebrew
+
+Reference: [permissions - How to use Homebrew on a Multi-user MacOS Sierra Setup - Stack Overflow](https://stackoverflow.com/a/59691631)
+
+1. If you currently have brew installed on your system **globally**, I recommend [uninstalling brew](https://github.com/homebrew/install#uninstall-homebrew) first. (You can see where brew is installed running `which brew`)
+
+2. If you don't have Command Line Tools installed, you have to run this first:
+
+```sh
+$ xcode-select --install
+```
+
+3. Open terminal and Run: (macOS Catalina 10.15)
+
+```sh
+$ cd $HOME
+$ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+$ echo 'export PATH="$HOME/homebrew/bin:$PATH"' >> .zprofile
+```
+
+4. Close the Terminal window
+
+5. Open Terminal again, and run this to ensure your installation is correct:
+
+```sh
+$ brew doctor
+```
+
 ## Safari
 
 ### Access Tabs/Reading List w/o Opening Safari
