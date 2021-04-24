@@ -38,4 +38,7 @@ Start local server: (the address is `Server address`)
 
 ```bash
 $ bundle exec jekyll serve --livereload
+
+# In the case of GitHub Pages
+$ bundle exec jekyll serve --livereload --safe
 ```
