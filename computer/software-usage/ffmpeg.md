@@ -5,7 +5,7 @@
 Credit: [How can I extract audio from video with ffmpeg? - Stack Overflow](https://stackoverflow.com/a/27413824)
 
 ```bash
-$ ffmpeg -i input-video.mp4 -vn -acodec copy output-audio.m4a
+$ ffmpeg -i input_video.mp4 -vn -acodec copy output_audio.m4a
 ```
 
 Batch extract while preserving the file names: \([credit](https://stackoverflow.com/a/49092133)\)
@@ -22,12 +22,26 @@ Credit: [How to remove an audio track from an mp4 video file? - Unix & Linux Sta
 $ ffmpeg -i input_file.mp4 -vcodec copy -an output_file.mp4
 ```
 
+## Convert GIF to video
+
+Credit: [video - How to do I convert an animated gif to an mp4 or mv4 on the command line? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/294892) 
+
+```bash
+$ ffmpeg -i input_file.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" output_file.mp4
+```
+
+Batch convert:
+
+```bash
+$ for f in *.gif;  do ffmpeg -i "$f" -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" "${f%.gif}".mp4;  done
+```
+
 ## Convert video to H.264 encoded \(iMovie compatible\)
 
 Credit: [ffmpeg - Converted MP4 video file to H.264, but there is no sound - Super User](https://superuser.com/a/1325307)
 
 ```bash
-$ ffmpeg -i input.mp4 -vcodec libx264 -acodec aac output.mp4
+$ ffmpeg -i input_file.mp4 -vcodec libx264 -acodec aac output_file.mp4
 ```
 
 Batch convert:
