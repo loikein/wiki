@@ -50,6 +50,20 @@ Batch convert:
 $ for f in *.mp4;  do ffmpeg -i "$f" -vcodec libx264 -acodec aac "${f%.mp4}"-encoded.mp4;  done
 ```
 
+## Compress video
+
+Credit: [How can I reduce a video's size with ffmpeg? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/38380)
+
+```bash
+$ ffmpeg -i input.mp4 -vcodec libx264 -crf 24 output.mp4
+```
+
+Batch convert: 
+
+```bash
+$ for f in *.mp4;  do ffmpeg -i "$f" -vcodec libx264 -crf 24 "${f%.mp4}"-compressed.mp4;  done
+```
+
 ## Merge Multiple Audio Files
 
 Credit: [linux - Join many MP3, OGG, and FLAC files into one WAV or FLAC - Super User 
