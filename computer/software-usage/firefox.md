@@ -2,7 +2,7 @@
 
 ## Tricks
 
-- Hold `option` on Mac, `alt` on Windows to select any word without opening the link.
+- Hold <kbd>option</kbd>on Mac, <kbd>alt</kbd> on Windows to select any word without opening the link.
 
 ## Useful Add-Ons
 
@@ -129,32 +129,18 @@ In the profile folder, create a folder and two CSS files with the following name
 
 ### Add White Outline for Favicons
 
-Ref: [how to fix firefox dark theme favicons issue? : r/firefox](https://www.reddit.com/r/firefox/comments/9mevo2/how_to_fix_firefox_dark_theme_favicons_issue/)
+Solves this problem: [how to fix firefox dark theme favicons issue? : r/firefox](https://www.reddit.com/r/firefox/comments/9mevo2/how_to_fix_firefox_dark_theme_favicons_issue/)
 
 In `userChrome.css`:
 
 ```css
-/* not really necessary: */
+/* not actually necessary: */
 /* @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); */
 
 .tab-icon-image {
-  /* background-color: white !important; */
   filter: drop-shadow(1px 0 0 white)
           drop-shadow(-1px 0 0 white)
           drop-shadow(0 1px 0 white)
           drop-shadow(0 -1px 0 white);
-}
-
-/* Firefox Quantum userChrome.css tweaks ************************************************/
-/* Github: https://github.com/aris-t2/customcssforfx ************************************/
-/****************************************************************************************/
-/* tab close - always visible*/
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned]) .tab-close-button {
-  visibility: visible !important;
-  display: block !important;
-}
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned])[faviconized="true"] .tab-close-button {
-  visibility: collapse !important;
-  display: none !important;
 }
 ```
