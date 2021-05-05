@@ -127,20 +127,22 @@ In the profile folder, create a folder and two CSS files with the following name
     └── userContent.css
 ```
 
-### Add White Outline for Favicons
+### White Outline for Favicon
 
 Solves this problem: [how to fix firefox dark theme favicons issue? : r/firefox](https://www.reddit.com/r/firefox/comments/9mevo2/how_to_fix_firefox_dark_theme_favicons_issue/)
+
+You can see the difference very clearly with the Firefox default theme for macOS. Up is original, down is with my CSS: (with other tweaks)
+
+![Favicon with and without outline](/img/tab_icon_diff.jpg)
 
 In `userChrome.css`:
 
 ```css
-/* not actually necessary: */
-/* @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); */
-
 .tab-icon-image {
-  filter: drop-shadow(1px 0 0 white)
-          drop-shadow(-1px 0 0 white)
-          drop-shadow(0 1px 0 white)
-          drop-shadow(0 -1px 0 white);
+  filter: drop-shadow(1px 0 0 white) 
+          drop-shadow(-1px 0 0 white) 
+          drop-shadow(0 1px 0 white) 
+          drop-shadow(0 -1px 0 white) !important;
 }
+
 ```
