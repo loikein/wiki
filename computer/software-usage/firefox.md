@@ -144,5 +144,4 @@ In `userChrome.css`:
           drop-shadow(0 1px 0 white) 
           drop-shadow(0 -1px 0 white) !important;
 }
-
 ```
