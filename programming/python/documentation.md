@@ -204,3 +204,46 @@ Both inline and block math will work.
 :math:`y = \sqrt{\frac{24 x_0 x_2}{r x_1}}`
 ```
 
+## Debugging
+
+More like de-warning.
+
+### Inline interpreted text or phrase reference start-string without end-string.
+
+Ref: [Documentation Guide for Devs](https://developer.mantidproject.org/Standards/DocumentationGuideForDevs.html#inline-interpreted-text-or-phrase-reference-start-string-without-end-string)
+
+All non-inline math in `.ipynb` files should be surrounded by either of the following: (probably non-exhaustive but I'm too tired to try others)
+
+- `\begin{aligned} … \end{aligned}`
+- `$$ … $$`
+
+While the followings are forbidden even if then render just fine in Jupyter Notebook. Sphinx just won't have it.
+
+- `\begin{align} … \end{align}`
+- `\begin{equation} … \end{equation}`
+
+### Document or section may not begin with a transition.
+
+Ref: 
+
+- [Docutils: Documentation Utilities / Re: [Docutils-develop] Section may not end with a transition?](https://sourceforge.net/p/docutils/mailman/message/6975902/)
+- [reStructuredText Markup Specification](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#transitions)
+
+Do this:
+
+```markdown
+## Blah
+
+Blah blah blah
+```
+
+Don't do this:
+
+```markdown
+## Blah
+---
+
+Blah blah blah
+```
+
+The same for reStructuredText.
