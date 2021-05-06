@@ -424,3 +424,22 @@ $ git flow feature start my-new-feature
 # After final commit
 $ git flow feature finish my-new-feature
 ```
+
+## Debugging
+
+### Repository not found.
+
+Don't have write access. Ask a maintainer/admin to add you as contributor.
+
+### How to find whether I have write access?
+
+In browser, open a random file of the repository, and hit the edit button. If can edit, then have write access. \([credit](https://stackoverflow.com/a/40326507)\)
+
+### refusing to allow an OAuth App to create or update workflow
+
+Use token to login.
+
+1. Sign out from git
+    1. Open `Keychain Access.app`, delete the Internet password for `github.com`, or
+    2. `git config --global --unset credential.helper`
+1. Push again, and when prompted to enter password, enter a personal access token.
