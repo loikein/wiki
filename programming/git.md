@@ -440,6 +440,6 @@ In browser, open a random file of the repository, and hit the edit button. If ca
 Use token to login.
 
 1. Sign out from git
-    1. Open `Keychain Access.app`, delete the Internet password for `github.com`, or
-    2. `git config --global --unset credential.helper`
+    - Open `Keychain Access.app`, delete the Internet password for `github.com`, or
+    - `git config --global --unset credential.helper`
 1. Push again, and when prompted to enter password, enter a personal access token.
