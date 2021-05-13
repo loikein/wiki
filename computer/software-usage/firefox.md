@@ -96,6 +96,7 @@ References:
 - [The Firefox Privacy Guide For Dummies! – 12Bytes.org](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies)
 - [Firefox Privacy: A Guide to Better Browsing](https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/)
 - [Firefox Profilemaker](https://ffprofile.com/)
+- [Most Common User Agents - Tech Blog (wh)](https://techblog.willshouse.com/2012/01/03/most-common-user-agents/)
 
 ### Modify `about:config` Directly
 

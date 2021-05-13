@@ -14,8 +14,18 @@ $ dwebp pic.webp -o pic.png
 
 Online manual: [convert(1) - Linux man page](https://linux.die.net/man/1/convert)
 
+### Convert SVG
+
 Credit: [Convert SVG to transparent PNG with antialiasing, using ImageMagick - Stack Overflow](https://stackoverflow.com/a/18579465)
 
 ```bash
 $ convert -background none pic.svg pic.png
+```
+
+### Trim transparent part of png
+
+Credit: [ubuntu - how to cut transparent part from photo with command or shell script - Stack Overflow](https://stackoverflow.com/a/52829809)
+
+```bash
+$ convert pic.png -fuzz 25% -trim +repage pic-trim.png
 ```
