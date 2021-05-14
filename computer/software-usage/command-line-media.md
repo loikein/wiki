@@ -26,6 +26,13 @@ $ convert -background none pic.svg pic.png
 
 Credit: [ubuntu - how to cut transparent part from photo with command or shell script - Stack Overflow](https://stackoverflow.com/a/52829809)
 
+Need to read:
+
+- [Rule of thumb: When to use +repage? - ImageMagick](https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=35826)
+- [Cutting and Bordering -- IM v6 Examples](https://legacy.imagemagick.org/Usage/crop/)
+- [Basic Usage -- IM v6 Examples](https://legacy.imagemagick.org/Usage/basics/)
+
+
 ```bash
 $ convert pic.png -fuzz 25% -trim +repage pic-trim.png
 ```
