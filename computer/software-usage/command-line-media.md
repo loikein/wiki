@@ -16,10 +16,18 @@ Online manual: [convert(1) - Linux man page](https://linux.die.net/man/1/convert
 
 ### Convert SVG
 
-Credit: [Convert SVG to transparent PNG with antialiasing, using ImageMagick - Stack Overflow](https://stackoverflow.com/a/18579465)
+Original size: ([credit](https://stackoverflow.com/a/18579465))
 
 ```bash
 $ convert -background none pic.svg pic.png
+```
+
+Given PPI: ([credit](https://stackoverflow.com/a/57512918))
+
+Reference: [ImageMagick - Command-line Options #density](https://imagemagick.org/script/command-line-options.php#density)
+
+```bash
+$ convert -density 300 pic.svg button2.png
 ```
 
 ### Trim transparent part of png

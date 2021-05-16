@@ -36,6 +36,14 @@ Batch convert:
 $ for f in *.gif;  do ffmpeg -i "$f" -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" "${f%.gif}".mp4;  done
 ```
 
+## Convert `.mov` to `.mp4`
+
+Credit: [converter - ffmpeg - Converting MOV files to MP4 - Stack Overflow](https://stackoverflow.com/a/12026739)
+
+```bash
+$ ffmpeg -i input.mov -q:v 0 output.mp4
+```
+
 ## Convert video to H.264 encoded \(iMovie compatible\)
 
 Credit: [ffmpeg - Converted MP4 video file to H.264, but there is no sound - Super User](https://superuser.com/a/1325307)
