@@ -2,7 +2,7 @@
 
 Main reference: [@zkdlsoo on Twitter](https://twitter.com/zkdlsoo/status/986176637946359808)
 
-This article was originally posted in Chinese on my blog: [Shimeji（桌宠） on macOS](https://blog.loikein.one/2021/02/shimeji-on-macos.html). Go take a look at my demo video there if you want to know how it looks in action.
+This article was originally posted in Chinese on my blog: [Shimeji（桌宠） on macOS](https://blog.loikein.one/posts/2021-02-22-shimeji-for-macos/). Go take a look at my demo video there if you want to know how it looks in action.
 
 ## Prerequisites
 
