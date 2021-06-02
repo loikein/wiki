@@ -67,6 +67,12 @@ Fix Xcode hanging in Terminal: \([credit](https://apple.stackexchange.com/a/3081
 $ sudo xcodebuild -license accept
 ```
 
+Restart bluetooth service: (requires [blueutil](https://github.com/toy/blueutil), [credit](https://apple.stackexchange.com/a/310732))
+
+```bash
+$ blueutil -p 0 && sleep 1 && blueutil -p 1
+```
+
 ### Advanced Settings
 
 Check SIP status:
