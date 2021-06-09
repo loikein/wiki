@@ -49,10 +49,16 @@ $ sudo xattr -rd com.apple.quarantine "path/to/file.app"
 
 ### Useful Operations
 
-Kill Quick Look:
+Restart Quick Look:
 
 ```bash
 $ killall -9 -v QuickLookUIService
+```
+
+Restart Touch Bar:
+
+```bash
+$ pkill "Touch Bar agent"; killall "ControlStrip"
 ```
 
 When trackpad is malfunctioning:
