@@ -33,6 +33,12 @@ Find Mac model ID:
 $ sysctl hw.model
 ```
 
+Find MAC address:
+
+```bash
+$ ifconfig en0 | grep ether
+```
+
 ### Solve "App is damaged and can't be opened"
 
 Credit: [macOS Catalina: "App is damaged and can't be opened. You should move it to the trash." - Ask Different](https://apple.stackexchange.com/a/372208)
