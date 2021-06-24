@@ -44,3 +44,9 @@ Need to read:
 ```bash
 $ convert pic.png -fuzz 25% -trim +repage pic-trim.png
 ```
+
+Batch trim:
+
+```bash
+$ for f in *.png;  do convert "$f" -fuzz 25% -trim +repage "${f%.png}-trim".png; done
+```

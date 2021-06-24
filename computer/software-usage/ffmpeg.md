@@ -11,7 +11,7 @@ $ ffmpeg -i input_video.mp4 -vn -acodec copy output_audio.m4a
 Batch extract while preserving the file names: \([credit](https://stackoverflow.com/a/49092133)\)
 
 ```bash
-$ for f in *.mp4;  do ffmpeg -i "$f" -vn -acodec copy "${f%.mp4}".m4a;  done
+$ for f in *.mp4; do ffmpeg -i "$f" -vn -acodec copy "${f%.mp4}".m4a; done
 ```
 
 ## Delete audio track from video \(aka mute\)
@@ -33,7 +33,7 @@ $ ffmpeg -i input_file.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc
 Batch convert:
 
 ```bash
-$ for f in *.gif;  do ffmpeg -i "$f" -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" "${f%.gif}".mp4;  done
+$ for f in *.gif; do ffmpeg -i "$f" -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" "${f%.gif}".mp4; done
 ```
 
 ## Convert `.mov` to `.mp4`
@@ -55,7 +55,7 @@ $ ffmpeg -i input_file.mp4 -vcodec libx264 -acodec aac output_file.mp4
 Batch convert:
 
 ```bash
-$ for f in *.mp4;  do ffmpeg -i "$f" -vcodec libx264 -acodec aac "${f%.mp4}"-encoded.mp4;  done
+$ for f in *.mp4; do ffmpeg -i "$f" -vcodec libx264 -acodec aac "${f%.mp4}"-encoded.mp4; done
 ```
 
 ## Compress video
@@ -69,7 +69,7 @@ $ ffmpeg -i input.mp4 -vcodec libx264 -crf 24 output.mp4
 Batch convert: 
 
 ```bash
-$ for f in *.mp4;  do ffmpeg -i "$f" -vcodec libx264 -crf 24 "${f%.mp4}"-compressed.mp4;  done
+$ for f in *.mp4; do ffmpeg -i "$f" -vcodec libx264 -crf 24 "${f%.mp4}"-compressed.mp4; done
 ```
 
 ## Merge Multiple Audio Files
