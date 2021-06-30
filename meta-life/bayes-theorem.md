@@ -46,6 +46,12 @@ $$
 
 Source: 智识分子. 万维钢. Part III. 贝叶斯定理的胆识.
 
+---
+
+[Sagan standard - Wikipedia](https://en.wikipedia.org/wiki/Sagan_standard)：
+
+> "Extraordinary claims require extraordinary evidence" (ECREE)
+
 ## Trivia
 
 ![Modified Bayes' Theorem](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
