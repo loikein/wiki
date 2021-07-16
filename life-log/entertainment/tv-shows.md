@@ -42,7 +42,8 @@ TV shows & Animes that I am watching/have watched.
 | 痛いのは嫌なので防御力に極振りしたいと思います。 | 大沼心, 湊未來  | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/38790/), [豆瓣](https://movie.douban.com/subject/30397673/) | Stopped (E04) | ★★☆☆☆ | 可爱是可爱，没什么特别想看下去的感觉…… |
 | 賢者の孫 | 田村正文 | SILVER LINK. | 2019 | [MyAnimeList](https://myanimelist.net/anime/36407/), [豆瓣](https://movie.douban.com/subject/27149559/) | 2021-01-31 | ★★★☆☆ |  |
 | 転生したらスライムだった件 S2 | 菊地康仁 | eight bit | 2021 | [MyAnimeList](https://myanimelist.net/anime/39551/), [豆瓣](https://movie.douban.com/subject/27186493/) | E03 |  | |
-| ログ・ホライズン (S3) | 石平信司 | Studio DEEN | 2021 | [MyAnimeList](https://myanimelist.net/anime/41109/), [豆瓣](https://movie.douban.com/subject/34959193/) | E01 |  |  |
+| ログ・ホライズギルティクラウンン (S3) | 石平信司 | Studio DEEN | 2021 | [MyAnimeList](https://myanimelist.net/anime/41109/), [豆瓣](https://movie.douban.com/subject/34959193/) | E01 |  |  |
+| ギルティクラウン | 荒木哲郎 | Production I.G | 2011 | [MyAnimeList](https://myanimelist.net/anime/10793/), [豆瓣](https://movie.douban.com/subject/6518736/) | 2021-07-16 | ★★★★☆ | 一群怪物笨拙地试图互相拯救，科幻风，好。 |
 | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
 | 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
 | 舟を編む |  |  | 2016 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/26752720/) | TODO |  |  |

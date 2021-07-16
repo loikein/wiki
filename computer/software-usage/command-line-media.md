@@ -27,7 +27,7 @@ Given PPI: ([credit](https://stackoverflow.com/a/57512918))
 Reference: [ImageMagick - Command-line Options #density](https://imagemagick.org/script/command-line-options.php#density)
 
 ```bash
-$ convert -density 300 pic.svg button2.png
+$ convert -density 300 pic.svg pic.png
 ```
 
 ### Trim transparent part of png
@@ -42,11 +42,11 @@ Need to read:
 
 
 ```bash
-$ convert pic.png -fuzz 25% -trim +repage pic-trim.png
+$ convert -fuzz 25% -trim +repage pic.png pic-trim.png
 ```
 
 Batch trim:
 
 ```bash
-$ for f in *.png;  do convert "$f" -fuzz 25% -trim +repage "${f%.png}-trim".png; done
+$ for f in *.png;  do convert -fuzz 25% -trim +repage "$f" "${f%.png}-trim".png; done
 ```
