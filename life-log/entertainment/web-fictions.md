@@ -59,6 +59,8 @@ TODO: Dump Apple note.
 | 斗罗大陆 | 唐家三少 | 2010 | [起点](https://book.qidian.com/info/1115277/) | 第五十六章 | ★★★☆☆ | 小学生写小说大概就是这样了…… |
 | 仙子请自重／问道红尘 | 姬叉 | 2020 | [起点](https://book.qidian.com/info/1014243481/) | 2020-11-11 | ★★★★★ | 差点因为标题错过了如此好文。 |
 | 我真的长生不老 | 初恋璀璨如夏花 | 2018~now | [起点](https://book.qidian.com/info/1011717110/) | 第 195 章 | ★★★★☆ | 工笔白描，生活滋味，妙啊。 |
+| 遮天 | 辰东 | 2010~2013 | [起点](https://book.qidian.com/info/1735921/) | 第一百八十二章 | ★★★☆☆ | 没太大意思，不是特别想看下去。 |
+
 
 ### Homosexual
 
@@ -105,6 +107,8 @@ TODO: Dump Apple note.
 | 长河 | 破茶杯 | 2015 | [扫文小院](http://saowen.net/novels/view/37377/) | 2020-09-07 | ★★★★★ |  |
 | 一银币一磅的恶魔 | 星河蛋挞 | 2017 | [扫文小院](http://saowen.net/novels/view/41555/) | 2020-09-08 | ★★★★★ |  |
 | 不朽者 | Dew | 2019 | [扫文小院](http://saowen.net/novels/view/49648/) | 第四章 二 |  |  |
+| 重生之奋斗 | 决绝 | 2021 | [扫文小院](http://saowen.net/novels/view/72422/) | 2021-08-30 | ★★★☆☆ | 慢热，平淡，但还不错。 |
+| 时间暂停以后我为所欲为 | 青丘千夜 | 2021~now | [扫文小院](http://saowen.net/novels/view/72242/) | 第 129 章 |  | 剧情文笔俱佳，群像掌控力惊人，但浓浓的老粉红味挺裂开的。 |
 | 无威胁群体庇护协会 | matthia | 2014 | [扫文小院](http://saowen.net/novels/view/8285/) |  |  |  |
 
 ## Fan Fiction
