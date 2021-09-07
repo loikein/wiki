@@ -42,18 +42,18 @@ $$
 > 
 > 由此我联想到中国历史特殊时期的“抓特务”行动。“特务”这个工作的要求，其实贵在精而不在多，再说国民党也没那么多钱养，真正的特务其实是很少的。如果我们看到一个人长得像特务，说话走路也像特务，我们有多大把握说他就是特务呢？上面这个例子告诉我们，“误诊率”可能相当高。“抓特务”，最好的办法是冒出来一个抓一个，最可怕的办法是搞“人人过关”。如果你搞“人人过关”，必然是一大堆冤假错案！
 >
->这就是冤假错案产生的数学原理，这也是为什么卡尔·萨根说“超乎寻常的论断需要超乎寻常的证据”。
-
-Source: 智识分子. 万维钢. Part III. 贝叶斯定理的胆识.
+> 这就是冤假错案产生的数学原理，这也是为什么卡尔·萨根说“超乎寻常的论断需要超乎寻常的证据”。
+>
+> ~ 智识分子. 万维钢. Part III. 贝叶斯定理的胆识.
 
 ---
 
-[Sagan standard - Wikipedia](https://en.wikipedia.org/wiki/Sagan_standard)：
-
+> [Sagan standard - Wikipedia](https://en.wikipedia.org/wiki/Sagan_standard):
+> 
 > "Extraordinary claims require extraordinary evidence" (ECREE)
 
 ## Trivia
 
-![Modified Bayes' Theorem](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
+![[Modified Bayes' Theorem](https://www.explainxkcd.com/wiki/index.php/2059:_Modified_Bayes%27_Theorem)](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
 
 翻译：[修正贝叶斯定理 - XKCD 中文站](https://xkcd.in/comic?lg=cn&id=2059)

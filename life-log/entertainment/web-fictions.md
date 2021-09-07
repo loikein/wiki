@@ -41,6 +41,7 @@ TODO: Dump Apple note.
 | 瘟疫医生 | 机器人瓦力 | 2020 | [起点](https://book.qidian.com/info/1015102783/) | 2020-11-04 | ★★★☆☆ | 前半很好，后半越来越莫名其妙，结局……。唉。 |
 | 我的细胞监狱 | 穿黄衣的阿肥 | 2019~now | [起点](https://book.qidian.com/info/1015397821/) | 第一千一百六十九章 | ★★★☆☆ | 文笔略差，其他还行。 |
 | 这个刺客有毛病 | 任秋溟 | 2019~now | [起点](https://book.qidian.com/info/1017433918/) | 第三卷第一百九十二章 | ★★★★★ |  |
+| 赛博英雄传 | 吾道长不孤 | 2020~now | [起点](https://book.qidian.com/info/1018180913/) | 真名实姓卷 第六十九章 | ★★★★☆ | 想看更多玩梗，但是偏正剧，有点难受。 |
 
 ### Heterosexual
 
@@ -108,7 +109,8 @@ TODO: Dump Apple note.
 | 一银币一磅的恶魔 | 星河蛋挞 | 2017 | [扫文小院](http://saowen.net/novels/view/41555/) | 2020-09-08 | ★★★★★ |  |
 | 不朽者 | Dew | 2019 | [扫文小院](http://saowen.net/novels/view/49648/) | 第四章 二 |  |  |
 | 重生之奋斗 | 决绝 | 2021 | [扫文小院](http://saowen.net/novels/view/72422/) | 2021-08-30 | ★★★☆☆ | 慢热，平淡，但还不错。 |
-| 时间暂停以后我为所欲为 | 青丘千夜 | 2021~now | [扫文小院](http://saowen.net/novels/view/72242/) | 第 129 章 |  | 剧情文笔俱佳，群像掌控力惊人，但浓浓的老粉红味挺裂开的。 |
+| 时间暂停以后我为所欲为 | 青丘千夜 | 2021~now | [扫文小院](http://saowen.net/novels/view/72242/) | 第 136 章 |  | 剧情文笔俱佳，群像掌控力惊人，但浓浓的老粉红味挺裂开的。 |
+| 同时给五个反派当白月光 | 纳兰十七 | 2021~now | [晋江](https://www.jjwxc.net/onebook.php?novelid=5626575) | Abandoned |  | 人物形象没怎么塑造光在吹，感觉就是纯套路文。 |
 | 无威胁群体庇护协会 | matthia | 2014 | [扫文小院](http://saowen.net/novels/view/8285/) |  |  |  |
 
 ## Fan Fiction
