@@ -24,7 +24,7 @@ Credit: [How to remove an audio track from an mp4 video file? - Unix & Linux Sta
 $ ffmpeg -i input_file.mp4 -vcodec copy -an output_file.mp4
 ```
 
-# GIF --> video
+### GIF --> video
 
 Credit: [video - How to do I convert an animated gif to an mp4 or mv4 on the command line? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/294892) 
 
