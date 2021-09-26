@@ -1,6 +1,8 @@
 # ffmpeg
 
-## Extract audio from video
+## Convert
+
+### Video --> Audio
 
 Credit: [How can I extract audio from video with ffmpeg? - Stack Overflow](https://stackoverflow.com/a/27413824)
 
@@ -14,7 +16,7 @@ Batch extract while preserving the file names: \([credit](https://stackoverflow.
 $ for f in *.mp4; do ffmpeg -i "$f" -vn -acodec copy "${f%.mp4}".m4a; done
 ```
 
-## Delete audio track from video \(aka mute\)
+### Remove audio track from video \(aka mute\)
 
 Credit: [How to remove an audio track from an mp4 video file? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/33864)
 
@@ -22,7 +24,7 @@ Credit: [How to remove an audio track from an mp4 video file? - Unix & Linux Sta
 $ ffmpeg -i input_file.mp4 -vcodec copy -an output_file.mp4
 ```
 
-## Convert GIF to video
+# GIF --> video
 
 Credit: [video - How to do I convert an animated gif to an mp4 or mv4 on the command line? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/294892) 
 
@@ -36,7 +38,7 @@ Batch convert:
 $ for f in *.gif; do ffmpeg -i "$f" -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" "${f%.gif}".mp4; done
 ```
 
-## Convert `.mov` to `.mp4`
+### `.mov` --> `.mp4`
 
 Credit: [converter - ffmpeg - Converting MOV files to MP4 - Stack Overflow](https://stackoverflow.com/a/12026739)
 
@@ -44,12 +46,20 @@ Credit: [converter - ffmpeg - Converting MOV files to MP4 - Stack Overflow](http
 $ ffmpeg -i input.mov -q:v 0 output.mp4
 ```
 
-## Convert video to H.264 encoded \(iMovie compatible\)
+### `.webm` --> `.mp4`
+
+Credit: [webm to mp4 conversion using ffmpeg - Stack Overflow](https://stackoverflow.com/a/65996556)
+
+```bash
+$ ffmpeg -i vid.webm output.mp4
+```
+
+### Video --> H.264 encoded \(iMovie compatible\)
 
 Credit: [ffmpeg - Converted MP4 video file to H.264, but there is no sound - Super User](https://superuser.com/a/1325307)
 
 ```bash
-$ ffmpeg -i input_file.mp4 -vcodec libx264 -acodec aac output_file.mp4
+$ ffmpeg -i input.mp4 -vcodec libx264 -acodec aac output.mp4
 ```
 
 Batch convert:
