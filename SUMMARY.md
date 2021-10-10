@@ -40,6 +40,7 @@
 
 * [LaTeX & Friends](programming/latex-friends/)
   * [LaTeX](programming/latex-friends/latex.md)
+  * [LaTeX Symbols](programming/latex-friends/latex-symbols.md)
   * [Pandoc](programming/latex-friends/pandoc.md)
 
 * [JavaScript](programming/javascript/README.md)

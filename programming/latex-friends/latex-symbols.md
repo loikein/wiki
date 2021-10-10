@@ -1,4 +1,4 @@
-# LaTeX symbols
+# LaTeX Symbols
 
 ## Preference relations
 
