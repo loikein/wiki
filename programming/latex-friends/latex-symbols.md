@@ -6,7 +6,7 @@ Ref: my brain
 
 | Name | looks like | LaTeX |
 |------|------------|------|
-| Not | $\lnot$ | `\lnot` |
+| Not | $$\lnot$$ | `\lnot` |
 | And | $$\land$$ | `\land` |
 | Or | $$\lor$$ | `\lor` |
 
@@ -17,13 +17,13 @@ Ref: [Symbols for Preference Relations - Oeconomist](https://www.oeconomist.com/
 | Name | looks like | LaTeX |
 |------|------------|------|
 | Strictly prefer | $$\succ$$ | `\succ` |
-| Not strictly preferred | $$\nsucc$$ | `\not\succ` or `\nsucc` |
+| Not strictly preferred |  | `\not\succ` or `\nsucc` |
 | Strictly worse | $$\prec$$ | `\prec` |
 | Weakly prefer | $$\succsim$$ | `\succsim` |
-| Not weakly preferred | $$\not\succsim$$ | `\not\succsim` |
+| Not weakly preferred |  | `\not\succsim` |
 | Weakly worse | $$\precsim$$ | `\precsim` |
 | Indifferent | $$\sim$$ | `\sim` |
-| Not indifferent | $$\nsim$$ | `\not\sim` or `\nsim` |
+| Not indifferent |  | `\not\sim` or `\nsim` |
 
 ## Sets
 
