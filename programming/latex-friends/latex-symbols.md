@@ -17,8 +17,14 @@ Ref: [Symbols for Preference Relations - Oeconomist](https://www.oeconomist.com/
 | Name | looks like | LaTeX |
 |------|------------|------|
 | Strictly prefer | $$\succ$$ | `\succ` |
+| Not strictly preferred | $$\not\succ$$ | `\not\succ` or `\nsucc` |
+| Strictly worse | $$\prec$$ | `\prec` |
 | Weakly prefer | $$\succsim$$ | `\succsim` |
+| Not weakly preferred | $$\not\succsim$$ | `\not\succsim` |
+| Weakly worse | $$\precsim$$ | `\precsim` |
 | Indifferent | $$\sim$$ | `\sim` |
+| Not ndifferent | $$\not\sim$$ | `\not\sim` or `\nsim` |
+
 
 ## Sets
 
