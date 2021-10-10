@@ -1,5 +1,10 @@
 # LaTeX Symbols
 
+Big ref:
+
+- [Detexify LaTeX handwritten symbol recognition](https://detexify.kirelabs.org/classify.html)
+- The Comprehensive LaTeX Symbol List
+
 ## Logic
 
 Ref: my brain
@@ -39,4 +44,11 @@ Ref: [List of LaTeX mathematical symbols - OeisWiki](https://oeis.org/wiki/List_
 | Union | $$\cup$$ | `\cup` |
 | Intersection | $$\cap$$ | `\cap` |
 
+## Definitions
+
+| Name | looks like | LaTeX | Ref|
+|------|------------|------|-----|
+| Is defined as | $$\coloneqq$$ | `\coloneqq` | [🔗](https://tex.stackexchange.com/a/4217) |
+| Is equivalent to | $$\equiv$$ | `\equiv` | |
+| Triangle equal | $$\triangleq$$ | `\triangleq` or `\overset{\Delta}{=}` | [🔗](https://tex.stackexchange.com/questions/163829/) |
 
