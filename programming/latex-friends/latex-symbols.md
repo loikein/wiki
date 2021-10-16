@@ -29,7 +29,7 @@ Ref: [Symbols for Preference Relations - Oeconomist](https://www.oeconomist.com/
 | Weakly worse | $$\precsim$$ | `\precsim` |
 | Indifferent | $$\sim$$ | `\sim` |
 | Not indifferent |  | `\not\sim` or `\nsim` |
-| Strict extension | $$\rhd$$ | `\rhd` |
+| Strict extension |  | `\rhd` |
 | Weak extension | $$\unrhd$$ | `\unrhd` |
 
 ## Sets
