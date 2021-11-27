@@ -15,6 +15,19 @@ Ref: my brain
 | And | $$\land$$ | `\land` |
 | Or | $$\lor$$ | `\lor` |
 
+## Arrows
+
+Ref: my brain
+
+| Name | looks like | LaTeX |
+|------|------------|------|
+| Function to | $$\to$$ | `\to` |
+| Map to | $$\mapsto$$ | `\mapsto` |
+| Correspondence to | $$\rightrightarrows$$ | `\rightrightarrows` |
+| If and only if | $$\iff$$ | `\iff` |
+| If | $$\Longrightarrow$$ | `\Longrightarrow` |
+| Only if | $$\implies$$ or $$\Longleftarrow$$ | `\implies` |
+
 ## Preference relations
 
 Ref: [Symbols for Preference Relations - Oeconomist](https://www.oeconomist.com/blogs/daniel/wp-content/uploads/2011/04/pref_symbols.pdf)
@@ -53,4 +66,5 @@ Ref: [List of LaTeX mathematical symbols - OeisWiki](https://oeis.org/wiki/List_
 | Is defined as | $$\coloneqq$$ | `\coloneqq` | [🔗](https://tex.stackexchange.com/a/4217) |
 | Is equivalent to | $$\equiv$$ | `\equiv` | |
 | Triangle equal | $$\triangleq$$ | `\triangleq` or `\overset{\Delta}{=}` | [🔗](https://tex.stackexchange.com/questions/163829/) |
+| Set definition separations | $$\colon$$; $$\mid$$ | `\colon` and `\mid` | [🔗](https://tex.stackexchange.com/a/281551/) |
 
