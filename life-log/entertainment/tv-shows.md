@@ -16,6 +16,8 @@ TV shows & Animes that I am watching/have watched.
 |------------|-------------|--------------|------|-------|-------|--------|--------|
 | Almost Human | J. H. Wyman | Frequency Films, Bad Robot Productions, Warner Bros. Television | 2013 | [IMDb](https://www.imdb.com/title/tt2654580/), [豆瓣](https://movie.douban.com/subject/22519837/) |  |  | |
 
+<!-- 刑警弓神 -->
+
 ## Anime
 
 | Title | Director | Production/Studio | Year | Link | Progress/Finish date | Rating | Review |
@@ -39,7 +41,7 @@ TV shows & Animes that I am watching/have watched.
 | ソードアート・オンライン Extra Edition | 伊藤智彦 | A-1 Pictures | 2013 | [MyAnimeList](https://myanimelist.net/anime/20021/), [豆瓣](https://movie.douban.com/subject/25805197/) | 2020-11-03 | ★★★★☆ | 看这个就不用看第一季了呢。 |
 | ソードアート・オンライン II | 伊藤智彦 | A-1 Pictures | 2014 | [MyAnimeList](https://myanimelist.net/anime/21881/), [豆瓣](https://movie.douban.com/subject/25804168/) | E10 |  |  |
 | 転生したらスライムだった件 OVA | 菊地康仁 | eight bit | 2020 | [MyAnimeList](https://myanimelist.net/anime/38793/), [豆瓣](https://movie.douban.com/subject/30447592/) | 2021-01-29 | ★★★★☆ | 真可爱。 |
-| 痛いのは嫌なので防御力に極振りしたいと思います。 | 大沼心, 湊未來  | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/38790/), [豆瓣](https://movie.douban.com/subject/30397673/) | Stopped (E04) | ★★☆☆☆ | 可爱是可爱，没什么特别想看下去的感觉…… |
+| 痛いのは嫌なので防御力に極振りしたいと思います。 | 大沼心, 湊未來  | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/38790/), [豆瓣](https://movie.douban.com/subject/30397673/) | Abandoned | ★★☆☆☆ | 可爱是可爱，没什么特别想看下去的感觉…… |
 | 賢者の孫 | 田村正文 | SILVER LINK. | 2019 | [MyAnimeList](https://myanimelist.net/anime/36407/), [豆瓣](https://movie.douban.com/subject/27149559/) | 2021-01-31 | ★★★☆☆ |  |
 | 転生したらスライムだった件 S2 | 菊地康仁 | eight bit | 2021 | [MyAnimeList](https://myanimelist.net/anime/39551/), [豆瓣](https://movie.douban.com/subject/27186493/) | E03 |  | |
 | ログ・ホライズギルティクラウンン (S3) | 石平信司 | Studio DEEN | 2021 | [MyAnimeList](https://myanimelist.net/anime/41109/), [豆瓣](https://movie.douban.com/subject/34959193/) | E01 |  |  |

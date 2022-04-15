@@ -12,6 +12,7 @@ TODO: Dump Apple note.
 | Title | Author Name | 20XX | [晋江](#) | 20XX-XX-XX | ★★★★☆ | [🔗](#) |
 | Title | Author Name | 20XX | [AO3](#) | 20XX-XX-XX | ★★★☆☆ | [🔗](#) |
 
+
 ## Original
 
 ### Cancelled
@@ -82,7 +83,7 @@ TODO: Dump Apple note.
 | 死亡诞生在臀部之下 | 匪六 | 2009~ | [扫文小院](http://saowen.net/novels/view/4052/) | 2017-11-07 | ★★★★☆ |  |
 | 残次品 | priest | 2017 | [扫文小院](http://saowen.net/novels/view/43155/) | 第 103 章 | ★★☆☆☆ |  |
 | 魔道祖师 | 墨香铜臭 | 2016 | [扫文小院](http://saowen.net/novels/view/15305/) | ? | ★★★★☆ |  |
-| C 语言修仙  | 一十四洲 | 2019 | [扫文小院](http://saowen.net/novels/view/51976/) | 2020-06-01 | ★★★★★ |  |
+| C 语言修仙  | 一十四洲 | 2019 | [扫文小院](http://saowen.net/novels/view/51976/) | 2020-06-01 | ★★★★★ | 看了两遍 |
 | 朝圣 | 非天夜翔 | 2010 | [扫文小院](http://saowen.net/novels/view/394/) | 2020-06-01 | ★★★☆☆ |  |
 | 仙道第一小白脸 | 一十四洲 | 2019 | [扫文小院](http://saowen.net/novels/view/48903/) | 2020-06-02 | ★★★★★ |  |
 | 一剑九琊 | 一十四洲 | 2017 | [扫文小院](http://saowen.net/novels/view/42940/) | 2020-06-04 | ★★★☆☆ |  |
@@ -94,7 +95,7 @@ TODO: Dump Apple note.
 | 收到了宿敌的组队邀请怎么破 | 一十四洲 | 2017 | [扫文小院](http://saowen.net/novels/view/42876/) | 2020-06-26 | ★★★★☆ |  |
 | 游戏加载中 | 龙柒 | 2019 | [扫文小院](http://saowen.net/novels/view/50924/) | Abandoned |  |  |
 | 想飞升就谈恋爱 | 龙柒 | 2018 | [扫文小院](http://saowen.net/novels/view/46483/) | Abandoned |  |  |
-| 老攻身患绝症 | 不会下棋 | 2019 | [扫文小院](http://saowen.net/novels/view/61202/) | 2020-08-09 | ★★★★☆ | 不要多想，无脑看就挺爽的。 |
+| 老攻身患绝症 | 不会下棋 | 2019 | [扫文小院](http://saowen.net/novels/view/61202/) | 2020-08-09 | ★★★☆☆ | 不多思考就挺爽的，思考了就不行了。 |
 | 宁死也要 OOC | 不是风动 | 2018 | [扫文小院](http://saowen.net/novels/view/48183/) | 2020-08-09 | ★★★★☆ | |
 | 重生之人渣反派自救系统 | 墨香铜臭 | 2014 | [扫文小院](http://saowen.net/novels/view/13283/) | Abandoned | | 男二什么脑残…… |
 | 天官赐福 | 墨香铜臭 | 2018 | [扫文小院](http://saowen.net/novels/view/43847/) | 2020-08-17 | ★★★★★ | |
@@ -107,18 +108,20 @@ TODO: Dump Apple note.
 | 欢迎来到噩梦游戏 | 薄暮冰轮 | 2016 | [扫文小院](http://saowen.net/novels/view/18836/) | Abandoned |  |  |
 | 长河 | 破茶杯 | 2015 | [扫文小院](http://saowen.net/novels/view/37377/) | 2020-09-07 | ★★★★★ |  |
 | 一银币一磅的恶魔 | 星河蛋挞 | 2017 | [扫文小院](http://saowen.net/novels/view/41555/) | 2020-09-08 | ★★★★★ |  |
-| 不朽者 | Dew | 2019 | [扫文小院](http://saowen.net/novels/view/49648/) | 第四章 二 |  |  |
 | 重生之奋斗 | 决绝 | 2021 | [扫文小院](http://saowen.net/novels/view/72422/) | 2021-08-30 | ★★★☆☆ | 慢热，平淡，但还不错。 |
-| 时间暂停以后我为所欲为 | 青丘千夜 | 2021~2022 | [扫文小院](http://saowen.net/novels/view/72242/) | 2022-02-12 | ★★★☆☆ | 剧情文笔俱佳，群像掌控力惊人，但浓浓的老粉红味挺裂开的。 |
-| 同时给五个反派当白月光 | 纳兰十七 | 2021~now | [晋江](https://www.jjwxc.net/onebook.php?novelid=5626575) | Abandoned |  | 人物形象没怎么塑造光在吹，感觉就是纯套路文。 |
-| 修真学院交换生 | 一世华裳 | 2021~2022 | [扫文小院](http://saowen.net/novels/view/74954/) | 2022-01-20 | ★★☆☆☆ | 能看，偶尔有高光，总体比较鸡肋。按照开头的气势感觉像烂尾了。 |
+| 小夫郎的市井生活 | 欲来迟 | 2021 | [晋江](http://www.jjwxc.net/onebook.php?novelid=5890051) | 2021-10-30 | ★★☆☆☆ | |
+| 时间暂停以后我为所欲为 | 青丘千夜 | 2021~2022 | [扫文小院](http://saowen.net/novels/view/72242/) | 2022-02-12 | ★★★☆☆ | 剧情文笔俱佳，群像掌控力惊人，但粉红。 |
+| 同时给五个反派当白月光 | 纳兰十七 | 2021~now | [晋江](https://www.jjwxc.net/onebook.php?novelid=5626575) | Abandoned |  | 人物形象没怎么塑造光在吹，就是纯套路文。 |
+| 修真学院交换生 | 一世华裳 | 2021~2022 | [扫文小院](http://saowen.net/novels/view/74954/) | 2022-01-20 | ★★☆☆☆ | 能看，偶尔有高光，总体比较鸡肋。按照开头的气势感觉算烂尾了。 |
 | 渣受重生抱紧前夫大腿 | 骨色弯刀 | 2021~now | [扫文小院](http://saowen.net/novels/view/72961/) | Abandoned |  | 要是亲友出现那里就止损就好了。郁闷了我一整天。 |
-| 附庸风雅录 | 阿堵 | 2011~2013 | [扫文小院](http://saowen.net/novels/view/726/) | Abandoned |  | 看到了一些很难看的场面，还回忆起了以前不小心翼翼地存在时出过的丑。受怎么就能这样原谅了攻呢。我真的不明白。 |
-| 无威胁群体庇护协会 | matthia | 2014 | [扫文小院](http://saowen.net/novels/view/8285/) |  |  |  |
+| 附庸风雅录 | 阿堵 | 2011~2013 | [扫文小院](http://saowen.net/novels/view/726/) | Abandoned |  | 作者高度自我代入的文，结果看到了一些很难看的场面，还回忆起了以前不小心翼翼地存在时出过的丑。受怎么就能这样原谅了攻呢。我真的不明白。 |
+| 不朽者 | Dew | 2019 | [扫文小院](http://saowen.net/novels/view/49648/) | 第四章 二 |  |  |
+
+<!-- | 无威胁群体庇护协会 | matthia | 2014 | [扫文小院](http://saowen.net/novels/view/8285/) |  |  |  | -->
 
 ## Fan Fiction
 
-| Title | Author | Year | Link | Finish/Progress | Rating | Review |
+<!-- | Title | Author | Year | Link | Finish/Progress | Rating | Review |
 |------------|-------------|------|-------|--------|--------|--------|
 | 麒麟 | 桔子树 | 2008~ | [扫文小院](http://saowen.net/novels/view/675/) | ~2010 | ★★★★★ | 除了作者本人之外都好。 |
-
+ -->
