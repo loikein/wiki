@@ -23,10 +23,10 @@ Ref: my brain
 |------|------------|-------|
 | Function to | $$\to$$ | `\to` |
 | Map to | $$\mapsto$$ | `\mapsto` |
-| Correspondence to | $$\rightrightarrows$$ | `\rightrightarrows` |
+| Correspondence to | ![](/img/latex_rightrightarrow.png) | `\rightrightarrows` |
 | If and only if | $$\iff$$ | `\iff` |
-| If | $$\Longrightarrow$$ | `\Longrightarrow` |
-| Only if | $$\implies$$ or $$\Longleftarrow$$ | `\implies` |
+| If | $$\Longleftarrow$$ | `\Longleftarrow` |
+| Only if | $$\implies$$ or $$\Longrightarrow$$ | `\implies` or `\Longrightarrow` |
 
 ## Preference relations
 
@@ -66,7 +66,7 @@ Ref: [List of LaTeX mathematical symbols - OeisWiki](https://oeis.org/wiki/List_
 | Is defined as | $$\coloneqq$$ | `\coloneqq` | [🔗](https://tex.stackexchange.com/a/4217) |
 | Is equivalent to | $$\equiv$$ | `\equiv` | |
 | Triangle equal | $$\triangleq$$ | `\triangleq` or `\overset{\Delta}{=}` | [🔗](https://tex.stackexchange.com/questions/163829/) |
-| Set definition separations | $$\colon$$; $$\mid$$ | `\colon` and `\mid` | [🔗](https://tex.stackexchange.com/a/281551/) |
+| Set definition separations | $$\colon$$ and $$\mid$$ | `\colon` and `\mid` | [🔗](https://tex.stackexchange.com/a/281551/) |
 
 ## Spaces
 
@@ -83,16 +83,3 @@ Ref: [Whitespace in math mode – texblog](https://texblog.org/2014/04/09/whites
 | 1em space | $$a\rightarrow\quad\leftarrow b$$ | `\quad` |
 | 2em space | $$a\rightarrow\qquad\leftarrow b$$ | `\qquad` |
 | Custom em space | $$a\rightarrow\hspace{3em}\leftarrow b$$ | `\hspace{3em}` |
-
-## Align environments
-
-### Basic aligns & tag position
-
-Ref: my brain
-
-| Name | looks like | LaTeX |
-|------|------------|-------|
-| Equation | ![](/img/latex_equation.png) | `$...$` or `\begin{equation}\end{equation}` |
-| Aligned single equation | ![](/img/latex_aligned.png) | `\begin{aligned}\end{aligned}` |
-| Align multiple equation (no tag) | ![](/img/latex_align_star.png) | `\begin{align*}\end{align*}` |
-| Align multiple equation (tagged) | ![](/img/latex_align.png) | `\begin{align}\end{align}` |

@@ -79,7 +79,27 @@ Above: $$x\overset{!}{=}0$$
 x\overset{!}{=}0
 ```
 
-### Alignment
+## Align environments
+
+### Basic aligns & tag position
+
+Equation: `$$ ... \tag{1}$$` or `\begin{equation} ... \end{equation}`
+
+![Equation  with tag](/img/latex_equation.png)
+
+Aligned single equation: `\begin{aligned} ... \tag{2}\end{aligned}`
+
+![Aligned single equation with tag](/img/latex_aligned.png)
+
+Align multiple equation (no tag): `\begin{align*} ... \end{align*}`
+
+![Align multiple equation with no tag](/img/latex_align_star.png)
+
+Align multiple equation (tagged): `\begin{align} ... \end{align}`
+
+![Align multiple equation with tag](/img/latex_align.png)
+
+### More examples
 
 Cases: $$\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}$$
 
