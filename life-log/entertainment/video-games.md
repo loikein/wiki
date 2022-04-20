@@ -12,6 +12,7 @@
 
 | Title | Platform | Studio/Developer | Year | Link | Progress/Finish date | Rating | Review |
 |------------|-------------|--------------|------|-------|-------|--------|--------|
+| Gorogoa | iOS | Jason Roberts | 2017 | [App Store](https://apps.apple.com/us/app/gorogoa/id1269225754/) | 2017-12-16 | ★★★★★ | 完美的艺术品。 |
 | Lara Croft Go | iOS | Square Enix | 2015 | [App Store](https://apps.apple.com/us/app/lara-croft-go/id971304016/) | 2020-09-06 | ★★★★☆ | |
 | Oxenfree | iOS | Night School Studio | 2016 | [App Store](https://apps.apple.com/us/app/oxenfree/id1179177872/) | 2020-09-22 | ★★★★★ | |
 | My Child Lebensborn | iOS | Sarepta Studio | 2018 | [Official](https://www.mychildlebensborn.com/) | 2020-12-24 | ★★★★☆ | |
