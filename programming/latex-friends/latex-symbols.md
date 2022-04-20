@@ -83,3 +83,16 @@ Ref: [Whitespace in math mode – texblog](https://texblog.org/2014/04/09/whites
 | 1em space | $$a\rightarrow\quad\leftarrow b$$ | `\quad` |
 | 2em space | $$a\rightarrow\qquad\leftarrow b$$ | `\qquad` |
 | Custom em space | $$a\rightarrow\hspace{3em}\leftarrow b$$ | `\hspace{3em}` |
+
+## Align environments
+
+### Basic aligns & tag position
+
+Ref: my brain
+
+| Name | looks like | LaTeX |
+|------|------------|-------|
+| Equation | $$x=y \tag{1}$$ | `$...$` or `\begin{equation}\end{equation}` |
+| Aligned single equation | $$\begin{aligned}x &=y \\ &= z \tag{2} \end{aligned}$$ | `\begin{aligned}\end{aligned}` |
+| Align multiple equation (no tag) | $$\begin{align*}x &=y \\ x &= z \end{align*}$$ | `\begin{align*}\end{align*}` |
+| Align multiple equation (tagged) | $$\begin{align}x &=y \\ x &= z \end{align}$$ | `\begin{align}\end{align}` |
