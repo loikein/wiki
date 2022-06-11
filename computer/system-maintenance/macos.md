@@ -24,19 +24,19 @@
 Find main board ID:
 
 ```bash
-$ ioreg -l | grep board-id
+ioreg -l | grep board-id
 ```
 
 Find Mac model ID:
 
 ```bash
-$ sysctl hw.model
+sysctl hw.model
 ```
 
 Find MAC address:
 
 ```bash
-$ ifconfig en0 | grep ether
+ifconfig en0 | grep ether
 ```
 
 ### Solve "App is damaged and can't be opened"
@@ -44,7 +44,7 @@ $ ifconfig en0 | grep ether
 Credit: [macOS Catalina: "App is damaged and can't be opened. You should move it to the trash." - Ask Different](https://apple.stackexchange.com/a/372208)
 
 ```bash
-$ sudo xattr -rd com.apple.quarantine "path/to/file.app"
+sudo xattr -rd com.apple.quarantine "path/to/file.app"
 ```
 
 ### Useful Operations
@@ -52,85 +52,93 @@ $ sudo xattr -rd com.apple.quarantine "path/to/file.app"
 Restart Quick Look:
 
 ```bash
-$ killall -9 -v QuickLookUIService
+killall -9 -v QuickLookUIService
 ```
 
 Restart Touch Bar:
 
 ```bash
-$ pkill "Touch Bar agent"; killall "ControlStrip"
+pkill "Touch Bar agent"; killall "ControlStrip"
 ```
 
 When trackpad is malfunctioning:
 
 ```bash
-$ killall Dock
+killall Dock
 ```
 
 Find and delete all .DS_Store files in current folder:
 
 ```bash
-$ find . -name '.DS_Store' -type f -delete
+find . -name '.DS_Store' -type f -delete
 ```
 
 Fix Xcode hanging in Terminal: \([credit](https://apple.stackexchange.com/a/308125)\)
 
 ```bash
-$ sudo xcodebuild -license accept
+sudo xcodebuild -license accept
 ```
 
 Restart bluetooth service: (requires [blueutil](https://github.com/toy/blueutil), [credit](https://apple.stackexchange.com/a/310732))
 
 ```bash
-$ blueutil -p 0 && sleep 1 && blueutil -p 1
+blueutil -p 0 && sleep 1 && blueutil -p 1
 ```
+
+<!-- Stop spaces auto switching \(auto-swoosh\): \(credits: [1](https://apple.stackexchange.com/a/4821), [2](https://apple.stackexchange.com/a/423294)\)
+
+```bash
+defaults write com.apple.Dock workspaces-auto-swoosh -bool YES && killall Dock
+
+defaults write -g AppleSpacesSwitchOnActivate -bool YES && killall Dock
+``` -->
 
 ### Advanced Settings
 
 Check SIP status:
 
 ```bash
-$ csrutil status
+csrutil status
 # System Integrity Protection status: enabled.
 ```
 
 Enable three-finger dragging: \([credit](https://apple.stackexchange.com/a/362308)\)
 
 ```bash
-$ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag 1 && defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag 1
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag 1 && defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag 1
 ```
 
 Show hidden files: \([credit](https://apple.stackexchange.com/a/100040/218914)\)
 
 ```bash
-$ defaults write com.apple.finder AppleShowAllFiles 1
+defaults write com.apple.finder AppleShowAllFiles 1
 ```
 
 Turn off Power Chime: \([credit](https://apple.stackexchange.com/a/309947)\)
 
 ```bash
-$ defaults write com.apple.PowerChime ChimeOnNoHardware 0
-$ killall PowerChime
+defaults write com.apple.PowerChime ChimeOnNoHardware 0
+killall PowerChime
 ```
 
 Make hidden apps' icon transparent in the dock: \([credit](https://missing.csail.mit.edu/2019/os-customization/#macos)\)
 
 ```bash
-$ defaults write com.apple.dock showhidden 1
-$ killall Dock
+defaults write com.apple.dock showhidden 1
+killall Dock
 ```
 
 Show Safari develop & debug menu item: \([credit](https://oku.edu.mie-u.ac.jp/~okumura/macosx/)\)
 
 ```bash
-$ defaults write com.apple.Safari IncludeDebugMenu 1
-$ defaults write com.apple.Safari IncludeInternalDebugMenu 1
+defaults write com.apple.Safari IncludeDebugMenu 1
+defaults write com.apple.Safari IncludeInternalDebugMenu 1
 ```
 
 Disable elastic scrolling in Safari: \([credit](https://osxdaily.com/2012/05/10/disable-elastic-rubber-band-scrolling-in-mac-os-x/)\)
 
 ```bash
-$ defaults write -g NSScrollViewRubberbanding 0
+defaults write -g NSScrollViewRubberbanding 0
 ```
 
 ### Find Third Party Kernel Extensions
@@ -138,7 +146,7 @@ $ defaults write -g NSScrollViewRubberbanding 0
 [Credit](https://apple.stackexchange.com/a/310758)
 
 ```bash
-$ kextstat | grep -v com.apple
+kextstat | grep -v com.apple
 ```
 
 ## Danger Zone
@@ -148,16 +156,16 @@ $ kextstat | grep -v com.apple
 [Credit](https://www.macworld.com/article/3128854/how-to-remove-snapz-pro-in-macos-sierra.html)
 
 ```bash
-$ sudo kextunload -b com.AmbrosiaSW.AudioSupport
+sudo kextunload -b com.AmbrosiaSW.AudioSupport
 
-$ cd /Library/Extensions/
-$ sudo rm -r AmbrosiaAudioSupport.kext # r for recursive
+cd /Library/Extensions/
+sudo rm -r AmbrosiaAudioSupport.kext # r for recursive
 
-$ cd /Library/LaunchDaemons/
-$ sudo rm com.ambrosiasw.ambrosiaaudiosupporthelper.daemon.plist
+cd /Library/LaunchDaemons/
+sudo rm com.ambrosiasw.ambrosiaaudiosupporthelper.daemon.plist
 
-$ cd ~/Library/Containers/
-$ sudo rm -r com.ambrosiasw.snapz-pro-x
+cd ~/Library/Containers/
+sudo rm -r com.ambrosiasw.snapz-pro-x
 ```
 
 ### Edit Launch Items
@@ -172,12 +180,12 @@ $ sudo rm -r com.ambrosiasw.snapz-pro-x
 
 ```bash
 # Find
-$ launchctl list | grep epicgames
+launchctl list | grep epicgames
 # PID     Status  Label
 # -       1       com.epicgames.launcher
 
 # Remove
-$ launchctl remove com.epicgames.launcher
+launchctl remove com.epicgames.launcher
 ```
 
 ### Edit File Status
@@ -187,11 +195,11 @@ Reference: [How to remove driver and kexts on Mac? : SteamController](https://ww
 When some file cannot be accessed by Homebrew:
 
 ```bash
-$ sudo chown -R $(whoami) $(brew --prefix)/*
+sudo chown -R $(whoami) $(brew --prefix)/*
 ```
 
 ### Edit Host File
 
 ```bash
-$ sudo subl /private/etc/hosts
+sudo subl /private/etc/hosts
 ```
