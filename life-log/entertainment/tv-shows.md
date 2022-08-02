@@ -46,8 +46,14 @@ TV shows & Animes that I am watching/have watched.
 | 転生したらスライムだった件 S2 | 菊地康仁 | eight bit | 2021 | [MyAnimeList](https://myanimelist.net/anime/39551/), [豆瓣](https://movie.douban.com/subject/27186493/) | E03 |  | |
 | ログ・ホライズギルティクラウンン (S3) | 石平信司 | Studio DEEN | 2021 | [MyAnimeList](https://myanimelist.net/anime/41109/), [豆瓣](https://movie.douban.com/subject/34959193/) | E01 |  |  |
 | ギルティクラウン | 荒木哲郎 | Production I.G | 2011 | [MyAnimeList](https://myanimelist.net/anime/10793/), [豆瓣](https://movie.douban.com/subject/6518736/) | 2021-07-16 | ★★★★☆ | 一群怪物笨拙地试图互相拯救，科幻风，好。 |
-| イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
+| 賢者の弟子を名乗る賢者 | 元永慶太郎 | studio A-CAT | 2022 | [MyAnimeList](https://myanimelist.net/anime/73823/), [豆瓣](https://movie.douban.com/subject/35087641/) | 2022-08-02 | ★★☆☆☆ | 各方面都一般。工作室似乎是 3D 专精，任何手绘部分都有崩或缩水。 |
+| 本好きの下剋上 (S3) | 本郷みつる | 亜細亜堂 | 2022 | [MyAnimeList](https://myanimelist.net/anime/42429/), [豆瓣](https://movie.douban.com/subject/35141330/) | 2022-08-02 | ★★★★☆ | 虽然很久以前似乎就看过剧透了，但是结局真的好难受啊。 |
+| SPY×FAMILY | 古橋一浩 | WIT STUDIO × CloverWorks | 2022 | [MyAnimeList](https://myanimelist.net/anime/50265/), [豆瓣](https://movie.douban.com/subject/35258427/) | 2022-08-02 | ★★★★★ | 挑个骨头：早见的经典声线实在太年轻了，每次听约尔讲话我都反应不过来。 |
+
+
+<!-- | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
 | 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
 | 舟を編む |  |  | 2016 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/26752720/) | TODO |  |  |
 | 約束のネバーランド |  |  | 2019 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/30206430/) | TODO |  |  |
 | Dr.STONE |  |  | 2019 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/30377498/) | TODO |  |  |
+ -->
