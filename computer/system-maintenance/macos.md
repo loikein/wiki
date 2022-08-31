@@ -39,6 +39,14 @@ Find MAC address:
 ifconfig en0 | grep ether
 ```
 
+### Allow app downloads from anywhere
+
+Credit: [How to allow apps downloaded from anywhere on Mac](https://macpaw.com/how-to/allow-apps-anywhere)
+
+```bash
+sudo spctl --master-disable
+```
+
 ### Solve "App is damaged and can't be opened"
 
 Credit: [macOS Catalina: "App is damaged and can't be opened. You should move it to the trash." - Ask Different](https://apple.stackexchange.com/a/372208)
