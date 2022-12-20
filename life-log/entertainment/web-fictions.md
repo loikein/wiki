@@ -39,7 +39,6 @@ TODO: Dump Apple note.
 | 为龙 | 张龙象 | 2020 \~ now | [起点](https://book.qidian.com/info/1020691940/) | 第五十四章 |  | 尚可，但是写得太慢了，不太值得追。 |
 | 直播之荒野挑战 | 土土士 | 2017 \~ now | [起点](https://book.qidian.com/info/1005403859/) | 2020-10-01 | ★★☆☆☆ | 每个副本都差不多，看两三个就腻了。 |
 | 走进修仙 | 吾道长不孤 | 2018 | [起点](https://book.qidian.com/info/3406500/) | 2020-10-24 | ★★★★★ | 除了牛逼没什么好说的。牛逼。 |
-<!-- | 瘟疫医生 | 机器人瓦力 | 2020 | [起点](https://book.qidian.com/info/1015102783/) | 2020-11-04 | ★★★☆☆ | 前半很好，后半越来越莫名其妙，结局……。唉。 | -->
 | 我的细胞监狱 | 穿黄衣的阿肥 | 2019 \~ now | [起点](https://book.qidian.com/info/1015397821/) | 第一千一百六十九章 | ★★★☆☆ | 文笔略差，其他还行。 |
 | 这个刺客有毛病 | 任秋溟 | 2019 \~ now | [起点](https://book.qidian.com/info/1017433918/) | 第三卷第一百九十二章 | ★★★★★ |  |
 | 赛博英雄传 | 吾道长不孤 | 2020 \~ now | [起点](https://book.qidian.com/info/1018180913/) | 真·武神转生卷 第一百三十五章 | ★★★★☆ | 很好看，但是看起来特别累，最近根本不想打开，这是什么魔法…… |
@@ -79,6 +78,8 @@ TODO: Dump Apple note.
 | 真千金不干了 | 大江流 | 2021 | [晋江](https://www.jjwxc.net/onebook.php?novelid=4550586) | 2022-10-02 | ★★☆☆☆ | 一开始看看射箭，最后变成看看万国来朝意淫。 |
 | 黎明医生／瘟疫医生 | 机器人瓦力 | 2019 \~ 2020 | [起点](https://book.qidian.com/info/1015102783/), [Webnovel](https://www.webnovel.com/book/plague-doctor_16489432606236605) | 2022-10-08 | ★★★☆☆ | [🔗](https://blog.loikein.one/posts/2022-10-10-plague-doctor-by-wallee-the-robot/) |
 | 哈利波特之学霸无敌／霍格沃茨万事皆三 | 桐棠 | 2018 \~ 2021 | [起点](https://book.qidian.com/info/1009382011/) | 2022-10-10 | Abandoned | 读了三百来章（。）之后发现是后宫，写得不明不白的，算了…… |
+| 影后的嘴开过光 | 夜九白 | 2019 \~ | [起点](https://book.qidian.com/info/1015972316/) | 2022-11-20 | Abandoned | 虽然作者一直都很 pushy，但是读到 1241（！）章，终于受不了了。 |
+
 
 ### Homosexual
 
