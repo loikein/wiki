@@ -13,15 +13,15 @@ Reference: [permissions - How to use Homebrew on a Multi-user MacOS Sierra Setup
 2. If you don't have Command Line Tools installed, you have to run this first:
 
 ```sh
-$ xcode-select --install
+xcode-select --install
 ```
 
 3. Open terminal and Run: (macOS Catalina 10.15)
 
 ```sh
-$ cd $HOME
-$ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
-$ echo 'export PATH="$HOME/homebrew/bin:$PATH"' >> .zprofile
+cd $HOME
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+echo 'export PATH="$HOME/homebrew/bin:$PATH"' >> .zprofile
 ```
 
 4. Close the Terminal window
@@ -29,8 +29,15 @@ $ echo 'export PATH="$HOME/homebrew/bin:$PATH"' >> .zprofile
 5. Open Terminal again, and run this to ensure your installation is correct:
 
 ```sh
-$ brew doctor
+brew doctor
 ```
+
+Aside: make Homebrew forget about a cask: ([Ref](https://apple.stackexchange.com/questions/340116/unlink-app-from-brew-cask/341443#341443))
+
+```sh
+rm -r /usr/local/Caskroom/caskname
+```
+
 
 ## Safari
 

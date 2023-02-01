@@ -36,7 +36,6 @@ TV shows & Animes that I am watching/have watched.
 | デスマーチからはじまる異世界狂想曲 | 大沼心 | SILVER LINK. × CONNECT  | 2018 | [MyAnimeList](https://myanimelist.net/anime/34497/), [豆瓣](https://movie.douban.com/subject/26934287/) | 2020-10-19 | ★★★☆☆ | 我还蛮喜欢这种慢慢旅游的动画，要是有第二季就好了。 |
 | ログ・ホライズン (S1) | 石平信司 | SATELIGHT | 2014 | [MyAnimeList](https://myanimelist.net/anime/17265/), [豆瓣](https://movie.douban.com/subject/21323283/) | 2020-10-21 | ★★★★☆ |  |
 | ログ・ホライズン (S2) | 石平信司 | Studio DEEN | 2015 | [MyAnimeList](https://myanimelist.net/anime/23321/), [豆瓣](https://movie.douban.com/subject/25851661/) | 2020-10-21 | ★★★☆☆ | E10 哭惨我了，但是整季来看并没有第一季好。 |
-| 魔王学院の不適合者 | 大沼心 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/40496/), [豆瓣](https://movie.douban.com/subject/34852268/) | 2020-10-22 | ★★☆☆☆ | What the fuck is this. |
 | ソードアート・オンライン (S1) | 伊藤智彦 | A-1 Pictures | 2012 | [MyAnimeList](https://myanimelist.net/anime/11757/), [豆瓣](https://movie.douban.com/subject/6869376/) | 2020-11-03 | ★★★☆☆ | |
 | ソードアート・オンライン Extra Edition | 伊藤智彦 | A-1 Pictures | 2013 | [MyAnimeList](https://myanimelist.net/anime/20021/), [豆瓣](https://movie.douban.com/subject/25805197/) | 2020-11-03 | ★★★★☆ | 看这个就不用看第一季了呢。 |
 | ソードアート・オンライン II | 伊藤智彦 | A-1 Pictures | 2014 | [MyAnimeList](https://myanimelist.net/anime/21881/), [豆瓣](https://movie.douban.com/subject/25804168/) | E10 |  |  |
@@ -51,9 +50,12 @@ TV shows & Animes that I am watching/have watched.
 | SPY×FAMILY | 古橋一浩 | WIT STUDIO × CloverWorks | 2022 | [MyAnimeList](https://myanimelist.net/anime/50265/), [豆瓣](https://movie.douban.com/subject/35258427/) | 2022-08-02 | ★★★★★ | 挑个骨头：早见的经典声线实在太年轻了，每次听约尔讲话我都反应不过来。 |
 | 蜘蛛ですが、なにか？ | 板垣伸 | Millepensee | 2021 |  [MyAnimeList](https://myanimelist.net/anime/37984/), [豆瓣](https://movie.douban.com/subject/30267273/) | 2022-08-03 | ★★★★☆ | 双线处理得非常好，3D 表现上佳。含有数不清的虫子镜头。 |
 | 無職転生 ～異世界行ったら本気だす～ | 岡本学 | StudioBind | 2021 | MyAnimeList [P1](https://myanimelist.net/anime/39535/) [P2](https://myanimelist.net/anime/45576/), 豆瓣[P1](https://movie.douban.com/subject/30513783/) [P2](https://movie.douban.com/subject/35306636/) | 2022-08-05 | ★★★☆☆ | 除了主角时不时过于猥琐，其它部分能打五星。 |
-| スライム倒して 300 年、知らないうちにレベルMAXになってました | 木村延景 | REVOROOT | 2021 |  [MyAnimeList](https://myanimelist.net/anime/40586/), [豆瓣](https://movie.douban.com/subject/34867935/) |  | ★★☆☆☆ | 无脑日常番，除 E10 之外几乎不存在任何剧情。 |
-| 現実主義勇者の王国再建記 (S1) | 渡部高志 | J.C.STAFF | 2021 |  [MyAnimeList](https://myanimelist.net/anime/41710/), [豆瓣](https://movie.douban.com/subject/35048159/) | 2022-08-09 | ★★☆☆☆ | 怎么说呢，我对超訳这种书一向是看不起的。而且作者是否太小看古人了一点。 |
-| 回復術士のやり直し | 朝岡卓矢 | TNK | 2021 |  [MyAnimeList](https://myanimelist.net/anime/40750/), [豆瓣](https://movie.douban.com/subject/34925662/) |  | ★☆☆☆☆ | 过于强调很丑的邪笑表情，主角经历了这么多事情却没有任何成长，不如無職転生。 |
+| スライム倒して 300 年、知らないうちにレベルMAXになってました | 木村延景 | REVOROOT | 2021 | [MyAnimeList](https://myanimelist.net/anime/40586/), [豆瓣](https://movie.douban.com/subject/34867935/) | 2022-08-?? | ★★☆☆☆ | 无脑日常番，除 E10 之外几乎不存在任何剧情。 |
+| 現実主義勇者の王国再建記 (S1) | 渡部高志 | J.C.STAFF | 2021 | [MyAnimeList](https://myanimelist.net/anime/41710/), [豆瓣](https://movie.douban.com/subject/35048159/) | 2022-08-09 | ★★☆☆☆ | 怎么说呢，我对超訳这种书一向是看不起的。而且作者是否太小看古人了一点。 |
+| 回復術士のやり直し | 朝岡卓矢 | TNK | 2021 | [MyAnimeList](https://myanimelist.net/anime/40750/), [豆瓣](https://movie.douban.com/subject/34925662/) | 2022-08-?? | ★☆☆☆☆ | 过于强调很丑的邪笑表情，主角经历了这么多事情却没有任何成长，不如無職転生。 |
+| 世界最高の暗殺者、異世界貴族に転生する | 田村正文 | SILVER LINK. × studioぱれっと | 2021 | [MyAnimeList](https://myanimelist.net/anime/47790/), [豆瓣](https://movie.douban.com/subject/35352354/) | 2023-01-29 | ★★★☆☆ | 故事还是挺可爱的，作画也不错。 |
+| 魔王学院の不適合者 | 大沼心 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/40496/), [豆瓣](https://movie.douban.com/subject/34852268/) | 2023-01-29 | ★★★☆☆ | 不知道是不是我老了，时隔多年再看居然有些感动（。 |
+| たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語 | migmi | LIDENFILMS | 2021 | [MyAnimeList](https://myanimelist.net/anime/40594/), [豆瓣](https://movie.douban.com/subject/34868127/) | Abandoned | ★★☆☆☆ | 除了莉荷和萝尔之外没有一个写得能看的角色…… |
 
 
 <!-- | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
