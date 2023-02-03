@@ -16,10 +16,10 @@ Online manual: [cd(1p) - Linux manual page](https://man7.org/linux/man-pages/man
 
 ```bash
 # Go to home
-$ cd ~
+cd ~
 
 # Go to last directory
-$ cd -
+cd -
 ```
 
 ## ls
@@ -50,7 +50,7 @@ Documentation: [tldr pages](https://tldr.sh/)
 Example:
 
 ```bash
-$ tldr cat
+tldr cat
 # 
 # cat
 # 
@@ -72,6 +72,13 @@ $ tldr cat
 #     cat -v -t -e file
 ```
 
+## mv
+
+Batch change filename extension:
+
+```bash
+for f in *.txt; do mv "$f" "${f%.txt}".html; done
+```
 
 ## ping
 
