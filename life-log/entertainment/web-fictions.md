@@ -79,6 +79,7 @@ TODO: Dump Apple note.
 | 黎明医生／瘟疫医生 | 机器人瓦力 | 2019 \~ 2020 | [起点](https://book.qidian.com/info/1015102783/), [Webnovel](https://www.webnovel.com/book/plague-doctor_16489432606236605) | 2022-10-08 | ★★★☆☆ | [🔗](https://blog.loikein.one/posts/2022-10-10-plague-doctor-by-wallee-the-robot/) |
 | 哈利波特之学霸无敌／霍格沃茨万事皆三 | 桐棠 | 2018 \~ 2021 | [起点](https://book.qidian.com/info/1009382011/) | 2022-10-10 | Abandoned | 读了三百来章（。）之后发现是后宫，写得不明不白的，算了…… |
 | 影后的嘴开过光 | 夜九白 | 2019 \~ | [起点](https://book.qidian.com/info/1015972316/) | 2022-11-20 | Abandoned | 虽然作者一直都很 pushy，但是读到 1241（！）章，终于受不了了。 |
+| 镇妖博物馆 | 阎ZK | 2021 \~ 2022 | [起点](https://book.qidian.com/info/1026722127/) | 2023-02-20 | Abandoned | 看了个开头，过于赤裸裸地天国上朝了，不喜欢。 |
 
 
 ### Homosexual
