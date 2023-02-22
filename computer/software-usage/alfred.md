@@ -74,6 +74,8 @@ Only with workflow: [Running commands from Alfred · Issue #2638 · alacritty/al
 
 ## Custom Search
 
+A curated list: [🎩 Alfred Custom Web Searches](https://alfred.pory.app/)
+
 ### explainshell
 
 Does the same thing as [svsool/alfred-explainshell: Explain Shell workflow for Alfred](https://github.com/svsool/alfred-explainshell). \([credit](https://www.alfredforum.com/topic/3070-manpages-using-explainshellcom/?do=findComment&comment=21096)\)
@@ -104,14 +106,21 @@ Encode space as: +
 Keyword:         d
 ```
 
+### Reverso Context
+
+```text
+URL:             https://context.reverso.net/translation/english-chinese/{query}
+Encode space as: +
+Keyword:         d
+```
+
 ### Google Translation
 
 ```text
-URL:             https://translate.google.com/?tl=zh-CN&op=translate&sl=auto&tl=zh-CN#view=home&op=translate&sl=auto&tl=zh-CN&text={query}
+URL:             https://translate.google.com/?sl=auto&tl=zh-CN&text={query}&op=translate
 Encode space as: %20
 Keyword:         tran
 ```
-
 
 ### DeepL Translation
 

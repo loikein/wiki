@@ -60,12 +60,27 @@ In Tmux sessions:
 In `.tmux.conf`:
 
 ```text
-set-option prefix C-a
+# Remap prefix from 'C-b' to 'C-a'
+unbind C-b
+set-option -g prefix C-a
+bind-key C-a send-prefix
+```
+
+### Change Shortcut Key
+
+For example, in `.tmux.conf`:
+
+```text
+# Split panes using | and -
+bind | split-window -h
+bind - split-window -v
+unbind '"'
+unbind %
 ```
 
 ### 256 Colour
 
-Set alias: \([credit](https://unix.stackexchange.com/a/355391)\)
+Set alias \(in `.zshrc`\): \([credit](https://unix.stackexchange.com/a/355391)\)
 
 ```bash
 alias tmux='tmux -2'

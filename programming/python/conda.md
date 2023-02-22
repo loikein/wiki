@@ -57,6 +57,12 @@ dependencies:
 
 ## Managing Packages
 
+### Check Package Version
+
+```bash
+$ conda list --full-name <package-name>
+```
+
 ### Force Re-installation
 
 First, deactivate the current environment and activate again.
@@ -64,12 +70,13 @@ First, deactivate the current environment and activate again.
 If that doesn't work:
 
 ```bash
-$ conda install some-bad-package --force-reinstall
+$ conda install --force-reinstall <a-bad-package>
 ```
 
 If that doesn't work:
 
 1. Open conda's package directories. (example: Miniconda)
+    - Check: `conda info`
     - `/opt/miniconda3/pkgs/`
     - `/opt/miniconda3/envs/my-env/lib/python3.7/site-packages/`
 1. Remove the package.

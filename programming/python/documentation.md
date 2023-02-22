@@ -14,14 +14,14 @@ General reST:
 * [reStructuredText Markup Specification](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#syntax-details)
 * More details: [reStructuredText Directives](https://docutils.sourceforge.io/docs/ref/rst/directives.html)
 
-## Main Commands
+## Sphinx basics
 
 Under `./docs/`:
 
 ```bash
 $ conda activate my_env
 
-# the following two are same if there is a makefile
+# the following two are same if makefile exists
 $ sphinx-build  -M html source build
 $ make html
 
@@ -29,7 +29,7 @@ $ make html
 $ open build/html/index.html
 ```
 
-## Example Folder Tree
+### Example Folder Tree
 
 ```text
 .
@@ -44,6 +44,32 @@ $ open build/html/index.html
     ├── __init__.py
     └── main_code.py
 ```
+
+### Example `makefile`
+
+```make
+# Minimal makefile for Sphinx documentation
+
+# You can set these variables from the command line, and also
+# from the environment for the first two.
+SPHINXOPTS    ?=
+SPHINXBUILD   ?= sphinx-build
+SOURCEDIR     = .
+BUILDDIR      = _build
+LATEXMKOPTS   = "-xelatex"
+
+# Put it first so that "make" without argument is like "make help".
+help:
+    @$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+.PHONY: help Makefile
+
+# Catch-all target: route all unknown targets to Sphinx using the new
+# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+%: Makefile
+    @$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+```
+
 
 ## Working Example from [OpenSourceEconomics/temfpy](https://github.com/OpenSourceEconomics/temfpy)
 
@@ -115,7 +141,9 @@ def eoq_model(x, r=0.1):
     return y
 ```
 
-## Variables
+## reStructuredText basics
+
+### Variables
 
 [I have reported a bug](https://github.com/sphinx-doc/sphinx/issues/7780) that stops combined parameters from rendering.
 
@@ -135,7 +163,7 @@ type c, d, e
     The only way to get multiple variables in the same line.
 ```
 
-## Image
+### Image
 
 If in `document_file.rst`:
 
@@ -153,7 +181,7 @@ If in `main_code.py`:
    :alt: a great image
 ```
 
-## Hyperlinks
+### Hyperlinks
 
 Note: the text must have same indentation as the URL it's referring to, see example:
 
@@ -166,7 +194,7 @@ Some text
     en/master/search.html?q=sobol&check_keywords=yes&area=default
 ```
 
-## Math
+### Math
 
 Both inline and block math will work.
 
@@ -176,3 +204,46 @@ Both inline and block math will work.
 :math:`y = \sqrt{\frac{24 x_0 x_2}{r x_1}}`
 ```
 
+## Debugging
+
+More like de-warning.
+
+### Inline interpreted text or phrase reference start-string without end-string.
+
+Ref: [Documentation Guide for Devs](https://developer.mantidproject.org/Standards/DocumentationGuideForDevs.html#inline-interpreted-text-or-phrase-reference-start-string-without-end-string)
+
+All non-inline math in `.ipynb` files should be surrounded by either of the following: (probably non-exhaustive but I'm too tired to try others)
+
+- `\begin{aligned} … \end{aligned}`
+- `$$ … $$`
+
+While the followings are forbidden even if then render just fine in Jupyter Notebook. Sphinx just won't have it.
+
+- `\begin{align} … \end{align}`
+- `\begin{equation} … \end{equation}`
+
+### Document or section may not begin with a transition.
+
+Ref: 
+
+- [Docutils: Documentation Utilities / Re: [Docutils-develop] Section may not end with a transition?](https://sourceforge.net/p/docutils/mailman/message/6975902/)
+- [reStructuredText Markup Specification](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#transitions)
+
+Do this:
+
+```markdown
+## Blah
+
+Blah blah blah
+```
+
+Don't do this:
+
+```markdown
+## Blah
+---
+
+Blah blah blah
+```
+
+The same for reStructuredText.

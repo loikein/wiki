@@ -24,27 +24,27 @@ References:
 
 ```bash
 # git status
-$ gst
+gst
 
 # git pull
-$ gl
+gl
 
 # git push
-$ gp
+gp
 
 # git checkout master
-$ gcm
+gcm
 
 # git commit -m
-$ gcmsg "message here"
+gcmsg "message here"
 
 # All cached changes
 # git diff --cached
 # git diff --staged
-$ gds
+gds
 
 # git diff --word-diff
-$ gdw
+gdw
 ```
 
 ### Others
@@ -63,7 +63,7 @@ alias glog="git log --graph --full-history --all --date=short --pretty=tformat:'
 Or set from shell directly: \(cannot overwrite default commands\) \([credit](https://strivingboy.github.io/blog/2014/09/29/better-git-log/)\)
 
 ```bash
-$ git config --global alias.lg "log --graph --full-history --all --date=short --pretty=tformat:'%Cred%h%Creset %C(bold green)%ad%Creset %s %C(yellow)%d%Creset %Cblue<%an>%Creset'"
+git config --global alias.lg "log --graph --full-history --all --date=short --pretty=tformat:'%Cred%h%Creset %C(bold green)%ad%Creset %s %C(yellow)%d%Creset %Cblue<%an>%Creset'"
 ```
 
 ## Observe Things
@@ -73,38 +73,53 @@ $ git config --global alias.lg "log --graph --full-history --all --date=short --
 Difference between most recent commit and second most recent commit: \([credit](https://stackoverflow.com/a/9903611/10668706)\)
 
 ```bash
-$ git diff HEAD^ HEAD
+git diff HEAD^ HEAD
 ```
 
 Difference between branches: \([credit](https://stackoverflow.com/a/9834872)\)
 
 ```bash
-$ git diff branch_1..branch_2
+git diff branch_1..branch_2
 ```
 
 Difference between staged \(added\) changes and most recent commit:
 
 ```bash
-$ git diff --staged
+git diff --staged
 ```
 
 Show all files under git version control:
 
 ```bash
 # r for recursive
-$ git ls-tree -r --full-tree --name-only HEAD
+git ls-tree -r --full-tree --name-only HEAD
 # or
-$ git ls-files
+git ls-files
 ```
 
 Find out how many files are being tracked: \([credit](https://stackoverflow.com/a/9468981/10668706)\)
 
 ```bash
 # All files
-$ git ls-files | wc -l
+git ls-files | wc -l
 
 # Some kind of file (e.g. Markdown)
-$ git ls-files | grep "\.md$" | wc -l
+git ls-files | grep "\.md$" | wc -l
+```
+
+### Blame
+
+Reference: [Git - git-blame Documentation](https://git-scm.com/docs/git-blame)
+
+```bash
+# Inspect lines 20~30
+git blame a-file.md -L 20,30
+
+# Inspect from start of file to line 30
+git blame a-file.md -L ,30
+
+# Inspect from line 20 to end of file
+git blame a-file.md -L 20,
 ```
 
 ### Remote
@@ -112,8 +127,8 @@ $ git ls-files | grep "\.md$" | wc -l
 Show all remote URLs:
 
 ```bash
-$ git remote --verbose
-$ git remote -v
+git remote --verbose
+git remote -v
 ```
 
 ## Commit-Level Operations
@@ -121,21 +136,27 @@ $ git remote -v
 Interactive chunk-staging:
 
 ```bash
-$ git add --patch somefile.txt
-$ git add -p somefile.txt
+git add --patch somefile.txt
+git add -p somefile.txt
 ```
 
 Change last commit message:
 
 ```bash
-$ git commit --amend
+git commit --amend
 ```
 
 Gently squash last two \(or any number of\) commits: \([credit](https://stackoverflow.com/a/5201642)\)
 
 ```bash
-$ git reset --soft HEAD~2
-$ git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+git reset --soft HEAD~2
+git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+```
+
+Undo last commit: \([credit](https://stackoverflow.com/a/927386)\)
+
+```bash
+git reset HEAD~1
 ```
 
 ### Apply Late `.gitignore`
@@ -143,8 +164,8 @@ $ git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 Commit first:
 
 ```bash
-$ git commit -m "add/change .gitignore"
-$ subl .gitignore
+git commit -m "add/change .gitignore"
+subl .gitignore
 ```
 
 Add something to `.gitignore`, for example:
@@ -161,7 +182,7 @@ Add something to `.gitignore`, for example:
 Apply changes:
 
 ```bash
-$ git rm -r --cached . && git add . && git commit -m "apply .gitignore"
+git rm -r --cached . && git add . && git commit -m "apply .gitignore"
 ```
 
 ### `git bisect`
@@ -179,20 +200,20 @@ Scenario: I have a forked repository on GitHub, cloned to local machine, and wan
 Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
 
 ```bash
-$ git remote add upstream https://github.com/something/something.git
-$ git fetch upstream
+git remote add upstream https://github.com/something/something.git
+git fetch upstream
 ```
 
 If want to keep all fork commits:
 
 ```bash
-$ git merge upstream/master master
+git merge upstream/master master
 ```
 
 If want clean commit history:
 
 ```bash
-$ git rebase upstream/master
+git rebase upstream/master
 ```
 
 ### Branches
@@ -200,57 +221,71 @@ $ git rebase upstream/master
 See all branches:
 
 ```bash
-$ git branch
+git branch
 
 # See some more info
-$ git branch --verbose
-$ git branch -v
+git branch --verbose
+git branch -v
 ```
 
 Create branch:
 
 ```bash
-$ git branch my-new-branch
-$ git checkout my-new-branch
+git branch my-new-branch
+git checkout my-new-branch
 
 # or
-$ git checkout -b my-new-branch
+git checkout -b my-new-branch
+```
+
+Change branch name"
+
+```bash
+git checkout brach_with_bad_name
+git branch -m fancy_name
 ```
 
 Move files changes to another branch: \([credit](https://stackoverflow.com/a/35742820)\)
 
 ```bash
 # p for patch
-$ git checkout <other_branch_name> <files/to/grab in/list/separated/by/spaces> -p
+git checkout <other_branch_name> <files/to/grab in/list/separated/by/spaces> -p
 ```
 
 Merge master to new branch: ([credit](https://stackoverflow.com/questions/16955980/git-merge-master-into-feature-branch#comment83176031_16957483))
 
 ```bash
-$ git pull origin master
+git pull origin master
 ```
 
 Delete local branch:
 
 ```bash
-$ git checkout master
-$ git branch -d my-old-branch
+git checkout master
+git branch -d my-old-branch
 ```
 
-Delete all gone local branches: \([credit](https://medium.com/@kcmueller/delete-local-git-branches-that-were-deleted-on-remote-repository-b596b71b530c)\)
+Delete all gone local branches: \([credit](https://stackoverflow.com/a/28464339)\)
+
+```bash
+git remote prune origin
+```
+
+<!--
+\([credit](https://medium.com/@kcmueller/delete-local-git-branches-that-were-deleted-on-remote-repository-b596b71b530c)\)
 
 ```bash
 # Pull newest version
-$ git fetch --prune origin
+git fetch --prune origin
 
 # Delete all gone branches
-$ git branch -v | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r git branch -d
-```
+git branch -v | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r git branch -d
+``` -->
 
 Delete remote branch:
 
 ```bash
-$ git push -d origin my-old-branch
+git push -d origin my-old-branch
 ```
 
 ### Merge Master into Branch
@@ -259,53 +294,83 @@ Credit: GitHub
 
 ```bash
 # From your project repository, bring in the changes and test.
-$ git fetch origin
-$ git checkout -b "my-branch" "origin/my-branch"
-$ git merge "master"
+git fetch origin
+git checkout -b "my-branch" "origin/my-branch"
+git merge "master"
 
 # Merge the changes and update on remote.
-$ git checkout "master"
-$ git merge --no-ff "my-branch"
-$ git push origin "master"
+git checkout "master"
+git merge --no-ff "my-branch"
+git push origin "master"
+```
+
+## Split Repo
+
+Credit: [git subtree - Detach (move) subdirectory into separate Git repository - Stack Overflow](https://stackoverflow.com/a/17864475)
+
+```bash
+# Prepare the old repo
+cd <big-repo>
+git subtree split -P <name-of-folder> -b <name-of-new-branch>
+
+# Create new repo
+mkdir ~/<new-repo> && cd ~/<new-repo>
+git init
+git pull </path/to/big-repo> <name-of-new-branch>
+
+# Clean old repo
+cd <big-repo>
+git rm -rf <name-of-folder>
 ```
 
 ## Submodule
 
 ### Add
 
+Credit [1](https://stackoverflow.com/a/15782629), [2](https://stackoverflow.com/a/55885186)
+
 ```bash
-$ git submodule add https://github.com/something/something.git
+# Default branch
+git submodule add <remote-URL>
+
+# Specify branch
+git submodule add -b <branch-name> <remote-URL> <preferred-folder-name>
+
+# Track a specific branch after init
+git submodule set-branch --branch <branch-name> <folder-name>
 ```
 
 Initial pull submodule:
 
 ```bash
-$ git submodule update --init --recursive
+git submodule update --init --recursive
 ```
 
 ### Update (Fetch)
 
-Update all submodules: \([credit](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules#comment9839868_1032653)\)
+Update all submodules: \([credit](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_pulling)\)
 
 ```bash
-$ git submodule -q foreach git pull -q origin master
+git submodule update --remote
 ```
 
-Show list of all submodules without entering less: \([credit](https://stackoverflow.com/a/12641787)\)
+Show list of all submodules: \([credit](https://stackoverflow.com/a/54238999)\)
 
 ```bash
-$ git config --file .gitmodules --get-regexp path | awk '{ print $2 }'
+# Either will work
+git ls-tree -r HEAD
+git submodule status
 ```
 
 ### Edit
 
 Make changes to submodules without committing: (in `.gitmodules`)
 
-```text
+```diff
 [submodule "something"]
     path = something
     url = https://github.com/something/something.git
-+    ignore = untracked
++   ignore = untracked
 ```
 
 Change the directory name for a submodule: \([credit](https://stackoverflow.com/a/5540263/10668706)\)
@@ -315,38 +380,72 @@ Change the directory name for a submodule: \([credit](https://stackoverflow.com/
 1. Run `git mv /path/to/old/directory /path/to/new/directory`
 1. Run `git add .`
 
+Change remote URL for a submodule: \([credit](https://stackoverflow.com/a/914135)\)
+
+```bash
+git submodule set-url <path> <newurl>
+```
+
 ### Remove
 
-Reference: [github - What is the current way to remove a git submodule? - Stack Overflow](https://stackoverflow.com/questions/29850029/what-is-the-current-way-to-remove-a-git-submodule)
+The easy way: `git rm <path-to-submodule>`
 
-## Pre-Commit Hook
+The hard way: \([credit](https://stackoverflow.com/a/1260982)\)
+
+1. Delete the relevant section from the `.gitmodules` file.
+1. `git add .gitmodules`
+1. Delete the relevant section from `.git/config`.
+1. `git rm --cached <path-to-submodule>`
+1. `rm -rf .git/modules/<path-to-submodule>`
+1. `rm -rf <path-to-submodule>`
+
+## Pre-Commit
 
 ## Git Flow
 
 References:
 
-- [Learn Version Control with Git - Workflows with git-flow](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/git-flow) ([中文版](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow))
+- [Learn Version Control with Git - Workflows with git-flow](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/git-flow) \([中文版](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)\)
 - [petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/petervanderdoes/gitflow-avh)
 - [Command Line Arguments · nvie/gitflow Wiki](https://github.com/nvie/gitflow/wiki/Command-Line-Arguments)
 
 Installation:
 
 ```bash
-$ brew install git-flow-avh
+brew install git-flow-avh
 ```
 
 Initialise: (`-d` means using default branch names)
 
 ```bash
-$ git flow init -d
+git flow init -d
 ```
 
 Write new feature:
 
 ```bash
 # Before beginning
-$ git flow feature start my-new-feature
+git flow feature start my-new-feature
 
 # After final commit
-$ git flow feature finish my-new-feature
+git flow feature finish my-new-feature
 ```
+
+## Debugging
+
+### Repository not found.
+
+Don't have write access. Ask a maintainer/admin to add you as contributor.
+
+### How to find whether I have write access?
+
+In browser, open a random file of the repository, and hit the edit button. If can edit, then have write access. \([credit](https://stackoverflow.com/a/40326507)\)
+
+### refusing to allow an OAuth App to create or update workflow
+
+Use token to login.
+
+1. Sign out from git
+    - Open `Keychain Access.app`, delete the Internet password for `github.com`, or
+    - `git config --global --unset credential.helper`
+1. Push again, and when prompted to enter password, enter a personal access token.

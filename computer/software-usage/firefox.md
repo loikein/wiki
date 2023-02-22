@@ -1,5 +1,9 @@
 # Firefox
 
+## Tricks
+
+- Hold <kbd>option</kbd>on Mac, <kbd>alt</kbd> on Windows to select any word without opening the link.
+
 ## Useful Add-Ons
 
 Reference: [All recommended extensions](https://addons.mozilla.org/en-US/firefox/search/?recommended=true&type=extension)
@@ -27,18 +31,21 @@ Must be installed after any other extensions that modifies new tab because Firef
 (Replaced [Untrack Me](https://addons.mozilla.org/en-US/firefox/addon/untrack-me/).)
 - [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/): Also works as IE tabs.
 - [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/): Summarises the terms of service of the current website.
+- [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/): Separate Google sites (including YouTube) from other history.
+- [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/): Stop trackings from CDN \(I don't quite understand, but it looks promising\).
 
 ### Customise the Web
 
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/): Custom CSS, see [Custom CSS](../internet/css.md).
 - [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): Custom JavaScript, see [Custom JavaScript](../internet/js.md).
+    - See [Userscripts](userscripts.md)
 
 ### Accessibility
 
 - [Smart TOC](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/): Add floating table of contents.
 - [HeadingsMap](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/): Add table of contents to side of the window including HTML5 landmarks.
-- [Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/): File tree for GitHub.
+- [Gitako - Github file tree](https://addons.mozilla.org/en-US/firefox/addon/gitako-github-file-tree/): File tree for GitHub. \(Replaced [Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/).\)
 - [axe - Web Accessibility Testing](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
 
 ### Others
@@ -51,6 +58,8 @@ Must be installed after any other extensions that modifies new tab because Firef
 - [HighlightAll](https://addons.mozilla.org/en-US/firefox/addon/highlightall/): Highlight multiple keywords.
 - [Unpinterested!](https://addons.mozilla.org/en-US/firefox/addon/unpinterested/): Remove results from Pinterest in Google image search, or optionally, all searches.  
 Disclaimer: I use Pinterest a lot, but it is polluting search results too much I hate it.
+- [Ruffle \| Flash Player emulator written in the Rust programming language](https://ruffle.rs/#usage)
+- [SearchPreview](https://addons.mozilla.org/en-US/firefox/addon/searchpreview/): Add thumbnails to major search engines' results page \(or as the youngsters say, SERP\).
 
 ## Vimium-FF
 
@@ -63,6 +72,8 @@ about:about         All hidden pages
 about:config        Advanced settings
 about:profiles      Profile manager
 about:support       Detailed "about this browser"
+about:debugging#/runtime/this-firefox
+                    Load unsigned extension without changing setting
 ```
 
 For example, to enable `prefers-reduced-motion` within the browser, add the following pair to `about:config`: \([credit](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#User_Preferences)\)
@@ -85,6 +96,7 @@ References:
 - [The Firefox Privacy Guide For Dummies! – 12Bytes.org](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies)
 - [Firefox Privacy: A Guide to Better Browsing](https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/)
 - [Firefox Profilemaker](https://ffprofile.com/)
+- [Most Common User Agents - Tech Blog (wh)](https://techblog.willshouse.com/2012/01/03/most-common-user-agents/)
 
 ### Modify `about:config` Directly
 
@@ -116,34 +128,21 @@ In the profile folder, create a folder and two CSS files with the following name
     └── userContent.css
 ```
 
-### Add White Outline for Favicons
+### White Outline for Favicon
 
-Ref: [how to fix firefox dark theme favicons issue? : r/firefox](https://www.reddit.com/r/firefox/comments/9mevo2/how_to_fix_firefox_dark_theme_favicons_issue/)
+Solves this problem: [how to fix firefox dark theme favicons issue? : r/firefox](https://www.reddit.com/r/firefox/comments/9mevo2/how_to_fix_firefox_dark_theme_favicons_issue/)
+
+You can see the difference very clearly with the Firefox default theme for macOS. Up is original, down is with my CSS: (with other tweaks)
+
+![Favicon with and without outline](/img/tab_icon_diff.jpg)
 
 In `userChrome.css`:
 
 ```css
-/* not really necessary: */
-/* @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); */
-
 .tab-icon-image {
-  /* background-color: white !important; */
-  filter: drop-shadow(1px 0 0 white)
-          drop-shadow(-1px 0 0 white)
-          drop-shadow(0 1px 0 white)
-          drop-shadow(0 -1px 0 white);
-}
-
-/* Firefox Quantum userChrome.css tweaks ************************************************/
-/* Github: https://github.com/aris-t2/customcssforfx ************************************/
-/****************************************************************************************/
-/* tab close - always visible*/
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned]) .tab-close-button {
-  visibility: visible !important;
-  display: block !important;
-}
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned])[faviconized="true"] .tab-close-button {
-  visibility: collapse !important;
-  display: none !important;
+  filter: drop-shadow(1px 0 0 white) 
+          drop-shadow(-1px 0 0 white) 
+          drop-shadow(0 1px 0 white) 
+          drop-shadow(0 -1px 0 white) !important;
 }
 ```

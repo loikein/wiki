@@ -6,26 +6,33 @@
 
 * [Keyboard Stuff](computer/keyboards.md)
 
-* [macOS](computer/macos.md)
-
 * [Zsh](computer/zsh.md)
+
+* [System Maintenance](computer/system-maintenance/)
+  * [macOS](computer/system-maintenance/macos.md)
+  * [Raspberry Pi](computer/system-maintenance/raspberry-pi.md)
 
 * [Internet](computer/internet/)
   * [Search the Internet](computer/internet/search.md)
   * [Custom CSS](computer/internet/css.md)
-  * [Custom JavaScript](computer/internet/js.md)
+  * [Userscript](computer/internet/userscript.md)
 
 * [Other Software](computer/software-usage/)
-  * [Built-In Shell Commands](computer/software-usage/command-line-built-in.md)
-  * [Other Command Line Tools](computer/software-usage/command-line-others.md)
+  * [System & Web Related Commands](computer/software-usage/command-line-system.md)
+  * [Text Related Commands](computer/software-usage/command-line-text.md)
+  * [Media Related Commands](computer/software-usage/command-line-media.md)
+  <!-- * [Other Command Line Tools](computer/software-usage/command-line-others.md) -->
   * [Alfred](computer/software-usage/alfred.md)
   * [espanso](computer/software-usage/espanso.md)
   * [ffmpeg](computer/software-usage/ffmpeg.md)
   * [Firefox](computer/software-usage/firefox.md)
+  * [Pleroma](computer/software-usage/pleroma.md)
+  * [Shimeji for Mac](computer/software-usage/shimeji-for-mac.md)
   * [tmux](computer/software-usage/tmux.md)
   * [Vimium](computer/software-usage/vimium.md)
   * [Vim](computer/software-usage/vim.md)
   * [Zotero](computer/software-usage/zotero.md)
+  * [Other macOS Software](computer/software-usage/macos-software.md)
 
 ## Programming
 
@@ -33,7 +40,10 @@
 
 * [LaTeX & Friends](programming/latex-friends/)
   * [LaTeX](programming/latex-friends/latex.md)
+  * [LaTeX Symbols](programming/latex-friends/latex-symbols.md)
   * [Pandoc](programming/latex-friends/pandoc.md)
+
+* [JavaScript](programming/javascript/README.md)
 
 * [Python](programming/python/README.md)
   * [Anaconda/Miniconda](programming/python/conda.md)
@@ -50,6 +60,7 @@
 * [Static Site Generators](programming/static-site/)
   * [Hugo/Blogdown](programming/static-site/hugo-blogdown.md)
   * [Gatsby](programming/static-site/gatsby.md)
+  * [Jekyll](programming/static-site/jekyll.md)
 
 ## Meta Life
 
@@ -72,6 +83,7 @@
 * [Entertainment](life-log/entertainment/README.md)
   * [Books](life-log/entertainment/books.md)
   * [Web Fictions](life-log/entertainment/web-fictions.md)
+  * [Podcast](life-log/entertainment/podcast.md)
   * [Music](life-log/entertainment/music.md)
   * [Films](life-log/entertainment/films.md)
   * [TV Shows & Animes](life-log/entertainment/tv-shows.md)

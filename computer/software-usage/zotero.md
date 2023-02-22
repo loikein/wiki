@@ -41,7 +41,13 @@ Repository: [UB-Mannheim/zotero-ocr: Zotero Plugin for OCR](https://github.com/U
 
 Repository: [retorquere/zotero-date-from-last-modified](https://github.com/retorquere/zotero-date-from-last-modified/tree/master)
 
+### scite
+
+Repository: [scitedotai/scite-zotero-plugin: scite zotero plugin](https://github.com/scitedotai/scite-zotero-plugin)
+
 ## Use Sci-Hub as Default PDF Finder
+
+List of online Sci-Hub URLs: [List of sci hub and libgen active urls - Verts-Luisants](https://vertsluisants.fr/index.php?article4/)
 
 Open Preferences > Advanced > Config Editor, search for `extensions.zotero.findPDFs.resolvers`, paste the following into Value: \([credit](https://zhuanlan.zhihu.com/p/112141757)\)
 
@@ -49,7 +55,7 @@ Open Preferences > Advanced > Config Editor, search for `extensions.zotero.findP
 {
 	"name":"Sci-Hub",
 	"method":"GET",
-	"url":"https://sci-hub.tw/{doi}",
+	"url":"https://scihub.wikicn.top/{doi}",
 	"mode":"html",
 	"selector":"#pdf",
 	"attribute":"src",
