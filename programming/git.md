@@ -238,11 +238,16 @@ git checkout my-new-branch
 git checkout -b my-new-branch
 ```
 
-Change branch name"
+Change branch name:
 
 ```bash
-git checkout brach_with_bad_name
-git branch -m fancy_name
+git branch -m master main
+git push -u origin main
+
+# external action required: go to origin (e.g. GitHub)
+# and change the default branch
+
+git push origin --delete master
 ```
 
 Move files changes to another branch: \([credit](https://stackoverflow.com/a/35742820)\)
