@@ -1,4 +1,7 @@
-**/.DS_Store
+# macOS General
+.DS_Store
+.AppleDouble
+.LSOverride
 
 # Book build output
 _book/
@@ -9,4 +12,22 @@ book/
 *.mobi
 *.pdf
 
+# drafts
 computer/internet/stw-bonn-de.md
+
+# subl
+hugo-blog.sublime-project
+hugo-blog.sublime-workspace
+
+# hugo
+.hugo_build.lock
+
+# folders
+/public/
+resources/
+thumbnails/
+exampleSite/
+draft/
+migration/
+/content/drafts/
+_gen/
