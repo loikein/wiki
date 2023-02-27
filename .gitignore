@@ -1,2 +1,12 @@
 **/.DS_Store
+
+# Book build output
+_book/
+book/
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+
 computer/internet/stw-bonn-de.md
