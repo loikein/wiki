@@ -1,0 +1,16 @@
+[book]
+authors = ["loikein"]
+language = "en"
+multilingual = false
+src = "."
+title = "Wiki"
+
+[output.katex]
+
+[output.html]
+
+[output.html.print]
+enable = true
+
+[preprocessor.katex]
+renderers = ["html"]

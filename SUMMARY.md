@@ -8,16 +8,16 @@
 
 * [Zsh](computer/zsh.md)
 
-* [System Maintenance](computer/system-maintenance/)
+* [System Maintenance](computer/system-maintenance/README.md)
   * [macOS](computer/system-maintenance/macos.md)
   * [Raspberry Pi](computer/system-maintenance/raspberry-pi.md)
 
-* [Internet](computer/internet/)
+* [Internet](computer/internet/README.md)
   * [Search the Internet](computer/internet/search.md)
   * [Custom CSS](computer/internet/css.md)
   * [Userscript](computer/internet/userscript.md)
 
-* [Other Software](computer/software-usage/)
+* [Other Software](computer/software-usage/README.md)
   * [System & Web Related Commands](computer/software-usage/command-line-system.md)
   * [Text Related Commands](computer/software-usage/command-line-text.md)
   * [Media Related Commands](computer/software-usage/command-line-media.md)
@@ -38,7 +38,7 @@
 
 * [Git](programming/git.md)
 
-* [LaTeX & Friends](programming/latex-friends/)
+* [LaTeX & Friends](programming/latex-friends/README.md)
   * [LaTeX](programming/latex-friends/latex.md)
   * [LaTeX Symbols](programming/latex-friends/latex-symbols.md)
   * [Pandoc](programming/latex-friends/pandoc.md)
@@ -57,7 +57,7 @@
 
 * [R](programming/r.md)
 
-* [Static Site Generators](programming/static-site/)
+* [Static Site Generators](programming/static-site/README.md)
   * [Hugo/Blogdown](programming/static-site/hugo-blogdown.md)
   * [Gatsby](programming/static-site/gatsby.md)
   * [Jekyll](programming/static-site/jekyll.md)
@@ -74,7 +74,7 @@
 * [衣着打扮](life-log/dressing-grooming/README.md)
   * [指甲](life-log/dressing-grooming/nails.md)
 
-* [Shopping List](life-log/shopping-list/)
+* [Shopping List](life-log/shopping-list/README.md)
   * [Food](life-log/shopping-list/food.md)
   * [Electronics](life-log/shopping-list/electronics.md)
   * [IKEA Essentials](life-log/shopping-list/ikea-essentials.md)
