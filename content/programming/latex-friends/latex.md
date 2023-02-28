@@ -20,13 +20,13 @@ $ fmtutil-sys --all
 
 ### Spaces
 
-Positive space: $$a\phantom{00000}b$$
+Positive space: `$a\phantom{00000}b$`
 
 ```text
 a\phantom{00000}b
 ```
 
-Negative space: $$\mkern12mu\not\mkern-24mu\iff$$ \([credit](https://tex.stackexchange.com/a/67913/206709)\)
+Negative space: `$\mkern12mu\not\mkern-24mu\iff$` \([credit](https://tex.stackexchange.com/a/67913/206709)\)
 
 ```text
 % The first part is for stopping eating into contents before
@@ -35,19 +35,19 @@ Negative space: $$\mkern12mu\not\mkern-24mu\iff$$ \([credit](https://tex.stackex
 
 ### Math Fonts
 
-Bold: $$\mathbf{X}$$
+Bold: `$\mathbf{X}$`
 
 ```text
 \mathbf{X}
 ```
 
-Bold hollow: $$\mathbb{R}$$
+Bold hollow: `$\mathbb{R}$`
 
 ```text
 \mathbb{R}
 ```
 
-Cursive: $$\mathcal{N}$$
+Cursive: `$\mathcal{N}$`
 
 ```text
 \mathcal{N}
@@ -57,13 +57,13 @@ Cursive: $$\mathcal{N}$$
 
 Compare:
 
-$$
+`$$
 \textstyle{\sum}_{i=1}^{10} i
-$$
+$$`
 
-$$
+`$$
 \sum_{i=1}^{10} i
-$$
+$$`
 
 ```text
 \textstyle{\sum}_{i=1}^{10}
@@ -73,7 +73,7 @@ $$
 
 ### Combining Symbols
 
-Above: $$x\overset{!}{=}0$$
+Above: `$x\overset{!}{=}0$`
 
 ```text
 x\overset{!}{=}0
@@ -83,43 +83,47 @@ x\overset{!}{=}0
 
 ### Basic aligns & tag position
 
-Equation: `$$ ... \tag{1}$$` or `\begin{equation} ... \end{equation}`
+Equation: <code class="nolatex">$ ... \tag{1}$</code>  or <code class="nolatex">\begin{equation} ... \end{equation}</code>
 
 ![Equation  with tag](/img/latex_equation.png)
 
-Aligned single equation: `\begin{aligned} ... \tag{2}\end{aligned}`
+Aligned single equation: <code class="nolatex">\begin{aligned} ... \tag{2}\end{aligned}</code>
 
 ![Aligned single equation with tag](/img/latex_aligned.png)
 
-Align multiple equation (no tag): `\begin{align*} ... \end{align*}`
+Align multiple equation (no tag): <code class="nolatex">\begin{align*} ... \end{align*}</code>
 
 ![Align multiple equation with no tag](/img/latex_align_star.png)
 
-Align multiple equation (tagged): `\begin{align} ... \end{align}`
+Align multiple equation (tagged): <code class="nolatex">\begin{align} ... \end{align}</code>
 
 ![Align multiple equation with tag](/img/latex_align.png)
 
 ### More examples
 
-Cases: $$\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}$$
+Cases: `$\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}$`
+
+`$$
+\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}
+$$`
 
 ```text
 \begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}
 ```
 
-Equations: $$\begin{aligned}x &= 1 \\ abcde &= 2 \end{aligned}$$
+Equations: `$\begin{aligned}x &= 1 \\ abcde &= 2 \end{aligned}$`
 
 ```text
 \begin{aligned}x &= 1 \\ abcde &= 2 \end{aligned}
 ```
 
-Spaces in equations: $$\begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}$$
+Spaces in equations: `$\begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}$`
 
 ```text
 \begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}
 ```
 
-Braces with multiple lines: $$\underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}$$
+Braces with multiple lines: `$\underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}$`
 
 ```text
 \underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}

@@ -22,6 +22,16 @@ markup:
       unsafe: true
   tableOfContents:
     startLevel: 1
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    # https://xyproto.github.io/splash/docs/longer/all.html
+    tabWidth: 4
 
 # Multi-lingual mode config
 # There are different options to translate files
@@ -106,3 +116,7 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
+
+  KaTeXVersion: 0.16.4
+  KaTeXCDN: //cdn.jsdelivr.net/npm
+  customCSS: true

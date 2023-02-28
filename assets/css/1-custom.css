@@ -1,0 +1,5 @@
+.markdown p .katex,
+.katex {
+    overflow-wrap: unset;
+    
+}
