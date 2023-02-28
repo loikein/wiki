@@ -10,3 +10,8 @@ book/
 *.pdf
 
 computer/internet/stw-bonn-de.md
+
+# ignore hugo files
+.hugo_build.lock
+resources/
+themes/
