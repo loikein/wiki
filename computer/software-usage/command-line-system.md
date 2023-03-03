@@ -74,10 +74,19 @@ tldr cat
 
 ## mv
 
-Batch change filename extension:
+Ref: [Shell Command Language](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html)
+
+Batch change filename: ([credit 1](https://unix.stackexchange.com/a/56812), [2](https://unix.stackexchange.com/questions/19654/how-do-i-change-the-extension-of-multiple-files#comment406782_19656))
 
 ```bash
-for f in *.txt; do mv "$f" "${f%.txt}".html; done
+# add text before filename
+for f in *; do mv "$f" "something-${f%}"; done
+
+# add text after filename but before extension
+for f in *.txt; do mv "$f" "${f%.txt}-something.txt"; done
+
+# change extension
+for f in *.txt; do mv "$f" "${f%.txt}.html"; done
 ```
 
 ## ping
