@@ -1,3 +1,9 @@
+---
+weight: 400
+title: "Firefox"
+---
+
+
 # Firefox
 
 ## Tricks

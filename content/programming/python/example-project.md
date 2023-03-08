@@ -1,3 +1,8 @@
+---
+weight: 300
+title: "Example Project Flow"
+---
+
 # Example Project Flow
 
 Previously posted on [Notes on Effective Programming Practice - loikein's notes](https://notes.loikein.one/post/2019/10/notes-effective-programming/).

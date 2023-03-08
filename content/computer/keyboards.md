@@ -1,3 +1,8 @@
+---
+weight: 10
+title: "Keyboard Stuff"
+---
+
 # Keyboard Stuff
 
 ## General Shortcuts

@@ -1,4 +1,9 @@
-# Jupyter Notebook & Lab
+---
+weight: 500
+title: "Jupyter Notebook/Lab"
+---
+
+# Jupyter Notebook / Lab
 
 ## Basics
 

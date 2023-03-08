@@ -1,3 +1,8 @@
+---
+bookCollapseSection: true
+title: "LaTeX & Friends"
+---
+
 # LaTeX \& Friends
 
 <style>

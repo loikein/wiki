@@ -1,3 +1,8 @@
+---
+weight: 300
+title: "Media Related Commands"
+---
+
 # Media Related Shell Commands
 
 ## dwebp

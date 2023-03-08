@@ -1,9 +1,14 @@
+---
+weight: 200
+title: "Text Related Commands"
+---
+
 # Text Related Shell Commands
 
 Benchmark for some of the examples:
 
 ```bash
-$ curl --head --silent google.com
+curl --head --silent google.com
 # HTTP/1.1 301 Moved Permanently
 # Location: http://www.google.com/
 # Content-Type: text/html; charset=UTF-8
@@ -35,7 +40,7 @@ Online manual: [grep(1) - Linux manual page](https://man7.org/linux/man-pages/ma
 Example:
 
 ```bash
-$ curl --head --silent google.com | grep GMT
+curl --head --silent google.com | grep GMT
 # Date: Fri, 07 Aug 2020 19:19:53 GMT
 # Expires: Sun, 06 Sep 2020 19:19:53 GMT
 ```
@@ -51,7 +56,7 @@ Guide: [ripgrep/GUIDE.md at master · BurntSushi/ripgrep](https://github.com/Bur
 Example: find text in all files in current directory
 
 ```sh
-$ rg -i readme
+rg -i readme
 # programming/static-site/gatsby.md
 # 73:    ├── README.md
 # 
@@ -88,11 +93,11 @@ Online manual:
 Example:
 
 ```bash
-$ curl --head --silent google.com | head -n 2
+curl --head --silent google.com | head -n 2
 # HTTP/1.1 301 Moved Permanently
 # Location: http://www.google.com/
 
-$ curl --head --silent google.com | tail -n 2
+curl --head --silent google.com | tail -n 2
 # X-Frame-Options: SAMEORIGIN
 # 
 ```
@@ -104,7 +109,7 @@ Online manual: [less(1) - Linux manual page](https://man7.org/linux/man-pages/ma
 Text displayer, aka, pager.
 
 ```bash
-$ curl www.google.com | less
+curl www.google.com | less
 ```
 
 ### bat (cat, less)
@@ -124,8 +129,8 @@ Example:
 ```bash
 # Compare the outcomes:
 
-$ curl www.google.com | less
-$ curl www.google.com | bat
+curl www.google.com | less
+curl www.google.com | bat
 ```
 
 
@@ -140,7 +145,7 @@ Documentation: [sed, a stream editor](https://www.gnu.org/software/sed/manual/se
 Example 1:
 
 ```bash
-$ curl --head --silent google.com | grep GMT | sed -E 's/^.*[A-Za-z]{3}, [0-9]{2} [A-Za-z]{3} 2020 (.*)$/\1/'
+curl --head --silent google.com | grep GMT | sed -E 's/^.*[A-Za-z]{3}, [0-9]{2} [A-Za-z]{3} 2020 (.*)$/\1/'
 # 19:40:05 GMT
 # 19:40:05 GMT
 ```
@@ -148,7 +153,7 @@ $ curl --head --silent google.com | grep GMT | sed -E 's/^.*[A-Za-z]{3}, [0-9]{2
 Example 2: FizzBuzz \([credit](https://rosettacode.org/wiki/FizzBuzz#Sed)\)
 
 ```bash
-$ seq 15 | sed '/.*[05]$/s//Buzz/; n; s//Buzz/; n; s//Buzz/; s/^[0-9]*/Fizz/'
+seq 15 | sed '/.*[05]$/s//Buzz/; n; s//Buzz/; n; s//Buzz/; s/^[0-9]*/Fizz/'
 # 1
 # 2
 # Fizz
@@ -184,7 +189,7 @@ Display output upside-down, i.e., the reverse of `cat`.
 Example 1:
 
 ```bash
-$ cat README.md
+cat README.md
 # # Introduction
 # 
 # My personal wiki, cheat sheet, knowledge base…
@@ -193,7 +198,7 @@ $ cat README.md
 # An experiment inspired by [Nikita Voloboev's Personal Wiki](https://wiki.nikitavoloboev.xyz/).
 # 
 
-$ tac README.md
+tac README.md
 # 
 # An experiment inspired by [Nikita Voloboev's Personal Wiki](https://wiki.nikitavoloboev.xyz/).
 # 
@@ -206,7 +211,7 @@ $ tac README.md
 Example 2:
 
 ```bash
-$ curl --head --silent google.com | tac
+curl --head --silent google.com | tac
 # 
 # X-Frame-Options: SAMEORIGIN
 # X-XSS-Protection: 0
@@ -235,7 +240,7 @@ Count number of lines/words/characters.
 Example:
 
 ```bash
-$ curl --head --silent google.com | wc --lines
-$ curl --head --silent google.com | wc -l
+curl --head --silent google.com | wc --lines
+curl --head --silent google.com | wc -l
 #       11
 ```

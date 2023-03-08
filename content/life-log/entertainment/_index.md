@@ -1,3 +1,9 @@
+---
+bookCollapseSection: true
+weight: 10
+title: "Entertainment"
+---
+
 # Entertainment
 
 TODO: Move from Douban.

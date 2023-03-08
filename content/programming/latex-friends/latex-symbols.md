@@ -1,3 +1,9 @@
+---
+weight: 200
+title: "LaTeX Symbols"
+---
+
+
 # LaTeX Symbols
 
 Big ref:
@@ -35,14 +41,14 @@ Ref: [Symbols for Preference Relations - Oeconomist](https://www.oeconomist.com/
 | Name | looks like | LaTeX |
 |------|------------|-------|
 | Strictly prefer | `$\succ$` | `\succ` |
-| Not strictly preferred |  | `\not\succ` or `\nsucc` |
+| Not strictly preferred | `$\not\succ$` | `\not\succ` or `\nsucc` |
 | Strictly worse | `$\prec$` | `\prec` |
 | Weakly prefer | `$\succsim$` | `\succsim` |
-| Not weakly preferred |  | `\not\succsim` |
+| Not weakly preferred | `$\not\succsim$` | `\not\succsim` |
 | Weakly worse | `$\precsim$` | `\precsim` |
 | Indifferent | `$\sim$` | `\sim` |
-| Not indifferent |  | `\not\sim` or `\nsim` |
-| Strict extension |  | `\rhd` |
+| Not indifferent | `$\not\sim$` | `\not\sim` or `\nsim` |
+| Strict extension | `$\rhd$` | `\rhd` |
 | Weak extension | `$\unrhd$` | `\unrhd` |
 
 ## Sets

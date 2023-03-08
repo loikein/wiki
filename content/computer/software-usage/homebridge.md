@@ -1,8 +1,14 @@
+---
+weight: 400
+title: "Homebridge"
+---
+
+
 # Homebridge
 
 ## Config
 
-Where to put it? [Nobody knows]((https://github.com/homebridge/homebridge/issues/2210)). All of them. \(It's `~/.homebridge/config.json`\).
+Where to put it? [Nobody knows](https://github.com/homebridge/homebridge/issues/2210). All of them. \(It's `~/.homebridge/config.json`\).
 
 ```json
 {

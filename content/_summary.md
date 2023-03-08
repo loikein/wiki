@@ -1,5 +1,7 @@
 ---
 headless: true
+_build:
+  list: never
 ---
 
 - [Introduction](/)
@@ -33,7 +35,7 @@ headless: true
     + [Other macOS Software](/computer/software-usage/macos-software/)
 <br />
 
-- Programming
+- [Programming](/programming/)
   + [Git](/programming/git/)
   + [LaTeX & Friends](/programming/latex-friends/)
     + [LaTeX](/programming/latex-friends/latex/)
@@ -45,7 +47,7 @@ headless: true
     + [Documentation](/programming/python/documentation/)
     + [Example Project Flow](/programming/python/example-project/)
     + [File System and Path](/programming/python/file-path/)
-    + [Jupyter Notebook & Lab](/programming/python/jupyter/)
+    + [Jupyter Notebook / Lab](/programming/python/jupyter/)
     + [Numpy](/programming/python/numpy/)
     + [Plotting](/programming/python/plotting/)
     + [rpy2](/programming/python/rpy2/)
@@ -64,13 +66,6 @@ headless: true
 <br />
 
 - Life Log
-  + [衣着打扮](/life-log/dressing-grooming/)
-    + [指甲](/life-log/dressing-grooming/nails/)
-  + [Shopping List](/life-log/shopping-list/)
-    + [Food](/life-log/shopping-list/food/)
-    + [Electronics](/life-log/shopping-list/electronics/)
-    + [IKEA Essentials](/life-log/shopping-list/ikea-essentials/)
-    + [Amazon Essentials](/life-log/shopping-list/amazon-essentials/)
   + [Entertainment](/life-log/entertainment/)
     + [Books](/life-log/entertainment/books/)
     + [Web Fictions](/life-log/entertainment/web-fictions/)
@@ -80,3 +75,11 @@ headless: true
     + [TV Shows & Animes](/life-log/entertainment/tv-shows/)
     + [Online Videos](/life-log/entertainment/online-videos/)
     + [Video Games](/life-log/entertainment/video-games/)
+  + [Shopping List](/life-log/shopping-list/)
+    + [Food](/life-log/shopping-list/food/)
+    + [Electronics](/life-log/shopping-list/electronics/)
+    + [IKEA Essentials](/life-log/shopping-list/ikea-essentials/)
+    + [Amazon Essentials](/life-log/shopping-list/amazon-essentials/)
+  + [外貌](/life-log/dressing-grooming/)
+    + [指甲](/life-log/dressing-grooming/nails/)
+    + [体态](/life-log/dressing-grooming/posture/)

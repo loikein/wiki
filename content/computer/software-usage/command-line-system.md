@@ -1,3 +1,8 @@
+---
+weight: 100
+title: "System & Web Related Commands"
+---
+
 # System & Internet Related Shell Commands
 
 References:

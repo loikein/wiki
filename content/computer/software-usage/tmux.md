@@ -1,3 +1,8 @@
+---
+weight: 400
+title: "tmux"
+---
+
 # tmux
 
 References:

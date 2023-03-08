@@ -1,3 +1,8 @@
+---
+weight: 100
+title: "Books"
+---
+
 # Books
 
 Books that I am reading/have read.

@@ -1,3 +1,8 @@
+---
+weight: 800
+title: "Video Games"
+---
+
 # Video Games
 
 ## Template

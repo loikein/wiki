@@ -1,3 +1,8 @@
+---
+weight: 100
+title: "Anaconda/Miniconda"
+---
+
 # Anaconda/Miniconda
 
 References:

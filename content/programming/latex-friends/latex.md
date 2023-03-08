@@ -1,3 +1,8 @@
+---
+weight: 100
+title: "LaTeX"
+---
+
 # LaTeX
 
 Most of time I only use LaTeX for maths.

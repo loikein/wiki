@@ -1,3 +1,7 @@
+---
+title: "Hugo/Blogdown"
+---
+
 # Hugo/Blogdown
 
 ## Hugo basics

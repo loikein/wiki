@@ -1,3 +1,8 @@
+---
+weight: 600
+title: "TV Shows & Animes"
+---
+
 # TV Shows & Animes
 
 TV shows & Animes that I am watching/have watched.

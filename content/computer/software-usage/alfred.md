@@ -1,3 +1,9 @@
+---
+weight: 400
+title: "Alfred"
+---
+
+
 # Alfred
 
 ## Run Script in Terminal

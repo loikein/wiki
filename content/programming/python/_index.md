@@ -1,3 +1,8 @@
+---
+bookCollapseSection: true
+title: "Python"
+---
+
 # Python
 
 ## Snippets

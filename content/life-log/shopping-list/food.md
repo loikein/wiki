@@ -1,3 +1,8 @@
+---
+weight: 100
+title: "Food"
+---
+
 # Food
 
 For a whole week, I need…

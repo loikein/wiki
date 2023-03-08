@@ -13,7 +13,9 @@ book/
 *.pdf
 
 # drafts
+stw-bonn-de.md
 computer/internet/stw-bonn-de.md
+content/computer/internet/stw-bonn-de.md
 
 # hugo
 .hugo_build.lock

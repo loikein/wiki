@@ -1,3 +1,8 @@
+---
+weight: 400
+title: "File System & Path"
+---
+
 # File System and Path
 
 The best library I have found to handle file path is `glob`.

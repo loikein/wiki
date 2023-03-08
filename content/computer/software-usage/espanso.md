@@ -1,3 +1,9 @@
+---
+weight: 400
+title: "espanso"
+---
+
+
 # espanso
 
 Reference: [Documentation \- espanso \- Cross-platform Text Expander written in Rust](https://espanso.org/docs/)

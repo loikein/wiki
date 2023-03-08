@@ -1,3 +1,8 @@
+---
+weight: 600
+title: "Numpy"
+---
+
 # Numpy
 
 ## Array

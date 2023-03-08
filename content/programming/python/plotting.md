@@ -1,3 +1,8 @@
+---
+weight: 700
+title: "Plotting"
+---
+
 # Plotting
 
 ## General

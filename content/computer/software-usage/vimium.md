@@ -1,3 +1,9 @@
+---
+weight: 400
+title: "Vimium"
+---
+
+
 # Vimium
 
 Reference: [philc/vimium: The hacker's browser.](https://github.com/philc/vimium)

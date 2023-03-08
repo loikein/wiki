@@ -1,3 +1,9 @@
+---
+weight: 400
+title: "Pleroma"
+---
+
+
 # Pleroma
 
 ## Installation on Raspberry Pi

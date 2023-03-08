@@ -1,3 +1,9 @@
+---
+weight: 300
+title: "IKEA Essentials"
+---
+
+
 # IKEA Essentials
 
 ## Template

@@ -1,3 +1,8 @@
+---
+weight: 400
+title: "Shimeji for Mac"
+---
+
 # Shimeji for Mac
 
 Main reference: [@zkdlsoo on Twitter](https://twitter.com/zkdlsoo/status/986176637946359808)

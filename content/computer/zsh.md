@@ -1,3 +1,8 @@
+---
+weight: 20
+title: "Zsh"
+---
+
 # Zsh
 
 <!-- TODO: explain my .zshrc line-by-line. -->

@@ -1,3 +1,8 @@
+---
+weight: 100
+title: "Search the Internet"
+---
+
 # Search the Internet
 
 References:

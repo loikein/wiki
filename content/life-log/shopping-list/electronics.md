@@ -1,3 +1,8 @@
+---
+weight: 200
+title: "Electronics"
+---
+
 # Electronics
 
 ## Communications Devices
