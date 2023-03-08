@@ -24,14 +24,14 @@ General reST:
 Under `./docs/`:
 
 ```bash
-$ conda activate my_env
+conda activate my_env
 
 # the following two are same if makefile exists
-$ sphinx-build  -M html source build
-$ make html
+sphinx-build  -M html source build
+make html
 
 # open in default browser
-$ open build/html/index.html
+open build/html/index.html
 ```
 
 ### Example Folder Tree
@@ -152,7 +152,7 @@ def eoq_model(x, r=0.1):
 
 [I have reported a bug](https://github.com/sphinx-doc/sphinx/issues/7780) that stops combined parameters from rendering.
 
-```text
+```rst
 Parameters
 ----------
 x : type
@@ -172,7 +172,7 @@ type c, d, e
 
 If in `document_file.rst`:
 
-```text
+```rst
 .. image:: ../../_static/images/image.jpg
    :align: center
    :alt: a great image
@@ -180,7 +180,7 @@ If in `document_file.rst`:
 
 If in `main_code.py`:
 
-```text
+```rst
 .. image:: ../../docs/_static/images/image.jpg
    :align: center
    :alt: a great image
@@ -190,7 +190,7 @@ If in `main_code.py`:
 
 Note: the text must have same indentation as the URL it's referring to, see example:
 
-```text
+```rst
 Some text
 
     Some indented text `a link that points outwards with long URL`_.
@@ -203,7 +203,7 @@ Some text
 
 Both inline and block math will work.
 
-```text
+```rst
 .. math:: y = \sqrt{\frac{24 x_0 x_2}{r x_1}}
 
 :math:`y = \sqrt{\frac{24 x_0 x_2}{r x_1}}`
@@ -219,13 +219,13 @@ Ref: [Documentation Guide for Devs](https://developer.mantidproject.org/Standard
 
 All non-inline math in `.ipynb` files should be surrounded by either of the following: (probably non-exhaustive but I'm too tired to try others)
 
-- `\begin{aligned} … \end{aligned}`
-- `$$ … $$`
+- <code class="nolatex">\begin{aligned} … \end{aligned}</code>
+- <code class="nolatex">$$ … $$</code>
 
 While the followings are forbidden even if then render just fine in Jupyter Notebook. Sphinx just won't have it.
 
-- `\begin{align} … \end{align}`
-- `\begin{equation} … \end{equation}`
+- <code class="nolatex">\begin{align} … \end{align}</code>
+- <code class="nolatex">\begin{equation} … \end{equation}</code>
 
 ### Document or section may not begin with a transition.
 
