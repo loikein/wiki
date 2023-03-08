@@ -56,7 +56,8 @@ TV shows & Animes that I am watching/have watched.
 | 世界最高の暗殺者、異世界貴族に転生する | 田村正文 | SILVER LINK. × studioぱれっと | 2021 | [MyAnimeList](https://myanimelist.net/anime/47790/), [豆瓣](https://movie.douban.com/subject/35352354/) | 2023-01-29 | ★★★☆☆ | 故事还是挺可爱的，作画也不错。 |
 | 魔王学院の不適合者 | 大沼心 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/40496/), [豆瓣](https://movie.douban.com/subject/34852268/) | 2023-01-29 | ★★★☆☆ | 不知道是不是我老了，时隔多年再看居然有些感动（。 |
 | たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語 | migmi | LIDENFILMS | 2021 | [MyAnimeList](https://myanimelist.net/anime/40594/), [豆瓣](https://movie.douban.com/subject/34868127/) | Abandoned | ★★☆☆☆ | 除了莉荷和萝尔之外没有一个写得能看的角色…… |
-
+| 乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… (S2) | 井上圭介 | SILVER LINK. | 2021 | [MyAnimeList](https://myanimelist.net/anime/42282/), [豆瓣](https://movie.douban.com/subject/35128791/) | 2023-03-03 | ★★★☆☆ | |
+| 失格紋の最強賢者 | 秋田谷典昭 | J.C.STAFF | 2022 | [MyAnimeList](https://myanimelist.net/anime/47161/), [豆瓣](https://movie.douban.com/subject/35351357/) | 2023-03-05 | ★★☆☆☆ | |
 
 <!-- | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
 | 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
