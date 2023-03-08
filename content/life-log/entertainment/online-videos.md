@@ -29,7 +29,7 @@ For Vimeo thumbnail number search in original page:
 For Bilibili thumbnail number search:
 
 ```html
-<meta data-vue-meta="true" itemprop="image" content="http://???.hdslb.com/bfs/archive/???.jpg
+<meta data-vue-meta="true" itemprop="image" content="https://???.hdslb.com/bfs/archive/???.jpg
 ```
 
 ## News and Social Events
@@ -69,7 +69,7 @@ For Bilibili thumbnail number search:
 | ![](https://img.youtube.com/vi/xuCn8ux2gbs/0.jpg) | [history of the entire world, i guess](https://www.youtube-nocookie.com/embed/xuCn8ux2gbs?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/Rcf9zK9FfDQ/0.jpg) | [XX 小区 XX 群租房整点新闻](https://www.youtube-nocookie.com/embed/Rcf9zK9FfDQ?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/WynMZz_7V_U/0.jpg) | [群租房整点新闻（第二集）\(有高清模式\)](https://www.youtube-nocookie.com/embed/WynMZz_7V_U?cc_load_policy=1) |
-| ![](http://i0.hdslb.com/bfs/archive/99b7596eca852e813fafe0fc3c3b2f7b3936de17.jpg) | [建议改成：骚 话 之 王](https://player.bilibili.com/player.html?aid=498099462&high_quality=1&danmaku=0)|
+| ![](https://i0.hdslb.com/bfs/archive/99b7596eca852e813fafe0fc3c3b2f7b3936de17.jpg) | [建议改成：骚 话 之 王](https://player.bilibili.com/player.html?aid=498099462&high_quality=1&danmaku=0)|
 | ![](https://img.youtube.com/vi/tQq53-g25d4/0.jpg) | [5g-Minute Crafts Makes the Worst Life Hacks of All Time](https://www.youtube-nocookie.com/embed/tQq53-g25d4?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/eDW44A_noK8/0.jpg) | [if smartphone commercials were honest.](https://www.youtube-nocookie.com/embed/eDW44A_noK8?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/BZbChKzedEk/0.jpg) | [Can You Swim in Shade Balls?](https://www.youtube-nocookie.com/embed/BZbChKzedEk?cc_load_policy=1) |
@@ -114,8 +114,8 @@ For Bilibili thumbnail number search:
 | ![](https://img.youtube.com/vi/mBowksYVtRQ/0.jpg) | [LOVELY- BILLIE EILISH & KHALID - PARIS CAVANAGH CHOREOGRAPHY](https://www.youtube-nocookie.com/embed/mBowksYVtRQ) |
 | ![](https://img.youtube.com/vi/Y-9TpxtVFsU/0.jpg) | [Chinese Classical Dance - Fan Hua Chang Bian](https://www.youtube-nocookie.com/embed/Y-9TpxtVFsU) |
 | ![](https://img.youtube.com/vi/729dnMIpgWQ/0.jpg) | [《扇舞丹青》—— 王亚彬 高清](https://www.youtube-nocookie.com/embed/729dnMIpgWQ) |
-| ![](http://i1.hdslb.com/bfs/archive/73fd9ee4c268aa35f3b5bbf0b4e81700b5e48f2d.jpg) | [《逍遥舞境古典舞《醉太平》](https://player.bilibili.com/player.html?aid=52046593&high_quality=1&danmaku=0) |
-| ![](http://i0.hdslb.com/bfs/archive/6896252e900c2ece0665d73436cb184db853bb75.jpg) | [【原曲重剪辑】李响 -- 行者（无观众喝彩版）](https://player.bilibili.com/player.html?aid=70477234&high_quality=1&danmaku=0) |
+| ![](https://i1.hdslb.com/bfs/archive/73fd9ee4c268aa35f3b5bbf0b4e81700b5e48f2d.jpg) | [《逍遥舞境古典舞《醉太平》](https://player.bilibili.com/player.html?aid=52046593&high_quality=1&danmaku=0) |
+| ![](https://i0.hdslb.com/bfs/archive/6896252e900c2ece0665d73436cb184db853bb75.jpg) | [【原曲重剪辑】李响 -- 行者（无观众喝彩版）](https://player.bilibili.com/player.html?aid=70477234&high_quality=1&danmaku=0) |
 | ![](https://img.youtube.com/vi/5loWidbGO54/0.jpg) | [《玉人舞》石雪涵 - 1080p](https://www.youtube-nocookie.com/embed/5loWidbGO54) |
 | ![](https://img.youtube.com/vi/Qt3RNnq4v8o/0.jpg) | [【唐诗逸】《玉人舞》](https://www.youtube-nocookie.com/embed/Qt3RNnq4v8o) |
 | ![](https://img.youtube.com/vi/oMjKNG9EB_Y/0.jpg) | [2019 World Gala Exhibition Yuzuru Hanyu - CCTV](https://www.youtube-nocookie.com/embed/oMjKNG9EB_Y) |
@@ -176,8 +176,8 @@ Also see [Music](music.md).
 | ![](https://img.youtube.com/vi/wfYbgdo8e-8/0.jpg) | [You Are Two](https://www.youtube-nocookie.com/embed/wfYbgdo8e-8?cc_load_policy=1) |
 | ![](https://img.youtube.com/vi/nQHBAdShgYI/0.jpg) | [The Trouble with Transporters](https://www.youtube-nocookie.com/embed/nQHBAdShgYI?cc_load_policy=1) \(You can't stay awake forever\) |
 | ![](https://img.youtube.com/vi/9dZZY4Xi4UU/0.jpg) | [迈克尔・桑德尔 正义 如何做是好？【12 集完整版】](https://www.youtube-nocookie.com/embed/9dZZY4Xi4UU?cc_load_policy=1) |
-| ![](http://i0.hdslb.com/bfs/archive/f686399a41661f6be22a15a809109d23668c9d3f.jpg) | [章鱼哥【一个成年人的独白】 ](https://player.bilibili.com/player.html?aid=926338538&high_quality=1&danmaku=0) |
-| ![](http://i2.hdslb.com/bfs/archive/6d792b21efd828d498424acdc75e63fb4f0e16da.jpg) | [小时候看笑话，长大后看真实 ](https://player.bilibili.com/player.html?aid=285774045&high_quality=1&danmaku=0) |
+| ![](https://i0.hdslb.com/bfs/archive/f686399a41661f6be22a15a809109d23668c9d3f.jpg) | [章鱼哥【一个成年人的独白】 ](https://player.bilibili.com/player.html?aid=926338538&high_quality=1&danmaku=0) |
+| ![](https://i2.hdslb.com/bfs/archive/6d792b21efd828d498424acdc75e63fb4f0e16da.jpg) | [小时候看笑话，长大后看真实 ](https://player.bilibili.com/player.html?aid=285774045&high_quality=1&danmaku=0) |
 
 ### Psychology
 
