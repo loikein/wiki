@@ -1,5 +1,5 @@
 ---
-weight: 200
+weight: 300
 title: "LaTeX Symbols"
 ---
 
@@ -80,12 +80,13 @@ Ref: [Whitespace in math mode – texblog](https://texblog.org/2014/04/09/whites
 
 | Name | looks like | LaTeX |
 |------|------------|-------|
+| Thin negative space | `$a\rightarrow\!\leftarrow b$` | `\!` |
 | (No space) | `$a\rightarrow\leftarrow b$` | (Nothing) |
 | Thin space | `$a\rightarrow\,\leftarrow b$` | `\,` |
-| Thin neq space | `$a\rightarrow\!\leftarrow b$` | `\!` |
 | Medium space | `$a\rightarrow\:\leftarrow b$` | `\:` |
 | Large space | `$a\rightarrow\;\leftarrow b$` | `\;` |
 | 1en space | `$a\rightarrow\enspace\leftarrow b$` | `\enspace` |
 | 1em space | `$a\rightarrow\quad\leftarrow b$` | `\quad` |
 | 2em space | `$a\rightarrow\qquad\leftarrow b$` | `\qquad` |
 | Custom em space | `$a\rightarrow\hspace{3em}\leftarrow b$` | `\hspace{3em}` |
+| Custom words space | `$a\rightarrow\phantom{00000}\leftarrow b$` | `\phantom{00000}` |

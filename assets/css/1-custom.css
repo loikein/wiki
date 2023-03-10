@@ -1,0 +1,50 @@
+.container {
+  max-width: unset;
+}
+
+.book-menu {
+  /* flex: 0 0 18rem; */
+}
+
+.book-menu .book-menu-content {
+  border-right: 1px solid rgb(227, 232, 237);
+  /* width: 18rem; */
+}
+
+.book-menu .book-menu-content .book-search {
+  border-bottom: 1px solid rgb(227, 232, 237);
+}
+
+
+.book-toc .book-toc-content {
+  border-left: 1px solid rgb(227, 232, 237);
+}
+
+@media screen and (min-width: 80rem){
+  .book-page,
+  .book-menu .book-menu-content,
+  .book-toc .book-toc-content {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 56rem){
+  .book-menu {
+    /* margin-inline-start: -18rem; */
+  }
+
+  #menu-control:checked ~ main .book-menu .book-menu-content {
+    /* transform: translateX(18rem); */
+  }
+
+  .book-toc {
+    display: unset;
+    visibility: hidden;
+    margin-inline-start: -16rem;
+    z-index: 1;
+  }
+
+  #toc-control:checked ~ .book-toc {
+    visibility: initial;
+  }
+}

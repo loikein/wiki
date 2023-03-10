@@ -74,8 +74,8 @@ $$`
 
 需要知道：
 
-- 情况的先验：`$\Pr(\theta_A)$$（得病率），$$\Pr(\theta_B)$`
-- 信号的准确度：`$\Pr(s \mid \theta_A)$$（灵敏度），$$\Pr(s \mid \theta_B)$`（1 - 特异度）
+- 情况的先验：`$\Pr(\theta_A)$`（得病率），`$\Pr(\theta_B)$`
+- 信号的准确度：`$\Pr(s \mid \theta_A)$`（灵敏度），`$\Pr(s \mid \theta_B)$`（1 - 特异度）
 
 
 ### 同样信号时不同情况的比值比，及线性形式（log odds form）
