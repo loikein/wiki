@@ -76,7 +76,10 @@ Ref: [List of LaTeX mathematical symbols - OeisWiki](https://oeis.org/wiki/List_
 
 ## Spaces
 
-Ref: [Whitespace in math mode – texblog](https://texblog.org/2014/04/09/whitespace-in-math-mode/)
+Refs: 
+
+- [Whitespace in math mode – texblog](https://texblog.org/2014/04/09/whitespace-in-math-mode/)
+- [What commands are there for horizontal spacing? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/74354)
 
 | Name | looks like | LaTeX |
 |------|------------|-------|

@@ -5,6 +5,12 @@ title: "Zotero"
 
 # Zotero
 
+## Useful commands
+
+> [How can I see what collections my item is in? [Zotero Documentation]](https://www.zotero.org/support/kb/collections_containing_an_item)
+> 
+> To see all the collections an item is in, select the item and then hold down the {{< kbd "Option" >}} key (macOS), {{< kbd "Control" >}} key (Windows), or {{< kbd "Alt" >}} key (Linux). This will highlight all collections that contain the selected item. 
+
 ## Useful Plug-Ins
 
 ### Better BibTeX

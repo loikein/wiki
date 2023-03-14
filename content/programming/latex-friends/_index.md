@@ -15,3 +15,5 @@ title: "LaTeX & Friends"
 </span>
 
 `$$hello world$$`
+
+[Supported Functions · KaTeX](https://katex.org/docs/supported.html)
