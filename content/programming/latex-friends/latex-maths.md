@@ -84,7 +84,7 @@ $\overbar{\mathbb{R}}$
 
 ### Basic aligns & tag position
 
-Single line equation: (Backref with [KaTeX quirks](https://github.com/KaTeX/KaTeX/issues/2003#issuecomment-843991794): [eq1](/programming/latex-friends/latex-maths/#eq1))
+Single line equation: (Backref with [KaTeX quirks](https://github.com/KaTeX/KaTeX/issues/2003#issuecomment-843991794): [eq1](#eq1))
 
 
 `$$\begin{equation} x = y \label{eq1}\end{equation}$$`
@@ -169,12 +169,27 @@ Braces with multiple lines:
 
 Aligned braces: \([Ref](https://tex.stackexchange.com/a/585309)\)
 
-`$$ f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}} + \underbrace{\vphantom{\int_b}2333z}_{\text{Other things}} $$`
+`$$ f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}} + \underbrace{\vphantom{\int_b}2333z}_{\text{More things}} $$`
 
 ```latex
 f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}}
- +\underbrace{\vphantom{\int_b}2333z}_{\text{Other things}}
+ +\underbrace{\vphantom{\int_b}2333z}_{\text{More things}}
 ```
+
+More aligned braces: \([Ref](https://tex.stackexchange.com/a/46311)\)
+
+`$$
+f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}} 
++\overbrace{\vphantom{\int^a}42xz^2}^{\mathclap{\text{Longer other things}}}
++\underbrace{\vphantom{\int_b}2333z}_{\mathclap{\text{More longer things}}}
+$$`
+
+```latex
+f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}} 
+ +\overbrace{\vphantom{\int^a}42xz^2}^{\mathclap{\text{Longer other things}}}
+ +\underbrace{\vphantom{\int_b}2333z}_{\mathclap{\text{More longer things}}}
+```
+
 
 ## Newer and better environment defaults
 

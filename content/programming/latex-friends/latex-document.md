@@ -36,6 +36,52 @@ When `! LaTeX Error: Option clash for package xcolor` \([credit](https://tex.sta
 
 Or: Arara
 
+## Files control
+
+```text
+.
+├── main.tex
+├── slides.tex
+├── ref.bib
+├── styles
+│   ├── aernobold.bst
+│   └── aernobold.sty
+├── chapters
+│   ├── intro.tex
+│   ├── sections.tex
+│   ├── model.tex
+│   └── appendix.tex
+└── slides
+    ├── intro.tex
+    ├── sections.tex
+    ├── model.tex
+    └── appendix.tex
+```
+
+For example, in `main.tex`:
+
+```latex
+\bibliographystyle{styles/aernobold}
+
+\begin{document}
+  \include{chapters/intro}
+  \include{chapters/sections}
+  \include{chapters/model}
+
+  \bibliography{ref}
+
+  \appendix
+  \include{chapters/appendix}
+\end{document}
+```
+
+In `hapters/intro.tex` \(first line of file\):
+
+```tex
+%!TEX root = ../main.tex
+```
+
+
 ## Citation in section title
 
 Ref: [tableofcontents - Latex: Citations in section headings put into table of contents first - Stack Overflow](https://stackoverflow.com/a/954224/10668706)
@@ -97,6 +143,8 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 
 ## Code
 
+### `listings` package
+
 ```latex
 \usepackage{listings}
 \lstset{
@@ -113,6 +161,10 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
   \end{lstlisting}
 \end{document}
 ```
+
+### `minting` package
+
+> TBE!!
 
 ## Subplots
 
