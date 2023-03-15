@@ -73,7 +73,6 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 ![](https://i.stack.imgur.com/w1G7s.png)
 
 ```latex
-\documentclass{article}
 \usepackage{enumitem,amssymb}
 \newlist{todolist}{itemize}{2}
 \setlist[todolist]{label=$\square$}
@@ -85,14 +84,83 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 \newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
 
 \begin{document}
-My ToDo list
+  My ToDo list
 
-\begin{todolist}
-\item[\done] Frame the problem
-\item Write solution
-\item[\wontfix] profit
-\end{todolist}
+  \begin{todolist}
+    \item[\done] Frame the problem
+    \item Write solution
+    \item[\wontfix] profit
+  \end{todolist}
 
+\end{document}
+```
+
+## Code
+
+```latex
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true
+}
+\lstMakeShortInline[columns=fixed]|
+
+\begin{document}
+  |hello, world|
+
+  \begin{lstlisting}[language=Python]
+  # help i'm in latex hell
+  \end{lstlisting}
+\end{document}
+```
+
+## Subplots
+
+### Vertical subplots
+
+```latex  {hl_lines=[5,10]}
+\usepackage{subcaption}
+
+\begin{document}
+  \begin{figure}
+    \begin{subfigure}{\textwidth} 
+    \centering
+    \includegraphics[width=\linewidth,height=0.8\textheight,keepaspectratio]{images/great-picture-1.png}
+    \caption{A good picture.}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+      \centering
+      \includegraphics[width=\linewidth,height=0.8\textheight,keepaspectratio]{images/great-picture-2.png}
+      \caption{A splendid picture.}
+    \end{subfigure}
+  \caption{Two great pictures.}
+  \end{figure}
+\end{document}
+```
+
+## Strike through text
+
+```latex
+\usepackage[normalem]{ulem}
+
+\begin{document}
+  \sout{Bad words.}
+\end{document}
+```
+
+## Pages
+
+### Reset page number at appendix
+
+```latex
+\usepackage{appendixnumberbeamer}
+
+\begin{document}
+  Words.
+
+  \appendix
+
+  Less important words.
 \end{document}
 ```
 
@@ -113,8 +181,18 @@ Note: works in Beamer, but does not work with `[<+->]` overlay \(see [Beamer #Bu
   {\end{itemize}}
 ```
 
+### More permissible slash and hyphen
+
+Make LaTeX more willing to break line \([Ref](https://tex.stackexchange.com/a/121957)\)
+
+```latex
+\makeatletter
+\renewcommand{\slash}{/\penalty\z@\hskip\z@skip }
+\newcommand{\hyphen}{-\penalty\z@\hskip\z@skip }
+\makeatother
+```
+
 ## Remotely related: fuse Markdown with LaTeX
 
-[以 Markdown 撰写文稿，以 LaTeX 排版 | 始终](https://liam.page/2020/03/30/writing-manuscript-in-Markdown-and-typesetting-with-LaTeX/index.html) 
-
-[Markdown 写作，Pandoc 转换：我的纯文本学术写作流程 - 少数派](https://sspai.com/post/64842)
+- [以 Markdown 撰写文稿，以 LaTeX 排版 | 始终](https://liam.page/2020/03/30/writing-manuscript-in-Markdown-and-typesetting-with-LaTeX/index.html) 
+- [Markdown 写作，Pandoc 转换：我的纯文本学术写作流程 - 少数派](https://sspai.com/post/64842)

@@ -34,6 +34,21 @@ Ref:  [tikz pgf - Error: Illegal Parameter number in definition of \iterate - Te
 
 Whenever there is `#` in a Beamer frame, must write `\#` (tested, URL will work) or `####` (not tested), or mark the frame as fragile (`\begin{frame}[fragile]`).
 
+## Buttons
+
+Ref: [A Tutorial for Beginners (Part 3)—Blocks, Code, Hyperlinks and Buttons - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Beamer_Presentations%3A_A_Tutorial_for_Beginners_(Part_3)%E2%80%94Blocks%2C_Code%2C_Hyperlinks_and_Buttons)
+
+```latex
+\begin{frame}
+  \frametitle{Summary}\label{summary}
+  \hyperlink{details}{\beamergotobutton{Details}}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Details}\label{details}
+  \hyperlink{summary}{\beamerreturnbutton{Return}}
+\end{frame}
+```
 
 ## Note page
 
@@ -91,6 +106,84 @@ In incremental overlay:
 \end{frame}
 ```
 
+### Plain template but change line height
+
+In Intel Macs, Beamer internal styles are stored at path `/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/`. Commands used in note page are stored in  file `beamerbasenotes.sty`, and templates for note page are stored in file `beamerbaseauxtemplates.sty`.
+
+After close inspections, I found these lines to be relevant: \([Ref](https://tex.stackexchange.com/a/28967)\)
+
+```latex {hl_lines=[5,8,18]}
+\makeatletter
+% For outside frame notes, beamerbasenotes.sty L64-69
+% First three lines seems redundant because outside notes always use itemize
+\define@key{beamernotes}{enumerate}[true]{%
+  \def\beamer@noteenvstart{\begin{enumerate}\itemsep=0pt\parskip=8pt}%
+    \def\beamer@noteenvend{\end{enumerate}}}
+\define@key{beamernotes}{itemize}[true]{%
+  \def\beamer@noteenvstart{\begin{itemize}\itemsep=0pt\parskip=8pt}%
+    \def\beamer@noteenvend{\end{itemize}}}
+
+% For inside frame notes, beamerbasenotes.sty L178-195
+\def\beamer@setupnote{%
+  \gdef\beamer@notesactions{%
+    \beamer@outsideframenote{%
+      \beamer@atbeginnote%
+      \beamer@notes%
+      \ifx\beamer@noteitems\@empty\else
+      \begin{enumerate}\itemsep=0pt\parskip=8pt%
+        \beamer@noteitems%
+      \end{enumerate}%
+      \fi%
+      \beamer@atendnote%
+    }%
+    \gdef\beamer@notesactions{}%
+  }
+}
+\makeatother
+````
+
+Changing the values of `\itemsep` and `\parskip` in all three instances will give different line height results.
+
+### Use `itemize` for both inside and outside slides
+
+Just change the inside notes above from `enumerate` to `itemize`. \([Ref](https://tex.stackexchange.com/a/28967)\)
+
+```latex {hl_lines=[8,10]}
+\makeatletter
+\def\beamer@setupnote{%
+  \gdef\beamer@notesactions{%
+    \beamer@outsideframenote{%
+      \beamer@atbeginnote%
+      \beamer@notes%
+      \ifx\beamer@noteitems\@empty\else
+      \begin{itemize}\itemsep=0pt\parskip=8pt%
+        \beamer@noteitems%
+      \end{itemize}%
+      \fi%
+      \beamer@atendnote%
+    }%
+    \gdef\beamer@notesactions{}%
+  }
+}
+\makeatother
+```
+
+### Insert vertical space above notes
+
+After inspecting L781-812 of `beamerbaseauxtemplates.sty`:
+
+```latex
+\makeatletter
+\defbeamertemplate{note page}{plainer}
+{%
+  \vskip4em
+  \insertnote
+}
+\makeatother
+
+\setbeamertemplate{note page}[plainer]
+```
+
 ### Further customisation
 
 [beamer - Note page showing the next frame - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/33051/note-page-showing-the-next-frame)
@@ -100,7 +193,7 @@ In incremental overlay:
 
 - [Cimbali/pympress](https://github.com/Cimbali/pympress/)
 - [pdfpc/pdfpc](https://github.com/pdfpc/pdfpc)
-- [Présentation.app](http://iihm.imag.fr/blanch/software/osx-presentation/) (No support for `\note{}`)
+- [Présentation.app](http://iihm.imag.fr/blanch/software/osx-presentation/) (No support for `\note`)
 - [Skim](https://skim-app.sourceforge.io/)
 
 Refs:
