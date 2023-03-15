@@ -63,6 +63,8 @@ TV shows & Animes that I am watching/have watched.
 | たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語 | migmi | LIDENFILMS | 2021 | [MyAnimeList](https://myanimelist.net/anime/40594/), [豆瓣](https://movie.douban.com/subject/34868127/) | Abandoned | ★★☆☆☆ | 除了莉荷和萝尔之外没有一个写得能看的角色…… |
 | 乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… (S2) | 井上圭介 | SILVER LINK. | 2021 | [MyAnimeList](https://myanimelist.net/anime/42282/), [豆瓣](https://movie.douban.com/subject/35128791/) | 2023-03-03 | ★★★☆☆ | |
 | 失格紋の最強賢者 | 秋田谷典昭 | J.C.STAFF | 2022 | [MyAnimeList](https://myanimelist.net/anime/47161/), [豆瓣](https://movie.douban.com/subject/35351357/) | 2023-03-05 | ★★☆☆☆ | |
+| ノーゲーム・ノーライフ | いしづかあつこ | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/19815/), [豆瓣](https://movie.douban.com/subject/24883272/) | 2023-03-14 | ★★★★☆ | 终于把本篇看完了！什么时候出第二季呢…… |
+
 
 <!-- | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
 | 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
