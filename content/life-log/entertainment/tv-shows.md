@@ -64,7 +64,9 @@ TV shows & Animes that I am watching/have watched.
 | 乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… (S2) | 井上圭介 | SILVER LINK. | 2021 | [MyAnimeList](https://myanimelist.net/anime/42282/), [豆瓣](https://movie.douban.com/subject/35128791/) | 2023-03-03 | ★★★☆☆ | |
 | 失格紋の最強賢者 | 秋田谷典昭 | J.C.STAFF | 2022 | [MyAnimeList](https://myanimelist.net/anime/47161/), [豆瓣](https://movie.douban.com/subject/35351357/) | 2023-03-05 | ★★☆☆☆ | |
 | ノーゲーム・ノーライフ | いしづかあつこ | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/19815/), [豆瓣](https://movie.douban.com/subject/24883272/) | 2023-03-14 | ★★★★☆ | 终于把本篇看完了！什么时候出第二季呢…… |
-
+| 虫かぶり姫 | 岩﨑太郎 | MADHOUSE | 2022 | [MyAnimeList](https://myanimelist.net/anime/50923/), [豆瓣](https://movie.douban.com/subject/35755095/) | Abandoned |  | 很无聊。 |
+| 英雄王、武を極めるため転生す | 葛谷直行 | STUDIO COMET | 2023 | [MyAnimeList](https://myanimelist.net/anime/50481/), [豆瓣](https://movie.douban.com/subject/35682437/) | 2023-03-15 | ★★★☆☆ | 主角团非常搞笑，挺有意思。 |
+| 勇者パーティーを追放されたビーストテイマー | 濁川敦 | EMT Squared | 2022 | [MyAnimeList](https://myanimelist.net/anime/52046/), [豆瓣](https://movie.douban.com/subject/35924070/) | 2023-03-16 | ★★☆☆☆ | 每一集都比较公式化。 |
 
 <!-- | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
 | 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
