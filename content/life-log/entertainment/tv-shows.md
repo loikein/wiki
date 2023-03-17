@@ -35,7 +35,6 @@ TV shows & Animes that I am watching/have watched.
 | グレイプニル | 米田和弘 | PINE JAM | 2020 | [MyAnimeList](https://myanimelist.net/anime/39463/), [豆瓣](https://movie.douban.com/subject/30482079/) | 2020-06-28 | ★★★★☆ | |
 | 異種族レビュアーズ | 小川優樹 | Passione | 2020 | [MyAnimeList](https://myanimelist.net/anime/40010/), [豆瓣](https://movie.douban.com/subject/34447531/) | 2020-07-16 | ★★★★★ | 色情画面不少，但基本都是擦边球，披着里番皮探索种族融合和女性主义的话题，应该任何性别的人看都会找到乐趣。 |
 | 転生したらスライムだった件 (S1) | 菊地康仁 | eight bit | 2019 | [MyAnimeList](https://myanimelist.net/anime/37430/), [豆瓣](https://movie.douban.com/subject/30163731/) | 2020-07-19 | ★★★★☆ | |
-| この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | Abandoned (E02) | ★☆☆☆☆ | 实在蠢得没法看。 |
 | 宝石の国 | 京極尚彦 | Orange | 2017 | [MyAnimeList](https://myanimelist.net/anime/35557/), [豆瓣](https://movie.douban.com/subject/27047873/) | 2017-12-? | ★★★★★ | 首播的时候看的，正在看第二遍。(E03) |
 | 魔法科高校の劣等生 | 小野学 | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/20785/), [豆瓣](https://movie.douban.com/subject/25741564/) | 2020-09-18 | ★★★☆☆ | 配角故事什么都好，就是主角兄妹真的太尬了，拖了好几次没看下去，终于看完了。 |
 | デスマーチからはじまる異世界狂想曲 | 大沼心 | SILVER LINK. × CONNECT  | 2018 | [MyAnimeList](https://myanimelist.net/anime/34497/), [豆瓣](https://movie.douban.com/subject/26934287/) | 2020-10-19 | ★★★☆☆ | 我还蛮喜欢这种慢慢旅游的动画，要是有第二季就好了。 |
@@ -62,6 +61,7 @@ TV shows & Animes that I am watching/have watched.
 | 魔王学院の不適合者 | 大沼心 | SILVER LINK. | 2020 | [MyAnimeList](https://myanimelist.net/anime/40496/), [豆瓣](https://movie.douban.com/subject/34852268/) | 2023-01-29 | ★★★☆☆ | 不知道是不是我老了，时隔多年再看居然有些感动（。 |
 | たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語 | migmi | LIDENFILMS | 2021 | [MyAnimeList](https://myanimelist.net/anime/40594/), [豆瓣](https://movie.douban.com/subject/34868127/) | Abandoned | ★★☆☆☆ | 除了莉荷和萝尔之外没有一个写得能看的角色…… |
 | 乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… (S2) | 井上圭介 | SILVER LINK. | 2021 | [MyAnimeList](https://myanimelist.net/anime/42282/), [豆瓣](https://movie.douban.com/subject/35128791/) | 2023-03-03 | ★★★☆☆ | |
+| この勇者が俺 TUEEE くせに慎重すぎる | 迫井政行 | WHITE FOX | 2019 | [MyAnimeList](https://myanimelist.net/anime/38659/), [豆瓣](https://movie.douban.com/subject/30372448/) | 2023-03-04 | ★★☆☆☆ | 这次看完了，还是觉得很蠢，而且故事展开形式也不尽人意，但还是被感动了一下，老了。 |
 | 失格紋の最強賢者 | 秋田谷典昭 | J.C.STAFF | 2022 | [MyAnimeList](https://myanimelist.net/anime/47161/), [豆瓣](https://movie.douban.com/subject/35351357/) | 2023-03-05 | ★★☆☆☆ | |
 | ノーゲーム・ノーライフ | いしづかあつこ | MADHOUSE | 2014 | [MyAnimeList](https://myanimelist.net/anime/19815/), [豆瓣](https://movie.douban.com/subject/24883272/) | 2023-03-14 | ★★★★☆ | 终于把本篇看完了！什么时候出第二季呢…… |
 | 虫かぶり姫 | 岩﨑太郎 | MADHOUSE | 2022 | [MyAnimeList](https://myanimelist.net/anime/50923/), [豆瓣](https://movie.douban.com/subject/35755095/) | Abandoned |  | 很无聊。 |
