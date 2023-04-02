@@ -20,11 +20,11 @@ Reference:
 
 | Symbol | OS | US \(ASCII \) Layout | German \(DIN\) Layout                | Japanese \(JIS\) Layout |
 |:---:|---------|-------------------|---------------------------------------|-----------------|
-| `…` | macOS   | `option` + `;`    | `option` + `.`                        |                 |
-|     | Windows | \(`Alt` + `0133`\)| \(`Alt` + `0133`\)                    |                 |
-| `@` | macOS   |                   | `option` + `L`                        |                 |
-|     | Windows |                   | `Strg` + `Alt` + `Q`<br>`AltGr` + `Q` |                 |
-| `_` | macOS   |                   |                                       | `shift` + `ろ`  |
-|     | Windows |                   |                                       | `shift` + `\`   |
-| `\` | macOS   |                   | `shift` + `option` + `7`              | `option` + `￥` |
-|     | Windows |                   | `Strg` + `Alt` + `ß`<br>`AltGr` + `ß` |                 |
+| `…` | macOS   | {{< kbd `option` `;` >}}    | {{< kbd `option` `.` >}}                        |                 |
+|     | Windows | \({{< kbd `Alt` `0133` >}}\)| \({{< kbd `Alt` `0133` >}}\)                    |                 |
+| `@` | macOS   |                   | {{< kbd `option` `L` >}}                        |                 |
+|     | Windows |                   | {{< kbd `Strg` `Alt` `Q` >}}<br>{{< kbd `AltGr`  `Q` >}} |                 |
+| `_` | macOS   |                   |                                       | {{< kbd `shift` `ろ` >}}  |
+|     | Windows |                   |                                       | {{< kbd `shift` `\` >}}   |
+| `\` | macOS   |                   | {{< kbd `shift`  `option`  `7` >}}              | {{< kbd `option`  `¥` >}} |
+|     | Windows |                   | {{< kbd `Strg`  `Alt`  `ß` >}}<br>{{< kbd `AltGr`  `ß` >}} |                 |

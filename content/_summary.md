@@ -83,3 +83,5 @@ _build:
   + [外貌](/life-log/dressing-grooming/)
     + [指甲](/life-log/dressing-grooming/nails/)
     + [体态](/life-log/dressing-grooming/posture/)
+
+- [Markdown tests](/test-page/)

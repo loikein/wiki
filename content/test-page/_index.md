@@ -1,0 +1,146 @@
+---
+weight: 10
+title: "Markdown tests"
+---
+
+# Markdown tests
+
+Begin [test file](https://gist.github.com/loikein/27ef6913386b206d1b3c18b8e93c5768)…
+
+### Formatting
+
+**Bold**, __bold__, **加粗**
+
+*Italic*, _italic_, *斜体*
+
+<u>Underline</u>, <underline>underline</underline>
+
+<del>Strike</del>, <s>strike</s>, ~~strike~~, ~strike~, --strike--
+
+<mark>Highlight</mark>, =highlight=, ==highlight==
+
+<!-- Comments-->
+
+Footnote[^1], footnote[^2]
+
+[^1]: The linked footnote appears at the end of the document.
+
+[^2]: New lines
+
+---
+
+
+### Lists
+
+- `ul`
+- Unordered list
+
+1. `ol`
+1. Ordered list
+
+`dl`
+:   `dt`
+:   Description list
+
+- [x] Task list
+- [ ] Task list
+
+### Code
+
+Inline `code`, `` `escape` ``, and <kbd>keystroke</kbd>
+
+```html
+<h1>hello world</h1>
+```
+
+```js
+console.log("hello world");
+alert("hello world");
+```
+
+### Font
+
+> 我能体に傷つけないで吞下 259 ml glass。
+
+> Four score and seven years ago our fathers brought forth upon this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
+
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ \(\) {} \[\] . , : ; “ ‘ ’ \`
+
+```
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
+```
+
+### Inline HTML
+
+ref: https://burk.io/2020/let-there-be-dark
+
+<div title="#282a36" style="height: 50px; width: 100px; background-color: #282a36; display: inline-block; border-style: solid; border-color: black; color:white; padding:10px;">#282a36</div>
+
+<div title="#f8f8f2" style="height: 50px; width: 100px; background-color: #f8f8f2; margin-right: 5px; display: inline-block; border-style: solid; border-color: black; color:black; padding:10px;">#f8f8f2</div>
+
+### LaTeX & Table
+
+`$\LaTeX{}$`
+
+`$$R_1 \begin{cases} >\mu_{2} \\ \leq \mu_{2} \end{cases}$$`
+
+| Message to agent 1 | `$M_1$`          |
+| ------------------ | -------------- |
+| Agent 1's action   | `$a_1$`          |
+| New finding        | `$R_1 \begin{cases} >\mu_{2} \\ \leq \mu_{2} \end{cases}$` |
+
+## Custom Shortcodes (by theme)
+
+### Columns
+
+{{< columns >}}
+Hello...
+
+<--->
+
+...hello...
+
+<--->
+
+...world.
+{{< /columns >}}
+
+### Summary/Detail
+
+{{< details "Summary" open >}}
+Who am I? Where am I?
+{{< /details >}}
+
+### Hints
+
+{{< hint info >}}
+Info hint
+{{< /hint >}}
+
+{{< hint warning >}}
+Warning hint
+{{< /hint >}}
+
+{{< hint danger >}}
+Danger **(!)** hint
+{{< /hint >}}
+
+### Tabs
+
+{{< tabs "test-tabs" >}}
+{{< tab "macOS" >}} Ok {{< /tab >}}
+{{< tab "Linux" >}} Ok {{< /tab >}}
+{{< tab "Windows" >}} Not ok {{< /tab >}}
+{{< /tabs >}}
+
+
+## Custom Shortcodes (by me)
+
+### kbd
+
+{{< kbd I hate typing >}}　
+
+```html
+{{</* kbd I hate typing */>}}
+```
+

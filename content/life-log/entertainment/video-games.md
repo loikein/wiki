@@ -38,6 +38,8 @@ title: "Video Games"
 | Another Eden | iOS | WRIGHT FLYER STUDIOS | 2017 | [官网](https://another-eden.jp/) | ★★★★☆ | 故事还算有趣，节奏很慢，除了不支持手柄之外没什么大缺点。 |
 | Phigros | iOS | Pigeon Games | 2019 | [官网](https://pigeon-games.com/phigros) | ★★★☆☆ | 打击感上佳，但是曲风太单一了，几乎全都是电子乐，听久了耳朵痛。 |
 | 同步音律喵赛克 | iOS | 幻狱 | 2015 | [TapTap](https://www.taptap.com/app/6908/) | ★★☆☆☆ | UI 丑得惊人，选曲操作繁琐又卡顿，曲单如果以中文虚拟歌手主打的话大概落后现实了三五年左右吧。 |
+| OCO | iOS | Spectrum48 Limited | 2019 | [App Store](https://apps.apple.com/us/app/oco/id1030437345/) | ★★☆☆☆ | 好看，音乐也还可以，但是就是不好玩。 |
+| Cytoid | iOS | cytoid.io | 2019 | [App Store](https://apps.apple.com/us/app/cytoid/id1266582726) | ★★★☆☆ | 作为开源游戏（[GitHub](https://github.com/Cytoid/Cytoid)）来讲堪称精美，有很多社区乐谱。玩了一会儿发现我不是很习惯扫描线音游，还是卸载了。 |
 
 
 ### Multi player
