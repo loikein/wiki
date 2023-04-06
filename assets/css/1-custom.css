@@ -85,6 +85,13 @@
   }
 }
 
+/* style for katex */
+
+.katex-display {
+  overflow: auto;
+  overflow-y: hidden;
+}
+
 /* style for kbd */
 
 kbd {
