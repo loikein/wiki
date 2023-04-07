@@ -26,7 +26,7 @@ References:
 - [Cheatsheet · ohmyzsh/ohmyzsh Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet#git)
 - [Oh-My-Zsh Git Aliases](https://jasonm23.github.io/oh-my-git-aliases.html)
 
-```bash
+```shell
 # git status
 gst
 
@@ -57,7 +57,7 @@ Reference: [Git - git-log Documentation](https://git-scm.com/docs/git-log)
 
 In `~/.zshrc`: \(`tformat` is preferred over `format`, [credit](https://stackoverflow.com/a/9007395)\)
 
-```bash
+```shell
 # Use languages other than default shell language
 alias git='LANG="zh_CN.UTF-8" git'
 # Very pretty log
@@ -66,7 +66,7 @@ alias glog="git log --graph --full-history --all --date=short --pretty=tformat:'
 
 Or set from shell directly: \(cannot overwrite default commands\) \([credit](https://strivingboy.github.io/blog/2014/09/29/better-git-log/)\)
 
-```bash
+```shell
 git config --global alias.lg "log --graph --full-history --all --date=short --pretty=tformat:'%Cred%h%Creset %C(bold green)%ad%Creset %s %C(yellow)%d%Creset %Cblue<%an>%Creset'"
 ```
 
@@ -76,25 +76,25 @@ git config --global alias.lg "log --graph --full-history --all --date=short --pr
 
 Difference between most recent commit and second most recent commit: \([credit](https://stackoverflow.com/a/9903611/10668706)\)
 
-```bash
+```shell
 git diff HEAD^ HEAD
 ```
 
 Difference between branches: \([credit](https://stackoverflow.com/a/9834872)\)
 
-```bash
+```shell
 git diff branch_1..branch_2
 ```
 
 Difference between staged \(added\) changes and most recent commit:
 
-```bash
+```shell
 git diff --staged
 ```
 
 Show all files under git version control:
 
-```bash
+```shell
 # r for recursive
 git ls-tree -r --full-tree --name-only HEAD
 # or
@@ -103,7 +103,7 @@ git ls-files
 
 Find out how many files are being tracked: \([credit](https://stackoverflow.com/a/9468981/10668706)\)
 
-```bash
+```shell
 # All files
 git ls-files | wc -l
 
@@ -115,7 +115,7 @@ git ls-files | grep "\.md$" | wc -l
 
 Reference: [Git - git-blame Documentation](https://git-scm.com/docs/git-blame)
 
-```bash
+```shell
 # Inspect lines 20~30
 git blame a-file.md -L 20,30
 
@@ -130,7 +130,7 @@ git blame a-file.md -L 20,
 
 Show all remote URLs:
 
-```bash
+```shell
 git remote --verbose
 git remote -v
 ```
@@ -139,27 +139,27 @@ git remote -v
 
 Interactive chunk-staging:
 
-```bash
+```shell
 git add --patch somefile.txt
 git add -p somefile.txt
 ```
 
 Change last commit message:
 
-```bash
+```shell
 git commit --amend
 ```
 
 Gently squash last two \(or any number of\) commits: \([credit](https://stackoverflow.com/a/5201642)\)
 
-```bash
+```shell
 git reset --soft HEAD~2
 git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 ```
 
 Undo last commit: \([credit](https://stackoverflow.com/a/927386)\)
 
-```bash
+```shell
 git reset HEAD~1
 ```
 
@@ -167,7 +167,7 @@ git reset HEAD~1
 
 Commit first:
 
-```bash
+```shell
 git commit -m "add/change .gitignore"
 subl .gitignore
 ```
@@ -185,7 +185,7 @@ Add something to `.gitignore`, for example:
 
 Apply changes:
 
-```bash
+```shell
 git rm -r --cached . && git add . && git commit -m "apply .gitignore"
 ```
 
@@ -203,20 +203,20 @@ Scenario: I have a forked repository on GitHub, cloned to local machine, and wan
 
 Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
 
-```bash
+```shell
 git remote add upstream https://github.com/something/something.git
 git fetch upstream
 ```
 
 If want to keep all fork commits:
 
-```bash
+```shell
 git merge upstream/master master
 ```
 
 If want clean commit history:
 
-```bash
+```shell
 git rebase upstream/master
 ```
 
@@ -224,7 +224,7 @@ git rebase upstream/master
 
 See all branches:
 
-```bash
+```shell
 git branch
 
 # See some more info
@@ -234,7 +234,7 @@ git branch -v
 
 Create branch:
 
-```bash
+```shell
 git branch my-new-branch
 git checkout my-new-branch
 
@@ -244,7 +244,7 @@ git checkout -b my-new-branch
 
 Change branch name:
 
-```bash
+```shell
 git branch -m master main
 git push -u origin main
 
@@ -256,34 +256,34 @@ git push origin --delete master
 
 Move files changes to another branch: \([credit](https://stackoverflow.com/a/35742820)\)
 
-```bash
+```shell
 # p for patch
 git checkout <other_branch_name> <files/to/grab in/list/separated/by/spaces> -p
 ```
 
 Merge master to new branch: ([credit](https://stackoverflow.com/questions/16955980/git-merge-master-into-feature-branch#comment83176031_16957483))
 
-```bash
+```shell
 git pull origin master
 ```
 
 Delete local branch:
 
-```bash
+```shell
 git checkout master
 git branch -d my-old-branch
 ```
 
 Delete all gone local branches: \([credit](https://stackoverflow.com/a/28464339)\)
 
-```bash
+```shell
 git remote prune origin
 ```
 
 <!--
 \([credit](https://medium.com/@kcmueller/delete-local-git-branches-that-were-deleted-on-remote-repository-b596b71b530c)\)
 
-```bash
+```shell
 # Pull newest version
 git fetch --prune origin
 
@@ -293,7 +293,7 @@ git branch -v | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r g
 
 Delete remote branch:
 
-```bash
+```shell
 git push -d origin my-old-branch
 ```
 
@@ -301,7 +301,7 @@ git push -d origin my-old-branch
 
 Credit: GitHub
 
-```bash
+```shell
 # From your project repository, bring in the changes and test.
 git fetch origin
 git checkout -b "my-branch" "origin/my-branch"
@@ -317,7 +317,7 @@ git push origin "master"
 
 Credit: [git subtree - Detach (move) subdirectory into separate Git repository - Stack Overflow](https://stackoverflow.com/a/17864475)
 
-```bash
+```shell
 # Prepare the old repo
 cd <big-repo>
 git subtree split -P <name-of-folder> -b <name-of-new-branch>
@@ -338,7 +338,7 @@ git rm -rf <name-of-folder>
 
 Credit [1](https://stackoverflow.com/a/15782629), [2](https://stackoverflow.com/a/55885186)
 
-```bash
+```shell
 # Default branch
 git submodule add <remote-URL>
 
@@ -351,7 +351,7 @@ git submodule set-branch --branch <branch-name> <folder-name>
 
 Initial pull submodule:
 
-```bash
+```shell
 git submodule update --init --recursive
 ```
 
@@ -359,13 +359,13 @@ git submodule update --init --recursive
 
 Update all submodules: \([credit](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_pulling)\)
 
-```bash
+```shell
 git submodule update --remote
 ```
 
 Show list of all submodules: \([credit](https://stackoverflow.com/a/54238999)\)
 
-```bash
+```shell
 # Either will work
 git ls-tree -r HEAD
 git submodule status
@@ -391,7 +391,7 @@ Change the directory name for a submodule: \([credit](https://stackoverflow.com/
 
 Change remote URL for a submodule: \([credit](https://stackoverflow.com/a/914135)\)
 
-```bash
+```shell
 git submodule set-url <path> <newurl>
 ```
 
@@ -420,19 +420,19 @@ References:
 
 Installation:
 
-```bash
+```shell
 brew install git-flow-avh
 ```
 
 Initialise: (`-d` means using default branch names)
 
-```bash
+```shell
 git flow init -d
 ```
 
 Write new feature:
 
-```bash
+```shell
 # Before beginning
 git flow feature start my-new-feature
 

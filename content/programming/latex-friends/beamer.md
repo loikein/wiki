@@ -21,7 +21,7 @@ Does not make environment incremental-overlay-aware, aka, cannot use `[<+->]`.
 
 ### Natbib colouring problem
 
-This solution only colours the closing bracket, but the link scope stays the same (without closing bracket). (Ref: [1](https://tex.stackexchange.com/questions/369710/beamer-citation-coloring), [2](https://tex.stackexchange.com/a/165015))
+This solution only colours the closing bracket, but the link scope stays the same (without closing bracket). (Ref: [1](https://tex.stackexchange.com/questions/369710/beamer-citation-coloring), [2](https://tex.stackexchange.com/a/165015), [seems to be fixed](https://github.com/josephwright/beamer/issues/114) but not really)
 
 ```latex
 \let\oldcite=\cite
@@ -170,7 +170,7 @@ Just change the inside notes above from `enumerate` to `itemize`. \([Ref](https:
 
 ### Insert vertical space above notes
 
-After inspecting L781-812 of `beamerbaseauxtemplates.sty`:
+After inspecting L781-L812 of `beamerbaseauxtemplates.sty`:
 
 ```latex
 \makeatletter

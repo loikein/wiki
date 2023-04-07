@@ -12,8 +12,8 @@ References:
 
 Set language on macOS: \([credit](https://stat.ethz.ch/R-manual/R-devel/library/base/html/EnvVar.html)\)
 
-```text
-# In .zshrc
+```shell
+# (In .zshrc)
 
 export LANG=en_US.UTF-8
 ```
@@ -28,8 +28,8 @@ Sys.getlocale()
 
 Check the location of `RHOME`:
 
-```bash
-$ R RHOME
+```shell
+R RHOME
 ```
 
 ## Package: `base`

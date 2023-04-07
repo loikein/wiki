@@ -1,9 +1,9 @@
 ---
 bookCollapseSection: true
-title: "LaTeX & Friends"
+title: "LaTeX"
 ---
 
-# LaTeX \& Friends
+# LaTeX
 
 <style>
   .katex-version {display: none;}

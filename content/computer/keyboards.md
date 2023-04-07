@@ -7,7 +7,8 @@ title: "Keyboard Stuff"
 
 ## General Shortcuts
 
-- macOS: `delete` key functions as `backspace` (Windows), `fn` + `delete` function as `del` (Windows).
+- macOS: {{< kbd `delete` >}} key functions as {{< kbd `backspace` >}} (Windows), {{< kbd `fn`  `delete` >}} function as {{< kbd `del` >}} (Windows).
+
 
 ## Layout-Specific Input
 
