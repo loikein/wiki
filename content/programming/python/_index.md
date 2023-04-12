@@ -13,6 +13,7 @@ Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/1330
 val, index = min((val, index) for (index, val) in enumerate(my_list))
 ```
 
+
 ## Benchmarking
 
 Ref: [performance - How to measure elapsed time in Python? - Stack Overflow](https://stackoverflow.com/questions/7370801/how-to-measure-elapsed-time-in-python)
@@ -29,6 +30,7 @@ end = time.time()
 elapsed = end - start
 print(elapsed)
 ```
+
 
 ## Pickle
 
@@ -49,6 +51,7 @@ if os.path.isfile(pickle_path):
 else:
     print("Pickle not found. Please create one first.")
 ```
+
 
 ## Try except
 
