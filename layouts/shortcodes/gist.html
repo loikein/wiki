@@ -1,21 +1,26 @@
-{{- $urlPre := "https://api.github.com" -}}
-{{- $userName := .Get "user" | default "loikein" -}}
-{{- $gistID := .Get "gist" -}}
+{{- $urlPre   := "https://api.github.com" -}}
+{{- $userID   := .Get "user" | default "loikein" -}}
+{{- $gistID   := .Get "gist" -}}
 {{- $fileName := .Get "file" -}}
 {{- $gistJSON := getJSON $urlPre "/gists/" $gistID -}}
+{{- $syntax   := .Get "syntax" | default "guessSyntax=true" -}}
+{{- $useEmbed := .Get "embed" | default "false" -}}
 {{/*
 
- https://discourse.gohugo.io/t/accessing-json-data-files-with-extra-dots-in-file-names/15498/7
+json dot: https://discourse.gohugo.io/t/accessing-json-data-files-with-extra-dots-in-file-names/15498/7
+remote file: https://discourse.gohugo.io/t/include-content-of-a-url/27357/7
 
 */}}
-{{- with .Parent -}}
-  {{- range $key, $value := $gistJSON.files -}}
-  {{- if (eq $key $fileName) -}}
-  {{- printf "%s" $key }}
-
-  {{- printf "%s" $value.content | htmlUnescape | safeHTML -}}
-  {{- end -}}
-  {{- end -}}
+{{- if eq $useEmbed "false" -}}
+{{- range $key, $value := $gistJSON.files -}}
+{{- if (eq $key $fileName) -}}
+<span class="gist__name">
+GitHub Gist: <a href="https://gist.github.com/{{ $userID }}/{{ $gistID }}">{{ printf "%s" $key }}</a>
+</span>
+{{- $content := printf "%s" $value.content | htmlUnescape | safeHTML -}}
+{{- highlight $content $syntax -}}
+{{- end -}}
+{{- end -}}
 {{- else -}}
-<script type="application/javascript" src="https://gist.github.com/{{ $userName }}/{{ $gistID }}.js?file={{ $fileName }}"></script>
+<script type="application/javascript" src="https://gist.github.com/{{ $userID }}/{{ $gistID }}.js?file={{ $fileName }}"></script>
 {{- end -}}

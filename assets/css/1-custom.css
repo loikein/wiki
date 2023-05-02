@@ -111,3 +111,38 @@ kbd {
 .kbd-wrapper .kbd-plus:last-of-type {
   display: none;
 }
+
+/* GitHub gist */
+.highlight > .chroma,
+.gist-data {
+ max-height: 301px;
+ overflow: auto;
+}
+
+.gist__name {
+  font-family: monospace;
+  font-size: .875em;
+  display: block;
+  margin-bottom: -1rem;
+  padding: .5rem 1rem;
+  background-color: var(--gray-100);
+  border-bottom: 1px solid var(--gray-500);
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.gist__name + .highlight > .chroma {
+  padding-top: 0.5rem;
+}
+
+.gist table tr td {
+  border: none;
+}
+
+.gist .blob-wrapper table tr:hover {
+  background-color: var(--gray-100) !important;
+}
+
+.gist .blob-num:hover {
+  color: var(--color-fg-subtle) !important;
+}
