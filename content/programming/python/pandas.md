@@ -51,6 +51,14 @@ Ref: [python - print the unique values in every column in a pandas dataframe - S
 print(df["Status Code"].unique())
 ```
 
+### List rows with duplicated values of a column
+
+Ref: [How do I get a list of all the duplicate items using pandas in python? - Stack Overflow](https://stackoverflow.com/a/41786821/10668706)
+
+```python
+df[df.duplicated(["ID"], keep=False)].sort_values("ID")
+```
+
 
 ## Column-level operations
 

@@ -87,6 +87,7 @@
 
 /* style for katex */
 
+mjx-container[jax="CHTML"][display="true"],
 .katex-display {
   overflow: auto;
   overflow-y: hidden;

@@ -52,6 +52,18 @@ else:
     print("Pickle not found. Please create one first.")
 ```
 
+## Pretty print
+
+### JSON
+
+Ref: [python - How to prettyprint a JSON file? - Stack Overflow](https://stackoverflow.com/a/12944035)
+
+```python
+import json
+
+print(json.dumps(json.loads(json_data), indent=4))
+```
+
 
 ## Try except
 

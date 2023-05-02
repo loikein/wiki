@@ -122,6 +122,7 @@ $$`
 
 ## 娱乐
 
-![[Modified Bayes' Theorem](https://www.explainxkcd.com/wiki/index.php/2059:_Modified_Bayes%27_Theorem)](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
+![xkcd 2059 Modified Bayes' THeorem: Don't forget to add another term for 'probability that the Modified Bayes' Theorem is correct.'](https://imgs.xkcd.com/comics/modified_bayes_theorem_2x.png)
 
+链接：[xkcd: Modified Bayes' Theorem](https://xkcd.com/2059/)  
 翻译：[修正贝叶斯定理 - XKCD 中文站](https://xkcd.in/comic?lg=cn&id=2059)

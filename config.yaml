@@ -1,6 +1,3 @@
-# in themes/hugo-book/examplesite run:
-# hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
-
 baseURL: "https://wiki.loikein.one/"
 title: loikein's wiki
 theme: hugo-book
