@@ -115,7 +115,7 @@ kbd {
 /* GitHub gist */
 .highlight > .chroma,
 .gist-data {
- max-height: 301px;
+ max-height: 256px;
  overflow: auto;
 }
 
@@ -133,6 +133,11 @@ kbd {
 
 .gist__name + .highlight > .chroma {
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.gist__name + .highlight > .copy-code-button {
+  margin-top: 6px;
 }
 
 .gist table tr td {

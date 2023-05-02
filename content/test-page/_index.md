@@ -146,3 +146,38 @@ Danger **(!)** hint
 {{</* kbd I hate typing */>}}
 ```
 
+### GitHub Gist
+
+Native mode:
+
+{{< gist
+user="loikein"
+gist="27ef6913386b206d1b3c18b8e93c5768"
+file="hello-world.md"
+syntax="markdown" >}}
+
+```html
+{{</* gist
+user="loikein"
+gist="27ef6913386b206d1b3c18b8e93c5768"
+file="hello-world.md"
+syntax="markdown" */>}}
+```
+
+Embed mode:
+
+{{< gist
+user="loikein"
+gist="27ef6913386b206d1b3c18b8e93c5768"
+file="hello-world.md"
+syntax="markdown"
+embed="true" >}}
+
+```html
+{{</* gist
+user="loikein"
+gist="27ef6913386b206d1b3c18b8e93c5768"
+file="hello-world.md"
+syntax="markdown"
+embed="true" */>}}
+```
