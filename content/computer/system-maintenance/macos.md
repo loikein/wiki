@@ -80,7 +80,7 @@ When trackpad is malfunctioning:
 killall Dock
 ```
 
-Find and delete all .DS_Store files in current folder:
+Find and delete all .DS_Store files in current folder: \([credit](https://jonbellah.com/articles/recursively-remove-ds-store)\)
 
 ```bash
 find . -name '.DS_Store' -type f -delete
