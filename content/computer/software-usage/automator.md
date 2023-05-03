@@ -7,6 +7,10 @@ title: "Automator & AppleScript"
 For anyone who wants to learn this particular art, please read first:  
 [Daring Fireball: The English-Likeness Monster](https://daringfireball.net/2005/09/englishlikeness_monster)
 
+{{< hint warning >}}
+My OS version is macOS 10.15. Things may change in newer versions.
+{{< /hint >}}
+
 ## Copy link of file
 
 Type: Quick Action workflow
