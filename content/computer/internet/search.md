@@ -95,7 +95,9 @@ There must be no space around `:`
 
 ### URL parameters
 
-Usage: `https://www.google.com/search?q=word&param1=value&param2=value&...`
+Usage: 
+
+- ``https://www.google.com/search?q=word&param1=value&param2=value&...``
 
 | Param | Values | Meaning | Ref |
 |-------|--------|---------|-----|

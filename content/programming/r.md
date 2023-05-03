@@ -4,6 +4,10 @@ title: "R"
 
 # R
 
+{{< hint warning >}}
+I have not used R for a long time. Proceed at your own risk.
+{{< /hint >}}
+
 References:
 
 - \(Private repo\) [loikein/my-jupyter-notes](https://github.com/loikein/my-jupyter-notes/tree/master/datacamp--data-science)
@@ -30,6 +34,70 @@ Check the location of `RHOME`:
 
 ```shell
 R RHOME
+```
+
+## List of common packages
+
+Install:
+
+```r
+## plot
+install.packages("gapminder")
+install.packages("dplyr")
+install.packages("ggplot2")
+
+## import
+install.packages("readr")
+install.packages("data.table")
+install.packages("readxl")
+install.packages("gdata")
+install.packages("DBI")
+install.packages("httr")
+install.packages("jsonlite")
+install.packages("haven")
+install.packages("foreign")
+
+## clean
+install.packages("tidyr")
+install.packages("lubridate")
+install.packages("stringr")
+
+## function
+install.packages("purrr")
+```
+
+Load:
+
+```r
+## plot
+library(gapminder)
+library(ggplot2)
+
+## import
+library(readr)
+library(data.table)
+library(readxl)
+library(gdata)
+library(DBI)
+library(httr)
+library(jsonlite)
+library(haven)
+library(foreign)
+
+## data
+library(dplyr)
+library(hflights)
+
+## clean
+library(tidyr)
+library(lubridate)
+library(stringr)
+
+## function
+library(purrr)
+
+## trading models
+library(quantmod)
 ```
 
 ## Package: `base`

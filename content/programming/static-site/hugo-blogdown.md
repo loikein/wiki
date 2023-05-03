@@ -55,6 +55,26 @@ My [espanso](/computer/software-usage/espanso.md) triggers just for reference:
       hugo new drafts/$(date +"%Y-%m-%d")-draft$(date +"%H%M%S").md
 ```
 
+## Blogdown basics
+
+{{< hint warning >}}
+I have not used Blogdown for a long time. Proceed at your own risk.
+{{< /hint >}}
+
+Install:
+
+```r
+blogdown::install_hugo()
+blogdown::hugo_version()
+
+blogdown::new_site()
+file.edit("~/.Rprofile")
+blogdown:::serve_site()
+blogdown::new_post()
+
+blogdown::install_theme("xianmin/hugo-theme-jane")
+## blogdown::install_theme("loikein/hugo-lithium-loikein", force=T)
+```
 
 ## Add custom CSS (site)
 

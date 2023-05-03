@@ -51,13 +51,40 @@ Footnote[^1], footnote[^2]
 
 Inline `code`, `` `escape` ``, and <kbd>keystroke</kbd>
 
-```html
-<h1>hello world</h1>
+Inline `code`, `` `escape` ``, and <kbd>keystroke</kbd>
+
+```go {hl_lines=["2-5"],linenostart=199}
+package main
+
+import "log"
+
+func add(x int, y int) int {
+  log.Println("We are going to take the sum of two numbers, and leave a very very very long comment.")
+  return x + y
+}
+
+func main() {
+  y := add(1, 2)
+  log.Println(y)
+}
 ```
 
-```js
-console.log("hello world");
-alert("hello world");
+Here's an example with line numbers. The CSS is buggy.
+
+```go {linenos=table,hl_lines=["2-5"],linenostart=199}
+package main
+
+import "log"
+
+func add(x int, y int) int {
+  log.Println("We are going to take the sum of two numbers, and leave a long comment.")
+  return x + y
+}
+
+func main() {
+  y := add(1, 2)
+  log.Println(y)
+}
 ```
 
 ### Font
@@ -148,20 +175,22 @@ Danger **(!)** hint
 
 ### GitHub Gist
 
-Native mode:
+Native mode \(no JS\): (with optional `lineNos` and `hlLines` params that works exactly like `highlight` shortcode)
 
 {{< gist
 user="loikein"
 gist="27ef6913386b206d1b3c18b8e93c5768"
 file="hello-world.md"
-syntax="markdown" >}}
+lang="markdown" >}}
 
 ```html
 {{</* gist
 user="loikein"
 gist="27ef6913386b206d1b3c18b8e93c5768"
 file="hello-world.md"
-syntax="markdown" */>}}
+lang="markdown"
+lineNos="table"
+hlLines="2-4 7" */>}}
 ```
 
 Embed mode:
