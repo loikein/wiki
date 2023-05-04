@@ -1,8 +1,11 @@
 ---
 title: "JavaScript"
 ---
-
 # JavaScript
+
+{{< hint warning >}}
+I have not learnt JavaScript properly. Proceed at your own risk.
+{{< /hint >}}
 
 ## Snippets
 

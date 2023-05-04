@@ -129,3 +129,34 @@ sigma <- 0.25
 #  mean: 1
 #  sd: 0.25
 ```
+
+## Binder
+
+{{< hint danger >}}
+I have stopped using Binder. Proceed at your own risk.
+{{< /hint >}}
+
+Refs:
+
+- [matthewfeickert/R-in-Jupyter-with-Binder: Example of how to use R in Jupyter notebooks and make compatible with Binder](https://github.com/matthewfeickert/R-in-Jupyter-with-Binder)
+- [Configuration Files — Binder 0.1b documentation](https://mybinder.readthedocs.io/en/latest/using/config_files.html)
+
+`runtime.txt`:
+
+```text
+r-2018-11-16
+```
+
+`requirements.txt`:
+
+```text
+jupyter_contrib_nbextensions
+```
+
+`postBuild`:
+
+```sh
+jupyter contrib nbextension install --user
+jupyter nbextension enable toc2
+jupyter trust binder-r-test.ipynb
+```

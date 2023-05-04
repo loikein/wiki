@@ -1,9 +1,9 @@
 ---
 weight: 400
-title: "Sublime Text"
+title: "Sublime Text 3 & 4"
 ---
 
-# Sublime Text
+# Sublime Text 3 & 4
 
 ## Settings
 
@@ -105,9 +105,114 @@ title: "Sublime Text"
 ````
 
 
-## Custom syntax
+## Custom syntax highlighting
+
+{{< hint info >}}
+In Sublime Text 4, if you have more than one custom syntaxes, they will show up as a single `User` syntax group in the syntax selector.
+{{< /hint >}}
+
+### GAUSS
+
+Written by myself when dealing with the [BLP-1999](https://github.com/loikein/BLP-1999-archive) files.
+
+`GAUSS.sublime-syntax`:
+
+```yaml
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+  - gss, prg, arc
+scope: source.GAUSS
+contexts:
+  main:
+    # Strings begin and end with quotes, and use backslashes as an escape
+    # character
+    - match: '"'
+      scope: punctuation.definition.string.begin.GAUSS
+      push: double_quoted_string
+
+    # Comments begin with a '/*' and finish at the end of the line
+    - match: '\/\*'
+      scope: punctuation.definition.comment.GAUSS
+      push: line_comment
+
+    # Comments begin with a '@' and finish at the end of the line
+    - match: '@.*@'
+      scope: punctuation.definition.comment.GAUSS
+      push: line_comment
+
+    # Block comments begin with a '@'
+    - match: '@.*\n'
+      scope: punctuation.definition.comment.begin.GAUSS
+      push: begin_block_comment
+
+    # # Block comments end with a '@'
+    # - match: '^@$'
+    #   scope: punctuation.definition.comment.end.GAUSS
+    #   push: end_block_comment
+
+
+    # Keywords are if, else for and while.
+    # Note that blackslashes don't need to be escaped within single quoted
+    # strings in YAML. When using single quoted strings, only single quotes
+    # need to be escaped: this is done by using two single quotes next to each
+    # other.
+    - match: '\b(if|if not|else|elseif|for|while|do until|endif|endo|proc|retp|endp)\b'
+      scope: keyword.control.GAUSS
+
+    # Numbers
+    - match: '\b(-)?[0-9.]+\b'
+      scope: constant.numeric.GAUSS
+
+    # Brackets
+    - match: \(
+      push: brackets
+    - match: \)
+      scope: invalid.illegal.stray-bracket-end
+
+  double_quoted_string:
+    - meta_scope: string.quoted.double.GAUSS
+    - match: '\\.'
+      scope: constant.character.escape.GAUSS
+    - match: '"'
+      scope: punctuation.definition.string.end.GAUSS
+      pop: true
+
+  line_comment:
+    - meta_scope: comment.line.GAUSS
+    - match: $
+      pop: true
+
+  begin_block_comment:
+    - meta_scope: comment.begin.GAUSS
+    - match: $
+      pop: true
+
+  # end_block_comment:
+  #   - meta_scope: comment.end.GAUSS
+  #   - match: $
+  #     pop: true
+
+  brackets:
+    - match: \)
+      pop: true
+    - include: main
+```
+
+### Hugo
+
+Refs:
+
+- [Go HTML template syntax highlighting for Sublime Text](https://gist.github.com/jozsefsallai/5b09fb0099158344512aaec8121220a1)
+- [DisposaBoy/GoSublime: A Golang plugin collection for SublimeText 3, providing code completion and other IDE-like features.](https://github.com/DisposaBoy/GoSublime)
 
 {{< gist
-gist="f41e2945d5d7bb4245cd9cdad61d05f4"
-file="GAUSS.sublime-syntax"
+gist="5b09fb0099158344512aaec8121220a1"
+file="GoHTML.sublime-syntax"
+lang="yaml" >}}
+
+{{< gist
+gist="5b09fb0099158344512aaec8121220a1"
+file="GoTemplate.sublime-syntax"
 lang="yaml" >}}
