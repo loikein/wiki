@@ -2,8 +2,6 @@
 weight: 400
 title: "Firefox"
 ---
-
-
 # Firefox
 
 ## Tricks
@@ -12,50 +10,12 @@ title: "Firefox"
 
 ## Useful Add-Ons
 
+Moved to [Browser extension](/computer/internet/browser-extension/).
+
 Reference: [All recommended extensions](https://addons.mozilla.org/en-US/firefox/search/?recommended=true&type=extension)
 
 Complete list: [My add-on collection](https://addons.mozilla.org/en-US/firefox/collections/16122644/Default/?page=1&collection_sort=added)
 
-### Essentials
-
-- [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/): Automatically suspend tabs that have not been touched for a while.
-- [Perfect Home](https://addons.mozilla.org/en-US/firefox/addon/perfect-home/): Opera style new tab.  
-Must be installed after any other extensions that modifies new tab because Firefox only recognise the last extension that does it.
-- [Awesome RSS](https://addons.mozilla.org/en-US/firefox/addon/awesome-rss/): Show all RSS feeds on current page.
-- [Pretty XML](https://addons.mozilla.org/en-US/firefox/addon/pretty-xml/): Human-readable RSS pages.
-- [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
-- [Link Text and Location Copier](https://addons.mozilla.org/en-US/firefox/addon/link-text-and-location-copier/)
-- [Copy Selection as Markdown](https://addons.mozilla.org/en-US/firefox/addon/copy-selection-as-markdown/)
-
-### Privacy
-
-- [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
-- [Cookie AutoDelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
-- [Neat URL](https://addons.mozilla.org/en-US/firefox/addon/neat-url/): Remove tracking information from the URLs like [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/), but can be paused for 3 minutes when (rarely) causes unexpected behaviour.  
-(Replaced [Untrack Me](https://addons.mozilla.org/en-US/firefox/addon/untrack-me/).)
-- [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/): Also works as IE tabs.
-- [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/): Summarises the terms of service of the current website.
-- [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/): Separate Google sites (including YouTube) from other history.
-- [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/): Stop trackings from CDN \(I don't quite understand, but it looks promising\).
-
-
-### Accessibility
-
-- [HeadingsMap](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/): Add table of contents to side of the window including HTML5 landmarks.
-- [axe - Web Accessibility Testing](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
-
-### Others
-
-- [Bionic Reading](https://addons.mozilla.org/en-US/firefox/addon/bionicreading/)
-- [Keepa - Amazon Price Tracker](https://addons.mozilla.org/en-US/firefox/addon/keepa/)
-- [Augmented Steam](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam-an-itad-fork/)
-- [Workona](https://addons.mozilla.org/en-US/firefox/addon/workona/): Great tabs & workspaces manager.
-- [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/): Remove comments from any website.
-- [HighlightAll](https://addons.mozilla.org/en-US/firefox/addon/highlightall/): Highlight multiple keywords.
-- [Unpinterested!](https://addons.mozilla.org/en-US/firefox/addon/unpinterested/): Remove results from Pinterest in Google image search, or optionally, all searches.  
-Disclaimer: I use Pinterest a lot, but it is polluting search results too much I hate it.
-- [Ruffle \| Flash Player emulator written in the Rust programming language](https://ruffle.rs/#usage)
-- [SearchPreview](https://addons.mozilla.org/en-US/firefox/addon/searchpreview/): Add thumbnails to major search engines' results page \(or as the youngsters say, SERP\).
 
 ## Hidden Configuration Pages
 

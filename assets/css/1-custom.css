@@ -166,3 +166,19 @@ kbd {
 .gist .blob-num:hover {
   color: var(--color-fg-subtle) !important;
 }
+
+/* table */
+/* does not work well with overflow scroll */
+
+/* .markdown table {
+  overflow: visible;
+}
+
+.markdown table tr th{
+  background-color: var(--body-background);
+  border: 2px;
+  position: sticky;
+  top: 0;
+}
+
+ */
