@@ -24,6 +24,10 @@ end run
 
 ![Copy link of file usage](/img/automator_file_link.png)
 
+<!-- ## Copy as markdown
+
+[Macro to copy safari or chrome selection as markdown - Questions & Suggestions - Keyboard Maestro Discourse](https://forum.keyboardmaestro.com/t/macro-to-copy-safari-or-chrome-selection-as-markdown/9592) -->
+
 ## Word count
 
 Type: Service
