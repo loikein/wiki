@@ -108,7 +108,16 @@ kbd {
   margin-left: 0.2rem;
 }
 
+/* footnote */
+
+.footnote-ref {
+  border: 1px solid;
+  border-radius: .2rem;
+  padding: 0 .2rem;
+}
+
 /* GitHub gist */
+
 .highlight > .chroma,
 .gist-data {
  max-height: 256px;

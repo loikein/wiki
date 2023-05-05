@@ -16,13 +16,11 @@ Reference: [All recommended extensions](https://addons.mozilla.org/en-US/firefox
 
 Complete list: [My add-on collection](https://addons.mozilla.org/en-US/firefox/collections/16122644/Default/?page=1&collection_sort=added)
 
-### Basics
+### Essentials
 
 - [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/): Automatically suspend tabs that have not been touched for a while.
 - [Perfect Home](https://addons.mozilla.org/en-US/firefox/addon/perfect-home/): Opera style new tab.  
 Must be installed after any other extensions that modifies new tab because Firefox only recognise the last extension that does it.
-- [Open Tabs Next to Current](https://addons.mozilla.org/en-US/firefox/addon/open-tabs-next-to-current/)
-- [Duplicate tab](https://addons.mozilla.org/en-US/firefox/addon/duplicate_tab/): Add a configurable shortcut to duplicate current tab with reserving all history.
 - [Awesome RSS](https://addons.mozilla.org/en-US/firefox/addon/awesome-rss/): Show all RSS feeds on current page.
 - [Pretty XML](https://addons.mozilla.org/en-US/firefox/addon/pretty-xml/): Human-readable RSS pages.
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
@@ -40,18 +38,10 @@ Must be installed after any other extensions that modifies new tab because Firef
 - [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/): Separate Google sites (including YouTube) from other history.
 - [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/): Stop trackings from CDN \(I don't quite understand, but it looks promising\).
 
-### Customise the Web
-
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/): Custom CSS, see [Custom CSS](../internet/css.md).
-- [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): Custom JavaScript, see [Custom JavaScript](../internet/js.md).
-    - See [Userscripts](userscripts.md)
 
 ### Accessibility
 
-- [Smart TOC](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/): Add floating table of contents.
 - [HeadingsMap](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/): Add table of contents to side of the window including HTML5 landmarks.
-- [Gitako - Github file tree](https://addons.mozilla.org/en-US/firefox/addon/gitako-github-file-tree/): File tree for GitHub. \(Replaced [Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/).\)
 - [axe - Web Accessibility Testing](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
 
 ### Others
@@ -66,10 +56,6 @@ Must be installed after any other extensions that modifies new tab because Firef
 Disclaimer: I use Pinterest a lot, but it is polluting search results too much I hate it.
 - [Ruffle \| Flash Player emulator written in the Rust programming language](https://ruffle.rs/#usage)
 - [SearchPreview](https://addons.mozilla.org/en-US/firefox/addon/searchpreview/): Add thumbnails to major search engines' results page \(or as the youngsters say, SERP\).
-
-## Vimium-FF
-
-See [Vimium](vimium.md).
 
 ## Hidden Configuration Pages
 
