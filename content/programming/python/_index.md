@@ -24,6 +24,22 @@ Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/1330
 val, index = min((val, index) for (index, val) in enumerate(my_list))
 ```
 
+Write a list to file: \([credit](https://pynative.com/python-write-list-to-file/)\)
+
+```python
+import os
+
+my_list = ["A", "B", "C"]
+
+# open file in write mode
+with open(os.path.join("data", "log.txt"), 'w') as f:
+    for item in my_list:
+        # write each item on a new line
+        f.write("%s\n" % item)
+
+print("Done.")
+```
+
 
 ## Benchmarking
 
