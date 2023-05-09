@@ -5,6 +5,17 @@ title: "Python"
 
 # Python snippets
 
+## Dictionary
+
+Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)
+
+```python
+from itertools import islice
+
+dict(islice(my_dict.items(), 0, 5))
+```
+
+
 ## List
 
 Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/13301022/10668706)\)
@@ -56,12 +67,39 @@ else:
 
 ### JSON
 
-Ref: [python - How to prettyprint a JSON file? - Stack Overflow](https://stackoverflow.com/a/12944035)
+Pretty print: \([credit](https://stackoverflow.com/a/12944035)\)
 
 ```python
 import json
 
 print(json.dumps(json.loads(json_data), indent=4))
+```
+
+Split a big JSON file into smaller files: \([credit](https://plainenglish.io/blog/split-big-json-file-into-small-splits)\)
+
+```python
+import os
+import json
+from itertools import islice
+
+
+def split_json(
+    data_path,
+    file_name,
+    size_split=1000,
+):
+    """Split a big JSON file into chunks.
+    file_name : exclude ".json"
+    """
+    with open(os.path.join(data_path, file_name + ".json"), "r") as f:
+        whole_file = json.load(f)
+
+    split = len(whole_file) // size_split
+
+    for i in range(split + 1):
+        with open(os.path.join(data_path, file_name + "_"+ str(split+1) + "_" + str(i+1) + ".json"), 'w') as f:
+            json.dump(dict(islice(whole_file.items(), i*size_split, (i+1)*size_split)), f)
+    return
 ```
 
 
