@@ -34,10 +34,11 @@ Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
 |---------------|---------|----------------|----------------|----------|------|-------------|
 | [uBlock origin](https://ublockorigin.com/) | [Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/) | [AdGuard for Safari](https://apps.apple.com/app/adguard-for-safari/id1440147259) | [AdGuard](https://apps.apple.com/app/adguard-adblock-privacy/id1047223162) | [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) | [Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) | Ad block & [clean URL](https://www.reddit.com/r/uBlockOrigin/comments/rttrbp/no_longer_any_need_for_the_clearurl_extension/). |
 | [Vimium](https://github.com/philc/vimium) | [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/) | [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?mt=12) |  | [Chrome](https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb)   |  | See [Vimium](/computer/software-usage/vimium/). |
-| [Open Tabs Next To Current](https://github.com/sblask/webextension-open-tabs-next-to-current) | Deprecated by `browser.tabs.insertAfterCurrent=true` in `about:config` | [(Old) FastScripts workaround](https://daringfireball.net/2018/12/safari_new_tab_next_to_current_tab), [(New) debug menu options](https://www.cultofmac.com/691905/how-to-force-safari-tabs-open-at-end-of-tab-bar/)[^1] |  | [Chrome](https://chrome.google.com/webstore/detail/open-tabs-next-to-current/gmpnnmonpnnmnhpdldahlekfofigiffh) |  | The name says it all. This really should be the default behaviour. |
+| [Open Tabs Next To Current](https://github.com/sblask/webextension-open-tabs-next-to-current) | Deprecated by `browser.tabs.insertAfterCurrent=true` in `about:config` | [(Old) FastScripts workaround](https://daringfireball.net/2018/12/safari_new_tab_next_to_current_tab), [(New \& buggy) debug menu options](https://www.cultofmac.com/691905/how-to-force-safari-tabs-open-at-end-of-tab-bar/)[^1] |  | [Chrome](https://chrome.google.com/webstore/detail/open-tabs-next-to-current/gmpnnmonpnnmnhpdldahlekfofigiffh) |  | The name says it all. This really should be the default behaviour. |
 | [Perfect Home](https://github.com/perfect-things/perfect-home) | [Firefox](https://addons.mozilla.org/firefox/addon/perfect-home/)[^2] |  |  | [Chrome](https://chrome.google.com/webstore/detail/hdekbnedodfockfppllkaaahaibfgcaj) |  | Opera-style new tab / home page. |
-|  | Firefox | Safari Mac | Safari iOS | Chrome   | Edge | Note |
-
+| [Auto Tab Discard](https://webextension.org/listing/tab-discard.html) | [Firefox](https://addons.mozilla.org/firefox/addon/auto-tab-discard/) | [Tab Suspender for Safari](https://apps.apple.com/app/tab-suspender-for-safari/id1495356253) |  | [Chrome](https://chrome.google.com/webstore/detail/auto-tab-discard/jhnleheckmknfcgijgkadoemagpecfol) | [Edge](https://microsoftedge.microsoft.com/addons/detail/nfkkljlcjnkngcmdpcammanncbhkndfe) |  |
+| [Workona Tab Manager](https://workona.com/tab-manager/) | [Firefox](https://addons.mozilla.org/firefox/addon/workona/) | (Use [Tab Groups](https://support.apple.com/guide/safari/ibrwa2d73908/)) | \([Standalone app](https://apps.apple.com/app/workona-project-organizer/id1514249129) or use [Tab Groups](https://support.apple.com/guide/iphone/iph3028ebf68/)\) | [Chrome](https://chrome.google.com/webstore/detail/workona-tab-manager/ailcmbgekjpnablpdkmaaccecekgdhlh) | Edge | Note |
+|  | Firefox | Safari Mac | Safari iOS | Chrome | Edge | Note |
 
 
 ## Accessibility
@@ -47,7 +48,8 @@ Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
 | [Smart TOC](https://github.com/FallenMax/smart-toc)| [Firefox](https://addons.mozilla.org/firefox/addon/smart_toc/) | [Table of contents — for Safari](https://apps.apple.com/us/app/table-of-contents-for-safari/id1665115607) | [Table of contents — for Safari](https://apps.apple.com/us/app/table-of-contents-for-safari/id1665115607) | [Chrome](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba) |   | Add floating table of contents. |
 | [HeadingsMap](https://rumoroso.bitbucket.io/) | [Firefox](https://addons.mozilla.org/firefox/addon/headingsmap/) |  |  | [Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en) | [Edge](https://microsoftedge.microsoft.com/addons/detail/headingsmap/bokekiiaddinealohkmhjcgfanndmcgo) | Add tree table of contents. Sometimes different with Smart TOC, so I have both. |
 | [Display #Anchors](https://github.com/Rob--W/display-anchors) | [Firefox](https://addons.mozilla.org/firefox/addon/display-_anchors) |  |  | [Chrome](https://chrome.google.com/webstore/detail/display-anchors/poahndpaaanbpbeafbkploiobpiiieko) |  | Show all id anchors. |
-|  | Firefox | Safari Mac | Safari iOS | Chrome   | Edge | Note |
+| [Multiple Highlight ](https://add0n.com/multiple-highlight.html) | [Firefox](https://addons.mozilla.org/firefox/addon/multiple-highlight/) | \(Use [bookmarklet](http://localhost:1313/computer/internet/bookmarklet/#highlight-words-regex)\) | \(Use [bookmarklet](http://localhost:1313/computer/internet/bookmarklet/#highlight-words-regex)\) | [Chrome](https://chrome.google.com/webstore/detail/multiple-highlight/doagleaopbffngpffnmnajoiablpakfj/) | [Edge](https://microsoftedge.microsoft.com/addons/detail/ioedainbkceciogoechkbgmipgibojco) | Better search |
+|  | Firefox | Safari Mac | Safari iOS | Chrome | Edge | Note |
 
 
 ## Privacy
@@ -101,13 +103,7 @@ Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
 
 ## Lists from Firefox
 
-{{< details "Click to unfold" >}}
-### Essentials
-
-- [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/): Automatically suspend tabs that have not been touched for a while.
-- [Awesome RSS](https://addons.mozilla.org/en-US/firefox/addon/awesome-rss/): Show all RSS feeds on current page.
-- [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
-
+{{< details "Fold" >}}
 ### Privacy
 
 - [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
@@ -119,9 +115,12 @@ Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
 ### Others
 
 - [Bionic Reading](https://addons.mozilla.org/en-US/firefox/addon/bionicreading/)
-- [Workona](https://addons.mozilla.org/en-US/firefox/addon/workona/): Great tabs & workspaces manager.
 - [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/): Remove comments from any website.
-- [HighlightAll](https://addons.mozilla.org/en-US/firefox/addon/highlightall/): Highlight multiple keywords.
+{{< /details >}}
+
+{{< details "No longer in use" >}}
+- [Awesome RSS](https://addons.mozilla.org/en-US/firefox/addon/awesome-rss/): Show all RSS feeds on current page.
+- [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
 {{< /details >}}
 
 [^1]: This is the option combination that worked for me:

@@ -16,6 +16,7 @@ Lists:
 - [F. David McRitchie's Bookmarklets (JavaScript Favelets)](http://dmcritchie.mvps.org/ie/bookmarklets.htm)
 - [Bookmarklets - Paul J. Adam - Web & Mobile Accessibility Consultant in Austin, TX](https://pauljadam.com/bookmarklets.html)
 - [17 powerful bookmarklets for your iPhone](https://web.archive.org/web/20120623233011/http://www.lifeclever.com/17-powerful-bookmarklets-for-your-iphone/)
+- [Jesse's Bookmarklets Site](https://www.squarefree.com/bookmarklets/)
 
 Useful tools:
 
@@ -63,6 +64,15 @@ else
 {{< /details >}}
 
 
+## Highlight words \(RegEx\)
+
+Credit: [Jesse's Text and Data Bookmarklets](https://www.squarefree.com/bookmarklets/pagedata.html)
+
+```js
+javascript:(function(){var count=0, text, regexp;text=prompt("Search regexp:", "");if(text==null || text.length==0)return;try{regexp=new RegExp("(" + text +")", "i");}catch(er){alert("Unable to create regular expression using text '"+text+"'.\n\n"+er);return;}function searchWithinNode(node, re){var pos, skip, spannode, middlebit, endbit, middleclone;skip=0;if( node.nodeType==3 ){pos=node.data.search(re);if(pos>=0){spannode=document.createElement("SPAN");spannode.style.backgroundColor="yellow";middlebit=node.splitText(pos);endbit=middlebit.splitText(RegExp.$1.length);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if( node.nodeType==1 && node.childNodes && node.tagName.toUpperCase()!="SCRIPT" && node.tagName.toUpperCase!="STYLE"){for (var child=0; child < node.childNodes.length; ++child){child=child+searchWithinNode(node.childNodes[child], re);}}return skip;}window.status="Searching for "+regexp+"...";searchWithinNode(document.body, regexp);window.status="Found "+count+" match"+(count==1?"":"es")+" for "+regexp+".";})();
+```
+
+
 ## Simple notepad in new tab
 
 {{< hint warning >}}
@@ -82,6 +92,14 @@ data:text/html,
     document.documentElement.focus();
 </script>
 <title>Text Editor</title>
+```
+
+## Sort table
+
+Credit: [Jesse's Text and Data Bookmarklets](https://www.squarefree.com/bookmarklets/pagedata.html)
+
+```js
+javascript:function toArray (c){var a, k;a=new Array;for (k=0; k<c.length; ++k)a[k]=c[k];return a;}function insAtTop(par,child){if(par.childNodes.length) par.insertBefore(child, par.childNodes[0]);else par.appendChild(child);}function countCols(tab){var nCols, i;nCols=0;for(i=0;i<tab.rows.length;++i)if(tab.rows[i].cells.length>nCols)nCols=tab.rows[i].cells.length;return nCols;}function makeHeaderLink(tableNo, colNo, ord){var link;link=document.createElement('a');link.href='javascript:sortTable('+tableNo+','+colNo+','+ord+');';link.appendChild(document.createTextNode((ord>0)?'a':'d'));return link;}function makeHeader(tableNo,nCols){var header, headerCell, i;header=document.createElement('tr');for(i=0;i<nCols;++i){headerCell=document.createElement('td');headerCell.appendChild(makeHeaderLink(tableNo,i,1));headerCell.appendChild(document.createTextNode('/'));headerCell.appendChild(makeHeaderLink(tableNo,i,-1));header.appendChild(headerCell);}return header;}g_tables=toArray(document.getElementsByTagName('table'));if(!g_tables.length) alert("This page doesn't contain any tables.");(function(){var j, thead;for(j=0;j<g_tables.length;++j){thead=g_tables[j].createTHead();insAtTop(thead, makeHeader(j,countCols(g_tables[j])))}}) ();function compareRows(a,b){if(a.sortKey==b.sortKey)return 0;return (a.sortKey < b.sortKey) ? g_order : -g_order;}function sortTable(tableNo, colNo, ord){var table, rows, nR, bs, i, j, temp;g_order=ord;g_colNo=colNo;table=g_tables[tableNo];rows=new Array();nR=0;bs=table.tBodies;for(i=0; i<bs.length; ++i)for(j=0; j<bs[i].rows.length; ++j){rows[nR]=bs[i].rows[j];temp=rows[nR].cells[g_colNo];if(temp) rows[nR].sortKey=temp.innerHTML;else rows[nR].sortKey="";++nR;}rows.sort(compareRows);for (i=0; i < rows.length; ++i)insAtTop(table.tBodies[0], rows[i]);}
 ```
 
 ## TOC
