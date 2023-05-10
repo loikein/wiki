@@ -94,10 +94,11 @@ Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
 
 |               | Firefox | Safari \(Mac\) | Safari \(iOS\) | Chrome   | Edge | Note |
 |---------------|---------|----------------|----------------|----------|------|-------------|
-| [Gitako](https://github.com/EnixCoda/Gitako) | [Firefox](https://addons.mozilla.org/firefox/addon/gitako-github-file-tree/) |   |   | [Chrome](https://chrome.google.com/webstore/detail/gitako-github-file-tree/giljefjcheohhamkjphiebfjnlphnokk) | [Edge](https://microsoftedge.microsoft.com/addons/detail/alpoloddcggjhakjemghahlkofjekbca) | File tree for GitHub \(older & better than the official one\), Gitea, Gitee |
-| [GitHub Repository Size](https://github.com/harshjv/github-repo-size) | [Firefox (by another developer)](https://addons.mozilla.org/firefox/addon/github-repo-size/) |  |  | [Chrome](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci) |  | Shows repo size for GitHub. |
-| [Augmented Steam](https://augmentedsteam.com/) | [Firefox](https://addons.mozilla.org/firefox/addon/augmented-steam/) |  |  | [Chrome](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp) | [Edge](https://microsoftedge.microsoft.com/addons/detail/augmented-steam/dnpjkgmekpilchdgolfifobohlohlioc) | Add price comparison and other features on Steam. |
-| [Keepa](https://keepa.com/) | [Firefox](https://addons.mozilla.org/firefox/addon/keepa/) | [Safari Mac](https://apps.apple.com/app/id1533805339) | [(Standalone app)](https://apps.apple.com/app/keepa-price-tracker/id1518541385) | [Chrome](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo) | [Edge](https://microsoftedge.microsoft.com/addons/detail/keepa-amazon-price-trac/ejefaeioamebhekmfaclajddbpnnobje) | Add price history graph on Amazon. |
+| [Gitako](https://github.com/EnixCoda/Gitako) | [Firefox](https://addons.mozilla.org/firefox/addon/gitako-github-file-tree/) |   |   | [Chrome](https://chrome.google.com/webstore/detail/gitako-github-file-tree/giljefjcheohhamkjphiebfjnlphnokk) | [Edge](https://microsoftedge.microsoft.com/addons/detail/alpoloddcggjhakjemghahlkofjekbca) | File tree for GitHub \(older & better than the official one\), Gitea, Gitee. |
+| [GitHub Repository Size](https://github.com/harshjv/github-repo-size) | [Firefox (by another developer)](https://addons.mozilla.org/firefox/addon/github-repo-size/) |  |  | [Chrome](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci) |  | Repo size for GitHub. |
+| [GitHub File Icons](https://github.com/homerchen19/github-file-icons) | [Firefox](https://addons.mozilla.org/firefox/addon/github-file-icons/) | [Safari Mac](https://apps.apple.com/app/file-icons-for-github/id1631366167) |  | [Chrome](https://chrome.google.com/webstore/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe) |  | File icons for GitHub, GitLab, Gitea, Gogs. |
+| [Augmented Steam](https://augmentedsteam.com/) | [Firefox](https://addons.mozilla.org/firefox/addon/augmented-steam/) |  |  | [Chrome](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp) | [Edge](https://microsoftedge.microsoft.com/addons/detail/augmented-steam/dnpjkgmekpilchdgolfifobohlohlioc) | Price comparison and other features on Steam. |
+| [Keepa](https://keepa.com/) | [Firefox](https://addons.mozilla.org/firefox/addon/keepa/) | [Safari Mac](https://apps.apple.com/app/id1533805339) | [(Standalone app)](https://apps.apple.com/app/keepa-price-tracker/id1518541385) | [Chrome](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo) | [Edge](https://microsoftedge.microsoft.com/addons/detail/keepa-amazon-price-trac/ejefaeioamebhekmfaclajddbpnnobje) | Price history graphs on Amazon. |
 |  | Firefox | Safari Mac | Safari iOS | Chrome | Edge | Note |
 
 
@@ -111,19 +112,16 @@ Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
 - [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/): Also works as IE tabs.
 - [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/): Summarises the terms of service of the current website.
 - [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/): Stop trackings from CDN \(I don't quite understand, but it looks promising\).
-
-### Others
-
-- [Bionic Reading](https://addons.mozilla.org/en-US/firefox/addon/bionicreading/)
-- [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/): Remove comments from any website.
 {{< /details >}}
 
 {{< details "No longer in use" >}}
 - [Awesome RSS](https://addons.mozilla.org/en-US/firefox/addon/awesome-rss/): Show all RSS feeds on current page.
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
+- [Bionic Reading](https://addons.mozilla.org/en-US/firefox/addon/bionicreading/)
+- [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/): Remove comments from any website.
 {{< /details >}}
 
-[^1]: This is the option combination that worked for me:
+[^1]: This is the option combination that worked for me, but it is buggy:
 ![](/img/browser_open_tab_safari.png)
 [^2]: Older versions of Firefox used to lack new tab management functionality, so it must be (re)installed after any other extensions that modifies the new tab. This is now an option in `about:preferences#home` as of `v113.0b4`.
 [^4]: Add and manage containers in `about:preferences#containers`.

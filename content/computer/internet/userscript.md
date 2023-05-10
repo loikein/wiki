@@ -11,6 +11,8 @@ For the list of supported browsers, see [Greasy Fork #Step 1: install a user scr
 - [bvolpato/awesome-userscripts: 📖 A curated list of Awesome Userscripts.](https://github.com/bvolpato/awesome-userscripts)
 - [The Top 60 Userscript Open Source Projects - Awesome Open Source](https://awesomeopensource.com/projects/userscript)
 - [ywzhaiqi/userscript: 本人原创或修改的 GM 脚本，包括小说阅读脚本等。](https://github.com/ywzhaiqi/userscript) （一部分链接已失效）
+- [Mottie/GitHub-userscripts: Userscripts to add functionality to GitHub](https://github.com/Mottie/GitHub-userscripts)
+
 
 ## Essentials
 
