@@ -24,7 +24,7 @@ $$`
 ### 事件 B 发生的总概率
 
 `$$
-\begin{aligned}\Pr(B) &= \phantom{111} \Pr(A\cap B)\phantom{(1)} + \phantom{111}\Pr(\lnot A\cap B)\\
+\begin{aligned}\Pr(B) &= \phantom{111} \Pr(A\cap B)\phantom{(11)} + \phantom{111}\Pr(\lnot A\cap B)\\
 &= \overbrace{\Pr(B \mid A)\times\Pr(A)} + \overbrace{\Pr(B \mid  \lnot A)\times\Pr(\lnot A)} \end{aligned}
 $$`
 

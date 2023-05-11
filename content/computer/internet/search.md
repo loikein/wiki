@@ -102,9 +102,12 @@ Usage:
 | Param | Values | Meaning | Ref |
 |-------|--------|---------|-----|
 | `filter` | `0` | Does not filter similar results | [Ref](https://groups.google.com/g/google-search-appliance-help/c/Xm12vbC9xUk) |
-| `num` | (Int) | Numbers of results per page in SERP | |
+| `num` | \<Int\> | Numbers of results per page in SERP | |
 | `nfpr` | `1` | Does not auto-correct search query | |
 | `safe` | `active` | Turns on safe search (filter adult content) | |
+| `hl` | \<language code\> | Shows the SERP UI in specified language | [Ref](https://webapps.stackexchange.com/a/80416) |
+| `lr` | `lang_`\<language code\> | Only shows results in specified language | [Ref](https://webapps.stackexchange.com/a/80416) |
+
 
 <!-- Especially, param `tbs` \& `tbm` -->
 

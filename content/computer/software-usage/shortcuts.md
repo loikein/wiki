@@ -4,6 +4,11 @@ title: "Shortcuts (Workflow)"
 ---
 # Shortcuts (originally Workflow)
 
+I have not decided how I would display my Shortcuts. Maybe something like this, but it's way too image-heavy in my opinion:
+
+- [Commenting on Shortcuts, Part 1 - All this](https://leancrew.com/all-this/2020/01/commenting-on-shortcuts-part-1/)
+- [Commenting on Shortcuts, Part 2 - All this](https://leancrew.com/all-this/2020/01/commenting-on-shortcuts-part-2/)
+
 ## Collections & communities
 
 - [Shortcuts Archive by MacStories](https://www.macstories.net/shortcuts/)
