@@ -1,5 +1,5 @@
 baseURL: "https://wiki.loikein.one/"
-title: loikein's wiki
+title: "loikein's wiki"
 theme: hugo-book
 canonifyURLs: true
 hasCJKLanguage: true

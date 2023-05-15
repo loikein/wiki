@@ -89,6 +89,10 @@ Pretty print: \([credit](https://stackoverflow.com/a/12944035)\)
 import json
 
 print(json.dumps(json.loads(json_data), indent=4))
+
+# if get TypeError: the JSON object must be str, bytes or bytearray, not dict
+# then use:
+print(json.dumps(json_data, indent=4))
 ```
 
 Split a big JSON file into smaller files: \([credit](https://plainenglish.io/blog/split-big-json-file-into-small-splits)\)
