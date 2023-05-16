@@ -11,7 +11,11 @@ title: "Pandas"
 
 Doc: [pandas.read_excel — pandas 2.0.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)
 
-Needs to have `openpyxl` in environment!
+{{< hint info >}}
+Needs to have `openpyxl` in the environment.
+{{< /hint >}}
+
+Read sheet:
 
 ```python
 import pandas as pd
@@ -23,6 +27,28 @@ df = pd.read_excel(
     header=[0,1], # if there are multiple (combined) header rows
     nrows=100, # only read first 100 rows
 )
+```
+
+Read names of all sheets: \([credit](https://stackoverflow.com/a/17977609)\)
+
+```python
+import pandas as pd
+
+xl = pd.ExcelFile(os.path.join("data", "data.xlsx"))
+xl.sheet_names
+```
+
+Read all sheets: \([credit](https://stackoverflow.com/a/16896091)\)
+
+{{< hint warning >}}
+This is significantly slower than the method above. Only use when you actually need every single sheet.
+{{< /hint >}}
+
+```python
+import pandas as pd
+
+dfs = pd.read_excel(file_name, sheet_name=None)
+dfs.keys() # similar result as xl.sheet_names
 ```
 
 ### CSV
@@ -38,6 +64,17 @@ df = pd.read_csv(
     os.path.join("data", "data.csv"), # read ./data/data.csv
     header=None,
     names=names_list,
+)
+```
+
+### Debugging
+
+If get `UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position xx: invalid start byte`, try: \([credit](https://stackoverflow.com/a/46000253)\)
+
+```python
+df = pd.read_csv(
+    os.path.join("data", "data.csv"), # read ./data/data.csv
+    encoding="cp1252",
 )
 ```
 
