@@ -1,6 +1,7 @@
 ---
 weight: 601
 title: "Pandas"
+description: "Real problems and real solutions."
 ---
 
 # Pandas
@@ -134,6 +135,29 @@ Ref: [How do I get a list of all the duplicate items using pandas in python? - S
 df[df.duplicated(["ID"], keep=False)].sort_values("ID")
 ```
 
+### Count length of levels of MultiIndex
+
+Ref: [python - Hierarhical Multi-index counts in Pandas - Stack Overflow](https://stackoverflow.com/a/51405700/10668706) 
+
+```python
+df.groupby(level=["ID"]).size()
+df.groupby(level=["ID","Date"]).size()
+
+# example output:
+# ID
+# 01    240
+# 02    240
+# 03    240
+# 04    240
+# 05    240
+#      ... 
+# 55    211
+# 56    211
+# 57    211
+# 59    211
+# 60    211
+# Length: 60, dtype: int64
+```
 
 ## Column-level operations
 
@@ -153,6 +177,12 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
 
 
 ## DataFrame-level operations
+
+### Rename indices
+
+```python
+df.index = df.index.set_names(["ID"])
+```
 
 ### Filter rows conditioning on column value
 

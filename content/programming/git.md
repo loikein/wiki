@@ -313,6 +313,11 @@ git merge --no-ff "my-branch"
 git push origin "master"
 ```
 
+### Remove sensitive data from history
+
+Haven't tried: 
+[Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+
 ## Split Repo
 
 Credit: [git subtree - Detach (move) subdirectory into separate Git repository - Stack Overflow](https://stackoverflow.com/a/17864475)
