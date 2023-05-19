@@ -73,6 +73,28 @@ df = pd.read_csv(
 
 ### ODS
 
+#### `pandas_ods_reader`
+
+{{< hint info >}}
+Needs to have [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml` in the environment.
+
+Supports `skiprows`, but not `nrows`.
+{{< /hint >}}
+
+```python
+import pandas as pd
+from pandas_ods_reader import read_ods
+
+df = read_ods(
+    os.path.join("data", "data.ods"), # read ./data/data.ods
+    2,                                # get 2nd sheet (1 based), default 1
+    # or
+    "sheet 1",                        # get sheet by name
+)
+```
+
+#### `pd.read_excel`
+
 {{< hint info >}}
 Needs to have `odfpy` in the environment.
 {{< /hint >}}
@@ -81,6 +103,19 @@ Needs to have `odfpy` in the environment.
 Since `odfpy` does not have row selection method when loading files,
 `nrows` option happens after the whole file is loaded into memory, unlike when dealing with other types of tables. This causes long loading time when the file is huge. See [pandas-dev/pandas Issue #53185](https://github.com/pandas-dev/pandas/issues/53185).
 {{< /hint >}}
+
+Slightly faster \(and more robust\) method:
+
+```python
+import pandas as pd
+
+ods = pd.ExcelFile(os.path.join("data", "data.ods"))
+ods.sheet_names   # get all sheet names
+
+df = ods.parse("sheet 1")
+```
+
+Documented method:
 
 ```python
 import pandas as pd
