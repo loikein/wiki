@@ -77,7 +77,9 @@ df = pd.read_csv(
 
 {{< hint info >}}
 Needs to have [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml` in the environment.
+{{< /hint >}}
 
+{{< hint warning >}}
 Supports `skiprows`, but not `nrows`.
 {{< /hint >}}
 
