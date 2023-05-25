@@ -154,7 +154,7 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 \lstMakeShortInline[columns=fixed]|
 
 \begin{document}
-  |hello, world|
+  \lstinline|hello, world|
 
   \begin{lstlisting}[language=Python]
   # help i'm in latex hell
