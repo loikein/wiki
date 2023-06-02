@@ -9,10 +9,11 @@ title: "Microsoft Excel"
 
 ## Reference
 
-- Cell: `A1`, `B3`
+- Cell: `A1`, `B3`, `A1:B3`
 - Column: `B:B`
 - Row: `3:3`
 - Sheet: `'Sheet 1'!B3:B40`
+- Keep reference position when batch applying: `$A$1:$B$3`
 
 {{< hint warning >}}
 Single and double quotations are strictly different. Single quotation is only used when:
@@ -33,7 +34,7 @@ Stitch strings \& values of cells together.
 CONCAT("Words", A1, B3, ...)
 ```
 
-### `COUNTIF` \& `COUNTIFS`
+### `COUNTIF`, `COUNTIFS`
 
 [COUNTIF function - Microsoft Support](https://support.microsoft.com/en-au/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)  
 [COUNTIFS function - Microsoft Support](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842)
@@ -66,6 +67,19 @@ Set default value for when function returns an error.
 IFERROR(
     <function>,
     <default value> // ""
+)
+```
+
+### `ROUND`, `ROUNDUP`, `ROUNDDOWN`
+
+[ROUND function - Microsoft Support](https://support.microsoft.com/en-au/office/round-function-c018c5d8-40fb-4053-90b1-b3e7f61a213c)  
+[ROUNDUP function - Microsoft Support](https://support.microsoft.com/en-us/office/roundup-function-f8bc9b23-e795-47db-8703-db171d0c42a7)  
+[ROUNDDOWN function - Microsoft Support](https://support.microsoft.com/en-us/office/rounddown-function-2ec94c73-241f-4b01-8c6f-17e6d7968f53)
+
+```scala
+ROUND / ROUNDUP / ROUNDDOWN(
+    <cell>,     // B2
+    <decimals>  // 0
 )
 ```
 
