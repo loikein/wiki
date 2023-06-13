@@ -226,7 +226,7 @@ df_AB = pd.concat([df_A, df_B])
 With same indices (join):
 
 {{< hint warning >}}
-It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct. When the single shared index have different values, aka, `outer` does not equal `inner`, the join returns an error.
+It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct. When the single shared index has different values, aka, `outer` does not equal `inner`, the join returns an error.
 
 To avoid this, first use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])` to make the MultiIndex DataFrame single-indexed first, then perform the join.
 {{< /hint >}}
