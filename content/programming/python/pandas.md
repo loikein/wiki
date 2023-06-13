@@ -215,10 +215,42 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
 
 ## DataFrame-level operations
 
-### Rename indices
+### Combine two DataFrames
+
+With same columns (stack):
+
+```python
+df_AB = pd.concat([df_A, df_B])
+```
+
+With same indices (join):
+
+{{< hint warning >}}
+It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct. When the single shared index have different values, aka, `outer` does not equal `inner`, the join returns an error.
+
+To avoid this, first use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])` to make the MultiIndex DataFrame single-indexed first, then perform the join.
+{{< /hint >}}
+
+```python
+df_AB = df_A.join(
+    df_B,
+    how="outer",    # Keep all different index values
+)
+```
+
+
+### Rename things
+
+Index column:
 
 ```python
 df.index = df.index.set_names(["ID"])
+```
+
+Normal column:
+
+```python
+df = df.rename(columns={"A": "a", "B": "c"})
 ```
 
 ### Filter rows conditioning on column value
