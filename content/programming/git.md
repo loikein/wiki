@@ -451,9 +451,15 @@ git flow feature finish my-new-feature
 
 ## Debugging
 
+### UTF-8 character in filename are displayed in numbers
+
+```sh
+git config --global core.quotepath false
+```
+
 ### Repository not found.
 
-Don't have write access. Ask a maintainer/admin to add you as contributor.
+Don't have write access to remote repository. Ask a maintainer/admin to add you as contributor.
 
 ### How to find whether I have write access?
 
