@@ -238,6 +238,97 @@ df_AB = df_A.join(
 )
 ```
 
+### Long to wide
+
+Reverse of [pandas.wide_to_long — pandas 2.0.2 documentation](https://pandas.pydata.org/docs/reference/api/pandas.wide_to_long.html).
+
+For example, say you have a very long MultiIndex DataFrame like this (asterisk means index column):
+
+```text
+                       VALUE
+ID      CODE   LEVEL               
+*A0001* *A-1*  *B-1*   96.0
+               *B-2*   5.0
+        *A-2*  *B-1*   18.0
+               *B-2*   18.0
+               *B-3*   1.0
+        *A-3*  ...
+...
+```
+
+But want you really want is one ID per row, with everything in the row.
+
+**Step 1:**
+
+```python
+df_unstack = df.stack().unstack(level=['CODE', 'LEVEL']) 
+```
+
+Which has almost identical effects as (but this one returns only one index)
+
+```python
+df_unstack = pd.pivot(
+    df.reset_index(),
+    index="ID",
+    columns=["CODE", "LEVEL"],
+    values="VALUE",
+)
+```
+
+Result:
+
+```text
+            CODE  A-1        A-2          ...
+            LEVEL B-1    B-2 B-1   B-2    ...
+ID      (unnamed)
+*A0001* *VALUE*    96.0  5.0  18.0  18.0 
+*A0002* *VALUE*   505.0  5.0 182.0 191.0 
+*A0003* *VALUE*   275.0  5.0 156.0 159.0 
+*A0004* *VALUE*   245.0  5.0  72.0  72.0 
+*A0005* *VALUE*   377.0  5.0 196.0 196.0 
+```
+
+**Step 2:**
+
+```python
+df_unstack.columns = ['_'.join(col) for col in df_unstack.columns]
+```
+
+Result:
+
+```text
+                  A-1_B-1 A-1_B-2 A-2_B-1 ...
+ID      (unnamed)
+*A0001* *VALUE*    96.0   5.0      18.0
+*A0002* *VALUE*   505.0   5.0     182.0
+*A0003* *VALUE*   275.0   5.0     156.0
+*A0004* *VALUE*   245.0   5.0      72.0
+*A0005* *VALUE*   377.0   5.0     196.0
+```
+
+**Step 3:**
+
+If you have used `pd.pivot`, skip this step.
+
+```python
+df_unstack.index = df_unstack.index.set_names(["ID", 'drop'])   # give the second index a name
+df_unstack = df_unstack.reset_index(level=['drop'])             # un-index
+df_unstack = df_unstack.drop("drop",axis=1)                     # remove
+```
+
+Result:
+
+```text
+      A-1_B-1 A-1_B-2 A-2_B-1 ...
+ID
+A0001  96.0   5.0      18.0
+A0002 505.0   5.0     182.0
+A0003 275.0   5.0     156.0
+A0004 245.0   5.0      72.0
+A0005 377.0   5.0     196.0
+```
+
+Done!
 
 ### Rename things
 
