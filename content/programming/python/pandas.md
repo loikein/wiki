@@ -212,6 +212,23 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
     data["Address"] = data["Address"].astype(str) + " " + data[col].fillna("").astype(str)
 ```
 
+## Index-level operations
+
+Unset indices:
+
+```python
+# return all indices to normal columns
+df = df.reset_index()
+
+# return only selected indices
+df = df.reset_index(level=["Status", "Level"])
+```
+
+Rename index:
+
+```python
+df.index = df.index.set_names(["ID", "Address"])
+```
 
 ## DataFrame-level operations
 
@@ -226,7 +243,7 @@ df_AB = pd.concat([df_A, df_B])
 With same indices (join):
 
 {{< hint warning >}}
-It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct. When the single shared index has different values, aka, `outer` does not equal `inner`, the join returns an error.
+It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct (at least not stable). When the single shared index has different values, aka, `outer` does not equal `inner`, the join returns an error.
 
 To avoid this, first use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])` to make the MultiIndex DataFrame single-indexed first, then perform the join.
 {{< /hint >}}
@@ -236,6 +253,16 @@ df_AB = df_A.join(
     df_B,
     how="outer",    # Keep all different index values
 )
+```
+
+### Filter rows conditioning on column value
+
+```python
+# only keep rows with certain value for a col
+df_subset = df[df["Status Code"]=="A"]
+
+# only keep rows without certain value for a col
+df_subset = df[df["Status Code"]!="B"]
 ```
 
 ### Long to wide
@@ -294,6 +321,24 @@ ID      (unnamed)
 df_unstack.columns = ['_'.join(col) for col in df_unstack.columns]
 ```
 
+{{< details "If want to do this to index" >}}
+This code also works for index:
+
+```python
+df.index = ['_'.join(ind) for ind in df.index]
+```
+
+But need to make sure all values in the indices are strings. If not, try first convert:
+
+```python
+df = df.reset_index()
+
+df["Level"] = [str(val) for val in df["Level"]]
+# or if values are timestamps
+df["Date"] = [val.strftime("%Y-%m-%d") for val in df["Date"]]
+```
+{{< /details >}}
+
 Result:
 
 ```text
@@ -311,8 +356,8 @@ ID      (unnamed)
 If you have used `pd.pivot`, skip this step.
 
 ```python
-df_unstack.index = df_unstack.index.set_names(["ID", 'drop'])   # give the second index a name
-df_unstack = df_unstack.reset_index(level=['drop'])             # un-index
+df_unstack.index = df_unstack.index.set_names(["ID", "drop"])   # give the second index a name
+df_unstack = df_unstack.reset_index(level=["drop"])             # un-index
 df_unstack = df_unstack.drop("drop",axis=1)                     # remove
 ```
 
@@ -344,11 +389,18 @@ Normal column:
 df = df.rename(columns={"A": "a", "B": "c"})
 ```
 
-### Filter rows conditioning on column value
+### Sort thing
+
+Rows by values in columns:
 
 ```python
-# only keep rows with certain value for a col
-df_subset = df[df["Status Code"]=="A"]
+df = df.sort_values(["ID","level"])
+```
+
+Columns by column names: ([credit](https://stackoverflow.com/a/11067072/10668706))
+
+```python
+df = df.reindex(sorted(df.columns), axis=1)
 ```
 
 
@@ -357,7 +409,9 @@ df_subset = df[df["Status Code"]=="A"]
 ### As Excel file
 
 ```python
-df.head(1000).to_excel(os.path.join("data", "data.xlsx"))
+df.to_excel(os.path.join("data", "data.xlsx"))
+# or if the df is too big
+df.iloc[:1000, :1000].to_excel(os.path.join("data", "data.xlsx"))
 ```
 
 ### As plain text file
