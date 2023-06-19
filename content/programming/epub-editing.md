@@ -112,10 +112,15 @@ Refs:
 
 Page code:
 
-```html
+```html {hl_lines="3-5 7"}
 <div class="chapter-image-wrapper">
-  <svg style="max-width:<desired-width>px; max-height:<desired-height>px" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" version="1.1" viewBox="0 0 <actual-width> <actual-height>" xmlns:xlink="http://www.w3.org/1999/xlink" >
-    <image xlink:href="../Images/pic.png"/>
+  <svg
+    style="max-width:[desired-width]px; max-height:[desired-height]px"
+    viewBox="0 0 [actual-width] [actual-height]"
+    preserveAspectRatio="xMidYMid meet"
+    xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <image width=[actual-width] height=[actual-height] xlink:href="../Images/pic.png"/>
+    <!-- Warning: Kobo will not display the image without the width & height in the image tag -->
   </svg>
 </div>
 ```
@@ -132,6 +137,31 @@ div.chapter-image-wrapper {
 }
 ```
 
+
 ### Small inline images
 
+Page code: \(all in one line, inside the line\)
 
+```html
+<span class="chapter-emoji-wrapper">
+  <svg viewBox="0 0 54 51" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"  version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <image width=[actual-width] height=[actual-height] xlink:href="../Images/emoji.png"/>
+  </svg>
+</span>
+```
+
+CSS:
+
+```css
+span.chapter-emoji-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+span.chapter-emoji-wrapper svg {
+  max-width: 1em;
+  max-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+```
