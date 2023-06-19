@@ -108,7 +108,7 @@ Refs:
 - [keeping small images small in an epub - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=336576#postcount4082496)
 - [epub - CSS image sizing - Stack Overflow](https://stackoverflow.com/a/19759941/10668706)
 
-**Problem: allowing images to scale down, while limiting the maximum size, and keep centred in page.**
+**Problem: allowing images to scale down, while limiting the maximum size, and horizontally centred in page.**
 
 Page code:
 

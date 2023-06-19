@@ -172,6 +172,12 @@ Ref: [How do I get a list of all the duplicate items using pandas in python? - S
 df[df.duplicated(["ID"], keep=False)].sort_values("ID")
 ```
 
+### List rows with duplicated values of indices
+
+```python
+df[df.index.duplicated(keep='first')]
+```
+
 ### Count length of levels of MultiIndex
 
 Ref: [python - Hierarhical Multi-index counts in Pandas - Stack Overflow](https://stackoverflow.com/a/51405700/10668706) 
@@ -255,6 +261,14 @@ df_AB = df_A.join(
 )
 ```
 
+### Drop rows with duplicate indices
+
+Credit: [python - Remove pandas rows with duplicate indices - Stack Overflow](https://stackoverflow.com/questions/13035764/remove-pandas-rows-with-duplicate-indices)
+
+```python
+df = df[~df.index.duplicated(keep='first')]
+```
+
 ### Filter rows conditioning on column value
 
 ```python
@@ -301,6 +315,12 @@ df_unstack = pd.pivot(
     values="VALUE",
 )
 ```
+
+{{< hint info >}}
+If get `ValueError: Index contains duplicate entries, cannot reshape`, it means that there are duplicate indices sets (rows where all indices are identical).
+
+In that case, first [check the rows contain same data](/programming/python/pandas/#list-rows-with-duplicated-values-of-indices), then do [#Drop rows with duplicate indices](/programming/python/pandas/#drop-rows-with-duplicate-indices). Now the pivot should work just fine.
+{{< /hint >}}
 
 Result:
 
