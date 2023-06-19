@@ -73,7 +73,7 @@ df = pd.read_csv(
 
 ### ODS
 
-#### `pandas_ods_reader`
+#### `pandas-ods-reader`
 
 {{< hint info >}}
 Needs to have [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml` in the environment.
@@ -201,6 +201,21 @@ df.groupby(level=["ID","Date"]).size()
 # 60    211
 # Length: 60, dtype: int64
 ```
+
+## Select things
+
+### Select columns with RegEx
+
+Credit: [python - How to select columns from dataframe by regex - Stack Overflow](https://stackoverflow.com/a/30808571/10668706)
+
+```python
+rating_cols = df.filter(regex=("rating_*")).columns
+
+# then when need to use
+df[rating_cols]                     # returns a small df
+df[rating_cols]["rating_2021_1"]    # returns a series
+```
+
 
 ## Column-level operations
 
@@ -409,7 +424,15 @@ Normal column:
 df = df.rename(columns={"A": "a", "B": "c"})
 ```
 
-### Sort thing
+### Replace cells by value
+
+Credit: [python - How to replace a value in pandas, with NaN? - Stack Overflow](https://stackoverflow.com/a/29251086/10668706)
+
+```python
+df["rating"] = df["rating"].replace("No ratings", np.NaN)
+```
+
+### Sort things
 
 Rows by values in columns:
 
