@@ -140,6 +140,46 @@ df = pd.read_csv(
 
 ## Observe things
 
+### Calculate mode by any level of MultiIndex
+
+Ref: [python - GroupBy pandas DataFrame and select most common value - Stack Overflow](https://stackoverflow.com/questions/15222754/groupby-pandas-dataframe-and-select-most-common-value)
+
+{{< hint warning >}}
+So far I haven't found any way to get this mode df [merge/join/concat/etc](https://pandas.pydata.org/docs/user_guide/merging.html) with the original df, except first pivot the original df.
+{{< /hint >}}
+
+```python
+# mode of each ID
+df.groupby(["ID"]).agg(lambda x: x.mode())
+
+# mode of each ID x each date
+df.groupby(["ID","Date"]).agg(lambda x: x.mode())
+```
+
+### Count length of levels of MultiIndex
+
+Ref: [python - Hierarhical Multi-index counts in Pandas - Stack Overflow](https://stackoverflow.com/a/51405700/10668706) 
+
+```python
+df.groupby(level=["ID"]).size()
+df.groupby(level=["ID","Date"]).size()
+
+# example output:
+# ID
+# 01    240
+# 02    240
+# 03    240
+# 04    240
+# 05    240
+#      ... 
+# 55    211
+# 56    211
+# 57    211
+# 59    211
+# 60    211
+# Length: 60, dtype: int64
+```
+
 ### Display full width of a DataFrame
 
 Ref:
@@ -178,29 +218,6 @@ df[df.duplicated(["ID"], keep=False)].sort_values("ID")
 df[df.index.duplicated(keep='first')]
 ```
 
-### Count length of levels of MultiIndex
-
-Ref: [python - Hierarhical Multi-index counts in Pandas - Stack Overflow](https://stackoverflow.com/a/51405700/10668706) 
-
-```python
-df.groupby(level=["ID"]).size()
-df.groupby(level=["ID","Date"]).size()
-
-# example output:
-# ID
-# 01    240
-# 02    240
-# 03    240
-# 04    240
-# 05    240
-#      ... 
-# 55    211
-# 56    211
-# 57    211
-# 59    211
-# 60    211
-# Length: 60, dtype: int64
-```
 
 ## Select things
 
