@@ -233,6 +233,42 @@ df[rating_cols]                     # returns a small df
 df[rating_cols]["rating_2021_1"]    # returns a series
 ```
 
+### Select (filter) rows conditioning on column value
+
+```python
+# only keep rows with certain value for a col
+df_subset = df[df["Status Code"]=="A"]
+
+# only keep rows without certain value for a col
+df_subset = df[df["Status Code"]!="B"]
+```
+
+{{< hint warning >}}
+Sometimes it gives `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`. In that case, try:
+
+Credit: [python - How do I select rows from a DataFrame based on column values? - Stack Overflow](https://stackoverflow.com/a/46165056/10668706)
+{{< /hint >}}
+
+```python
+# only keep rows with certain value for a col
+df_subset = df.query('"Status Code" == "A"')
+
+# only keep rows with certain value for a col
+df_subset = df.query('"Status Code" != "B"')
+```
+
+### Select rows conditioning on cell type
+
+Credit: [python - Select row from a DataFrame based on the type of the object(i.e. str) - Stack Overflow](https://stackoverflow.com/a/39277211/10668706)
+
+```python
+# only keep rows with certain types of value
+df_subset = df[df["Rating"].apply(lambda x: isinstance(x, float))]
+
+# or the opposite
+df_subset = df[df["Rating"].apply(lambda x: not isinstance(x, float))]
+```
+
 
 ## Column-level operations
 
@@ -299,16 +335,6 @@ Credit: [python - Remove pandas rows with duplicate indices - Stack Overflow](ht
 
 ```python
 df = df[~df.index.duplicated(keep='first')]
-```
-
-### Filter rows conditioning on column value
-
-```python
-# only keep rows with certain value for a col
-df_subset = df[df["Status Code"]=="A"]
-
-# only keep rows without certain value for a col
-df_subset = df[df["Status Code"]!="B"]
 ```
 
 ### Long to wide

@@ -145,6 +145,31 @@ ax.xaxis.get_majorticklabels()[1].set_horizontalalignment("right")
 
 Generally the above-mentioned methods will work with adding indices like: `ax[0,1].set_xlabel(r"$x_1$")`, etc.
 
+### Plot into subplots with Seaborn
+
+Ref: [ds-micro-tutorials/data-analysis/subplotting.ipynb](https://github.com/thalesbruno/ds-micro-tutorials/blob/master/data-analysis/subplotting.ipynb)
+
+```python
+fig1, axes1 = plt.subplots(2, 2, figsize=(10, 10))
+fig1.suptitle("Big title")
+
+sns.histplot(ax=axes1[0,0], data=df1, x="Rating", binwidth=0.1)
+axes1[0,0].set_title("Subtitle 1-1")
+
+sns.histplot(ax=axes1[0,1], data=df2, x="Rating", binwidth=0.1)
+axes1[0,1].set_title("Subtitle 1-2")
+
+sns.histplot(ax=axes1[1,0], data=df3, x="Rating", binwidth=0.1)
+axes1[1,0].set_title("Subtitle 2-1")
+
+sns.histplot(ax=axes1[1,1], data=df4, x="Rating", binwidth=0.1)
+axes1[1,1].set_title("Subtitle 2-2")
+
+fig1.tight_layout()
+fig1.savefig(os.path.join("plot", "fig1"))
+fig1.show() # or if in Jupyter: fig1
+```
+
 ### Title
 
 Main title: \([credit](https://stackoverflow.com/a/29814281/10668706)\)
