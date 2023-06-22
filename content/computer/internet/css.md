@@ -571,6 +571,24 @@ ul li strong {
 }
 ```
 
+Range: URLs on the domain: `statsmodels.org`
+
+```css
+/* highlight param names */
+dt strong {
+  color: var(--md-primary-fg-color);
+}
+dt .classifier a {
+  color: unset;
+}
+
+/* unset scroll bar highlight */
+.md-typeset pre > code,
+.md-typeset pre > code:hover {
+  scrollbar-color: unset;
+}
+```
+
 ## Wayback Machine
 
 Range: URLs on the domain: `web.archive.org`
