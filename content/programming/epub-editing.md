@@ -7,7 +7,9 @@ title: "EPUB editing"
 
 ### Vertical align
 
-Method 1: [MobileRead Forums - View Single Post - How do you vertically center a text?](https://www.mobileread.com/forums/showpost.php?p=2616843&postcount=4)
+#### Method 1: Table
+
+Ref: [MobileRead Forums - View Single Post - How do you vertically center a text?](https://www.mobileread.com/forums/showpost.php?p=2616843&postcount=4)
 
 Page code:
 
@@ -69,7 +71,9 @@ CSS:
 }
 ```
 
-Method 2: [Vertically Centered Text in iBooks – EPUBSecrets](https://epubsecrets.com/vertically-centered-text-in-ibooks.php)
+#### Method 2: margin \& transform
+
+Ref: [Vertically Centered Text in iBooks – EPUBSecrets](https://epubsecrets.com/vertically-centered-text-in-ibooks.php)
 
 {{< hint warning >}}
 This method looks good where it works, but looks horrible where it doesn't work. Be aware.
@@ -79,7 +83,7 @@ Page code:
 
 ```html
 <body>
-  <div class="perfect-center">
+  <div class="vertical-center">
     <h1>...</h1>
   </div>
 </body>
@@ -88,11 +92,11 @@ Page code:
 CSS:
 
 ```css
-.perfect-center {
-    margin: 50vh 0 0 0;
-    text-align: center;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+.vertical-center {
+  margin: 50vh 0 0 0;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 ```
 
