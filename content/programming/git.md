@@ -211,17 +211,15 @@ git fetch upstream
 If want to keep all fork commits:
 
 ```shell
-git merge upstream/master master
-
 # resolve all conflicts following the upstream:
 # https://stackoverflow.com/a/10697551
-git merge upstream/master main --allow-unrelated-histories --strategy-option theirs
+git merge upstream/main main --allow-unrelated-histories --strategy-option theirs
 ```
 
 If want clean commit history:
 
 ```shell
-git rebase upstream/master
+git rebase upstream/main
 ```
 
 ### Branches
