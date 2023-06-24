@@ -64,6 +64,20 @@ for attr in dir(results):
 ```
 {{< /details >}}
 
+### Make tables with `stargazer`
+
+Doc \(?\): [mwburke/stargazer: Python implementation of the R stargazer multiple regression model creation tool](https://github.com/mwburke/stargazer)  
+Main examples: [stargazer/examples.ipynb](https://github.com/mwburke/stargazer/blob/master/examples.ipynb)
+
+```python
+from stargazer.stargazer import Stargazer, LineLocation
+
+stargazer = Stargazer([results]) # can have multiple specifications
+# preview table
+stargazer
+# output latex code
+print(stargazer.render_latex())
+```
 
 ### Plots
 
