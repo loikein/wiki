@@ -329,12 +329,26 @@ df_AB = df_A.join(
 )
 ```
 
-### Drop rows with duplicate indices
+### Convert type of columns
+
+```python
+df["Rating"] = df["Rating"].astype('float')
+```
+
+### Drop things
+
+Rows with duplicate indices:
 
 Credit: [python - Remove pandas rows with duplicate indices - Stack Overflow](https://stackoverflow.com/questions/13035764/remove-pandas-rows-with-duplicate-indices)
 
 ```python
 df = df[~df.index.duplicated(keep='first')]
+```
+
+Columns:
+
+```python
+df = df.drop("drop", axis=1)
 ```
 
 ### Long to wide
@@ -465,6 +479,19 @@ Normal column:
 
 ```python
 df = df.rename(columns={"A": "a", "B": "c"})
+```
+
+Batch rename columns:
+
+```python
+# with string operation
+df = df.rename(columns=lambda x: x.replace("_FINAL", ""))
+df = df.rename(columns=lambda x: x+"_PERC")
+
+# with regex
+# https://stackoverflow.com/a/26500249/10668706
+import re
+df = df.rename(columns=lambda x: re.sub(" $", "", x))
 ```
 
 ### Replace cells by value
