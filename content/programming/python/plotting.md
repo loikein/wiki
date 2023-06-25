@@ -5,6 +5,10 @@ title: "Plotting"
 
 # Plotting
 
+{{< hint info >}}
+`seaborn` depends on `matplotlib`.
+{{< /hint >}}
+
 ## General
 
 Start plotting:

@@ -13,7 +13,7 @@ description: "Real problems and real solutions."
 Doc: [pandas.read_excel — pandas 2.0.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)
 
 {{< hint info >}}
-Needs to have `openpyxl` in the environment.
+Extra dependency: `openpyxl`
 {{< /hint >}}
 
 Read sheet:
@@ -76,7 +76,7 @@ df = pd.read_csv(
 #### `pandas-ods-reader`
 
 {{< hint info >}}
-Needs to have [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml` in the environment.
+Extra dependency: [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml`
 {{< /hint >}}
 
 {{< hint warning >}}
@@ -98,7 +98,7 @@ df = read_ods(
 #### `pd.read_excel`
 
 {{< hint info >}}
-Needs to have `odfpy` in the environment.
+Extra dependency: `odfpy`
 {{< /hint >}}
 
 {{< hint warning >}}
@@ -131,7 +131,7 @@ df = pd.read_excel(
 
 If get `UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position xx: invalid start byte`, try: \([credit](https://stackoverflow.com/a/46000253)\)
 
-```python
+```python {hl_lines="3"}
 df = pd.read_csv(
     os.path.join("data", "data.csv"), # read ./data/data.csv
     encoding="cp1252",
