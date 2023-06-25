@@ -90,14 +90,26 @@ Ref: [tableofcontents - Latex: Citations in section headings put into table of c
 \section[Section title for running heading]{Section title with citation \cite{key}}
 ```
 
+## Cleveref
+
+```latex
+\usepackage{hyperref}
+\usepackage[nameinlink]{cleveref}
+
+\begin{document}
+\Cref{fig:1} is capitalised, and \cref{fig:1} is not capitalised.
+\end{document}
+```
+
 ## Cross-referencing
 
 ### Bookmarks
 
-Section numbers in PDF bookmarks:
+Section numbers in PDF bookmarks: \(one of them will work depending on your styles\)
 
 ```latex
 \usepackage[numbered]{bookmark}
+\usepackage[bookmarksnumbered]{hyperref}
 ```
 
 ### Equations \& sections
@@ -166,11 +178,51 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 
 > TBE!!
 
-## Subplots
+## Pages
+
+### Reset page number at appendix
+
+```latex
+\usepackage{appendixnumberbeamer}
+
+\begin{document}
+  Words.
+
+  \appendix
+
+  Less important words.
+\end{document}
+```
+
+## Plots/Images
+
+### Full image
+
+If want to control width:
+
+```latex {hl_lines="3"}
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth,keepaspectratio]{figure/great-pic-1.png}
+  \caption{A good picture.}
+  \label{fig:great-pic-1}
+\end{figure}
+```
+
+<!-- If want to control height:
+
+```latex {hl_lines="3"}
+\begin{figure}
+  \centering
+  \includegraphics[height=\textheight,keepaspectratio]{figure/great-pic-1.png}
+  \caption{A good picture.}
+  \label{fig:great-pic-1}
+\end{figure}
+``` -->
 
 ### Vertical subplots
 
-```latex  {hl_lines=[5,10]}
+```latex {hl_lines=[5,10]}
 \usepackage{subcaption}
 
 \begin{document}
@@ -200,22 +252,26 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 \end{document}
 ```
 
-## Pages
+## Tables
 
-### Reset page number at appendix
+### Shrink tables that are too big
 
-```latex
-\usepackage{appendixnumberbeamer}
+Ref: [scaling - Is there a way to slightly shrink a table, including font size, to fit within the column boundaries? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/10865)
 
-\begin{document}
-  Words.
+My setup somehow does not like `adjustbox` or `\resizebox`. Will update if tested.
 
-  \appendix
+```latex {hl_lines=[5,9]}
+\usepackage{graphicx}
 
-  Less important words.
-\end{document}
+\begin{table} \centering
+\caption{Great table}\label{tab:great-table}
+\scalebox{0.85}{%
+\begin{tabular}
+...
+\end{tabular}
+}
+\end{table}
 ```
-
 
 
 ## Newer and better environment defaults
@@ -246,5 +302,4 @@ Make LaTeX more willing to break line \([Ref](https://tex.stackexchange.com/a/12
 
 ## Remotely related: fuse Markdown with LaTeX
 
-- [以 Markdown 撰写文稿，以 LaTeX 排版 | 始终](https://liam.page/2020/03/30/writing-manuscript-in-Markdown-and-typesetting-with-LaTeX/index.html) 
 - [Markdown 写作，Pandoc 转换：我的纯文本学术写作流程 - 少数派](https://sspai.com/post/64842)
