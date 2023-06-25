@@ -25,14 +25,13 @@ lualatex -synctex=1 -interaction=nonstopmode
 ```latex
 \documentclass{article}
 
-\renewcommand\markdownLaTeXRendererDirectOrIndirectLink[4]{%
-  \href{#3}{#1}%
-}
-
 \usepackage{markdown}
 \markdownSetup{
   footnotes = true,
   inlineFootnotes = true,
+  renderers = {
+    link = {\href{#3}{#1}},
+  },
 }
 
 \title{Weekly Report}
