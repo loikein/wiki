@@ -1,7 +1,6 @@
 ---
-title: Home
+title: "Introduction"
 ---
-
 # Introduction
 
 My personal wiki, cheat sheet, knowledge base…  
