@@ -9,10 +9,12 @@ title: "LaTeX Maths"
 
 Ref: [Mathematical fonts - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Mathematical_fonts)
 
-Bold: `$\mathbf{RQSZN}$`, `$\mathbf{1}$`
+Bold: `$\mathbf{RQSZN}$`, `$\mathbf{1}$`, `$\boldsymbol{\beta}$`
 
 ```latex
 \mathbf{X}
+\mathbf{1}
+\boldsymbol{\beta}    % requires amsbsy package % https://tex.stackexchange.com/a/99286
 ```
 
 Bold hollow: `$\mathbb{RQSZN}$` (for numbers [extra packages are needed](https://tex.stackexchange.com/a/583600))

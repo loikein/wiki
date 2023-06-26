@@ -36,7 +36,7 @@ When `! LaTeX Error: Option clash for package xcolor` \([credit](https://tex.sta
 
 Or: Arara
 
-## Files control
+## Files control/subfiles
 
 ```text
 .
@@ -75,12 +75,34 @@ For example, in `main.tex`:
 \end{document}
 ```
 
-In `hapters/intro.tex` \(first line of file\):
+In `chapters/intro.tex` \(first line of file\):
 
 ```tex
 %!TEX root = ../main.tex
 ```
 
+### Prevent page breaks around subfiles
+
+**Way 1:** use `\input` \([credit](https://stackoverflow.com/a/1210233/10668706)\)
+
+```latex
+\input{file1}
+\input{file2}
+```
+
+**Way 2:** use `\include` \([credit](https://stackoverflow.com/a/10066885/10668706)\)
+
+{{< hint warning >}}
+This method breaks all  cleveref references pointing to labels inside the subfiles. Don't know about normal references.
+{{< /hint >}}
+
+```latex
+\begingroup
+\let\clearpage\relax
+\include{file1}
+\include{file2}
+\endgroup
+```
 
 ## Citation in section title
 
@@ -178,7 +200,7 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 
 > TBE!!
 
-## Pages
+## Page number
 
 ### Reset page number at appendix
 
@@ -254,13 +276,29 @@ If want to control width:
 
 ## Tables
 
+### Make table sideways
+
+```latex {hl_lines=[1,3,10]}
+\usepackage{lscape}
+
+\begin{landscape}
+\begin{table} \centering
+\caption{Great table}\label{tab:great-table}
+\begin{tabular}
+...
+\end{tabular}
+\end{table}
+\end{landscape}
+```
+
+
 ### Shrink tables that are too big
 
 Ref: [scaling - Is there a way to slightly shrink a table, including font size, to fit within the column boundaries? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/10865)
 
 My setup somehow does not like `adjustbox` or `\resizebox`. Will update if tested.
 
-```latex {hl_lines=[5,9]}
+```latex {hl_lines=[1,5,9]}
 \usepackage{graphicx}
 
 \begin{table} \centering
@@ -269,7 +307,7 @@ My setup somehow does not like `adjustbox` or `\resizebox`. Will update if teste
 \begin{tabular}
 ...
 \end{tabular}
-}
+}% end scalebox
 \end{table}
 ```
 

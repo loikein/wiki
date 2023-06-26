@@ -42,9 +42,11 @@ lualatex -synctex=1 -interaction=nonstopmode
 \begin{markdown}
 # Section title
 
-Things ^[Footnotes], [links](#) [^2]
+Things ^[Footnotes], [links](#) [^2][^3]
 
 [^2]: More footnotes.
+
+[^3]: Must have line breaks in-between footnotes.
 \end{markdown}
 \end{document}
 ```

@@ -120,7 +120,7 @@ kbd {
 
 .highlight > .chroma,
 .gist-data {
- max-height: 271px;
+ max-height: 256px;
  overflow: auto;
 }
 
