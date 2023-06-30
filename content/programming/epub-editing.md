@@ -75,7 +75,7 @@ CSS:
 Ref: [Vertically Centered Text in iBooks – EPUBSecrets](https://epubsecrets.com/vertically-centered-text-in-ibooks.php)
 
 {{< hint warning >}}
-This method looks good where it works, but looks horrible where it doesn't work. Be aware.
+This method looks good when it works, but horrible when it doesn't work. Be aware.
 {{< /hint >}}
 
 Page code:

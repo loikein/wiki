@@ -74,6 +74,50 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
 ## blogdown::install_theme("loikein/hugo-lithium-loikein", force=T)
 ```
 
+## Migrate from Blogdown to Hugo
+
+**Step 1. Get .md version of all .Rmd files**
+
+1. Delete all .html files in `site/content/`; delete the `site/public/` folder
+2. Add `options(blogdown.method = "markdown")` to `site/.Rprofile`
+3. Restart R (`quit()`)
+4. Run `blogdown::serve_site()` (slow if you have a lot of pages)
+5. After the run finishes, run `blogdown::stop_server()`
+
+**Step 2. Test on local Hugo server**
+
+1. Add `ignoreFiles: - ".Rmd$"` to `site/config.yaml`
+2. Add TOC: in `site/themes/hugo-theme/layouts/_default/single.html`, add:
+
+```html {hl_lines="2-4"}
+    <div class="article-content">
+      {{- if ne .Params.toc false -}}
+      <div id="TOC">{{ .TableOfContents }}</div>
+      {{- end -}}
+      {{ .Content }}
+    </div>
+```
+
+{{< hint warning >}}
+I just cannot make the `output - blogdown::html_page: - toc` param work seamlessly after many tries.
+{{< /hint >}}
+
+**Step 3. Adjust CSS**
+
+1. CSS for code blocks may appear weird
+
+**Step 4. Keep track of LaTeX**
+
+1. `latex-fix.js`
+2. Note that any `- `, `+ `, or `> ` at beginnings of lines will break the LaTeX block it is in. Need to remove those spaces. (A not-very-good-RegEx for this: ``(`\$\$)((.*\n)*)(-\s.*)((.*\n)*)(\$\$`)``)
+3. There are cases where the LaTeX code lose the `` ` `` (around or on one side of them) consistently. Need to check for those: \(best way is on Hugo local server\)
+    - LaTeX surrounded by space (e.g. starts with <code class="nolatex"> $$</code> or ends with <code class="nolatex">$$ </code>)
+    - LaTeX surrounded by brackets (e.g. starts with <code class="nolatex">($$</code>, <code class="nolatex">($</code>, or <code class="nolatex">(\(</code>; or ends with <code class="nolatex">$$)</code>, <code class="nolatex">$)</code>, or <code class="nolatex">\))</code>)
+
+
+**Step 5. Done!**
+
+
 ## Add custom CSS (site)
 
 过程：[如何在 Hugo 中添加自定义 CSS - 此生未命名／Untitled Life](https://playground.loikein.one/hugo-diary-public/posts/2021-04-26-hugo-custom-css-the-right-way/)
