@@ -4,8 +4,7 @@ title: "Markdown in LaTeX"
 ---
 
 {{< hint warning >}}
-After everything below, I have decided that this package is not yet fully production-ready, and am only using it for snippets (lists for example).
-I will leave my notes here for future reference.
+After the experiments below, I have decided that this package is not yet fully production-ready, and am now only using it for snippets (e.g. lists). May come back and re-evaluate in the future.
 {{< /hint >}}
 
 - [CTAN: Package markdown](https://ctan.org/pkg/markdown)
