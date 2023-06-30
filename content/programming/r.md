@@ -2,8 +2,6 @@
 title: "R"
 ---
 
-# R
-
 {{< hint warning >}}
 I have not used R for a long time. Proceed at your own risk.
 {{< /hint >}}

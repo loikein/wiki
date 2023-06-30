@@ -3,8 +3,6 @@ weight: 100
 title: "Search the Internet"
 ---
 
-# Search the Internet
-
 Refs:
 
 - [Internet Search Tips · Gwern.net](https://www.gwern.net/Search)

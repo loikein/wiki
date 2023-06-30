@@ -3,9 +3,6 @@ weight: 400
 title: "Pleroma"
 ---
 
-
-# Pleroma
-
 ## Installation on Raspberry Pi
 
 Mostly following [Pleroma and Mastodon on the Raspberry Pi 3 · wimvanderbauwhede/limited-systems Wiki](https://github.com/wimvanderbauwhede/limited-systems/wiki/Pleroma-and-Mastodon-on-the-Raspberry-Pi-3).

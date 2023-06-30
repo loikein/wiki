@@ -2,8 +2,6 @@
 title: "Hugo/Blogdown"
 ---
 
-# Hugo/Blogdown
-
 ## Hugo basics
 
 [Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)

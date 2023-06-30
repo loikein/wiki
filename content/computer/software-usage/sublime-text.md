@@ -3,8 +3,6 @@ weight: 400
 title: "Sublime Text 3 & 4"
 ---
 
-# Sublime Text 3 & 4
-
 ## Settings
 
 <!-- <span class="gist__name">Preferences.sublime-settings<span class="gist__name--lang">json</span></span> -->

@@ -3,8 +3,6 @@ weight: 100
 title: "Anaconda/Miniconda"
 ---
 
-# Anaconda/Miniconda
-
 References:
 
 - [conda 4.8.3.post170+49783e80 documentation](https://docs.conda.io/projects/conda/en/latest/index.html)

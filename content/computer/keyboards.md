@@ -3,8 +3,6 @@ weight: 10
 title: "Keyboard Stuff"
 ---
 
-# Keyboard Stuff
-
 ## General Shortcuts
 
 - macOS: {{< kbd `delete` >}} key functions as {{< kbd `backspace` >}} (Windows), {{< kbd `fn`  `delete` >}} function as {{< kbd `del` >}} (Windows).

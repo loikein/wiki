@@ -2,8 +2,6 @@
 title: "Jekyll"
 ---
 
-# Jekyll
-
 References:
 
 - [Quickstart | Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/)

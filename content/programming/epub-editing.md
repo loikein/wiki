@@ -1,7 +1,6 @@
 ---
 title: "EPUB editing"
 ---
-# EPUB editing
 
 ## Alignment
 

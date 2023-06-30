@@ -2,8 +2,6 @@
 title: "Git"
 ---
 
-# Git
-
 References:
 
 - [Version Control (Git) · the missing semester of your cs education](https://missing.csail.mit.edu/2020/version-control/)

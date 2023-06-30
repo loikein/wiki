@@ -3,8 +3,6 @@ weight: 500
 title: "Jupyter Notebook/Lab"
 ---
 
-# Jupyter Notebook / Lab
-
 ## Basics
 
 Convert to HTML:

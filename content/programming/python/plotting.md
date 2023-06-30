@@ -3,8 +3,6 @@ weight: 700
 title: "Plotting"
 ---
 
-# Plotting
-
 {{< hint info >}}
 `seaborn` depends on `matplotlib`.
 {{< /hint >}}

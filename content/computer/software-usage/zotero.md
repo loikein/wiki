@@ -3,8 +3,6 @@ weight: 400
 title: "Zotero"
 ---
 
-# Zotero
-
 ## Useful commands
 
 > [How can I see what collections my item is in? [Zotero Documentation]](https://www.zotero.org/support/kb/collections_containing_an_item)

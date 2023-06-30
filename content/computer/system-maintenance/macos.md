@@ -3,8 +3,6 @@ weight: 3
 title: "macOS"
 ---
 
-# macOS Maintenance
-
 ## Useful Software
 
 ### Setting

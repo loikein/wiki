@@ -3,8 +3,6 @@ weight: 300
 title: "Media Related Commands"
 ---
 
-# Media Related Shell Commands
-
 ## dwebp
 
 Online manual: [dwebp(1) — Arch manual pages](https://man.archlinux.org/man/dwebp.1.en)

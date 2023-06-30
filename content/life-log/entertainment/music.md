@@ -3,8 +3,6 @@ weight: 400
 title: "Music"
 ---
 
-# Music
-
 Songs & musicians that I like, currently only contains migration from [Online Videos](online-videos.md).
 
 TODO: Add Spotify & other playlists.

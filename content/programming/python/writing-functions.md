@@ -2,7 +2,6 @@
 weight: 301
 title: "Writing functions"
 ---
-# Writing Python functions
 
 
 ## `*args` vs `**kwargs`

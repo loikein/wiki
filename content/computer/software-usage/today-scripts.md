@@ -2,7 +2,6 @@
 weight: 400
 title: "Today-Scripts"
 ---
-# Today-Scripts
 
 {{< hint danger >}}
 This programme stopped working after upgrading to macOS 10.12 (Sierra). I collect these scripts here only gfor future reference purpose.

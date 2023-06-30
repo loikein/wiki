@@ -3,8 +3,6 @@ weight: 200
 title: "Web Fictions"
 ---
 
-# Web Fictions
-
 TODO: Dump Apple note.
 
 <!-- DONE: Move from Saowen. -->

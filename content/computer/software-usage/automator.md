@@ -2,7 +2,6 @@
 weight: 400
 title: "Automator & AppleScript"
 ---
-# Automator & AppleScript
 
 For anyone who wants to learn this particular art, please read first:  
 [Daring Fireball: The English-Likeness Monster](https://daringfireball.net/2005/09/englishlikeness_monster)

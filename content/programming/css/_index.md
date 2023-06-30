@@ -2,7 +2,6 @@
 bookCollapseSection: true
 title: CSS
 ---
-# CSS
 
 My notes on CSS & HTML from ages ago \(in Japanese\): [notes: html 5 & css 3](https://gist.github.com/loikein/8af785feed5a265ca0cd936299178902)
 

@@ -3,8 +3,6 @@ weight: 800
 title: "rpy2"
 ---
 
-# rpy2
-
 ## References
 
 [rpy2 3.3.1 documentation](https://rpy2.github.io/doc/latest/html/index.html)

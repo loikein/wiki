@@ -3,8 +3,6 @@ weight: 10
 title: "Markdown tests"
 ---
 
-# Markdown tests
-
 ## Normal tests
 
 Begin [test file](https://gist.github.com/loikein/27ef6913386b206d1b3c18b8e93c5768)…

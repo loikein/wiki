@@ -3,9 +3,6 @@ weight: 900
 title: "Other macOS Software"
 ---
 
-
-# Other macOS Software
-
 Programmes that I love or cannot use my Mac without. 
 
 Also see [macOS Maintenance \#Useful Software](../system-maintenance/macos.md#useful-software).

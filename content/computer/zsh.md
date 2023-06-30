@@ -3,8 +3,6 @@ weight: 20
 title: "Zsh"
 ---
 
-# Zsh
-
 <!-- TODO: explain my .zshrc line-by-line. -->
 
 My notes on Unix/shell basics from ages ago \(in Chinese\): [notes: bash](https://gist.github.com/loikein/f7f1e470426c685a1c920c4b944e6c55)

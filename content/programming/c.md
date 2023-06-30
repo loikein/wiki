@@ -1,7 +1,6 @@
 ---
 title: "C/C++"
 ---
-# C/C++
 
 {{< hint danger >}}
 I have stopped using C. Proceed at your own risk.

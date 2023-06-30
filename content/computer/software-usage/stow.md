@@ -3,7 +3,6 @@ weight: 400
 title: "stow"
 description: "Best dotfile manager ever."
 ---
-# stow
 
 If you do not know what is a dotfile, see: [Dotfiles – What is a Dotfile and How to Create it in Mac and Linux](https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/)
 

@@ -2,7 +2,6 @@
 weight: 300
 title: "Bookmarklet"
 ---
-# Bookmarklet
 
 todo: move from [loikein/geeky-bookmarklet-collection: a collection of random bookmarklets](https://github.com/loikein/geeky-bookmarklet-collection)
 

@@ -2,7 +2,6 @@
 weight: 400
 title: "Typora"
 ---
-# Typora
 
 {{< hint danger >}}
 I have stopped using Typora. Proceed at your own risk.

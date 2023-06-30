@@ -3,9 +3,6 @@ weight: 300
 title: "IKEA Essentials"
 ---
 
-
-# IKEA Essentials
-
 ## Template
 
 | Image | Label | Article Name | Article Number | Price | Link |

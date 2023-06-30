@@ -3,8 +3,6 @@ weight: 500
 title: "Markdown in LaTeX"
 ---
 
-# Markdown in LaTeX
-
 {{< hint warning >}}
 After everything below, I have decided that this package is not yet fully production-ready, and am only using it for snippets (lists for example).
 I will leave my notes here for future reference.

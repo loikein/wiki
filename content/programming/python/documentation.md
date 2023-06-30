@@ -3,8 +3,6 @@ weight: 200
 title: "Documentation"
 ---
 
-# Documentation
-
 ## References
 
 Documentation:

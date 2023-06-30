@@ -4,8 +4,6 @@ title: "Pandas"
 description: "Real problems and real solutions."
 ---
 
-# Pandas
-
 ## Import Data
 
 ### Excel

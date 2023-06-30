@@ -3,8 +3,6 @@ weight: 650
 title: "Regression"
 ---
 
-# Regression
-
 ## Regression with `statsmodels`
 
 [statsmodels 0.14.0](https://www.statsmodels.org/stable/index.html)

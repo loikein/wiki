@@ -3,8 +3,6 @@ weight: 200
 title: "LaTeX Maths"
 ---
 
-# LaTeX Maths
-
 ## Math Fonts
 
 Ref: [Mathematical fonts - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Mathematical_fonts)

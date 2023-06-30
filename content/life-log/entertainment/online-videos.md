@@ -3,8 +3,6 @@ weight: 700
 title: "Online Videos"
 ---
 
-# Online Videos
-
 References: 
 
 - [Is there any way to force subtitles in a YouTube video? \- Web Applications Stack Exchange](https://webapps.stackexchange.com/questions/27669/is-there-any-way-to-force-subtitles-in-a-youtube-video)

@@ -2,7 +2,6 @@
 weight: 300
 title: "Userscript"
 ---
-# Userscript
 
 For the list of supported browsers, see [Greasy Fork #Step 1: install a user script manager](https://greasyfork.org/en#home-step-1).
 

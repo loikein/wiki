@@ -2,7 +2,6 @@
 weight: 400
 title: "Homebrew"
 ---
-# Homebrew
 
 ## Brewfile
 

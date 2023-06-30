@@ -3,8 +3,6 @@ weight: 100
 title: "LaTeX Document"
 ---
 
-# LaTeX Document
-
 ## Debugging (in Shell)
 
 Find out the current version of LaTeX: \([credit](https://superuser.com/a/492743)\)

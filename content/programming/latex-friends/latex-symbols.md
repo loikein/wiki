@@ -3,9 +3,6 @@ weight: 300
 title: "LaTeX Symbols"
 ---
 
-
-# LaTeX Symbols
-
 Big ref:
 
 - [Detexify LaTeX handwritten symbol recognition](https://detexify.kirelabs.org/classify.html)

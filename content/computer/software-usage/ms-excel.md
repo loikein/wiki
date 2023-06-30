@@ -3,8 +3,6 @@ weight: 400
 title: "Microsoft Excel"
 ---
 
-# Microsoft Excel
-
 [Syntax highlighting for Excel Formulae - language suggestions - Meta Stack Exchange](https://meta.stackexchange.com/questions/362351/syntax-highlighting-for-excel-formulae-language-suggestions) (Using `scala` here.)
 
 ## Reference

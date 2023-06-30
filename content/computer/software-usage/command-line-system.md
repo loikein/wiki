@@ -3,8 +3,6 @@ weight: 100
 title: "System & Web Related Commands"
 ---
 
-# System & Internet Related Shell Commands
-
 References:
 
 - [The Linux man-pages project](https://www.kernel.org/doc/man-pages/)

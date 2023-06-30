@@ -3,8 +3,6 @@ weight: 200
 title: "Electronics"
 ---
 
-# Electronics
-
 ## Communications Devices
 
 - iPhone \* 1

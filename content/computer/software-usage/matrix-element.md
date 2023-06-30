@@ -4,8 +4,6 @@ title: "Matrix/Element"
 description: "Best dotfile manager ever."
 ---
 
-# Matrix / Element
-
 ## Element
 
 `/help`:

@@ -1,7 +1,6 @@
 ---
 title: "Introduction"
 ---
-# Introduction
 
 My personal wiki, cheat sheet, knowledge base…  
 Everything is written in the language in which I think about the topic.

@@ -3,8 +3,6 @@ weight: 400
 title: "tmux"
 ---
 
-# tmux
-
 References:
 
 - [Command-line Environment · the missing semester of your cs education](https://missing.csail.mit.edu/2020/command-line/#terminal-multiplexers)

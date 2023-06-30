@@ -2,7 +2,6 @@
 weight: 300
 title: "Browser extension"
 ---
-# Browser extension
 
 Todo: move from [Firefox ](/computer/software-usage/firefox/) and unify other browsers.
 

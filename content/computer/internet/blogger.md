@@ -2,8 +2,6 @@
 weight: 400
 title: "Blogger"
 ---
-# Blogger
-
 {{< hint danger >}}
 I have stopped using Blogger. Proceed at your own risk.
 {{< /hint >}}

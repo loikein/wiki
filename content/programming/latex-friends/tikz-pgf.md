@@ -3,8 +3,6 @@ weight: 600
 title: "TikZ/PGF"
 ---
 
-# TikZ/PGF
-
 TBE
 
 [pgfplots - Graph a piecewise function with a jump - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/531964/)

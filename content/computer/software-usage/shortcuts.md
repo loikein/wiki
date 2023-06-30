@@ -2,7 +2,6 @@
 weight: 400
 title: "Shortcuts (Workflow)"
 ---
-# Shortcuts (originally Workflow)
 
 I have not decided how I would display my Shortcuts. Maybe something like this, but it's way too image-heavy in my opinion:
 

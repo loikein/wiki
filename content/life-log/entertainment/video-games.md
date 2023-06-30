@@ -3,8 +3,6 @@ weight: 800
 title: "Video Games"
 ---
 
-# Video Games
-
 ## Template
 
 | Title | Platform (that I used) | Studio/Developer | Release Year | Link | Progress/Finish date | Rating | Review |

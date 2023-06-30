@@ -3,9 +3,6 @@ weight: 400
 title: "Vim"
 ---
 
-
-# Vim
-
 References:
 
 - [Editors (Vim) · the missing semester of your cs education](https://missing.csail.mit.edu/2020/editors/)

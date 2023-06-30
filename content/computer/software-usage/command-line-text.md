@@ -3,8 +3,6 @@ weight: 200
 title: "Text Related Commands"
 ---
 
-# Text Related Shell Commands
-
 Benchmark for some of the examples:
 
 ```bash

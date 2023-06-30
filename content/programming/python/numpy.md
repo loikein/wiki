@@ -3,8 +3,6 @@ weight: 600
 title: "Numpy"
 ---
 
-# Numpy
-
 ## Array
 
 Make array of five 0's:

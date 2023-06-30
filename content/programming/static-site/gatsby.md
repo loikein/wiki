@@ -2,8 +2,6 @@
 title: "Gatsby"
 ---
 
-# Gatsby
-
 References:
 
 - [Quick Start | GatsbyJS](https://www.gatsbyjs.org/docs/quick-start/)

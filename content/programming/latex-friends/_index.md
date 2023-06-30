@@ -3,8 +3,6 @@ bookCollapseSection: true
 title: "LaTeX"
 ---
 
-# LaTeX
-
 <style>
   .katex-version {display: none;}
   .katex-version::after {content:"0.10.2 or earlier";}

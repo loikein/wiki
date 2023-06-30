@@ -2,7 +2,6 @@
 weight: 400
 title: "Ulysses"
 ---
-# Ulysses
 
 {{< hint danger >}}
 I have stopped using Ulysses. Proceed at your own risk.

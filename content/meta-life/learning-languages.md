@@ -3,8 +3,6 @@ weight: 20
 title: "学习语言"
 ---
 
-# 学习语言
-
 ## 各语言笔记
 
 - 英语：[如何学英语（大概）](https://blog.loikein.one/posts/2022-10-31-how-i-learn-english/)

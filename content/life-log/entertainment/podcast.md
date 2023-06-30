@@ -3,8 +3,6 @@ weight: 300
 title: "Podcast"
 ---
 
-# Podcast
-
 My overview of podcast: [播客世界的邀请函：听播客，发现新播客，用播客改善生活](https://blog.loikein.one/2020/05/blog-post_51.html)
 
 ## Template

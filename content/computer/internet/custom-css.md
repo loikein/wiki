@@ -2,7 +2,6 @@
 weight: 200
 title: "Custom CSS"
 ---
-# Custom CSS
 
 For usage see: [Browser extension #Customise the web](/computer/internet/browser-extension/#customise-the-web)
 
