@@ -3,6 +3,11 @@ weight: 100
 title: "SCSS"
 ---
 
+Refs:
+
+- [Nesting in Sass and Less | @mdo](https://markdotto.com/2015/07/20/css-nesting/)
+- [Extending CSS With Sass | Ariel Salminen](https://arie.ls/2012/extending-css-with-sass/)
+
 ## Maps
 
 The following is taken from [hugo-book theme](https://github.com/loikein/hugo-book/tree/master), written by [Alex Shpak](https://github.com/alex-shpak).

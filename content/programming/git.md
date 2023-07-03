@@ -378,13 +378,14 @@ git submodule status
 
 ### Edit
 
-Make changes to submodules without committing: (in `.gitmodules`)
+Make changes to submodules (in `.gitmodules`), then do `git submodule update --init --recursive --remote` \([credit](https://stackoverflow.com/a/66200354)\)
 
 ```diff
 [submodule "something"]
     path = something
     url = https://github.com/something/something.git
 +   ignore = untracked
++   branch = new-branch
 ```
 
 Change the directory name for a submodule: \([credit](https://stackoverflow.com/a/5540263/10668706)\)
