@@ -87,7 +87,7 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
 **Step 2. Test on local Hugo server**
 
 1. Add `ignoreFiles: - ".Rmd$"` to `site/config.yaml`
-2. Add TOC: in `site/themes/hugo-theme/layouts/_default/single.html`, add:
+2. Add TOC to layout: in `site/themes/hugo-theme/layouts/_default/single.html`, add:
 
 ```html {hl_lines="2-4"}
     <div class="article-content">
@@ -102,20 +102,37 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
 I just cannot make the `output - blogdown::html_page: - toc` param work seamlessly after many tries.
 {{< /hint >}}
 
-**Step 3. Adjust CSS**
+**Step 3. Markdown, HTML & Config  changes**
 
-1. CSS for code blocks may appear weird
+1. Footnotes are inline \(`^[…]`\), which is [not supported by goldmark](https://github.com/yuin/goldmark/issues/47).
+1. All titles used to be `<div><h?>…</h?></div>`, now are just `<h?>…</h?>`.
+1. Code blocks may appear weird because Blogdown used highlight.js. Add `markup: highlight: codeFences: false` in `config.yaml` \(per [wowchemy/wowchemy-hugo-themes Issue #1496](https://github.com/wowchemy/wowchemy-hugo-themes/issues/1496)\).
 
-**Step 4. Keep track of LaTeX**
+**Step 4. Keep track of LaTeX in .md files**
 
-1. `latex-fix.js`
+1. Make sure to check `themes/hugo-theme/static/js/math-code.js`.
+    1. Bonus: add `nolatex` support ([L5 of loikein/hugo-book/assets/latex-fix.js](https://github.com/loikein/hugo-book/blob/master/assets/latex-fix.js#L5))
 2. Note that any `- `, `+ `, or `> ` at beginnings of lines will break the LaTeX block it is in. Need to remove those spaces. (A not-very-good-RegEx for this: ``(`\$\$)((.*\n)*)(-\s.*)((.*\n)*)(\$\$`)``)
 3. There are cases where the LaTeX code lose the `` ` `` (around or on one side of them) consistently. Need to check for those: \(best way is on Hugo local server\)
     - LaTeX surrounded by space (e.g. starts with <code class="nolatex"> $$</code> or ends with <code class="nolatex">$$ </code>)
     - LaTeX surrounded by brackets (e.g. starts with <code class="nolatex">($$</code>, <code class="nolatex">($</code>, or <code class="nolatex">(\(</code>; or ends with <code class="nolatex">$$)</code>, <code class="nolatex">$)</code>, or <code class="nolatex">\))</code>)
 
+**Step 5. Debugging for Netlify**
 
-**Step 5. Done!**
+1. I had to remove the following files to resolve Netlify building error: `Failed during stage 'preparing repo': error checking for ref: refs/heads/hugo: : exit status 2`
+
+```text
+ 7 files changed, 131 deletions(-)
+ delete mode 100644 .Rhistory
+ delete mode 100644 .Rprofile
+ delete mode 100644 R/build.R
+ delete mode 100644 blogdown-site.Rproj
+ delete mode 100644 content/post/.Rhistory
+ delete mode 100644 ignored/static-writings/Makefile
+ delete mode 100644 ignored/static-writings/_render.R
+```
+
+**Step 6. Done!**
 
 
 ## Add custom CSS (site)
