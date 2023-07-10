@@ -6,8 +6,15 @@ title: "EPUB editing"
 
 ### Vertical align
 
-#### Method 1: Table
+[html - How do I vertically center text with CSS? - Stack Overflow](https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css)
 
+
+{{< details "Method: `padding-top: 25vh`" >}}
+TBE
+
+{{< /details >}}
+
+{{< details "Method: table" >}}
 Ref: [MobileRead Forums - View Single Post - How do you vertically center a text?](https://www.mobileread.com/forums/showpost.php?p=2616843&postcount=4)
 
 Page code:
@@ -69,9 +76,11 @@ CSS:
   text-indent: 0;
 }
 ```
+{{< /details >}}
 
-#### Method 2: margin \& transform
 
+
+{{< details "Method: margin \& transform" >}}
 Ref: [Vertically Centered Text in iBooks – EPUBSecrets](https://epubsecrets.com/vertically-centered-text-in-ibooks.php)
 
 {{< hint warning >}}
@@ -98,6 +107,8 @@ CSS:
   transform: translateY(-50%);
 }
 ```
+{{< /details >}}
+
 
 ## Image sizing
 
@@ -168,3 +179,10 @@ span.chapter-emoji-wrapper svg {
   padding: 0;
 }
 ```
+
+## Footnotes
+
+Refs:
+
+- [Apple Books Pop-up Footnotes](https://help.apple.com/itc/booksassetguide/en.lproj/itccf8ecf5c8.html)
+- [FR: "Show endnotes as footnotes." · Issue #9780 · koreader/koreader](https://github.com/koreader/koreader/issues/9780)
