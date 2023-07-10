@@ -7,7 +7,7 @@
 
 .copy-code-button {
   color: black;
-  background-color: rgba(255,255,255,50%);
+  background-color: rgba(255, 255, 255, 50%);
   border: none;
   border-radius: 6px;
   padding: 5px 5px 2px 5px;
@@ -21,16 +21,16 @@
   opacity: 0.5;
 }
 
-.copy-code-button > svg {
+.copy-code-button>svg {
   fill: black;
 }
 
 .copy-code-button:hover,
 .copy-code-button:focus,
-pre:active ~ .copy-code-button,
-pre:focus ~ .copy-code-button,
-div.highlight:active > .copy-code-button,
-div.highlight:focus > .copy-code-button {
+pre:active~.copy-code-button,
+pre:focus~.copy-code-button,
+div.highlight:active>.copy-code-button,
+div.highlight:focus>.copy-code-button {
   cursor: pointer;
   opacity: 1;
 }

@@ -24,7 +24,7 @@
   border-left: 1px solid rgb(227, 232, 237);
 }
 
-@media screen and (min-width: 80rem){
+@media screen and (min-width: 80rem) {
   .book-page,
   .book-menu .book-menu-content,
   .book-toc .book-toc-content {
@@ -32,12 +32,12 @@
   }
 }
 
-@media screen and (max-width: 56rem){
+@media screen and (max-width: 56rem) {
   .book-menu {
     /* margin-inline-start: -18rem; */
   }
 
-  #menu-control:checked ~ main .book-menu .book-menu-content {
+  #menu-control:checked~main .book-menu .book-menu-content {
     /* transform: translateX(18rem); */
   }
 
@@ -48,12 +48,17 @@
     z-index: 1;
   }
 
-  #toc-control:checked ~ .book-toc {
+  #toc-control:checked~.book-toc {
     visibility: initial;
   }
 }
 
-.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
   font-weight: 700;
 }
 
@@ -118,10 +123,10 @@ kbd {
 
 /* GitHub gist */
 
-.highlight > .chroma,
+.highlight>.chroma,
 .gist-data {
- max-height: 256px;
- overflow: auto;
+  max-height: 256px;
+  overflow: auto;
 }
 
 .gist__name {
@@ -140,18 +145,18 @@ kbd {
   align-self: flex-end;
 }
 
-.gist__name + .highlight {
+.gist__name+.highlight {
   margin-top: 0;
   padding-top: 0;
 }
 
-.gist__name + .highlight > .chroma {
+.gist__name+.highlight>.chroma {
   margin-top: 0;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.gist__name + .highlight > .copy-code-button {
+.gist__name+.highlight>.copy-code-button {
   margin-top: 6px;
 }
 

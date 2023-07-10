@@ -7,11 +7,28 @@ title: "Sublime Text 3 & 4"
 
 <!-- <span class="gist__name">Preferences.sublime-settings<span class="gist__name--lang">json</span></span> -->
 
-```json {hl_lines="16"}
+```json
 {
     "added_words":
     [
-        "wiki", // 拼写检查时忽略的词语
+        "wikipedia",                        // 拼写检查时检查的词语
+    ],
+
+    "atomic_save": true,
+    "auto_complete_size_limit": 1000,
+    "auto_complete_commit_on_tab": true,
+    "color_scheme": "Packages/User/Poppins.tmTheme",
+    "draw_white_space": "all",
+    "enable_tab_scrolling": false,          // 显示所有标签页
+    "ensure_newline_at_eof_on_save": true,  // 在文档末尾添加回车
+    "font_face": "Menlo",
+    "font_size": 15,
+    "git_diff_target": "head",
+    "hide_tab_scrolling_buttons": true,
+    "hide_new_tab_button": true,
+    "ignored_words":
+    [
+        "nonlinear",                        // 拼写检查时忽略的词语
     ],
     "indent_guide_options":
     [
@@ -23,8 +40,8 @@ title: "Sublime Text 3 & 4"
     "match_brackets_square": false,
     "mde.auto_fold_link.enabled": false,
     "open_files_in_new_window": false,
-    "save_on_focus_lost": true, // 自动保存，很重要！
-    "scroll_past_end": true,    // 打字机模式
+    "save_on_focus_lost": true,             // 自动保存
+    "scroll_past_end": true,                // 类似打字机模式
     "shift_tab_unindent": true,
     "show_encoding": true,
     "show_full_path": true,
@@ -39,6 +56,7 @@ title: "Sublime Text 3 & 4"
     "trim_trailing_white_space_on_save": "not_on_caret",
     "update_check": false,
     "word_wrap": true,
+    "highlight_modified_tabs": true,
 }
 ```
 
@@ -102,6 +120,21 @@ title: "Sublime Text 3 & 4"
 }
 ````
 
+### HTML-CSS-JS Prettify
+
+User setting:
+
+```json
+{
+    "all": {
+        "preserve_newlines": false,
+    },
+    "css": {
+        "indent_size": 2,
+    }
+}
+```
+
 
 ## Custom syntax highlighting
 
@@ -111,7 +144,7 @@ In Sublime Text 4, if you have more than one custom syntaxes, they will show up 
 
 ### GAUSS
 
-Written by myself when dealing with the [BLP-1999](https://github.com/loikein/BLP-1999-archive) files.
+Written by myself when dealing with the [BLP-1999](https://github.com/loikein/BLP-1999-archive) files. Marginally better than nothing.
 
 `GAUSS.sublime-syntax`:
 
