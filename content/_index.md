@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Home"
 ---
 
 My personal wiki, cheat sheet, knowledge base…  

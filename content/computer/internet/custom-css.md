@@ -453,6 +453,16 @@ del {
 }
 ```
 
+Range: URLs on the domain: `github.com` \(thanks to [thehale](https://github.com/refined-github/refined-github/issues/6656#issuecomment-1629464380)\)
+
+```css
+/* highlight private repos in repo list */
+li.private .Label--secondary {
+    border-color: var(--color-attention-muted);
+    color: var(--color-attention-emphasis);
+}
+```
+
 Range: URLs matching the regexp: `.*github\.com/.*/.*/pull/.*`
 
 ```css
