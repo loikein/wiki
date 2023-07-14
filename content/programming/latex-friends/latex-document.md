@@ -17,7 +17,9 @@ When `\xdef\@fontenc@load@list{\@fontenc@load@list undefined control sequence` h
 fmtutil-sys --all
 ```
 
-## Pass options to already loaded packages
+## Build & file structures
+
+### Pass options to already loaded packages
 
 When `! LaTeX Error: Option clash for package xcolor` \([credit](https://tex.stackexchange.com/a/99051)\)
 
@@ -28,13 +30,13 @@ When `! LaTeX Error: Option clash for package xcolor` \([credit](https://tex.sta
 \documentclass{...}
 ```
 
-## Compile two versions at one pass
+### Compile two versions at one pass
 
 [pdftex - 2 PDF Outputs at once with 2 different styles - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/360192/2-pdf-outputs-at-once-with-2-different-styles)
 
-Or: Arara
+Or: Arara (?)
 
-## Files control/subfiles
+### Files control/subfiles
 
 ```text
 .
@@ -110,17 +112,6 @@ Ref: [tableofcontents - Latex: Citations in section headings put into table of c
 \section[Section title for running heading]{Section title with citation \cite{key}}
 ```
 
-## Cleveref
-
-```latex
-\usepackage{hyperref}
-\usepackage[nameinlink]{cleveref}
-
-\begin{document}
-\Cref{fig:1} is capitalised, and \cref{fig:1} is not capitalised.
-\end{document}
-```
-
 ## Cross-referencing
 
 ### Bookmarks
@@ -173,7 +164,7 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 \end{document}
 ```
 
-## Code
+## Code display
 
 ### `listings` package
 
@@ -198,19 +189,65 @@ Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange
 
 > TBE!!
 
+
+## Formatting text
+
+### Highlight
+
+```latex
+\usepackage{soul}
+
+% can be used with various colours
+\usepackage[dvipsnames]{xcolor}
+\sethlcolor{GreenYellow}
+% or even custom colours (also with xcolor)
+\definecolor{highlight}{HTML}{FFFF81}
+\sethlcolor{highlight}
+
+\begin{document}
+  \hl{Good words.}
+\end{document}
+```
+
+### Strike through
+
+With package soul:
+
+```latex
+\usepackage{soul}
+
+\begin{document}
+  \st{overstriking}
+\end{document}
+```
+
+With package ulem:
+
+```latex
+\usepackage[normalem]{ulem}
+
+\begin{document}
+  \sout{Bad words.}
+\end{document}
+```
+
+
 ## Page number
 
 ### Reset page number at appendix
 
+Ref: [Restart page numbering for memoir appendix - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/259106)
+
 ```latex
-\usepackage{appendixnumberbeamer}
-
 \begin{document}
-  Words.
+% Words.
 
+  \clearpage
+  \pagenumbering{arabic}
+% \setcounter{page}{0}
   \appendix
 
-  Less important words.
+% Less important words.
 \end{document}
 ```
 
@@ -259,16 +296,6 @@ If want to control width:
     \end{subfigure}
   \caption{Two great pictures.}
   \end{figure}
-\end{document}
-```
-
-## Strike through text
-
-```latex
-\usepackage[normalem]{ulem}
-
-\begin{document}
-  \sout{Bad words.}
 \end{document}
 ```
 
@@ -335,6 +362,37 @@ Make LaTeX more willing to break line \([Ref](https://tex.stackexchange.com/a/12
 \newcommand{\hyphen}{-\penalty\z@\hskip\z@skip }
 \makeatother
 ```
+
+## Packages
+
+### Cleveref
+
+```latex
+\usepackage{hyperref}
+\usepackage[nameinlink]{cleveref}
+
+\begin{document}
+\Cref{fig:1} is capitalised, and \cref{fig:1} is not capitalised.
+\end{document}
+```
+
+### siunitx
+
+Thousands separator:
+
+```latex
+\usepackage{siunitx}
+\sisetup{
+  group-separator = {,},
+  group-minimum-digits = 4,
+}
+
+\begin{document}
+\SI{15663}{}    % The empty braces are necessary for correct spacing
+                % Gives: 15,663
+\end{document}
+```
+
 
 ## Remotely related: fuse Markdown with LaTeX
 

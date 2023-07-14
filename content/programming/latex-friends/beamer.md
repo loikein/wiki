@@ -48,6 +48,12 @@ Ref: [A Tutorial for Beginners (Part 3)—Blocks, Code, Hyperlinks and Buttons -
 \end{frame}
 ```
 
+## Formatting text
+
+### Highlight
+
+[highlighting - Highlight/color a part of text in block in beamer - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/460731/highlight-color-a-part-of-text-in-block-in-beamer/460764#460764)
+
 ## Note page
 
 ### Show note pages
@@ -185,6 +191,23 @@ After inspecting L781-L812 of `beamerbaseauxtemplates.sty`:
 ### Further customisation
 
 [beamer - Note page showing the next frame - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/33051/note-page-showing-the-next-frame)
+
+
+## Page number
+
+### Reset page number at appendix
+
+```latex
+\usepackage{appendixnumberbeamer}
+
+\begin{document}
+% Frames.
+
+  \appendix
+
+% Less important Frames.
+\end{document}
+```
 
 
 ## Presentation software
