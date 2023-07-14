@@ -3,10 +3,19 @@ weight: 300
 title: "LaTeX Symbols"
 ---
 
-Big ref:
+Refs:
 
 - [Detexify LaTeX handwritten symbol recognition](https://detexify.kirelabs.org/classify.html)
-- The Comprehensive LaTeX Symbol List
+- [The Comprehensive LaTeX Symbol List](https://ctan.org/pkg/comprehensive)
+- [Special LaTeX characters | TeXblog](https://texblog.net/latex-archive/uncategorized/symbols/)
+
+## Symbols outside math mode
+
+| Name | looks like | LaTeX | Notes |
+|------|------------|-------|-------|
+| Vertical bar | `$\text{\textbar}$` | `\textbar` | Needs a space after it `\textbar\,` |
+| Percent sign | `$\%$` | `\%` |  |
+
 
 ## Logic
 
