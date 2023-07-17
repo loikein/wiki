@@ -15,7 +15,7 @@ Refs:
 |------|------------|-------|-------|
 | Vertical bar | `$\text{\textbar}$` | `\textbar` | Needs a space after it `\textbar\,` |
 | Percent sign | `$\%$` | `\%` |  |
-
+| Hash sign    | `$\#$` | `\#` |  |
 
 ## Logic
 

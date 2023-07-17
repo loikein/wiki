@@ -139,7 +139,11 @@ TL;DR: use `cleveref`.
 
 Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/313337)
 
-![](https://i.stack.imgur.com/w1G7s.png)
+{{< figure
+src="https://i.stack.imgur.com/w1G7s.png"
+w="300px"
+alt="LaTeX checklist"
+>}}
 
 ```latex
 \usepackage{enumitem,amssymb}
@@ -232,6 +236,21 @@ With package ulem:
 ```
 
 
+## Maths
+
+### Too much space around display math
+
+Ref: [line spacing - Spaces around display math when using setspace - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/55488)
+
+```latex
+\usepackage[nodisplayskipstretch]{setspace}
+
+\begin{document}
+…
+\end{document}
+```
+
+
 ## Page number
 
 ### Reset page number at appendix
@@ -297,43 +316,6 @@ If want to control width:
   \caption{Two great pictures.}
   \end{figure}
 \end{document}
-```
-
-## Tables
-
-### Make table sideways
-
-```latex {hl_lines=[1,3,10]}
-\usepackage{lscape}
-
-\begin{landscape}
-\begin{table} \centering
-\caption{Great table}\label{tab:great-table}
-\begin{tabular}
-...
-\end{tabular}
-\end{table}
-\end{landscape}
-```
-
-
-### Shrink tables that are too big
-
-Ref: [scaling - Is there a way to slightly shrink a table, including font size, to fit within the column boundaries? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/10865)
-
-My setup somehow does not like `adjustbox` or `\resizebox`. Will update if tested.
-
-```latex {hl_lines=[1,5,9]}
-\usepackage{graphicx}
-
-\begin{table} \centering
-\caption{Great table}\label{tab:great-table}
-\scalebox{0.85}{%
-\begin{tabular}
-...
-\end{tabular}
-}% end scalebox
-\end{table}
 ```
 
 

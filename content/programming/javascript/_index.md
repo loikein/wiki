@@ -6,6 +6,41 @@ title: "JavaScript"
 I have not learnt JavaScript properly. Proceed at your own risk.
 {{< /hint >}}
 
+## Dialog \(Modal\) on-load
+
+Ref: [Modals Will Never Be The Same - HTML dialog Element](https://blog.webdevsimplified.com/2023-04/html-dialog/)
+
+HTML:
+
+```html
+<dialog id="dialog" class="modal">
+  <form method="dialog">
+    <p>This is a modal which appears immediately at page loading.</p>
+    <button type="button" id="dialog--confirm">Confirm</button>
+    <button type="button" onclick="location.href='javascript:history.back()'">Go Back</button>
+  </form>
+<hr />
+</dialog>
+```
+
+JS:
+
+```js
+document.addEventListener('DOMContentLoaded', function(event) {
+  const body = document.body;
+  body.classList.add("modal-open");
+  const dialog = document.getElementById("dialog");
+  dialog.show();
+
+  const button = document.getElementById("dialog--confirm");
+  button.addEventListener("click", function(event) {
+    dialog.close();
+    body.classList.remove("modal-open");
+  });
+});
+```
+
+<!-- 
 ## Snippets
 
 Strict equal: (my version)
@@ -55,3 +90,4 @@ function strictEquals(a, b) {
   }
 }
 ```
+ -->
