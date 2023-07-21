@@ -1,5 +1,6 @@
 ---
 title: "Hugo/Blogdown"
+disable_latex: true
 ---
 
 ## Hugo basics
@@ -111,11 +112,12 @@ I just cannot make the `output - blogdown::html_page: - toc` param work seamless
 **Step 4. Keep track of LaTeX in .md files**
 
 1. Make sure to check `themes/hugo-theme/static/js/math-code.js`.
-    1. Bonus: add `nolatex` support ([L5 of loikein/hugo-book/assets/latex-fix.js](https://github.com/loikein/hugo-book/blob/master/assets/latex-fix.js#L5))
+    1. Bonus: add `nolatex` inline fix ([L5 of loikein/hugo-book/assets/latex-fix.js](https://github.com/loikein/hugo-book/blob/master/assets/latex-fix.js#L5))
+    2. Bonus: add per-page `.Params.disable_latex` check for loading LaTeX renderer ([L1 of loikein/hugo-book/layouts/partials/docs/footer-katex.html](https://github.com/loikein/hugo-book/blob/master/layouts/partials/docs/footer-katex.html#L1))
 2. Note that any `- `, `+ `, or `> ` at beginnings of lines will break the LaTeX block it is in. Need to remove those spaces. (A not-very-good-RegEx for this: ``(`\$\$)((.*\n)*)(-\s.*)((.*\n)*)(\$\$`)``)
 3. There are cases where the LaTeX code lose the `` ` `` (around or on one side of them) consistently. Need to check for those: \(best way is on Hugo local server\)
-    - LaTeX surrounded by space (e.g. starts with <code class="nolatex"> $$</code> or ends with <code class="nolatex">$$ </code>)
-    - LaTeX surrounded by brackets (e.g. starts with <code class="nolatex">($$</code>, <code class="nolatex">($</code>, or <code class="nolatex">(\(</code>; or ends with <code class="nolatex">$$)</code>, <code class="nolatex">$)</code>, or <code class="nolatex">\))</code>)
+    - LaTeX surrounded by space (e.g. starts with `␣$$` or ends with `$$␣`)
+    - LaTeX surrounded by brackets (e.g. starts with `($$`, `($`, or `(\(`; or ends with `$$)`, `$)`, or `\))`)
 
 **Step 5. Debugging for Netlify**
 
