@@ -4,7 +4,7 @@ theme: hugo-book
 canonifyURLs: true
 hasCJKLanguage: true
 DefaultContentLanguage: en
-languageCode: en-US
+languageCode: en-UK
 
 # Book configuration
 # (Optional) Set this to true if you use capital letters in file names

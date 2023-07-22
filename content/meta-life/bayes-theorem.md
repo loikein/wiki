@@ -1,6 +1,7 @@
 ---
 weight: 10
 title: "贝叶斯定理"
+language: "zh-Hans"
 ---
 
 ## 形式一：两个事件之间的关联

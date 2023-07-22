@@ -2,6 +2,8 @@
 bookCollapseSection: true
 weight: 30
 title: "外貌"
+cascade:
+- language: "zh-Hans"
 ---
 
 ## 头发
