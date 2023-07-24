@@ -54,6 +54,8 @@ dfs.keys() # similar result as xl.sheet_names
 
 ### CSV
 
+#### Pandas
+
 Doc: [pandas.read_csv — pandas 2.0.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html)
 
 ```python
@@ -67,6 +69,20 @@ df = pd.read_csv(
     names=names_list,
     dtype={"Phone number": "str"},    # read columns as type
 )
+```
+
+#### CSV
+
+https://stackoverflow.com/a/6740963/10668706
+
+```python
+import csv
+
+with open("file", "r") as f:
+    reader = csv.reader(f)
+    list = []
+    for row in reader:
+        list.append(row)
 ```
 
 ### ODS
