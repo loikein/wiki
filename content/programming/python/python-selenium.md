@@ -18,7 +18,7 @@ driver = webdriver.Chrome (executable_path="C:\\chromedriver.exe")
 ```
 
 
-Get text: `element.get_attributes("innerHTML")` (`.text` sometimes does not work)
+Get text: `element.get_attributes("innerHTML")` \(`.text` sometimes does not work\) \([ref](https://stackoverflow.com/a/8575709/10668706)\)
 
 Go back: `driver.back()`
 
