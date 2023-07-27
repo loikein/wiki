@@ -197,3 +197,7 @@ content
         └── test.css
 ```
 
+## Regex for search and replace HTML comment with GoHTML comment
+
+Find: `(<!--)(.*)(-->)`
+Replace: `{{/\*\2\*/}}`

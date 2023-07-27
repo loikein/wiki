@@ -116,11 +116,29 @@ Ref: [tableofcontents - Latex: Citations in section headings put into table of c
 
 ### Bookmarks
 
-Section numbers in PDF bookmarks: \(one of them will work depending on your styles\)
+Section numbers in PDF bookmarks: \(one of them will work depending on your styles, `bookmark` is better\)
 
 ```latex
-\usepackage[numbered]{bookmark}
 \usepackage[bookmarksnumbered]{hyperref}
+
+\usepackage[numbered]{bookmark}
+```
+
+Manually add bookmarks: \([ref](https://tex.stackexchange.com/a/35430)\)
+
+```latex
+% if using numbered bookmarks
+\usepackage[numbered]{bookmark}
+\bookmarksetup{startatroot}
+\currentpdfbookmark{Bibliography}{bibliography}
+\bibliography{ref}
+
+% note: don't use, will mess with appendix bookmark levels:
+% \bookmark[level=0,named=Bibliography]{Bibliography}
+
+% if using unnumbered bookmarks
+\pdfbookmark[section]{Bibliography}{bibliography}
+\bibliography{ref}
 ```
 
 ### Equations \& sections
