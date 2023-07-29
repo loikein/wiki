@@ -65,6 +65,7 @@ TV shows & Animes that I am watching/have watched.
 | 虫かぶり姫 | 岩﨑太郎 | MADHOUSE | 2022 | [MyAnimeList](https://myanimelist.net/anime/50923/), [豆瓣](https://movie.douban.com/subject/35755095/) | Abandoned |  | 很无聊。 |
 | 英雄王、武を極めるため転生す | 葛谷直行 | STUDIO COMET | 2023 | [MyAnimeList](https://myanimelist.net/anime/50481/), [豆瓣](https://movie.douban.com/subject/35682437/) | 2023-03-15 | ★★★☆☆ | 主角团非常搞笑，挺有意思。 |
 | 勇者パーティーを追放されたビーストテイマー | 濁川敦 | EMT Squared | 2022 | [MyAnimeList](https://myanimelist.net/anime/52046/), [豆瓣](https://movie.douban.com/subject/35924070/) | 2023-03-16 | ★★☆☆☆ | 每一集都比较公式化。 |
+| 【推しの子】 | 平牧大輔 | 動画工房 | 2023 | [MyAnimeList](https://myanimelist.net/anime/52034/), [豆瓣](https://movie.douban.com/subject/35936775/) | 2023-07-13 | ★★★★★ | 第一集五星，后面三星，综合五星（。 |
 
 <!-- | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
 | 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
