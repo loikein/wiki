@@ -7,6 +7,13 @@ title: "Plotting"
 `seaborn` depends on `matplotlib`.
 {{< /hint >}}
 
+Refs:
+
+- [Examples — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/gallery/index)
+- [Example gallery — seaborn 0.12.2 documentation](https://seaborn.pydata.org/examples/index.html)
+- [Python Graph Gallery](https://python-graph-gallery.com/)
+
+
 ## General
 
 Start plotting:
