@@ -70,7 +70,7 @@ Any `colormap` can be reversed by adding `_r` after its name, e.g. `cmap="RdBu_r
 Seaborn:
 
 ```python
-sns.someplot(…).set_title("This is a title")
+sns.someplot(...).set_title("This is a title")
 ```
 
 ### Axis
@@ -81,7 +81,7 @@ Set the x-axis and y-axis to same scale:
 plt.axis('equal')
 fig, ax = plt.subplots()
 
-ax.plot(…)
+ax.plot(...)
 ```
 
 Set limit of each axis:
@@ -147,7 +147,17 @@ ax.xaxis.get_majorticklabels()[1].set_horizontalalignment("right")
 
 Generally the above-mentioned methods will work with adding indices like: `ax[0,1].set_xlabel(r"$x_1$")`, etc.
 
+
 ### Plot into subplots with Seaborn
+
+{{< hint info >}}
+Also works for single plots:
+
+```python
+fig, ax = plt.subplots()
+sns.histplot(ax=ax, ...)
+```
+{{< /hint >}}
 
 Ref: [ds-micro-tutorials/data-analysis/subplotting.ipynb](https://github.com/thalesbruno/ds-micro-tutorials/blob/master/data-analysis/subplotting.ipynb)
 
@@ -199,7 +209,9 @@ If there are three subplots:
 fig, ax = plt.subplots(1, 3, figsize=(12, 4))
 ```
 
-## Plot With `jointplot`
+## Seaborn
+
+### Plot With `jointplot`
 
 Make the figure:
 
@@ -216,13 +228,13 @@ Show the figure:
 g.fig
 ```
 
-### Axis
+#### Axis
 
 ```python
 g.set_axis_labels(r"$x_1$", "y")
 ```
 
-### Ticks
+#### Ticks
 
 Set formatter:
 
@@ -233,3 +245,21 @@ g.ax_joint.get_yaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0
 g.ax_joint.get_xaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.4f}'))
 ```
 
+### Order categorical axis
+
+[Visualizing categorical data — seaborn 0.12.2 documentation](https://seaborn.pydata.org/tutorial/categorical.html)
+
+Add param: `order=["Good", "Ok", "Bad"]` \(also works with string variables\)
+
+
+## Problem with plots
+
+[Data to Viz | A collection of graphic pitfalls](https://www.data-to-viz.com/caveats.html)
+
+### Boxplot
+
+Problem with boxplots: [Hidden Data Under Boxplot](https://python-graph-gallery.com/39-hidden-data-under-boxplot/), [The Boxplot and its pitfalls](https://www.data-to-viz.com/caveat/boxplot.html)
+
+- Show jitter dots
+- Show number of observations
+- Use Violin plot instead

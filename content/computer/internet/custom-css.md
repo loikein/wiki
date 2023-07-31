@@ -19,18 +19,28 @@ s, strike, del {
 
 ## AO3
 
+{{< hint info >}}
+**Multiple custom CSS for logged-in users**:
+
+First, go Dashboard > Skins > My Site Skins, create at least one skin for dark theme \(because `prefers-color-scheme` will be applied to the whole skin\) and one skin for other general styles.
+
+Then, create a third skin with no CSS code, go to Advanced > Parent Skins > Add parent skin, add all the sub-skins you want to apply.
+
+Use this final skin as your site skin. Now you have everything. Every time you want to add other CSS **on top of** your current configuration, make sub skins then add them as parents to this big skin.
+{{< /hint >}}
+
 Range: URLs on the domain: `archiveofourown.org`
 
 ```css
 /* limit line length */
 #main {
-    max-width: 700px;
+    max-width: 80ch;
 }
 ```
 
 {{< details "Dark theme" >}}
 {{< hint info >}}
-This is AO3's [official dark theme](https://archiveofourown.org/skins/929), but applying it automatically (also works on mobile devices) requires logging-in and some setups, which I recommend doing. If you were able to use it, you can safely ignore the following section.
+This is AO3's [official dark theme](https://archiveofourown.org/skins/929). If you already have a skin of it, please ignore.
 {{< /hint >}}
 
 ```css
@@ -568,6 +578,14 @@ Range: URLs on the domain: `pandas.pydata.org`, `numpy.org`
 /* highlight param names */
 dt strong {
   color: var(--pst-color-primary);
+}
+```
+
+Range: URLs on the domain: `seaborn.pydata.org` \(because its primary colour is too dark\)
+
+```css
+dt strong {
+  color: var(--pst-color-info);
 }
 ```
 

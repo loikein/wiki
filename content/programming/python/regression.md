@@ -1,5 +1,5 @@
 ---
-weight: 650
+weight: 750
 title: "Regression"
 ---
 

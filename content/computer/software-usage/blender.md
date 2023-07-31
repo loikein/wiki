@@ -10,11 +10,17 @@ title: "Blender"
 
 macOS with trackpad:
 
-- Rotate: two finger drag (no need to use Emulate 3 Button Mouse)
+- One finger click = {{< kbd `LMB` >}}
+- Two finger drag = {{< kbd `MMB` >}}
+- Two finger click = {{< kbd `RMB` >}}
+
+{{< kbd `MMB` >}} operations: \(no need to use Emulate 3 Button Mouse\)
+
+- Rotate: two finger drag
 - Pan: {{< kbd `shift` >}} \+ two finger drag
 - Zoom: {{< kbd `command` >}} \+ two finger drag
 
-### Axis
+### Axes
 
 - `X`: (+)Right (-)Left
 - `Y`: (+)Back (-)Front
