@@ -83,8 +83,8 @@ Turning on Emulate Numpad.
 
 ## Notes on Modifiers
 
-- Bevel: Remember to \(in Object Mode > {{< kbd `Ctrl` `A` >}}\) apply scale
-- Mirror: Remember to \(in Object Mode > {{< kbd `RMB` >}}\) set origin \(to 3D Cursor, for example\)
+- Bevel: Remember to \(in Object Mode ‣ {{< kbd `Ctrl` `A` >}}\) apply scale
+- Mirror: Remember to \(in Object Mode ‣ {{< kbd `RMB` >}}\) set origin \(to 3D Cursor, for example\)
 
 
 

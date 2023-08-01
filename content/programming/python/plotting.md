@@ -16,6 +16,8 @@ Refs:
 
 ## General
 
+Doc: [Matplotlib Application Interfaces (APIs) — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/users/explain/api_interfaces.html)
+
 Start plotting:
 
 ```python
@@ -157,12 +159,17 @@ Generally the above-mentioned methods will work with adding indices like: `ax[0,
 
 ### Plot into subplots with Seaborn
 
+Doc: [Overview of seaborn plotting functions — seaborn 0.12.2 documentation](https://seaborn.pydata.org/tutorial/function_overview.html#figure-level-vs-axes-level-functions)
+
 {{< hint info >}}
 Also works for single plots:
 
 ```python
 fig, ax = plt.subplots()
 sns.histplot(ax=ax, ...)
+
+# or
+ax = sns.histplot(...)
 ```
 {{< /hint >}}
 
@@ -218,6 +225,13 @@ fig, ax = plt.subplots(1, 3, figsize=(12, 4))
 
 ## Seaborn
 
+### Use `**kwargs`
+
+Doc: [Frequently asked questions — seaborn 0.12.2 documentation](https://seaborn.pydata.org/faq.html?highlight=kwargs#other-customizations)
+
+For a list of all options see the `**kwargs` portion of: [matplotlib.axes.Axes.plot — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.plot.html)
+
+
 ### Plot With `jointplot`
 
 Make the figure:
@@ -256,7 +270,7 @@ g.ax_joint.get_xaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.4
 
 [Visualizing categorical data — seaborn 0.12.2 documentation](https://seaborn.pydata.org/tutorial/categorical.html)
 
-Add param: `order=["Good", "Ok", "Bad"]` \(also works with string variables\)
+Add param in plot function: `order=["Good", "Ok", "Bad"]` \(also works with string variables\)
 
 
 ## Problem with plots

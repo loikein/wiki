@@ -581,7 +581,7 @@ dt strong {
 }
 ```
 
-Range: URLs on the domain: `seaborn.pydata.org` \(because its primary colour is too dark\)
+Range: URLs on the domain: `seaborn.pydata.org`, `matplotlib.org` \(because their primary colour is too dark\)
 
 ```css
 dt strong {

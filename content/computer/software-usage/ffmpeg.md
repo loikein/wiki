@@ -93,10 +93,11 @@ Batch convert:
 for f in *.mp4; do ffmpeg -i "$f" -vcodec libx264 -crf 24 "${f%.mp4}"-compressed.mp4; done
 ```
 
-## Merge Multiple Audio Files
+## Merge
 
-Credit: [linux - Join many MP3, OGG, and FLAC files into one WAV or FLAC - Super User 
-](https://superuser.com/a/584122)
+### Multiple Audio Files
+
+Credit: [linux - Join many MP3, OGG, and FLAC files into one WAV or FLAC - Super User](https://superuser.com/a/584122)
 
 The `-safe 0` is necessary because [ffmpeg will complain](https://stackoverflow.com/a/38999363).
 
@@ -106,4 +107,12 @@ for f in ./*.flac; do echo "file '$f'" >> inputs.txt; done
 
 # merge them
 ffmpeg -f concat -safe 0 -i inputs.txt output.flac
+```
+
+### `.webm` audio and video
+
+Credit: [how to merge two webm files (video and audio) in ffmpeg? : youtubedl](https://old.reddit.com/r/youtubedl/comments/izq0yb/how_to_merge_two_webm_files_video_and_audio_in/)
+
+```sh
+ffmpeg -i video.webm -i audio.webm -c copy output.mkv
 ```
