@@ -54,6 +54,7 @@ Turning on Emulate Numpad.
 | Rotate selected item | {{< kbd `R` >}} |    |
 | Delete selected item | {{< kbd `X` >}} |    |
 | Loop select | {{< kbd `Alt` `LMB` >}} | {{< kbd `option` `LMB` >}} |
+| Selected items to collection | {{< kbd `M` >}} |    |
 
 
 ### Item operation \(Object Mode\)
@@ -63,6 +64,7 @@ Turning on Emulate Numpad.
 | Add item | {{< kbd `Shift` `A` >}} |    |
 | Show operator panel | {{< kbd `F9` >}} |    |
 | Hide item | {{< kbd `H` >}} |    |
+
 
 ### Item operation \(Edit Mode\)
 
@@ -81,19 +83,25 @@ Turning on Emulate Numpad.
 | Center to 3D Cursor | {{< kbd `Shift` `C` >}} |    |
 
 
+## Notes on Camera
+
+When adjusting camera, use {{< kbd `N` >}} Menu ‣ View ‣ Lock Camera to View
+
+
 ## Notes on Modifiers
 
+- Permanently fix a modifier by Apply.
 - Bevel: Remember to \(in Object Mode ‣ {{< kbd `Ctrl` `A` >}}\) apply scale
 - Mirror: Remember to \(in Object Mode ‣ {{< kbd `RMB` >}}\) set origin \(to 3D Cursor, for example\)
 
 
-
 ## Tutorials
 
-
-
 - [x] [【Blender】初心者向け！Blender超入門講座　～簡単なセルルックのうさぎのキャラクターを作ろう！～ - YouTube](https://www.youtube-nocookie.com/embed/OoM0ikOi1v4?cc_load_policy=1&hl=en)
-- [ ] [【初心者向け】世界一やさしいBlender入門！使い方＆導入〜画像作成までを徹底解説【3.3対応】 - YouTube](https://www.youtube-nocookie.com/embed/S6aAvxUx2ko?cc_load_policy=1&hl=en) 33:01
+    + Notes: intro on preferences, basic operations, modifiers, material \(node mode\)
+- [x] [【初心者向け】世界一やさしいBlender入門！使い方＆導入〜画像作成までを徹底解説【3.3対応】 - YouTube](https://www.youtube-nocookie.com/embed/S6aAvxUx2ko?cc_load_policy=1&hl=en)
+    + Notes: slightly harder boxes stacking, intro on lighting \& camera
+
 
 <!-- - [ ] [If I Started Blender In 2023, I'd Do This - YouTube](https://www.youtube-nocookie.com/embed/1WOVNkJQEAQ?cc_load_policy=1&hl=en)
 - [ ] [I animated this in 18 days... in Blender - YouTube](https://www.youtube-nocookie.com/embed/tCTkkHGRpNk?cc_load_policy=1&hl=en) -->

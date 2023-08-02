@@ -99,10 +99,16 @@ Set limit of each axis:
 fig, ax = plt.subplots()
 
 # x-axis
-ax.set_xlim(left=0)
+ax.set_xlim(left=0, right=5)
 
 # y-axis
-ax.set_ylim(bottom=0)
+ax.set_ylim(bottom=0, top=5)
+```
+
+Set axis to only use integer ticks: \([credit](https://stackoverflow.com/questions/12050393/how-to-force-the-y-axis-to-only-use-integers#comment110460128_38096332)\)
+
+```python
+ax.yaxis.get_major_locator().set_params(integer=True)
 ```
 
 ### Ticks
@@ -166,9 +172,10 @@ Also works for single plots:
 
 ```python
 fig, ax = plt.subplots()
+# support drawing over layers
 sns.histplot(ax=ax, ...)
 
-# or
+# only draw one plot
 ax = sns.histplot(...)
 ```
 {{< /hint >}}
@@ -271,6 +278,68 @@ g.ax_joint.get_xaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.4
 [Visualizing categorical data — seaborn 0.12.2 documentation](https://seaborn.pydata.org/tutorial/categorical.html)
 
 Add param in plot function: `order=["Good", "Ok", "Bad"]` \(also works with string variables\)
+
+
+### Violin plot
+
+Ref: [alpha does not work with violinplot · Issue #622 · mwaskom/seaborn](https://github.com/mwaskom/seaborn/issues/622#issuecomment-329378520)
+
+```python
+fig4, ax4 = plt.subplots()
+
+sns.violinplot(
+    ax=ax4,
+    data=data_df, x="Categories", y="Numbers",
+    # hide miniature boxplot inside:
+    inner=None,
+    order=order=["Good", "Ok", "Bad"],
+    # cannot be used with inners other than None:
+    linewidth=0,
+    palette="viridis",
+    # if want to use same colours:
+    # color="#069AF3",
+    # these do not work for some reason:
+    # showmeans=False,
+    # showmedians=True,
+)
+
+plt.setp(ax4.collections, alpha=.5)
+```
+
+### Zorder of plot layers; Boxplot
+
+Slightly modified from: [python - How to display boxplot in front of violinplot in seaborn - seaborn zorder? - Stack Overflow](https://stackoverflow.com/a/68614885)
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame(np.random.rand(10, 2)).melt(var_name='group')
+
+ax = sns.violinplot(
+    data=df, x='group', y='value',
+    color="#af52f4",
+    inner=None,
+    linewidth=0,
+)
+
+sns.boxplot(
+    ax=ax,
+    data=df, x='group', y='value',
+    saturation=0.5, width=0.4,
+    palette='rocket',
+    # set outliers' markers:
+    # flierprops={"marker": "o"},
+    # hide outliers:
+    showfliers = False,
+    # make the boxes completely transparent:
+    boxprops={"facecolor": "none", "zorder": 2},
+)
+
+plt.show()
+```
 
 
 ## Problem with plots
