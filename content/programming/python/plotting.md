@@ -43,6 +43,9 @@ fig.tight_layout()
 # Save as png
 fig.savefig("fig-1")
 
+# Save as pdf (keep words selectable)
+fig.savefig("fig-1.pdf")
+
 # Show on screen
 fig.show()
 ```
@@ -172,10 +175,10 @@ Also works for single plots:
 
 ```python
 fig, ax = plt.subplots()
-# support drawing over layers
+# draws on top of previous layers
 sns.histplot(ax=ax, ...)
 
-# only draw one plot
+# overwrites previous layers
 ax = sns.histplot(...)
 ```
 {{< /hint >}}
@@ -199,7 +202,7 @@ sns.histplot(ax=axes1[1,1], data=df4, x="Rating", binwidth=0.1)
 axes1[1,1].set_title("Subtitle 2-2")
 
 fig1.tight_layout()
-fig1.savefig(os.path.join("plot", "fig1"))
+fig1.savefig(os.path.join("plot", "fig1.pdf"))
 fig1.show() # or if in Jupyter: fig1
 ```
 
@@ -241,6 +244,8 @@ For a list of all options see the `**kwargs` portion of: [matplotlib.axes.Axes.p
 
 ### Plot With `jointplot`
 
+<!-- [python - Seaborn jointplot -- change bandwidth of both marginal plots - Stack Overflow](https://stackoverflow.com/questions/52389106/seaborn-jointplot-change-bandwidth-of-both-marginal-plots) -->
+
 Make the figure:
 
 ```python
@@ -279,6 +284,32 @@ g.ax_joint.get_xaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.4
 
 Add param in plot function: `order=["Good", "Ok", "Bad"]` \(also works with string variables\)
 
+### Heatmap
+
+Ref: [Plotting a diagonal correlation matrix — seaborn 0.12.2 documentation](https://seaborn.pydata.org/examples/many_pairwise_correlations.html)
+
+```python
+corr = df.corr()
+mask = np.triu(np.ones_like(corr, dtype=bool))
+# These two are identical:
+cmap = sns.color_palette("light:#4c72b0", as_cmap=True)
+cmap = sns.color_palette("blend:#FFF,#4c72b0", as_cmap=True)
+# If want to check:
+cmap
+
+fig1, ax1 = plt.subplots(figsize=(11, 9))
+sns.heatmap(
+    corr,
+    ax=ax1,
+    mask=mask,
+    cmap=cmap,
+    vmax=1, vmin=0,     # do not set in the first pass!!
+    square=True,
+    linewidths=.5,
+    cbar_kws={"shrink": .5},
+)
+```
+
 
 ### Violin plot
 
@@ -290,15 +321,13 @@ fig4, ax4 = plt.subplots()
 sns.violinplot(
     ax=ax4,
     data=data_df, x="Categories", y="Numbers",
-    # hide miniature boxplot inside:
-    inner=None,
+    inner=None,          # Hide miniature boxplots inside
     order=order=["Good", "Ok", "Bad"],
-    # cannot be used with inners other than None:
-    linewidth=0,
+    linewidth=0,         # Cannot be used with inners other than None
     palette="viridis",
-    # if want to use same colours:
-    # color="#069AF3",
-    # these do not work for some reason:
+    # color="#069AF3",   # All the same colour
+    bw=0.05,             # Reduce smoothing
+    # These do not work for some reason:
     # showmeans=False,
     # showmedians=True,
 )
@@ -330,12 +359,9 @@ sns.boxplot(
     data=df, x='group', y='value',
     saturation=0.5, width=0.4,
     palette='rocket',
-    # set outliers' markers:
-    # flierprops={"marker": "o"},
-    # hide outliers:
-    showfliers = False,
-    # make the boxes completely transparent:
-    boxprops={"facecolor": "none", "zorder": 2},
+    # flierprops={"marker": "o"},   # Set outliers' markers
+    showfliers = False,             # Hide outliers
+    boxprops={"facecolor": "none", "zorder": 2},  # Make the boxes completely transparent
 )
 
 plt.show()

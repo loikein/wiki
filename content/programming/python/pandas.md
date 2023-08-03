@@ -279,6 +279,24 @@ df_subset = df[df["Rating"].apply(lambda x: isinstance(x, float))]
 df_subset = df[df["Rating"].apply(lambda x: not isinstance(x, float))]
 ```
 
+### Select \(mask\) triangle of DataFrame
+
+[python - Melt the Upper Triangular Matrix of a Pandas Dataframe - Stack Overflow](https://stackoverflow.com/a/40391559/10668706)
+
+```python
+corr = df.corr()
+
+# k=1 for dropping diagonal, k=0 for keeping it
+keep = np.triu(corr, k=1).astype('bool').reshape(corr.size)
+# or for tril, k=-1 for dropping diagonal, k=0 for keeping it
+keep = np.tril(corr, k=-1).astype('bool').reshape(corr.size)
+
+corr_flat = corr.stack()[keep].reset_index()
+corr_flat.columns = ["x1","x2","Coef"]
+```
+
+After this, can do a `sns.kdeplot(data=corr_flat,x="Coef")` to see the kernel density of all the coefficients.
+
 
 ## Column-level operations
 

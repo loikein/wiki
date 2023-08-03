@@ -158,3 +158,13 @@ jupyter contrib nbextension install --user
 jupyter nbextension enable toc2
 jupyter trust binder-r-test.ipynb
 ```
+
+## \(Maybe\) Useful resources
+
+- [cis-ds/course-site: Course site for Computing for Information Science (INFO 5940)](https://github.com/cis-ds/course-site)
+- [swirldev/swirl_courses: :mortar_board: A collection of interactive courses for the swirl R package.](https://github.com/swirldev/swirl_courses#swirl-courses)
+- [R for Data Science (1e)](https://r4ds.had.co.nz/index.html)
+  + [R for Data Science (2e)](https://r4ds.hadley.nz/)
+- [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
+- [Data Carpentry Lessons](https://datacarpentry.org/lessons/)
+- [The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/index.html)

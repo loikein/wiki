@@ -83,16 +83,16 @@ Turning on Emulate Numpad.
 | Center to 3D Cursor | {{< kbd `Shift` `C` >}} |    |
 
 
-## Notes on Camera
+## Camera
 
-When adjusting camera, use {{< kbd `N` >}} Menu ‣ View ‣ Lock Camera to View
+When adjusting camera, use {{< kbd `N` >}} Menu ▸ View ▸ Lock Camera to View
 
 
-## Notes on Modifiers
+## Modifiers
 
 - Permanently fix a modifier by Apply.
-- Bevel: Remember to \(in Object Mode ‣ {{< kbd `Ctrl` `A` >}}\) apply scale
-- Mirror: Remember to \(in Object Mode ‣ {{< kbd `RMB` >}}\) set origin \(to 3D Cursor, for example\)
+- Bevel: Remember to \(in Object Mode ▸ {{< kbd `Ctrl` `A` >}}\) apply scale
+- Mirror: Remember to \(in Object Mode ▸ {{< kbd `RMB` >}}\) set origin \(to 3D Cursor, for example\)
 
 
 ## Tutorials
