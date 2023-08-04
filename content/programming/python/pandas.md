@@ -170,6 +170,25 @@ df.groupby(["ID"]).agg(lambda x: x.mode())
 df.groupby(["ID","Date"]).agg(lambda x: x.mode())
 ```
 
+### Calculate bivariate correlation coefficients and p-values matrix
+
+Ref: [python - pandas columns correlation with statistical significance - Stack Overflow](https://stackoverflow.com/a/55166951/10668706)
+
+```python
+import numpy as np
+import pandas as pd
+from scipy.stats import pearsonr
+
+# Correlation coefficients: (same)
+corr = df.corr() 
+corr = df.corr(method=lambda x, y: pearsonr(x, y)[0]) 
+
+# p-values:
+p_val = df.corr(method=lambda x, y: pearsonr(x, y)[1]) - np.eye(len(df.columns))
+# p_val = p_val.round(decimals=4)
+```
+
+
 ### Count length of levels of MultiIndex
 
 Ref: [python - Hierarhical Multi-index counts in Pandas - Stack Overflow](https://stackoverflow.com/a/51405700/10668706) 
