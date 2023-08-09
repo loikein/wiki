@@ -2,6 +2,10 @@
   --color-visited-link: #6800b8;
 }
 
+mark {
+  background: #ffa;
+}
+
 .container {
   max-width: unset;
 }

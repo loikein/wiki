@@ -56,6 +56,69 @@ elapsed = end - start
 print(elapsed)
 ```
 
+## CSV
+
+This section focus on the Python module `csv`. For the package `pandas`, see [Pandas](/programming/python/pandas/).
+
+Docs: [csv — CSV File Reading and Writing — Python 3.11.4 documentation](https://docs.python.org/3/library/csv.html)
+
+### Import as list
+
+Ref: [Python import csv to list - Stack Overflow](https://stackoverflow.com/a/24662707/10668706)
+
+```python
+import csv
+
+with open("data.csv", newline="") as f:
+    reader = csv.reader(f)
+    data = list(reader)
+
+print(data)
+# [
+#   ["first", "row"], ["second", "row"], …
+# ]
+```
+
+## JSON
+
+Split a big JSON file into smaller files: \([credit](https://plainenglish.io/blog/split-big-json-file-into-small-splits)\)
+
+```python
+import os
+import json
+from itertools import islice
+
+def split_json(
+    data_path,
+    file_name,
+    size_split=1000,
+):
+    """Split a big JSON file into chunks.
+    file_name : exclude ".json"
+    """
+    with open(os.path.join(data_path, file_name + ".json"), "r") as f:
+        whole_file = json.load(f)
+
+    split = len(whole_file) // size_split
+
+    for i in range(split + 1):
+        with open(os.path.join(data_path, file_name + "_"+ str(split+1) + "_" + str(i+1) + ".json"), 'w') as f:
+            json.dump(dict(islice(whole_file.items(), i*size_split, (i+1)*size_split)), f)
+    return
+```
+
+Merge said smaller files into one file: \([my answer](https://stackoverflow.com/a/76203282/10668706)\)
+
+```python
+json_all = dict()
+split = 4         # this is the 1-based actual number of splits
+
+for i in range(1, split+1):
+    with open(os.path.join("data_folder", "data_file_" + str(split) + "_" + str(i) + ".json"), 'r') as f:
+        json_i = json.load(f)
+        json_all.update(json_i)
+```
+
 
 ## Pickle
 
@@ -79,6 +142,13 @@ else:
 
 ## Pretty print
 
+### Table
+
+Ref: [python - Printing Lists as Tabular Data - Stack Overflow](https://stackoverflow.com/a/26937531/10668706)
+
+TBA.
+
+
 ### JSON
 
 Pretty print: \([credit](https://stackoverflow.com/a/12944035)\)
@@ -91,33 +161,6 @@ print(json.dumps(json.loads(json_data), indent=4))
 # if get TypeError: the JSON object must be str, bytes or bytearray, not dict
 # then use:
 print(json.dumps(json_data, indent=4))
-```
-
-Split a big JSON file into smaller files: \([credit](https://plainenglish.io/blog/split-big-json-file-into-small-splits)\)
-
-```python
-import os
-import json
-from itertools import islice
-
-
-def split_json(
-    data_path,
-    file_name,
-    size_split=1000,
-):
-    """Split a big JSON file into chunks.
-    file_name : exclude ".json"
-    """
-    with open(os.path.join(data_path, file_name + ".json"), "r") as f:
-        whole_file = json.load(f)
-
-    split = len(whole_file) // size_split
-
-    for i in range(split + 1):
-        with open(os.path.join(data_path, file_name + "_"+ str(split+1) + "_" + str(i+1) + ".json"), 'w') as f:
-            json.dump(dict(islice(whole_file.items(), i*size_split, (i+1)*size_split)), f)
-    return
 ```
 
 

@@ -1,6 +1,6 @@
 ---
 weight: 700
-title: "Plotting"
+title: "Matplotlib/Seaborn"
 ---
 
 {{< hint info >}}
@@ -146,6 +146,8 @@ Set label that includes LaTeX maths:
 fig, ax = plt.subplots()
 
 ax.set_xlabel(r"$x_1$")
+# if want to break lines, put outside r:
+ax.set_xlabel("Something\n" + r"$x_1$")
 ```
 
 Erase all labels:

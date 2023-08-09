@@ -1,5 +1,7 @@
 # redirects
 /computer/internet/css/      /computer/internet/custom-css/     301
 /meta-life/sleeping/        /life-log/health/sleeping/          301
+/programming/python/plotting/     /programming/python/matplotlib-seaborn/   301
+
 # 404 page
 /*          /404/           404

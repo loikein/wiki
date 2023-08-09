@@ -141,7 +141,33 @@ df = pd.read_excel(
 )
 ```
 
-### Debugging
+## Export DataFrame
+
+### As Excel file
+
+```python
+df.to_excel(os.path.join("data", "data.xlsx"))
+# or if the df is too big
+df.iloc[:1000, :1000].to_excel(os.path.join("data", "data.xlsx"))
+```
+
+### As plain text file
+
+Ref: [Python, Pandas : write content of DataFrame into text File - Stack Overflow](https://stackoverflow.com/questions/31247198/python-pandas-write-content-of-dataframe-into-text-file)
+
+```python
+# method 1
+df.to_csv(os.path.join("data", "data.txt"))
+
+# method 2
+with open(os.path.join("data", "data.txt"), "w") as f:
+    f.write(df.to_string())
+```
+
+
+## Debugging
+
+### Import
 
 If get `UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position xx: invalid start byte`, try: \([credit](https://stackoverflow.com/a/46000253)\)
 
@@ -151,6 +177,25 @@ df = pd.read_csv(
     encoding="cp1252",
 )
 ```
+
+
+### Calculation
+
+If get `TypeError: unhashable type: 'numpy.ndarray'`, it means one \(or more\) of the cells contain list value \(instead of single value\).
+
+Get a subset of all rows containing list-value cells:
+
+```python
+df_subset = df[df["Average"].apply(lambda x: isinstance(x, np.ndarray))]
+```
+
+### Index
+
+If get `ValueError: Index contains duplicate entries, cannot reshape`, it means there are duplicate indices sets (rows where all indices are identical).
+
+First [check the rows contain same data](/programming/python/pandas/#list-rows-with-duplicated-values-of-indices), then [drop rows with duplicate indices](/programming/python/pandas/#drop-rows-with-duplicate-indices).
+
+
 
 ## Observe things
 
@@ -435,17 +480,13 @@ df_unstack = pd.pivot(
 )
 ```
 
-{{< hint info >}}
-If get `ValueError: Index contains duplicate entries, cannot reshape`, it means that there are duplicate indices sets (rows where all indices are identical).
-
-In that case, first [check the rows contain same data](/programming/python/pandas/#list-rows-with-duplicated-values-of-indices), then do [#Drop rows with duplicate indices](/programming/python/pandas/#drop-rows-with-duplicate-indices). Now the pivot should work just fine.
-{{< /hint >}}
+Refer to [index debugging](#index) when in trouble.
 
 Result:
 
 ```text
             CODE  A-1        A-2          ...
-            LEVEL B-1    B-2 B-1   B-2    ...
+            LEVEL B-1    B-2 B-1   B-3    ...
 ID      (unnamed)
 *A0001* *VALUE*    96.0  5.0  18.0  18.0 
 *A0002* *VALUE*   505.0  5.0 182.0 191.0 
@@ -514,6 +555,20 @@ A0005 377.0   5.0     196.0
 
 Done!
 
+
+### Loop over rows
+
+Ref: [python - How to iterate over rows in a DataFrame in Pandas - Stack Overflow](https://stackoverflow.com/a/16476974/10668706)
+
+```python
+for ind, row in df.iterrows():
+    print(ind)              # A0001
+    print(row)              # np.series
+    print(row["column1"])   # value of df.loc["A0001"]["column1"]
+    break
+```
+
+
 ### Rename things
 
 Index column:
@@ -561,28 +616,4 @@ Columns by column names: ([credit](https://stackoverflow.com/a/11067072/10668706
 
 ```python
 df = df.reindex(sorted(df.columns), axis=1)
-```
-
-
-## Export DataFrame
-
-### As Excel file
-
-```python
-df.to_excel(os.path.join("data", "data.xlsx"))
-# or if the df is too big
-df.iloc[:1000, :1000].to_excel(os.path.join("data", "data.xlsx"))
-```
-
-### As plain text file
-
-Ref: [Python, Pandas : write content of DataFrame into text File - Stack Overflow](https://stackoverflow.com/questions/31247198/python-pandas-write-content-of-dataframe-into-text-file)
-
-```python
-# method 1
-df.to_csv(os.path.join("data", "data.txt"))
-
-# method 2
-with open(os.path.join("data", "data.txt"), "w") as f:
-    f.write(df.to_string())
 ```
