@@ -163,6 +163,40 @@ Adjust position of labels:
 ax.xaxis.get_majorticklabels()[1].set_horizontalalignment("right")
 ```
 
+### Annotation
+
+Docs:
+
+- [matplotlib.pyplot.annotate — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.annotate.html)
+- [matplotlib.text — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/api/text_api.html)
+- [Annotations — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/tutorials/text/annotations.html)
+
+Usage: \([credit](https://stackoverflow.com/a/58669227/10668706)\)
+
+```python
+fig, ax = plt.subplots()
+sns.boxplot(ax=ax, data=df, order=["Good", "Ok", "Bad"])
+
+ax.annotate(
+    r"$N=" + str(len(df[df["Rate"]=="Good"])) + "$",
+    xy=(0,0.75),    # The actual coordinates of the axes
+    ha='center',    # Short for horizontalalignment of **kwargs for text
+    va='bottom',    # Short for verticalalignment of **kwargs for text
+    fontsize=12,
+)
+
+ax.annotate(
+    r"$N=" + str(len(df[df["Rate"]=="Ok"])) + "$",
+    xy=(1,0.75), ha='center', va='bottom', fontsize=12,
+)
+
+ax.annotate(
+    r"$N=" + str(len(df[df["Rate"]=="Bad"])) + "$",
+    xy=(2,0.75), ha='center', va='bottom', fontsize=12,
+)
+```
+
+
 ## Plot With Subplots
 
 Generally the above-mentioned methods will work with adding indices like: `ax[0,1].set_xlabel(r"$x_1$")`, etc.
@@ -312,6 +346,24 @@ sns.heatmap(
 )
 ```
 
+### Scatter plot
+
+Doc: [seaborn.scatterplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.scatterplot.html)
+
+```python
+fig, ax = plt.subplots()
+
+sns.scatterplot(
+    ax=ax,
+    data=df,
+    x="X",
+    y="Y",
+    hue="Type",     # For marker colours
+    style="Type",   # For marker shapes
+    linewidth=0,
+    alpha=0.3,
+)
+```
 
 ### Violin plot
 
