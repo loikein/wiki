@@ -220,21 +220,33 @@ TBA
 
 Ref: [git - Pull new updates from original GitHub repository into forked GitHub repository - Stack Overflow](https://stackoverflow.com/a/3903835/10668706)
 
-Scenario: I have a forked repository on GitHub, cloned to local machine, and want to pull the updates from the original repository.
+**Scenario 1**: I have a forked repository on GitHub, and want to pull the updates from the original repository, while keeping my own changes.
 
-Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
+<u>Step 1</u>: Clone to local machine.
+
+<u>Step 2</u>: Add original repository as remote \(the name does not matter, can even call it `spoon`\)
 
 ```sh
 git remote add upstream https://github.com/something/something.git
 git fetch upstream
 ```
 
+<u>Step 3</u>: Open a new branch \(optional\)
+
+If it takes a long time to resolve all the merge conflicts, this step will preserve the main branch for production until merge is ready.
+
+```sh
+git checkout -b merge-upstream main
+```
+
+<u>Step 4</u>: Run merge
+
 If want to keep all fork commits:
 
 ```sh
-# resolve all conflicts following the upstream:
-# https://stackoverflow.com/a/10697551
-git merge upstream/main main --allow-unrelated-histories --strategy-option theirs
+git merge upstream/main main
+# or with step 3
+git merge upstream/main merge-upstream
 ```
 
 If want clean commit history:
@@ -242,6 +254,44 @@ If want clean commit history:
 ```sh
 git rebase upstream/main
 ```
+
+Resolve any conflict, and commit.
+
+<u>Step 5</u>: Merge new branch to main \(optional\)
+
+If have used Step 3, need this as well.
+
+```sh
+git checkout main
+git merge merge-upstream
+```
+
+Done.
+
+**Scenario 2**: I have used Vercel Deploy Button and now having a private non-fork repository. I only want to stick to the upstream.
+
+First clone it to local machine.
+
+Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
+
+<u>Step 1</u>: Clone to local machine.
+
+<u>Step 2</u>: Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
+
+```sh
+git remote add upstream https://github.com/something/something.git
+git fetch upstream
+```
+
+<u>Step 3</u>: Run merge
+
+```sh
+# resolve all conflicts using upstream code:
+# https://stackoverflow.com/a/10697551
+git merge upstream/main main --allow-unrelated-histories --strategy-option theirs
+```
+
+Done.
 
 ### Branches
 
