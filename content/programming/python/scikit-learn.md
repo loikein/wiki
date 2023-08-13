@@ -10,6 +10,7 @@ title: "scikit-learn"
 from sklearn.impute import SimpleImputer
 
 # get # of rows with missing values
+# ref: https://note.nkmk.me/en/python-pandas-nan-extract/
 sum(df.isnull().any(axis=1))
 # 230
 
