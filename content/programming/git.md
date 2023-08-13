@@ -220,7 +220,9 @@ TBA
 
 Ref: [git - Pull new updates from original GitHub repository into forked GitHub repository - Stack Overflow](https://stackoverflow.com/a/3903835/10668706)
 
-**Scenario 1**: I have a forked repository on GitHub, and want to pull the updates from the original repository, while keeping my own changes.
+#### Keep own changes
+
+Scenario: I have a forked repository on GitHub, and want to pull the updates from the original repository, while keeping my own changes.
 
 <u>Step 1</u>: Clone to local machine.
 
@@ -268,7 +270,9 @@ git merge merge-upstream
 
 Done.
 
-**Scenario 2**: I have used Vercel Deploy Button and now having a private non-fork repository. I only want to stick to the upstream.
+#### Use everything upstream
+
+Scenario: I have used Vercel Deploy Button and now having a private non-fork repository. I did not change anything and only want to stick to the upstream.
 
 First clone it to local machine.
 
