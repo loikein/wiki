@@ -598,6 +598,15 @@ ul li strong {
 }
 ```
 
+Range: URLs on the domain: `scikit-learn.org`
+
+```css
+/* highlight param names */
+dt strong {
+  color: var(--primary); /* bootstrap colour */
+}
+```
+
 Range: URLs on the domain: `statsmodels.org`
 
 ```css

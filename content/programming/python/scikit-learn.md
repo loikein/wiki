@@ -4,6 +4,8 @@ title: "scikit-learn"
 ---
 ## Impute missing data
 
+Doc: [6.4. Imputation of missing values — scikit-learn 1.3.0 documentation](https://scikit-learn.org/stable/modules/impute.html)
+
 ### `SimpleImputer`
 
 ```python
@@ -53,6 +55,15 @@ imp_iter_df = pd.DataFrame(
 sum(imp_iter_df.isnull().any(axis=1))
 # 0
 ```
+
+## LASSO
+
+Refs:
+
+- [Lasso and Ridge Regression in Python Tutorial | DataCamp](https://www.datacamp.com/tutorial/tutorial-lasso-ridge-regression)
+- [Lasso Regression with Python | Jan Kirenz](https://www.kirenz.com/post/2019-08-12-python-lasso-regression-auto/)
+
+
 
 ## Principal Component Analysis \(PCA\)
 

@@ -161,6 +161,8 @@ jupyter trust binder-r-test.ipynb
 
 ## \(Maybe\) Useful resources
 
+- [An Introduction to Statistical Learning](https://www.statlearning.com/)
+  + [Resources - ISL with R, 2nd Edition — An Introduction to Statistical Learning](https://www.statlearning.com/resources-second-edition)
 - [cis-ds/course-site: Course site for Computing for Information Science (INFO 5940)](https://github.com/cis-ds/course-site)
 - [swirldev/swirl_courses: :mortar_board: A collection of interactive courses for the swirl R package.](https://github.com/swirldev/swirl_courses#swirl-courses)
 - [R for Data Science (1e)](https://r4ds.had.co.nz/index.html)

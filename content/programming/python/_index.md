@@ -174,3 +174,8 @@ except AssertionError:
 except:
     print("Error: Unknown error.")
 ```
+
+## \(Maybe\) Useful resources
+
+
+- [Gallery of Jupyter Books - Executable Books](https://executablebooks.org/en/latest/gallery/)
