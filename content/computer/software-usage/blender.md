@@ -118,4 +118,5 @@ When adjusting camera, use {{< kbd `N` >}} Menu ▸ View ▸ Lock Camera to View
 - [ ] [If I Started Blender In 2023, I'd Do This - YouTube](https://www.youtube-nocookie.com/embed/1WOVNkJQEAQ?cc_load_policy=1&hl=en)
 - [ ] [I animated this in 18 days... in Blender - YouTube](https://www.youtube-nocookie.com/embed/tCTkkHGRpNk?cc_load_policy=1&hl=en)
 - [ ] Introduction to Blender 3.0: Learn Organic and Architectural Modeling, Lighting, Materials, Painting, Rendering, and Compositing with Blender \([companion files](https://github.com/Apress/Introduction-to-Blender-3.0)\)
+- [ ] [Immersive Math](https://immersivemath.com/ila/)
  -->

@@ -12,6 +12,10 @@ While using [longern/FlareDrive](https://github.com/loikein/FlareDrive) \(link p
 Any custom domain needs to use Cloudflare as its DNS in order for it to be added as a self hosted application in Zero Trust.  
 That means, you need to add the domain \(not subdomain, the whole domain\) to your Cloudflare websites, switch its DNS to Cloudflare \(instructions will be given\), and then jump back and forth between Pages \& Zero Trust dashboards a few times to setup the authentication policy. Not ideal.
 
+{{< hint danger >}}
+Make sure you export all your DNS settings from your previous DNS provider before pushing the confirm switch button! The Cloudflare DNS auto-migration process has dropped several subdomain settings of mine.
+{{< /hint >}}
+
 ### Binding your R2 bucket
 
 Go to Project > Settings > Functions > R2 bucket bindings, then add variable names and select buckets. Do not use Environment variables.
