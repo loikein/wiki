@@ -3,9 +3,8 @@ weight: 400
 title: "Today-Scripts"
 ---
 
-{{< hint danger >}}
-This programme stopped working after upgrading to macOS 10.12 (Sierra). I collect these scripts here only for future reference purpose.
-{{< /hint >}}
+> This programme stopped working after upgrading to macOS 10.12 (Sierra). I collect these scripts here only for future reference purpose.
+{.book-hint .danger}
 
 Refs:
 

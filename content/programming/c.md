@@ -2,9 +2,8 @@
 title: "C/C++"
 ---
 
-{{< hint danger >}}
-I have stopped using C. Proceed at your own risk.
-{{< /hint >}}
+> I have stopped using C. Proceed at your own risk.
+{.book-hint .danger}
 
 [notes: intermediate c](https://gist.github.com/loikein/0006bc7e97bb7709f06f540b30bfac9a)
 

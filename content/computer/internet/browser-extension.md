@@ -5,14 +5,13 @@ title: "Browser extension"
 
 Todo: move from [Firefox ](/computer/software-usage/firefox/) and unify other browsers.
 
-{{< hint info >}}
-- If there are multiple similar extensions, I will choose the open source ones.
-- My current default browser is ~~Opera~~ ~~Vivaldi~~ Firefox and names of extensions are those made for Firefox, unless it is not available for Firefox.
-    + Links with specific titles are the closest alternatives that I have used \(unless otherwise noted\).
-    + Empty means I have not <u>found or tried</u> any of them.
-- For Edge, [it seems better to use the Edge Add-ons](https://www.reddit.com/r/MicrosoftEdge/comments/hro5v9/microsoft_edge_vs_chrome_extensions/), but I cannot tell.
-- For Android, I heard that [Kiwi Browser](https://kiwibrowser.com/) supports Chrome extensions, but I do not have devices to test.
-{{< /hint >}}
+> - If there are multiple similar extensions, I will choose the open source ones.
+> - My current default browser is ~~Opera~~ ~~Vivaldi~~ Firefox and names of extensions are those made for Firefox, unless it is not available for Firefox.
+>     + Links with specific titles are the closest alternatives that I have used \(unless otherwise noted\).
+>     + Empty means I have not <u>found or tried</u> any of them.
+> - For Edge, [it seems better to use the Edge Add-ons](https://www.reddit.com/r/MicrosoftEdge/comments/hro5v9/microsoft_edge_vs_chrome_extensions/), but I cannot tell.
+> - For Android, I heard that [Kiwi Browser](https://kiwibrowser.com/) supports Chrome extensions, but I do not have devices to test.
+{.book-hint .info}
 
 ## User-agents
 

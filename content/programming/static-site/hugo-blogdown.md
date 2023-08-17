@@ -185,9 +185,8 @@ hugo server --buildDrafts --disableFastRender
 
 ## Blogdown basics
 
-{{< hint warning >}}
-I have not used Blogdown for a long time. Proceed at your own risk.
-{{< /hint >}}
+> I have stopped using Blogdown. Proceed at your own risk.
+{.book-hint .danger}
 
 Install:
 
@@ -228,9 +227,8 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
 </div>
 ```
 
-{{< hint warning >}}
-I just cannot make the `output - blogdown::html_page: - toc` param work seamlessly after many tries.
-{{< /hint >}}
+> I just cannot make the `output - blogdown::html_page: - toc` param work seamlessly after many tries. Maybe it was because of the colons.
+{.book-hint .warning}
 
 **Step 3. Markdown, HTML & Config  changes**
 

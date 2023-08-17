@@ -3,9 +3,8 @@ weight: 700
 title: "Matplotlib/Seaborn"
 ---
 
-{{< hint info >}}
-`seaborn` depends on `matplotlib`.
-{{< /hint >}}
+> `seaborn` depends on `matplotlib`.
+{.book-hint .info}
 
 Refs:
 
@@ -206,18 +205,17 @@ Generally the above-mentioned methods will work with adding indices like: `ax[0,
 
 Doc: [Overview of seaborn plotting functions — seaborn 0.12.2 documentation](https://seaborn.pydata.org/tutorial/function_overview.html#figure-level-vs-axes-level-functions)
 
-{{< hint info >}}
-Also works for single plots:
-
-```python
-fig, ax = plt.subplots()
-# draws on top of previous layers
-sns.histplot(ax=ax, ...)
-
-# overwrites previous layers
-ax = sns.histplot(...)
-```
-{{< /hint >}}
+> Also works for single plots:
+> 
+> ```python
+> fig, ax = plt.subplots()
+> # draws on top of previous layers
+> sns.histplot(ax=ax, ...)
+> 
+> # overwrites previous layers
+> ax = sns.histplot(...)
+> ```
+{.book-hint .info}
 
 Ref: [ds-micro-tutorials/data-analysis/subplotting.ipynb](https://github.com/thalesbruno/ds-micro-tutorials/blob/master/data-analysis/subplotting.ipynb)
 

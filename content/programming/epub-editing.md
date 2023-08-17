@@ -83,9 +83,8 @@ CSS:
 {{< details "Method: margin \& transform" >}}
 Ref: [Vertically Centered Text in iBooks – EPUBSecrets](https://epubsecrets.com/vertically-centered-text-in-ibooks.php)
 
-{{< hint warning >}}
-This method looks good when it works, but horrible when it doesn't work. Be aware.
-{{< /hint >}}
+> This method looks good when it works, but horrible when it doesn't work. Be aware.
+{.book-hint .warning}
 
 Page code:
 

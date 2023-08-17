@@ -13,12 +13,12 @@ title: "Microsoft Excel"
 - Sheet: `'Sheet 1'!B3:B40`
 - Keep reference position when batch applying: `$A$1:$B$3`
 
-{{< hint warning >}}
-Single and double quotations are strictly different. Single quotation is only used when:
+> Single and double quotations are strictly different. Single quotation is only used when:
+> 
+> - Referencing to sheet names
+> - Put in the beginning of number cell to make it a string cell
+{.book-hint .warning}
 
-- Referencing to sheet names
-- Put in the beginning of number cell to make it a string cell
-{{< /hint >}}
 
 ## Functions
 

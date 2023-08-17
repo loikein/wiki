@@ -24,9 +24,8 @@ Refs:
 
 ### Search field operators
 
-{{< hint warning >}}
-There must be no space around `:`
-{{< /hint >}}
+> There must be no space around the `:`
+{.book-hint .warning}
 
 `"word"`
 : Must include exact match of `word`

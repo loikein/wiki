@@ -2,9 +2,10 @@
 title: "JavaScript"
 ---
 
-{{< hint warning >}}
-I have not learnt JavaScript properly. Proceed at your own risk.
-{{< /hint >}}
+> I have not learnt JavaScript properly. Proceed at your own risk.
+{.book-hint .warning}
+
+[^1]: test
 
 ## Dialog \(Modal\) on-load
 

@@ -2,9 +2,8 @@
 title: "R"
 ---
 
-{{< hint warning >}}
-I have not used R for a long time. Proceed at your own risk.
-{{< /hint >}}
+> I have not used R for a long time. Proceed at your own risk.
+{.book-hint .warning}
 
 References:
 
@@ -130,9 +129,8 @@ sigma <- 0.25
 
 ## Binder
 
-{{< hint danger >}}
-I have stopped using Binder. Proceed at your own risk.
-{{< /hint >}}
+> I have stopped using Binder. Proceed at your own risk.
+{.book-hint .danger}
 
 Refs:
 

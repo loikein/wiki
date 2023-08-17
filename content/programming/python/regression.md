@@ -7,9 +7,8 @@ title: "Regression"
 
 [statsmodels 0.14.0](https://www.statsmodels.org/stable/index.html)
 
-{{< hint warning >}}
-R-style formulas (e.g. `smf.ols`) do not need manually adding constant, while plain formulas (e.g. `sm.OLS`) need.
-{{< /hint >}}
+> R-style formulas (e.g. `smf.ols`) do not need manually adding constant, while plain formulas (e.g. `sm.OLS`) need.
+{.book-hint .warning}
 
 ### OLS
 

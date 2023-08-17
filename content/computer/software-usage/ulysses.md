@@ -3,9 +3,8 @@ weight: 400
 title: "Ulysses"
 ---
 
-{{< hint danger >}}
-I have stopped using Ulysses. Proceed at your own risk.
-{{< /hint >}}
+> I have stopped using Ulysses. Proceed at your own risk.
+{.book-hint .danger}
 
 To add functions, place HTML snippets in Raw Source Block tags at the beginning of a file.
 

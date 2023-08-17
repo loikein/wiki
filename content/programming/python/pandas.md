@@ -10,9 +10,8 @@ description: "Real problems and real solutions."
 
 Doc: [pandas.read_excel — pandas 2.0.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)
 
-{{< hint info >}}
-Extra dependency: `openpyxl`
-{{< /hint >}}
+> Extra dependency: `openpyxl`
+{.book-hint .info}
 
 Read sheet:
 
@@ -41,9 +40,8 @@ df = xl.parse("Sheet 1") # if need sheets
 
 Read all sheets: \([credit](https://stackoverflow.com/a/16896091)\)
 
-{{< hint warning >}}
-This is significantly slower than the `pd.ExcelFile` method above. Only use when you actually need every single sheet.
-{{< /hint >}}
+> This is significantly slower than the `pd.ExcelFile` method above. Only use when you actually need every single sheet.
+{.book-hint .warning}
 
 ```python
 import pandas as pd
@@ -89,13 +87,11 @@ with open("file", "r") as f:
 
 #### `pandas-ods-reader`
 
-{{< hint info >}}
-Extra dependency: [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml`
-{{< /hint >}}
+> Extra dependency: [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml`
+{.book-hint .info}
 
-{{< hint warning >}}
-Supports `skiprows`, but not `nrows`.
-{{< /hint >}}
+> It supports `skiprows`, but not `nrows`.
+{.book-hint .warning}
 
 ```python
 import pandas as pd
@@ -111,14 +107,12 @@ df = read_ods(
 
 #### `pd.read_excel`
 
-{{< hint info >}}
-Extra dependency: `odfpy`
-{{< /hint >}}
+> Extra dependency: `odfpy`
+{.book-hint .info}
 
-{{< hint warning >}}
-Since `odfpy` does not have row selection method when loading files,
+> Since `odfpy` does not have row selection method when loading files,
 `nrows` option happens after the whole file is loaded into memory, unlike when dealing with other types of tables. This causes long loading time when the file is huge. See [pandas-dev/pandas Issue #53185](https://github.com/pandas-dev/pandas/issues/53185).
-{{< /hint >}}
+{.book-hint .warning}
 
 Slightly faster \(and more robust\) method:
 
@@ -203,9 +197,11 @@ First [check the rows contain same data](/programming/python/pandas/#list-rows-w
 
 Ref: [python - GroupBy pandas DataFrame and select most common value - Stack Overflow](https://stackoverflow.com/questions/15222754/groupby-pandas-dataframe-and-select-most-common-value)
 
-{{< hint warning >}}
-So far I haven't found any way to get this mode df [merge/join/concat/etc](https://pandas.pydata.org/docs/user_guide/merging.html) with the original df, except first pivot the original df.
-{{< /hint >}}
+> So far I haven't found any way to get this mode df [merge/join/concat/etc](https://pandas.pydata.org/docs/user_guide/merging.html) with the original df, except first pivot the original df.
+{.book-hint .warning}
+
+> `mode` could return a list of values. Make sure to check the type of your modes before proceeding to other tasks.
+{.book-hint .warning}
 
 ```python
 # mode of each ID
@@ -317,11 +313,10 @@ df_subset = df[df["Status Code"]=="A"]
 df_subset = df[df["Status Code"]!="B"]
 ```
 
-{{< hint warning >}}
-Sometimes it gives `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`. In that case, try:
-
-Credit: [python - How do I select rows from a DataFrame based on column values? - Stack Overflow](https://stackoverflow.com/a/46165056/10668706)
-{{< /hint >}}
+> Sometimes it gives `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`. In that case, try this method below:
+> 
+> Credit: [python - How do I select rows from a DataFrame based on column values? - Stack Overflow](https://stackoverflow.com/a/46165056/10668706)
+{.book-hint .warning}
 
 ```python
 # only keep rows with certain value for a col
@@ -408,11 +403,10 @@ df_AB = pd.concat([df_A, df_B])
 
 With same indices (join):
 
-{{< hint warning >}}
-It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct (at least not stable). When the single shared index has different values, aka, `outer` does not equal `inner`, the join returns an error.
-
-To avoid this, first use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])` to make the MultiIndex DataFrame single-indexed first, then perform the join.
-{{< /hint >}}
+> It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct (at least not stable). When the single shared index has different values, aka, `outer` does not equal `inner`, the join returns an error.
+> 
+> To avoid this, first use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])` to make the MultiIndex DataFrame single-indexed first, then perform the join.
+{.book-hint .warning}
 
 ```python
 df_AB = df_A.join(

@@ -2,9 +2,9 @@
 weight: 400
 title: "Blogger"
 ---
-{{< hint danger >}}
-I have stopped using Blogger. Proceed at your own risk.
-{{< /hint >}}
+
+> I have stopped using Blogger. Proceed at your own risk.
+{.book-hint .danger}
 
 Before switching to static site generator, I was a Blogger power user (if that is a thing). I basically learnt CSS because of wanting to make my Blogger prettier.
 

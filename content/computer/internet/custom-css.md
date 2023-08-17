@@ -19,15 +19,15 @@ s, strike, del {
 
 ## AO3
 
-{{< hint info >}}
-**Multiple custom CSS for logged-in users**:
 
-First, go to Dashboard ▸ Skins ▸ My Site Skins, create at least one skin for dark theme \(because `prefers-color-scheme` will be applied to the whole skin\) and one skin for other general styles.
-
-Then, create a third skin with no CSS code, go to Advanced ▸ Parent Skins ▸ Add parent skin, add all the sub-skins you want to apply.
-
-Use this final skin as your site skin. Now you have everything. Every time you want to add other CSS **on top of** your current configuration, make sub skins then add them as parents to this big skin.
-{{< /hint >}}
+> **Multiple custom CSS for logged-in users**:
+>
+> First, go to Dashboard ▸ Skins ▸ My Site Skins, create at least one skin for dark theme \(because `prefers-color-scheme` will be applied to the whole skin\) and one skin for other general styles.
+>
+> Then, create a third skin with no CSS code, go to Advanced ▸ Parent Skins ▸ Add parent skin, add all the sub-skins you want to apply.
+>
+> Use this final skin as your site skin. Now you have everything. Every time you want to add other CSS **on top of** your current configuration, make sub skins then add them as parents to this big skin.
+{.book-hint .info}
 
 Range: URLs on the domain: `archiveofourown.org`
 
@@ -39,9 +39,9 @@ Range: URLs on the domain: `archiveofourown.org`
 ```
 
 {{< details "Dark theme" >}}
-{{< hint info >}}
-This is AO3's [official dark theme](https://archiveofourown.org/skins/929). If you already have a skin of it, please ignore.
-{{< /hint >}}
+
+> This is AO3's [official dark theme](https://archiveofourown.org/skins/929). If you already have a skin of it, please ignore.
+{.book-hint .info}
 
 ```css
 /* dark theme */

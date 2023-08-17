@@ -3,9 +3,8 @@ weight: 400
 title: "Typora"
 ---
 
-{{< hint danger >}}
-I have stopped using Typora. Proceed at your own risk.
-{{< /hint >}}
+> I have stopped using Typora. Proceed at your own risk.
+{.book-hint .danger}
 
 ## Extra CSS
 

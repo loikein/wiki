@@ -58,9 +58,8 @@ print(elapsed)
 
 ## CSV
 
-{{< hint info >}}
-This section focuses on the Python module `csv`. For the package `pandas`, see [Pandas](/programming/python/pandas/).
-{{< /hint >}}
+> This section focuses on the Python module `csv`. For the package `pandas`, see [Pandas](/programming/python/pandas/).
+{.book-hint .info}
 
 Docs: [csv — CSV File Reading and Writing — Python 3.11.4 documentation](https://docs.python.org/3/library/csv.html)
 

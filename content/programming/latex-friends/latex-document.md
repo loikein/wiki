@@ -92,9 +92,8 @@ In `chapters/intro.tex` \(first line of file\):
 
 **Way 2:** use `\include` \([credit](https://stackoverflow.com/a/10066885/10668706)\)
 
-{{< hint warning >}}
-This method breaks all  cleveref references pointing to labels inside the subfiles. Don't know about normal references.
-{{< /hint >}}
+> This method breaks all cleveref references pointing to labels inside the subfiles. Don't know about normal references.
+{.book-hint .warning}
 
 ```latex
 \begingroup

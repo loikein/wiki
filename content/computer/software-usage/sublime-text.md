@@ -138,9 +138,8 @@ User setting:
 
 ## Custom syntax highlighting
 
-{{< hint info >}}
-In Sublime Text 4, if you have more than one custom syntaxes, they will show up as a single `User` syntax group in the syntax selector.
-{{< /hint >}}
+> In Sublime Text 4, if you have more than one custom syntaxes, they will show up as a single `User` syntax group in the syntax selector.
+{.book-hint .info}
 
 ### GAUSS
 

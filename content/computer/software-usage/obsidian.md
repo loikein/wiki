@@ -2,9 +2,9 @@
 weight: 400
 title: "Obsidian"
 ---
-{{< hint warning >}}
-I have not touched Obsidian for over a year and am still figuring out the new features \& mobile versions.
-{{< /hint >}}
+
+> I have not touched Obsidian for over a year and am still figuring out the new features \& mobile versions.
+{.book-hint .warning}
 
 ## Plugins
 

@@ -74,9 +74,8 @@ javascript:(function(){var count=0, text, regexp;text=prompt("Search regexp:", "
 
 ## Simple notepad in new tab
 
-{{< hint warning >}}
-Only intended for temporary text editing. Once you close it, everything is lost.
-{{< /hint >}}
+> Only intended for temporary text editing. Once you close it, everything is lost.
+{.book-hint .warning}
 
 ```html
 data:text/html,

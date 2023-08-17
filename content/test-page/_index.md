@@ -116,6 +116,56 @@ ref: https://burk.io/2020/let-there-be-dark
 | Agent 1's action   | `$a_1$`          |
 | New finding        | `$R_1 \begin{cases} >\mu_{2} \\ \leq \mu_{2} \end{cases}$` |
 
+
+### Hints with block attribute
+
+CommonMark/Goldmark flavour: \(Doc: [#Attributes in yuin/goldmark/README](https://github.com/yuin/goldmark/#attributes)\)
+
+> Info hint
+{.book-hint .info}
+
+> Warning hint
+{.book-hint .warning}
+
+> Danger **(!)** hint
+{.book-hint .danger}
+
+```markdown
+> Info hint
+{.book-hint .info}
+
+> Warning hint
+{.book-hint .warning}
+
+> Danger **(!)** hint
+{.book-hint .danger}
+```
+
+GitHub flavour: \(Doc: [[Markdown] An option to highlight a "Note" and "Warning" using blockquote (Beta) · community · Discussion #16925](https://github.com/orgs/community/discussions/16925)\)
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+
+```markdown
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+```
+
+
+
 ## Custom Shortcodes (by theme)
 
 ### Columns
@@ -138,19 +188,32 @@ Hello...
 Who am I? Where am I?
 {{< /details >}}
 
-### Hints
+### Hints \(deprecated\)
 
-{{< hint info >}}
+> Note: this has become redundant since Hugo v0.108.0 \([release notes](https://github.com/gohugoio/hugo/releases/tag/v0.108.0)\). Use [block attributes](#hints-with-block-attribute) instead.
+> 
+> See [Markdown attributes - tips & tricks - HUGO](https://discourse.gohugo.io/t/markdown-attributes/41783) for more info.
+{.book-hint .info}
+
+Previous usage:
+
+```html
+{{</* hint info */>}}
 Info hint
-{{< /hint >}}
+{{</* /hint */>}}
+```
 
-{{< hint warning >}}
+```html
+{{</* hint warning */>}}
 Warning hint
-{{< /hint >}}
+{{</* /hint */>}}
+```
 
-{{< hint danger >}}
+```html
+{{</* hint danger */>}}
 Danger **(!)** hint
-{{< /hint >}}
+{{</* /hint */>}}
+```
 
 ### Tabs
 
