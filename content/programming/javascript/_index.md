@@ -40,6 +40,12 @@ document.addEventListener('DOMContentLoaded', function(event) {
 });
 ```
 
+## Tooltip
+
+Ref: [Building a fully-accessible help tooltip – Sara Soueidan, inclusive design engineer](https://www.sarasoueidan.com/blog/accessible-tooltips/)
+
+TBA.
+
 <!-- 
 ## Snippets
 

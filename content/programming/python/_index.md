@@ -58,7 +58,9 @@ print(elapsed)
 
 ## CSV
 
-This section focus on the Python module `csv`. For the package `pandas`, see [Pandas](/programming/python/pandas/).
+{{< hint info >}}
+This section focuses on the Python module `csv`. For the package `pandas`, see [Pandas](/programming/python/pandas/).
+{{< /hint >}}
 
 Docs: [csv — CSV File Reading and Writing — Python 3.11.4 documentation](https://docs.python.org/3/library/csv.html)
 
@@ -140,6 +142,7 @@ else:
     print("Pickle not found. Please create one first.")
 ```
 
+
 ## Pretty print
 
 ### Table
@@ -175,8 +178,9 @@ except:
     print("Error: Unknown error.")
 ```
 
-## \(Maybe\) Useful resources
 
+## \(Maybe\) Useful resources
 
 - [Gallery of Jupyter Books - Executable Books](https://executablebooks.org/en/latest/gallery/)
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+- [nkmk/python-snippets](https://github.com/nkmk/python-snippets)
