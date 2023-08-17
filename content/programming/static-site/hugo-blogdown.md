@@ -3,39 +3,74 @@ title: "Hugo/Blogdown"
 disable_latex: true
 ---
 
-## Hugo basics
+## Basics
 
-[Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)
+Doc: [Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)
 
-```bash
-$ hugo new site mysite
-$ cd mysite
+```sh
+# Start fresh
+hugo new site mysite && cd mysite
 
-# Serve local site (live reload)
-$ hugo server
+# Serve local site (including drafts)
+hugo server --buildDrafts --disableFastRender
 
-# (including drafts)
-$ hugo server --buildDrafts
-
-# (greedy loading mode)
-$ hugo server --disableFastRender
-
-# Build site
-$ hugo
+# Build example site of theme
+cd exampleSite && hugo server --buildDrafts --themesDir .. --theme .
 ```
 
-### Useful shortcuts
+## Useful commands
+
+Doc: [hugo | Hugo](https://gohugo.io/commands/hugo/#options)
+
+### Local
+
+```sh
+# run local server with drafts
+hugo server --buildDrafts
+
+# rebuild every time
+# warning: changes too layout files still need restarting server
+--disableFastRender
+
+# log time used
+--logLevel info
+
+# log template usage and caching potentials
+--templateMetrics --templateMetricsHints
+
+# check path clashes
+--printPathWarnings
+```
+
+### Deploy
+
+Battle-tested deployment commands
+
+```sh
+# For whole site
+hugo --gc --minify
+
+# For site with pagefind
+hugo --gc --minify && npm_config_yes=true npx pagefind --source 'public'
+
+# For theme with example site
+cd exampleSite && hugo --gc --minify --themesDir .. --theme .
+```
+
+## Useful shortcuts
+
+### Timestamped draft filenames
 
 Create new post with date & time in the filename: ([credit](https://discourse.gohugo.io/t/dates-in-post-filenames/26219/7))
 
-```bash
-$ hugo new drafts/$(date +"%Y-%m-%d")-draft$(date +"%H%M%S").md
+```sh
+hugo new drafts/$(date +"%Y-%m-%d")-draft$(date +"%H%M%S").md
 ```
 
 Timestamp: ([credit](https://unix.stackexchange.com/a/629504))
 
-```bash
-$ date +"%Y-%m-%dT%H:%M:%S%z"
+```sh
+date +"%Y-%m-%dT%H:%M:%S%z"
 ```
 
 My [espanso](/computer/software-usage/espanso.md) triggers just for reference:
@@ -52,6 +87,100 @@ My [espanso](/computer/software-usage/espanso.md) triggers just for reference:
   - trigger: ":hugonew"
     replace: |
       hugo new drafts/$(date +"%Y-%m-%d")-draft$(date +"%H%M%S").md
+```
+
+### Regex for search and replace HTML comment with GoHTML comment
+
+Find
+: `(<!--)(.*)(-->)`
+
+Replace
+: `{{/\*\2\*/}}`
+
+## Custom CSS
+
+### Site-wide
+
+Blog: [如何在 Hugo 中添加自定义 CSS - 此生未命名／Untitled Life](https://playground.loikein.one/hugo-diary-public/posts/2021-04-26-hugo-custom-css-the-right-way/)
+
+Layout: (`layouts/partials/head.html`)
+
+```go-html-template
+{{ if .Site.Params.customCSS }}
+{{ $style := resources.Match "css/**.css" | resources.Concat "custom.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ end }}
+```
+
+`config.yaml`:
+
+```yaml
+params:
+  customCSS: true
+```
+
+File tree:
+
+```text
+assets
+└── css
+    ├── 1.css
+    └── 2.css
+```
+
+### Single page
+
+Ref: [Using an additional specific css style for a page - HUGO](https://discourse.gohugo.io/t/using-an-additional-specific-css-style-for-a-page/26547)
+
+Layout: (`layouts/partials/head.html`)
+
+```go-html-template
+{{ with $.Resources.GetMatch "**.css*" }}
+{{ $style := . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ end }}
+```
+
+Front matter:
+
+```yaml
+resources:
+  - src: test.css
+    title: style
+```
+
+File tree: \(using [page bundle](https://gohugo.io/content-management/page-bundles/)\)
+
+```text
+content
+└── posts
+    └── some-random-post
+        ├── index.md
+        └── test.css
+```
+
+
+## Search with pagefind
+
+Remember to:
+
+1. Add search layout and link to search page;
+2. Update deployment commands
+
+Example: [loikein/blog-hugo@6891567](https://github.com/loikein/blog-hugo/commit/6891567c28f6af18976ce433b53ad64f90b93b0e), [loikein/blog-hugo@ef52aef](https://github.com/loikein/blog-hugo/commit/ef52aefbc1af8a2243823c46c49641b625967ff2)
+
+On local:
+
+```sh
+# first, add /public to .gitignore
+echo "/public/" >> .gitignore
+echo  "static/_pagefind" >> .gitignore
+
+# then, build and generate pagefind index
+hugo && npm_config_yes=true npx pagefind --source "public"
+
+# finally, run local server
+hugo server --buildDrafts --disableFastRender
 ```
 
 ## Blogdown basics
@@ -90,13 +219,13 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
 1. Add `ignoreFiles: - ".Rmd$"` to `site/config.yaml`
 2. Add TOC to layout: in `site/themes/hugo-theme/layouts/_default/single.html`, add:
 
-```html {hl_lines="2-4"}
-    <div class="article-content">
-      {{- if ne .Params.toc false -}}
-      <div id="TOC">{{ .TableOfContents }}</div>
-      {{- end -}}
-      {{ .Content }}
-    </div>
+```go-html-template {hl_lines="2-4"}
+<div class="article-content">
+  {{- if ne .Params.toc false -}}
+  <div id="TOC">{{ .TableOfContents }}</div>
+  {{- end -}}
+  {{ .Content }}
+</div>
 ```
 
 {{< hint warning >}}
@@ -137,67 +266,3 @@ I just cannot make the `output - blogdown::html_page: - toc` param work seamless
 **Step 6. Done!**
 
 
-## Add custom CSS (site)
-
-过程：[如何在 Hugo 中添加自定义 CSS - 此生未命名／Untitled Life](https://playground.loikein.one/hugo-diary-public/posts/2021-04-26-hugo-custom-css-the-right-way/)
-
-Layout: (`layouts/partials/head.html`)
-
-```html
-{{ if .Site.Params.customCSS }}
-{{ $style := resources.Match "css/**.css" | resources.Concat "custom.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{ end }}
-```
-
-`config.yaml`:
-
-```yaml
-params:
-  customCSS: true
-```
-
-File tree:
-
-```
-assets
-└── css
-    ├── 1.css
-    └── 2.css
-```
-
-## Add custom CSS (single page)
-
-Ref: [Using an additional specific css style for a page - HUGO](https://discourse.gohugo.io/t/using-an-additional-specific-css-style-for-a-page/26547)
-
-Layout: (`layouts/partials/head.html`)
-
-```html
-{{ with $.Resources.GetMatch "**.css*" }}
-{{ $style := . | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{ end }}
-```
-
-Front matter:
-
-```yaml
-resources:
-  - src: test.css
-    title: style
-```
-
-File tree:
-
-```
-content
-└── posts
-    └── some-random-post
-        ├── index.md
-        └── test.css
-```
-
-## Regex for search and replace HTML comment with GoHTML comment
-
-Find: `(<!--)(.*)(-->)`
-Replace: `{{/\*\2\*/}}`
