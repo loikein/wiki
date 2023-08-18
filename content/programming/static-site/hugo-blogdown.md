@@ -18,6 +18,16 @@ hugo server --buildDrafts --disableFastRender
 cd exampleSite && hugo server --buildDrafts --themesDir .. --theme .
 ```
 
+## Useful configs
+
+Doc: [Configure markup | Hugo](https://gohugo.io/getting-started/configuration-markup/)  
+Code: [hugo/config/allconfig/allconfig.go](https://github.com/gohugoio/hugo/blob/master/config/allconfig/allconfig.go)
+
+```yaml
+baseURL: "https://wiki.loikein.one/"    # baseURL must include protocol
+                                        # for the local server url to work
+```
+
 ## Useful commands
 
 Doc: [hugo | Hugo](https://gohugo.io/commands/hugo/#options)
