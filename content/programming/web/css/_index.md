@@ -122,3 +122,9 @@ Usage:
   ...
 </body>
 ```
+
+## Queries
+
+Refs:
+
+- [CSS Style Queries - Ahmad Shadeed](https://ishadeed.com/article/css-container-style-queries/)

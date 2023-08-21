@@ -2,7 +2,6 @@
 bookCollapseSection: true
 title: "Python"
 ---
-
 ## Dictionary
 
 Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)

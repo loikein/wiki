@@ -1,7 +1,15 @@
 # redirects
-/computer/internet/css/      /computer/internet/custom-css/     301
-/meta-life/sleeping/        /life-log/health/sleeping/          301
-/programming/python/plotting/     /programming/python/matplotlib-seaborn/   301
+/computer/internet/css/             /computer/internet/custom-css/              301
+/meta-life/sleeping/                /life-log/health/sleeping/                  301
+/programming/python/plotting/       /programming/python/matplotlib-seaborn/     301
+/programming/css/                   /programming/web/css/                       301
+/programming/css/scss/              /programming/web/css/scss/                  301
+/programming/javascript/            /programming/web/javascript/                301
+/programming/static-site/           /programming/web/static-site/               301
+/programming/static-site/gatsby/    /programming/web/static-site/gatsby/        301
+/programming/static-site/hugo-blogdown/     /programming/web/static-site/hugo-blogdown/     301
+/programming/static-site/jekyll/    /programming/web/static-site/jekyll/        301
+/programming/epub-editing/          /programming/web/epub-editing/              301
 
 # 404 page
 /*          /404/           404
