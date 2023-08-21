@@ -239,6 +239,7 @@ If it takes a long time to resolve all the merge conflicts, this step will prese
 
 ```sh
 git checkout -b merge-upstream main
+git checkout -b merge-upstream master
 ```
 
 <u>Step 4</u>: Run merge
@@ -247,25 +248,31 @@ If want to keep all fork commits:
 
 ```sh
 git merge upstream/main main
+git merge upstream/master master
 # or with step 3
 git merge upstream/main merge-upstream
+git merge upstream/master merge-upstream
 ```
 
 If want clean commit history:
 
 ```sh
 git rebase upstream/main
+git rebase upstream/master
 ```
 
 Resolve any conflict, and commit.
 
 <u>Step 5</u>: Merge new branch to main \(optional\)
 
-If have used Step 3, need this as well.
+Needed if have used Step 3.
 
 ```sh
 git checkout main
+git checkout master
+
 git merge merge-upstream
+git branch -d merge-upstream
 ```
 
 Done.

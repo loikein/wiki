@@ -128,3 +128,8 @@ Usage:
 Refs:
 
 - [CSS Style Queries - Ahmad Shadeed](https://ishadeed.com/article/css-container-style-queries/)
+
+## Entertainment
+
+- [How to Make iOS Text Messages on AO3 - Chapter 1 - CodenameCarrot, La_Temperanza - No Fandom [Archive of Our Own]](https://archiveofourown.org/works/6434845/chapters/14729722)
+- [CSS Grid: Excel Spreadsheet](https://codepen.io/oliviale/pen/rPjgmB)
