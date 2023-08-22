@@ -1,4 +1,6 @@
-# Raspberry Pi
+---
+title: "Raspberry Pi"
+---
 
 ## Fresh Install
 
