@@ -13,8 +13,10 @@ Ref: [Template:Keyboard - Wikipedia](https://en.wikipedia.org/wiki/Template:Keyb
 | {{< kbd `End` >}}       | {{< kbd `Fn` `→` >}} | {{< kbd `fn` `→` >}} | Go to end of page |
 | {{< kbd `Backspace` >}} |                      | {{< kbd `delete` >}} | Delete before cursor |
 | {{< kbd `Del` >}}       | {{< kbd `Fn`  `Backspace` >}} | {{< kbd `fn`  `delete` >}} | Delete after cursor |
-<!-- | {{< kbd  `PrtScn` >}} | {{< kbd `Win` `Shift` `S` >}} | {{< kbd `command` `control` `shift` `3` >}} | Take \& copy screenshot | -->
+| {{< kbd  `PrtScn` >}} | {{< kbd `Win` `Shift` `S` >}} | {{< kbd `command` `control` `shift` `3` >}} | Screenshot \& copy |
+| {{< kbd  `Win` `PrtScn` >}} | ???[^prtscn] | {{< kbd `command` `shift` `3` >}} | Screenshot \& save |
 
+[^prtscn]: Please help.
 
 ## Layout-specific
 
