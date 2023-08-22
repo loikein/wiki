@@ -129,6 +129,14 @@ Refs:
 
 - [CSS Style Queries - Ahmad Shadeed](https://ishadeed.com/article/css-container-style-queries/)
 
+
+## Readings
+
+- [The Guide To Responsive Design In 2023 and Beyond - Ahmad Shadeed](https://ishadeed.com/article/responsive-design/)
+- [A Complete Guide to CSS Concepts and Fundamentals | Tania Rascia](https://www.taniarascia.com/overview-of-css-concepts/)
+- [Modern CSS Solutions](https://moderncss.dev/)
+
+
 ## Entertainment
 
 - [How to Make iOS Text Messages on AO3 - Chapter 1 - CodenameCarrot, La_Temperanza - No Fandom [Archive of Our Own]](https://archiveofourown.org/works/6434845/chapters/14729722)
