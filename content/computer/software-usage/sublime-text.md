@@ -2,6 +2,28 @@
 weight: 400
 title: "Sublime Text 3 & 4"
 ---
+## Debug
+
+### Package Control not showing up
+
+Ref: [[ST3/4] Package Control not working on macOS · Issue #1612 · wbond/package_control · GitHub](https://github.com/wbond/package_control/issues/1612#issuecomment-1216436360)
+
+Tested on macOS 10.15 Catalina.
+
+```sh
+ln -sf /usr/local/Cellar/openssl@1.1/1.1.1o/lib/libcrypto.dylib /usr/local/lib/
+```
+
+### Multiple `ignored_packages` besides `Vintage` in preferences
+
+Caused by upgrading Sublime. Remove and install the package again and it should automatically disappear from the list.
+
+### Sublime HTML Prettify runtime error
+
+Ref: [Node.js encountered a runtime error: dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.61.dylib · Issue #601 · victorporof/Sublime-HTMLPrettify · GitHub](https://github.com/victorporof/Sublime-HTMLPrettify/issues/601)
+
+Reinstall npm and node.
+
 
 ## Settings
 
@@ -59,6 +81,7 @@ title: "Sublime Text 3 & 4"
     "highlight_modified_tabs": true,
 }
 ```
+
 
 ## Packages
 

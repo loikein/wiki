@@ -1,0 +1,109 @@
+body {
+  --h1-size: var(--font-text-size);
+  --h2-size: var(--font-text-size);
+  --h3-size: var(--font-text-size);
+  --h4-size: var(--font-text-size);
+  --h5-size: var(--font-text-size);
+  --h6-size: var(--font-text-size);
+  --vault-name-font-weight: 600;
+
+  --file-line-width: min(800px, 98vw);
+  --file-margins: 64px 32px 32px 32px;
+
+  --h1-color: var(--text-normal);
+  --link-color: var(--text-normal);
+  --text-faint: var(--text-muted);
+  --callout-title-color: var(--text-normal);
+  --link-unresolved-color: var(--text-normal);
+  --link-external-color: var(--text-normal);
+  --link-external-color-hover: var(--color-accent);
+  --checkbox-color: var(--text-muted);
+  --checkbox-border-color: var(--text-muted);
+  --list-marker-color: var(--text-muted);
+  --tab-text-color: var(--text-normal);
+  --tab-text-color-focused: var(--text-normal);
+  --tab-text-color-focused-active: var(--text-normal);
+  --tab-text-color-active: var(--text-normal);
+  --nav-item-color: var(--text-normal);
+  --link-unresolved-opacity: 1;
+  --list-marker-color: var(--text-normal);
+  --titlebar-background-focused: var(--background-secondary);
+}
+
+.theme-light,
+.theme-dark {
+  --font-text: "iA Writer Duo", var(--font-text-override), "iA Writer Duo", var(--font-interface);
+  --line-height-normal: 1.7;
+  --link-decoration: underline;
+  --link-unresolved-decoration-color: var(--text-muted);
+  --link-external-decoration-color: var(--text-muted);
+  --checklist-done-decoration: line-through;
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  --checkbox-marker-color: transparent;
+}
+
+.theme-light {
+  --background-primary: #F7F7F7;
+  --background-secondary: #FCFCFC;
+  --text-normal: #1A1A1A;
+  --text-muted: #B5B3B1;
+  --text-highlight-bg: #FCEA95;
+  --text-highlight-border: 4px solid #FFD700;
+  --text-highlight-color: var(--text-normal);
+}
+
+.theme-dark {
+  --background-primary: #1B1B1B;
+  --background-secondary: #141414;
+  --text-normal: #CCC;
+  --text-muted: #707070;
+  --text-highlight-bg: #494113;
+  --text-highlight-border: 4px solid #D4B000;
+  --text-highlight-color: #DCCF99;
+}
+
+/* nav file tree */
+body:not(.is-grabbing) .nav-file-title.is-active:hover,
+body:not(.is-grabbing) .nav-folder-title.is-active:hover,
+.nav-file-title.is-active, .nav-folder-title.is-active {
+  background: var(--color-accent);
+  color: var(--text-on-accent);
+}
+
+/* underline */
+.markdown-source-view.mod-cm6 .is-unresolved .cm-underline,
+.markdown-source-view.mod-cm6 .cm-underline,
+.cm-underline,
+/* internal links */
+.cm-s-obsidian span.cm-hmd-internal-link,
+/* external links */
+.cm-s-obsidian span.cm-url {
+  text-decoration: underline;
+  text-decoration-color: var(--text-muted);
+  text-underline-offset: 3px;
+}
+/* external links */
+.cm-s-obsidian span.cm-url {
+  color: var(--text-muted);
+}
+/* unsetting link title style */
+.cm-s-obsidian span.cm-link:hover {
+  color: unset;
+  text-decoration: unset;
+}
+/* unsetting link formatting characters style */
+.cm-s-obsidian span.cm-formatting-link-string,
+.cm-s-obsidian span.cm-formatting-link-string:hover,
+.cm-s-obsidian span.cm-formatting-link:hover {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+/* highlight */
+.cm-highlight {
+  border-bottom: var(--text-highlight-border);
+}
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+  color: var(--text-highlight-color);
+}

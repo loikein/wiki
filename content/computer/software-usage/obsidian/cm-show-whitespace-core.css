@@ -1,0 +1,23 @@
+body.plugin-cm-show-whitespace .cm-whitespace::before,
+body.plugin-cm-show-whitespace .cm-tab::before,
+body.plugin-cm-show-whitespace .CodeMirror-code > div > pre > span > :last-child:after,
+body.plugin-cm-show-whitespace .CodeMirror-line > span > :last-child::after,
+body.plugin-cm-show-whitespace [class*=cm-trailing-space] + [class*=cm-trailing-space]:last-child::after {
+    pointer-events: none;
+    color: var(--text-faint);
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+body.plugin-cm-show-whitespace {
+    --spaceChar: "·";
+    --trailingSpaceChar: "·";
+    --singleSpaceChar: var(--spaceChar);
+    --tabChar: "→";
+    --newlineChar: "¬";
+    --strictLineBreakChar: var(--newlineChar);
+}
+
+body.plugin-cm-show-whitespace.plugin-cm-show-whitespace-show-strict-line-break {
+    --strictLineBreakChar: "↲";
+}

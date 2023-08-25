@@ -31,3 +31,14 @@ Comment
 
 Comment
 : {{< kbd `command` `/` >}} \(same for uncomment\)
+
+
+## CLI commands for version
+
+```sh
+brew -v[--version]
+hugo version
+git  version
+npm  version
+node -v[--version]
+```

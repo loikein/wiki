@@ -100,11 +100,11 @@ func main() {
 
 ### Inline HTML
 
-ref: https://burk.io/2020/let-there-be-dark
+<!-- ref: https://burk.io/2020/let-there-be-dark -->
 
-<div title="#282a36" style="height: 50px; width: 100px; background-color: #282a36; display: inline-block; border-style: solid; border-color: black; color:white; padding:10px;">#282a36</div>
+<span title="#282a36" style="height: 30px; width: 90px; background-color: #282a36; display: inline-block; border-style: solid; border-color: black; color:white; padding-left: 5px; padding-right: 5px;">#282A36</span>
 
-<div title="#f8f8f2" style="height: 50px; width: 100px; background-color: #f8f8f2; margin-right: 5px; display: inline-block; border-style: solid; border-color: black; color:black; padding:10px;">#f8f8f2</div>
+<span title="#f8f8f2" style="height: 30px; width: 90px; background-color: #f8f8f2; display: inline-block; border-style: solid; border-color: black; color:black; padding-left: 5px; padding-right: 5px;">#F8F8F2</span>
 
 ### LaTeX & Table
 
