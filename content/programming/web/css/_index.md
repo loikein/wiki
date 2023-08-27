@@ -136,6 +136,16 @@ Refs:
 - [A Complete Guide to CSS Concepts and Fundamentals | Tania Rascia](https://www.taniarascia.com/overview-of-css-concepts/)
 - [Modern CSS Solutions](https://moderncss.dev/)
 
+## Tools/Generators
+
+### Shadow
+
+- [CSS Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/)
+
+### Pattern
+
+- [Free SVG generators, color tools & web design tools](https://fffuel.co/)
+- [CSS Polka Dot Generator](https://screenspan.net/polka/)
 
 ## Entertainment
 

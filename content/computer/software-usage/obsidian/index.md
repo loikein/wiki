@@ -3,8 +3,8 @@ weight: 400
 title: "Obsidian"
 ---
 
-> I have not touched Obsidian for over a year and am still figuring out the new features \& the mobile apps.
-{.book-hint .warning}
+> I use Obsidian with macOS 10.15 Catalina, iOS 16, and iPadOS 15.
+{.book-hint .info}
 
 ## Admin
 

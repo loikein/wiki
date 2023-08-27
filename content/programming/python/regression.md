@@ -61,6 +61,41 @@ for attr in dir(results):
 ```
 {{< /details >}}
 
+### Get results programmatically
+
+Refs:
+
+- [python - How to extract the regression coefficient from statsmodels.api? - Stack Overflow](https://stackoverflow.com/a/47388554/10668706)
+- [linear regression - How to get the P Value in a Variable from OLSResults in Python? - Stack Overflow](https://stackoverflow.com/questions/41075098/how-to-get-the-p-value-in-a-variable-from-olsresults-in-python)
+
+```python
+formula = "y ~ x1 + x2"
+results = smf.ols(formula, data=df).fit()
+
+coef = results.params["x1"]
+p_val = results.pvalues["x1"]
+```
+
+### Loop of regressions
+
+```python
+results_list = []
+
+for col in df.columns[1:]:
+    # x1 is df.columns[0]
+    formula = "y ~ x1" + " + " + str(col)
+    results = smf.ols(formula, data=df).fit()
+    
+    corr = results.params[str(col)]
+    p_val = results.pvalues[str(col)]
+
+    dict = {"index": col, "corr": corr, "p_val": p_val}
+
+    results_list.append(dict)
+
+results_df = pd.DataFrame(results_list).set_index("index")
+```
+
 ### Make tables with `stargazer`
 
 Doc \(?\): [mwburke/stargazer: Python implementation of the R stargazer multiple regression model creation tool](https://github.com/mwburke/stargazer)  

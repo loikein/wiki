@@ -8,6 +8,7 @@ Refs:
 - [Nesting in Sass and Less | @mdo](https://markdotto.com/2015/07/20/css-nesting/)
 - [Extending CSS With Sass | Ariel Salminen](https://arie.ls/2012/extending-css-with-sass/)
 
+
 ## Dark mode spaghetti code with mixins and functions
 
 That I wrote for [hugo-diary refactorisation](https://github.com/loikein/hugo-theme-diary/issues/2), inspired by [alex-shpak/hugo-book](https://github.com/alex-shpak/hugo-book/blob/master/assets/_defaults.scss#L31-L66).
@@ -86,6 +87,7 @@ $accent-color: #fbbc04;
 }
 ```
 
+
 ## Maps
 
 The following is taken from [hugo-book theme](https://github.com/loikein/hugo-book/), originally authored by [Alex Shpak](https://github.com/alex-shpak).
@@ -116,6 +118,31 @@ $hint-colors: (
   background-color: rgba(map-get($hint-colors, "info"), 0.1);
 }
 ```
+
+
+## Multi-level counters
+
+Ref: [counters() - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/counters)
+
+The point is to write reset before increment.
+
+```scss
+ul{
+  counter-reset: index;
+  list-style-type: none;
+
+  li {
+    counter-increment: item;
+
+    &:before {
+      content: counters(item, ".", decimal) ". ";
+      float: left;
+      margin-inline-end: 4px;
+    }
+  }
+}
+```
+
 
 ## Selectors
 
