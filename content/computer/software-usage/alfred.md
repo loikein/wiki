@@ -150,6 +150,14 @@ Repository: [willfarrell/alfred-encode-decode-workflow: Encoding and decoding a 
 Repository: [deanishe/alfred-firefox: Search and control Firefox from Alfred](https://github.com/deanishe/alfred-firefox)  
 Firefox add-on: [Alfred Integration](https://addons.mozilla.org/en-US/firefox/addon/alfred-launcher-integration/)
 
+### Fn
+
+Repository: [loikein/fn-alfred-workflow: An Alfred workflow to toggle MacBook Touch Bar status.](https://github.com/loikein/fn-alfred-workflow/tree/main)
+
+I wrote this one under some peculiar situation where I had to switch back and forth.
+
+However, you would probably be better-off by settling on one status \(recommendation: app with short controls\), and then configure applications where fn key row is always shown by going to System Preferences ▸ Keyboard ▸ Keyboard Shortcuts ▸ Function Keys.
+
 ### GitHub Repos
 
 Repository: [edgarjs/alfred-github-repos: Alfred workflow to easily open Github repositories](https://github.com/edgarjs/alfred-github-repos)  

@@ -216,94 +216,6 @@ TBA
 
 ## Repository-Level Operations
 
-### Pull Updates from Origin of Fork
-
-Ref: [git - Pull new updates from original GitHub repository into forked GitHub repository - Stack Overflow](https://stackoverflow.com/a/3903835/10668706)
-
-#### Keep own changes
-
-Scenario: I have a forked repository on GitHub, and want to pull the updates from the original repository, while keeping my own changes.
-
-<u>Step 1</u>: Clone to local machine.
-
-<u>Step 2</u>: Add original repository as remote \(the name does not matter, can even call it `spoon`\)
-
-```sh
-git remote add upstream https://github.com/something/something.git
-git fetch upstream
-```
-
-<u>Step 3</u>: Open a new branch \(optional\)
-
-If it takes a long time to resolve all the merge conflicts, this step will preserve the main branch for production until merge is ready.
-
-```sh
-git checkout -b merge-upstream main
-git checkout -b merge-upstream master
-```
-
-<u>Step 4</u>: Run merge
-
-If want to keep all fork commits:
-
-```sh
-git merge upstream/main main
-git merge upstream/master master
-# or with step 3
-git merge upstream/main merge-upstream
-git merge upstream/master merge-upstream
-```
-
-If want clean commit history:
-
-```sh
-git rebase upstream/main
-git rebase upstream/master
-```
-
-Resolve any conflict, and commit.
-
-<u>Step 5</u>: Merge new branch to main \(optional\)
-
-Needed if have used Step 3.
-
-```sh
-git checkout main
-git checkout master
-
-git merge merge-upstream
-git branch -d merge-upstream
-```
-
-Done.
-
-#### Use everything upstream
-
-Scenario: I have used Vercel Deploy Button and now having a private non-fork repository. I did not change anything and only want to stick to the upstream.
-
-First clone it to local machine.
-
-Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
-
-<u>Step 1</u>: Clone to local machine.
-
-<u>Step 2</u>: Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
-
-```sh
-git remote add upstream https://github.com/something/something.git
-git fetch upstream
-```
-
-<u>Step 3</u>: Run merge
-
-```sh
-# resolve all conflicts using upstream code:
-# https://stackoverflow.com/a/10697551
-git merge upstream/main main --allow-unrelated-histories --strategy-option theirs
-```
-
-Done.
-
 ### Branches
 
 See all branches:
@@ -420,6 +332,120 @@ git pull </path/to/big-repo> <name-of-new-branch>
 cd <big-repo>
 git rm -rf <name-of-folder>
 ```
+
+## Fork related operations
+
+### Pull Updates from Origin of Fork
+
+Ref: [git - Pull new updates from original GitHub repository into forked GitHub repository - Stack Overflow](https://stackoverflow.com/a/3903835/10668706)
+
+#### Keep own changes
+
+Scenario: I have a forked repository on GitHub, and want to pull the updates from the original repository, while keeping my own changes.
+
+<u>Step 1</u>: Clone to local machine.
+
+<u>Step 2</u>: Add original repository as remote \(the name does not matter, can even call it `spoon`\)
+
+```sh
+git remote add upstream https://github.com/something/something.git
+git fetch upstream
+```
+
+<u>Step 3</u>: Open a new branch \(optional\)
+
+If it takes a long time to resolve all the merge conflicts, this step will preserve the main branch for production until merge is ready.
+
+```sh
+git checkout -b merge-upstream main
+git checkout -b merge-upstream master
+```
+
+<u>Step 4</u>: Run merge
+
+If want to keep all fork commits:
+
+```sh
+git merge upstream/main main
+git merge upstream/master master
+# or with step 3
+git merge upstream/main merge-upstream
+git merge upstream/master merge-upstream
+```
+
+If want clean commit history:
+
+```sh
+git rebase upstream/main
+git rebase upstream/master
+```
+
+Resolve any conflict, and commit.
+
+<u>Step 5</u>: Merge new branch to main \(optional\)
+
+Needed if have used Step 3.
+
+```sh
+git checkout main
+git checkout master
+
+git merge merge-upstream
+git branch -d merge-upstream
+```
+
+Done.
+
+#### Use everything upstream
+
+Scenario: I have used Vercel Deploy Button and now having a private non-fork repository. I did not change anything and only want to stick to the upstream.
+
+First clone it to local machine.
+
+Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
+
+<u>Step 1</u>: Clone to local machine.
+
+<u>Step 2</u>: Add original repository as remote, call it `upstream`: \(the name does not matter, can even call it `spoon`\)
+
+```sh
+git remote add upstream https://github.com/something/something.git
+git fetch upstream
+```
+
+<u>Step 3</u>: Run merge
+
+```sh
+# resolve all conflicts using upstream code:
+# https://stackoverflow.com/a/10697551
+git merge upstream/main main --allow-unrelated-histories --strategy-option theirs
+```
+
+Done.
+
+### Contribute selected code to fork
+
+<u>Step 1</u>: Add upstream and pull
+
+<u>Step 2</u>: Make branch based on upstream
+
+```sh
+git checkout -b fix-1 upstream/main
+git checkout -b fix-1 upstream/master
+```
+
+<u>Step 3</u>: Change the files and commit
+
+<u>Step 4</u>: Push to own remote fork
+
+```sh
+git push origin fix-1
+```
+
+<u>Step 5</u>: Create PR with `https://github.com/<original/repo>/pull/new/fix-1`
+
+Done.
+
 
 ## Submodule
 
