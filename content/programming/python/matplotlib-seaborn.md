@@ -344,6 +344,51 @@ sns.heatmap(
 )
 ```
 
+### Pair plot
+
+Docs:
+
+- [seaborn.pairplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+- Diagonal:
+  + [seaborn.histplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.histplot.html)
+  + [seaborn.kdeplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.kdeplot.html)
+- Off-diagonal:
+  + [seaborn.scatterplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.scatterplot.html#seaborn.scatterplot)
+  + [seaborn.regplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.regplot.html?highlight=regplot)
+  + [seaborn.kdeplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.kdeplot.html)
+
+No regression:
+
+```python
+fig, ax = plt.subplots()
+
+sns.pairplot(
+    ax=ax,
+    data=df,
+    kind="kde",                             # if want kdeplot everywhere
+    diag_kind="kde",                        # if want kdeplot diagonals
+    diag_kws=dict(linewidth=0),             # for the histplot
+    plot_kws=dict(linewidth=0, alpha=0.3),  # for the scatterplot
+)
+```
+
+Use regression: \([credit](https://stackoverflow.com/a/50724511)\)
+
+```python {hl_lines="6 8-11"}
+fig, ax = plt.subplots()
+
+sns.pairplot(
+    ax=ax,
+    data=df,
+    kind="reg",
+    diag_kws=dict(linewidth=0),
+    plot_kws=dict(
+        line_kws=dict(linewidth=2, color="black"),  # for the regplot
+        scatter_kws=dict(linewidth=0, alpha=0.3),   # for the scatterplot
+    ),
+)
+```
+
 ### Scatter plot
 
 Doc: [seaborn.scatterplot — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.scatterplot.html)

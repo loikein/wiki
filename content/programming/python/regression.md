@@ -61,6 +61,27 @@ for attr in dir(results):
 ```
 {{< /details >}}
 
+### Detect multicollinearity
+
+Doc: [statsmodels.stats.outliers_influence.variance_inflation_factor - statsmodels 0.14.0](https://www.statsmodels.org/stable/generated/statsmodels.stats.outliers_influence.variance_inflation_factor.html)
+
+Ref: [Detecting Multicollinearity with VIF - Python - GeeksforGeeks](https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/)
+
+```python
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+
+# make VIF dataframe
+vif_data = pd.DataFrame()
+vif_data["feature"] = df.columns
+
+# calculating VIF for each feature
+vif_data["VIF"] = [
+    variance_inflation_factor(df.values, i) for i in range(len(df.columns))
+]
+
+print(vif_data)
+```
+
 ### Get results programmatically
 
 Refs:

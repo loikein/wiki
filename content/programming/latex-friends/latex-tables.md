@@ -81,7 +81,7 @@ alt="LaTeX table with a multi-row cell"
 
 Ref: [rotating - Vertical orientation landscape page in a PDF output file - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/231507)
 
-```latex {hl_lines=[5,12]}
+```latex {hl_lines="5 12"}
 % choose one of the two packages:
 \usepackage{lscape}     % if want the page upright
 \usepackage{pdflscape}  % if want the page sideways
@@ -102,7 +102,7 @@ Ref: [scaling - Is there a way to slightly shrink a table, including font size, 
 
 My setup somehow does not like `adjustbox` or `\resizebox`. Will update if tested.
 
-```latex {hl_lines=[5,9]}
+```latex {hl_lines="5 9"}
 \usepackage{graphicx}
 
 \begin{table} \centering
