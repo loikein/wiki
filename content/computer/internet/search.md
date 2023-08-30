@@ -116,6 +116,13 @@ Useage:
 - `https://trends.google.com/trends/explore?q=word1,word2,...`
 
 
+## Google Programmable Search Engine
+
+URL: [Programmable Search Engine by Google](https://programmablesearchengine.google.com/)
+
+Search across a customised list of websites at the same time.
+
+
 ## Entertainment
 
 ![xkcd 627 Tech Support Cheat Sheet: 'Hey Megan, it's your father. How do I print out a flowchart?'](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)

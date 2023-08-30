@@ -1,6 +1,6 @@
 ---
-weight: 200
-title: "Text Related Commands"
+weight: 100
+title: "CLI: File & Text"
 ---
 
 Benchmark for some of the examples:

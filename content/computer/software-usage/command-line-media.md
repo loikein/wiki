@@ -1,6 +1,6 @@
 ---
-weight: 300
-title: "Media Related Commands"
+weight: 100
+title: "CLI: Media"
 ---
 
 ## dwebp

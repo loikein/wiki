@@ -168,3 +168,6 @@ jupyter trust binder-r-test.ipynb
 - [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
 - [Data Carpentry Lessons](https://datacarpentry.org/lessons/)
 - [The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/index.html)
+- [R 语言教程 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
+  + [A R软件基础(\*) | 统计计算 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/statcomp/html/_statcompbook/appendix-rintro.html)
+- List: [XiangyunHuang/R-Tutorial: R 语言材料](https://github.com/XiangyunHuang/R-Tutorial)

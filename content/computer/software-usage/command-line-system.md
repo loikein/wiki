@@ -1,6 +1,6 @@
 ---
 weight: 100
-title: "System & Web Related Commands"
+title: "CLI: System & Web"
 ---
 
 References:

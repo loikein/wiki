@@ -69,7 +69,9 @@ Refs:
 
 - [Lasso Regression with Python | Jan Kirenz](https://www.kirenz.com/post/2019-08-12-python-lasso-regression-auto/)
 - [Lasso and Ridge Regression in Python Tutorial | DataCamp](https://www.datacamp.com/tutorial/tutorial-lasso-ridge-regression)
-- [Common pitfalls in the interpretation of coefficients of linear models — scikit-learn 1.3.0 documentation](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
+- [Testing for coefficients significance in Lasso logistic regression - Cross Validated](https://stats.stackexchange.com/questions/241082/testing-for-coefficients-significance-in-lasso-logistic-regression)
+
+<!-- - [Common pitfalls in the interpretation of coefficients of linear models — scikit-learn 1.3.0 documentation](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html) -->
 
 ### Normal Lasso
 

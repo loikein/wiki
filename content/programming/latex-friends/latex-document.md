@@ -313,6 +313,30 @@ If want to control width:
 \end{figure}
 ``` -->
 
+### Horizontal subplots
+
+For alignment inside subcaption figures, see [this answer](https://tex.stackexchange.com/a/333259).
+
+```latex {hl_lines=[5 9 10]}
+\usepackage{subcaption}
+
+\begin{document}
+  \begin{figure}
+    \begin{subfigure}[t|c|b]{0.45\textwidth} 
+    \centering
+    \includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{images/great-picture-1.png}
+    \caption{A good picture.}
+    \end{subfigure}% no empty line here!!
+    \begin{subfigure}[t|c|b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{images/great-picture-2.png}
+      \caption{A splendid picture.}
+    \end{subfigure}
+  \caption{Two great pictures.}
+  \end{figure}
+\end{document}
+```
+
 ### Vertical subplots
 
 ```latex {hl_lines=[5,10]}
@@ -393,6 +417,7 @@ Thousands separator:
 ```
 
 
-## Remotely related: fuse Markdown with LaTeX
+## Readings
 
+- [LaTeX 排版心得 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/textrick/index.htm)
 - [Markdown 写作，Pandoc 转换：我的纯文本学术写作流程 - 少数派](https://sspai.com/post/64842)

@@ -42,3 +42,7 @@ git  version
 npm  version
 node -v[--version]
 ```
+
+## Readings
+
+- [Peter Norvig](https://www.norvig.com/)

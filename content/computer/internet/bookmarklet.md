@@ -72,6 +72,15 @@ javascript:(function(){var count=0, text, regexp;text=prompt("Search regexp:", "
 ```
 
 
+## Refresh CSS
+
+Credit: [Refresh CSS Bookmarklet v2 • Lea Verou](https://lea.verou.me/blog/2018/09/refresh-css-bookmarklet-v2/#:~:text=It's%20incredibly%20elegant%20in%20its,of%20trying%20to%20change%20them.)
+
+```js
+javascript:{let e=(e,t=document)=>Array.from(t.querySelectorAll(e)),t=r=>{for(let t of e(‘link[rel=stylesheet][href]’,r)){let e=new URL(t.href);e.searchParams.set(‘forceReload’,Date.now()),t.href=e}for(let o of e(‘iframe’,r))o.contentDocument&&t(o.contentDocument)};t()}
+```
+
+
 ## Simple notepad in new tab
 
 > Only intended for temporary text editing. Once you close it, everything is lost.
