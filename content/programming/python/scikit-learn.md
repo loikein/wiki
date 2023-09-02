@@ -191,18 +191,121 @@ print(elim)
 print("The number of eliminated independent variables is", len(elim))
 ```
 
-### Group Lasso
+### Group Lasso with Cross Validation
 
-TBE.
-
-To perform grouped LASSO, see [this question](https://stackoverflow.com/questions/43163418/). I feel like [mathurinm/celer](https://github.com/mathurinm/celer) looks rather promising.
+…to accommodate categorical variable dummies.
 
 Refs:
 
+- [python - Does sklearn have group lasso? - Stack Overflow](https://stackoverflow.com/a/62660579)
 - [interpretation - Categorical variables in LASSO regression - Cross Validated](https://stats.stackexchange.com/a/168934)
 - [regression coefficients - How to treat categorical predictors in LASSO - Cross Validated](https://stats.stackexchange.com/a/326846)
 - [Sparse Group Lasso in Python. A tutorial on how to use one of the… | by Álvaro Méndez Civieta | Towards Data Science](https://towardsdatascience.com/sparse-group-lasso-in-python-255e379ab892)
 
+**Step 0**: All imports
+
+```python
+import numpy as np
+import pandas as pd
+
+from celer import GroupLasso, GroupLassoCV
+
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+```
+
+**Step 0.5**: Get dummies of categorical variable \(strings\)
+
+```python
+df_dummy = pd.get_dummies(df["Rating"], prefix="Rating", drop_first=True)
+n_dummy = len(df_dummy.columns)
+  
+df_group = df.drop(["Rating"], axis=1).join(    # Remove original rating data
+    df_dummy,
+    how="inner",
+)
+n_var = len(df_group.columns) - n_dummy - 1
+```
+
+**Step 0.5.5**: Get group list
+
+```python
+# Ref: https://stackoverflow.com/a/14802726
+group_list = [1] * n_var    # Get an n_var length list of ones
+group_list.append(n_dummy)  # ... and the dummies as their own group
+```
+
+**Step 1**: Split datasets
+
+```python
+# Assuming dependent variable is df.columns[0]
+features_group = df_group.columns[1:]
+target_group = df_group.columns[0]
+
+# Get X and y values
+X_group = df_group[features_group].values
+y_group = df_group[target_group].values
+
+# Split training set and testing set
+X_train_group, X_test_group, y_train_group, y_test_group = train_test_split(X_group, y_group, test_size=0.3, random_state=10)
+print("The dimension of X_train_group is", X_train_group.shape)
+print("The dimension of X_test_group is", X_train_group.shape)
+```
+
+**Step 2**: Normalise the independent variables
+
+```python
+# scale features
+scaler = StandardScaler()
+X_train_group = scaler.fit_transform(X_train_group)
+X_test_group = scaler.transform(X_test_group)
+```
+
+**Step 3**: Run Group LASSO with CV
+
+```python
+# Lasso cross validation
+lasso_cv_group = GroupLassoCV(cv=10, groups=group_list).fit(X_train_group, y_train_group)
+
+# Get R2 values
+lasso_cv_group_r2_train = lasso_cv_group.score(X_train_group, y_train_group)
+lasso_cv_group_r2_test  = lasso_cv_group.score(X_test_group, y_test_group)
+print("The train R2 for group lasso cv model is", round(lasso_cv_group_r2_train*100, 2))
+print("The test R2 for group lasso cv model is",  round(lasso_cv_group_r2_test*100, 2))
+
+# Get optimal alpha
+alpha_best_group = lasso_cv_group.alpha_
+print("The optimal alpha is", alpha_best_group)
+```
+
+**Step 4**: Run Group LASSO again with best alpha
+
+```python
+# Best Lasso model from cross validation
+lasso_best_group = GroupLasso(alpha=alpha_best_group, groups=group_list).fit(X_train_group, y_train_group)
+
+# Get R2 values
+lasso_best_group_r2_train = lasso_best_group.score(X_train_group, y_train_group)
+lasso_best_group_r2_test  = lasso_best_group.score(X_test_group, y_test_group)
+print("The train R2 for best group lasso model is", round(lasso_best_group_r2_train*100, 2))
+print("The test R2 for best group lasso model is",  round(lasso_best_group_r2_test*100, 2))
+```
+
+**Step 5**: Get selection results
+
+```python
+# Make spec dataframe
+lasso_best_group_spec = pd.DataFrame()
+lasso_best_group_spec["feature"] = features_group
+lasso_best_group_spec["coef"] = lasso_best_group.coef_
+
+# Inspect zero coefs
+# Ref: https://stackoverflow.com/a/4588654
+elim = list(lasso_best_group_spec.iloc[np.where(lasso_best_group_spec["coef"]==0)[0]]["feature"])
+
+print(elim)
+print("The number of eliminated independent variables is", len(elim))
+```
 
 
 ## Principal Component Analysis \(PCA\)

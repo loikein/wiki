@@ -625,6 +625,17 @@ dt .classifier a {
 }
 ```
 
+Range: URLs on the domain: `mathurinm.github.io`
+
+```css
+/* celer doc */
+/* highlight param names */
+dt strong {
+  color: var(--color-brand-content);
+}
+```
+
+
 ## Wayback Machine
 
 Range: URLs on the domain: `web.archive.org`

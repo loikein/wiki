@@ -373,6 +373,11 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
     data["Address"] = data["Address"].astype(str) + " " + data[col].fillna("").astype(str)
 ```
 
+### Reorder columns
+
+Ref: [python - How to change the order of DataFrame columns? - Stack Overflow](https://stackoverflow.com/questions/13148429/how-to-change-the-order-of-dataframe-columns)
+
+
 ## Index-level operations
 
 Unset indices:
@@ -417,8 +422,23 @@ df_AB = df_A.join(
 
 ### Convert type of columns
 
+Float:
+
 ```python
 df["Rating"] = df["Rating"].astype('float')
+```
+
+Category:
+
+```python
+from pandas.api.types import CategoricalDtype
+
+rate_type = CategoricalDtype(
+    categories=["No rating", "Bad", "Good", "Outstanding"],
+    ordered=True,
+)
+
+df["Rating"] = df["Rating"].astype(rate_type)
 ```
 
 ### Drop things
@@ -434,7 +454,7 @@ df = df[~df.index.duplicated(keep='first')]
 Columns:
 
 ```python
-df = df.drop("drop", axis=1)
+df = df.drop(["drop"], axis=1)
 ```
 
 ### Long to wide
