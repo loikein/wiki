@@ -104,12 +104,12 @@ $hint-colors: (
 // in a loop
 // https://github.com/loikein/hugo-book/blob/master/assets/_shortcodes.scss#L96-L105
 .markdown .book-hint {
-@each $name, $color in $hint-colors {
-  &.#{$name} {
-    border-color: $color;
-    background-color: rgba($color, 0.1);
+  @each $name, $color in $hint-colors {
+    &.#{$name} {
+      border-color: $color;
+      background-color: rgba($color, 0.1);
+    }
   }
-}
 }
 
 // one single value

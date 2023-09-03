@@ -357,6 +357,56 @@ corr_flat.columns = ["x1","x2","Coef"]
 After this, can do a `sns.kdeplot(data=corr_flat,x="Coef")` to see the kernel density of all the coefficients.
 
 
+## Groupby
+
+### Groupby columns
+
+Use case: get average columns across multiple columns with similar names.
+
+Ref: [python - Automatically grouping multiple columns with similar names in a pandas data frame - Stack Overflow](https://stackoverflow.com/a/31929037)
+
+**Step 0**: Consider list of groups
+
+```python
+groups = ["AAA", "BBB", ...]
+len(groups)
+# 18
+```
+
+**Step 1**: Write groupby function
+
+```python
+def groupby_fn(col):
+    groups = ["AAA", "BBB", ...]
+
+    col_group = col.replace("Rating_", "").split("0")[0]
+
+    if col_group in groups:
+        return col_group    # Mark col as col_group
+    else:
+        return "Others"     # Mark col as Others
+```
+
+**Step 2**: Get columns to group by \(optional\)
+
+```python
+cols = df.filter(regex=("Rating_*")).columns
+```
+
+**Step 3**: Groupby
+
+```python
+df_grouped = df.groupby(groupby_fn, axis=1).mean()
+
+# Or if used Step 2:
+df_grouped = df[cols].groupby(groupby_fn, axis=1).mean()
+
+# Check no col was marked as Others, otherwise check groupby function
+len(df_grouped.columns)
+# 18
+```
+
+
 ## Column-level operations
 
 ### Combine multiple columns
@@ -419,6 +469,16 @@ df_AB = df_A.join(
     how="outer",    # Keep all different index values
 )
 ```
+
+If want to select only one column of the left df, will return `AttributeError: 'Series' object has no attribute 'join'`. In this case, do:
+
+```python {hl_lines="1"}
+df_AB = df_A[["Rating"]].join(
+    df_B,
+    how="inner",
+)
+```
+
 
 ### Convert type of columns
 

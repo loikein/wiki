@@ -58,3 +58,7 @@ def make_pickle(
 make_pickle(df_1)
 # result: df_1.pickle
 ```
+
+## Return nothing
+
+Ref: [python - return, return None, and no return at all? - Stack Overflow](https://stackoverflow.com/a/15300671)
