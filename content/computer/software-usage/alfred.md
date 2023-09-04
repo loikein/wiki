@@ -163,6 +163,21 @@ However, you would probably be better-off by settling on one status \(recommenda
 Repository: [edgarjs/alfred-github-repos: Alfred workflow to easily open Github repositories](https://github.com/edgarjs/alfred-github-repos)  
 Packal: [Github Repos \| Packal](https://www.packal.org/workflow/github-repos-0)
 
+
+### HTML link to RTF link
+
+Not on GitHub yet.
+
+Code:
+
+```sh
+query=$1
+
+echo "$1" | textutil -stdin -format html -convert rtf -stdout | tee >(pbcopy -pboard general -Prefer public.rtf)
+```
+
+I wrote this with code from [Creating Rich Links in Keyboard Maestro | ThoughtAsylum](https://www.thoughtasylum.com/2022/02/26/creating-rich-links-in-keyboard-maestro/), and adjusted with [this answer](https://apple.stackexchange.com/a/444986) for Apple Notes.app custom RTF formatting.
+
 ### OmniFocus
 
 Discussion thread & download link: [Adding tasks from Alfred 3? - OmniFocus - The Omni Group Forums](https://discourse.omnigroup.com/t/adding-tasks-from-alfred-3/35232/22)

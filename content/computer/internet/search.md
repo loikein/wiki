@@ -39,6 +39,12 @@ Refs:
 `-intitle:word`
 : Exclude results with `word` in title
 
+`after:YYYY-MM-DD`
+: Only include results after date
+
+`before:YYYY-MM-DD`
+: Only include results before date \(can be combined with `after`\)
+
 `allintitle:word1 word2 word3 ...`
 : Search for pages with all words in title
 

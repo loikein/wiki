@@ -5,7 +5,7 @@ title: "CLI: File & Text"
 
 Benchmark for some of the examples:
 
-```bash
+```sh
 curl --head --silent google.com
 # HTTP/1.1 301 Moved Permanently
 # Location: http://www.google.com/
@@ -37,7 +37,7 @@ Online manual: [grep(1) - Linux manual page](https://man7.org/linux/man-pages/ma
 
 Example:
 
-```bash
+```sh
 curl --head --silent google.com | grep GMT
 # Date: Fri, 07 Aug 2020 19:19:53 GMT
 # Expires: Sun, 06 Sep 2020 19:19:53 GMT
@@ -90,7 +90,7 @@ Online manual:
 
 Example:
 
-```bash
+```sh
 curl --head --silent google.com | head -n 2
 # HTTP/1.1 301 Moved Permanently
 # Location: http://www.google.com/
@@ -106,7 +106,7 @@ Online manual: [less(1) - Linux manual page](https://man7.org/linux/man-pages/ma
 
 Text displayer, aka, pager.
 
-```bash
+```sh
 curl www.google.com | less
 ```
 
@@ -118,13 +118,13 @@ Repository: [sharkdp/bat: A cat(1) clone with wings.](https://github.com/sharkdp
 
 Change theme: (in `~/.zshrc`)
 
-```bash
+```sh
 export BAT_THEME='ansi-dark'
 ```
 
 Example:
 
-```bash
+```sh
 # Compare the outcomes:
 
 curl www.google.com | less
@@ -142,7 +142,7 @@ Documentation: [sed, a stream editor](https://www.gnu.org/software/sed/manual/se
 
 Example 1:
 
-```bash
+```sh
 curl --head --silent google.com | grep GMT | sed -E 's/^.*[A-Za-z]{3}, [0-9]{2} [A-Za-z]{3} 2020 (.*)$/\1/'
 # 19:40:05 GMT
 # 19:40:05 GMT
@@ -150,7 +150,7 @@ curl --head --silent google.com | grep GMT | sed -E 's/^.*[A-Za-z]{3}, [0-9]{2} 
 
 Example 2: FizzBuzz \([credit](https://rosettacode.org/wiki/FizzBuzz#Sed)\)
 
-```bash
+```sh
 seq 15 | sed '/.*[05]$/s//Buzz/; n; s//Buzz/; n; s//Buzz/; s/^[0-9]*/Fizz/'
 # 1
 # 2
@@ -186,7 +186,7 @@ Display output upside-down, i.e., the reverse of `cat`.
 
 Example 1:
 
-```bash
+```sh
 cat README.md
 # # Introduction
 # 
@@ -208,7 +208,7 @@ tac README.md
 
 Example 2:
 
-```bash
+```sh
 curl --head --silent google.com | tac
 # 
 # X-Frame-Options: SAMEORIGIN
@@ -221,6 +221,30 @@ curl --head --silent google.com | tac
 # Content-Type: text/html; charset=UTF-8
 # Location: http://www.google.com/
 # HTTP/1.1 301 Moved Permanently
+```
+
+## tee
+
+Online manual: [tee(1) - Linux manual page](https://man7.org/linux/man-pages/man1/tee.1.html)
+
+Ref: [shell - How can I send stdout to multiple commands? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/28519)
+
+Pass output to other command\(s\), and then echo output.
+
+```sh
+echo '<a href="https://unix.stackexchange.com/a/28519" rel="nofollow noopener noreferrer">shell - How can I send stdout to multiple commands? - Unix & Linux Stack Exchange</a>' | textutil -stdin -format html -convert rtf -stdout | tee >(pbcopy -pboard general -Prefer public.rtf)
+
+# {\rtf1\ansi\ansicpg936\cocoartf2513
+# \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+# {\colortbl;\red255\green255\blue255;\red0\green0\blue233;\red0\green0\blue0;}
+# {\*\expandedcolortbl;;\cssrgb\c0\c0\c93333;\cssrgb\c0\c0\c0;}
+# \deftab720
+# \pard\pardeftab720\partightenfactor0
+# {\field{\*\fldinst{HYPERLINK "https://unix.stackexchange.com/a/28519"}}{\fldrslt 
+# \f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+# \ul \ulc2 \outl0\strokewidth0 \strokec2 shell - How can I send stdout to multiple commands? - Unix & Linux Stack Exchange}}
+# \f0\fs24 \cf3 \expnd0\expndtw0\kerning0
+# \outl0\strokewidth0 \strokec3  }
 ```
 
 ## uniq
@@ -237,8 +261,18 @@ Count number of lines/words/characters.
 
 Example:
 
-```bash
+```sh
 curl --head --silent google.com | wc --lines
 curl --head --silent google.com | wc -l
 #       11
 ```
+
+## macOS specific commands
+
+### textutil
+
+Online manual: [textutil Man Page - macOS - SS64.com](https://ss64.com/osx/textutil.html)
+
+### pbcopy
+
+Online manual: [pbcopy Man Page - macOS - SS64.com](https://ss64.com/osx/pbcopy.html)

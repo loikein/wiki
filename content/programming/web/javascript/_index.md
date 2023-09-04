@@ -41,6 +41,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
 });
 ```
 
+## Rich link copy button
+
+[javascript - How to copy a HyperText link into clipboard without losing the link properties - Stack Overflow](https://stackoverflow.com/questions/53003980/)
+
 ## Tooltip
 
 Ref: [Building a fully-accessible help tooltip – Sara Soueidan, inclusive design engineer](https://www.sarasoueidan.com/blog/accessible-tooltips/)
