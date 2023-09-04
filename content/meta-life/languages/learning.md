@@ -1,7 +1,5 @@
 ---
-weight: 20
 title: "学习语言"
-language: "zh-Hans"
 ---
 
 ## 各语言笔记

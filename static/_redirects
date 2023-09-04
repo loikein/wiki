@@ -1,6 +1,7 @@
 # redirects
 /computer/internet/css/             /computer/internet/custom-css/              301
 /meta-life/sleeping/                /life-log/health/sleeping/                  301
+/meta-life/learning-languages/      /meta-life/languages/learning/              301
 /programming/python/plotting/       /programming/python/matplotlib-seaborn/     301
 /programming/css/                   /programming/web/css/                       301
 /programming/css/scss/              /programming/web/css/scss/                  301

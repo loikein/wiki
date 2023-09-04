@@ -278,3 +278,7 @@ For writing:
 For note-taking:
 
 - [Obsidian Web Clipper — Steph Ango](https://stephanango.com/obsidian-web-clipper)
+
+Others:
+
+- [Visualize whitespaces using css - Stack Overflow](https://stackoverflow.com/a/7901559)

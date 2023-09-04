@@ -5,6 +5,139 @@ title: CSS
 
 My notes on CSS & HTML from ages ago \(in Japanese\): [notes: html 5 & css 3](https://gist.github.com/loikein/8af785feed5a265ca0cd936299178902)
 
+
+## Font
+
+### `@font-face`
+
+Doc: [@font-face - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+
+### `font-family` \(font stack\)
+
+> Reminder to self: Remove `Segoe UI` from all font stacks.
+{.book-hint .info}
+
+### Google Fonts API
+
+> [Google Fonts was deemed not GDPR compliant in Germany](https://rewis.io/urteile/urteil/lhm-20-01-2022-3-o-1749320/) \([coverage by The Hacker News](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html), [Bitdefender](https://www.bitdefender.com/blog/hotforsecurity/german-website-fined-100-euros-after-court-says-googles-font-library-violates-gdpr/), [jsDelivr](https://www.jsdelivr.com/blog/how-the-german-courts-ruling-on-google-fonts-affects-jsdelivr-and-why-it-is-safe-to-use/)\). If your website have a lot of visitors from the EU, consider self-hosting the fonts.
+{.book-hint .danger}
+
+#### Async \(v1\)
+
+Refs:
+
+- [The Fastest Google Fonts – CSS Wizardry – Web Performance Optimisation](https://csswizardry.com/2020/05/the-fastest-google-fonts/#google-fonts-async-snippet)
+- [How to Load Fonts in a Way That Fights FOUT and Makes Lighthouse Happy | CSS-Tricks - CSS-Tricks](https://css-tricks.com/how-to-load-fonts-in-a-way-that-fights-fout-and-makes-lighthouse-happy/)
+- [Preload, prefetch and other `<link>` tags: what they do and when to use them · PerfPerfPerf](https://3perf.com/blog/link-rels/)
+- [The Simplest Way to Load CSS Asynchronously | Filament Group, Inc.](https://www.filamentgroup.com/lab/load-css-simpler/)
+
+Following is the code I adapted for [hugo-theme-diary](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/partials/head.html#L118-L129):
+
+```html
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap" />
+</noscript>
+```
+
+#### Async \(v2\)
+
+Not tested:
+
+```html
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif+SC&family=Material+Icons&display=swap" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif+SC&family=Material+Icons&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif+SC&family=Material+Icons&display=swap" />
+</noscript>
+```
+
+#### Weights \(v1\)
+
+Doc: [Get Started with the Google Fonts API | Google for Developers](https://developers.google.com/fonts/docs/getting_started)
+
+Ref: [html - How to use italic google fonts? - Stack Overflow](https://stackoverflow.com/a/28933352)
+
+```text
+http://fonts.googleapis.com/css
+    ?family=Lora:400,400italic,700,700italic  # both normal and italic, regular & bold
+    |Noto+Serif+SC:400,700                    # only normal, regular & bold
+    &display=swap
+```
+
+#### Weights \(v2\)
+
+Doc:
+
+> Without style specifications, the API provides the [default style](https://developers.google.com/fonts/docs/css2#default_style) of the requested family.
+> 
+> > When a request doesn’t specify a position or range for an axis, the default position will be used. The default position of the italic axis is 0 (normal) and the default for the weight axis is 400 (regular).
+> 
+> ~ [CSS API update | Google Fonts | Google for Developers](https://developers.google.com/fonts/docs/css2#individual_styles_such_as_weight)
+
+Ref: [Getting Variable Fonts from Google Fonts - Launch 2 Success](https://www.launch2success.com/guide/getting-google-font-variable-files/)
+
+Getting italic variants:
+
+```text
+https://fonts.googleapis.com/css2
+    ?family=Lora
+        :ital,
+        wght@1,400;1,700              # only italic, regular & bold
+            @0,400;0,700;1,400;1,700  # both normal and italic, regular & bold
+    &family=Noto+Serif+SC
+        :wght@400;700                 # only normal, regular & bold
+    &text=...
+    &display=swap
+```
+
+#### Optimising \(v1 \& v2\)
+
+> \[C\]onsider specifying a `text=` value in your font request URL. This allows Google Fonts to return a font file that's optimized for your request. In some cases, this can reduce the size of the font file by up to 90%.
+> 
+> ~ [CSS API update | Google Fonts | Google for Developers](https://developers.google.com/fonts/docs/css2#optimizing_your_font_requests)
+
+> `subset` ≠ `text`! In Google Fonts, `subset` is for script types. It will most likely not reduce the font size to be downloaded.
+{.book-hint .warning}
+
+
+#### Aside: Google Fonts via `@font-face`
+
+- [css - @font-face with Google font - Stack Overflow](https://stackoverflow.com/a/21465708)
+- [majodev/google-webfonts-helper: A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets](https://github.com/majodev/google-webfonts-helper)
+
+
+### Subsetting
+
+- [unicode - Subset Font By Specific Glyphs - Stack Overflow](https://stackoverflow.com/a/16674304)
+- [css - How to subset Basic Latin (128 glyphs) with the Unicode range descriptor - Stack Overflow](https://stackoverflow.com/a/73269305)
+- [Creating font subsets | Dev Diary](https://markoskon.com/creating-font-subsets/)
+- [Font Subsetter](https://everythingfonts.com/subsetter)
+
+
+## Methodologies
+
+### Atomic CSS
+
+
+### BEM
+
+Refs:
+
+- [CSS / Methodology / BEM](https://en.bem.info/methodology/css/)
+
+
 ## Responsive iframe
 
 ### New version (`aspect-ratio`)
