@@ -89,7 +89,7 @@ results.summary().tables[2].as_latex_tabular(center=False)
 ```
 
 {{< details "List all attributes/methods of some object" >}}
-Credit: [python - How to retrieve model estimates from statsmodels? - Stack Overflow](https://stackoverflow.com/a/48522820/10668706)\)
+Credit: [python - How to retrieve model estimates from statsmodels? - Stack Overflow](https://stackoverflow.com/a/48522820/10668706)
 
 ```python
 for attr in dir(results):

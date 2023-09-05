@@ -3,6 +3,9 @@ weight: 601
 title: "Pandas"
 description: "Real problems and real solutions."
 ---
+## Most important notes
+
+`axis: {0 or ‘index’ (rows), 1 or ‘columns’}, default 0`
 
 ## Import Data
 
@@ -64,6 +67,7 @@ names_list = ["col 1", "col 2", "col 3"]
 df = pd.read_csv(
     os.path.join("data", "data.csv"), # read ./data/data.csv
     header=None,
+    index_col=[0,1],                  # only numbers, because there is no name yet
     names=names_list,
     dtype={"Phone number": "str"},    # read columns as type
 )
@@ -289,7 +293,15 @@ df[df.index.duplicated(keep='first')]
 ```
 
 
-## Select things
+## Select \(filter\) things
+
+### Select columns by name
+
+```python
+# must use double brackets
+df_subset = pd.DataFrame(df[['col1']])
+df_subset = pd.DataFrame(df[['col1', 'col2', ...]])
+```
 
 ### Select columns with RegEx
 
@@ -303,7 +315,7 @@ df[rating_cols]                     # returns a small df
 df[rating_cols]["rating_2021_1"]    # returns a series
 ```
 
-### Select (filter) rows conditioning on column value
+### Select rows by column value
 
 ```python
 # only keep rows with certain value for a col
@@ -311,9 +323,13 @@ df_subset = df[df["Status Code"]=="A"]
 
 # only keep rows without certain value for a col
 df_subset = df[df["Status Code"]!="B"]
+
+# especially, for nan values:
+df_subset = df[df["Status Code"].isna()]
+df_subset = df[df["Status Code"].notna()]
 ```
 
-> Sometimes it gives `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`. In that case, try this method below:
+> When the value of some cells are lists, pandas will raise `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`. In that case, try this method instead:
 > 
 > Credit: [python - How do I select rows from a DataFrame based on column values? - Stack Overflow](https://stackoverflow.com/a/46165056/10668706)
 {.book-hint .warning}
@@ -326,7 +342,7 @@ df_subset = df.query('"Status Code" == "A"')
 df_subset = df.query('"Status Code" != "B"')
 ```
 
-### Select rows conditioning on cell type
+### Select rows by cell type
 
 Credit: [python - Select row from a DataFrame based on the type of the object(i.e. str) - Stack Overflow](https://stackoverflow.com/a/39277211/10668706)
 
@@ -462,6 +478,10 @@ With same indices (join):
 > 
 > To avoid this, first use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])` to make the MultiIndex DataFrame single-indexed first, then perform the join.
 {.book-hint .warning}
+
+> Always use index to join. Do not use `on="col"` when performing join, pandas will raise `ValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat`.  
+> If you do not want to modify the original df, use `df_AB = df_A.set_index("col").join(df_B.set_index("col"))`.
+{.book-hint .info}
 
 ```python
 df_AB = df_A.join(
@@ -684,6 +704,12 @@ Rows by values in columns:
 
 ```python
 df = df.sort_values(["ID","level"])
+```
+
+Rows by index values:
+
+```python
+df = df.sort_index()
 ```
 
 Columns by column names: ([credit](https://stackoverflow.com/a/11067072/10668706))

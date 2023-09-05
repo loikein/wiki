@@ -39,26 +39,69 @@ print_all(today="sunday", tomorrow="monday")
 # tomorrow is monday
 ```
 
-## Get variable name of user input
+
+## Return nothing
+
+Ref: [python - return, return None, and no return at all? - Stack Overflow](https://stackoverflow.com/a/15300671)
+
+## Dark magic
+
+> Proceed at your own risk. You have been warned.
+{.book-hint .danger}
+
+### Get variable name of user input
 
 Function:
 
 ```python
+import os
+import pickle
 from varname import argname
 
 def make_pickle(
-    user_input
+    variable,
+    *args,
 ):
     """Save user_input as a file with the same name."""
-    file_name = argname("user_input") + ".pickle"
-    with open(file_name, "wb") as f:
-        pickle.dump(file_name, f)
+    file_name = argname("variable") + ".pickle"
+    file_path = "."
+    for path in args:
+        file_path = os.path.join(file_path, path)
+    file_path = os.path.join(file_path, file_name)
+    with open(file_path, "wb") as f:
+        pickle.dump(variable, f)
     return
 
 make_pickle(df_1)
 # result: df_1.pickle
 ```
 
-## Return nothing
+### Make variable name out of string
 
-Ref: [python - return, return None, and no return at all? - Stack Overflow](https://stackoverflow.com/a/15300671)
+Credit: [Convert String to Variable Name in Python - PythonForBeginners.com](https://www.pythonforbeginners.com/basics/convert-string-to-variable-name-in-python)
+
+```python
+import os
+import pickle
+
+def use_pickle(
+    name,
+    *args,
+):
+    """Use user_input pickle."""
+    file_name = name + ".pickle"
+    file_path = "."
+    for path in args:
+        file_path = os.path.join(file_path, path)
+    file_path = os.path.join(file_path, file_name)
+    if os.path.isfile(file_path):
+        with open(file_path, "rb") as f:
+            global_vars = globals()
+            global_vars.__setitem__(name, pickle.load(f))
+    else:
+        raise FileNotFoundError("Pickle not found. Please create one first.")
+    return
+
+use_pickle("df_1")
+# result: df_1 (type: dataframe)
+```

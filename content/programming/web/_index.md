@@ -2,6 +2,54 @@
 bookCollapseSection: true
 title: "Web"
 ---
+## Useful symbols \& entities
+
+[Find all Unicode characters from Hieroglyphs to Dingbats – Codepoints](https://codepoints.net/)
+
+### Spaces
+
+`&#32;` or `&#x0020;`
+: The normal space \({{< kbd `space` >}}\)
+
+`&#x00A0;` or `&nbsp;`
+: Non-breaking space 
+
+`&#x200B;` or `&#8203;`
+: Zero-width breakable space
+
+`<wbr />` or `<wbr>`
+: Word break opportunity. Zero-width line break chance indicator. Acts like `&#x200B;`. [Not supported by IE](https://caniuse.com/?search=wbr).
+
+### Hyphens \& dashes
+
+From short to long:
+
+`&#x2010;` or `&dash;` or `&hyphen;`
+: The real hyphen
+
+`&#x002D;`
+: The normal minus-hyphen \({{< kbd `-` >}}\)
+
+`&#x2013;` or `&ndash;`
+: En dash
+
+`&#x2212;` or `&minus;`
+: The real minus sign
+
+`&#x2014;` or `&mdash;`
+: Em dash
+
+Special usage:
+
+`&#x2011;`
+: Non-breaking hyphen
+
+`&#x00AD;` or `&shy;`
+: Soft hyphen. Line breaking chance indicator.
+
+
+
+
 ## Tools
 
 - [Free DDNS](https://freemyip.com/main) \(I do not understand it completely, but seems useful someday.\)

@@ -7,6 +7,28 @@ title: "JavaScript"
 
 [^1]: test
 
+## Add line breaks for dummies
+
+Ref: [CSS word wrap / line break on underscores in addition to whitespace and hyphens - Stack Overflow](https://stackoverflow.com/a/29497876)
+
+```js
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      // add line break before
+      code.innerHTML = code.innerHTML.replace(/(?<!^|\.|\s)(\.|\(|{|\\|@)/g, '<wbr />\$1');
+      // add line break after
+      code.innerHTML = code.innerHTML.replace(/(,|})(?!$|\s)/g, '\$1<wbr />');
+      // add line breaks around
+      code.innerHTML = code.innerHTML.replace(/(?<!^|-|\.|\s)(_|-|=|\/)(?!$|\s)/g, '<wbr />\$1<wbr />');
+    }
+    i++;
+  }
+})();
+```
+
 ## Dialog \(Modal\) on-load
 
 Ref: [Modals Will Never Be The Same - HTML dialog Element](https://blog.webdevsimplified.com/2023-04/html-dialog/)
