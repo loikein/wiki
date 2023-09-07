@@ -5,9 +5,23 @@ title: "R"
 > I have not used R for a long time. Proceed at your own risk.
 {.book-hint .warning}
 
-References:
+Moved from: \(Private repo\) [loikein/my-jupyter-notes](https://github.com/loikein/my-jupyter-notes/tree/master/datacamp--data-science)
 
-- \(Private repo\) [loikein/my-jupyter-notes](https://github.com/loikein/my-jupyter-notes/tree/master/datacamp--data-science)
+## \(Maybe\) Useful resources
+
+- [An Introduction to Statistical Learning](https://www.statlearning.com/)
+  + [Resources - ISL with R, 2nd Edition — An Introduction to Statistical Learning](https://www.statlearning.com/resources-second-edition)
+- [cis-ds/course-site: Course site for Computing for Information Science (INFO 5940)](https://github.com/cis-ds/course-site)
+- [swirldev/swirl_courses: :mortar_board: A collection of interactive courses for the swirl R package.](https://github.com/swirldev/swirl_courses#swirl-courses)
+- [R for Data Science (1e)](https://r4ds.had.co.nz/index.html)
+  + [R for Data Science (2e)](https://r4ds.hadley.nz/)
+- [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
+- [Data Carpentry Lessons](https://datacarpentry.org/lessons/)
+- [The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/index.html)
+- [R 语言教程 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
+  + [A R软件基础(\*) | 统计计算 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/statcomp/html/_statcompbook/appendix-rintro.html)
+- List: [XiangyunHuang/R-Tutorial: R 语言材料](https://github.com/XiangyunHuang/R-Tutorial)
+
 
 ## Configuration
 
@@ -156,18 +170,3 @@ jupyter contrib nbextension install --user
 jupyter nbextension enable toc2
 jupyter trust binder-r-test.ipynb
 ```
-
-## \(Maybe\) Useful resources
-
-- [An Introduction to Statistical Learning](https://www.statlearning.com/)
-  + [Resources - ISL with R, 2nd Edition — An Introduction to Statistical Learning](https://www.statlearning.com/resources-second-edition)
-- [cis-ds/course-site: Course site for Computing for Information Science (INFO 5940)](https://github.com/cis-ds/course-site)
-- [swirldev/swirl_courses: :mortar_board: A collection of interactive courses for the swirl R package.](https://github.com/swirldev/swirl_courses#swirl-courses)
-- [R for Data Science (1e)](https://r4ds.had.co.nz/index.html)
-  + [R for Data Science (2e)](https://r4ds.hadley.nz/)
-- [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
-- [Data Carpentry Lessons](https://datacarpentry.org/lessons/)
-- [The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/index.html)
-- [R 语言教程 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
-  + [A R软件基础(\*) | 统计计算 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/statcomp/html/_statcompbook/appendix-rintro.html)
-- List: [XiangyunHuang/R-Tutorial: R 语言材料](https://github.com/XiangyunHuang/R-Tutorial)

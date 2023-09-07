@@ -166,7 +166,6 @@ GitHub flavour: \(Doc: [[Markdown] An option to highlight a "Note" and "Warning"
 ```
 
 
-
 ## Custom Shortcodes (by theme)
 
 ### Columns
@@ -183,11 +182,31 @@ Hello...
 ...world.
 {{< /columns >}}
 
+```html
+{{</* columns */>}}
+Hello...
+
+<--->
+
+...hello...
+
+<--->
+
+...world.
+{{</* /columns */>}}
+```
+
 ### Summary/Detail
 
 {{< details "Summary" open >}}
 Who am I? Where am I?
 {{< /details >}}
+
+```html
+{{</* details "Summary" open */>}}
+Who am I? Where am I?
+{{</* /details */>}}
+```
 
 ### Hints \(deprecated\)
 
@@ -223,6 +242,16 @@ Danger **(!)** hint
 {{< tab "Linux" >}} Ok {{< /tab >}}
 {{< tab "Windows" >}} Not ok {{< /tab >}}
 {{< /tabs >}}
+
+```html
+{{</* tabs "test-tabs" */>}}
+{{</* tab "macOS" */>}} Ok {{</* /tab */>}}
+{{</* tab "Linux" */>}} Ok {{</* /tab */>}}
+{{</* tab "Windows" */>}} Not ok {{</* /tab */>}}
+{{</* /tabs */>}}
+```
+
+TODO: Use [gohugoio/hugo/docs/layouts/shortcodes/code-toggle.html](https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/code-toggle.html) with [gohugoio/hugoDocs/layouts/shortcodes/code-toggle.html](https://github.com/gohugoio/hugoDocs/blob/master/layouts/shortcodes/code-toggle.html) which has synced tab groups.
 
 
 ## Custom Shortcodes (by me)

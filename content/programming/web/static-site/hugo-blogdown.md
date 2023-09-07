@@ -2,6 +2,30 @@
 title: "Hugo/Blogdown"
 disable_latex: true
 ---
+## \(Maybe\) Useful resources
+
+{{< details "Themes" >}}
+- [QIN2DIM/awesome-hugo-themes: 🐱‍🏍 A curated list of awesome things related to Hugo themes.](https://github.com/QIN2DIM/awesome-hugo-themes)
+- [matcornic/hugo-theme-learn: Porting Grav Learn theme to Hugo](https://github.com/matcornic/hugo-theme-learn) \(The button code I used for [hugo-tufte](https://github.com/loikein/hugo-tufte) comes from here.\)
+- [weitblick/epub: An epub theme for the Static Site Generator HUGO.](https://github.com/weitblick/epub)
+{{< /details >}}
+
+{{< details "Layouts \& shortcodes" >}}
+- [gohugoio/hugo/tpl/tplimpl/embedded/templates](https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates) \(All Hugo internal templates, very hard to find.\)
+- [gohugoio/hugoDocs/layouts](https://github.com/gohugoio/hugoDocs/tree/master/layouts) \(Layouts for the [Hugo Documentation](https://gohugo.io/documentation/)\)
+- [mfg92/hugo-shortcode-gallery: A theme components with a gallery shortcode for the static site generator hugo.](https://github.com/mfg92/hugo-shortcode-gallery)
+- [RoneoOrg/hugo-shortcode-roneo-collection: A shortcode collection for Hugo](https://github.com/RoneoOrg/hugo-shortcode-roneo-collection)
+- [Add-ons for Hugo | Hugo Codex](https://hugocodex.org/add-ons/) \(The breadcrumbs code on this wiki comes from here.\)
+- [loup-brun/hugo-cite: 📝 Easily manage your bibliography and in-text citations with Hugo, the popular static-site generator.](https://github.com/loup-brun/hugo-cite)
+- [liwenyip/hugo-easy-gallery: Automagical css image gallery in Hugo using shortcodes, with optional lightbox/carousel gadget using PhotoSwipe and jQuery.](https://github.com/liwenyip/hugo-easy-gallery)
+{{< /details >}}
+
+{{< details "Sites" >}}
+- [brycewray/hugo-site: This is the repository from which the Hugo-generated version of https://www.brycewray.com is built.](https://github.com/brycewray/hugo-site)
+- [Articles - Veriphor](https://www.veriphor.com/articles/) \(Ran by [jmooring](https://github.com/jmooring)\)
+- [MelonKony/millmint.net: Central site for the Petticoat Project and its associated worldbuilding material.](https://github.com/MelonKony/millmint.net/tree/live)
+{{< /details >}}
+
 
 ## Basics
 

@@ -2,6 +2,14 @@
 bookCollapseSection: true
 title: "Python"
 ---
+## \(Maybe\) Useful resources
+
+- [Gallery of Jupyter Books - Executable Books](https://executablebooks.org/en/latest/gallery/)
+- [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+- [nkmk/python-snippets](https://github.com/nkmk/python-snippets)
+- [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)
+
+
 ## Dictionary
 
 Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)
@@ -175,11 +183,3 @@ except AssertionError:
 except:
     print("Error: Unknown error.")
 ```
-
-
-## \(Maybe\) Useful resources
-
-- [Gallery of Jupyter Books - Executable Books](https://executablebooks.org/en/latest/gallery/)
-- [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
-- [nkmk/python-snippets](https://github.com/nkmk/python-snippets)
-- [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)

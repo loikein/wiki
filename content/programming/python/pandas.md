@@ -7,6 +7,10 @@ description: "Real problems and real solutions."
 
 `axis: {0 or ‘index’ (rows), 1 or ‘columns’}, default 0`
 
+## \(Maybe\) Useful resources
+
+- [Cookbook — pandas 2.1.0 documentation](https://pandas.pydata.org/docs/user_guide/cookbook.html)
+
 ## Import Data
 
 ### Excel
@@ -354,6 +358,14 @@ df_subset = df[df["Rating"].apply(lambda x: isinstance(x, float))]
 df_subset = df[df["Rating"].apply(lambda x: not isinstance(x, float))]
 ```
 
+### Select rows by index
+
+Doc: [pandas.DataFrame.loc — pandas 2.1.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html)
+
+```python
+df.loc["A0001"]
+```
+
 ### Select \(mask\) triangle of DataFrame
 
 [python - Melt the Upper Triangular Matrix of a Pandas Dataframe - Stack Overflow](https://stackoverflow.com/a/40391559/10668706)
@@ -456,11 +468,12 @@ df = df.reset_index()
 df = df.reset_index(level=["Status", "Level"])
 ```
 
-Rename index:
+Set new indices:
 
 ```python
-df.index = df.index.set_names(["ID", "Address"])
+df = df.set_index(["ID"])
 ```
+
 
 ## DataFrame-level operations
 
@@ -525,9 +538,14 @@ df["Rating"] = df["Rating"].astype(rate_type)
 
 Rows with duplicate indices:
 
+Doc: [Duplicate Labels — pandas 2.1.0 documentation](https://pandas.pydata.org/docs/user_guide/duplicates.html)
+
 Credit: [python - Remove pandas rows with duplicate indices - Stack Overflow](https://stackoverflow.com/questions/13035764/remove-pandas-rows-with-duplicate-indices)
 
 ```python
+df.index.is_unique
+# False
+
 df = df[~df.index.duplicated(keep='first')]
 ```
 
