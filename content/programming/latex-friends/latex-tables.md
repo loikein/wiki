@@ -5,7 +5,6 @@ title: "LaTeX Tables"
 
 ## Cell
 
-
 ### Line breaks inside cell
 
 Refs:
@@ -76,6 +75,31 @@ alt="LaTeX table with a multi-row cell"
 
 
 ## Table
+
+### Add end notes
+
+Stargaze does this automatically, but I was not happy that a particularly long note would widen the table. [A comment in this question](https://tex.stackexchange.com/questions/12676/add-notes-under-the-table#comment22909_12676) solved that problem for me.
+
+> If you have used `\begin{tabular}{@{\extracolsep{5pt}}lcc}`, write `\multicolumn{3}{p{\textwidth}}{\hspace{-6pt}\textit{Notes:} $^{\ast}p<0.1$; $^{\ast\ast}p<0.05$; $^{\ast\ast\ast}p<0.01$.}` instead. This is because `\multicolumn` does not take the whole `\linewidth`, as explained [here](https://tex.stackexchange.com/a/532894/206709).
+{.book-hint .info}
+
+
+```latex {hl_lines="12"}
+\begin{table}\centering
+  \caption{Good table with multiple row cells}\label{tab:multi-row}
+  \begin{tabular}{lll}
+    {} \\[-1.8ex]\hline
+    \hline \\[-1.8ex]
+    \multirow{4}{*}{Head Col 1} & Head Col 2 & Head Col 3 \\
+     & Data Col 2 & Data Col 3 \\
+     & Data Col 2 & Data Col 3 \\
+     & Data Col 2 & Data Col 3 \\
+    \hline
+    \hline \\[-1.8ex]
+    \multicolumn{3}{p{\textwidth}}{\textit{Notes:} $^{\ast}p<0.1$; $^{\ast\ast}p<0.05$; $^{\ast\ast\ast}p<0.01$.}
+  \end{tabular}
+\end{table}
+```
 
 ### Make table sideways
 

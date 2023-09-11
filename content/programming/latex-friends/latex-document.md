@@ -287,6 +287,23 @@ Ref: [Restart page numbering for memoir appendix - TeX - LaTeX Stack Exchange](h
 \end{document}
 ```
 
+## Page margin
+
+### Change margin for a few pages
+
+```latex {hl_lines="6 8"}
+\usepackage{geometry}
+
+\begin{document}
+% words
+
+\newgeometry{top=0.5cm, bottom=0.5cm}
+\input{a-very-big-figure}
+\restoregeometry
+
+\end{document}
+```
+
 ## Plots/Images
 
 ### Full image

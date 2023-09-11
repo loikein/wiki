@@ -502,6 +502,19 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
     data["Address"] = data["Address"].astype(str) + " " + data[col].fillna("").astype(str)
 ```
 
+<!-- ### Normalise a column
+
+Ref: [python - How to normalize a numpy array to a unit vector - Stack Overflow](https://stackoverflow.com/a/51512965/10668706)
+
+> If `np.linalg.norm(df["col"])` returns `nan`, check if there are `nan` values in the column. \([Ref](https://github.com/JustGlowing/minisom/issues/51#issuecomment-557906393)\)
+{.book-hint .info}
+
+```python
+df_new = df[~df["Score"].isna()]
+x = df_new["Score"]
+df_new["Score_norm"] = x/np.linalg.norm(x)
+``` -->
+
 ### Reorder columns
 
 Ref: [python - How to change the order of DataFrame columns? - Stack Overflow](https://stackoverflow.com/questions/13148429/how-to-change-the-order-of-dataframe-columns)
