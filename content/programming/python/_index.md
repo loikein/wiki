@@ -127,6 +127,24 @@ for i in range(1, split+1):
         json_all.update(json_i)
 ```
 
+## Objects
+
+List all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
+
+```python
+for attr in dir(object_a):
+    if not attr.startswith('_'):
+        print(attr)
+```
+
+List all methods of an object: \([credit](https://stackoverflow.com/a/34452/10668706)\)
+
+```python
+for method in dir(object_a):
+    if callable(getattr(object_a, method)) and (not method.startswith('_')):
+        print(method)
+```
+
 
 ## Pickle
 

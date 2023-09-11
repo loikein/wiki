@@ -146,6 +146,17 @@ ul{
 
 ## Selectors
 
+### Language
+
+Ref: [sass - How to use :lang() to set font variable in scss - Stack Overflow](https://stackoverflow.com/a/39204043/10668706)
+
+```css
+body:lang(fa)  {
+    font-family: Georgia, serif;
+    color:red;
+}
+```
+
 ### Target both parent and children
 
 Credit: [css - How to apply a style to both parent and child in SCSS - Stack Overflow](https://stackoverflow.com/a/42393790/10668706)

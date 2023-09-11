@@ -7,7 +7,76 @@ title: "JavaScript"
 
 [^1]: test
 
-## Add line breaks for dummies
+## Defining functions
+
+### Traditional
+
+```js
+function func(x) {
+  // ...
+}
+```
+
+```js
+async function func(x) {
+  // ...
+}
+```
+
+### Arrow
+
+Ref: [Arrow function expressions - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+`return` is required for multiple-line arrow functions.
+
+```js
+(x, y) => x + y;
+
+(x) => {
+  // ...
+  return
+};
+```
+
+```js
+const func = (x) => x + y;
+
+const func = (x) => {
+  // ...
+  return
+};
+```
+
+```js
+async (x) => {
+  // ...
+}
+
+const func = async (x) => {
+  // ...
+  return
+};
+```
+
+### IIFE (Immediately Invoked Function Expression)
+
+Ref: [IIFE - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
+
+```js
+(function () {
+  // ...
+})();
+```
+
+```js
+(async function () {
+  // ...
+})();
+```
+
+## Snippets
+
+### Add line breaks for dummies
 
 Ref: [CSS word wrap / line break on underscores in addition to whitespace and hyphens - Stack Overflow](https://stackoverflow.com/a/29497876)
 
@@ -29,7 +98,7 @@ Ref: [CSS word wrap / line break on underscores in addition to whitespace and hy
 })();
 ```
 
-## Dialog \(Modal\) on-load
+### Dialog \(Modal\) on-load
 
 Ref: [Modals Will Never Be The Same - HTML dialog Element](https://blog.webdevsimplified.com/2023-04/html-dialog/)
 
@@ -63,11 +132,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
 });
 ```
 
-## Rich link copy button
+### Rich link copy button
 
 [javascript - How to copy a HyperText link into clipboard without losing the link properties - Stack Overflow](https://stackoverflow.com/questions/53003980/)
 
-## Tooltip
+### Tooltip
 
 Ref: [Building a fully-accessible help tooltip – Sara Soueidan, inclusive design engineer](https://www.sarasoueidan.com/blog/accessible-tooltips/)
 

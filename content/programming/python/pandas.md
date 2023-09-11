@@ -437,6 +437,57 @@ len(df_grouped.columns)
 
 ## Column-level operations
 
+### Convert type of columns
+
+Inspect column types:
+
+```python
+df.info()
+```
+
+To numeric:
+
+```python
+# float
+df["Rating"] = df["Rating"].astype('float')
+
+# auto
+df["Rating"] = pd.to_numeric(df["Rating"])
+```
+
+To string:
+
+```python
+df = df.astype("string")
+
+df = df.astype(dict(col1="string", col2="float", ...))
+```
+
+To category:
+
+```python
+from pandas.api.types import CategoricalDtype
+
+rate_type = CategoricalDtype(
+    categories=["No rating", "Bad", "Good", "Outstanding"],
+    ordered=True,
+)
+
+df["Rating"] = df["Rating"].astype(rate_type)
+```
+
+With inline functions:
+
+```python
+# datetime to string
+df["Date"] = [ cell.strftime("%Y") for cell in df["Date"] ]
+
+
+df["Location ODS Code"] = [str(val) for val in df["Location ODS Code"]]
+df["Service / Population Group"] = [str(val) for val in df["Service / Population Group"]]
+df["Domain"] = [str(val) for val in df["Domain"]]
+```
+
 ### Combine multiple columns
 
 Refs: 
@@ -461,17 +512,17 @@ Ref: [python - How to change the order of DataFrame columns? - Stack Overflow](h
 Unset indices:
 
 ```python
-# return all indices to normal columns
+# return all indices back to normal columns
 df = df.reset_index()
 
 # return only selected indices
-df = df.reset_index(level=["Status", "Level"])
+df = df.reset_index(level=["Status", "Level", ...])
 ```
 
 Set new indices:
 
 ```python
-df = df.set_index(["ID"])
+df = df.set_index(["ID", ...])
 ```
 
 
@@ -512,28 +563,6 @@ df_AB = df_A[["Rating"]].join(
 )
 ```
 
-
-### Convert type of columns
-
-Float:
-
-```python
-df["Rating"] = df["Rating"].astype('float')
-```
-
-Category:
-
-```python
-from pandas.api.types import CategoricalDtype
-
-rate_type = CategoricalDtype(
-    categories=["No rating", "Bad", "Good", "Outstanding"],
-    ordered=True,
-)
-
-df["Rating"] = df["Rating"].astype(rate_type)
-```
-
 ### Drop things
 
 Rows with duplicate indices:
@@ -546,13 +575,17 @@ Credit: [python - Remove pandas rows with duplicate indices - Stack Overflow](ht
 df.index.is_unique
 # False
 
+# Look at content of all duplicated index
+df[df.index.duplicated()]
+
+# Drop all rows with duplicated index but the first instance
 df = df[~df.index.duplicated(keep='first')]
 ```
 
 Columns:
 
 ```python
-df = df.drop(["drop"], axis=1)
+df = df.drop(["drop", ...], axis=1)
 ```
 
 ### Long to wide
@@ -563,7 +596,7 @@ For example, say you have a very long MultiIndex DataFrame like this (asterisk m
 
 ```text
                        VALUE
-ID      CODE   LEVEL               
+ID      CODE   LEVEL
 *A0001* *A-1*  *B-1*   96.0
                *B-2*   5.0
         *A-2*  *B-1*   18.0
@@ -708,7 +741,7 @@ import re
 df = df.rename(columns=lambda x: re.sub(" $", "", x))
 ```
 
-### Replace cells by value
+### Replace all cells by value
 
 Credit: [python - How to replace a value in pandas, with NaN? - Stack Overflow](https://stackoverflow.com/a/29251086/10668706)
 

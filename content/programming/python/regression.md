@@ -56,6 +56,13 @@ Get hetroskedasticity-robust standard errors:
 results = smf.ols(formula_1, data=df).fit(cov_type="HC3")
 ```
 
+### Debugging
+
+`ValueError: endog has evaluated to an array with multiple columns that has shape (...). This occurs when the variable converted to endog is non-numeric (e.g., bool or str).`
+
+Check df column types with `df.info()`. For any `object` type columns that you need, convert them.
+
+
 ### Detect multicollinearity
 
 Doc: [statsmodels.stats.outliers_influence.variance_inflation_factor - statsmodels 0.14.0](https://www.statsmodels.org/stable/generated/statsmodels.stats.outliers_influence.variance_inflation_factor.html)
@@ -87,16 +94,6 @@ results.summary().tables[0]
 results.summary().tables[1].as_html()
 results.summary().tables[2].as_latex_tabular(center=False)
 ```
-
-{{< details "List all attributes/methods of some object" >}}
-Credit: [python - How to retrieve model estimates from statsmodels? - Stack Overflow](https://stackoverflow.com/a/48522820/10668706)
-
-```python
-for attr in dir(results):
-    if not attr.startswith('_'):
-        print(attr)
-```
-{{< /details >}}
 
 ### Get results programmatically
 

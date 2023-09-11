@@ -61,8 +61,8 @@
 /* LiteralNumberInteger */ .chroma .mi { color: #0000dd; }
 /* LiteralNumberIntegerLong */ .chroma .il { color: #6600ee; }
 /* LiteralNumberOct */ .chroma .mo { color: #4400ee; }
-/* Operator */ .chroma .o { color: #333333 }
-/* OperatorWord */ .chroma .ow { color: #000000; font-weight: bold }
+/* Operator */ .chroma .o { color: #0044dd }
+/* OperatorWord */ .chroma .ow { color: #0044dd; font-weight: bold }
 /* Punctuation */ .chroma .p {  }
 /* Comment */ .chroma .c { color: #888888 }
 /* CommentHashbang */ .chroma .ch { color: #888888 }
