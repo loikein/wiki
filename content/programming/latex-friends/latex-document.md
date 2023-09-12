@@ -291,6 +291,8 @@ Ref: [Restart page numbering for memoir appendix - TeX - LaTeX Stack Exchange](h
 
 ### Change margin for a few pages
 
+Ref: [Latex - Change margins of only a few pages - Stack Overflow](https://stackoverflow.com/a/16259351/10668706)
+
 ```latex {hl_lines="6 8"}
 \usepackage{geometry}
 

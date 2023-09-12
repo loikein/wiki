@@ -14,8 +14,12 @@ Refs:
 - [List of pseudo-French words in English - Wikipedia](https://en.wikipedia.org/wiki/List_of_pseudo-French_words_in_English)
 - [List of English words of French origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_French_origin)
 
+a la
+: 就像
+: [Wiktionary](https://en.wiktionary.org/wiki/a_la#English)
+
 c'est la vie
-: 这就是人生，表示无奈
+: 这就是人生，用于表示无奈
 : [Wiktionary](https://en.wiktionary.org/wiki/c%27est_la_vie#English)
 
 vis-à-vis
@@ -25,6 +29,20 @@ vis-à-vis
 voilà
 : 看！，用于引起别人注意。注意不要跟 viola（中提琴）混淆。
 : [Wiktionary](https://en.wiktionary.org/wiki/voil%C3%A0#English)
+
+
+## 德语相关
+
+Refs:
+
+- [List of German expressions in English - Wikipedia](https://en.wikipedia.org/wiki/List_of_German_expressions_in_English)
+- [List of pseudo-German words in English - Wikipedia](https://en.wikipedia.org/wiki/List_of_pseudo-German_words_in_English)
+- [List of English words of Dutch origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_Dutch_origin)
+- [List of English words of Yiddish origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_Yiddish_origin)
+
+kaput(t)
+: 坏掉的，消失的
+: [Wiktionary](https://en.wiktionary.org/wiki/kaput#English)
 
 
 ## 希腊语相关
@@ -49,10 +67,10 @@ Refs:
 - [Category:Latin words and phrases - Wikipedia](https://en.wikipedia.org/wiki/Category:Latin_words_and_phrases) 
     + [Category:Latin literary phrases - Wikipedia](https://en.wikipedia.org/wiki/Category:Latin_literary_phrases)
 
-Ad hoc
+ad hoc
 : 临时，特设，权宜之计
 : [Wiktionary](https://en.wiktionary.org/wiki/ad_hoc#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hoc)
 
-Nota bene / N.B.
+nota bene / N.B.
 : 需要注意的是，用于写作中提到某处细节时
 : [Wiktionary](https://en.wiktionary.org/wiki/nota_bene#English); [Wikipedia](https://en.wikipedia.org/wiki/Nota_bene)

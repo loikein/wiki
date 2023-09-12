@@ -57,7 +57,7 @@ dfs = pd.read_excel(file_name, sheet_name=None)
 dfs.keys() # similar result as xl.sheet_names
 ```
 
-### CSV
+### CSV/TSV
 
 #### Pandas
 
@@ -70,26 +70,19 @@ names_list = ["col 1", "col 2", "col 3"]
 
 df = pd.read_csv(
     os.path.join("data", "data.csv"), # read ./data/data.csv
+    # sep='\t',                       # if tsv
+    # quotechar="'",                  # if see extra quotation marks after import
     header=None,
     index_col=[0,1],                  # only numbers, because there is no name yet
     names=names_list,
     dtype={"Phone number": "str"},    # read columns as type
+    nrows=100,                        # only read first 100 rows
 )
 ```
 
-#### CSV
+#### CSV module
 
-https://stackoverflow.com/a/6740963/10668706
-
-```python
-import csv
-
-with open("file", "r") as f:
-    reader = csv.reader(f)
-    list = []
-    for row in reader:
-        list.append(row)
-```
+See [Python #CSV](/programming/python/#csv).
 
 ### ODS
 
@@ -328,6 +321,10 @@ df_subset = df[df["Status Code"]=="A"]
 # only keep rows without certain value for a col
 df_subset = df[df["Status Code"]!="B"]
 
+# only keep rows with a certain starting
+# https://stackoverflow.com/a/17958424/10668706
+df_subset = df[df["Name"].str.startswith("One d", na=False)]
+
 # especially, for nan values:
 df_subset = df[df["Status Code"].isna()]
 df_subset = df[df["Status Code"].notna()]
@@ -460,7 +457,8 @@ To string:
 ```python
 df = df.astype("string")
 
-df = df.astype(dict(col1="string", col2="float", ...))
+df = df.astype({"col1": "string", "col2": "float", ... })  # need quotes
+df = df.astype(dict(col1="string", col2="float", ...))     # no quotes
 ```
 
 To category:
@@ -504,7 +502,10 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
 
 <!-- ### Normalise a column
 
-Ref: [python - How to normalize a numpy array to a unit vector - Stack Overflow](https://stackoverflow.com/a/51512965/10668706)
+Refs: 
+
+- [python - How to normalize a numpy array to a unit vector - Stack Overflow](https://stackoverflow.com/a/51512965/10668706)
+- [python - Normalize columns of a dataframe - Stack Overflow](https://stackoverflow.com/a/57067342/10668706)
 
 > If `np.linalg.norm(df["col"])` returns `nan`, check if there are `nan` values in the column. \([Ref](https://github.com/JustGlowing/minisom/issues/51#issuecomment-557906393)\)
 {.book-hint .info}
@@ -563,7 +564,8 @@ With same indices (join):
 ```python
 df_AB = df_A.join(
     df_B,
-    how="outer",    # Keep all different index values
+    how="outer",                # Keep all different index values
+    lsuffix="A", rsuffix="B",   # if get ValueError: columns overlap 
 )
 ```
 

@@ -80,7 +80,7 @@ alt="LaTeX table with a multi-row cell"
 
 Stargaze does this automatically, but I was not happy that a particularly long note would widen the table. [A comment in this question](https://tex.stackexchange.com/questions/12676/add-notes-under-the-table#comment22909_12676) solved that problem for me.
 
-> If you have used `\begin{tabular}{@{\extracolsep{5pt}}lcc}`, write `\multicolumn{3}{p{\textwidth}}{\hspace{-6pt}\textit{Notes:} $^{\ast}p<0.1$; $^{\ast\ast}p<0.05$; $^{\ast\ast\ast}p<0.01$.}` instead. This is because `\multicolumn` does not take the whole `\linewidth`, as explained [here](https://tex.stackexchange.com/a/532894/206709).
+> If you have used `\begin{tabular}{@{\extracolsep{5pt}}lcc}`, write `\multicolumn{3}{p{\textwidth}}{\hspace{-6pt}\textit{Notes:} ...}` instead. This is because `\multicolumn` does not take the whole `\linewidth`, as explained [here](https://tex.stackexchange.com/a/532894/206709).
 {.book-hint .info}
 
 
