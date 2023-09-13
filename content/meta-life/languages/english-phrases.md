@@ -1,21 +1,17 @@
 ---
 title: "英语词汇参考"
 ---
-标题其实应该是「不是英语词汇参考」。收集本人日常生活（？）中碰到的单词。
+标题其实应该是「不是英语词汇参考」。
 
-释义是自己写的，不一定精确，主要用来领会精神。
+收集本人日常生活（？）中碰到的单词。释义是自己写的，不一定精确，主要用来领会精神。
+
+按字母顺序排列。
 
 
 ## 法语相关
 
-Refs:
-
-- [Glossary of French words and expressions in English - Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_French_words_and_expressions_in_English)
-- [List of pseudo-French words in English - Wikipedia](https://en.wikipedia.org/wiki/List_of_pseudo-French_words_in_English)
-- [List of English words of French origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_French_origin)
-
 a la
-: 就像
+: _prep._ 就像
 : [Wiktionary](https://en.wiktionary.org/wiki/a_la#English)
 
 c'est la vie
@@ -31,7 +27,20 @@ voilà
 : [Wiktionary](https://en.wiktionary.org/wiki/voil%C3%A0#English)
 
 
+Refs:
+
+- [Glossary of French words and expressions in English - Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_French_words_and_expressions_in_English)
+- [List of pseudo-French words in English - Wikipedia](https://en.wikipedia.org/wiki/List_of_pseudo-French_words_in_English)
+- [List of English words of French origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_French_origin)
+
+
+
 ## 德语相关
+
+kaput(t)
+: _adj._ 坏掉的，消失的
+: [Wiktionary](https://en.wiktionary.org/wiki/kaput#English)
+
 
 Refs:
 
@@ -39,10 +48,6 @@ Refs:
 - [List of pseudo-German words in English - Wikipedia](https://en.wikipedia.org/wiki/List_of_pseudo-German_words_in_English)
 - [List of English words of Dutch origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_Dutch_origin)
 - [List of English words of Yiddish origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_Yiddish_origin)
-
-kaput(t)
-: 坏掉的，消失的
-: [Wiktionary](https://en.wiktionary.org/wiki/kaput#English)
 
 
 ## 希腊语相关
@@ -58,6 +63,14 @@ Refs:
 
 ## 拉丁语相关
 
+ad hoc
+: _adj._ 临时，特设，权宜之计
+: [Wiktionary](https://en.wiktionary.org/wiki/ad_hoc#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hoc)
+
+nota bene / N.B.
+: _v._ 需要注意的是，用于写作中提到某处细节时
+: [Wiktionary](https://en.wiktionary.org/wiki/nota_bene#English); [Wikipedia](https://en.wikipedia.org/wiki/Nota_bene)
+
 Refs:
 
 - [List of Latin phrases (full) - Wikipedia](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(full))
@@ -67,10 +80,23 @@ Refs:
 - [Category:Latin words and phrases - Wikipedia](https://en.wikipedia.org/wiki/Category:Latin_words_and_phrases) 
     + [Category:Latin literary phrases - Wikipedia](https://en.wikipedia.org/wiki/Category:Latin_literary_phrases)
 
-ad hoc
-: 临时，特设，权宜之计
-: [Wiktionary](https://en.wiktionary.org/wiki/ad_hoc#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hoc)
 
-nota bene / N.B.
-: 需要注意的是，用于写作中提到某处细节时
-: [Wiktionary](https://en.wiktionary.org/wiki/nota_bene#English); [Wikipedia](https://en.wikipedia.org/wiki/Nota_bene)
+## 俚语相关
+
+zhoosh sth. up
+: _v._ 提高，改善
+: [Wiktionary](https://en.wiktionary.org/wiki/zhoosh#English)
+
+Refs:
+
+- [Polari - Wikipedia](https://en.wikipedia.org/wiki/Polari)
+
+
+## 娱乐
+
+{{< pdf
+  src="https://s.wsj.net/public/resources/documents/stanfordlanguage.pdf"
+  title="Harmful Language List by EHLI, Stanford University"
+>}}
+
+（备注：有一些我是同意的，比如用 folks 取代 guys。）
