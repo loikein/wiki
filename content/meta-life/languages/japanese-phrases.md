@@ -32,9 +32,9 @@ Refs:
 : [コトバンク](https://kotobank.jp/word/%E3%81%9E%E3%82%8F%E3%81%9E%E3%82%8F-315611); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%9E%E3%82%8F%E3%81%9E%E3%82%8F/#jn-283415)
 
 ぺらぺら
-: 1\. 说话流畅的人
-: 2\. 话很多的人
-: [コトバンク](https://kotobank.jp/word/%E3%81%BA%E3%82%89%E3%81%BA%E3%82%89-625635)
+: 1\. 说话流畅
+: 2\. 话很多
+: [コトバンク](https://kotobank.jp/word/%E3%81%BA%E3%82%89%E3%81%BA%E3%82%89-625635); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%BA%E3%82%89%E3%81%BA%E3%82%89/#jn-199732)
 
 
 ## AっBり

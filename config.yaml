@@ -122,5 +122,5 @@ params:
   BookTranslatedOnly: false
 
   KaTeXVersion: 0.16.8
-  KaTeXCDN: //cdn.jsdelivr.net/npm
+  KaTeXCDN: "//cdn.jsdelivr.net/npm"
   customCSS: true

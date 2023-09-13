@@ -84,8 +84,23 @@ $\overbar{\mathbb{R}}$
 
 ### Basic aligns & tag position
 
-Single line equation: (Backref with [KaTeX quirks](https://github.com/KaTeX/KaTeX/issues/2003#issuecomment-843991794): [eq1](#eq1))
+#### Single line equation
 
+{{< details "With `\label{eq1}`, you can refer to it as [eq1](#eq1); `$\eqref{eq1}$`; `$\ref{eq1}$`" >}}
+…by typing:
+
+```markdown
+[eq1](#eq1); $\eqref{eq1}$; $\ref{eq1}$
+```
+
+The latter two are valid in LaTeX as well.
+
+This requires adding macros when importing KaTeX. See [Issue #2003 · KaTeX/KaTeX](https://github.com/KaTeX/KaTeX/issues/2003#issuecomment-843991794) for details.
+
+There is also [`\htmlId` functionality](https://katex.org/docs/supported.html#html) which is less intuitive to use but do not require adding macros.
+{{< /details >}}
+
+Auto tagged: \(Numbers are continuous during the whole webpage\)
 
 `$$\begin{equation} x = y \label{eq1}\end{equation}$$`
 
@@ -93,54 +108,103 @@ Single line equation: (Backref with [KaTeX quirks](https://github.com/KaTeX/KaTe
 \begin{equation} x = y \label{eq1}\end{equation}
 ```
 
-<!-- `$$x = y \tag{1.1}$$`
+> To avoid overflow in KaTeX, you can also avoid `equation` or `equation*` environments, and manually tag it: \(Numbers are not continuous\)
+> 
+> `$$x = y \label{eq1.1}\tag{1.1}$$`
+> 
+> ```latex
+> x = y \label{eq1.1}\tag{1.1}
+> ```
+{.book-hint .info}
+
+No tag:
+
+`$$\begin{equation*} x = y \end{equation*}$$`
 
 ```latex
-$$x = y \label{eq1.1}\tag{1.1}$$
-``` -->
+\begin{equation*} x = y \end{equation*}
+```
 
-<!-- ![Equation  with tag](/img/latex_equation.png) -->
+#### Multi-line signle equation with `aligned`
 
-Aligned single equation:
+Auto tagged:
 
-`$$\begin{aligned} x &= y \\ &= z \tag{1.1}\end{aligned}$$`
+`$$
+\begin{equation}
+\begin{aligned}
+  x &= y \\
+  &= z
+\end{aligned}
+\end{equation}$$`
+
+```latex
+\begin{equation}
+\begin{aligned}
+  x &= y \\
+  &= z
+\end{aligned}
+\end{equation}
+```
 
 <!-- ![Aligned single equations with tag](/img/latex_aligned.png) -->
 
+> To avoid overflow in KaTeX, manual tag it:
+> 
+> `$$
+> \begin{aligned}
+>   x &= y \\
+>   &= z \tag{2.1}
+> \end{aligned}
+> $$`
+> 
+> ```latex
+> \begin{aligned}
+>   x &= y \\
+>   &= z \tag{2.1}
+> \end{aligned}
+> ```
+{.book-hint .info}
+
+#### Multiple equations with `Align`
+
+Auto tagged:
+
+`$$\begin{align} x &= y \\ 2x &= 2z \end{align}$$`
+
 ```latex
-\begin{aligned} x &= y \\ &= z \tag{1.1}\end{aligned}
+\begin{align} x &= y \\ 2x &= 2z \end{align}
 ```
 
-Align multiple equations (no tag):
+> I have yet to find any way to avoid tag overflow for `align` environments for KaTeX.
+{.book-hint .warning}
 
-`$$\begin{align*} x &= y \\ x &= z \end{align*}$$`
+No tag:
+
+`$$\begin{align*} x &= y \\ 2x &= 2z \end{align*}$$`
 
 <!-- ![Align multiple equations with no tag](/img/latex_align_star.png) -->
 
 ```latex
-\begin{align*} x &= y \\ x &= z \end{align*}
+\begin{align*} x &= y \\ 2x &= 2z \end{align*}
 ```
 
-Align multiple equations (tagged):
-
-`$$\begin{align} x &= y \\ x &= z \end{align}$$`
-
-<!-- ![Align multiple equations with tag](/img/latex_align.png) -->
-
-```latex
-\begin{align} x &= y \\ x &= z \end{align}
-```
 
 ### More examples
 
 Cases:
 
 `$$
-\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}
+\begin{cases}
+  x=1 & y=1\\
+  x=2 & y=2
+\end{cases}
 $$`
 
 ```latex
-\begin{cases}x=1 & y=1\\ x=2 & y=2 \end{cases}
+\begin{cases}
+  x=1 & y=1\\
+  x=2 & y=2
+\end{cases}
 ```
 
 Symbols as equation tag: \([Ref](https://tex.stackexchange.com/questions/12026/)\)

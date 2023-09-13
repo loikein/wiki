@@ -266,7 +266,7 @@ TODO: Use [gohugoio/hugo/docs/layouts/shortcodes/code-toggle.html](https://githu
 
 ### GitHub Gist
 
-Native mode \(no JS\): (with optional `lineNos` and `hlLines` params that works exactly like `highlight` shortcode)
+Native mode: \(No JS, with optional `lineNos` and `hlLines` params that works exactly like `highlight` shortcode.\)
 
 {{< gist
 user="loikein"
@@ -284,7 +284,7 @@ lineNos="table"
 hlLines="2-4 7" */>}}
 ```
 
-Embed mode:
+Embed mode: \(No fallback for lack of JS, only use when you have to.\)
 
 {{< gist
 user="loikein"

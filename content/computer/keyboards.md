@@ -15,6 +15,7 @@ Ref: [Template:Keyboard - Wikipedia](https://en.wikipedia.org/wiki/Template:Keyb
 | {{< kbd `Del` >}}       | {{< kbd `Fn`  `Backspace` >}} | {{< kbd `fn`  `delete` >}} | Delete after cursor |
 | {{< kbd  `PrtScn` >}} | {{< kbd `Win` `Shift` `S` >}} | {{< kbd `command` `control` `shift` `3` >}} | Screenshot \& copy |
 | {{< kbd  `Win` `PrtScn` >}} | ???[^prtscn] | {{< kbd `command` `shift` `3` >}} | Screenshot \& save |
+| {{< kbd `Alt` `F4` >}} | | {{< kbd `command` `Q` >}} | Quit current application |
 
 [^prtscn]: Please help.
 

@@ -72,8 +72,8 @@ def make_pickle(
         pickle.dump(variable, f)
     return
 
-make_pickle(df_1)
-# result: df_1.pickle
+make_pickle(df_1, "data", "pt1", ...)
+# result: /data/pt1/.../df_1.pickle
 ```
 
 ### Make variable name out of string
@@ -102,6 +102,6 @@ def use_pickle(
         raise FileNotFoundError("Pickle not found. Please create one first.")
     return
 
-use_pickle("df_1")
+use_pickle("df_1", "data", "pt1", ...)
 # result: df_1 (type: dataframe)
 ```
