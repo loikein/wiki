@@ -86,11 +86,13 @@ $\overbar{\mathbb{R}}$
 
 #### Single line equation
 
-{{< details "With `\label{eq1}`, you can refer to it as [eq1](#eq1); `$\eqref{eq1}$`; `$\ref{eq1}$`" >}}
+{{< details "Using `\label{eq1}` in any expression, and refer to it as [eq1](#eq1); `$\eqref{eq1}$`; `$\ref{eq1}$` later" >}}
 …by typing:
 
 ```markdown
-[eq1](#eq1); $\eqref{eq1}$; $\ref{eq1}$
+[eq1](#eq1)
+$\eqref{eq1}$
+$\ref{eq1}$
 ```
 
 The latter two are valid in LaTeX as well.
@@ -100,34 +102,50 @@ This requires adding macros when importing KaTeX. See [Issue #2003 · KaTeX/KaTe
 There is also [`\htmlId` functionality](https://katex.org/docs/supported.html#html) which is less intuitive to use but do not require adding macros.
 {{< /details >}}
 
-Auto tagged: \(Numbers are continuous during the whole webpage\)
+Auto tag: \(Numbers are continuous during the whole webpage\)
 
-`$$\begin{equation} x = y \label{eq1}\end{equation}$$`
+`$$\begin{equation}
+  x = y \label{eq1}
+\end{equation}
+$$`
 
 ```latex
-\begin{equation} x = y \label{eq1}\end{equation}
+\begin{equation}
+  x = y \label{eq1}
+\end{equation}
 ```
 
-> To avoid overflow in KaTeX, you can also avoid `equation` or `equation*` environments, and manually tag it: \(Numbers are not continuous\)
-> 
-> `$$x = y \label{eq1.1}\tag{1.1}$$`
-> 
-> ```latex
-> x = y \label{eq1.1}\tag{1.1}
-> ```
-{.book-hint .info}
+Manual tag: \(Numbers are not continuous\)
+
+`$$x = y \tag{1.1}$$`
+
+```latex
+x = y \tag{1.1}
+
+% or
+
+\begin{equation*}
+  x = y \tag{1.1}
+\end{equation*}
+```
 
 No tag:
 
 `$$\begin{equation*} x = y \end{equation*}$$`
 
 ```latex
-\begin{equation*} x = y \end{equation*}
+x = y
+
+% or
+
+\begin{equation*}
+  x = y
+\end{equation*}
 ```
 
 #### Multi-line signle equation with `aligned`
 
-Auto tagged:
+Auto tag:
 
 `$$
 \begin{equation}
@@ -135,7 +153,8 @@ Auto tagged:
   x &= y \\
   &= z
 \end{aligned}
-\end{equation}$$`
+\end{equation}
+$$`
 
 ```latex
 \begin{equation}
@@ -146,46 +165,56 @@ Auto tagged:
 \end{equation}
 ```
 
-<!-- ![Aligned single equations with tag](/img/latex_aligned.png) -->
+Manual tag: \(For no tag, remove the `\tag` command.\)
 
-> To avoid overflow in KaTeX, manual tag it:
-> 
-> `$$
-> \begin{aligned}
->   x &= y \\
->   &= z \tag{2.1}
-> \end{aligned}
-> $$`
-> 
-> ```latex
-> \begin{aligned}
->   x &= y \\
->   &= z \tag{2.1}
-> \end{aligned}
-> ```
-{.book-hint .info}
+`$$
+\begin{aligned}
+  x &= y \\
+  &= z \tag{2.1}
+  \end{aligned}
+$$`
+
+```latex
+\begin{aligned}
+  x &= y \\
+  &= z \tag{2.1}
+  \end{aligned}
+```
 
 #### Multiple equations with `Align`
 
-Auto tagged:
+Auto tag:
 
-`$$\begin{align} x &= y \\ 2x &= 2z \end{align}$$`
+`$$
+\begin{align}
+  x &= y \\
+  2x &= 2z
+\end{align}
+$$`
 
 ```latex
-\begin{align} x &= y \\ 2x &= 2z \end{align}
+\begin{align}
+  x &= y \\
+  2x &= 2z
+\end{align}
 ```
 
-> I have yet to find any way to avoid tag overflow for `align` environments for KaTeX.
-{.book-hint .warning}
+No tag: \(For manual tag, add `\tag` command.\)
 
-No tag:
-
-`$$\begin{align*} x &= y \\ 2x &= 2z \end{align*}$$`
+`$$
+\begin{align*}
+  x &= y \\
+  2x &= 2z
+\end{align*}
+$$`
 
 <!-- ![Align multiple equations with no tag](/img/latex_align_star.png) -->
 
 ```latex
-\begin{align*} x &= y \\ 2x &= 2z \end{align*}
+\begin{align*}
+  x &= y \\
+  2x &= 2z
+\end{align*}
 ```
 
 
@@ -217,30 +246,55 @@ E=mc^2 \tag{$*$}
 
 Spaces in equations:
 
-`$$\begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}$$`
+`$$
+\begin{aligned}
+  x &= 12345 \\
+  &\phantom{\ggg} + 67890
+\end{aligned}
+$$`
 
 ```latex
-\begin{aligned} x &= 12345 \\ &\phantom{\ggg} + 67890\end{aligned}
+\begin{aligned}
+  x &= 12345 \\
+  &\phantom{\ggg} + 67890
+\end{aligned}
 ```
 
 Braces with multiple lines:
 
-`$$\underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}$$`
+`$$
+\underbrace{abcdef}_{
+  \begin{subarray}{l}
+    \text{hello}\\
+    \text{world}
+  \end{subarray}
+}
+$$`
 
 ```latex
-\underbrace{abcdef}_{\begin{subarray}{l}\text{hello}\\\text{world}\end{subarray}}
+\underbrace{abcdef}_{
+  \begin{subarray}{l}
+    \text{hello}\\
+    \text{world}
+  \end{subarray}
+}
 ```
 
-Aligned braces: \([Ref](https://tex.stackexchange.com/a/585309)\)
+Horizontally aligned braces: \([Ref](https://tex.stackexchange.com/a/585309)\)
 
-`$$ f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}} + \underbrace{\vphantom{\int_b}2333z}_{\text{More things}} $$`
+`$$
+f(x,z) =
+\underbrace{\int^a_b x\ dx}_{\text{Things}}
++\underbrace{\vphantom{\int_b}2333z}_{\text{More things}}
+$$`
 
 ```latex
-f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}}
- +\underbrace{\vphantom{\int_b}2333z}_{\text{More things}}
+f(x,z) =
+\underbrace{\int^a_b x\ dx}_{\text{Things}}
++\underbrace{\vphantom{\int_b}2333z}_{\text{More things}}
 ```
 
-More aligned braces: \([Ref](https://tex.stackexchange.com/a/46311)\)
+More horizontally aligned braces: \([Ref](https://tex.stackexchange.com/a/46311)\)
 
 `$$
 f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}} 
@@ -249,9 +303,10 @@ f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}}
 $$`
 
 ```latex
-f(x,z) = \underbrace{\int^a_b x\ dx}_{\text{Things}} 
- +\overbrace{\vphantom{\int^a}42xz^2}^{\mathclap{\text{Longer other things}}}
- +\underbrace{\vphantom{\int_b}2333z}_{\mathclap{\text{More longer things}}}
+f(x,z) =
+\underbrace{\int^a_b x\ dx}_{\text{Things}} 
++\overbrace{\vphantom{\int^a}42xz^2}^{\mathclap{\text{Longer other things}}}
++\underbrace{\vphantom{\int_b}2333z}_{\mathclap{\text{More longer things}}}
 ```
 
 
