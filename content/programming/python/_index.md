@@ -21,6 +21,18 @@ dict(islice(my_dict.items(), 0, 5))
 ```
 
 
+## Help
+
+Like R's `?` function.
+
+```python
+help(np.log)
+
+# If it is a method, need something that the method can run from:
+help(df.reset_index)
+```
+
+
 ## List
 
 Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/13301022/10668706)\)

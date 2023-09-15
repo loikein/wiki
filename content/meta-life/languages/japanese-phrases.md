@@ -36,11 +36,22 @@ Refs:
 : 2\. 话很多
 : [コトバンク](https://kotobank.jp/word/%E3%81%BA%E3%82%89%E3%81%BA%E3%82%89-625635); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%BA%E3%82%89%E3%81%BA%E3%82%89/#jn-199732)
 
+もだもだ
+: 烦恼苦闷
+: [コトバンク](https://kotobank.jp/word/%E3%82%82%E3%81%A0%E3%82%82%E3%81%A0-645648); [Weblio辞書](https://www.weblio.jp/content/%E3%82%82%E3%81%A0%E3%82%82%E3%81%A0)
+
 
 ## AっBり
 
+ちゃっかり
+: 精打细算，吝啬
+: [コトバンク](https://kotobank.jp/word/%E3%81%A1%E3%82%83%E3%81%A3%E3%81%8B%E3%82%8A-566823)
 
 ## 其它
+
+{{< ruby 間怠 まだる >}}い / {{< ruby 間怠 まだる >}}っこい / {{< ruby 間怠 まだる >}}っこしい
+: 缓慢，慢条斯理，拐弯抹角
+: [コトバンク](https://kotobank.jp/word/%E9%96%93%E6%80%A0%E3%81%93%E3%81%84-634543); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E9%96%93%E6%80%A0%E3%81%A3%E3%81%93%E3%81%84/#jn-208371)
 
 バチコーン
 : 两件物体（可以是手掌或脑袋等）碰撞发出的声音

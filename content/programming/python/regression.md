@@ -32,10 +32,18 @@ print(results.summary2())
 
 ### Formula
 
+Doc: [Fitting models using R-style formulas - statsmodels 0.14.0](https://www.statsmodels.org/stable/example_formulas.html)
+
 Use a lot of columns of df:
 
 ```python
 formula = "y ~ " + " + ".join(df.columns[1:])
+```
+
+Use log:
+
+```python
+formula = "y ~ " + " + ".join(df.columns[1:-1]) + "+ np.log(last_col)"
 ```
 
 Interaction: \([ref](https://stackoverflow.com/a/35554431)\)

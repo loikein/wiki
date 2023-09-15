@@ -178,6 +178,15 @@ Online manual: [sort(1) - Linux manual page](https://man7.org/linux/man-pages/ma
 - Ascending number order (1-9): `sort -n` (n for numeric-sort)
 - Descending number order (9-1): `sort -nr`
 
+## split
+
+Refs:
+
+- [Split large files into a number of smaller files in Unix](https://kb.iu.edu/d/afar)
+- [linux - How to split CSV files as per number of rows specified? - Stack Overflow](https://stackoverflow.com/questions/20721120/how-to-split-csv-files-as-per-number-of-rows-specified)
+    - [Easily split your CSV files, for free | Split CSV](https://www.splitcsv.com/): Free for files under 4GB. Do not use `Add Quotes (") to Output Columns` option in step 2. TSV files work as well, but the output format would be CSV but with tab separators.
+
+
 ## tac
 
 Online manual: [tac(1) - Linux manual page](https://man7.org/linux/man-pages/man1/tac.1.html)

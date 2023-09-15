@@ -518,7 +518,14 @@ df_new["Score_norm"] = x/np.linalg.norm(x)
 
 ### Reorder columns
 
-Ref: [python - How to change the order of DataFrame columns? - Stack Overflow](https://stackoverflow.com/questions/13148429/how-to-change-the-order-of-dataframe-columns)
+Ref: [python - How to change the order of DataFrame columns? - Stack Overflow](https://stackoverflow.com/a/13148611/10668706)
+
+```python
+# Take the last column to first
+cols = df.columns.tolist()
+cols = cols[-1:] + cols[:-1]
+df = df[cols]
+```
 
 
 ## Index-level operations
@@ -741,6 +748,9 @@ Normal column:
 
 ```python
 df = df.rename(columns={"A": "a", "B": "c"})
+
+# or (no quotation marks)
+df = df.rename(columns=dict(A="a", B="c"))
 ```
 
 Batch rename columns:
