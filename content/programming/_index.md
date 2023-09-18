@@ -23,13 +23,13 @@ Uncomment
 
 Ref: [Shortcut key for commenting out lines of Python code in Spyder - Stack Overflow](https://stackoverflow.com/a/36644714/10668706)
 
-Comment
-: {{< kbd `Ctrl` `1` >}} \(same for uncomment\)
+Toggle comment
+: {{< kbd `Ctrl` `1` >}}
 
 
-### Sublime Text
+### Sublime Text; VS Code
 
-Comment
+Toggle comment
 : {{< kbd `command` `/` >}} \(same for uncomment\)
 
 
@@ -43,6 +43,8 @@ npm  version
 node -v[--version]
 ```
 
+
 ## Readings
 
 - [Peter Norvig](https://www.norvig.com/)
+- Self-published coding books: [Leanpub: Publish Early, Publish Often](https://leanpub.com/)

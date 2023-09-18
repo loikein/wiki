@@ -8,9 +8,12 @@ title: "日语词汇参考"
 Refs:
 
 - [擬声語 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%93%AC%E5%A3%B0%E8%AA%9E)
+    + [擬音語・擬態語　- 日本語を楽しもう！　-　コラム　-　国立国語研究所](https://www2.ninjal.ac.jp/Onomatope/column.html)
+    + [如何记忆日语的拟声词、拟音词和拟态词？ - 知乎](https://www.zhihu.com/question/51014769/answer/541787912)
 - [音喩 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%9F%B3%E5%96%A9)
-- [擬音語・擬態語　- 日本語を楽しもう！　-　コラム　-　国立国語研究所](https://www2.ninjal.ac.jp/Onomatope/column.html)
-- [如何记忆日语的拟声词、拟音词和拟态词？ - 知乎](https://www.zhihu.com/question/51014769/answer/541787912)
+- [KY語](https://ja.wikipedia.org/wiki/KY%E8%AA%9E)
+    + [KY語の検索結果 - 日本語俗語辞書](http://search.zokugo-dict.com/search.cgi?q=KY%B8%EC)
+
 
 <!-- [助詞 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A9%E8%A9%9E) -->
 
@@ -54,6 +57,14 @@ Refs:
 ちゃっかり
 : 精打细算，吝啬
 : [コトバンク](https://kotobank.jp/word/%E3%81%A1%E3%82%83%E3%81%A3%E3%81%8B%E3%82%8A-566823)
+
+## KY語・DAI語
+
+本节按字母顺序排列。
+
+ROM
+: 読み専，只看不发言，用于社交媒体
+
 
 ## 其它
 

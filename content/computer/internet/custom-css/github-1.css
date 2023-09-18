@@ -1,0 +1,45 @@
+body {
+    padding-right: 0 !important; /* Firefox search field bug */
+}
+
+del {
+    color: grey;
+}
+
+.markdown-body img {
+    border: 1px var(--color-border-default) solid;
+}
+
+#symbols-button,
+.convert-to-issue-button,
+.drag-handle {
+    display: none !important;
+    visibility: collapse;
+}
+
+.js-blob-wrapper {
+    overflow-x: unset !important;
+}
+
+.merge-status-list {
+    max-height: unset !important;
+    overflow: auto;
+}
+
+.comment-body {
+    font-size: 16px;
+}
+
+/* sticky side bars */
+
+#partial-discussion-sidebar,
+.h-card {
+    position: sticky !important;
+    top: 54.5px;
+}
+
+.BorderGrid,
+.js-repo-nav {
+    position: sticky !important;
+    top: 0;
+}

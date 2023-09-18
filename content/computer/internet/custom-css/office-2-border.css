@@ -1,0 +1,32 @@
+/* add extra border for row & col in focus */
+
+.ewrch-row-cellsel::before,
+.ewrch-row-cellsel::after,
+.ewr-cell-selection-highlight-cols::before,
+.ewr-cell-selection-highlight-cols::after {
+  content: '';
+  clear: both;
+  background: var(--highlight-color);
+  display: block;
+  position: absolute;
+
+}
+
+.ewrch-row-cellsel::before,
+.ewrch-row-cellsel::after {
+  left: 0;
+  width: 100px;
+  height: var(--cell-border);
+}
+
+.ewr-cell-selection-highlight-cols::before,
+.ewr-cell-selection-highlight-cols::after {
+  top: -19px;
+  width: var(--cell-border);
+  height: 100px;
+}
+
+.ewrch-row-cellsel::before{ top: calc(-1 * var(--cell-border)); }
+.ewrch-row-cellsel::after{ top: 19px; }
+.ewr-cell-selection-highlight-cols::before { left: calc(-1 * var(--cell-border)); }
+.ewr-cell-selection-highlight-cols::after { left: 49px; }

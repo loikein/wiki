@@ -67,6 +67,10 @@ ad hoc
 : _adj._ 临时，特设，权宜之计
 : [Wiktionary](https://en.wiktionary.org/wiki/ad_hoc#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hoc)
 
+confer / cf.
+: _v._ 比较
+: [Wiktionary](https://en.wiktionary.org/wiki/cf.#English); [Wikipedia](https://en.wikipedia.org/wiki/Cf.)
+
 nota bene / N.B.
 : _v._ 需要注意的是，用于写作中提到某处细节时
 : [Wiktionary](https://en.wiktionary.org/wiki/nota_bene#English); [Wikipedia](https://en.wikipedia.org/wiki/Nota_bene)

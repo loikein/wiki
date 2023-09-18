@@ -13,6 +13,30 @@ description: "Real problems and real solutions."
 
 ## Import Data
 
+### Dict/JSON
+
+Doc: [pandas.DataFrame.from_dict — pandas 1.3.5 documentation](https://pandas.pydata.org/pandas-docs/version/1.3/reference/api/pandas.DataFrame.from_dict.html)
+
+For dict like `{"id1": data1, "id2": data2, ...}`:
+
+```python
+df = pd.DataFrame.from_dict(
+    data_dict,
+    orient='index',
+    columns=["data"],   # otherwise very troublesome to rename later
+)
+df.index = df.index.set_names(["ID"])
+```
+
+For dict like: `{"row1": [...], "row2": [...], ...}`, and JSON files:
+
+```python
+df = pd.DataFrame.from_dict(
+    data_json
+).transpose()
+```
+
+
 ### Excel
 
 Doc: [pandas.read_excel — pandas 2.0.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)
@@ -727,11 +751,33 @@ Done!
 
 Ref: [python - How to iterate over rows in a DataFrame in Pandas - Stack Overflow](https://stackoverflow.com/a/16476974/10668706)
 
+Docs:
+
+- [pandas.DataFrame.iterrows — pandas 2.1.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html)
+- [pandas.Series.items — pandas 2.1.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.Series.items.html)
+
+> `row["new_col"]` does not work within the loops.
+> 
+> Doc:
+> 
+> > You should **never modify** something you are iterating over. This is not guaranteed to work in all cases. Depending on the data types, the iterator returns a copy and not a view, and writing to it will have no effect.
+{.book-hint .danger}
+
 ```python
-for ind, row in df.iterrows():
+for ind, row in qof_perc.iterrows():
+    print("\033[1m" + "ind:" + "\033[0m" + "\n")
     print(ind)              # A0001
-    print(row)              # np.series
-    print(row["column1"])   # value of df.loc["A0001"]["column1"]
+    
+    print("\n" + "\033[1m" + "row:" + "\033[0m" + "\n")
+    print(row)              # pd.series
+    
+    # print(row["column1"])   # value of df.loc["A0001"]["column1"]
+    
+    print("\n" + "\033[1m" + "cells:" + "\033[0m" + "\n")
+    for cell in row.items():
+        print(cell[0])      # column name
+        print(cell[1])      # cell value
+
     break
 ```
 

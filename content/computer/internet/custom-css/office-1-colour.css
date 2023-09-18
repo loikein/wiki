@@ -1,0 +1,45 @@
+/* color tweaks for cell in focus */
+
+:root {
+  --highlight-color: purple; /* original: #217346 */
+  --cell-border: 4px;
+  --row-col-border: 2px;
+}
+
+.ewrch-row-cellsel, .ewrch-col-cellsel, .ewrch-row-sel, .ewrch-col-sel {
+  color: var(--highlight-color);
+}
+
+.ewr-selection-fillhandle {
+  width: calc(2 * var(--cell-border));
+  height: calc(2 * var(--cell-border));
+  bottom: calc(-2 * var(--cell-border) + 2px);
+  background-color: var(--highlight-color);
+}
+
+.ewr-grdcontarea-ltr .ewr-selection-fillhandle {
+  right: -8px;
+}
+
+.ewr-cell-selection-highlight-all,
+.ewr-discontinuous-selection-active-cell,
+.ewr-cell-presence-highlight-all,
+.ewr-cell-presence-highlight-edit,
+.ewr-cell-sharing-highlight {
+  border: var(--cell-border) solid var(--highlight-color);
+}
+
+.ewr-cell-selection-highlight-rows,
+.ewr-grdcontarea-ltr .ewr-cell-selection-highlight-cols,
+.ewr-grdcontarea-rtl .ewr-cell-selection-highlight-rows {
+  border: var(--row-col-border) solid var(--highlight-color) !important;
+}
+
+.ewr-grdcontarea-ltr .ewr-marquee-selection-highlight,
+.ewr-grdcontarea-ltr .ewr-rangepicker-selection-highlight-dashed,
+.ewr-grdcontarea-ltr .ewr-cell-selection-highlight-all,
+.ewr-grdcontarea-ltr .ewr-selection-filldragborder,
+.ewr-grdcontarea-ltr .ewr-cell-presence-highlight-all,
+.ewr-grdcontarea-ltr .ewr-cell-presence-highlight-edit {
+  margin: calc(-1 * var(--cell-border)) 0 0 calc(-1 * var(--cell-border));
+}

@@ -12,6 +12,16 @@ title: "Python"
 
 ## Dictionary
 
+### Append
+
+```python
+new_dict = {}
+new_dict.update({"name": number})
+```
+
+
+### Head
+
 Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)
 
 ```python
@@ -19,6 +29,7 @@ from itertools import islice
 
 dict(islice(my_dict.items(), 0, 5))
 ```
+
 
 
 ## Help
@@ -176,6 +187,16 @@ if os.path.isfile(pickle_path):
         df = pickle.load(f)
 else:
     print("Pickle not found. Please create one first.")
+```
+
+## Print
+
+### Bold
+
+Ref: [How can I print bold text in Python? - Stack Overflow](https://stackoverflow.com/a/11784589/10668706)
+
+```python
+print("\033[1m" + "hello world" + "\033[0m")
 ```
 
 

@@ -6,11 +6,15 @@ title: "Matplotlib/Seaborn"
 > `seaborn` depends on `matplotlib`.
 {.book-hint .info}
 
-Refs:
+## \(Maybe\) Useful resources
 
 - [Examples — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/gallery/index)
 - [Example gallery — seaborn 0.12.2 documentation](https://seaborn.pydata.org/examples/index.html)
 - [Python Graph Gallery](https://python-graph-gallery.com/)
+- [Interactive Applications Using Matplotlib | Packt](https://www.packtpub.com/product/interactive-applications-using-matplotlib/9781783988846)
+    + [examples / Interactive Applications Using Matplotlib · GitLab](https://resources.oreilly.com/examples/9781783988846)
+- ["Artist" in Matplotlib - something I wanted to know before spending tremendous hours on googling how-tos. - DEV Community](https://dev.to/skotaro/artist-in-matplotlib---something-i-wanted-to-know-before-spending-tremendous-hours-on-googling-how-tos--31oo)
+
 
 
 ## General
@@ -432,7 +436,7 @@ sns.violinplot(
 plt.setp(ax4.collections, alpha=.5)
 ```
 
-### Zorder of plot layers; Boxplot
+### Boxplot; Controlling zorder of plot layers
 
 Slightly modified from: [python - How to display boxplot in front of violinplot in seaborn - seaborn zorder? - Stack Overflow](https://stackoverflow.com/a/68614885)
 
@@ -454,10 +458,12 @@ ax = sns.violinplot(
 sns.boxplot(
     ax=ax,
     data=df, x='group', y='value',
-    saturation=0.5, width=0.4,
+    saturation=0.5,                 # Colour of box face (filling)
+    width=0.4,                      # Scale Width of box
     palette='rocket',
     # flierprops={"marker": "o"},   # Set outliers' markers
     showfliers = False,             # Hide outliers
+    linewidth=2,
     boxprops={"facecolor": "none", "zorder": 2},  # Make the boxes completely transparent
 )
 
