@@ -1,0 +1,9 @@
+.workspace-split.mod-right-split .workspace-tabs {
+    --tab-container-background: var(--bg2) !important;
+    --background-secondary: var(--bg2) !important;
+    --titlebar-background-focused: var(--bg2) !important;
+}
+
+.sidebar-toggle-button.mod-right {
+    background-color: var(--bg2) !important;
+}

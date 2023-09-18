@@ -1,0 +1,20 @@
+body.plugin-cm-show-whitespace [class*=cm-trailing-space]::after,
+body.plugin-cm-show-whitespace [class*=cm-trailing-space]::before {
+  /* sometimes one of these doesn't work depending on the theme: */
+  /* color: var(--text-faint); */
+  color: var(--text-muted);
+}
+
+.markdown-source-view br {
+  content: "&nbsp;";
+  display: block !important;
+}
+
+.markdown-source-view br::after {
+  content: var(--newlineChar);
+  white-space: pre;
+  pointer-events: none;
+  color: var(--text-muted);
+  font-weight: normal;
+  opacity: 0.5;
+}

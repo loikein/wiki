@@ -1,0 +1,26 @@
+/* disable animation for cm-cursor */
+.ͼ1.cm-focused>.cm-scroller>.cm-cursorLayer {
+  animation: none !important;
+}
+
+/* colour and width for cm-cursor */
+/* dropCursor does not work for some reason */
+/* mimics fat-cursor */
+/* better than border-left method for more consistent sizes */
+/* colour: iB theme, with default theme as fallback  */
+.ͼ1 .cm-cursor,
+.ͼ1 .cm-dropCursor {
+  visibility: visible !important;
+  display: block;
+  position: absolute;
+  border: none;
+  white-space: pre;
+  outline: 1px solid var(--indicator-color, var(--interactive-accent));
+  color: transparent !important;
+  margin-left: 0.5px;
+}
+
+/* colour for cm-dropCursor */
+.markdown-source-view.mod-cm6 .cm-content {
+  caret-color: var(--indicator-color, var(--interactive-accent));
+}

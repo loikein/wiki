@@ -1,0 +1,4 @@
+.mod-left-split:not(:hover),
+.mod-right-split:not(:hover) {
+  opacity: 0.3;
+}

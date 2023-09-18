@@ -1,0 +1,23 @@
+* {
+  /* iB: hsl(195, ..., ...) */
+  --indicator-color: #4480EF;
+  --my-accent-color: #D4E2FC;
+  --my-accent-color-render: #D4E2FC;
+  /* hsl(219, 84%, 85%) #B9CFF9 */
+  /* hsl(219, 87%, 91%) #D4E2FC */
+}
+
+/* recover setting font size */
+.markdown-source-view {
+  font-size: unset;
+}
+
+body:not(.is-grabbing) .nav-file-title.is-active:hover,
+body:not(.is-grabbing) .nav-folder-title.is-active:hover,
+.nav-file-title.is-active, .nav-folder-title.is-active {
+  color: var(--text-on-accent);
+}
+
+.cm-s-obsidian span.cm-hmd-internal-link:hover {
+  color: var(--indicator-color, var(--interactive-accent));
+}

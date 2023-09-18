@@ -1,0 +1,43 @@
+/* **** all entries **** */
+.n-tree .n-tree-node {
+  --n-node-text-color: var(--nav-item-color);
+  transition: none;
+  font-size: var(--nav-item-size);
+  border-radius: var(--radius-s);
+}
+
+.quiet-outline .n-tree-node .n-tree-node-content {
+  margin-bottom: var(--size-2-1);
+  padding: var(--nav-item-padding);
+  padding-left: 0;
+  line-height: var(--line-height-tight);
+}
+
+/* **** cursor-focused entries **** */
+.n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled).n-tree-node--selected {
+  /* accent highlight */
+  background-color: var(--interactive-accent) !important;
+  /* muted highlight */
+  /* background-color: var(--nav-item-background-hover) !important; */
+}
+.n-tree .n-tree-node--selected .n-tree-node-content .n-tree-node-content__text {
+  color: var(--text-on-accent) !important;
+  font-weight: normal !important;
+}
+
+/* **** scrolled-to entries **** */
+.n-tree .n-tree-node.located {
+  background-color: var(--nav-item-background-hover) !important;
+
+  font-weight: normal !important;
+}
+
+/* **** hovered entries **** */
+.quiet-outline .n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled):hover {
+  background-color: var(--nav-item-background-hover);
+}
+
+/* **** expand switcher **** */
+.n-tree .n-tree-node-switcher {
+  height: unset;
+}

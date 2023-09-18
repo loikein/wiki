@@ -18,7 +18,6 @@ Do not use iCloud WITH git. Pick one.
 Set a different accent colour for each vault for a more obvious visual reminder.
 
 
-
 ## Plugins \(for peaceful writing\)
 
 ### Show Whitespace
@@ -33,26 +32,7 @@ Source: [deathau/cm-show-whitespace-obsidian/styles.scss](https://github.com/dea
 
 Because this plugin has been unmaintained for a while, a patch is needed to make everything look consistent. Add a CSS file with the following contents: \(the `<br>` style came from [here](https://stackoverflow.com/a/64912130)\)
 
-```css
-body.plugin-cm-show-whitespace [class*=cm-trailing-space]::after,
-body.plugin-cm-show-whitespace [class*=cm-trailing-space]::before {
-  /* sometimes one of these doesn't work depending on the theme: */
-  /* color: var(--text-faint); */
-  color: var(--text-muted);
-}
-.markdown-source-view br {
-  content: "&nbsp;";
-  display: block;
-}
-.markdown-source-view br::after {
-  content: var(--newlineChar);
-  white-space: pre;
-  pointer-events: none;
-  color: var(--text-muted);
-  font-weight: normal;
-  opacity: 0.5;
-}
-```
+{{< highlight-file file="plugin-whitespace.css" lang="css" >}}
 
 #### Control Characters
 
@@ -87,51 +67,7 @@ Turning on dragging titles to rearrange document for a pseudo block editing expe
 
 Some styles I wrote for more obvious current entry highlighting:
 
-```css
-/* **** all entries **** */
-.n-tree .n-tree-node {
-  --n-node-text-color: var(--nav-item-color);
-  transition: none;
-  font-size: var(--nav-item-size);
-  border-radius: var(--radius-s);
-}
-
-.quiet-outline .n-tree-node .n-tree-node-content {
-  margin-bottom: var(--size-2-1);
-  padding: var(--nav-item-padding);
-  padding-left: 0;
-  line-height: var(--line-height-tight);
-}
-
-/* **** cursor-focused entries **** */
-.n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled).n-tree-node--selected {
-  /* accent highlight */
-  background-color: var(--interactive-accent) !important;
-  /* muted highlight */
-  /* background-color: var(--nav-item-background-hover) !important; */
-}
-.n-tree .n-tree-node--selected .n-tree-node-content .n-tree-node-content__text {
-  color: var(--text-on-accent) !important;
-  font-weight: normal !important;
-}
-
-/* **** scrolled-to entries **** */
-.n-tree .n-tree-node.located {
-  background-color: var(--nav-item-background-hover) !important;
-
-  font-weight: normal !important;
-}
-
-/* **** hovered entries **** */
-.quiet-outline .n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled):hover {
-  background-color: var(--nav-item-background-hover);
-}
-
-/* **** expand switcher **** */
-.n-tree .n-tree-node-switcher {
-  height: unset;
-}
-```
+{{< highlight-file file="plugin-quiet-outline.css" lang="css" >}}
 
 ### Stille
 
@@ -168,21 +104,8 @@ Less buggy than iA Writer, but does not respect the accent colour setting.
 
 Some tiny fixes to this theme that I wrote:
 
-```css
-.markdown-source-view {
-  font-size: unset;
-}
+{{< highlight-file file="theme-ib.css" lang="css" >}}
 
-body:not(.is-grabbing) .nav-file-title.is-active:hover,
-body:not(.is-grabbing) .nav-folder-title.is-active:hover,
-.nav-file-title.is-active, .nav-folder-title.is-active {
-  color: var(--text-on-accent);
-}
-
-.cm-s-obsidian span.cm-hmd-internal-link:hover {
-  color: var(--indicator-color, var(--interactive-accent));
-}
-```
 
 ### Minimal
 
@@ -192,17 +115,7 @@ Changed a lot of CSS classes \(maybe for good but very confusing when writing sn
 
 Some styles I wrote to make the right sidebar to have the same background colour as the left sidebar:
 
-```css
-.workspace-split.mod-right-split .workspace-tabs {
-    --tab-container-background: var(--bg2) !important;
-    --background-secondary: var(--bg2) !important;
-    --titlebar-background-focused: var(--bg2) !important;
-}
-
-.sidebar-toggle-button.mod-right {
-    background-color: var(--bg2) !important;
-}
-```
+{{< highlight-file file="theme-minimal.css" lang="css" >}}
 
 
 ## General CSS nippets
@@ -215,38 +128,16 @@ Some styles I wrote to make the right sidebar to have the same background colour
 
 Nothing really worked. I also tried [Ninja cursor](https://github.com/vrtmrz/ninja-cursor), no luck with Obsidian 1.3.7.
 
+The characters are not typos!
+
 {{< details "Reference: Core styles of the default cursors, obtained from inspection" >}}
-The characters are not typos.
 {{< highlight-file file="default-cursor.css" lang="css" >}}
 {{< /details >}}
 
 There are two types of cursors, `.cm-cursor` \(end-border of selection\) and `.cm-dropCursor` \(caret when user is typing\). The following style only works on the former, using accent colour from iB theme, with default accent as fallback.
 
-```css
-/* disable animation for cm-cursor */
-.ͼ1.cm-focused>.cm-scroller>.cm-cursorLayer {
-  animation: none !important;
-}
+{{< highlight-file file="-cursor.css" lang="css" >}}
 
-/* colour and width for cm-cursor */
-/* better than border-left method for more consistent sizes */
-/* adding .ͼ1 .cm-dropCursor here makes no difference */
-.ͼ1 .cm-cursor {
-  visibility: visible !important;
-  display: block;
-  position: absolute;
-  border: none;
-  white-space: pre;
-  outline: 1px solid var(--indicator-color, var(--interactive-accent));
-  color: transparent !important;
-  margin-left: 0.5px;
-}
-
-/* colour for cm-dropCursor */
-.markdown-source-view.mod-cm6 .cm-content {
-  caret-color: var(--indicator-color, var(--interactive-accent));
-}
-```
 
 ### iA Writer CSS for default theme
 
@@ -256,12 +147,8 @@ First 29 lines of [mrowa44/obsidian-ia-writer/theme.css](https://github.com/mrow
 
 ### Fade out sidebars when not in use
 
-```css
-.mod-left-split:not(:hover),
-.mod-right-split:not(:hover) {
-  opacity: 0.3;
-}
-```
+{{< highlight-file file="-sidebar.css" lang="css" >}}
+
 
 ## Things to keep an eye on
 
