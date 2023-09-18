@@ -120,3 +120,17 @@ Activity monitor in the shell.
 Repository: [hishamhm/htop: htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'.](https://github.com/hishamhm/htop)  
 Online manual: [htop(1) - Linux manual page](https://www.man7.org/linux/man-pages/man1/htop.1.html)
 
+
+## tree
+
+Homepage: [The Tree Command for Linux Homepage](https://mama.indstate.edu/users/ice/tree/)
+
+Online manual: [Manpage of TREE](https://mama.indstate.edu/users/ice/tree/tree.1.html)
+
+List files and folders in current directory.
+
+```sh
+tree -a -L 1 <path>
+# -a: all files
+# -L 1: only first level
+```

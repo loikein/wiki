@@ -131,6 +131,8 @@ CommonMark/Goldmark flavour: \(Doc: [#Attributes in yuin/goldmark/README](https:
 > Danger **(!)** hint
 {.book-hint .danger}
 
+Usage:
+
 ```markdown
 > Info hint
 {.book-hint .info}
@@ -153,6 +155,7 @@ GitHub flavour: \(Doc: [[Markdown] An option to highlight a "Note" and "Warning"
 > [!WARNING]  
 > Critical content demanding immediate user attention due to potential risks.
 
+Usage:
 
 ```markdown
 > [!NOTE]  
@@ -182,6 +185,8 @@ Hello...
 ...world.
 {{< /columns >}}
 
+Usage:
+
 ```html
 {{</* columns */>}}
 Hello...
@@ -201,6 +206,8 @@ Hello...
 {{< details "Summary" open >}}
 Who am I? Where am I?
 {{< /details >}}
+
+Usage:
 
 ```html
 {{</* details "Summary" open */>}}
@@ -243,6 +250,8 @@ Danger **(!)** hint
 {{< tab "Windows" >}} Not ok {{< /tab >}}
 {{< /tabs >}}
 
+Usage:
+
 ```html
 {{</* tabs "test-tabs" */>}}
 {{</* tab "macOS" */>}} Ok {{</* /tab */>}}
@@ -256,23 +265,55 @@ TODO: Use [gohugoio/hugo/docs/layouts/shortcodes/code-toggle.html](https://githu
 
 ## Custom Shortcodes (by me)
 
+### highlight-file
+
+{{< highlight-file file="test.py" lang="python" >}}
+
+Usage:
+
+```html
+{{</* highlight-file file="test.py" lang="python" */>}}
+```
+
+Folder structure: \(via [Hugo Page bundle](https://gohugo.io/content-management/page-bundles/)\)
+
+> Non-page resources work for both branch bundles and leaf bundles. Therefore, so long as the highlighted file is not of [content formats](https://gohugo.io/content-management/formats/), it can be a resource for any page.
+{.book-hint .info}
+
+```text
+content/test-page
+├── _index.md     <-- branch bundle index file
+└── test.py       <-- resource for section page: test-page
+
+content/computer/software-usage/obsidian
+├── index.md      <-- leaf bundle index file
+└── theme-ib.css  <-- resource for regular page: obsidian
+```
+
 ### kbd
 
 {{< kbd I hate typing >}}　
 
+Usage:
+
 ```html
 {{</* kbd I hate typing */>}}
+
+<!-- if key contains symbols, use literal -->
+{{</* kbd `I` `hate` `typing` */>}}
 ```
 
 ### GitHub Gist
 
-Native mode: \(No JS, with optional `lineNos` and `hlLines` params that works exactly like `highlight` shortcode.\)
+Native mode: \(No JS, with optional `lineNos` and `hlLines` params that work exactly like in the `highlight` shortcode.\)
 
 {{< gist
 user="loikein"
 gist="27ef6913386b206d1b3c18b8e93c5768"
 file="hello-world.md"
 lang="markdown" >}}
+
+Usage:
 
 ```html
 {{</* gist
@@ -293,6 +334,8 @@ file="hello-world.md"
 syntax="markdown"
 embed="true" >}}
 
+Usage:
+
 ```html
 {{</* gist
 user="loikein"
@@ -300,4 +343,14 @@ gist="27ef6913386b206d1b3c18b8e93c5768"
 file="hello-world.md"
 syntax="markdown"
 embed="true" */>}}
+```
+
+### ruby
+
+{{< ruby "你好世界" "hello world" >}}
+
+Usage:
+
+```html
+{{</* ruby "你好世界" "hello world" */>}}
 ```
