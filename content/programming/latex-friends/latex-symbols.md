@@ -3,11 +3,13 @@ weight: 300
 title: "LaTeX Symbols"
 ---
 
-Refs:
+## \(Maybe\) Useful resources
 
 - [Detexify LaTeX handwritten symbol recognition](https://detexify.kirelabs.org/classify.html)
 - [The Comprehensive LaTeX Symbol List](https://ctan.org/pkg/comprehensive)
 - [Special LaTeX characters | TeXblog](https://texblog.net/latex-archive/uncategorized/symbols/)
+- [Some thoughts on lowering the learning curve for using TeX (part I) | Random Determinism](https://randomdeterminism.wordpress.com/2011/09/04/some-thoughts-on-lowering-the-learning-curve-for-using-tex-part-i/)
+
 
 ## Symbols outside math mode
 
@@ -16,6 +18,7 @@ Refs:
 | Vertical bar | `$\text{\textbar}$` | `\textbar` | Needs a space after it `\textbar\,` |
 | Percent sign | `$\%$` | `\%` |  |
 | Hash sign    | `$\#$` | `\#` |  |
+| Underscore   | `$\_$` | `\_` or `\textunderscore` |  |
 
 ## Logic
 

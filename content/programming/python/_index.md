@@ -8,6 +8,7 @@ title: "Python"
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
 - [nkmk/python-snippets](https://github.com/nkmk/python-snippets)
 - [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)
+- [Python Tutorials – Data to Fish](https://datatofish.com/python-tutorials/)
 
 
 ## Dictionary
@@ -19,7 +20,6 @@ new_dict = {}
 new_dict.update({"name": number})
 ```
 
-
 ### Head
 
 Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)
@@ -29,7 +29,6 @@ from itertools import islice
 
 dict(islice(my_dict.items(), 0, 5))
 ```
-
 
 
 ## Help
@@ -85,6 +84,7 @@ end = time.time()
 elapsed = end - start
 print(elapsed)
 ```
+
 
 ## CSV
 
@@ -150,6 +150,7 @@ for i in range(1, split+1):
         json_all.update(json_i)
 ```
 
+
 ## Objects
 
 List all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
@@ -171,6 +172,8 @@ for method in dir(object_a):
 
 ## Pickle
 
+See [Writing functions #Dark magic](/programming/python/writing-functions/#dark-magic) for the wrapper function version.
+
 ```python
 import os
 import pickle
@@ -188,6 +191,7 @@ if os.path.isfile(pickle_path):
 else:
     print("Pickle not found. Please create one first.")
 ```
+
 
 ## Print
 
@@ -207,7 +211,6 @@ print("\033[1m" + "hello world" + "\033[0m")
 Ref: [python - Printing Lists as Tabular Data - Stack Overflow](https://stackoverflow.com/a/26937531/10668706)
 
 TBA.
-
 
 ### JSON
 

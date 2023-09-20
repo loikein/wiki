@@ -3,7 +3,9 @@ weight: 100
 title: "LaTeX Document"
 ---
 
-## Debugging (in Shell)
+## Debugging
+
+### In system shell
 
 Find out the current version of LaTeX: \([credit](https://superuser.com/a/492743)\)
 
@@ -17,11 +19,9 @@ When `\xdef\@fontenc@load@list{\@fontenc@load@list undefined control sequence` h
 fmtutil-sys --all
 ```
 
-## Build & file structures
-
 ### Pass options to already loaded packages
 
-When `! LaTeX Error: Option clash for package xcolor` \([credit](https://tex.stackexchange.com/a/99051)\)
+When `! LaTeX Error: Option clash for package ...` \([credit](https://tex.stackexchange.com/a/99051)\)
 
 ```latex
 \PassOptionsToPackage{dvipsnames}{xcolor}
@@ -30,38 +30,43 @@ When `! LaTeX Error: Option clash for package xcolor` \([credit](https://tex.sta
 \documentclass{...}
 ```
 
+
+## Build & file structures
+
 ### Compile two versions at one pass
 
 [pdftex - 2 PDF Outputs at once with 2 different styles - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/360192/2-pdf-outputs-at-once-with-2-different-styles)
 
 Or: Arara (?)
 
-### Files control/subfiles
+### File control/subfiles
+
+Also see: [Management in a large project - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Management_in_a_large_project)
+
+This is an extensive example with both custom class, separate preamble file and bibstyle. There is no need to use everything.
 
 ```text
 .
 ├── main.tex
+├── myclass.cls
+├── mypreamble.tex
 ├── slides.tex
 ├── ref.bib
-├── styles
-│   ├── aernobold.bst
-│   └── aernobold.sty
 ├── chapters
 │   ├── intro.tex
 │   ├── sections.tex
 │   ├── model.tex
 │   └── appendix.tex
-└── slides
-    ├── intro.tex
-    ├── sections.tex
-    ├── model.tex
-    └── appendix.tex
+└── styles
+    ├── aernobold.bst
+    └── aernobold.sty
 ```
 
-For example, in `main.tex`:
+In `main.tex`:
 
 ```latex
-\bibliographystyle{styles/aernobold}
+\documentclass{myclass}
+\input{mypreamble}
 
 \begin{document}
   \include{chapters/intro}
@@ -75,9 +80,15 @@ For example, in `main.tex`:
 \end{document}
 ```
 
-In `chapters/intro.tex` \(first line of file\):
+In `mypreamble.tex`:
 
-```tex
+```latex
+\bibliographystyle{styles/aernobold}
+```
+
+In `chapters/**.tex` \(first line of file\):
+
+```latex
 %!TEX root = ../main.tex
 ```
 
@@ -103,6 +114,7 @@ In `chapters/intro.tex` \(first line of file\):
 \endgroup
 ```
 
+
 ## Citation in section title
 
 Ref: [tableofcontents - Latex: Citations in section headings put into table of contents first - Stack Overflow](https://stackoverflow.com/a/954224/10668706)
@@ -110,6 +122,7 @@ Ref: [tableofcontents - Latex: Citations in section headings put into table of c
 ```latex
 \section[Section title for running heading]{Section title with citation \cite{key}}
 ```
+
 
 ## Cross-referencing
 
@@ -145,7 +158,6 @@ Manually add bookmarks: \([ref](https://tex.stackexchange.com/a/35430)\)
 Ref: [Cross-reference packages: which to use, which conflict? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/36312)
 
 TL;DR: use `cleveref`.
-
 
 ### Links
 
@@ -253,6 +265,53 @@ With package ulem:
 ```
 
 
+## Lists
+
+### Unordered
+
+```latex
+\begin{itemize}
+  \item ...
+  \item ...
+  \item ...
+\end{itemize}
+```
+
+### Ordered with numbers
+
+```latex
+\begin{enumerate}
+  \item ...
+  \item ...
+  \item ...
+\end{enumerate}
+```
+
+### Ordered with alphabet
+
+```latex
+\usepackage[shortlabels]{enumitem}
+
+\begin{enumerate}[label=\alph*)] % \Alph* for upper case
+  \item ...
+  \item ...
+  \item ...
+\end{enumerate}
+```
+
+### Quick pseudo list
+
+Ref: [spacing - How can I force a \hspace at the beginning of a line? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/37349/206709)
+
+```latex
+\hspace*{0.5ex}\hspace{3ex}a) ...
+
+\hspace*{0.5ex}\hspace{3ex}b) ...
+
+\hspace*{0.5ex}\hspace{3ex}c) ...
+```
+
+
 ## Maths
 
 ### Too much space around display math
@@ -287,6 +346,7 @@ Ref: [Restart page numbering for memoir appendix - TeX - LaTeX Stack Exchange](h
 \end{document}
 ```
 
+
 ## Page margin
 
 ### Change margin for a few pages
@@ -305,6 +365,7 @@ Ref: [Latex - Change margins of only a few pages - Stack Overflow](https://stack
 
 \end{document}
 ```
+
 
 ## Plots/Images
 
@@ -404,6 +465,7 @@ Make LaTeX more willing to break line \([Ref](https://tex.stackexchange.com/a/12
 \newcommand{\hyphen}{-\penalty\z@\hskip\z@skip }
 \makeatother
 ```
+
 
 ## Packages
 

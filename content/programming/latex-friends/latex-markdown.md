@@ -18,10 +18,15 @@ lualatex -synctex=1 -interaction=nonstopmode
 
 ## Quick start template
 
+> `tightLists=false` is necessary immediately at `\usepackage` to prevent clashing with `enumitem` package. See [Witiko/markdown Issue #84](https://github.com/Witiko/markdown/issues/84#issuecomment-872450573) for more details.
+> 
+> Also, cannot use `fancyLists` because it also loads the `paralist` package per [Witiko/markdown Pull Request #241](https://github.com/Witiko/markdown/pull/241).
+{.book-hint .info}
+
 ```latex
 \documentclass{article}
 
-\usepackage{markdown}
+\usepackage[tightLists=false]{markdown}
 \markdownSetup{
   footnotes = true,
   inlineFootnotes = true,
@@ -63,7 +68,9 @@ Ref: [hyperref - How to put number of chapter and section in the bookmarks of th
 
 Ref: [以 Markdown 撰写文稿，以 LaTeX 排版 | 始终](https://liam.page/2020/03/30/writing-manuscript-in-Markdown-and-typesetting-with-LaTeX/index.html#%E8%B6%85%E9%93%BE%E6%8E%A5%E5%92%8C%E8%84%9A%E6%B3%A8)
 
-> This setup will bug all relative references, see [Witiko/markdown Discussion #273](https://github.com/Witiko/markdown/discussions/273). \(I have had no success with the `\renewcommand` solution the author suggested, even with `\makeatletter`\).
+> For more details, see [Witiko/markdown Discussion #273](https://github.com/Witiko/markdown/discussions/273).
+> 
+> Caution: this setup will bug all relative references within the Markdown environment. I have had no success with the `\renewcommand` solution the author suggested, even with `\makeatletter`.
 {.book-hint .warning}
 
 ```latex

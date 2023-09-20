@@ -21,6 +21,8 @@ alt="LaTeX table with line breaks in cells"
 >}}
 
 ```latex {hl_lines="8-10"}
+\usepackage{makecell}
+
 \begin{table}\centering
   \caption{Good table with line breaks}\label{tab:line-break}
   
@@ -64,9 +66,9 @@ alt="LaTeX table with a multi-row cell"
     {} \\[-1.8ex]\hline
     \hline \\[-1.8ex]
     \multirow{4}{*}{Head Col 1} & Head Col 2 & Head Col 3 \\
-     & Data Col 2 & Data Col 3 \\
-     & Data Col 2 & Data Col 3 \\
-     & Data Col 2 & Data Col 3 \\
+                                & Data Col 2 & Data Col 3 \\
+                                & Data Col 2 & Data Col 3 \\
+                                & Data Col 2 & Data Col 3 \\
     \hline
     \hline \\[-1.8ex]
   \end{tabular}

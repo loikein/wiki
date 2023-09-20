@@ -218,24 +218,6 @@ First [check the rows contain same data](/programming/python/pandas/#list-rows-w
 
 ## Observe things
 
-### Calculate mode by any level of MultiIndex
-
-Ref: [python - GroupBy pandas DataFrame and select most common value - Stack Overflow](https://stackoverflow.com/questions/15222754/groupby-pandas-dataframe-and-select-most-common-value)
-
-> So far I haven't found any way to get this mode df [merge/join/concat/etc](https://pandas.pydata.org/docs/user_guide/merging.html) with the original df, except first pivot the original df.
-{.book-hint .warning}
-
-> `mode` could return a list of values. Make sure to check the type of your modes before proceeding to other tasks.
-{.book-hint .warning}
-
-```python
-# mode of each ID
-df.groupby(["ID"]).agg(lambda x: x.mode())
-
-# mode of each ID x each date
-df.groupby(["ID","Date"]).agg(lambda x: x.mode())
-```
-
 ### Calculate bivariate correlation coefficients and p-values matrix
 
 Ref: [python - pandas columns correlation with statistical significance - Stack Overflow](https://stackoverflow.com/a/55166951/10668706)
@@ -254,6 +236,33 @@ p_val = df.corr(method=lambda x, y: pearsonr(x, y)[1]) - np.eye(len(df.columns))
 # p_val = p_val.round(decimals=4)
 ```
 
+### Calculate mode by any level of MultiIndex
+
+Ref: [python - GroupBy pandas DataFrame and select most common value - Stack Overflow](https://stackoverflow.com/questions/15222754/groupby-pandas-dataframe-and-select-most-common-value)
+
+> So far I haven't found any way to get this mode df [merge/join/concat/etc](https://pandas.pydata.org/docs/user_guide/merging.html) with the original df, except first pivot the original df.
+{.book-hint .warning}
+
+> `mode` could return a list of values. Make sure to check the type of your modes before proceeding to other tasks.
+{.book-hint .warning}
+
+```python
+# mode of each ID
+df.groupby(["ID"]).agg(lambda x: x.mode())
+
+# mode of each ID x each date
+df.groupby(["ID","Date"]).agg(lambda x: x.mode())
+```
+
+### Calculate sum of all columns or rows
+
+```python
+# sum of all rows, by column
+df.sum(axis=0)
+
+# sum of all columns, by row
+df.sum(axis=1)
+```
 
 ### Count length of levels of MultiIndex
 

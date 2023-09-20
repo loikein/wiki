@@ -12,6 +12,8 @@ title: "LaTeX"
   <span class="katex-version rule">KaTeX stylesheet version: </span>
 </span>
 
-`$$hello world$$`
+## \(Maybe\) Useful resources
 
-[Supported Functions · KaTeX](https://katex.org/docs/supported.html)
+- [Supported Functions · KaTeX](https://katex.org/docs/supported.html)
+- [The TeX FAQ](https://texfaq.org/)
+- [LaTeX-Tutorial.com](https://latex-tutorial.com/)

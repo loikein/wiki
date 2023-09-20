@@ -2,6 +2,11 @@
 weight: 750
 title: "Regression"
 ---
+## \(Maybe\) Useful resources
+
+- [Statsmodels API — Statsmodels API v1](https://tedboy.github.io/statsmodels_doc/index.html) 
+    + Source: [tedboy/statsmodels_doc](https://github.com/tedboy/statsmodels_doc)
+
 
 ## Regression with `statsmodels`
 
@@ -119,6 +124,8 @@ Refs:
 formula = "y ~ x1 + x2"
 results = smf.ols(formula, data=df).fit()
 
+r2 = results.rsquared
+r2_adj = results.rsquared_adj
 coef = results.params["x1"]
 p_val = results.pvalues["x1"]
 ```

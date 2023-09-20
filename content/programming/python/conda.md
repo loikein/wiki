@@ -1,6 +1,6 @@
 ---
 weight: 100
-title: "Anaconda/Miniconda"
+title: "Conda/Mamba"
 ---
 
 References:
