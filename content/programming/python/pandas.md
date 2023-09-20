@@ -812,7 +812,7 @@ import re
 df = df.rename(columns=lambda x: re.sub(" $", "", x))
 ```
 
-### Replace all cells by value
+### Find \& replace in all cells
 
 Credit: [python - How to replace a value in pandas, with NaN? - Stack Overflow](https://stackoverflow.com/a/29251086/10668706)
 

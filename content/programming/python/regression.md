@@ -71,6 +71,11 @@ results = smf.ols(formula_1, data=df).fit(cov_type="HC3")
 Check df column types with `df.info()`. For any `object` type columns that you need, convert them.
 
 
+`ValueWarning: covariance of constraints does not have full rank. The number of constraints is 20, but rank is 19`
+
+Multicollinearity issues. If you are sure there is no problem with the data, one quick fix to try is to rescale or `np.log` some variables.
+
+
 ### Detect multicollinearity
 
 Doc: [statsmodels.stats.outliers_influence.variance_inflation_factor - statsmodels 0.14.0](https://www.statsmodels.org/stable/generated/statsmodels.stats.outliers_influence.variance_inflation_factor.html)
@@ -138,7 +143,7 @@ for col in df.columns[1:]:
 results_df = pd.DataFrame(results_list).set_index("index")
 ```
 
-### Use with `stargazer`
+## Tables with `stargazer`
 
 Doc \(?\): [mwburke/stargazer: Python implementation of the R stargazer multiple regression model creation tool](https://github.com/mwburke/stargazer)  
 Main examples: [stargazer/examples.ipynb](https://github.com/mwburke/stargazer/blob/master/examples.ipynb)
@@ -146,14 +151,37 @@ Main examples: [stargazer/examples.ipynb](https://github.com/mwburke/stargazer/b
 ```python
 from stargazer.stargazer import Stargazer, LineLocation
 
-stargazer = Stargazer([results]) # can have multiple specifications
-# preview table
+stargazer = Stargazer([results])  # can have multiple specifications
+
+# Settings
+stargazer.significant_digits(3)   # show 3 digits
+
+# Preview table
 stargazer
-# output latex code
+
+# Output latex code
 print(stargazer.render_latex())
 ```
 
-### Plots
+### Change variable order
+
+By default, the variables are ordered alphabetically.
+
+```python
+coef_order = df.columns[1:-1].values.tolist()
+coef_order = np.append(coef_order, "np.log(last_col)")
+coef_order = np.insert(coef_order, 0, "Intercept")
+
+stargazer.covariate_order(coef_order)
+```
+
+### Rename variables
+
+```python
+stargazer.rename_covariates({"np.log(last_col)": "$\log(last_col)$"})
+```
+
+## Regression plots
 
 Ref: [Predicting Housing Prices with Linear Regression using Python, pandas, and statsmodels – LearnDataSci](https://www.learndatasci.com/tutorials/predicting-housing-prices-linear-regression-using-python-pandas-statsmodels/)
 
