@@ -5,7 +5,7 @@ title: "英语词汇参考"
 
 收集本人日常生活（？）中碰到的单词。释义是自己写的，不一定精确，主要用来领会精神。
 
-按字母顺序排列。
+按字母顺序排列。\([Spaces When Alphabetizing](https://deanebarker.net/huh/spaces-when-alphabetizing/)\)
 
 
 ## 法语相关
@@ -67,9 +67,17 @@ ad hoc
 : _adj._ 临时，特设，权宜之计
 : [Wiktionary](https://en.wiktionary.org/wiki/ad_hoc#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hoc)
 
+addendum
+: 附录，补遗
+: [Wiktionary](https://en.wiktionary.org/wiki/addendum#English); [Wikipedia](https://en.wikipedia.org/wiki/Addendum)
+
 confer / cf.
 : _v._ 比较
 : [Wiktionary](https://en.wiktionary.org/wiki/cf.#English); [Wikipedia](https://en.wikipedia.org/wiki/Cf.)
+
+erratum; corrigendum
+: 勘误
+: [Wiktionary](https://en.wiktionary.org/wiki/erratum#English); [Wikipedia](https://en.wikipedia.org/wiki/Erratum)
 
 nota bene / N.B.
 : _v._ 需要注意的是，用于写作中提到某处细节时
