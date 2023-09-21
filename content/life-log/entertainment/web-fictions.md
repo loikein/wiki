@@ -52,6 +52,7 @@ TODO: Dump Apple note.
 | 氪金成仙 | 五志 | 2019 \~ 2021 | [起点](https://book.qidian.com/info/1015450933/) | Abandoned |  | 时代感过于强烈，浓浓的粉红感呼之欲出。 |
 | 人族镇守使 | 白驹易逝 | 2021 \~ now | [起点](https://book.qidian.com/info/1026225232/) | Abandoned |  | 不是。很喜欢。这种。风格。 |
 | 欧神 | 辰机唐红豆 | 2019 \~ 2020 | [起点](https://book.qidian.com/info/1013957962/) | Abandoned |  | 「当时看网上大火的视频『那〇那〇那些〇〇』可是哭的稀里哗啦的」 |
+| 无论魏晋 | 九州月下 | 2019 \~ 2020 | [晋江](http://www.jjwxc.net/onebook.php?novelid=4243025)| 2023-09-21 | ★★★☆☆ | 这算 BG 吗？？随便了，直到最后也没有一切献给国家，感天动地（。 |
 
 
 ### Heterosexual

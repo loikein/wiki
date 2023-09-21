@@ -47,4 +47,7 @@ node -v[--version]
 ## Readings
 
 - [Peter Norvig](https://www.norvig.com/)
-- Self-published coding books: [Leanpub: Publish Early, Publish Often](https://leanpub.com/)
+- Self/independently-published coding books
+    + [Leanpub: Publish Early, Publish Often](https://leanpub.com/)
+    + [Manning](https://www.manning.com/)
+- [Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials](https://freecomputerbooks.com/)

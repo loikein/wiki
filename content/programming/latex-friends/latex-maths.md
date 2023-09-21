@@ -1,6 +1,6 @@
 ---
 weight: 200
-title: "LaTeX Maths"
+title: "Math equations"
 ---
 
 ## Math Fonts

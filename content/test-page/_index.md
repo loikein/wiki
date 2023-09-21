@@ -1,6 +1,7 @@
 ---
+bookCollapseSection: true
 weight: 10
-title: "Markdown tests"
+title: "Test pages"
 ---
 [CommonMark Spec](https://spec.commonmark.org/)
 

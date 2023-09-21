@@ -1,6 +1,6 @@
 ---
 weight: 100
-title: "LaTeX Tables"
+title: "Tables"
 ---
 
 ## Cell

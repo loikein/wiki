@@ -1,6 +1,6 @@
 ---
 weight: 300
-title: "LaTeX Symbols"
+title: "Symbols"
 ---
 
 ## \(Maybe\) Useful resources

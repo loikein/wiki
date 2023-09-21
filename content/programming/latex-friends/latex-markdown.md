@@ -8,7 +8,8 @@ title: "Markdown in LaTeX"
 
 - [CTAN: Package markdown](https://ctan.org/pkg/markdown)
 - Repo: [Witiko/markdown: :notebook_with_decorative_cover: A package for converting and rendering markdown documents in TeX](https://github.com/Witiko/markdown)
-- Doc: [Markdown Package User Manual](https://mirror.apps.cam.ac.uk/pub/tex-archive/macros/generic/markdown/markdown.html)
+- Doc: [Markdown Package User Manual](https://witiko.github.io/markdown/)
+
 
 ## Compile
 
@@ -82,31 +83,6 @@ Ref: [以 Markdown 撰写文稿，以 LaTeX 排版 | 始终](https://liam.page/2
 }
 ```
 
-### Show links in colour \& better colours
-
-Ref: [better default colors for hyperref links - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/525984)
-
-```latex
-% by default markdown introduces hyperref
-\PassOptionsToPackage{colorlinks}{hyperref}
-\documentclass{article}
-
-\usepackage[dvipsnames]{xcolor}
-\hypersetup{
-  linkcolor=BrickRed
-  ,citecolor=Green
-  ,filecolor=Mulberry
-  ,urlcolor=NavyBlue
-  ,menucolor=BrickRed
-  ,runcolor=Mulberry
-  ,linkbordercolor=BrickRed
-  ,citebordercolor=Green
-  ,filebordercolor=Mulberry
-  ,urlbordercolor=NavyBlue
-  ,menubordercolor=BrickRed
-  ,runbordercolor=Mulberry
-}
-```
 
 ## Images
 

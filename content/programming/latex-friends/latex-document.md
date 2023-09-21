@@ -1,6 +1,6 @@
 ---
 weight: 100
-title: "LaTeX Document"
+title: "General/Documents"
 ---
 
 ## Debugging
@@ -164,38 +164,6 @@ TL;DR: use `cleveref`.
 [LaTeX/Labels and Cross-referencing - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing)
 
 
-## Checklists
-
-Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/313337)
-
-{{< figure
-src="https://i.stack.imgur.com/w1G7s.png"
-w="300px"
-alt="LaTeX checklist"
->}}
-
-```latex
-\usepackage{enumitem,amssymb}
-\newlist{todolist}{itemize}{2}
-\setlist[todolist]{label=$\square$}
-\usepackage{pifont}
-\newcommand{\cmark}{\ding{51}}%
-\newcommand{\xmark}{\ding{55}}%
-\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
-\hspace{-2.5pt}}
-\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
-
-\begin{document}
-  My ToDo list
-
-  \begin{todolist}
-    \item[\done] Frame the problem
-    \item Write solution
-    \item[\wontfix] profit
-  \end{todolist}
-
-\end{document}
-```
 
 ## Code display
 
@@ -221,6 +189,35 @@ alt="LaTeX checklist"
 ### `minting` package
 
 > TBE!!
+
+
+## Colour
+
+### Coloured links
+
+Ref: [better default colors for hyperref links - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/525984)
+
+```latex
+% by default markdown introduces hyperref
+\PassOptionsToPackage{colorlinks}{hyperref}
+\documentclass{article}
+
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{
+  linkcolor=BrickRed
+  ,citecolor=Green
+  ,filecolor=Mulberry
+  ,urlcolor=NavyBlue
+  ,menucolor=BrickRed
+  ,runcolor=Mulberry
+  ,linkbordercolor=BrickRed
+  ,citebordercolor=Green
+  ,filebordercolor=Mulberry
+  ,urlbordercolor=NavyBlue
+  ,menubordercolor=BrickRed
+  ,runbordercolor=Mulberry
+}
+```
 
 
 ## Formatting text
@@ -309,6 +306,39 @@ Ref: [spacing - How can I force a \hspace at the beginning of a line? - TeX - La
 \hspace*{0.5ex}\hspace{3ex}b) ...
 
 \hspace*{0.5ex}\hspace{3ex}c) ...
+```
+
+### Checklist
+
+Ref: [enumerate - How to create checkbox todo list? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/313337)
+
+{{< figure
+src="https://i.stack.imgur.com/w1G7s.png"
+w="300px"
+alt="LaTeX checklist"
+>}}
+
+```latex
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+
+\begin{document}
+  My ToDo list
+
+  \begin{todolist}
+    \item[\done] Frame the problem
+    \item Write solution
+    \item[\wontfix] profit
+  \end{todolist}
+
+\end{document}
 ```
 
 
@@ -440,7 +470,7 @@ For alignment inside subcaption figures, see [this answer](https://tex.stackexch
 ```
 
 
-## Newer and better environment defaults
+## Better environments/defaults
 
 ### List with larger line height
 

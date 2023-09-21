@@ -1,0 +1,60 @@
+---
+title: "Org-mode tests"
+---
+[[https://niklasfasching.github.io/go-org/][go-org]]
+
+* Normal tests
+:PROPERTIES:
+:CUSTOM_ID: normal-tests
+:END:
+# https://writequit.org/articles/emacs-org-mode-generate-ids.html
+
+** Formatting
+
+*bold*, *加粗*
+
+/italic/, /斜体/
+
+_underlined_,
+
++strike-through+
+
+=verbatim=, ~code~,
+
+# comments
+
+~$e^{i\pi} + 1 = 0$~
+
+| a | b | c |
+|---+---+---|
+| 1 | 2 | 3 |
+
+
+- [ ] unordered list item 1
+- 2
+
+a) [X] ordered sublist item 1
+b) [ ] ordered sublist item 2
+c) [X] ordered sublist item 3
+  1. and another subitem
+     #+BEGIN_SRC sh
+     echo with a block
+     #+END_SRC
+
+
+descriptive lists
+- [ ] term :: details
+          continued details
+- [ ] details without a term
+- [X] term ::
+          details on a new line
+- term ::
+          details on a new line (with an empty line in between)
+          *continued*
+          #+BEGIN_SRC bash
+          echo "Hello World!"
+          #+END_SRC
+
+1. [@2] use `[@n]` to change the value of list items
+2. [ ] foobar
+3. [@10] [X] that even works in combination with list statuses (`[ ]`)

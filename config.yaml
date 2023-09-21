@@ -36,6 +36,9 @@ markup:
     # style: colorful
     # https://xyproto.github.io/splash/docs/longer/all.html
     tabWidth: 4
+  go-org:
+    TopLevelHLevel: 1
+    # https://github.com/niklasfasching/go-org/blob/master/org/html_writer.go
 
 # Multi-lingual mode config
 # There are different options to translate files

@@ -1,5 +1,5 @@
 ---
-weight: 600
+weight: 900
 title: "TikZ/PGF"
 ---
 
