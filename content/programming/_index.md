@@ -41,6 +41,7 @@ hugo version
 git  version
 npm  version
 node -v[--version]
+pdflatex -v[--version]  # TeX Life
 ```
 
 

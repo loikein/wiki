@@ -30,6 +30,28 @@ When `! LaTeX Error: Option clash for package ...` \([credit](https://tex.stacke
 \documentclass{...}
 ```
 
+### Find mirrors
+
+In [CTAN list of mirrors](https://ctan.org/mirrors), adding 
+
+```text
+systems/texlive/tlnet/
+```
+
+after the `https` links will get you the link that TeX Live Utility needs.
+
+### Outdated TeX Live
+
+Ref: [texlive - Historic TeX Live distributions: HTTPS/SFTP mirror - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/460315/206709)
+
+If you are on, for example, TeX Live 2022, and all the available mirrors have already upgraded to 2023 \(marked by a 0-byte `TEXLIVE_2023` file in the tlnet root\), then you need the historic repository. A list of the mirrors is available at [Historic archive - TeX Users Group](https://tug.org/historic/), and adding
+
+```text
+systems/texlive/2022/tlnet-final/
+```
+
+\(or with any other year that you need\) after the `https://ftp.` links will get you to the TeX Live Utility link.
+
 
 ## Build & file structures
 
@@ -42,6 +64,9 @@ Or: Arara (?)
 ### File control/subfiles
 
 Also see: [Management in a large project - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Management_in_a_large_project)
+
+> Caveat: files being referred by `\include` can be used as a rendering starting page in TeXstudio, while `\input` cannot. You need to manually click to the `main.tex` file, start the rendering, and do not click to other files until the job is finished.
+{.book-hint .warning}
 
 This is an extensive example with both custom class, separate preamble file and bibstyle. There is no need to use everything.
 
@@ -236,6 +261,9 @@ Ref: [better default colors for hyperref links - TeX - LaTeX Stack Exchange](htt
 
 \begin{document}
   \hl{Good words.}
+
+  % https://tex.stackexchange.com/a/270904/206709
+  \hl{Not so good words with \mbox{\cref{tab:a-table}}.}
 \end{document}
 ```
 

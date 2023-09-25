@@ -27,12 +27,14 @@ lualatex -synctex=1 -interaction=nonstopmode
 ```latex
 \documentclass{article}
 
-\usepackage[tightLists=false]{markdown}
+\usepackage[tightLists=false,strikeThrough]{markdown}
+\usepackage{soul}
 \markdownSetup{
   footnotes = true,
   inlineFootnotes = true,
   renderers = {
     link = {\href{#3}{#1}},
+    strikeThrough = {\st{#1}},
   },
 }
 

@@ -74,13 +74,20 @@ mark {
   padding: 0 .2rem;
 }
 
-.footnote-ref:hover {
+.footnote-ref:hover,
+.footnote-ref:focus  {
   border-color: var(--color-link);
   background-color: var(--color-link);
   color: var(--body-background);
 }
 
-.footnote-ref:hover:visited {
+.footnote-ref:hover a,
+.footnote-ref:focus a {
+  text-decoration: none;
+}
+
+.footnote-ref:hover:visited,
+.footnote-ref:focus:visited {
   border-color: var(--color-visited-link);
   background-color: var(--color-visited-link);
   color: var(--body-background);
