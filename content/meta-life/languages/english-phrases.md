@@ -14,9 +14,37 @@ a la
 : _prep._ 就像
 : [Wiktionary](https://en.wiktionary.org/wiki/a_la#English)
 
+avant-garde
+: _adj./n._ 前卫的，前卫艺术
+: [Wiktionary](https://en.wiktionary.org/wiki/avant-garde#English); [Wikipedia](https://en.wikipedia.org/wiki/Avant-garde#References)
+
 c'est la vie
 : 这就是人生，用于表示无奈
 : [Wiktionary](https://en.wiktionary.org/wiki/c%27est_la_vie#English)
+
+en route
+: 在去往某处的路上。常用：en route to
+: [Wiktionary](https://en.wiktionary.org/wiki/en_route)
+
+etiquette
+: _n._ 礼仪。区分：courtesy
+: [Wiktionary](https://en.wiktionary.org/wiki/etiquette)
+
+fleur-de-lis / ⚜⚜️
+: 鸢尾花饰，法国王室象征
+: [Wikipedia](https://en.wikipedia.org/wiki/Fleur-de-lis)
+
+in lieu
+: 作为替代品
+: [Wiktionary](https://en.wiktionary.org/wiki/in_lieu)
+
+monsieur
+: 先生（尊称）
+: [Wiktionary](https://en.wiktionary.org/wiki/monsieur#English); [Wikipedia](https://en.wikipedia.org/wiki/Monsieur)
+
+triage
+: _n._ 评估优先顺位，常用：needs triage
+: [Wiktionary](https://en.wiktionary.org/wiki/triage#English)
 
 vis-à-vis
 : 面对面
@@ -32,7 +60,6 @@ Refs:
 - [Glossary of French words and expressions in English - Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_French_words_and_expressions_in_English)
 - [List of pseudo-French words in English - Wikipedia](https://en.wikipedia.org/wiki/List_of_pseudo-French_words_in_English)
 - [List of English words of French origin - Wikipedia](https://en.wikipedia.org/wiki/List_of_English_words_of_French_origin)
-
 
 
 ## 德语相关
@@ -60,7 +87,6 @@ Refs:
 - [List of Latin and Greek words commonly used in systematic names - Wikipedia](https://en.wikipedia.org/wiki/List_of_Latin_and_Greek_words_commonly_used_in_systematic_names)
 
 
-
 ## 拉丁语相关
 
 ad hoc
@@ -76,8 +102,16 @@ confer / cf.
 : [Wiktionary](https://en.wiktionary.org/wiki/cf.#English); [Wikipedia](https://en.wikipedia.org/wiki/Cf.)
 
 erratum; corrigendum
-: 勘误
+: 勘误表
 : [Wiktionary](https://en.wiktionary.org/wiki/erratum#English); [Wikipedia](https://en.wikipedia.org/wiki/Erratum)
+
+de facto
+: 事实上的
+: [Wiktionary](https://en.wiktionary.org/wiki/de_facto#English); [Wikipedia](https://en.wikipedia.org/wiki/De_facto)
+
+de jure
+: 名义上的，法律上的
+: [Wiktionary](https://en.wiktionary.org/wiki/de_jure#English); [Wikipedia](https://en.wikipedia.org/wiki/De_jure)
 
 nota bene / N.B.
 : _v._ 需要注意的是，用于写作中提到某处细节时
@@ -106,9 +140,17 @@ Refs:
 
 ## 娱乐
 
+### 1
+
 {{< pdf
   src="https://s.wsj.net/public/resources/documents/stanfordlanguage.pdf"
   title="Harmful Language List by EHLI, Stanford University"
 >}}
 
 （备注：有一些我是同意的，比如用 folks 取代 guys。）
+
+### 2
+
+[“What is that thing?” ... I love French! : French](https://old.reddit.com/r/French/comments/8v9i0s/what_is_that_thing_i_love_french/)
+
+[grammaire - What is the construction of "Qu'est-ce que c'est que cette chose-là?"? - French Language Stack Exchange](https://french.stackexchange.com/questions/45356/)

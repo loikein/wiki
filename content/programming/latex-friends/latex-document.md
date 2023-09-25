@@ -251,6 +251,8 @@ Ref: [better default colors for hyperref links - TeX - LaTeX Stack Exchange](htt
 
 ```latex
 \usepackage{soul}
+% or
+\usepackage{soulutf8}
 
 % can be used with various colours
 \usepackage[dvipsnames]{xcolor}
@@ -262,6 +264,7 @@ Ref: [better default colors for hyperref links - TeX - LaTeX Stack Exchange](htt
 \begin{document}
   \hl{Good words.}
 
+  % Cleveref requires a warping mbox
   % https://tex.stackexchange.com/a/270904/206709
   \hl{Not so good words with \mbox{\cref{tab:a-table}}.}
 \end{document}
@@ -273,6 +276,8 @@ With package soul:
 
 ```latex
 \usepackage{soul}
+% or
+\usepackage{soulutf8}
 
 \begin{document}
   \st{overstriking}

@@ -20,6 +20,10 @@ title: "写作"
 
 ## Creative writing
 
+### General advice
+
+- [kill your darlings](https://en.wiktionary.org/wiki/kill_one%27s_darlings)
+
 ### Articles
 
 - [写作入门 - by 汉洋 MasterPa - 汉洋叭叭](https://hanyang.wtf/p/c7a)
