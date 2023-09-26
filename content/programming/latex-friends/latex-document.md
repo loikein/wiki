@@ -65,8 +65,8 @@ Or: Arara (?)
 
 Also see: [Management in a large project - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Management_in_a_large_project)
 
-> Caveat: files being referred by `\include` can be used as a rendering starting page in TeXstudio, while `\input` cannot. You need to manually click to the `main.tex` file, start the rendering, and do not click to other files until the job is finished.
-{.book-hint .warning}
+> At least in TeXstudio, as long as you have `%!TEX root` set properly, you can trigger a full build in any sub-file.
+{.book-hint .info}
 
 This is an extensive example with both custom class, separate preamble file and bibstyle. There is no need to use everything.
 

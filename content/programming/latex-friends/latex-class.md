@@ -1,6 +1,6 @@
 ---
 weight: 600
-title: "Classes using/writing"
+title: "Classes/Templates"
 ---
 ## \(Maybe\) Useful resources
 
@@ -19,6 +19,7 @@ title: "Classes using/writing"
 
 - [Gijs's Homework Template - Overleaf, Online LaTeX Editor](https://www.overleaf.com/latex/templates/gijss-homework-template/xrhhfgqcfbft) \(Click View Source to see the code.\)
     + Repository of an outdated version: [gijs-pennings/latex-homework: LaTeX class for homework assignments](https://github.com/gijs-pennings/latex-homework)
+- [LaTeX Templates - The Best Source of Free Quality LaTeX Templates](https://www.latextemplates.com/)
 
 
 ## Basic class writing

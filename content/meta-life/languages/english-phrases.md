@@ -19,7 +19,7 @@ avant-garde
 : [Wiktionary](https://en.wiktionary.org/wiki/avant-garde#English); [Wikipedia](https://en.wikipedia.org/wiki/Avant-garde#References)
 
 c'est la vie
-: 这就是人生，用于表示无奈
+: 这就是人生。用于表示无奈
 : [Wiktionary](https://en.wiktionary.org/wiki/c%27est_la_vie#English)
 
 en route
@@ -30,12 +30,12 @@ etiquette
 : _n._ 礼仪。区分：courtesy
 : [Wiktionary](https://en.wiktionary.org/wiki/etiquette)
 
-fleur-de-lis / ⚜⚜️
-: 鸢尾花饰，法国王室象征
+fleur-de-lis
+: 鸢尾花饰，法国王室象征。⚜⚜️
 : [Wikipedia](https://en.wikipedia.org/wiki/Fleur-de-lis)
 
 in lieu
-: 作为替代品
+: 作为替代品。常用：in lieu of
 : [Wiktionary](https://en.wiktionary.org/wiki/in_lieu)
 
 monsieur
@@ -43,7 +43,7 @@ monsieur
 : [Wiktionary](https://en.wiktionary.org/wiki/monsieur#English); [Wikipedia](https://en.wikipedia.org/wiki/Monsieur)
 
 triage
-: _n._ 评估优先顺位，常用：needs triage
+: _n._ 评估优先顺位。常用：need triage
 : [Wiktionary](https://en.wiktionary.org/wiki/triage#English)
 
 vis-à-vis
@@ -51,7 +51,7 @@ vis-à-vis
 : [Wiktionary](https://en.wiktionary.org/wiki/vis-%C3%A0-vis#English)
 
 voilà
-: 看！，用于引起别人注意。注意不要跟 viola（中提琴）混淆。
+: 看！用于引起别人注意。注意不要跟 viola（中提琴）混淆。
 : [Wiktionary](https://en.wiktionary.org/wiki/voil%C3%A0#English)
 
 
@@ -89,33 +89,45 @@ Refs:
 
 ## 拉丁语相关
 
+abracadabra
+: _n._ 魔咒，行话，令人费解的东西
+: [Wiktionary](https://en.wiktionary.org/wiki/abracadabra#English); [Wikipedia](https://en.wikipedia.org/wiki/Abracadabra)
+
 ad hoc
 : _adj._ 临时，特设，权宜之计
 : [Wiktionary](https://en.wiktionary.org/wiki/ad_hoc#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hoc)
 
 addendum
-: 附录，补遗
+: _n._ 附录，补遗
 : [Wiktionary](https://en.wiktionary.org/wiki/addendum#English); [Wikipedia](https://en.wikipedia.org/wiki/Addendum)
 
 confer / cf.
 : _v._ 比较
 : [Wiktionary](https://en.wiktionary.org/wiki/cf.#English); [Wikipedia](https://en.wikipedia.org/wiki/Cf.)
 
+conundrum
+: _n._ 谜语，难题
+: [Wiktionary](https://en.wiktionary.org/wiki/conundrum#English)
+
 erratum; corrigendum
-: 勘误表
+: _n._ 勘误表
 : [Wiktionary](https://en.wiktionary.org/wiki/erratum#English); [Wikipedia](https://en.wikipedia.org/wiki/Erratum)
 
 de facto
-: 事实上的
+: _adj._ 事实上的
 : [Wiktionary](https://en.wiktionary.org/wiki/de_facto#English); [Wikipedia](https://en.wikipedia.org/wiki/De_facto)
 
 de jure
-: 名义上的，法律上的
+: _adj._ 名义上的，法律上的
 : [Wiktionary](https://en.wiktionary.org/wiki/de_jure#English); [Wikipedia](https://en.wikipedia.org/wiki/De_jure)
 
 nota bene / N.B.
 : _v._ 需要注意的是，用于写作中提到某处细节时
 : [Wiktionary](https://en.wiktionary.org/wiki/nota_bene#English); [Wikipedia](https://en.wikipedia.org/wiki/Nota_bene)
+
+quorum
+: _n._ 举行会议所需的最小人数，法定人数
+: [Wiktionary](https://en.wiktionary.org/wiki/quorum#English); [Wikipedia](https://en.wikipedia.org/wiki/Quorum)
 
 Refs:
 
@@ -127,7 +139,23 @@ Refs:
     + [Category:Latin literary phrases - Wikipedia](https://en.wikipedia.org/wiki/Category:Latin_literary_phrases)
 
 
-## 俚语相关
+## 俚语／网络用语
+
+AFAIK
+: as far as I know，据我所知
+: [Wiktionary](https://en.wiktionary.org/wiki/as_far_as_one_knows#English)
+
+BRB
+: be right back，马上回来
+: [Wiktionary](https://en.wiktionary.org/wiki/be_right_back#English)
+
+ICYMI
+: in case you missed it，以防你错过了。用于引出背景信息，或提示一段时间以前已提到过的信息
+: [Wiktionary](https://en.wiktionary.org/wiki/ICYMI)
+
+YMMV
+: your mileage may vary，每个人的具体情况可能不一样
+: [Wiktionary](https://en.wiktionary.org/wiki/your_mileage_may_vary#English)
 
 zhoosh sth. up
 : _v._ 提高，改善
@@ -136,21 +164,25 @@ zhoosh sth. up
 Refs:
 
 - [Polari - Wikipedia](https://en.wikipedia.org/wiki/Polari)
+- [Category:English internet slang - Wiktionary, the free dictionary](https://en.wiktionary.org/wiki/Category:English_internet_slang)
+- [Wiktionary:Phrasebook - Wiktionary, the free dictionary](https://en.wiktionary.org/wiki/Wiktionary:Phrasebook)
 
 
 ## 娱乐
 
-### 1
+### Qu'est-ce que…
+
+[“What is that thing?” ... I love French! : r/French](https://old.reddit.com/r/French/comments/8v9i0s/what_is_that_thing_i_love_french/)
+
+On French Language Stack Exchange: {{< spoiler >}}
+[grammaire - What is the construction of "Qu'est-ce que c'est que cette chose-là?"? - French Language Stack Exchange](https://french.stackexchange.com/questions/45356/)
+{{< /spoiler >}}
+
+### Harmful Language List
+
+备注：有一些我是同意的，比如用 folks 取代 guys。
 
 {{< pdf
   src="https://s.wsj.net/public/resources/documents/stanfordlanguage.pdf"
   title="Harmful Language List by EHLI, Stanford University"
 >}}
-
-（备注：有一些我是同意的，比如用 folks 取代 guys。）
-
-### 2
-
-[“What is that thing?” ... I love French! : French](https://old.reddit.com/r/French/comments/8v9i0s/what_is_that_thing_i_love_french/)
-
-[grammaire - What is the construction of "Qu'est-ce que c'est que cette chose-là?"? - French Language Stack Exchange](https://french.stackexchange.com/questions/45356/)
