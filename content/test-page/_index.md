@@ -355,3 +355,37 @@ Usage:
 ```html
 {{</* ruby "你好世界" "hello world" */>}}
 ```
+
+### spoiler
+
+{{< spoiler >}}
+This is an inline spoiler.
+It contains a [link](#).
+{{< /spoiler >}}
+
+{{< spoiler >}}
+This is an inline spoiler that's not actually inline. I do not recommend it, but you can.
+It also contains a [link](#).
+And a list:
+
+- 1…
+- 2…
+{{< /spoiler >}}
+
+{{< spoiler >}}
+![test image](/img/latex_align_star.png)
+{{< /spoiler >}}
+
+Usage:
+
+```html
+{{</* spoiler */>}}this is an inline spoiler{{</* /spoiler */>}}
+```
+
+{{< spoiler block="true" >}}this is a block spoiler{{< /spoiler >}}
+
+Usage:
+
+```html
+{{</* spoiler block="true" */>}}this is a block spoiler{{</* /spoiler */>}}
+```

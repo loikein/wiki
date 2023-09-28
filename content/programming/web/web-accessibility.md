@@ -24,6 +24,7 @@ title: "Web Accessibility"
 ### Tools \& demos
 
 - [The ARIA Role Conformance Matrices](https://whatsock.com/training/matrices/)
+- [javascript - How to trigger the :active pseudoclass on keyboard 'enter' press? (using only CSS) - Stack Overflow](https://stackoverflow.com/a/32485497/10668706) \(TLDR: you cannot.\)
 
 
 ## JavaScript

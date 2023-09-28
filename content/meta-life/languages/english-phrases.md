@@ -174,7 +174,7 @@ Refs:
 
 [“What is that thing?” ... I love French! : r/French](https://old.reddit.com/r/French/comments/8v9i0s/what_is_that_thing_i_love_french/)
 
-On French Language Stack Exchange: {{< spoiler >}}
+Explanation on the French Language Stack Exchange: {{< spoiler >}}
 [grammaire - What is the construction of "Qu'est-ce que c'est que cette chose-là?"? - French Language Stack Exchange](https://french.stackexchange.com/questions/45356/)
 {{< /spoiler >}}
 
