@@ -80,6 +80,9 @@ make_pickle(df_1, "data", "pt1", ...)
 
 Credit: [Convert String to Variable Name in Python - PythonForBeginners.com](https://www.pythonforbeginners.com/basics/convert-string-to-variable-name-in-python)
 
+> This will not work as an imported function.
+{.book-hint .warning}
+
 ```python
 import os
 import pickle

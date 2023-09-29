@@ -7,9 +7,12 @@
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
 /* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
 /* LineHighlight */ .chroma .hl { background-color: #ffffcc }
-/* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0;color: #7f7f7f }
 /* LineNumbers */ .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
-/* Line */ .chroma .line { display: flex; }
+/* Line */
+/* https://github.com/alecthomas/chroma/issues/722 */
+.chroma .line, .chroma .lntable .lnt, .chroma .lntable .hl { display: flex; }
+.chroma .lntable .lntd + .lntd { width: 100%; }
 /* Keyword */ .chroma .k { color: #008800; font-weight: bold }
 /* KeywordConstant */ .chroma .kc { color: #008800; font-weight: bold }
 /* KeywordDeclaration */ .chroma .kd { color: #008800; font-weight: bold }

@@ -490,13 +490,15 @@ git submodule status
 
 Make changes to submodules (in `.gitmodules`), then do `git submodule update --init --recursive --remote` \([credit](https://stackoverflow.com/a/66200354)\)
 
-```diff
+{{< diffcode >}}
+```sh
 [submodule "something"]
     path = something
     url = https://github.com/something/something.git
-+   ignore = untracked
-+   branch = new-branch
++    ignore = untracked
++    branch = new-branch
 ```
+{{< /diffcode >}}
 
 Change the directory name for a submodule: \([credit](https://stackoverflow.com/a/5540263/10668706)\)
 

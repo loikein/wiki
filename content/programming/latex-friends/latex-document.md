@@ -538,6 +538,14 @@ Make LaTeX more willing to break line \([Ref](https://tex.stackexchange.com/a/12
 \usepackage{hyperref}
 \usepackage[nameinlink]{cleveref}
 
+% use abbreviation everywhere
+% https://tex.stackexchange.com/a/386310
+\Crefname{equation}{Eq.}{Eqs.}
+\Crefname{figure}{Fig.}{Figs.}
+\Crefname{table}{Tab.}{Tabs.}
+\Crefname{tabular}{Tab.}{Tabs.}
+\Crefname{section}{Sect.}{Sects.}
+
 \begin{document}
 \Cref{fig:1} is capitalised, and \cref{fig:1} is not capitalised.
 \end{document}

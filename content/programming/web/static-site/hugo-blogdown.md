@@ -6,6 +6,7 @@ disable_latex: true
 
 {{< details "Themes" >}}
 - [QIN2DIM/awesome-hugo-themes: 🐱‍🏍 A curated list of awesome things related to Hugo themes.](https://github.com/QIN2DIM/awesome-hugo-themes)
+- [Templates for Static Site Generators | CloudCannon](https://cloudcannon.com/templates/)
 - [matcornic/hugo-theme-learn: Porting Grav Learn theme to Hugo](https://github.com/matcornic/hugo-theme-learn) \(The button code I used for [hugo-tufte](https://github.com/loikein/hugo-tufte) comes from here.\)
 - [weitblick/epub: An epub theme for the Static Site Generator HUGO.](https://github.com/weitblick/epub)
 {{< /details >}}

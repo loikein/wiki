@@ -69,7 +69,7 @@ func main() {
 }
 ```
 
-Here's an example with line numbers. The CSS is buggy.
+Here's an example with line numbers. The CSS is no longer buggy thanks to the great [Joe Mooring](https://github.com/alecthomas/chroma/issues/722).
 
 ```go {linenos=table,hl_lines=["2-5"],linenostart=199}
 package main
@@ -266,6 +266,34 @@ TODO: Use [gohugoio/hugo/docs/layouts/shortcodes/code-toggle.html](https://githu
 
 ## Custom Shortcodes (by me)
 
+### diffcode
+
+Adapted from: [CloudCannon/alto-hugo-template/layouts/shortcodes/diffcode.html](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/shortcodes/diffcode.html) and [CloudCannon/alto-hugo-template/layouts/partials/diffcode.html](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/partials/diffcode.html).
+
+{{< diffcode >}}
+```sh
+[submodule "something"]
+    path = something
+    url = https://github.com/something/something.git
++    ignore = untracked
+-    branch = new-branch
+```
+{{< /diffcode >}}
+
+Usage:
+
+````html
+{{</* diffcode */>}}
+```sh
+[submodule "something"]
+    path = something
+    url = https://github.com/something/something.git
++    ignore = untracked
+-    branch = new-branch
+```
+{{</* /diffcode */>}}
+````
+
 ### highlight-file
 
 {{< highlight-file file="test.py" lang="python" >}}
@@ -314,6 +342,14 @@ gist="27ef6913386b206d1b3c18b8e93c5768"
 file="hello-world.md"
 lang="markdown" >}}
 
+{{< gist
+user="loikein"
+gist="27ef6913386b206d1b3c18b8e93c5768"
+file="hello-world.md"
+lineNos="table"
+hlLines="2-4 7"
+lang="markdown" >}}
+
 Usage:
 
 ```html
@@ -326,16 +362,7 @@ lineNos="table"
 hlLines="2-4 7" */>}}
 ```
 
-Embed mode: \(No fallback for lack of JS, only use when you have to.\)
-
-{{< gist
-user="loikein"
-gist="27ef6913386b206d1b3c18b8e93c5768"
-file="hello-world.md"
-syntax="markdown"
-embed="true" >}}
-
-Usage:
+Embed mode usage: \(No fallback for lack of JS, only use when you have to.\)
 
 ```html
 {{</* gist
