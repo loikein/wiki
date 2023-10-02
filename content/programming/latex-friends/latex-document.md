@@ -65,8 +65,10 @@ Or: Arara (?)
 
 Also see: [Management in a large project - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Management_in_a_large_project)
 
-> At least in TeXstudio, as long as you have `%!TEX root` set properly, you can trigger a full build in any sub-file.
-{.book-hint .info}
+> At least in TeXstudio, as long as `%!TEX root` is set properly, build can be triggered in any sub-file.
+> 
+> However, after updating any BibLaTeX file, only rebuilding the root file will trigger the 
+{.book-hint .warning}
 
 This is an extensive example with both custom class, separate preamble file and bibstyle. There is no need to use everything.
 

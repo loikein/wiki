@@ -19,6 +19,7 @@ title: "Symbols"
 | Percent sign | `$\%$` | `\%` |  |
 | Hash sign    | `$\#$` | `\#` |  |
 | Underscore   | `$\_$` | `\_` or `\textunderscore` |  |
+| Tilde        | ``$\char`\~$`` | ``\char`\~`` | Plain TeX | 
 
 ## Logic
 

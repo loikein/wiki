@@ -376,6 +376,11 @@ df_subset = df.query('"Status Code" == "A"')
 df_subset = df.query('"Status Code" != "B"')
 ```
 
+Also see: \(not tested\)
+
+- [python - Pandas filter data frame rows by function - Stack Overflow](https://stackoverflow.com/a/75839871)
+- [python - Pandas filtering not working - Stack Overflow](https://stackoverflow.com/a/47420094)
+
 ### Select rows by cell type
 
 Credit: [python - Select row from a DataFrame based on the type of the object(i.e. str) - Stack Overflow](https://stackoverflow.com/a/39277211/10668706)

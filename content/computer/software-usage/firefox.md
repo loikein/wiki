@@ -49,7 +49,7 @@ References:
 - [Firefox Profilemaker](https://ffprofile.com/)
 - [Most Common User Agents - Tech Blog (wh)](https://techblog.willshouse.com/2012/01/03/most-common-user-agents/)
 
-### Modify `about:config` Directly
+### `about:config`
 
 Reference: [Firefox: Privacy Related "about:config" Tweaks | PrivacyTools](https://www.privacytools.io/browsers/#about_config)
 
@@ -58,9 +58,13 @@ Ones that I do not follow:
 - `dom.event.clipboardevents.enabled`: Setting to `False` will disable [Link Text and Location Copier](https://addons.mozilla.org/en-US/firefox/addon/link-text-and-location-copier/), which I use daily.
 - `network.cookie.cookieBehavior`: New versions of Firefox has default `4`, which I think is good enough. Setting to `2` will stop Google from login \(why?\)
 
-### Better Way: `user.js`
+### `user.js`
 
-Reference: [GitHub - ghacksuserjs/ghacks-user.js: An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting](https://github.com/ghacksuserjs/ghacks-user.js)
+Reference: 
+
+- [GitHub - ghacksuserjs/ghacks-user.js: An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting](https://github.com/ghacksuserjs/ghacks-user.js)
+- [GitHub - arkenfox/user.js: Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening](https://github.com/arkenfox/user.js)
+
 
 ## Browser CSS
 

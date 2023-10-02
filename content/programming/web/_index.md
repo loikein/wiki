@@ -70,3 +70,7 @@ Sites:
 
 - [Web Developer and Designer | Electerious](https://electerious.com/)
 - [Brain Baking Archives | Brain Baking](https://brainbaking.com/archives/)
+- [Mark Thomas Miller](https://mtm.dev/)
+- [Projects · Adam Schwartz](https://adamschwartz.co/projects/)
+
+<!-- - [Archive](https://matt-rickard.com/archive) -->

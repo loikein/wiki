@@ -25,6 +25,8 @@ disable_latex: true
 - [brycewray/hugo-site: This is the repository from which the Hugo-generated version of https://www.brycewray.com is built.](https://github.com/brycewray/hugo-site)
 - [Articles - Veriphor](https://www.veriphor.com/articles/) \(Ran by [jmooring](https://github.com/jmooring)\)
 - [MelonKony/millmint.net: Central site for the Petticoat Project and its associated worldbuilding material.](https://github.com/MelonKony/millmint.net/tree/live)
+- [Archive | pawelgrzybek.com](https://pawelgrzybek.com/archive/)
+  + Repository: [GitHub - pawelgrzybek/pawelgrzybek.com](https://github.com/pawelgrzybek/pawelgrzybek.com)
 {{< /details >}}
 
 

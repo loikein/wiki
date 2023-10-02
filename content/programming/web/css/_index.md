@@ -268,6 +268,8 @@ Refs:
 - [The Guide To Responsive Design In 2023 and Beyond - Ahmad Shadeed](https://ishadeed.com/article/responsive-design/)
 - [A Complete Guide to CSS Concepts and Fundamentals | Tania Rascia](https://www.taniarascia.com/overview-of-css-concepts/)
 - [Modern CSS Solutions](https://moderncss.dev/)
+- [CSS debt](https://mtm.dev/css-debt)
+
 
 ## Tools/Generators
 

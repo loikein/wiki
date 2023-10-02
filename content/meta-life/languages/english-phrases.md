@@ -172,11 +172,10 @@ Refs:
 
 ### Qu'est-ce que…
 
-[“What is that thing?” ... I love French! : r/French](https://old.reddit.com/r/French/comments/8v9i0s/what_is_that_thing_i_love_french/)
+![Qu\'est-ce que c\'est que cette chose-là?](/img/qu-est-ce-que.png)
 
-Explanation on the French Language Stack Exchange: {{< spoiler >}}
-[grammaire - What is the construction of "Qu'est-ce que c'est que cette chose-là?"? - French Language Stack Exchange](https://french.stackexchange.com/questions/45356/)
-{{< /spoiler >}}
+链接：[“What is that thing?” ... I love French! : r/French](https://old.reddit.com/r/French/comments/8v9i0s/what_is_that_thing_i_love_french/)  
+解释：[grammaire - What is the construction of "Qu'est-ce que c'est que cette chose-là?"? - French Language Stack Exchange](https://french.stackexchange.com/questions/45356/)
 
 ### Harmful Language List
 

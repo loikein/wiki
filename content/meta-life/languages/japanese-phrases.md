@@ -25,6 +25,10 @@ Refs:
 : 2\. 树叶摩挲发出的沙沙声
 : [コトバンク](https://kotobank.jp/word/%E3%81%96%E3%82%8F%E3%81%96%E3%82%8F-512678); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%96%E3%82%8F%E3%81%96%E3%82%8F/#jn-89956)
 
+じろじろ
+: 目不转睛地盯着人看
+: [コトバンク](https://kotobank.jp/word/%E3%81%98%E3%82%8D%E3%81%98%E3%82%8D-536287)
+
 そわそわ
 : 心中有事情无法平静
 : [コトバンク](https://kotobank.jp/word/%E3%81%9D%E3%82%8F%E3%81%9D%E3%82%8F-555736); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%9D%E3%82%8F%E3%81%9D%E3%82%8F/#jn-131882)
@@ -34,13 +38,23 @@ Refs:
 : 2\. 起鸡皮疙瘩
 : [コトバンク](https://kotobank.jp/word/%E3%81%9E%E3%82%8F%E3%81%9E%E3%82%8F-315611); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%9E%E3%82%8F%E3%81%9E%E3%82%8F/#jn-283415)
 
+ちくちく
+: 1\. 一下一下地缝针，或比喻为
+: 2\. 不停地说挖苦人的话
+: 3\. 一点点地累积
+: [コトバンク](https://kotobank.jp/word/%E3%81%A1%E3%81%8F%E3%81%A1%E3%81%8F-565605); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%A1%E3%81%8F%E3%81%A1%E3%81%8F/)
+
 ぺらぺら
-: 1\. 说话流畅
-: 2\. 话很多
+: 1\. 说话流畅（通常指外语）
+: 2\. 话很多，管不住嘴
 : [コトバンク](https://kotobank.jp/word/%E3%81%BA%E3%82%89%E3%81%BA%E3%82%89-625635); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%BA%E3%82%89%E3%81%BA%E3%82%89/#jn-199732)
 
+もたもた
+: 磨磨蹭蹭
+: [コトバンク](https://kotobank.jp/word/%E3%82%82%E3%81%9F%E3%82%82%E3%81%9F-645647); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%82%82%E3%81%9F%E3%82%82%E3%81%9F/#jn-219225)
+
 もだもだ
-: 烦恼苦闷
+: 烦恼，苦闷
 : [コトバンク](https://kotobank.jp/word/%E3%82%82%E3%81%A0%E3%82%82%E3%81%A0-645648); [Weblio辞書](https://www.weblio.jp/content/%E3%82%82%E3%81%A0%E3%82%82%E3%81%A0)
 
 

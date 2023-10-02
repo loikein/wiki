@@ -2,6 +2,7 @@
 bookCollapseSection: true
 title: "LaTeX"
 ---
+<!-- `$helloworld$`
 
 <style>
   .katex-version {display: none;}
@@ -10,7 +11,7 @@ title: "LaTeX"
 <span class="katex">
   <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
   <span class="katex-version rule">KaTeX stylesheet version: </span>
-</span>
+</span> -->
 
 ## \(Maybe\) Useful resources
 
