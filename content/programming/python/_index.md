@@ -9,7 +9,8 @@ title: "Python"
 - [nkmk/python-snippets](https://github.com/nkmk/python-snippets)
 - [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)
 - [Python Tutorials – Data to Fish](https://datatofish.com/python-tutorials/)
-
+- [Intermediate Python — Python Tips 0.1 documentation](https://book.pythontips.com/en/latest/index.html#)
+    + Repository: [yasoob/intermediatePython](https://github.com/yasoob/intermediatePython)
 
 ## Dictionary
 

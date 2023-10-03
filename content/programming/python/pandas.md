@@ -160,6 +160,74 @@ df = pd.read_excel(
 )
 ```
 
+### Stata dta
+
+#### `pd.read_stata`
+
+```python
+import pandas as pd
+
+df = pd.read_stata(
+    os.path.join("data", "data.dta"),
+    convert_categoricals=False,       # if get ValueError: Value labels for column (...) are not unique
+                                      # or just want to speed up
+)
+```
+
+#### `pd.io.stata.StataReader`
+
+When getting `ValueError: Value labels for column col_x are not unique. These cannot be converted to pandas categoricals. The repeated labels are: Not applicable`, I found this alternative way of doing the import by excessive digging into the \(not documented any more\) methods.
+
+Docs:
+
+- [IO tools (text, CSV, HDF5, …) — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/user_guide/io.html)
+- [pandas.read_stata — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_stata.html#pandas-read-stata)
+
+**Step 1**: read the Stata file with the io reader.
+
+```python
+import pandas as pd
+
+df_reader = pd.io.stata.StataReader(
+    os.path.join("data", "data.dta"),
+)
+```
+
+**Step 2**: Verify the repeated labels.
+
+```python
+print(df_reader.value_labels()["col_x"])
+
+# {...
+#  -1: 'Not applicable',
+#  ...
+#  6: 'Not applicable'}
+```
+
+**Step 3**: Replace the repeated value with something else.
+
+```python
+df_reader.value_labels()["col_x"][6] = "Not applicable (1)"
+```
+
+**Step 4**: Read the file from reader.
+
+```python
+df = df_reader.read()
+```
+
+Since [it is said in code that](https://github.com/pandas-dev/pandas/blob/v2.1.1/pandas/io/stata.py#L1121) `Using StataReader as a context manager is the only supported method`, I have wrapped it in a context manager.
+
+```python
+data_path = os.path.join("data", "data.dta")
+
+with open(data_path, "rb") as f:
+    reader = pd.io.stata.StataReader(data_path)
+    reader.value_labels()["col_x"][6] = "Not applicable (1)"
+    df = reader.read()
+```
+
+
 ## Export DataFrame
 
 ### As Excel file

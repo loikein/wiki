@@ -105,10 +105,28 @@ Difference between staged \(added\) changes and most recent commit:
 git diff --staged
 ```
 
-Only list changed file names and status: \([Doc](https://git-scm.com/docs/git-diff): Added (`A`), Copied (`C`), Deleted (`D`), Modified (`M`), Renamed (`R`), have their type (i.e. regular file, symlink, submodule, …) changed (`T`), are Unmerged (`U`), are Unknown (`X`), or have had their pairing Broken (`B`)\)
+Only list changed file names and status:
+
+{{< details "Meaning of the marks" >}}
+[Git - git-diff Documentation](https://git-scm.com/docs/git-diff)
+
+- `A`: Added
+- `C`: Copied
+- `D`: Deleted
+- `M`: Modified
+- `R`: Renamed
+- `T`: Type (i.e. regular file, symlink, submodule, …) changed
+- `U`: Unmerged
+- `X`: Unknown
+- `B`: Broken pairing
+{{< /details >}}
 
 ```sh
+# Compare the current state and some previous commit
 git diff --name-status <commit>
+
+# Compare two previous commits
+git diff --name-status <new-commit>..<old-commit>
 ```
 
 ### Files
