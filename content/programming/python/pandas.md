@@ -178,6 +178,8 @@ df = pd.read_stata(
 
 When getting `ValueError: Value labels for column col_x are not unique. These cannot be converted to pandas categoricals. The repeated labels are: Not applicable`, I found this alternative way of doing the import by excessive digging into the \(not documented any more\) methods.
 
+More detailed explanation: [python - Loading STATA file: Categorial values must be unique - Stack Overflow](https://stackoverflow.com/a/77236478/10668706)
+
 Docs:
 
 - [IO tools (text, CSV, HDF5, …) — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/user_guide/io.html)
@@ -221,10 +223,9 @@ Since [it is said in code that](https://github.com/pandas-dev/pandas/blob/v2.1.1
 ```python
 data_path = os.path.join("data", "data.dta")
 
-with open(data_path, "rb") as f:
-    reader = pd.io.stata.StataReader(data_path)
-    reader.value_labels()["col_x"][6] = "Not applicable (1)"
-    df = reader.read()
+with pd.io.stata.StataReader(path) as sr:
+    sr.value_labels()["col_x"][6] = "Not applicable (1)"
+    df = sr.read()
 ```
 
 
@@ -900,6 +901,14 @@ Credit: [python - How to replace a value in pandas, with NaN? - Stack Overflow](
 
 ```python
 df["rating"] = df["rating"].replace("No ratings", np.NaN)
+```
+
+Using dictionary: \([credit](https://stackoverflow.com/a/49259581/10668706)\)
+
+```python
+replace = {"No ratings": np.NaN}
+
+df["rating"].map(replace)
 ```
 
 ### Sort things

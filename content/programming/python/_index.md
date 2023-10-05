@@ -31,6 +31,14 @@ from itertools import islice
 dict(islice(my_dict.items(), 0, 5))
 ```
 
+### Search
+
+Keys:
+
+```python
+if key in my_dict:
+    # ...
+```
 
 ## Help
 

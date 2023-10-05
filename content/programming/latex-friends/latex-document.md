@@ -434,6 +434,12 @@ Ref: [Latex - Change margins of only a few pages - Stack Overflow](https://stack
 
 ## Plots/Images
 
+### Position
+
+Ref: [floats - Keeping tables/figures close to where they are mentioned - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/2275/keeping-tables-figures-close-to-where-they-are-mentioned)
+
+`\begin{figure}[!htbp]`
+
 ### Full image
 
 If want to control width:

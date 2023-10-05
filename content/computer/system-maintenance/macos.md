@@ -19,6 +19,15 @@ title: "macOS"
 
 - [Objective-See: OverSight](https://objective-see.com/products/oversight.html)
 
+## Printer
+
+### Hold for Authentication
+
+In Keychain Access.app, search for name of the printer, delete the password, and try again.
+
+The `sudo lpadmin -p [printer-name] -o auth-info-required=username,password` command suggested on [this website](https://www.papercut.com/kb/Main/HoldforAuthentication/) does not work although it looks like it should.
+
+
 ## Shell
 
 ### System Info
