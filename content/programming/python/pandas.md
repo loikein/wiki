@@ -218,7 +218,9 @@ df_reader.value_labels()["col_x"][6] = "Not applicable (1)"
 df = df_reader.read()
 ```
 
-Since [it is said in code that](https://github.com/pandas-dev/pandas/blob/v2.1.1/pandas/io/stata.py#L1121) `Using StataReader as a context manager is the only supported method`, I have wrapped it in a context manager.
+Done!
+
+Since [it is said in code that](https://github.com/pandas-dev/pandas/blob/v2.1.1/pandas/io/stata.py#L1121) `Using StataReader as a context manager is the only supported method`, this is the context manager version:
 
 ```python
 data_path = os.path.join("data", "data.dta")
@@ -282,7 +284,6 @@ df_subset = df[df["Average"].apply(lambda x: isinstance(x, np.ndarray))]
 If get `ValueError: Index contains duplicate entries, cannot reshape`, it means there are duplicate indices sets (rows where all indices are identical).
 
 First [check the rows contain same data](/programming/python/pandas/#list-rows-with-duplicated-values-of-indices), then [drop rows with duplicate indices](/programming/python/pandas/#drop-rows-with-duplicate-indices).
-
 
 
 ## Observe things
@@ -367,6 +368,20 @@ with pd.option_context('display.max_colwidth', None):
 
 # method 2
 print(df.to_string())
+```
+
+### Find the n-th largest and smallest number
+
+Ref: [python - How to extract the n-th maximum/minimum value in a column of a DataFrame in pandas? - Stack Overflow](https://stackoverflow.com/a/48026477/10668706)
+
+```python
+# full list of largest n and smallest n
+df["col"].nlargest(3)
+df["col"].nsmallest(3)
+
+# only the single point
+df["col"].nlargest(3).iloc[[-1]]
+df["col"].nsmallest(3).iloc[[-1]]
 ```
 
 ### List all unique values of a column
@@ -491,7 +506,7 @@ After this, can do a `sns.kdeplot(data=corr_flat,x="Coef")` to see the kernel de
 
 ## Groupby
 
-### Groupby columns
+### Groupby column names
 
 Use case: get average columns across multiple columns with similar names.
 
@@ -538,8 +553,46 @@ len(df_grouped.columns)
 # 18
 ```
 
+Done!
+
 
 ## Column-level operations
+
+### Convert number to range categories
+
+Use case: one column of various numbers => one column of ranges in words.
+
+**Step 1**: get range booleans \([credit](https://stackoverflow.com/a/26830867/10668706)\)
+
+The new column names here will be the name of ranges.
+
+```python
+df["Q>=434"] = (df["q_sum"] >= 434)
+df["289<=Q<434"] = (df["q_sum"] >= 289) & (df["q_sum"] < 434)
+df["258<=Q<289"] = (df["q_sum"] >= 258) & (df["q_sum"] < 289)
+df["Q<258"] = (df["q_sum"] < 258)
+```
+
+**Step 2**: make backup df (skip if no other columns are boolean)
+
+```python
+q_groups = df.copy(deep=True)
+q_groups = df.drop(["q_sum", ...], axis=1) # drop all other columns
+```
+
+**Step 3**: make one column \([credit](https://stackoverflow.com/a/46754885/10668706)\)
+
+```python
+q_groups_col = q_groups.eq(True).dot(q_groups.columns + ',').str.rstrip(',')
+```
+
+**Step 4**: merge back
+
+```python
+df["q_groups"] = q_groups_col
+```
+
+Done!
 
 ### Convert type of columns
 
