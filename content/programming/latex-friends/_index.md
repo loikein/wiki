@@ -18,3 +18,4 @@ title: "LaTeX"
 - [Supported Functions · KaTeX](https://katex.org/docs/supported.html)
 - [The TeX FAQ](https://texfaq.org/)
 - [LaTeX-Tutorial.com](https://latex-tutorial.com/)
+- [LaTeX USI](https://steeven9.github.io/USI-LaTeX/index.html)

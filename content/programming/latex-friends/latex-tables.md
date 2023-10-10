@@ -75,6 +75,38 @@ alt="LaTeX table with a multi-row cell"
 \end{table}
 ```
 
+### Combining everything
+
+Usage of `\multirowcell`:  
+`\multirowcell{<nrow>}[<vmove>][<hor alignment>]{<contents>}` \([CTAN: Package makecell](https://ctan.org/pkg/makecell?lang=en)\)
+
+Using `\multirowcell{<nrow>}[0pt][<alignment>]` here.
+
+{{< figure
+name="latex_table_all.png"
+w="400px"
+alt="LaTeX table with a multi-row-multi-cell linebreaking cell"
+>}}
+
+```latex
+\usepackage{makecell}
+
+\begin{table}\centering
+  \caption{Good table with everything}\label{tab:all}
+  \begin{tabular}{lll}
+    {} \\[-1.8ex]\hline
+    \hline \\[-1.8ex]
+    Head Col 1 &  \multicolumn{2}{c}{\multirowcell{2}[0pt][l]{Not head col\\ any more}}
+    \cr \cline{1-1} \\[-1.8ex]
+    Data Col 1 &  \\ \hline \\[-1.8ex]
+    Data Col 1 & Data Col 2 & Data Col 3 \\ \hline \\[-1.8ex]
+    Data Col 1 & Data Col 2 & Data Col 3 \\
+    \hline
+    \hline \\[-1.8ex]
+  \end{tabular}
+\end{table}
+```
+
 
 ## Table
 
