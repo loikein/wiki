@@ -164,19 +164,34 @@ df = pd.read_excel(
 
 #### `pd.read_stata`
 
+Convert \(all\) categorical to strings \(objects\):
+
+> This will use up significantly more memory compared to the second method below.
+{.book-hint .warning}
+
 ```python
 import pandas as pd
 
+data_path = os.path.join("data", "data.dta")
+
 df = pd.read_stata(
-    os.path.join("data", "data.dta"),
-    convert_categoricals=False,       # if get ValueError: Value labels for column (...) are not unique
-                                      # or just want to speed up
+    data_path,
+    convert_categoricals=False,
 )
+
+with pd.io.stata.StataReader(data_path) as sr:
+    value_labels = sr.value_labels()
+
+for col in df:
+    if col in value_labels:
+        df[col].replace(value_labels[col], inplace=True)
 ```
 
 #### `pd.io.stata.StataReader`
 
 When getting `ValueError: Value labels for column col_x are not unique. These cannot be converted to pandas categoricals. The repeated labels are: Not applicable`, I found this alternative way of doing the import by excessive digging into the \(not documented any more\) methods.
+
+It may be easier if you have access to Stata and can do the cleaning up in Stata first. See: [python - Stata to Pandas: even if there are repeated Value Labels? - Stack Overflow](https://stackoverflow.com/a/46038793/10668706)
 
 More detailed explanation: [python - Loading STATA file: Categorial values must be unique - Stack Overflow](https://stackoverflow.com/a/77236478/10668706)
 
@@ -223,10 +238,16 @@ Done!
 Since [it is said in code that](https://github.com/pandas-dev/pandas/blob/v2.1.1/pandas/io/stata.py#L1121) `Using StataReader as a context manager is the only supported method`, this is the context manager version:
 
 ```python
+import pandas as pd
+
 data_path = os.path.join("data", "data.dta")
 
 with pd.io.stata.StataReader(path) as sr:
-    sr.value_labels()["col_x"][6] = "Not applicable (1)"
+    value_labels = sr.value_labels()
+    # print(value_labels["col_x"])
+    # ...
+    value_labels["col_x"][6] = "Not applicable (1)"
+    # ...
     df = sr.read()
 ```
 
@@ -382,6 +403,21 @@ df["col"].nsmallest(3)
 # only the single point
 df["col"].nlargest(3).iloc[[-1]]
 df["col"].nsmallest(3).iloc[[-1]]
+```
+
+### List all columns
+
+Ref: [python - How to show all columns' names on a large pandas dataframe? - Stack Overflow](https://stackoverflow.com/a/49189503/10668706)
+
+For huge databases, best to refer to its data manual.
+
+```python
+# Cut off after 1,000 columns
+print(df.columns.tolist())
+
+# Shows everything, slow:
+with pd.option_context("display.max_columns", None):
+    print(df.head())
 ```
 
 ### List all unique values of a column
@@ -962,6 +998,8 @@ Using dictionary: \([credit](https://stackoverflow.com/a/49259581/10668706)\)
 replace = {"No ratings": np.NaN}
 
 df["rating"].map(replace)
+# Or (slower, but also works in a loop)
+df["rating"].replace(replace, inplace=True)
 ```
 
 ### Sort things

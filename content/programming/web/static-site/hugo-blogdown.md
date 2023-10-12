@@ -9,6 +9,8 @@ disable_latex: true
 - [Templates for Static Site Generators | CloudCannon](https://cloudcannon.com/templates/)
 - [matcornic/hugo-theme-learn: Porting Grav Learn theme to Hugo](https://github.com/matcornic/hugo-theme-learn) \(The button code I used for [hugo-tufte](https://github.com/loikein/hugo-tufte) comes from here.\)
 - [weitblick/epub: An epub theme for the Static Site Generator HUGO.](https://github.com/weitblick/epub)
+- [imfing/hextra: 🔯 Modern, batteries-included Hugo theme for creating beautiful doc, blog and static websites](https://github.com/imfing/hextra)
+  + Note that it has some [potential performance problems](https://discourse.gohugo.io/t/slow-builds-with-hextra-theme/46492).
 {{< /details >}}
 
 {{< details "Layouts \& shortcodes" >}}
@@ -202,7 +204,7 @@ content
 Remember to:
 
 1. Add search layout and link to search page;
-2. Update deployment commands
+2. Update deployment commands.
 
 Example: [loikein/blog-hugo@6891567](https://github.com/loikein/blog-hugo/commit/6891567c28f6af18976ce433b53ad64f90b93b0e), [loikein/blog-hugo@ef52aef](https://github.com/loikein/blog-hugo/commit/ef52aefbc1af8a2243823c46c49641b625967ff2)
 
@@ -246,8 +248,8 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
 
 1. Delete all .html files in `site/content/`; delete the `site/public/` folder
 2. Add `options(blogdown.method = "markdown")` to `site/.Rprofile`
-3. Restart R (`quit()`)
-4. Run `blogdown::serve_site()` (slow if you have a lot of pages)
+3. Restart R with `quit()`
+4. Run `blogdown::serve_site()` \(slow if there are a lot of pages\)
 5. After the run finishes, run `blogdown::stop_server()`
 
 **Step 2. Test on local Hugo server**
@@ -278,14 +280,14 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
 1. Make sure to check `themes/hugo-theme/static/js/math-code.js`.
     1. Bonus: add `nolatex` inline fix ([L5 of loikein/hugo-book/assets/latex-fix.js](https://github.com/loikein/hugo-book/blob/master/assets/latex-fix.js#L5))
     2. Bonus: add per-page `.Params.disable_latex` check for loading LaTeX renderer ([L1 of loikein/hugo-book/layouts/partials/docs/footer-katex.html](https://github.com/loikein/hugo-book/blob/master/layouts/partials/docs/footer-katex.html#L1))
-2. Note that any `- `, `+ `, or `> ` at beginnings of lines will break the LaTeX block it is in. Need to remove those spaces. (A not-very-good-RegEx for this: ``(`\$\$)((.*\n)*)(-\s.*)((.*\n)*)(\$\$`)``)
+2. Note that within a LaTeX block, any `-␣`, `+␣`, or `>␣` at the beginning of line will break it. Need to remove those spaces. (A not-very-good-RegEx for this: ``(`\$\$)((.*\n)*)(-\s.*)((.*\n)*)(\$\$`)``)
 3. There are cases where the LaTeX code lose the `` ` `` (around or on one side of them) consistently. Need to check for those: \(best way is on Hugo local server\)
-    - LaTeX surrounded by space (e.g. starts with `␣$$` or ends with `$$␣`)
-    - LaTeX surrounded by brackets (e.g. starts with `($$`, `($`, or `(\(`; or ends with `$$)`, `$)`, or `\))`)
+    - LaTeX surrounded by space \(e.g. starts with `␣$$` or ends with `$$␣`\)
+    - LaTeX surrounded by brackets \(e.g. starts with `($$`, `($`, or `(\(`; or ends with `$$)`, `$)`, or `\))`\)
 
 **Step 5. Debugging for Netlify**
 
-1. I had to remove the following files to resolve Netlify building error: `Failed during stage 'preparing repo': error checking for ref: refs/heads/hugo: : exit status 2`
+I had to remove the following files to resolve Netlify building error: `Failed during stage 'preparing repo': error checking for ref: refs/heads/hugo: : exit status 2`
 
 ```text
  7 files changed, 131 deletions(-)
@@ -298,6 +300,4 @@ blogdown::install_theme("xianmin/hugo-theme-jane")
  delete mode 100644 ignored/static-writings/_render.R
 ```
 
-**Step 6. Done!**
-
-
+**Done!**

@@ -132,6 +132,34 @@ document.addEventListener('DOMContentLoaded', function(event) {
 });
 ```
 
+### Inject CSS
+
+Ref: [Inject CSS stylesheet as string using Javascript - Stack Overflow](https://stackoverflow.com/a/15506705/10668706)
+
+```js
+/**
+ * Utility function to add CSS in multiple passes.
+ * @param {string} styleString
+ */
+function addStyle(styleString) {
+  const style = document.createElement('style');
+  style.textContent = styleString;
+  document.head.append(style);
+}
+
+addStyle(`
+  body {
+    color: red;
+  }
+`);
+
+addStyle(`
+  body {
+    background: silver;
+  }
+`);
+```
+
 ### Rich link copy button
 
 [javascript - How to copy a HyperText link into clipboard without losing the link properties - Stack Overflow](https://stackoverflow.com/questions/53003980/)

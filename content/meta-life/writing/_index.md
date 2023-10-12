@@ -13,6 +13,7 @@ title: "写作"
 ### Books
 
 - [English for Writing Research Papers | SpringerLink](https://link.springer.com/book/10.1007/978-3-319-26094-5)
+- [The Little Book of Research Writing by Chaubey, Varanya — EconScribe](https://www.econscribe.org/textbook)
 - [Science Research Writing for Non-Native Speakers of English](https://www.worldscientific.com/worldscibooks/10.1142/p605#t=aboutBook)
 - [The unofficial guide for authors (or how to produce research articles worth citing) - Publications Office of the EU](https://op.europa.eu/en/publication-detail/-/publication/1b71d10e-d733-421b-aada-b6ec784d3966)
 - [PhraseBook for Writing Papers and Research in English | EnglishforResearch.com](http://englishforresearch.com/)

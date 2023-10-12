@@ -141,6 +141,8 @@ Refs:
 
 ## 俚语／网络用语
 
+对于三个词以内的缩写，我的态度都是：何必呢。
+
 AFAIK
 : as far as I know，据我所知
 : [Wiktionary](https://en.wiktionary.org/wiki/as_far_as_one_knows#English)
@@ -152,6 +154,10 @@ BRB
 ICYMI
 : in case you missed it，以防你错过了。用于引出背景信息，或提示一段时间以前已提到过的信息
 : [Wiktionary](https://en.wiktionary.org/wiki/ICYMI)
+
+TMI
+: too much information，信息过多
+: [Wiktionary](https://en.wiktionary.org/wiki/TMI)
 
 YMMV
 : your mileage may vary，每个人的具体情况可能不一样

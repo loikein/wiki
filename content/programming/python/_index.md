@@ -221,9 +221,12 @@ Ref: [python - Printing Lists as Tabular Data - Stack Overflow](https://stackove
 
 TBA.
 
-### JSON
+### JSON/Dictionary
 
 Pretty print: \([credit](https://stackoverflow.com/a/12944035)\)
+
+> `json.dumps()` does not work if there are keys with type `int32`.
+{.book-hint .warning}
 
 ```python
 import json
