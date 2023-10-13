@@ -138,9 +138,18 @@ Refs:
 - [CSS / Methodology / BEM](https://en.bem.info/methodology/css/)
 
 
-## Responsive iframe
+## Queries
 
-### New version (`aspect-ratio`)
+Refs:
+
+- [CSS Style Queries - Ahmad Shadeed](https://ishadeed.com/article/css-container-style-queries/)
+
+
+## Snippets
+
+### Responsive iframe
+
+#### New version (`aspect-ratio`)
 
 ```css
 .video-container {
@@ -165,7 +174,7 @@ Usage:
 </div>
 ```
 
-### Old version (`padding-bottom`)
+#### Old version (`padding-bottom`)
 
 Ref: [Responsive iframes — The Right Way (CSS Only)! | Ben Marshall](https://www.benmarshall.me/responsive-iframes/)
 
@@ -195,7 +204,7 @@ Usage:
 </div>
 ```
 
-## Random shadow animation
+### Random shadow animation
 
 …that I somehow made for something.
 
@@ -212,7 +221,7 @@ Usage:
 }
 ```
 
-## Skip-to-main button
+### Skip-to-main button
 
 Credit: [Hidden content for better a11y | Go Make Things](https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link)
 
@@ -256,11 +265,23 @@ Usage:
 </body>
 ```
 
-## Queries
+### SVG words watermark background
 
-Refs:
+Ref: [Watermark text repeated diagonally css/html - Stack Overflow](https://stackoverflow.com/a/57113720)
 
-- [CSS Style Queries - Ahmad Shadeed](https://ishadeed.com/article/css-container-style-queries/)
+```css
+body {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='350' width='350'><text transform='translate(50, 300) rotate(-45)' fill='WhiteSmoke' font-size='100' font-weight='bold'>DRAFT</text></svg>");
+}
+```
+
+SVG code: \(see [EPUB editing #Image sizing](/programming/web/epub-editing#image-sizing) for a longer expedition of what properties should be what values \& with or without units\)
+
+```svg
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='350' width='350'>
+  <text transform='translate(50, 300) rotate(-45)' fill='WhiteSmoke' font-size='100' font-weight='bold'>DRAFT</text>
+</svg>
+```
 
 
 ## Readings
@@ -280,6 +301,7 @@ Refs:
 ### Pattern
 
 - [Free SVG generators, color tools & web design tools](https://fffuel.co/)
+  + [SVG Generators — Smashing Magazine](https://www.smashingmagazine.com/2021/03/svg-generators/#svg-background-generators)
 - [CSS Polka Dot Generator](https://screenspan.net/polka/)
 
 ## Entertainment

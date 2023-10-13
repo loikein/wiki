@@ -490,10 +490,14 @@ df_subset = df[df["Status Code"].notna()]
 
 ```python
 # only keep rows with certain value for a col
-df_subset = df.query('"Status Code" == "A"')
+# https://stackoverflow.com/a/50697599
+df_subset = df.query('`Status Code` == "A"')
 
 # only keep rows with certain value for a col
-df_subset = df.query('"Status Code" != "B"')
+df_subset = df.query('`Status Code` != "B"')
+
+# no backticks for single word columns
+df_subset = df.query('Date != 2015')
 ```
 
 Also see: \(not tested\)
@@ -511,6 +515,18 @@ df_subset = df[df["Rating"].apply(lambda x: isinstance(x, float))]
 
 # or the opposite
 df_subset = df[df["Rating"].apply(lambda x: not isinstance(x, float))]
+```
+
+### Select columns by column type
+
+Doc: [pandas.DataFrame.select_dtypes — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.select_dtypes.html)
+
+```python
+# See type of all columns
+df.dtypes
+
+# Only get columns of float type
+df_subset = df.select_dtypes("float")
 ```
 
 ### Select rows by index
@@ -542,7 +558,23 @@ After this, can do a `sns.kdeplot(data=corr_flat,x="Coef")` to see the kernel de
 
 ## Groupby
 
-### Groupby column names
+Doc: [pandas.DataFrame.groupby — pandas 2.1.1 documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html)
+
+### Calculate average of columns with many filters \(conditions\)
+
+```python
+import pandas as pd
+
+# Condition: A=Yes or B=Yes
+# For and conditions, use &
+df_subset = hse_micro.query('A == "Yes" | B == "Yes"')
+
+# For every possible combination of C and D,
+# get average of AGE and YEAR
+df_subset.groupby([["C", "D"]])[["AGE", "YEAR"]].mean()
+```
+
+### Groupby column names \(custom groupby function\)
 
 Use case: get average columns across multiple columns with similar names.
 
@@ -751,6 +783,22 @@ With same columns (stack):
 
 ```python
 df_AB = pd.concat([df_A, df_B])
+```
+
+Make all column names upper case or lower case: \([credit](https://stackoverflow.com/a/18305185)\) \(also see: [lower case for cell values](https://stackoverflow.com/questions/29761915/case-insensitive-pandas-dataframe-merge)\)
+
+```python
+# should also work on pd.merge, not tested
+
+df_AB = pd.concat(
+    [df_A.rename(columns=str.lower),
+    df_B.rename(columns=str.lower)]
+)
+
+df_AB = pd.concat(
+    [df_A.rename(columns=str.upper),
+    df_B.rename(columns=str.upper)]
+)
 ```
 
 With same indices (join):

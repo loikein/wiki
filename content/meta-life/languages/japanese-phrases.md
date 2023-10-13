@@ -11,14 +11,18 @@ Refs:
     + [擬音語・擬態語　- 日本語を楽しもう！　-　コラム　-　国立国語研究所](https://www2.ninjal.ac.jp/Onomatope/column.html)
     + [如何记忆日语的拟声词、拟音词和拟态词？ - 知乎](https://www.zhihu.com/question/51014769/answer/541787912)
 - [音喩 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%9F%B3%E5%96%A9)
-- [KY語](https://ja.wikipedia.org/wiki/KY%E8%AA%9E)
+- [若者言葉 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%8B%A5%E8%80%85%E8%A8%80%E8%91%89)
+    + [インターネットスラング - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%82%B9%E3%83%A9%E3%83%B3%E3%82%B0)
+    + [KY語](https://ja.wikipedia.org/wiki/KY%E8%AA%9E)
     + [KY語の検索結果 - 日本語俗語辞書](http://search.zokugo-dict.com/search.cgi?q=KY%B8%EC)
-
+- [日本語教育用アクセント辞典](https://accent.u-biq.org/)
 
 <!-- [助詞 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A9%E8%A9%9E) -->
 
 
-## ABAB
+## 擬音語・擬態語
+
+### ABAB
 
 ざわざわ
 : 1\. 人群吵闹不安。同：ぞわぞわ 1
@@ -28,6 +32,12 @@ Refs:
 じろじろ
 : 目不转睛地盯着人看
 : [コトバンク](https://kotobank.jp/word/%E3%81%98%E3%82%8D%E3%81%98%E3%82%8D-536287)
+
+じわじわ
+: 1\. 缓缓地（推进事项）
+: 2\. 过了一段时间后才感觉到（好笑）。常用：じわじわくる
+: 3\. 形容液体或寒气渗透（布料或身体）
+: [コトバンク](https://kotobank.jp/word/%E3%81%98%E3%82%8F%E3%81%98%E3%82%8F-536455); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E3%81%98%E3%82%8F%E3%81%98%E3%82%8F/)
 
 そわそわ
 : 心中有事情无法平静
@@ -58,7 +68,7 @@ Refs:
 : [コトバンク](https://kotobank.jp/word/%E3%82%82%E3%81%A0%E3%82%82%E3%81%A0-645648); [Weblio辞書](https://www.weblio.jp/content/%E3%82%82%E3%81%A0%E3%82%82%E3%81%A0)
 
 
-## AっBり
+### AっBり
 
 しっくり
 : 刚好，稳定。常用：しっくりくる
@@ -72,9 +82,32 @@ Refs:
 : 精打细算，吝啬
 : [コトバンク](https://kotobank.jp/word/%E3%81%A1%E3%82%83%E3%81%A3%E3%81%8B%E3%82%8A-566823)
 
-## KY語・DAI語
+
+## 若者言葉・ネット用語
+
+あげぽよ
+: 心情很好
+
+ガン見
+: 一直盯着看
+
+ガン無視
+: 彻底忽略
+
+激おこぷんぷん丸
+: 非常生气
+: [Wikipedia](https://ja.wikipedia.org/wiki/%E6%BF%80%E3%81%8A%E3%81%93%E3%81%B7%E3%82%93%E3%81%B7%E3%82%93%E4%B8%B8)
+
+{{< ruby ワンチャン `one chance` >}}
+: 也许有机会
+
+
+### KY語・DAI語
 
 本节按字母顺序排列。
+
+kwsk
+: 詳しく，展开讲讲
 
 ROM
 : 読み専，只看不发言，用于社交媒体
@@ -88,6 +121,10 @@ ROM
 
 バチコーン
 : 两件物体（可以是手掌或脑袋等）碰撞发出的声音
+
+{{< ruby プチ petit >}}
+: _adj._ 小型的，迷你的
+: [コトバンク](https://kotobank.jp/word/%E3%83%97%E3%83%81-124993)
 
 {{< ruby 間怠 まだる >}}い / {{< ruby 間怠 まだる >}}っこい / {{< ruby 間怠 まだる >}}っこしい
 : 缓慢，慢条斯理，拐弯抹角

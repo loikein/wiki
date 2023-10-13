@@ -155,6 +155,10 @@ ICYMI
 : in case you missed it，以防你错过了。用于引出背景信息，或提示一段时间以前已提到过的信息
 : [Wiktionary](https://en.wiktionary.org/wiki/ICYMI)
 
+STFU / STFD
+: shut the fuck up / shut the front door，闭嘴吧你
+: [Wiktionary](https://en.wiktionary.org/wiki/STFU)
+
 TMI
 : too much information，信息过多
 : [Wiktionary](https://en.wiktionary.org/wiki/TMI)
