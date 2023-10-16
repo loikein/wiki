@@ -73,3 +73,5 @@ Films that I have seen.
 | 君の名は。 | 新海誠 | 新海誠 | 2016 | [IMDb](https://www.imdb.com/title/tt5311514/), [豆瓣](https://movie.douban.com/subject/26683290/) | 2016-09-09 | ★★★★★ | |
 | パプリカ | 今敏 | 水上清資, 今敏 | 2006 | [IMDb](https://www.imdb.com/title/tt0851578/), [豆瓣](https://movie.douban.com/subject/1865703/) | 2018-01-20 | ★★★★★ | |
 | The Lion King | Jon Favreau | Jeff Nathanson | 2019 | [IMDb](https://www.imdb.com/title/tt6105098/), [豆瓣](https://movie.douban.com/subject/26884354/) | 2019-08-06 | ★★★★☆ | |
+| シン・エヴァンゲリオン劇場版𝄇 | 庵野秀明 | 庵野秀明 | 2021 | [IMDb](https://www.imdb.com/title/tt2458948/), [豆瓣](https://movie.douban.com/subject/10428501/) | 2023-10-09 | ★★★☆☆ | 在真空中可以给满分，可惜现实不是真空。[🔗](https://mastodon.social/@loikein/111206763928792713) |
+| 君たちはどう生きるか | 宮﨑駿 | 宮﨑駿 | 2023 | [IMDb](https://www.imdb.com/title/tt6587046/), [豆瓣](https://movie.douban.com/subject/26925611/) | 2023-10-15 | ★★★★☆ | 画面五分，音乐五分，配音三分，感情发展零分。 |
