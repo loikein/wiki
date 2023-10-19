@@ -737,6 +737,23 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
     data["Address"] = data["Address"].astype(str) + " " + data[col].fillna("").astype(str)
 ```
 
+### Get column-wise delta \(difference\)
+
+Docs:
+
+- [pandas.DataFrame.diff — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.diff.html)
+- [pandas.DataFrame.pct_change — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pct_change.html)
+
+```python
+# numerical changes
+df_diff = df.diff(axis=1)             # first column empty
+df_diff = df.diff(periods=2, axis=1)  # first two columns empty
+
+# percentage change
+df_diff_pct = df.pct_change(axis=1)             # first column empty
+df_diff_pct = df.pct_change(periods=2, axis=1)  # first two columns empty
+```
+
 <!-- ### Normalise a column
 
 Refs: 
@@ -788,7 +805,16 @@ df = df.set_index(["ID", ...])
 
 ### Combine two DataFrames
 
-With same columns (stack):
+Docs: 
+
+- [Merge, join, concatenate and compare — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/user_guide/merging.html)
+- [pandas.DataFrame.merge — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
+- [pandas.concat — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.concat.html)
+- [pandas.DataFrame.join — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.join.html)
+
+#### Concat \(same columns\)
+
+\(Stack\):
 
 ```python
 df_AB = pd.concat([df_A, df_B])
@@ -810,7 +836,7 @@ df_AB = pd.concat(
 )
 ```
 
-With same indices (join):
+#### Join  \(same indices\)
 
 > It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct (at least not stable). When the single shared index has different values, aka, `outer` does not equal `inner`, the join returns an error.
 > 
@@ -821,9 +847,11 @@ With same indices (join):
 > If you do not want to modify the original df, use `df_AB = df_A.set_index("col").join(df_B.set_index("col"))`.
 {.book-hint .info}
 
+With two parts:
+
 ```python
 df_AB = df_A.join(
-    df_B,
+    df_B,                       # Or [df_B, df_C, ...]
     how="outer",                # Keep all different index values
     lsuffix="A", rsuffix="B",   # if get ValueError: columns overlap 
 )
@@ -837,6 +865,13 @@ df_AB = df_A[["Rating"]].join(
     how="inner",
 )
 ```
+
+With a single list of DataFrames: \(index is `ID`\) \([credit](https://stackoverflow.com/a/38089112)\)
+
+```python
+df = reduce(lambda x, y: pd.merge(x, y, on="ID"), df_list)
+```
+
 
 ### Drop things
 

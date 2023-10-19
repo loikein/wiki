@@ -280,7 +280,7 @@ Adapted from: [CloudCannon/alto-hugo-template/layouts/shortcodes/diffcode.html](
 ```
 {{< /diffcode >}}
 
-Usage:
+Usage: \(add `+␣` or `-␣` before the lines to be highlighted\)
 
 ````html
 {{</* diffcode */>}}
@@ -304,7 +304,7 @@ Usage:
 {{</* highlight-file file="test.py" lang="python" */>}}
 ```
 
-Folder structure: \(via [Hugo Page bundle](https://gohugo.io/content-management/page-bundles/)\)
+Folder structure: \(aka [Hugo Page bundle](https://gohugo.io/content-management/page-bundles/)\)
 
 > Non-page resources work for both branch bundles and leaf bundles. Therefore, so long as the highlighted file is not of [content formats](https://gohugo.io/content-management/formats/), it can be a resource for any page.
 {.book-hint .info}
@@ -328,7 +328,7 @@ Usage:
 ```html
 {{</* kbd I hate typing */>}}
 
-<!-- if key contains symbols, use literal -->
+<!-- if key contains symbols, use literal ticks -->
 {{</* kbd `I` `hate` `typing` */>}}
 ```
 
@@ -341,6 +341,8 @@ user="loikein"
 gist="27ef6913386b206d1b3c18b8e93c5768"
 file="hello-world.md"
 lang="markdown" >}}
+
+Horizontal scrolling with line numbers is a bit buggy:
 
 {{< gist
 user="loikein"

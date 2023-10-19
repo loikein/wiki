@@ -147,6 +147,37 @@ Refs:
 
 ## Snippets
 
+### Descriptive list in grid
+
+```css
+dl {
+  display: grid;
+  gap: 0.5rem 1rem;
+  align-items: end;
+}
+
+dl dt {
+  margin-top: 0;
+  grid-column: 1;
+}
+
+dl dd {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  dl {
+    grid-template-columns: fit-content(50%) auto;
+  }
+
+  dl dd {
+    grid-column: 2;
+    margin-left: 0;
+  }
+}
+```
+
 ### Responsive iframe
 
 #### New version (`aspect-ratio`)
@@ -290,6 +321,7 @@ SVG code: \(see [EPUB editing #Image sizing](/programming/web/epub-editing#image
 - [A Complete Guide to CSS Concepts and Fundamentals | Tania Rascia](https://www.taniarascia.com/overview-of-css-concepts/)
 - [Modern CSS Solutions](https://moderncss.dev/)
 - [CSS debt](https://mtm.dev/css-debt)
+- [A Complete Guide to CSS Grid | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 
 ## Tools/Generators

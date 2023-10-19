@@ -1,0 +1,30 @@
+/* my file names are too long */
+/* whole file name */
+.jp-DirListing-item {
+  padding: 4px;
+}
+
+/* kernel running indicator */
+.jp-DirListing-item.jp-mod-running .jp-DirListing-itemIcon::before {
+  left: -5px;
+}
+
+/* file icon */
+.jp-DirListing-itemIcon {
+  flex: 0 0 16px;
+}
+
+/* file name text */
+.jp-DirListing-itemText {
+  text-overflow: clip;
+}
+
+/* date modified */
+.jp-DirListing-itemModified {
+  flex: 0 0 95px;
+}
+
+/* no upper case file title */
+.jp-SidePanel-header {
+  text-transform: none;
+}

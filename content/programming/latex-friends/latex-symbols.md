@@ -41,9 +41,9 @@ Ref: my brain
 | Function to | `$\to$` | `\to` |
 | Map to | `$\mapsto$` | `\mapsto` |
 | Correspondence to | `$\rightrightarrows$`  | `\rightrightarrows` |
-| If and only if | `$\iff$` | `\iff` |
+| If and only if | `$\iff$` | `\iff` or `\Longleftrightarrow` |
 | If | `$\Longleftarrow$` | `\Longleftarrow` |
-| Only if | `$\implies$` or `$\Longrightarrow$` | `\implies` or `\Longrightarrow` |
+| Only if | `$\Longrightarrow$` | `\implies` or `\Longrightarrow` |
 
 ## Preference relations
 
@@ -71,8 +71,8 @@ Ref: [List of LaTeX mathematical symbols - OeisWiki](https://oeis.org/wiki/List_
 | For all | `$\forall$` | `\forall` |
 | Exists | `$\exists$` | `\exists` |
 | Element | `$\in$` | `\in` |
-| Weak subset | `$\subseteq$` | `\subseteq` |
-| Strong subset | `$\subsetneqq$` | `\subsetneqq` |
+| Weak subset | `$\subseteq$` or `$\subset$` | `\subseteq` or `\subset` |
+| Strong subset | `$\subsetneqq$` or `$\subsetneq$` | `\subsetneqq` or `\subsetneq` |
 | Union | `$\cup$` | `\cup` |
 | Intersection | `$\cap$` | `\cap` |
 

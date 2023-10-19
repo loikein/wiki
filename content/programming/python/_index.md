@@ -54,11 +54,15 @@ help(df.reset_index)
 
 ## List
 
+### Find index of
+
 Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/13301022/10668706)\)
 
 ```python
 val, index = min((val, index) for (index, val) in enumerate(my_list))
 ```
+
+### Export to file
 
 Write a list to file: \([credit](https://pynative.com/python-write-list-to-file/)\)
 
@@ -74,6 +78,15 @@ with open(os.path.join("data", "log.txt"), 'w') as f:
         f.write("%s\n" % item)
 
 print("Done.")
+```
+
+### Sort
+
+```python
+my_list = ["B", "C", "D"]
+my_list.sort()
+print(my_list)
+# ['B', 'C', 'D']
 ```
 
 
