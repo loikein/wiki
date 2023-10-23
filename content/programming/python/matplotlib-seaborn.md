@@ -16,7 +16,6 @@ title: "Matplotlib/Seaborn"
 - ["Artist" in Matplotlib - something I wanted to know before spending tremendous hours on googling how-tos. - DEV Community](https://dev.to/skotaro/artist-in-matplotlib---something-i-wanted-to-know-before-spending-tremendous-hours-on-googling-how-tos--31oo)
 
 
-
 ## General
 
 Doc: [Matplotlib Application Interfaces (APIs) — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/users/explain/api_interfaces.html)
@@ -46,7 +45,9 @@ fig.tight_layout()
 # Save as png
 fig.savefig("fig-1")
 
-# Save as pdf (keep words selectable)
+# Save as pdf
+# Pro: keep words selectable;
+# Con: could result in huge file
 fig.savefig("fig-1.pdf")
 
 # Show on screen
@@ -204,6 +205,109 @@ ax.annotate(
 
 Generally the above-mentioned methods will work with adding indices like: `ax[0,1].set_xlabel(r"$x_1$")`, etc.
 
+### Title
+
+Main title: \([credit](https://stackoverflow.com/a/29814281/10668706)\)
+
+```python
+fig, ax = plt.subplots(2,2)
+
+plt.subplots_adjust(top=0.9)
+grid.fig.suptitle("This is a big title")
+```
+
+Sub titles: `ax[0, 0].set_title('Axis [0, 0]')`
+
+```python
+fig, ax = plt.subplots(2,2)
+
+ax[1, 0].set_title(r"$X_2$ vs $Y_1$")
+```
+
+### Plot size
+
+If there are three subplots:
+
+```python
+fig, ax = plt.subplots(1, 3, figsize=(12, 4))
+```
+
+### Axis settings
+
+Docs:
+
+- [matplotlib.axes.Axes.tick_params — Matplotlib 3.8.0 documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.tick_params.html)
+- [Linestyles — Matplotlib 3.8.0 documentation](https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html)
+
+Ref: [How to Remove Ticks from Matplotlib Plots? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-remove-ticks-from-matplotlib-plots/)
+
+Full example: create stick-together subplots with dashed line divider (to achieve something like [this](https://copyprogramming.com/howto/creating-a-boxplot-facetgrid-in-seaborn-for-python#box-plot-with-divisor-in-seaborn-python), but with even higher degrees of freedom)
+
+```python
+fig1, axes1 = plt.subplots(
+    1, 4,
+    figsize=(7, 5),
+    sharex=True,
+    sharey=True,
+    # remove gap, vertical: "hspace": 0
+    gridspec_kw={"wspace": 0},
+)
+
+# Plot here
+# axes1[0].plot(...)
+
+for ax in axes1:
+    # Set ylim
+    ax.set_ylim([0, 0.02])
+    
+    # Set xticks and yticks to face inside of graph
+    ax.tick_params(direction="in", labelbottom=False)
+
+    # Get rid of all ticks
+    # ax.tick_params(left=False, bottom = False, labelleft=False, labelbottom=False)
+
+    # Get rid of all xtick labels (method 1)
+    # ax.tick_params(labelbottom=False)
+
+    # Get rid of all xtick labels (method 2)
+    # ax.axes.get_xaxis().set_ticklabels([])
+
+    # Keep only a list of xticks and labels:
+    ax.set_xticks(["2020-05", "2020-08"])
+
+# Remove ticks and make dashed axes (spines)
+# Credit: https://stackoverflow.com/a/55949863
+for i in range(1, 3+1):
+    axes1[i].tick_params(left=False)
+    axes1[i].spines["left"].set_linestyle((0,(8,5)))
+
+fig1.tight_layout()
+fig1.savefig(os.path.join("fig", "huge-fig.pdf"))
+```
+
+### Plot into subplots
+
+```python
+fig1, axes1 = plt.subplots(1, 4, figsize=(7, 5))
+fig1.suptitle("Big title")
+
+# Line plots:
+axes1[0].plot(df1, linewidth=1)
+axes1[0].set_xlabel("Df 1")
+# Or title, but titles cannot be placed under subplots
+# axes1[0].set_title("Df 1")
+
+# Scatter plots:
+axes1[1].plot(df2, 'o', alpha=0.01, color="#4c72b0")
+axes1[1].set_xlabel("Df 2")
+
+# Linked scatter plots:
+axes1[2].plot(df3, 'o-', alpha=0.01, color="#4c72b0")
+axes1[2].set_xlabel("Df 3")
+
+axes1[3].plot(df4, linewidth=1)
+axes1[3].set_xlabel("Df 4")
+```
 
 ### Plot into subplots with Seaborn
 
@@ -244,32 +348,6 @@ fig1.savefig(os.path.join("plot", "fig1.pdf"))
 fig1.show() # or if in Jupyter: fig1
 ```
 
-### Title
-
-Main title: \([credit](https://stackoverflow.com/a/29814281/10668706)\)
-
-```python
-fig, ax = plt.subplots(2,2)
-
-plt.subplots_adjust(top=0.9)
-grid.fig.suptitle("This is a big title")
-```
-
-Sub titles: `ax[0, 0].set_title('Axis [0, 0]')`
-
-```python
-fig, ax = plt.subplots(2,2)
-
-ax[1, 0].set_title(r"$X_2$ vs $Y_1$")
-```
-
-### Total size
-
-If there are three subplots:
-
-```python
-fig, ax = plt.subplots(1, 3, figsize=(12, 4))
-```
 
 ## Seaborn
 

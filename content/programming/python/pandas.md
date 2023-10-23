@@ -497,6 +497,8 @@ df_subset = df[df["Status Code"].notna()]
 > Credit: [python - How do I select rows from a DataFrame based on column values? - Stack Overflow](https://stackoverflow.com/a/46165056/10668706)
 {.book-hint .warning}
 
+Also see: [Calculate average of columns with many filters (conditions)](#calculate-average-of-columns-with-many-filters-conditions)
+
 ```python
 # only keep rows with certain value for a col
 # https://stackoverflow.com/a/50697599
@@ -507,6 +509,9 @@ df_subset = df.query('`Status Code` != "B"')
 
 # no backticks for single word columns
 df_subset = df.query('Date != 2015')
+
+# multiple conditions
+df_subset = df.query('Date != 2015 & `Status Code` == "A"')
 ```
 
 Also see: \(not tested\)
@@ -638,6 +643,23 @@ Done!
 ### Convert number to range categories
 
 Use case: one column of various numbers => one column of ranges in words.
+
+#### Method 1: empty column
+
+Ref: [python - How to add an empty column to a dataframe? - Stack Overflow](https://stackoverflow.com/a/16327135)
+
+```python
+df["q_groups"] = ""
+
+# Note: this used to be: df[(df["q_sum"]>=434)]["q_groups"]
+# But newer versions of pandas will raise warning
+df.loc[(df["q_sum"]>=434), "q_groups"] = "Q>=434"
+df.loc[(df["q_sum"]>=289) & (df["q_sum"]<434), "q_groups"] = "289<=Q<434"
+df.loc[(df["q_sum"]>=258) & (df["q_sum"]<289), "q_groups"] = "258<=Q<289"
+df.loc[(df["q_sum"]<258), "q_groups"] = "Q<258"
+```
+
+#### Method 2: boolean columns
 
 **Step 1**: get range booleans \([credit](https://stackoverflow.com/a/26830867/10668706)\)
 

@@ -11,6 +11,9 @@ title: "Python"
 - [Python Tutorials – Data to Fish](https://datatofish.com/python-tutorials/)
 - [Intermediate Python — Python Tips 0.1 documentation](https://book.pythontips.com/en/latest/index.html#)
     + Repository: [yasoob/intermediatePython](https://github.com/yasoob/intermediatePython)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+    + Repository: [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+
 
 ## Dictionary
 
@@ -61,6 +64,21 @@ Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/1330
 ```python
 val, index = min((val, index) for (index, val) in enumerate(my_list))
 ```
+
+### Find n-th element
+
+```python
+# first
+my_list[0]
+
+# last
+my_list[-1]
+
+# middle
+# https://stackoverflow.com/questions/38130895/find-middle-of-a-list#comment105177234_38131003
+my_list[int(len(my_list)//2)]
+```
+
 
 ### Export to file
 
