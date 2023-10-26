@@ -13,6 +13,7 @@ title: "Python"
     + Repository: [yasoob/intermediatePython](https://github.com/yasoob/intermediatePython)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
     + Repository: [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+- [Python - CopyProgramming](https://copyprogramming.com/t/python)
 
 
 ## Dictionary

@@ -452,9 +452,9 @@ df[df.index.duplicated(keep='first')]
 ```
 
 
-## Select \(filter\) things
+## Select columns \(filter\)
 
-### Select columns by name
+### By name
 
 ```python
 # must use double brackets
@@ -462,7 +462,7 @@ df_subset = pd.DataFrame(df[['col1']])
 df_subset = pd.DataFrame(df[['col1', 'col2', ...]])
 ```
 
-### Select columns with RegEx
+### By name with RegEx
 
 Credit: [python - How to select columns from dataframe by regex - Stack Overflow](https://stackoverflow.com/a/30808571/10668706)
 
@@ -474,7 +474,31 @@ df[rating_cols]                     # returns a small df
 df[rating_cols]["rating_2021_1"]    # returns a series
 ```
 
-### Select rows by column value
+### By column type
+
+Doc: [pandas.DataFrame.select_dtypes — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.select_dtypes.html)
+
+```python
+# See type of all columns
+df.dtypes
+
+# Only get columns of float type
+df_subset = df.select_dtypes("float")
+```
+
+## Select rows \(filter\)
+
+### By index
+
+Doc: [pandas.DataFrame.loc — pandas 2.1.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html)
+
+```python
+df.loc["A0001"]
+```
+
+### By column value
+
+With boolean indexing:
 
 ```python
 # only keep rows with certain value for a col
@@ -491,6 +515,8 @@ df_subset = df[df["Name"].str.startswith("One d", na=False)]
 df_subset = df[df["Status Code"].isna()]
 df_subset = df[df["Status Code"].notna()]
 ```
+
+With query:
 
 > When the value of some cells are lists, pandas will raise `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`. In that case, try this method instead:
 > 
@@ -519,7 +545,43 @@ Also see: \(not tested\)
 - [python - Pandas filter data frame rows by function - Stack Overflow](https://stackoverflow.com/a/75839871)
 - [python - Pandas filtering not working - Stack Overflow](https://stackoverflow.com/a/47420094)
 
-### Select rows by cell type
+### By column value from another DataFrame
+
+Ref: [python - pandas - filter dataframe by another dataframe by row elements - Stack Overflow](https://stackoverflow.com/a/33282617)
+
+The core idea is to get a list of index (from another DataFrame), and use the index list to filter the original DataFrame.
+
+This extra column is not within the original DataFrame, the only thing they need to have in common is the index.
+
+With boolean indexing:
+
+```python
+i_q_0_258 = df_q_sum[(df_q_sum['q'] < 258) & (df_q_sum['q'] >0)].index
+
+# old way of subsetting
+df_q_0_258  = df[df.index.isin(i_q_0_258)]
+# new way of subsetting
+df_q_0_258 = df.loc[i_q_0_258]
+
+len(df_q_0_258)
+# 41
+```
+
+With query:
+
+```python
+i_q_0_258 = df_q_sum.query('q < 258 & q > 0').index
+
+# old way of subsetting
+df_q_0_258  = df[df.index.isin(i_q_0_258)]
+# new way of subsetting
+df_q_0_258 = df.loc[i_q_0_258]
+
+len(df_q_0_258)
+# 41
+```
+
+### By cell type
 
 Credit: [python - Select row from a DataFrame based on the type of the object(i.e. str) - Stack Overflow](https://stackoverflow.com/a/39277211/10668706)
 
@@ -529,26 +591,6 @@ df_subset = df[df["Rating"].apply(lambda x: isinstance(x, float))]
 
 # or the opposite
 df_subset = df[df["Rating"].apply(lambda x: not isinstance(x, float))]
-```
-
-### Select columns by column type
-
-Doc: [pandas.DataFrame.select_dtypes — pandas 2.1.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.select_dtypes.html)
-
-```python
-# See type of all columns
-df.dtypes
-
-# Only get columns of float type
-df_subset = df.select_dtypes("float")
-```
-
-### Select rows by index
-
-Doc: [pandas.DataFrame.loc — pandas 2.1.0 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html)
-
-```python
-df.loc["A0001"]
 ```
 
 ### Select \(mask\) triangle of DataFrame

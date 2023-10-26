@@ -241,7 +241,7 @@ Docs:
 
 Ref: [How to Remove Ticks from Matplotlib Plots? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-remove-ticks-from-matplotlib-plots/)
 
-Full example: create stick-together subplots with dashed line divider (to achieve something like [this](https://copyprogramming.com/howto/creating-a-boxplot-facetgrid-in-seaborn-for-python#box-plot-with-divisor-in-seaborn-python), but with even higher degrees of freedom)
+Full example: create stick-together subplots with dashed line divider (to achieve something like [this](https://copyprogramming.com/howto/creating-a-boxplot-facetgrid-in-seaborn-for-python#box-plot-with-divisor-in-seaborn-python), but with wide data and not using seaborn)
 
 ```python
 fig1, axes1 = plt.subplots(
