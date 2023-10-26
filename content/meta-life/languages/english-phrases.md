@@ -121,6 +121,10 @@ de jure
 : _adj._ 名义上的，法律上的
 : [Wiktionary](https://en.wiktionary.org/wiki/de_jure#English); [Wikipedia](https://en.wikipedia.org/wiki/De_jure)
 
+jure uxoris
+: _adv._ 通过妻子得到的（地位，财富，等等）
+: [Wiktionary](https://en.wiktionary.org/wiki/jure_uxoris); [Wikipedia](https://en.wikipedia.org/wiki/Jure_uxoris)
+
 nota bene / N.B.
 : _v._ 需要注意的是，用于写作中提到某处细节时
 : [Wiktionary](https://en.wiktionary.org/wiki/nota_bene#English); [Wikipedia](https://en.wikipedia.org/wiki/Nota_bene)

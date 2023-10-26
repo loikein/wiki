@@ -126,6 +126,10 @@ ROM
 : _adj._ 小型的，迷你的
 : [コトバンク](https://kotobank.jp/word/%E3%83%97%E3%83%81-124993)
 
+{{< ruby 報連相 ほうれんそう >}}
+: 報告連絡相談，报告・联络・讨论，一种日本公司中的管理哲学
+: [Wikipedia](https://ja.wikipedia.org/wiki/%E5%A0%B1%E3%83%BB%E9%80%A3%E3%83%BB%E7%9B%B8)
+
 {{< ruby 間怠 まだる >}}い / {{< ruby 間怠 まだる >}}っこい / {{< ruby 間怠 まだる >}}っこしい
 : 缓慢，慢条斯理，拐弯抹角
 : [コトバンク](https://kotobank.jp/word/%E9%96%93%E6%80%A0%E3%81%93%E3%81%84-634543); [goo国語辞書](https://dictionary.goo.ne.jp/word/%E9%96%93%E6%80%A0%E3%81%A3%E3%81%93%E3%81%84/#jn-208371)
