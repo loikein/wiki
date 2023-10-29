@@ -16,6 +16,7 @@ Refs:
     + [KY語](https://ja.wikipedia.org/wiki/KY%E8%AA%9E)
     + [KY語の検索結果 - 日本語俗語辞書](http://search.zokugo-dict.com/search.cgi?q=KY%B8%EC)
 - [日本語教育用アクセント辞典](https://accent.u-biq.org/)
+- [故事ことわざ辞典](https://kotowaza-dictionary.jp/)
 
 <!-- [助詞 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A9%E8%A9%9E) -->
 
@@ -118,6 +119,9 @@ ROM
 {{< ruby シュール surreal >}}
 : 超现实，荒诞，令人摸不着头脑，搞笑
 : [コトバンク](https://kotobank.jp/word/%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%AB-527870)
+
+たかが〇〇、されど〇〇
+: 不起眼的东西也有变得十分重要的时候，一文钱难倒英雄汉。常用：たかが一円、されど一円
 
 バチコーン
 : 两件物体（可以是手掌或脑袋等）碰撞发出的声音

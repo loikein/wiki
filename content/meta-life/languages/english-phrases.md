@@ -143,7 +143,7 @@ Refs:
     + [Category:Latin literary phrases - Wikipedia](https://en.wikipedia.org/wiki/Category:Latin_literary_phrases)
 
 
-## 俚语／网络用语
+## 俚语／网络用语／其余
 
 对于三个词以内的缩写，我的态度都是：何必呢。
 
@@ -159,6 +159,10 @@ ICYMI
 : in case you missed it，以防你错过了。用于引出背景信息，或提示一段时间以前已提到过的信息
 : [Wiktionary](https://en.wiktionary.org/wiki/ICYMI)
 
+just my two cents/pennies
+: 这只是我的想法（谦逊语）
+: [Wiktionary](https://en.wiktionary.org/wiki/two_cents); [Wikipedia](https://en.wikipedia.org/wiki/My_two_cents)
+
 STFU / STFD
 : shut the fuck up / shut the front door，闭嘴吧你
 : [Wiktionary](https://en.wiktionary.org/wiki/STFU)
@@ -170,6 +174,10 @@ TMI
 YMMV
 : your mileage may vary，每个人的具体情况可能不一样
 : [Wiktionary](https://en.wiktionary.org/wiki/your_mileage_may_vary#English)
+
+yours truly
+: 我（谦逊语）
+: [Wiktionary](https://en.wiktionary.org/wiki/yours_truly)
 
 zhoosh sth. up
 : _v._ 提高，改善

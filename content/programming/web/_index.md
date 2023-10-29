@@ -73,4 +73,16 @@ Sites:
 - [Mark Thomas Miller](https://mtm.dev/)
 - [Projects · Adam Schwartz](https://adamschwartz.co/projects/)
 
+Japanese sites: \([my post on fedi](https://mastodon.social/@loikein/110599760545613583)\)
+
+- [Hail2u](https://hail2u.net/)
+- [r7kamura.com](https://r7kamura.com/)
+- [dskd](https://dskd.jp/)
+- [terkel.jp](https://terkel.jp/) \(From Fontworks\)
+- [kojika17](https://kojika17.com/)
+
+Chinese sites:
+
+- [Isla](https://www.guhub.cn/)
+
 <!-- - [Archive](https://matt-rickard.com/archive) -->

@@ -52,3 +52,4 @@ pdflatex -v[--version]  # TeX Life
     + [Leanpub: Publish Early, Publish Often](https://leanpub.com/)
     + [Manning](https://www.manning.com/)
 - [Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials](https://freecomputerbooks.com/)
+- [Higher Computing Science - Scotland - BBC Bitesize](https://www.bbc.co.uk/bitesize/subjects/zxmh34j)

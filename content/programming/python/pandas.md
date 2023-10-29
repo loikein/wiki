@@ -581,7 +581,7 @@ len(df_q_0_258)
 # 41
 ```
 
-### By cell type
+### By cell type in column
 
 Credit: [python - Select row from a DataFrame based on the type of the object(i.e. str) - Stack Overflow](https://stackoverflow.com/a/39277211/10668706)
 
