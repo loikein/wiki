@@ -42,6 +42,14 @@ monsieur
 : 先生（尊称）
 : [Wiktionary](https://en.wiktionary.org/wiki/monsieur#English); [Wikipedia](https://en.wikipedia.org/wiki/Monsieur)
 
+toodle-oo / toodeloo
+: 再见，浮夸或幽默地宣告自己的离开
+: [Wiktionary](https://en.wiktionary.org/wiki/toodeloo)
+
+touché
+: 说得好，用于承认对方的观点说服了自己
+: [Wiktionary](https://en.wiktionary.org/wiki/touch%C3%A9#English)
+
 triage
 : _n._ 评估优先顺位。常用：need triage
 : [Wiktionary](https://en.wiktionary.org/wiki/triage#English)
@@ -160,7 +168,7 @@ ICYMI
 : [Wiktionary](https://en.wiktionary.org/wiki/ICYMI)
 
 just my two cents/pennies
-: 这只是我的想法（谦逊语）
+: 这只是我的想法（谦逊用语）
 : [Wiktionary](https://en.wiktionary.org/wiki/two_cents); [Wikipedia](https://en.wikipedia.org/wiki/My_two_cents)
 
 STFU / STFD
@@ -176,7 +184,7 @@ YMMV
 : [Wiktionary](https://en.wiktionary.org/wiki/your_mileage_may_vary#English)
 
 yours truly
-: 我（谦逊语）
+: 我（谦逊或幽默用语）
 : [Wiktionary](https://en.wiktionary.org/wiki/yours_truly)
 
 zhoosh sth. up
