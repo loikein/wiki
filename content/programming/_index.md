@@ -53,3 +53,8 @@ pdflatex -v[--version]  # TeX Life
     + [Manning](https://www.manning.com/)
 - [Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials](https://freecomputerbooks.com/)
 - [Higher Computing Science - Scotland - BBC Bitesize](https://www.bbc.co.uk/bitesize/subjects/zxmh34j)
+- [Bookshelf: Build Solid Computer Science Foundations](https://devgrowth-templates.notion.site/devgrowth-templates/0a8571d16ae0401a82723800fb2fb062?v=4eecf67f93bd4cf8b0398ca664d81696)
+
+<!-- seviche's bookmarks
+- [Airtable - About Coding](https://airtable.com/appUVHB29NzA8Tysi/shrpftxf6JgRomP2X/tblEvtThXHNBMQ8lW/viwMvPLTmjMGTL5fc)
+ -->
