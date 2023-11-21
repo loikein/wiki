@@ -72,6 +72,8 @@ Sites:
 - [Brain Baking Archives | Brain Baking](https://brainbaking.com/archives/)
 - [Mark Thomas Miller](https://mtm.dev/)
 - [Projects · Adam Schwartz](https://adamschwartz.co/projects/)
+- [Will Tarpey](https://www.willtarpey.com/)
+- [Snook.ca: Life & Times of a Web Developer.](https://snook.ca/)
 
 Japanese sites: \([my post on fedi](https://mastodon.social/@loikein/110599760545613583)\)
 

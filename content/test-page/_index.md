@@ -266,6 +266,33 @@ TODO: Use [gohugoio/hugo/docs/layouts/shortcodes/code-toggle.html](https://githu
 
 ## Custom Shortcodes (by me)
 
+### cols
+
+Inspired by columns in this theme, with `lang` settings.
+
+{{< cols "zh-Hans,en,ja" >}}
+你好世界
+||
+Hello world
+
+Hello world [test](#)
+||
+こんにちは
+{{< /cols >}}
+
+Usage: 
+
+```html
+{{</* cols "zh-Hans,en,ja" */>}}
+你好世界
+||
+Hello world
+||
+こんにちは
+{{</* /cols */>}}
+```
+
+
 ### diffcode
 
 Adapted from: [CloudCannon/alto-hugo-template/layouts/shortcodes/diffcode.html](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/shortcodes/diffcode.html) and [CloudCannon/alto-hugo-template/layouts/partials/diffcode.html](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/partials/diffcode.html).
@@ -280,7 +307,7 @@ Adapted from: [CloudCannon/alto-hugo-template/layouts/shortcodes/diffcode.html](
 ```
 {{< /diffcode >}}
 
-Usage: \(add `+␣` or `-␣` before the lines to be highlighted\)
+Usage: \(add `+` or `-` \(no space\) before the lines to be highlighted\)
 
 ````html
 {{</* diffcode */>}}

@@ -19,3 +19,7 @@ title: "LaTeX"
 - [The TeX FAQ](https://texfaq.org/)
 - [LaTeX-Tutorial.com](https://latex-tutorial.com/)
 - [LaTeX USI](https://steeven9.github.io/USI-LaTeX/index.html)
+
+## Tools
+
+- [ezgranet/pdfwordcounter: PDF Word Counter](https://github.com/ezgranet/pdfwordcounter)

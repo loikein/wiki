@@ -322,9 +322,19 @@ SVG code: \(see [EPUB editing #Image sizing](/programming/web/epub-editing#image
 - [Modern CSS Solutions](https://moderncss.dev/)
 - [CSS debt](https://mtm.dev/css-debt)
 - [A Complete Guide to CSS Grid | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [A Complete Guide to Flexbox | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 
 ## Tools/Generators
+
+### Colours
+
+- [OddContrast](https://www.oddcontrast.com/ \(any input, any sliders, any output\)
+- [Colorable](https://colorable.jxnblk.com/ffffff/000000) \(HEX input, HSL sliders\)
+  + Very similar: [Colour Contrast Checker](https://colourcontrast.cc/ffffff/000000)
+- [Color.review - Colors that look and work great for everyone](https://color.review/) \(big colour picker with iso-contrast contour lines\)
+- [EightShapes Contrast Grid](https://contrast-grid.eightshapes.com/) \(cross-check many colours all at once\)
+- [WhoCanUse](https://www.whocanuse.com/) \(visual impairment simulations\)
 
 ### Shadow
 

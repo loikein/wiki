@@ -1,6 +1,6 @@
 ---
 # bookCollapseSection: true
-weight: 40
+weight: 50
 title: "摄影"
 ---
 ## Ideas

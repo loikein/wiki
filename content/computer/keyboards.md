@@ -35,11 +35,16 @@ Reference:
 | `…` | macOS   | {{< kbd `option` `;` >}}    | {{< kbd `option` `.` >}}                        |                 |
 |     | Windows | \({{< kbd `Alt` `0133` >}}\)| \({{< kbd `Alt` `0133` >}}\)                    |                 |
 | `@` | macOS   |                   | {{< kbd `option` `L` >}}                        |                 |
-|     | Windows |                   | {{< kbd `Strg` `Alt` `Q` >}}<br>{{< kbd `AltGr`  `Q` >}} |                 |
+|     | Windows |                   | {{< kbd `Strg` `Alt` `Q` >}} or<br>{{< kbd `AltGr`  `Q` >}} |                 |
 | `_` | macOS   |                   |                                       | {{< kbd `shift` `ろ` >}}  |
 |     | Windows |                   |                                       | {{< kbd `shift` `\` >}}   |
 | `\` | macOS   |                   | {{< kbd `shift`  `option`  `7` >}}              | {{< kbd `option`  `¥` >}} |
-|     | Windows |                   | {{< kbd `Strg`  `Alt`  `ß` >}}<br>{{< kbd `AltGr`  `ß` >}} |                 |
+|     | Windows |                   | {{< kbd `Strg`  `Alt`  `ß` >}} or<br>{{< kbd `AltGr`  `ß` >}} |                 |
+| `–` (en) | macOS   | {{< kbd `option`  `-` >}} |   |   |
+|          | Windows   | \({{< kbd `Alt`  `0150` >}}\) |   |   |
+| `—` (em) | macOS   | {{< kbd `option` `shift` `-` >}} |   |   |
+|          | Windows   | \({{< kbd `Alt`  `0151` >}}\) |   |   |
+
 
 ## macOS Cocoa Text system key bindings
 
