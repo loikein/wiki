@@ -5,6 +5,10 @@ title: "Test pages"
 ---
 [CommonMark Spec](https://spec.commonmark.org/)
 
+> Everything is tested on my 13 inch laptop, in light mode.
+{.book-hint .info}
+
+
 ## Normal tests
 
 Begin [test file](https://gist.github.com/loikein/27ef6913386b206d1b3c18b8e93c5768)…
@@ -292,6 +296,37 @@ Hello world
 {{</* /cols */>}}
 ```
 
+### cols2
+
+Cols, with `lang` settings, with footnote support.
+
+{{% cols2 "zh-Hans,en,ja" %}}
+你好世界
+||
+Hello world
+
+Hello world [test](#)[^cols2]
+||
+こんにちは
+{{% /cols2 %}}
+
+[^cols2]: This is a footnote inside `cols2`.
+
+Usage: \(Either place will work for the footnote. Line breaks for robustness, but seem not necessary.\)
+
+```html
+{{%/* cols "zh-Hans,en,ja" */%}}
+你好世界
+||
+Hello world [^cols2]
+||
+こんにちは
+
+[^cols2]: This is a footnote inside `cols2`. <!-- here... -->
+{{%/* /cols */%}}
+
+[^cols2]: This is a footnote inside `cols2`. <!-- ...or here -->
+```
 
 ### diffcode
 
@@ -309,7 +344,7 @@ Adapted from: [CloudCannon/alto-hugo-template/layouts/shortcodes/diffcode.html](
 
 Usage: \(add `+` or `-` \(no space\) before the lines to be highlighted\)
 
-````html
+````markdown
 {{</* diffcode */>}}
 ```sh
 [submodule "something"]
