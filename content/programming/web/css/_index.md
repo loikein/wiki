@@ -323,6 +323,7 @@ SVG code: \(see [EPUB editing #Image sizing](/programming/web/epub-editing#image
 - [CSS debt](https://mtm.dev/css-debt)
 - [A Complete Guide to CSS Grid | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [A Complete Guide to Flexbox | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [100 Days Of More Or Less Modern CSS - Manuel Matuzovic](https://www.matuzo.at/blog/2022/100-days-of-more-or-less-modern-css)
 
 
 ## Tools/Generators
