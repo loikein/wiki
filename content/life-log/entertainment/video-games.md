@@ -1,5 +1,4 @@
 ---
-weight: 800
 title: "Video Games"
 ---
 

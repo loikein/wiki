@@ -1,6 +1,5 @@
 ---
-weight: 10
-title: "爱因斯坦：我的世界观"
+title: "爱因斯坦：我的世界观（全文）"
 ---
 {{% cols2 "en,zh-Hans" %}}
 English version: [THE WORLD AS I SEE IT - Internet Archive](https://ia801500.us.archive.org/21/items/in.ernet.dli.2015.127962/2015.127962.The-World-As-I-See-It.pdf) \(Some pages are swapped, but there is page number.\)

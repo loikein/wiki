@@ -17,6 +17,7 @@ Refs:
     + [KY語の検索結果 - 日本語俗語辞書](http://search.zokugo-dict.com/search.cgi?q=KY%B8%EC)
 - [日本語教育用アクセント辞典](https://accent.u-biq.org/)
 - [故事ことわざ辞典](https://kotowaza-dictionary.jp/)
+- [見出しの並べ方 | 岩波国語辞典](https://japanknowledge.com/contents/iwanami_kokugo/hanrei_03.html)
 
 <!-- [助詞 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A9%E8%A9%9E) -->
 
@@ -78,6 +79,10 @@ Refs:
 じっくり
 : 仔细。常用：じっくり話す
 : [コトバンク](https://kotobank.jp/word/%E3%81%98%E3%81%A3%E3%81%8F%E3%82%8A-521213)
+
+しゃっきり
+: 牢固，坚定。同：しっかり
+: [コトバンク](https://kotobank.jp/word/%E3%81%97%E3%82%83%E3%81%A3%E3%81%8D%E3%82%8A-525408)
 
 ちゃっかり
 : 精打细算，吝啬

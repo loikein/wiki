@@ -1,5 +1,4 @@
 ---
-weight: 300
 title: "Podcast"
 ---
 

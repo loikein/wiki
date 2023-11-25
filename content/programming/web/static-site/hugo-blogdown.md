@@ -2,6 +2,12 @@
 title: "Hugo/Blogdown"
 disable_latex: true
 ---
+> Caution before you start:
+> 
+> [Hugo's documentation is bad - Sagar Behere](https://sagar.se/blog/hugo-documentation/)
+{.book-hint .warning}
+
+
 ## \(Maybe\) Useful resources
 
 {{< details "Themes" >}}
@@ -11,6 +17,7 @@ disable_latex: true
 - [weitblick/epub: An epub theme for the Static Site Generator HUGO.](https://github.com/weitblick/epub)
 - [imfing/hextra: 🔯 Modern, batteries-included Hugo theme for creating beautiful doc, blog and static websites](https://github.com/imfing/hextra)
   + Note that it has some [potential performance problems](https://discourse.gohugo.io/t/slow-builds-with-hextra-theme/46492).
+- [nicokaiser/hugo-theme-gallery: Gallery Theme for Hugo](https://github.com/nicokaiser/hugo-theme-gallery) \(Note: This theme is using git as photo storage, which I do not like.\)
 {{< /details >}}
 
 {{< details "Layouts \& shortcodes" >}}
@@ -23,7 +30,7 @@ disable_latex: true
 - [liwenyip/hugo-easy-gallery: Automagical css image gallery in Hugo using shortcodes, with optional lightbox/carousel gadget using PhotoSwipe and jQuery.](https://github.com/liwenyip/hugo-easy-gallery)
 {{< /details >}}
 
-{{< details "Sites" >}}
+{{< details "Sites to refer to" >}}
 - [brycewray/hugo-site: This is the repository from which the Hugo-generated version of https://www.brycewray.com is built.](https://github.com/brycewray/hugo-site)
 - [Articles - Veriphor](https://www.veriphor.com/articles/) \(Ran by [jmooring](https://github.com/jmooring)\)
 - [MelonKony/millmint.net: Central site for the Petticoat Project and its associated worldbuilding material.](https://github.com/MelonKony/millmint.net/tree/live)
@@ -31,6 +38,10 @@ disable_latex: true
   + Repository: [GitHub - pawelgrzybek/pawelgrzybek.com](https://github.com/pawelgrzybek/pawelgrzybek.com)
 {{< /details >}}
 
+{{< details "Tutorials" >}}
+- [External learning resources | Hugo](https://gohugo.io/getting-started/external-learning-resources/)
+- [Tutorials | CloudCannon](https://cloudcannon.com/tutorials/)
+{{< /details >}}
 
 ## Basics
 

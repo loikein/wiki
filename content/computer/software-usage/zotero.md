@@ -3,11 +3,24 @@ weight: 400
 title: "Zotero"
 ---
 
-## Useful commands
+## Useful tricks
+
+### See all collections an item is in
 
 > [How can I see what collections my item is in? [Zotero Documentation]](https://www.zotero.org/support/kb/collections_containing_an_item)
 > 
-> To see all the collections an item is in, select the item and then hold down the {{< kbd "Option" >}} key (macOS), {{< kbd "Control" >}} key (Windows), or {{< kbd "Alt" >}} key (Linux). This will highlight all collections that contain the selected item. 
+> To see all the collections an item is in, select the item and then hold down the {{< kbd "Option" >}} key (macOS), {{< kbd "Control" >}} key (Windows), or {{< kbd "Alt" >}} key (Linux). This will highlight all collections that contain the selected item.
+
+### Use outside PDF viewer on iOS
+
+> [Using an External PDF Reader with iOS App - Zotero Forums](https://forums.zotero.org/discussion/comment/428370/#Comment_428370)
+> 
+> 1. Open the PDF on Zotero and share to GoodNotes (include annotations if you already have some)
+> 2. Read and highlight/annotate the PDF in Goodnotes
+> 3. Once you are done, share from GoodNotes to Zotero (include annotations obviously)
+> 4. The PDF will appear as a separate entry in the library. Drag and drop it onto the original entry, and it will be moved there. Tap on 'i' to check that there should now be two PDFs for the same entry
+> 5. Delete the old PDF from that entry by long press and 'Move to Trash'
+
 
 ## Useful Plug-Ins
 

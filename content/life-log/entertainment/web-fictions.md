@@ -1,5 +1,4 @@
 ---
-weight: 200
 title: "Web Fictions"
 ---
 

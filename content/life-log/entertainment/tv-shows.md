@@ -1,5 +1,4 @@
 ---
-weight: 600
 title: "TV Shows & Animes"
 ---
 
