@@ -42,6 +42,10 @@ git  version
 npm  version
 node -v[--version]
 pdflatex -v[--version]  # TeX Life
+
+# Ruby's OpenSSL version
+# https://stackoverflow.com/a/13957635
+ruby -ropenssl -e "puts OpenSSL::VERSION"
 ```
 
 

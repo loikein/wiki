@@ -65,10 +65,17 @@ TV shows & Animes that I am watching/have watched.
 | 英雄王、武を極めるため転生す | 葛谷直行 | STUDIO COMET | 2023 | [MyAnimeList](https://myanimelist.net/anime/50481/), [豆瓣](https://movie.douban.com/subject/35682437/) | 2023-03-15 | ★★★☆☆ | 主角团非常搞笑，挺有意思。 |
 | 勇者パーティーを追放されたビーストテイマー | 濁川敦 | EMT Squared | 2022 | [MyAnimeList](https://myanimelist.net/anime/52046/), [豆瓣](https://movie.douban.com/subject/35924070/) | 2023-03-16 | ★★☆☆☆ | 每一集都比较公式化。 |
 | 【推しの子】 | 平牧大輔 | 動画工房 | 2023 | [MyAnimeList](https://myanimelist.net/anime/52034/), [豆瓣](https://movie.douban.com/subject/35936775/) | 2023-07-13 | ★★★★★ | 第一集五星，后面三星，综合五星（。 |
+| Overlord (S1) | 伊藤尚往 | MADHOUSE | 2015 | [MyAnimeList](https://myanimelist.net/anime/29803/), [豆瓣](https://movie.douban.com/subject/25972406/) | 2023-11-26 | ★★★☆☆ | 挺有意思的，如果主角内心挣扎再多一些就更好了。 |
+| Overlord (S2) | 伊藤尚往 | MADHOUSE | 2018 | [MyAnimeList](https://myanimelist.net/anime/35073/), [豆瓣](https://movie.douban.com/subject/26994749/) | 2023-11-26 | ★★★☆☆ |  |
+| Overlord (S3) | 伊藤尚往 | MADHOUSE | 2018 | [MyAnimeList](https://myanimelist.net/anime/37675/), [豆瓣](https://movie.douban.com/subject/30187694/) | 2023-11-29 | ★★★☆☆ |  |
 
-<!-- | イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
+<!--
+| Title | Director | Production/Studio | Year | [MyAnimeList](), [豆瓣]() | Progress/Finish date | Rating | Review |
+| イド：インヴェイデッド |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/34456027/) | TODO |  |  |
 | 映像研には手を出すな！ |  |  | 2020 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/33438250/) | TODO |  |  |
 | 舟を編む |  |  | 2016 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/26752720/) | TODO |  |  |
 | 約束のネバーランド |  |  | 2019 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/30206430/) | TODO |  |  |
 | Dr.STONE |  |  | 2019 | [MyAnimeList](https://myanimelist.net/anime//), [豆瓣](https://movie.douban.com/subject/30377498/) | TODO |  |  |
+
+| Overlord (S4) | 伊藤尚往 | MADHOUSE | 2022 | [MyAnimeList](https://myanimelist.net/anime/48895/), [豆瓣]() | finish | rating |  |
  -->

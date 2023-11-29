@@ -75,6 +75,7 @@ English sites:
 - [Will Tarpey](https://www.willtarpey.com/)
 - [Snook.ca: Life & Times of a Web Developer.](https://snook.ca/)
 - [Website performance expert from Amsterdam | Usecue web development](https://www.usecue.com/)
+- [Blog | Koos Looijesteijn](https://www.kooslooijesteijn.net/)
 
 Japanese sites: \([my post on fedi](https://mastodon.social/@loikein/110599760545613583)\)
 
@@ -87,5 +88,6 @@ Japanese sites: \([my post on fedi](https://mastodon.social/@loikein/11059976054
 Chinese sites:
 
 - [Isla](https://www.guhub.cn/)
+- [莫比乌斯 – 写作，一场自我悖驳的旅程。](https://onojyun.com/)
 
 <!-- - [Archive](https://matt-rickard.com/archive) -->

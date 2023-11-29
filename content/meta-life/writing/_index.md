@@ -3,6 +3,11 @@
 weight: 40
 title: "写作"
 ---
+## General
+
+- [Homegrown Handouts | San José State University Writing Center](https://www.sjsu.edu/writingcenter/resources/handouts.php)
+
+
 ## Academic writing
 
 ### Articles
@@ -43,3 +48,11 @@ title: "写作"
 - [Aarne–Thompson–Uther Index - Wikipedia](https://en.wikipedia.org/wiki/Aarne%E2%80%93Thompson%E2%80%93Uther_Index)
 - [Vladimir Propp - Wikipedia](https://en.wikipedia.org/wiki/Vladimir_Propp)
 - [Linda Seger - Wikipedia](https://en.wikipedia.org/wiki/Linda_Seger)
+
+
+## Technical writing
+
+- [Principles of good technical writing](https://wellshapedwords.com/essentials/principles/)
+- [About how-to guides - Diátaxis](https://diataxis.fr/how-to-guides/)
+    + [Documentation System](https://documentation.divio.com/)
+- [Why Hugo's documentation sucks - Sagar Behere](https://sagar.se/blog/hugo-documentation/) \(Second mention in this wiki.\)
