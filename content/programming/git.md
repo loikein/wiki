@@ -15,6 +15,18 @@ Basic terms:
 - stage: telling git about the changes
 - commit: record the staged changes
 
+## Config
+
+### Set editor
+
+Ref: [How can I set up an editor to work with Git on Windows? - Stack Overflow](https://stackoverflow.com/a/1431003)
+
+Set a different editor than `$EDITOR`:
+
+```sh
+git config  --global core.editor vim
+```
+
 ## Useful Aliases
 
 ### Oh-My-Zsh Git Plugin

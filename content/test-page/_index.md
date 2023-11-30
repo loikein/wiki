@@ -437,6 +437,32 @@ syntax="markdown"
 embed="true" */>}}
 ```
 
+### GitHub File
+
+Native mode only. If you want to embed, use at your own risk: [emgithub](https://emgithub.com/)
+
+Do not pass directories! This is not supported.
+
+{{< github
+user="loikein"
+repo="wiki"
+file=`content/_index.md`
+lineNos="table"
+hlLines="2-4 7"
+lang="md" >}}
+
+Usage:
+
+```html
+{{</* github
+user="loikein"
+repo="wiki"
+file=`content/_index.md`
+lineNos="table"
+hlLines="2-4 7"
+lang="md" */>}}
+```
+
 ### ruby
 
 {{< ruby "你好世界" "hello world" >}}
