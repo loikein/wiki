@@ -156,7 +156,7 @@ Repository: [loikein/fn-alfred-workflow: An Alfred workflow to toggle MacBook To
 
 I wrote this one under some peculiar situation where I had to switch back and forth.
 
-However, you would probably be better-off by settling on one status \(recommendation: app with short controls\), and then configure applications where fn key row is always shown by going to System Preferences ▸ Keyboard ▸ Keyboard Shortcuts ▸ Function Keys.
+However, you would probably be better-off by settling on one status \(recommendation: app with short controls\), and then configure applications where fn key row is always shown by going to {{< menu `System Preferences` `Keyboard` `Keyboard Shortcuts` `Function Keys` >}}.
 
 ### GitHub Repos
 

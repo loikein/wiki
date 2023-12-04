@@ -61,7 +61,7 @@ Together with `![[]]` embed, and setting hotkeys {{< kbd `option` `↑` >}} and 
 
 Repo: [guopenghui/obsidian-quiet-outline](https://github.com/guopenghui/obsidian-quiet-outline)
 
-Use Command palette ▸ Quiet Outline: Quiet Outline to activate.
+Use {{< menu `Command palette` `Quiet Outline: Quiet Outline` >}} to activate.
 
 Turning on dragging titles to rearrange document for a pseudo block editing experience.
 
@@ -73,7 +73,7 @@ Some styles I wrote for more obvious current entry highlighting:
 
 Repo: [michaellee/stille](https://github.com/michaellee/stille)
 
-Click the moon icon in the [Ribbon](https://help.obsidian.md/User+interface/Workspace/Ribbon), or use Command palette ▸ Stille: Toggle Stille to activate.
+Click the moon icon in the [Ribbon](https://help.obsidian.md/User+interface/Workspace/Ribbon), or use {{< menu `Command palette` `Stille: Toggle Stille` >}} to activate.
 
 
 ## Plugins \(for aggressive note-taking\)

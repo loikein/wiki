@@ -21,11 +21,11 @@ s, strike, del {
 
 > **Applying multiple custom CSS for logged-in users**:
 >
-> First, go to Dashboard ▸ Skins ▸ My Site Skins, create at least one skin for dark theme \(because `prefers-color-scheme` will be applied to the whole skin\) and one skin for other general styles.
+> First, go to {{< menu `Dashboard` `Skins` `My Site Skins` >}}, create at least one skin for dark theme \(because `prefers-color-scheme` will be applied to the whole skin\) and one skin for other general styles.
 >
-> Then, create a third skin with no CSS code, go to Advanced ▸ Parent Skins ▸ Add parent skin, add all the sub-skins you want to apply.
+> Then, create a third skin \(the big skin\) with no CSS code, go to {{< menu `Advanced` `Parent Skins` `Add parent skin` >}}, add all the sub-skins you want to apply.
 >
-> Use this final skin as your site skin. Now you have everything. Every time you want to add other CSS **on top of** your current configuration, make sub skins then add them as parents to this big skin.
+> Use this final skin as your site skin. Now you have everything. Every time you want to add other CSS **on top of** your current configuration, <u>make sub skins then add them as parents</u> to the big skin.
 {.book-hint .info}
 
 Range: URLs on the domain: `archiveofourown.org`
@@ -34,6 +34,19 @@ Range: URLs on the domain: `archiveofourown.org`
 /* limit line length */
 #main {
     max-width: 80ch;
+}
+```
+
+Range: URLs on the domain: `archiveofourown.org` \(Ref: [How to Block Tags With Site Skins (And Get Real Specific About It) - Chapter 1 - najio - No Fandom \[Archive of Our Own\]](https://archiveofourown.org/works/41589201/chapters/104315178#workskin)\)
+
+```css
+/* truncate & opacify works */
+/* by tag or work URL */
+.blurb:has(.tag[href*="Some%20Character*s*Another%20Character"]),
+.blurb:has(a[href*="/works/..."]) {
+  opacity: 0.3;
+  max-height: 200px;
+  overflow: hidden;
 }
 ```
 

@@ -87,14 +87,14 @@ Turning on Emulate Numpad.
 
 ## Camera
 
-When adjusting camera, use {{< kbd `N` >}} Menu ▸ View ▸ Lock Camera to View
+When adjusting camera, use {{< menu `<kbd>N</kbd> Menu` `View` `Lock Camera to View` >}}
 
 
 ## Modifiers
 
 - Permanently fix a modifier by Apply.
-- Bevel: Remember to \(in Object Mode ▸ {{< kbd `Ctrl` `A` >}}\) apply scale
-- Mirror: Remember to \(in Object Mode ▸ {{< kbd `RMB` >}}\) set origin \(to 3D Cursor, for example\)
+- Bevel: Remember to \(in {{< menu `Object Mode` >}} ▸ {{< kbd `Ctrl` `A` >}}\) apply scale
+- Mirror: Remember to \(in {{< menu `Object Mode` >}} ▸ {{< kbd `RMB` >}}\) set origin \(to 3D Cursor, for example\)
 - Subdivision Surface: Make object look smoother
 - Solidify: Give thickness to face \(face → object\)
 

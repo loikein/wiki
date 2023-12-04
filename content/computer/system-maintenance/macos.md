@@ -34,19 +34,19 @@ The `sudo lpadmin -p [printer-name] -o auth-info-required=username,password` com
 
 Find main board ID:
 
-```bash
+```sh
 ioreg -l | grep board-id
 ```
 
 Find Mac model ID:
 
-```bash
+```sh
 sysctl hw.model
 ```
 
 Find MAC address:
 
-```bash
+```sh
 ifconfig en0 | grep ether
 ```
 
@@ -54,7 +54,7 @@ ifconfig en0 | grep ether
 
 Credit: [How to allow apps downloaded from anywhere on Mac](https://macpaw.com/how-to/allow-apps-anywhere)
 
-```bash
+```sh
 sudo spctl --master-disable
 ```
 
@@ -62,7 +62,7 @@ sudo spctl --master-disable
 
 Credit: [macOS Catalina: "App is damaged and can't be opened. You should move it to the trash." - Ask Different](https://apple.stackexchange.com/a/372208)
 
-```bash
+```sh
 sudo xattr -rd com.apple.quarantine "path/to/file.app"
 ```
 
@@ -70,37 +70,43 @@ sudo xattr -rd com.apple.quarantine "path/to/file.app"
 
 Restart Quick Look:
 
-```bash
+```sh
 killall -9 -v QuickLookUIService
 ```
 
 Restart Touch Bar:
 
-```bash
+```sh
 pkill "Touch Bar agent"; killall "ControlStrip"
+```
+
+Restart paste board:
+
+```sh
+killall pboard
 ```
 
 When trackpad is malfunctioning:
 
-```bash
+```sh
 killall Dock
 ```
 
 Find and delete all .DS_Store files in current folder: \([credit](https://jonbellah.com/articles/recursively-remove-ds-store)\)
 
-```bash
+```sh
 find . -name '.DS_Store' -type f -delete
 ```
 
 Fix Xcode hanging in Terminal: \([credit](https://apple.stackexchange.com/a/308125)\)
 
-```bash
+```sh
 sudo xcodebuild -license accept
 ```
 
 Restart bluetooth service: (requires [blueutil](https://github.com/toy/blueutil), [credit](https://apple.stackexchange.com/a/310732))
 
-```bash
+```sh
 blueutil -p 0 && sleep 1 && blueutil -p 1
 ```
 
@@ -116,47 +122,47 @@ defaults write -g AppleSpacesSwitchOnActivate -bool YES && killall Dock
 
 Check SIP status:
 
-```bash
+```sh
 csrutil status
 # System Integrity Protection status: enabled.
 ```
 
 Enable three-finger dragging: \([credit](https://apple.stackexchange.com/a/362308)\)
 
-```bash
+```sh
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag 1 && defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag 1
 ```
 
 Show hidden files: \([credit](https://apple.stackexchange.com/a/100040/218914)\)
 
-```bash
+```sh
 defaults write com.apple.finder AppleShowAllFiles 1
 ```
 
 Turn off Power Chime: \([credit](https://apple.stackexchange.com/a/309947)\)
 
-```bash
+```sh
 defaults write com.apple.PowerChime ChimeOnNoHardware 0
 killall PowerChime
 ```
 
 Make hidden apps' icon transparent in the dock: \([credit](https://missing.csail.mit.edu/2019/os-customization/#macos)\)
 
-```bash
+```sh
 defaults write com.apple.dock showhidden 1
 killall Dock
 ```
 
 Show Safari develop & debug menu item: \([credit](https://oku.edu.mie-u.ac.jp/~okumura/macosx/)\)
 
-```bash
+```sh
 defaults write com.apple.Safari IncludeDebugMenu 1
 defaults write com.apple.Safari IncludeInternalDebugMenu 1
 ```
 
 Disable elastic scrolling in Safari: \([credit](https://osxdaily.com/2012/05/10/disable-elastic-rubber-band-scrolling-in-mac-os-x/)\)
 
-```bash
+```sh
 defaults write -g NSScrollViewRubberbanding 0
 ```
 
@@ -164,7 +170,7 @@ defaults write -g NSScrollViewRubberbanding 0
 
 [Credit](https://apple.stackexchange.com/a/310758)
 
-```bash
+```sh
 kextstat | grep -v com.apple
 ```
 
@@ -174,7 +180,7 @@ kextstat | grep -v com.apple
 
 [Credit](https://www.macworld.com/article/3128854/how-to-remove-snapz-pro-in-macos-sierra.html)
 
-```bash
+```sh
 sudo kextunload -b com.AmbrosiaSW.AudioSupport
 
 cd /Library/Extensions/
@@ -197,7 +203,7 @@ sudo rm -r com.ambrosiasw.snapz-pro-x
     - Positive = error
     - Negative = terminated
 
-```bash
+```sh
 # Find
 launchctl list | grep epicgames
 # PID     Status  Label
@@ -213,12 +219,12 @@ Reference: [How to remove driver and kexts on Mac? : SteamController](https://ww
 
 When some file cannot be accessed by Homebrew:
 
-```bash
+```sh
 sudo chown -R $(whoami) $(brew --prefix)/*
 ```
 
 ### Edit Host File
 
-```bash
+```sh
 sudo subl /private/etc/hosts
 ```
