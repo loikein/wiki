@@ -11,6 +11,11 @@ cascade:
 {{% section2 %}}
 
 
+## 在线全文
+
+- [《海子诗全编》目录](https://haizi.huhaitai.com/)
+
+
 ## 别人的摘抄
 
 - [Anch: Excerpts](https://anch.info/eng/excerpts/)

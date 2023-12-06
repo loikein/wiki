@@ -76,6 +76,9 @@ English sites:
 - [Snook.ca: Life & Times of a Web Developer.](https://snook.ca/)
 - [Website performance expert from Amsterdam | Usecue web development](https://www.usecue.com/)
 - [Blog | Koos Looijesteijn](https://www.kooslooijesteijn.net/)
+- [ARETE — Visual History of the Latin Alphabet](https://uclab.fh-potsdam.de/arete/en)
+- [Gareth L Devlin Portfolio](https://gld-portfolio.vercel.app/)
+    + Repository: [GLD5000/GLD-Portfolio](https://github.com/GLD5000/GLD-Portfolio)
 
 Japanese sites: \([my post on fedi](https://mastodon.social/@loikein/110599760545613583)\)
 

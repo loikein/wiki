@@ -28,6 +28,7 @@ disable_latex: true
 - [Add-ons for Hugo | Hugo Codex](https://hugocodex.org/add-ons/) \(The breadcrumbs code on this wiki comes from here.\)
 - [loup-brun/hugo-cite: 📝 Easily manage your bibliography and in-text citations with Hugo, the popular static-site generator.](https://github.com/loup-brun/hugo-cite)
 - [liwenyip/hugo-easy-gallery: Automagical css image gallery in Hugo using shortcodes, with optional lightbox/carousel gadget using PhotoSwipe and jQuery.](https://github.com/liwenyip/hugo-easy-gallery)
+- [Roneo / Hugo Shortcode Collection · GitLab](https://gitlab.com/Roneo/hugo-shortcode-roneo-collection)
 {{< /details >}}
 
 {{< details "Sites to refer to" >}}
@@ -36,6 +37,7 @@ disable_latex: true
 - [MelonKony/millmint.net: Central site for the Petticoat Project and its associated worldbuilding material.](https://github.com/MelonKony/millmint.net/tree/live)
 - [Archive | pawelgrzybek.com](https://pawelgrzybek.com/archive/)
   + Repository: [GitHub - pawelgrzybek/pawelgrzybek.com](https://github.com/pawelgrzybek/pawelgrzybek.com)
+- [ii.com: Welcome to Infinite Ink](https://www.ii.com/)
 {{< /details >}}
 
 {{< details "Tutorials" >}}

@@ -14,6 +14,8 @@ title: "Python"
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
     + Repository: [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 - [Python - CopyProgramming](https://copyprogramming.com/t/python)
+- [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html)
+    + Repository: [aeturrell/coding-for-economists](https://github.com/aeturrell/coding-for-economists)
 
 
 ## Dictionary

@@ -171,6 +171,10 @@ just my two cents/pennies
 : 这只是我的想法（谦逊用语）
 : [Wiktionary](https://en.wiktionary.org/wiki/two_cents); [Wikipedia](https://en.wikipedia.org/wiki/My_two_cents)
 
+¿Por Qué No Los Dos?
+: Why not both? 为什么不两个都要？
+: [Know Your Meme](https://knowyourmeme.com/memes/why-not-both-why-dont-we-have-both)
+
 STFU / STFD
 : shut the fuck up / shut the front door，闭嘴吧你
 : [Wiktionary](https://en.wiktionary.org/wiki/STFU)

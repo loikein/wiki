@@ -124,7 +124,7 @@ Some styles I wrote to make the right sidebar to have the same background colour
 > - `::selection` does not work for some reason.
 {.book-hint .info}
 
-### Thicker cursor \(kind of\)
+### Cursor thickness \(kind of\)
 
 Nothing really worked. I also tried [Ninja cursor](https://github.com/vrtmrz/ninja-cursor), no luck with Obsidian 1.3.7.
 
@@ -138,14 +138,27 @@ There are two types of cursors, `.cm-cursor` \(end-border of selection\) and `.c
 
 {{< highlight-file file="-cursor.css" lang="css" >}}
 
-
-### iA Writer CSS for default theme
+### Default theme with iA Writer CSS
 
 First 29 lines of [mrowa44/obsidian-ia-writer/theme.css](https://github.com/mrowa44/obsidian-ia-writer/blob/main/theme.css) \(Base64 encoded iA Writer Duo font, too large to include here\), plus:
 
 {{< highlight-file file=`theme-default-ia-trim.css` lang=`css` >}}
 
-### Fade out sidebars when not in use
+### Readable line length adjustment
+
+Ref: [Changes the readable line length in Obsidian Notes. Tested in Obsidian v1.0.0](https://gist.github.com/vii33/f2c3a85b64023cefa9df6420730c7531)
+
+I manually calibrated the following numbers to make each line to have the exact same number of Chinese characters as Notes.app on iPad mini \(portrait mode\), which was where I previously wrote.  
+Tested on Obsidian 1.4.16, with iA Writer Duo font 16px.
+
+```css
+body {
+  --file-line-width: 586px !important;
+  /* --file-line-width: 61ch !important; */
+}
+```
+
+### Sidebar opacity when not in use
 
 {{< highlight-file file="-sidebar.css" lang="css" >}}
 
