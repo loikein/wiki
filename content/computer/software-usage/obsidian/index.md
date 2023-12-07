@@ -3,7 +3,7 @@ weight: 400
 title: "Obsidian"
 ---
 
-> I use Obsidian with macOS 10.15 Catalina, iOS 16, and iPadOS 15.
+> I use Obsidian with macOS 10.15 Catalina, iOS 17, and iPadOS 15.
 {.book-hint .info}
 
 ## Admin
@@ -16,6 +16,38 @@ Do not use iCloud WITH git. Pick one.
 ### Working with multiple vaults
 
 Set a different accent colour for each vault for a more obvious visual reminder.
+
+
+## Cursor
+
+### Snippet to partially increase cursor thickness
+
+The characters are not typos!
+
+{{< details "Reference: Core styles of the default cursors, obtained from inspection" >}}
+{{< highlight-file file="default-cursor.css" lang="css" >}}
+{{< /details >}}
+
+There are two types of cursors, `.cm-cursor` \(end-border of selection\) and `.cm-dropCursor` \(caret when user is typing\). The following style only works on the former, using accent colour from iB theme, with default accent as fallback.
+
+{{< highlight-file file="-cursor.css" lang="css" >}}
+
+### Ninja cursor
+
+Repo: [vrtmrz/ninja-cursor](https://github.com/vrtmrz/ninja-cursor)
+
+After making little changes to [this comment](https://github.com/vrtmrz/ninja-cursor/issues/3#issuecomment-1806902738) in the Ninja cursor repository, I finally feel like this plugin could be a serious default cursor alternative \(**on desktop**\). Still not perfect, because the huge cursor bar on left when you select multiple lines still exists, but during typing it is a much more pleasant experience than the default cursor.
+
+> Notes for Obsidian iOS:
+> 
+> 1. When made thick and tall enough, the x-cursor will cover \(not replace\) the blinking cursor on iOS as well. The numbers below are tested minimals for this purpose.
+> 2. After launching Obsidian, the plugin takes a few seconds \(I guess depending on the device, and I guess the same on less powerful desktop devices\) to start-up, before which you will see the default cursor;
+> 3. During scrolling, the x-cursor will stay at its on-screen position \(as opposed to: in-text position\) for a split second, and may stay there until tapping at a new position. If your main writing device is iOS, this is experience-breaking.
+{.book-hint .danger}
+
+If you want to use this solution, disable the previous cursor snippet, and add the following instead. I changed the width and height, and the blinking animation. You cannot write `animation: none` to stop it, because that will leave you with no cursor. Unfortunately I think it is just how this plugin works.
+
+{{< highlight-file file="plugin-ninja-cursor.css" lang="css" >}}
 
 
 ## Plugins \(for peaceful writing\)
@@ -61,6 +93,9 @@ Together with `![[]]` embed, and setting hotkeys {{< kbd `option` `↑` >}} and 
 
 Repo: [guopenghui/obsidian-quiet-outline](https://github.com/guopenghui/obsidian-quiet-outline)
 
+> This plugin seems to not work on iOS.
+{.book-hint .warning}
+
 Use {{< menu `Command palette` `Quiet Outline: Quiet Outline` >}} to activate.
 
 Turning on dragging titles to rearrange document for a pseudo block editing experience.
@@ -79,6 +114,11 @@ Click the moon icon in the [Ribbon](https://help.obsidian.md/User+interface/Work
 ## Plugins \(for aggressive note-taking\)
 
 TBE.
+
+<!--
+[smikula/obsidian-limelight: Spotlight your active pane](https://github.com/smikula/obsidian-limelight)
+[SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
+-->
 
 
 ## Themes
@@ -124,19 +164,11 @@ Some styles I wrote to make the right sidebar to have the same background colour
 > - `::selection` does not work for some reason.
 {.book-hint .info}
 
-### Cursor thickness \(kind of\)
+Also see:
 
-Nothing really worked. I also tried [Ninja cursor](https://github.com/vrtmrz/ninja-cursor), no luck with Obsidian 1.3.7.
-
-The characters are not typos!
-
-{{< details "Reference: Core styles of the default cursors, obtained from inspection" >}}
-{{< highlight-file file="default-cursor.css" lang="css" >}}
-{{< /details >}}
-
-There are two types of cursors, `.cm-cursor` \(end-border of selection\) and `.cm-dropCursor` \(caret when user is typing\). The following style only works on the former, using accent colour from iB theme, with default accent as fallback.
-
-{{< highlight-file file="-cursor.css" lang="css" >}}
+- [Obsidian Snippets](https://obsidian-snippets.pages.dev/)
+- [Dmytro-Shulha/obsidian-css-snippets](https://github.com/Dmytro-Shulha/obsidian-css-snippets)
+- [gitobsidiantutorial / Repositories](https://github.com/gitobsidiantutorial?tab=repositories&type=source)
 
 ### Default theme with iA Writer CSS
 
@@ -179,6 +211,6 @@ For note-taking:
 
 - [Obsidian Web Clipper — Steph Ango](https://stephanango.com/obsidian-web-clipper)
 
-Others:
+Remotely related:
 
 - [Visualize whitespaces using css - Stack Overflow](https://stackoverflow.com/a/7901559)
