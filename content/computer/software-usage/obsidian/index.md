@@ -180,12 +180,16 @@ First 29 lines of [mrowa44/obsidian-ia-writer/theme.css](https://github.com/mrow
 
 Ref: [Changes the readable line length in Obsidian Notes. Tested in Obsidian v1.0.0](https://gist.github.com/vii33/f2c3a85b64023cefa9df6420730c7531)
 
-I manually calibrated the following numbers to make each line to have the exact same number of Chinese characters as Notes.app on iPad mini \(portrait mode\), which was where I previously wrote.  
+I manually calibrated the following numbers to make each line to have the exact same number of Chinese characters as Notes.app on iPad mini \(same for portrait and landscape\), which is the other environment where I write.  
 Tested on Obsidian 1.4.16, with iA Writer Duo font 16px.
 
 ```css
 body {
-  --file-line-width: 586px !important;
+  /* iPad mini 6 */
+  /* --file-line-width: 606px !important; */
+  --file-line-width: 63ch !important;
+  /* iPad mini 5 */
+  /* --file-line-width: 586px !important; */
   /* --file-line-width: 61ch !important; */
 }
 ```
@@ -193,6 +197,71 @@ body {
 ### Sidebar opacity when not in use
 
 {{< highlight-file file="-sidebar.css" lang="css" >}}
+
+
+## Writing/testing CSS snippets for iOS devices
+
+### Media query
+
+Refs:
+
+- [Media Queries for Standard Devices | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [iOS Resolution // Display properties of every iPhone, iPad, iPod touch and Apple Watch Apple ever made](https://www.ios-resolution.com/)
+- [What Is My Screen Resolution? - WhatIsMyIP.com®](https://www.whatismyip.com/screen-resolution/)
+- [css - Get the device width in javascript - Stack Overflow](https://stackoverflow.com/a/48869219)
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // document.getElementById("screen-resolution").innerText = window.screen.width + " pixels wide X " + window.screen.height + " pixels high";
+  var width = Math.max(window.screen.width, window.innerWidth);
+  var height = Math.max(window.screen.height, window.innerHeight);
+  var mes = "This device is " + width + " pixels wide x " + height + " pixels high.";
+  console.log(mes);
+  document.getElementById("screen-resolution").innerText = mes;
+});
+</script>
+
+<p><span id="screen-resolution">test text</span></p>
+
+> The `device-width` feature is [deprecated](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/device-width). The following code may break at any time.
+{.book-hint .warning}
+
+```css
+/* iPad mini 6 */
+@media only screen 
+  and (min-device-width: 744px) 
+  and (max-device-width: 1133px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  /* ... */
+}
+
+/* iPhone 14 Pro & 15 Pro */
+@media only screen 
+  and (min-device-width: 393px) 
+  and (max-device-width: 852px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  /* ... */
+}
+```
+
+### On-device debugging
+
+Ref: [[Mobile] IOS : App to work with hidden folder - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/mobile-ios-app-to-work-with-hidden-folder/25741)
+
+Editors/apps that I have tested:
+
+- [Taio](https://taio.app/): Works. This is my current setup on iPad, with Obsidian in full-screen, and Taio in Slide Over. All changes are reflected in real time.
+  1. `Source Code Editing` feature requires the [Pro plan](https://taio.app/#pricing), which has a Lifetime option and I bought it when the app first came out. Please note that it is far more expensive than the other mentioned app called [Textastic](https://www.textasticapp.com/), which I cannot test because it requires iPadOS 16.
+  2. Usage: Add folders: {{< menu `Files (folder icon)` `Added Locations` `⊕` `Add Folder` `Pick Obsidian vault` >}}; edit files: {{< menu `Files (folder icon)` `Added locations` `Tap through the folders` `Tap on file to be edited` >}}.
+- [a-Shell](https://holzschu.github.io/a-Shell_iOS/): Works.
+  1. The included editor is Vim, which is really a hassle to use with on-screen keyboard.
+  2. Usage: {{< menu "`pickFolder` to Obsidian vault" "`cd .obsidian/snippets`" "`vim <file>`">}}. \(When opening file that starts with `-` or `+`,like `-cursor.css`, use `vim -- -cursor.css`. [Ref](https://superuser.com/a/1591633)\)
+  2. [Brief tutorial](https://forum.obsidian.md/t/mobile-ios-app-to-work-with-hidden-folder/25741#a-shell-tutorial-1).
+- [iSH](https://ish.app/): Too lazy to test thoroughly.
+  1. I was able to `cd` into my Obsidian vault in iCloud, but the app does not include an editor. [Documentation](https://github.com/ish-app/ish/wiki/FAQ) says a lot of editor should work, including `vim`, `nano`, and `emacs`.
+  2. [Brief startup tutorial](https://forum.obsidian.md/t/mobile-ios-app-to-work-with-hidden-folder/25741/2), [official documentation on basic operations](https://github.com/ish-app/ish/wiki/Using-iSH).
+- Koder: Does not work. "Open File From Files" feature uses Apple's Files.app, therefore does not show hidden files; and no support for open folders.
+- Kodex: Does not work. Same problems as Koder.
 
 
 ## Things to keep an eye on
