@@ -213,8 +213,8 @@ Refs:
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   // document.getElementById("screen-resolution").innerText = window.screen.width + " pixels wide X " + window.screen.height + " pixels high";
-  var width = Math.max(window.screen.width, window.innerWidth);
-  var height = Math.max(window.screen.height, window.innerHeight);
+  var width = window.screen.width;
+  var height = window.screen.height;
   var mes = "This device is " + width + " pixels wide x " + height + " pixels high.";
   console.log(mes);
   document.getElementById("screen-resolution").innerText = mes;
