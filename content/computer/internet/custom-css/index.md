@@ -48,7 +48,10 @@ Range for all styles here: URLs on the domain: `archiveofourown.org`
 
 ### Hide/highlight works with certain tags/languages/authors
 
-Inspiration: [How to Block Tags With Site Skins (And Get Real Specific About It) - Chapter 1 - najio - No Fandom \[Archive of Our Own\]](https://archiveofourown.org/works/41589201/chapters/104315178#workskin)
+Refs:
+
+- [How to Block Tags With Site Skins (And Get Real Specific About It) - Chapter 1 - najio - No Fandom \[Archive of Our Own\]](https://archiveofourown.org/works/41589201/chapters/104315178#workskin)
+- [Attribute selectors - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 
 ```css
 /* truncate & opacify works */

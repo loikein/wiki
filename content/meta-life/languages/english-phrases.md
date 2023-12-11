@@ -137,6 +137,10 @@ nota bene / N.B.
 : _v._ 需要注意的是，用于写作中提到某处细节时
 : [Wiktionary](https://en.wiktionary.org/wiki/nota_bene#English); [Wikipedia](https://en.wikipedia.org/wiki/Nota_bene)
 
+per se
+: _adv._ 严格意义上，本身，不考虑外界因素
+: [Wiktionary](https://en.wiktionary.org/wiki/per_se#English)
+
 quorum
 : _n._ 举行会议所需的最小人数，法定人数
 : [Wiktionary](https://en.wiktionary.org/wiki/quorum#English); [Wikipedia](https://en.wikipedia.org/wiki/Quorum)

@@ -35,7 +35,6 @@ Reinstall npm and node.
     [
       "wikipedia",                        // 拼写检查时检查的词语
     ],
-
     "atomic_save": true,
     "auto_complete_size_limit": 1000,
     "auto_complete_commit_on_tab": true,
@@ -88,6 +87,8 @@ Reinstall npm and node.
 
 
 ## Packages
+
+### List of all my packages
 
 [sublimetext - What is the most practical way to list all the installed packages in Sublime Text 3? - Stack Overflow](https://stackoverflow.com/a/30006324)
 
@@ -146,6 +147,30 @@ Reinstall npm and node.
     ],
 }
 ````
+
+### Emmet
+
+Enable for Markdown files \([ref](https://stackoverflow.com/a/70679073/10668706)\)
+
+{{< diffcode >}}
+```json
+{
+  "telemetry": false,
+  "uid": "(omitted)",
+  "abbreviation_scopes": [
+    "(text.html | text.xml) - source - meta - comment",
+    "source.sass - meta.property-value - meta.property-name - string - punctuation - comment",
+    "(source.css | source.scss | source.less | source.postcss | source.stylus) & meta.property-list",
+    "(source.css | source.scss | source.less | source.postcss | source.stylus) - meta.property-value - meta.property-name - string - comment",
+    "(source.tsx | source.js | source.jsx) - comment",
+    "text.html.cfml - meta.tag",
++    "text.html.markdown",
+    // Inline CSS
+    "text.html meta.attribute-with-value.style (string.quoted | source.css)"
+  ],
+}
+```
+{{< /diffcode >}}
 
 ### HTML-CSS-JS Prettify
 

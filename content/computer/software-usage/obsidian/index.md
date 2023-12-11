@@ -191,6 +191,12 @@ When I was looking for an alternative of [cm-show-whitespace-obsidian](#cm-show-
 
 Any combination of plugins in the previous sector, plus…
 
+### Full Calendar
+
+Repo: [davish/obsidian-full-calendar: Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.](https://github.com/davish/obsidian-full-calendar)
+
+I only use it to display my [iCloud calendar](https://davish.github.io/obsidian-full-calendar/calendars/caldav/) \(read-only\), but obviously it is far more powerful than that.
+
 ### List Callouts
 
 Repo: [mgmeyers/obsidian-list-callouts: Create callouts in lists in Obsidian.](https://github.com/mgmeyers/obsidian-list-callouts)
@@ -209,7 +215,10 @@ Seems not compatible with checklists. My tweaks:
 
 Repo: [javalent/prominent-files: Prominently display starred files in Obsidian.md](https://github.com/javalent/prominent-files/tree/main)
 
-Adds a bookmark symbol to the filenames in file tree.
+> Bug: On iOS, every time launch Obsidian, need turn the plugin off and on again to take effect.
+{.book-hint .info}
+
+Adds a bookmark symbol to the bookmarked notes in the file tree.
 
 Companion snippet by me:
 
@@ -328,9 +337,22 @@ Because I write only want the characters. Only works on desktop, haven't figured
 }
 ```
 
+### Hide new tab button
+
+Old habits die hard.
+
+```css
+.workspace-tab-header-new-tab {
+  display: none !important;
+  visibility: collapse;
+}
+```
+
 ### Internal link indicator
 
 TODO
+
+And: Indicator per URL protocol \(use `:has[href^="message:"]`\)
 
 {{< details "Reference: Default external link indicator" >}}
 ```css
@@ -379,7 +401,7 @@ body {
 
 ### Show close file button at all times
 
-Old habits die hard.
+Old habits die hard \(again\).
 
 ```css
 .workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
@@ -467,6 +489,7 @@ Editors/apps that I have tested:
 General:
 
 - [Obsidian Plugin Stats](https://obsidian-plugin-stats.vercel.app/)
+- [Actions for Obsidian](https://actions.work/actions-for-obsidian) \(As in: Shortcuts.app\)
 
 For writing:
 
@@ -486,12 +509,21 @@ For note-taking:
 - [MSzturc/obsidian-advanced-slides: Create markdown-based reveal.js presentations in Obsidian](https://github.com/MSzturc/obsidian-advanced-slides)
 - [Phantom1003/obsidian-slide-note](https://github.com/Phantom1003/obsidian-slide-note)
 - [The Obsidian Plugins I Actually Use – Curtis McHale](https://curtismchale.ca/2023/02/08/the-obsidian-plugins-i-actually-use/)
+- [GitHub - blacksmithgu/obsidian-dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/.](https://web.archive.org/web/20231006163948/https://github.com/blacksmithgu/obsidian-dataview)
+- [jeweljohnsonj/obsidian_template: A template vault folder for using Obsidian for literature note taking puporses](https://github.com/jeweljohnsonj/obsidian_template)
 
 For reading:
 
 - [KOReader to Obsidian: Export Notes and Highlights](https://hermitage.utsob.me/writings/technical/how-tos/ko-reader-to-obsidian)
 - [Edo78/obsidian-koreader-sync: Obsidian.md plugin to sync highlights/notes from koreader](https://github.com/Edo78/obsidian-koreader-sync)
 - [NoHeartPen/obsidian-edit-koreader-lua: This is a simple plugin for editing KOReader metadata.epub.lua as a markdown file in Obsidian.](https://github.com/NoHeartPen/obsidian-edit-koreader-lua/tree/master)
+- [How I Import Literature Notes into Obsidian | Christian B. B. Houmann](https://bagerbach.com/blog/importing-source-notes-to-obsidian)
+
+Daily notes:
+
+- [iiz00/obsidian-daily-note-outline: Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items](https://github.com/iiz00/obsidian-daily-note-outline)
+- [liamcain/obsidian-periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian](https://github.com/liamcain/obsidian-periodic-notes)
+- [Kageetai/obsidian-plugin-journal-review: Review your daily notes on their anniversaries, like "what happened today last year"](https://github.com/Kageetai/obsidian-plugin-journal-review)
 
 Remotely related:
 
