@@ -33,7 +33,7 @@ Reinstall npm and node.
 {
     "added_words":
     [
-        "wikipedia",                        // 拼写检查时检查的词语
+      "wikipedia",                        // 拼写检查时检查的词语
     ],
 
     "atomic_save": true,
@@ -48,13 +48,17 @@ Reinstall npm and node.
     "git_diff_target": "head",
     "hide_tab_scrolling_buttons": true,
     "hide_new_tab_button": true,
+    "ignored_packages":
+    [
+      "Vintage",                            // 关闭 Vim 模式
+    ],
     "ignored_words":
     [
-        "nonlinear",                        // 拼写检查时忽略的词语
+      "nonlinear",                        // 拼写检查时忽略的词语
     ],
     "indent_guide_options":
     [
-        "draw_active"
+      "draw_active"
     ],
     "match_brackets": false,
     "match_brackets_braces": false,

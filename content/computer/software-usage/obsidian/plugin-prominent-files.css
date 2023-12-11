@@ -1,0 +1,13 @@
+.prominent-decorated-file {
+  margin: auto;
+  margin-inline-end: 0;
+}
+
+.prominent-decorated-file svg {
+  fill: IndianRed;
+}
+
+.view-action.mod-bookmark {
+  --icon-color: IndianRed;
+  --icon-color-hover: IndianRed;
+}

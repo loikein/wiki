@@ -336,6 +336,7 @@ SVG code: \(see [EPUB editing #Image sizing](/programming/web/epub-editing#image
 - [Color.review - Colors that look and work great for everyone](https://color.review/) \(big colour picker with iso-contrast contour lines\)
 - [EightShapes Contrast Grid](https://contrast-grid.eightshapes.com/) \(cross-check many colours all at once\)
 - [WhoCanUse](https://www.whocanuse.com/) \(visual impairment simulations\)
+- [Color Names — HTML Color Codes](https://htmlcolorcodes.com/color-names/)
 
 ### Shadow
 

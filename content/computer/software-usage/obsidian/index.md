@@ -3,7 +3,9 @@ weight: 400
 title: "Obsidian"
 ---
 
-> I use Obsidian with macOS 10.15 Catalina, iOS 17, and iPadOS 15.
+> I use Obsidian with macOS 10.15 Catalina, iOS 17, and iPadOS 15. Unless stated, everything mentioned here should work everywhere.
+> 
+> If some plugin does not actually work on iOS, but it tries to load every time nonetheless, you can put `"isDesktopOnly": true` in `vault/.obsidian/plugins/plugin-name/manifest.json` will turn it off on iOS.
 {.book-hint .info}
 
 ## Admin
@@ -16,6 +18,13 @@ Do not use iCloud WITH git. Pick one.
 ### Working with multiple vaults
 
 Set a different accent colour for each vault for a more obvious visual reminder.
+
+
+## Settings
+
+### Hotkeys to add
+
+Toggle blockquote: {{< kbd `command` `shift` `.` >}} \([Ref](https://old.reddit.com/r/ObsidianMD/comments/nkz24v/is_there_a_hotkey_to_toggle_a_block_quote/)\)
 
 
 ## Cursor
@@ -41,7 +50,7 @@ After making little changes to [this comment](https://github.com/vrtmrz/ninja-cu
 > Notes for Obsidian iOS:
 > 
 > 1. When made thick and tall enough, the x-cursor will cover \(not replace\) the blinking cursor on iOS as well. The numbers below are tested minimals for this purpose.
-> 2. After launching Obsidian, the plugin takes a few seconds \(I guess depending on the device, and I guess the same on less powerful desktop devices\) to start-up, before which you will see the default cursor;
+> 2. After launching Obsidian, the plugin takes a few seconds \(I guess maybe even on some less powerful desktop devices\) to start-up, before which you will see the default cursor;
 > 3. During scrolling, the x-cursor will stay at its on-screen position \(as opposed to: in-text position\) for a split second, and may stay there until tapping at a new position. If your main writing device is iOS, this is experience-breaking.
 {.book-hint .danger}
 
@@ -50,27 +59,60 @@ If you want to use this solution, disable the previous cursor snippet, and add t
 {{< highlight-file file="plugin-ninja-cursor.css" lang="css" >}}
 
 
+## Plugins for focus \(zen\) mode / typewriter scroll
+
+### Focus Active Sentence
+
+Repo: [artisticat1/focus-active-sentence: Highlight the active sentence in Obsidian.md](https://github.com/artisticat1/focus-active-sentence)
+
+Focus on the current sentence. The focus disappears when scrolling or changing lines.
+
+To accommodate writing in Chinese, preferences:
+
+- Sentence delimiters: `。？！` 
+- Extra characters: `%~*”」`
+
+### Ghost Fade Focus
+
+Repo: [skipadu/obsidian-ghost-fade-focus: Ghost Fade Focus plugin for Obsidian](https://github.com/skipadu/obsidian-ghost-fade-focus)
+
+> This plugin **will** work on Obsidian for iOS \(v1.4.16\) on iPadOS 15, after setting `isDesktopOnly: false` in `vault/.obsidian/plugins/ghost-fade-focus/manifest.json`.
+{.book-hint .info}
+
+Gradient focus mode on every 5 lines \(or every paragraph\) above and below the cursor.
+
+### Scroll Offset
+
+Repo: [lijyze/scroll-offset: Scroll Offset for Obsidian](https://github.com/lijyze/scroll-offset)
+
+> This plugin does not work on iOS as of now.
+{.book-hint .warning}
+
+### Stille
+
+Repo: [michaellee/stille](https://github.com/michaellee/stille)
+
+Focus on the current paragraph.
+
+Click the moon icon in the [Ribbon](https://help.obsidian.md/User+interface/Workspace/Ribbon), or use {{< menu `Command palette` `Stille: Toggle Stille` >}} to activate.
+
+### Typewriter Scroll
+
+Repo: [deathau/cm-typewriter-scroll-obsidian: Typewriter Scroll Obsidian Plugin](https://github.com/deathau/cm-typewriter-scroll-obsidian)
+
+> This plugin **does** work on Obsidian for iOS \(v1.4.16\) on iPadOS 15, but sometimes a little buggy when scrolling.
+{.book-hint .info}
+
+Has a built-in zen mode, which focuses on the current paragraph.
+
+On desktop, the focus does not disappear unless switch to another software. On mobile, the focus only appears after tapping at a note and the keyboard's appearing.
+
+Use {{< menu `Command palette` `Typewriter Scroll: Toggle On/Off` >}} to activate scrolling, and use {{< menu `Command palette` `Typewriter Scroll: Toggle Zen Mode On/Off` >}} to activate focus mode.
+
+
 ## Plugins \(for peaceful writing\)
 
-### Show Whitespace
-
-Repo: [deathau/cm-show-whitespace-obsidian](https://github.com/deathau/cm-show-whitespace-obsidian)
-
-{{< details "Reference: Core styles of this plugin, obtained from inspection" >}}
-Source: [deathau/cm-show-whitespace-obsidian/styles.scss](https://github.com/deathau/cm-show-whitespace-obsidian/blob/main/styles.scss)
-
-{{< highlight-file file="cm-show-whitespace-core.css" lang="css" >}}
-{{< /details >}}
-
-Because this plugin has been unmaintained for a while, a patch is needed to make everything look consistent. Add a CSS file with the following contents: \(the `<br>` style came from [here](https://stackoverflow.com/a/64912130)\)
-
-{{< highlight-file file="plugin-whitespace.css" lang="css" >}}
-
-#### Control Characters
-
-Repo: [joethei/obsidian-control-characters](https://github.com/joethei/obsidian-control-characters)
-
-When I was looking for an alternative of [cm-show-whitespace-obsidian](#cm-show-whitespace-obsidian), I found this plugin which also integrates with [mgmeyers/obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) to make customising possible without fiddling with CSS files. However, I did not like the default SVGs, and could not bother with finding new SVGs right now, so I am still using the old plugin.
+Most of my creative writings are in Chinese.
 
 ### Hider
 
@@ -88,12 +130,32 @@ Together with `![[]]` embed, and setting hotkeys {{< kbd `option` `↑` >}} and 
 
 [^ulysses]: Yes, I am still missing the Ulysses block editing feature.
 
+### Iconize
+
+Repo: [FlorianWoelki/obsidian-iconize: Simply add icons to anything you want in Obsidian.](https://github.com/FlorianWoelki/obsidian-iconize)
+
+To visually indicate the status of a piece of writing in the file tree. Set icon font size to be 1px smaller than the current font size.
+
+I personally found the open source [Lucide Icons](https://lucide.dev/icons/) \(and [BoxIcons](https://boxicons.com/), but it has less options\) pack aesthetically pleasing and easy to see even on mobile. Also, Twemoji.
+
+### Novel Word Count
+
+Repo: [isaaclyman/novel-word-count-obsidian: Obsidian plugin. Displays a word count or other statistic for each file, folder and vault in the File Explorer pane.](https://github.com/isaaclyman/novel-word-count-obsidian)
+
+Preference:
+
+- Notes
+  + First type: Character count \(pretty accurate, no need to turn on CJK support\)
+  + Suffix: `字`
+  + Alignment: Right-aligned
+- Folders
+  + First type: None
 
 ### Quiet Outline
 
 Repo: [guopenghui/obsidian-quiet-outline](https://github.com/guopenghui/obsidian-quiet-outline)
 
-> This plugin seems to not work on iOS.
+> This plugin never loads successfully on my iOS devices.
 {.book-hint .warning}
 
 Use {{< menu `Command palette` `Quiet Outline: Quiet Outline` >}} to activate.
@@ -104,21 +166,88 @@ Some styles I wrote for more obvious current entry highlighting:
 
 {{< highlight-file file="plugin-quiet-outline.css" lang="css" >}}
 
-### Stille
+### Show Whitespace
 
-Repo: [michaellee/stille](https://github.com/michaellee/stille)
+Repo: [deathau/cm-show-whitespace-obsidian](https://github.com/deathau/cm-show-whitespace-obsidian)
 
-Click the moon icon in the [Ribbon](https://help.obsidian.md/User+interface/Workspace/Ribbon), or use {{< menu `Command palette` `Stille: Toggle Stille` >}} to activate.
+{{< details "Reference: Core styles of this plugin, obtained from inspection" >}}
+Source: [deathau/cm-show-whitespace-obsidian/styles.scss](https://github.com/deathau/cm-show-whitespace-obsidian/blob/main/styles.scss)
+
+{{< highlight-file file="cm-show-whitespace-core.css" lang="css" >}}
+{{< /details >}}
+
+Because this plugin has been unmaintained for a while, a patch is needed to make everything look consistent. Add a CSS file with the following contents: \(the `<br>` style came from [here](https://stackoverflow.com/a/64912130)\)
+
+{{< highlight-file file="plugin-show-whitespace.css" lang="css" >}}
+
+#### Control Characters
+
+Repo: [joethei/obsidian-control-characters](https://github.com/joethei/obsidian-control-characters)
+
+When I was looking for an alternative of [cm-show-whitespace-obsidian](#cm-show-whitespace-obsidian), I found this plugin which also integrates with [mgmeyers/obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) to make customising possible without fiddling with CSS files. However, I did not like the default SVGs, and could not bother with finding new SVGs right now, so I am still using the old plugin.
 
 
 ## Plugins \(for aggressive note-taking\)
 
-TBE.
+Any combination of plugins in the previous sector, plus…
 
-<!--
-[smikula/obsidian-limelight: Spotlight your active pane](https://github.com/smikula/obsidian-limelight)
-[SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
--->
+### List Callouts
+
+Repo: [mgmeyers/obsidian-list-callouts: Create callouts in lists in Obsidian.](https://github.com/mgmeyers/obsidian-list-callouts)
+
+Very very useful, highly recommended.
+
+Seems not compatible with checklists. My tweaks:
+
+- !! red
+- ! orange
+- ? yellow
+- y green
+- n grey
+
+### Prominent \(Starred\) Files
+
+Repo: [javalent/prominent-files: Prominently display starred files in Obsidian.md](https://github.com/javalent/prominent-files/tree/main)
+
+Adds a bookmark symbol to the filenames in file tree.
+
+Companion snippet by me:
+
+{{< highlight-file file="plugin-prominent-files.css" lang="css" >}}
+
+### Zotero integration
+
+Repo: [mgmeyers/obsidian-zotero-integration: Insert and import citations, bibliographies, notes, and PDF annotations from Zotero into Obsidian.](https://github.com/mgmeyers/obsidian-zotero-integration/tree/main)
+
+Ref: [An Updated Academic Workflow: Zotero & Obsidian | by Alexandra Phelan | Medium](https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd) \(The Pandoc Reference List plugin had some weird bugs on my setup.\)
+
+> With this plugin installed and enabled, launching Obsidian on an iPad without Zotero installed will disable it for both mobile and desktop. I have not tried with a device where Zotero is installed, but GitHub issues regarding mobile usage suggests it should work.
+{.book-hint .warning}
+
+
+## Other plugins that I have tried
+
+### Better Word Count
+
+Repo: [lukeleppan/better-word-count: Counts the words of selected text in the editor.](https://github.com/lukeleppan/better-word-count)
+
+Replaces the core word count plugin in status bar. I did not actually need so many options. If you have the same need as me, just use the [#Hide word count](#hide-word-count-in-word-count-plugin) snippet. However, I think this plugin does have the extra option to exclude comments, which I don't write a lot of.
+
+My only problem with the core word count is that it should exclude the front matter, [but that seems to be on the roadmap already](https://forum.obsidian.md/t/word-count-based-on-preview-rendered-text-not-editor-text/4758/18).
+
+### Recent Files
+
+Repo: [tgrosinger/recent-files-obsidian: Display a list of most recently opened files](https://github.com/tgrosinger/recent-files-obsidian)
+
+As a second pane in the left split. [Cannot sync between devices](https://github.com/tgrosinger/recent-files-obsidian/issues/46) as of now, which is a little annoying.
+
+### TagFolder
+
+Repo: [vrtmrz/obsidian-tagfolder](https://github.com/vrtmrz/obsidian-tagfolder)
+
+List of all files with all tags in the vault. Instant click to file.
+
+May need a force-reload after installation.
 
 
 ## Themes
@@ -176,6 +305,60 @@ First 29 lines of [mrowa44/obsidian-ia-writer/theme.css](https://github.com/mrow
 
 {{< highlight-file file=`theme-default-ia-trim.css` lang=`css` >}}
 
+### Active pane highlight
+
+Subtle yet effective.
+
+Another choice \(not tested\): [smikula/obsidian-limelight: Spotlight your active pane](https://github.com/smikula/obsidian-limelight)
+
+```css
+.mod-active .workspace-tab-header-container {
+  border-bottom: 1px solid var(--color-accent);
+}
+```
+
+### Hide word count in word count plugin
+
+Because I write only want the characters. Only works on desktop, haven't figured out how to do this on mobile \(yet\).
+
+```css
+.plugin-word-count .status-bar-item-segment:first-of-type {
+  display: none;
+  visibility: collapse;
+}
+```
+
+### Internal link indicator
+
+TODO
+
+{{< details "Reference: Default external link indicator" >}}
+```css
+.external-link {
+  color: var(--link-external-color);
+  text-decoration-line: var(--link-external-decoration);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(transparent, transparent), url(public/images/874d8b8….svg);
+  background-size: 13px;
+  padding-right: 16px;
+  background-position-y: 4px;
+  cursor: var(--cursor-link);
+  filter: var(--link-external-filter);
+}
+```
+{{< /details >}}
+
+### Multi-state checklist
+
+Ref:
+
+- [CSS snippet for multi-state tasks - Help - Obsidian Forum](https://forum.obsidian.md/t/css-snippet-for-multi-state-tasks/50062)
+- [Creating tasks that have three possible states instead of two - Help - Obsidian Forum](https://forum.obsidian.md/t/creating-tasks-that-have-three-possible-states-instead-of-two/24105)
+
+I switched to [List Callouts](#list-callouts), but this works very well on v1.4.16:
+[Obsidian custom checkbox snippet](https://gist.github.com/OliverBalfour/b87459fd55cf1f5832a2e0996a6f45a0)
+
 ### Readable line length adjustment
 
 Ref: [Changes the readable line length in Obsidian Notes. Tested in Obsidian v1.0.0](https://gist.github.com/vii33/f2c3a85b64023cefa9df6420730c7531)
@@ -191,6 +374,22 @@ body {
   /* iPad mini 5 */
   /* --file-line-width: 586px !important; */
   /* --file-line-width: 61ch !important; */
+}
+```
+
+### Show close file button at all times
+
+Old habits die hard.
+
+```css
+.workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
+  display: flex;
+}
+
+@media (hover: hover) {
+  .workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button:hover {
+    background: var(--background-secondary);
+  }
 }
 ```
 
@@ -212,7 +411,6 @@ Refs:
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // document.getElementById("screen-resolution").innerText = window.screen.width + " pixels wide X " + window.screen.height + " pixels high";
   var width = window.screen.width;
   var height = window.screen.height;
   var mes = "This device is " + width + " pixels wide x " + height + " pixels high.";
@@ -244,7 +442,7 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 ```
 
-### On-device debugging
+### On-device testing
 
 Ref: [[Mobile] IOS : App to work with hidden folder - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/mobile-ios-app-to-work-with-hidden-folder/25741)
 
@@ -266,6 +464,10 @@ Editors/apps that I have tested:
 
 ## Things to keep an eye on
 
+General:
+
+- [Obsidian Plugin Stats](https://obsidian-plugin-stats.vercel.app/)
+
 For writing:
 
 - [Plugins for Writers - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Writers)
@@ -275,10 +477,21 @@ For writing:
 - [Dictionary and Spellchecking Plugins - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Dictionary+and+Spellchecking+Plugins)
 - [Plugins Designed for Mobile - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+Designed+for+Mobile)
 - [Outdented marks / Hanging punctuation - Help - Obsidian Forum](https://forum.obsidian.md/t/outdented-marks-hanging-punctuation/34527)
+- [holubj/obsidian-dialogue-plugin: Dialogue plugin for Obsidian.md](https://github.com/holubj/obsidian-dialogue-plugin)
 
 For note-taking:
 
 - [Obsidian Web Clipper — Steph Ango](https://stephanango.com/obsidian-web-clipper)
+- [SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
+- [MSzturc/obsidian-advanced-slides: Create markdown-based reveal.js presentations in Obsidian](https://github.com/MSzturc/obsidian-advanced-slides)
+- [Phantom1003/obsidian-slide-note](https://github.com/Phantom1003/obsidian-slide-note)
+- [The Obsidian Plugins I Actually Use – Curtis McHale](https://curtismchale.ca/2023/02/08/the-obsidian-plugins-i-actually-use/)
+
+For reading:
+
+- [KOReader to Obsidian: Export Notes and Highlights](https://hermitage.utsob.me/writings/technical/how-tos/ko-reader-to-obsidian)
+- [Edo78/obsidian-koreader-sync: Obsidian.md plugin to sync highlights/notes from koreader](https://github.com/Edo78/obsidian-koreader-sync)
+- [NoHeartPen/obsidian-edit-koreader-lua: This is a simple plugin for editing KOReader metadata.epub.lua as a markdown file in Obsidian.](https://github.com/NoHeartPen/obsidian-edit-koreader-lua/tree/master)
 
 Remotely related:
 

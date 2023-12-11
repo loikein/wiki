@@ -60,6 +60,10 @@ Inspiration: [How to Block Tags With Site Skins (And Get Real Specific About It)
   overflow: hidden;
 }
 
+.blurb > .header {
+  opacity: inherit;
+}
+
 /* mark works with their languages */
 .blurb:has(.language[lang*="es"])::before {
   content: "es";
@@ -75,6 +79,66 @@ Inspiration: [How to Block Tags With Site Skins (And Get Real Specific About It)
   background: yellow;
 }
 ```
+
+### \(Unsuccessful\) Adjust order of elements in work blurb
+
+**Failed attempts** to make the stats (Language / Word count / Chapter plan) appear first, then tags, then summary.
+
+{{< details `Flexbox version that is not compatible with AO3 site skin system.` >}}
+```css
+ol.work > li.blurb {
+  display: flex;
+  flex-direction: column;
+  gap: .643em;
+}
+
+.blurb>.header, .blurb>dl, .blurb>blockquote {
+  margin: 0;
+}
+
+.blurb>.landmark {
+  display: none;
+  visibility: collapse;
+}
+
+.blurb>.header {
+  order: -2;
+}
+
+.blurb dl.stats {
+  order: -1;
+  text-align: left;
+}
+```
+{{< /details >}}
+
+{{< details `Clumsier table version that is compatible with AO3's site skin system, but not with iOS Safari.` >}}
+Bonus: It voids any height-clipping CSS for the work blurbs.
+
+Ref: [html - Switching the order of block elements with CSS - Stack Overflow](https://stackoverflow.com/a/25309319)
+
+```css
+ol.work > li.blurb {
+  display: table;
+}
+
+ol.work > li.blurb >.header {
+  display: table-caption;
+  margin-top: .375em;
+  border-top: 5px solid #ddd;
+}
+
+ol.work > li.blurb > dl.stats {
+  float: none;
+  display: table-header-group;
+  text-align: left;
+}
+
+ol.work > li.blurb > ul.tags {
+  margin-top: .643em;
+}
+```
+{{< /details >}}
 
 ### Hide in-text illustrations
 
