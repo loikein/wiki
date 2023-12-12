@@ -174,7 +174,7 @@ Usage:
 ```
 
 
-## Custom Shortcodes (by theme)
+## Custom Shortcodes \(by hugo-book theme\)
 
 ### Columns
 
@@ -206,20 +206,6 @@ Hello...
 {{</* /columns */>}}
 ```
 
-### Summary/Detail
-
-{{< details "Summary" open >}}
-Who am I? Where am I?
-{{< /details >}}
-
-Usage:
-
-```html
-{{</* details "Summary" open */>}}
-Who am I? Where am I?
-{{</* /details */>}}
-```
-
 ### Hints \(deprecated\)
 
 > Note: this has become redundant since Hugo v0.108.0 \([release notes](https://github.com/gohugoio/hugo/releases/tag/v0.108.0)\). Use [block attributes](#hints-with-block-attribute) instead.
@@ -246,6 +232,21 @@ Warning hint
 Danger **(!)** hint
 {{</* /hint */>}}
 ```
+
+### Summary/Detail
+
+{{< details "Summary" open >}}
+Who am I? Where am I?
+{{< /details >}}
+
+Usage:
+
+```html
+{{</* details "Summary" open */>}}
+Who am I? Where am I?
+{{</* /details */>}}
+```
+
 
 ### Tabs
 
@@ -356,44 +357,6 @@ Usage: \(add `+` or `-` \(no space\) before the lines to be highlighted\)
 {{</* /diffcode */>}}
 ````
 
-### highlight-file
-
-{{< highlight-file file="test.py" lang="python" >}}
-
-Usage:
-
-```html
-{{</* highlight-file file="test.py" lang="python" */>}}
-```
-
-Folder structure: \(aka [Hugo Page bundle](https://gohugo.io/content-management/page-bundles/)\)
-
-> Non-page resources work for both branch bundles and leaf bundles. Therefore, so long as the highlighted file is not of [content formats](https://gohugo.io/content-management/formats/), it can be a resource for any page.
-{.book-hint .info}
-
-```text
-content/test-page
-├── _index.md     <-- branch bundle index file
-└── test.py       <-- resource for section page: test-page
-
-content/computer/software-usage/obsidian
-├── index.md      <-- leaf bundle index file
-└── theme-ib.css  <-- resource for regular page: obsidian
-```
-
-### kbd
-
-{{< kbd I hate typing >}}　
-
-Usage:
-
-```html
-{{</* kbd I hate typing */>}}
-
-<!-- if key contains symbols, use literal ticks -->
-{{</* kbd `I` `hate` `typing` */>}}
-```
-
 ### GitHub Gist
 
 Native mode: \(No JS, with optional `lineNos` and `hlLines` params that work exactly like in the `highlight` shortcode.\)
@@ -439,7 +402,7 @@ embed="true" */>}}
 
 ### GitHub File
 
-Native mode only. If you want to embed, use at your own risk: [emgithub](https://emgithub.com/)
+Native mode only. If you want to embed, use \(at your own risk\): [emgithub](https://emgithub.com/)
 
 Do not pass directories! This is not supported.
 
@@ -461,6 +424,56 @@ file=`content/_index.md`
 lineNos="table"
 hlLines="2-4 7"
 lang="md" */>}}
+```
+
+### highlight-file
+
+{{< highlight-file file="test.py" lang="python" >}}
+
+Usage:
+
+```html
+{{</* highlight-file file="test.py" lang="python" */>}}
+```
+
+Folder structure: \(aka [Hugo Page bundle](https://gohugo.io/content-management/page-bundles/)\)
+
+> Non-page resources work for both branch bundles and leaf bundles. Therefore, so long as the highlighted file is not of [content formats](https://gohugo.io/content-management/formats/), it can be a resource for any page.
+{.book-hint .info}
+
+```text
+content/test-page
+├── _index.md     <-- branch bundle index file
+└── test.py       <-- resource for section page: test-page
+
+content/computer/software-usage/obsidian
+├── index.md      <-- leaf bundle index file
+└── theme-ib.css  <-- resource for regular page: obsidian
+```
+
+### kbd
+
+{{< kbd I hate typing >}}　
+
+Usage:
+
+```html
+{{</* kbd I hate typing */>}}
+
+<!-- if key contains symbols, use literal ticks -->
+{{</* kbd `I` `hate` `typing` */>}}
+```
+
+### menu
+
+[Sphinx-like](https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#role-menuselection) menuselection for easier documentation of software usage. Cannot use `{{</* kbd */>}}` here unfortunately.
+
+{{< menu `<kbd>Command</kbd> + <kbd>,</kbd>` `General` `Language` `Add` >}}
+
+Usage:
+
+```go-html-template
+{{</* menu `<kbd>Command</kbd> + <kbd>,</kbd>` `General` `Language` `Add` */>}}
 ```
 
 ### ruby
