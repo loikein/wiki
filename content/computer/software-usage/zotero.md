@@ -2,8 +2,24 @@
 weight: 400
 title: "Zotero"
 ---
+## \(Maybe\) Useful resources
+
+- [Install Zotero - Zotero - Library Guides at UC Berkeley](https://guides.lib.berkeley.edu/zotero)
+
 
 ## Useful tricks
+
+### Export annotations from PDF to notes
+
+> [kb:zotfile_extract_annotations [Zotero Documentation]](https://www.zotero.org/support/kb/zotfile_extract_annotations)
+> 
+> {{< menu `Right-click on article/PDF file` `Add Note from Annotations` >}}
+
+Downside: It does not include text annotations.
+
+### Export notes to Markdown/HTML file
+
+{{< menu `Right-click on note` `Export Notes…` `Select format` `OK` >}}, then you will be prompted to select path and confirm.
 
 ### See all collections an item is in
 
@@ -24,6 +40,17 @@ title: "Zotero"
 
 ## Useful Plug-Ins
 
+{{< details "Plugins that I have tried but did not keep" >}}
+- [windingwind/zotero-better-notes: Everything about note management. All in Zotero.](https://github.com/windingwind/zotero-better-notes#note-export)
+- [jlegewie/zotfile: Zotero plugin to manage your attachments: automatically rename, move, and attach PDFs (or other files) to Zotero items, sync PDFs from your Zotero library to your (mobile) PDF reader (e.g. an iPad, Android tablet, etc.), and extract PDF annotations.](https://github.com/jlegewie/zotfile/tree/master)
+- [argenos/zotero-mdnotes: A Zotero plugin to export item metadata and notes as markdown files](https://github.com/argenos/zotero-mdnotes)
+{{< /details >}}
+
+{{< details "Plugins that I would like to try later" >}}
+- [wshanks/Zutilo: Zotero plugin providing some additional editing features](https://github.com/wshanks/Zutilo)
+{{< /details >}}
+
+
 ### Better BibTeX
 
 Documentation: [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/)
@@ -34,6 +61,11 @@ My configuration:
 Citation key format:         [zotero:clean]
 Fields to omit from export:  file, note, keywords, abstract
 ```
+
+### Date Grabber
+
+Repository: [retorquere/zotero-date-from-last-modified](https://github.com/retorquere/zotero-date-from-last-modified/tree/master)
+
 
 ### DOI Manager
 
@@ -55,17 +87,28 @@ Repository: [jlegewie/zotfile: Zotero plugin to manage your attachments](https:/
 
 Repository: [mronkko/ZoteroQuickLook: Implements QuickLook in Zotero](https://github.com/mronkko/ZoteroQuickLook)
 
+After applying fixes from the Issues \([1](https://github.com/mronkko/ZoteroQuickLook/issues/44#issuecomment-1079053758), [2](https://github.com/mronkko/ZoteroQuickLook/issues/44#issuecomment-1079624343)\), it works with Zotero 6 well.
+
 ### OCR
 
 Repository: [UB-Mannheim/zotero-ocr: Zotero Plugin for OCR](https://github.com/UB-Mannheim/zotero-ocr)
 
-### Date Grabber
-
-Repository: [retorquere/zotero-date-from-last-modified](https://github.com/retorquere/zotero-date-from-last-modified/tree/master)
 
 ### scite
 
 Repository: [scitedotai/scite-zotero-plugin: scite zotero plugin](https://github.com/scitedotai/scite-zotero-plugin)
+
+### Special tags column
+
+Repo: [whacked/zotero-special-tags-column: Plugin to add a "Special Tags" column into Zotero where you can display specific, pre-defined tags](https://github.com/whacked/zotero-special-tags-column)
+
+Add custom tag display mappings. I made a star-rating \(well, more like moon-rating\) system with it.
+
+My configuration:
+
+```text
+{"5-star":"🌕🌕🌕🌕🌕","4-star":"🌕🌕🌕🌕🌑","3-star":"🌕🌕🌕🌑🌑","2-star":"🌕🌕🌑🌑🌑","1-star":"🌕🌑🌑🌑🌑","0-star":"🌑🌑🌑🌑🌑"}
+```
 
 ## Use Sci-Hub as Default PDF Finder
 

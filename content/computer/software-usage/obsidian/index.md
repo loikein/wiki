@@ -197,6 +197,12 @@ Repo: [davish/obsidian-full-calendar: Keep events and manage your calendar along
 
 I only use it to display my [iCloud calendar](https://davish.github.io/obsidian-full-calendar/calendars/caldav/) \(read-only\), but obviously it is far more powerful than that.
 
+### HTML Reader
+
+Repo: [nuthrash/obsidian-html-plugin: This is a plugin for Obsidian (https://obsidian.md). Can open document with .html and .htm file extensions.](https://github.com/nuthrash/obsidian-html-plugin)
+
+Add the ability to read \(no edit\) `.html` files in Obsidian.
+
 ### List Callouts
 
 Repo: [mgmeyers/obsidian-list-callouts: Create callouts in lists in Obsidian.](https://github.com/mgmeyers/obsidian-list-callouts)
@@ -223,6 +229,12 @@ Adds a bookmark symbol to the bookmarked notes in the file tree.
 Companion snippet by me:
 
 {{< highlight-file file="plugin-prominent-files.css" lang="css" >}}
+
+### Unitade
+
+Repo: [Falcion/UnitadeOBSIDIAN: A plugin for note-taking app Obsidian™ which allows you to treat any file extension as markdown note-file](https://github.com/Falcion/UnitadeOBSIDIAN)
+
+Add the ability to read and edit `.txt` files in Obsidian.
 
 ### Zotero integration
 
@@ -486,13 +498,12 @@ Editors/apps that I have tested:
 
 ## Things to keep an eye on
 
-General:
-
+{{< details "General" >}}
 - [Obsidian Plugin Stats](https://obsidian-plugin-stats.vercel.app/)
 - [Actions for Obsidian](https://actions.work/actions-for-obsidian) \(As in: Shortcuts.app\)
+{{< /details >}}
 
-For writing:
-
+{{< details "For writing" >}}
 - [Plugins for Writers - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Writers)
 - [Plugins for Editing Notes - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Editing+Notes)
 - [Chinese Language Plugins - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Chinese+Language+Plugins)
@@ -501,9 +512,9 @@ For writing:
 - [Plugins Designed for Mobile - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+Designed+for+Mobile)
 - [Outdented marks / Hanging punctuation - Help - Obsidian Forum](https://forum.obsidian.md/t/outdented-marks-hanging-punctuation/34527)
 - [holubj/obsidian-dialogue-plugin: Dialogue plugin for Obsidian.md](https://github.com/holubj/obsidian-dialogue-plugin)
+{{< /details >}}
 
-For note-taking:
-
+{{< details "For note-taking" >}}
 - [Obsidian Web Clipper — Steph Ango](https://stephanango.com/obsidian-web-clipper)
 - [SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
 - [MSzturc/obsidian-advanced-slides: Create markdown-based reveal.js presentations in Obsidian](https://github.com/MSzturc/obsidian-advanced-slides)
@@ -511,19 +522,22 @@ For note-taking:
 - [The Obsidian Plugins I Actually Use – Curtis McHale](https://curtismchale.ca/2023/02/08/the-obsidian-plugins-i-actually-use/)
 - [GitHub - blacksmithgu/obsidian-dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/.](https://web.archive.org/web/20231006163948/https://github.com/blacksmithgu/obsidian-dataview)
 - [jeweljohnsonj/obsidian_template: A template vault folder for using Obsidian for literature note taking puporses](https://github.com/jeweljohnsonj/obsidian_template)
+- [elias-sundqvist/obsidian-annotator: A plugin for reading and annotating PDFs and EPUBs in obsidian.](https://github.com/elias-sundqvist/obsidian-annotator) \(`doesn't work on iOS 16.3 or higher`\)
+- [stefanopagliari/bibnotes](https://github.com/stefanopagliari/bibnotes) \(Note: The annotation extraction depends on Zotero's extract annotations from PDF.\)
+{{< /details >}}
 
-For reading:
-
+{{< details "For reading" >}}
 - [KOReader to Obsidian: Export Notes and Highlights](https://hermitage.utsob.me/writings/technical/how-tos/ko-reader-to-obsidian)
 - [Edo78/obsidian-koreader-sync: Obsidian.md plugin to sync highlights/notes from koreader](https://github.com/Edo78/obsidian-koreader-sync)
 - [NoHeartPen/obsidian-edit-koreader-lua: This is a simple plugin for editing KOReader metadata.epub.lua as a markdown file in Obsidian.](https://github.com/NoHeartPen/obsidian-edit-koreader-lua/tree/master)
 - [How I Import Literature Notes into Obsidian | Christian B. B. Houmann](https://bagerbach.com/blog/importing-source-notes-to-obsidian)
+{{< /details >}}
 
-Daily notes:
-
+{{< details "For Daily Notes" >}}
 - [iiz00/obsidian-daily-note-outline: Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items](https://github.com/iiz00/obsidian-daily-note-outline)
 - [liamcain/obsidian-periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian](https://github.com/liamcain/obsidian-periodic-notes)
 - [Kageetai/obsidian-plugin-journal-review: Review your daily notes on their anniversaries, like "what happened today last year"](https://github.com/Kageetai/obsidian-plugin-journal-review)
+{{< /details >}}
 
 Remotely related:
 

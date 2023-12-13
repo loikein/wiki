@@ -22,4 +22,4 @@ title: "LaTeX"
 
 ## Tools
 
-- [ezgranet/pdfwordcounter: PDF Word Counter](https://github.com/ezgranet/pdfwordcounter)
+See: [PDF](/computer/pdf/).
