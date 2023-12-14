@@ -38,6 +38,7 @@ From short to long:
 
 `&#x2014;` or `&mdash;`
 : Em dash
+: Chinese dash (`——`) is two em dashes.
 
 Special usage:
 
@@ -45,7 +46,7 @@ Special usage:
 : Non-breaking hyphen
 
 `&#x00AD;` or `&shy;`
-: Soft hyphen. Line breaking chance indicator.
+: Soft hyphen. Line breaking chance indicator, invisible when not breaking.
 
 
 ## Tools
@@ -58,6 +59,7 @@ Special usage:
 
 - [Webbed Briefs](https://briefs.video/)
 - [Tania Rascia](https://www.taniarascia.com/)
+- [The Valley of Code](https://thevalleyofcode.com/)
 
 ### Ideas
 
@@ -79,6 +81,9 @@ English sites:
 - [ARETE — Visual History of the Latin Alphabet](https://uclab.fh-potsdam.de/arete/en)
 - [Gareth L Devlin Portfolio](https://gld-portfolio.vercel.app/)
     + Repository: [GLD5000/GLD-Portfolio](https://github.com/GLD5000/GLD-Portfolio)
+- [flaviocopes.com](https://flaviocopes.com/)
+- [Brian Lovin](https://brianlovin.com/)
+    + [brianlovin/briOS: My personal website.](https://github.com/brianlovin/briOS)
 
 Japanese sites: \([my post on fedi](https://mastodon.social/@loikein/110599760545613583)\)
 

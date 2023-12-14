@@ -1,6 +1,10 @@
 ---
 title: "macOS"
 ---
+## Readings
+
+- [Mac Shortcuts: Aliases, Symbolic Links, Hard Links](https://www.lifewire.com/aliases-symbolic-links-hard-links-mac-2260189)
+
 
 ## Useful Software
 

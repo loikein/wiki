@@ -96,6 +96,12 @@ Focus on the current paragraph.
 
 Click the moon icon in the [Ribbon](https://help.obsidian.md/User+interface/Workspace/Ribbon), or use {{< menu `Command palette` `Stille: Toggle Stille` >}} to activate.
 
+### Typewriter Mode
+
+Repo: [davisriedel/obsidian-typewriter-mode](https://github.com/davisriedel/obsidian-typewriter-mode)
+
+New, still testing out. Seems to consume a lot of memory…
+
 ### Typewriter Scroll
 
 Repo: [deathau/cm-typewriter-scroll-obsidian: Typewriter Scroll Obsidian Plugin](https://github.com/deathau/cm-typewriter-scroll-obsidian)
@@ -402,12 +408,16 @@ Tested on Obsidian 1.4.16, with iA Writer Duo font 16px.
 
 ```css
 body {
-  /* iPad mini 6 */
-  /* --file-line-width: 606px !important; */
-  --file-line-width: 63ch !important;
-  /* iPad mini 5 */
-  /* --file-line-width: 586px !important; */
-  /* --file-line-width: 61ch !important; */
+  /* target: Note.app on iPad mini 6 */
+  --file-line-width: 606px !important;
+  /* --file-line-width: 63ch !important; */
+}
+
+/* Somehow the numbers are different on iPad  */
+@supports (-webkit-touch-callout: none) {
+  body {
+    --file-line-width: 620px !important;
+  }
 }
 ```
 
@@ -442,6 +452,7 @@ Refs:
 - [iOS Resolution // Display properties of every iPhone, iPad, iPod touch and Apple Watch Apple ever made](https://www.ios-resolution.com/)
 - [What Is My Screen Resolution? - WhatIsMyIP.com®](https://www.whatismyip.com/screen-resolution/)
 - [css - Get the device width in javascript - Stack Overflow](https://stackoverflow.com/a/48869219)
+- [CSS media query to target only iOS devices - Stack Overflow](https://stackoverflow.com/a/47818418/10668706)
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -459,6 +470,11 @@ document.addEventListener("DOMContentLoaded", function() {
 {.book-hint .warning}
 
 ```css
+/* Any iOS device */
+@supports (-webkit-touch-callout: none) {
+  /* ... */ 
+}
+
 /* iPad mini 6 */
 @media only screen 
   and (min-device-width: 744px) 
@@ -515,6 +531,7 @@ Editors/apps that I have tested:
 {{< /details >}}
 
 {{< details "For note-taking" >}}
+- [Vaccarini-Lorenzo/MagicCalendar: An obsidian plugin that exploit a natural language processing engine to find potential events and sync them with iCalendar](https://github.com/Vaccarini-Lorenzo/MagicCalendar)
 - [Obsidian Web Clipper — Steph Ango](https://stephanango.com/obsidian-web-clipper)
 - [SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
 - [MSzturc/obsidian-advanced-slides: Create markdown-based reveal.js presentations in Obsidian](https://github.com/MSzturc/obsidian-advanced-slides)

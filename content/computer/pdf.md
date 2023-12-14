@@ -7,6 +7,12 @@ title: "PDF"
 
 I decided to start to collect everything I know about PDF in one place, because it has very, very frustrating for a very, very long time.
 
+## Deep link
+
+Haven't tried:
+
+[How to create URL link to the specific section of the PDF file? - Super User](https://superuser.com/a/1384902)
+
 
 ## Export annotations
 
@@ -67,10 +73,17 @@ Main entries:
 
 I have tried every existing plugin and/or built-in function that I could find with Obsidian and Zotero, but none of them exports annotations, only highlights and underlines. Same for [Highlights](https://highlightsapp.net/features/) \(I only tried the free {{< menu `Export Notes as PDF` >}} option which did not work. Hard to imagine that it would work for other formats\).
 
-- [akaalias/obsidian-extract-pdf-highlights](https://github.com/akaalias/obsidian-extract-pdf-highlights/tree/master): Very buggy on Obsidian 1.4
+- [akaalias/obsidian-extract-pdf-highlights](https://github.com/akaalias/obsidian-extract-pdf-highlights/tree/master): Also very buggy in Obsidian 1.4.
+- [munach/obsidian-extract-pdf-annotations](https://github.com/munach/obsidian-extract-pdf-annotations)
 - [jlegewie/zotfile](https://github.com/jlegewie/zotfile): Removed its {{< menu `Extract Annotations` >}} function after Zotero 6. Zotero 6's {{< menu `Add Note from Annotations` >}} function does not extract annotations.
 - [stefanopagliari/bibnotes](https://github.com/stefanopagliari/bibnotes): Its {{< menu `Export Notes` >}} option uses notes from Zotero, yada yada yada.
 - [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes): Have to manually select and export every single note within Zotero's PDF viewer \(which I really don't like\), so I just lost interest and did not test if it handles annotations.
+
+### CLI tools to test
+
+- [0xabu/pdfannots: Extracts and formats text annotations from a PDF file](https://github.com/0xabu/pdfannots)
+- [jiversen/pdfannotations: Extract annotations, including highlighted text, from pdf](https://github.com/jiversen/pdfannotations)
+- [dimi2/DyAnnotationExtractor: DyAnnotationExtractor is software for extracting annotations (highlighted text and comments) from e-documents like PDF.](https://github.com/dimi2/DyAnnotationExtractor)
 
 
 ## Word count

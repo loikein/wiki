@@ -38,9 +38,6 @@ body {
   --link-unresolved-decoration-color: var(--text-muted);
   --link-external-decoration-color: var(--text-muted);
   --checklist-done-decoration: line-through;
-  --checkbox-color: transparent;
-  --checkbox-color-hover: transparent;
-  --checkbox-marker-color: transparent;
 }
 
 .theme-light {

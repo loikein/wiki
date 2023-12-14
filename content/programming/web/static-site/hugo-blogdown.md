@@ -11,6 +11,7 @@ disable_latex: true
 ## \(Maybe\) Useful resources
 
 {{< details "Themes" >}}
+- [kaushalmodi/hugo-debugprint: Hugo "debugprint.html" partial](https://github.com/kaushalmodi/hugo-debugprint)
 - [QIN2DIM/awesome-hugo-themes: 🐱‍🏍 A curated list of awesome things related to Hugo themes.](https://github.com/QIN2DIM/awesome-hugo-themes)
 - [Templates for Static Site Generators | CloudCannon](https://cloudcannon.com/templates/)
 - [matcornic/hugo-theme-learn: Porting Grav Learn theme to Hugo](https://github.com/matcornic/hugo-theme-learn) \(The button code I used for [hugo-tufte](https://github.com/loikein/hugo-tufte) comes from here.\)
@@ -18,6 +19,9 @@ disable_latex: true
 - [imfing/hextra: 🔯 Modern, batteries-included Hugo theme for creating beautiful doc, blog and static websites](https://github.com/imfing/hextra)
   + Note that it has some [potential performance problems](https://discourse.gohugo.io/t/slow-builds-with-hextra-theme/46492).
 - [nicokaiser/hugo-theme-gallery: Gallery Theme for Hugo](https://github.com/nicokaiser/hugo-theme-gallery) \(Note: This theme is using git as photo storage, which I do not like.\)
+- [HEIGE-PCloud/DoIt: A clean, elegant and advanced blog theme for Hugo.](https://github.com/HEIGE-PCloud/DoIt/tree/main)
+- [apvarun/digital-garden-hugo-theme: Build your own personal Digital Garden effortlessly with this Hugo theme](https://github.com/apvarun/digital-garden-hugo-theme)
+- [ronv/listed: Minimalistic, clean and simple design Hugo theme](https://github.com/ronv/listed)
 {{< /details >}}
 
 {{< details "Layouts \& shortcodes" >}}
@@ -26,6 +30,7 @@ disable_latex: true
 - [mfg92/hugo-shortcode-gallery: A theme components with a gallery shortcode for the static site generator hugo.](https://github.com/mfg92/hugo-shortcode-gallery)
 - [RoneoOrg/hugo-shortcode-roneo-collection: A shortcode collection for Hugo](https://github.com/RoneoOrg/hugo-shortcode-roneo-collection)
 - [Add-ons for Hugo | Hugo Codex](https://hugocodex.org/add-ons/) \(The breadcrumbs code on this wiki comes from here.\)
+  + [jhvanderschee/hugocodex: A website for front-end developers who want to learn Hugo.](https://github.com/jhvanderschee/hugocodex/tree/main)
 - [loup-brun/hugo-cite: 📝 Easily manage your bibliography and in-text citations with Hugo, the popular static-site generator.](https://github.com/loup-brun/hugo-cite)
 - [liwenyip/hugo-easy-gallery: Automagical css image gallery in Hugo using shortcodes, with optional lightbox/carousel gadget using PhotoSwipe and jQuery.](https://github.com/liwenyip/hugo-easy-gallery)
 - [Roneo / Hugo Shortcode Collection · GitLab](https://gitlab.com/Roneo/hugo-shortcode-roneo-collection)
@@ -38,6 +43,10 @@ disable_latex: true
 - [Archive | pawelgrzybek.com](https://pawelgrzybek.com/archive/)
   + Repository: [GitHub - pawelgrzybek/pawelgrzybek.com](https://github.com/pawelgrzybek/pawelgrzybek.com)
 - [ii.com: Welcome to Infinite Ink](https://www.ii.com/)
+- [darktable 4.6 user manual - darktable](https://darktable-org.github.io/dtdocs/en/)
+  + [darktable-org/dtdocs: darktable user manual](https://github.com/darktable-org/dtdocs)
+  + [pixlsus/hugo-darktable-docs-epub-theme: Hugo epub theme for dtdocs](https://github.com/pixlsus/hugo-darktable-docs-epub-theme)
+  + [pixlsus/hugo-darktable-docs-pdf-theme: A Hugo theme for generating a PDF from the dtdocs project.](https://github.com/pixlsus/hugo-darktable-docs-pdf-theme)
 {{< /details >}}
 
 {{< details "Tutorials" >}}
