@@ -8,6 +8,11 @@ title: "英语词汇参考"
 按字母顺序排列。\([Spaces When Alphabetizing](https://deanebarker.net/huh/spaces-when-alphabetizing/)\)
 
 
+## 语法
+
+- [Singular “they” - APA Style](https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they): 即使在 they 当第三人称单数代词使用时，动词也是用复数形式。
+
+
 ## 法语相关
 
 a la

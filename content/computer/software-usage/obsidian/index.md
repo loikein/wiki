@@ -209,6 +209,12 @@ Repo: [nuthrash/obsidian-html-plugin: This is a plugin for Obsidian (https://obs
 
 Add the ability to read \(no edit\) `.html` files in Obsidian.
 
+### Linter
+
+Repo: [platers/obsidian-linter: An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility.](https://github.com/platers/obsidian-linter)
+
+Cannot live without `line-break-at-document-end`.
+
 ### List Callouts
 
 Repo: [mgmeyers/obsidian-list-callouts: Create callouts in lists in Obsidian.](https://github.com/mgmeyers/obsidian-list-callouts)
