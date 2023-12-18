@@ -118,7 +118,16 @@ Use {{< menu `Command palette` `Typewriter Scroll: Toggle On/Off` >}} to activat
 
 ## Plugins \(for peaceful writing\)
 
-Most of my creative writings are in Chinese.
+Most of my creative writings are in Chinese and published under my other online personae.
+
+### Copy as HTML
+
+Repo: [jenningsb2/copy-as-html: A simple plugin that copies the selected text to your clipboard as HTML](https://github.com/jenningsb2/copy-as-html)
+
+> This plugin does not work on iOS as of now.
+{.book-hint .warning}
+
+After some initial testing, I found this plugin better than [Copy Document as HTML](https://github.com/mvdkwast/obsidian-copy-as-html), in the sense that it can be configured to remove comments at copy. However, neither adds right-click context menu.
 
 ### Hider
 
@@ -547,6 +556,7 @@ Editors/apps that I have tested:
 - [jeweljohnsonj/obsidian_template: A template vault folder for using Obsidian for literature note taking puporses](https://github.com/jeweljohnsonj/obsidian_template)
 - [elias-sundqvist/obsidian-annotator: A plugin for reading and annotating PDFs and EPUBs in obsidian.](https://github.com/elias-sundqvist/obsidian-annotator) \(`doesn't work on iOS 16.3 or higher`\)
 - [stefanopagliari/bibnotes](https://github.com/stefanopagliari/bibnotes) \(Note: The annotation extraction depends on Zotero's extract annotations from PDF.\)
+- [obsidian-tasks-group/obsidian-tasks: Task management for the Obsidian knowledge base.](https://github.com/obsidian-tasks-group/obsidian-tasks)
 {{< /details >}}
 
 {{< details "For reading" >}}
