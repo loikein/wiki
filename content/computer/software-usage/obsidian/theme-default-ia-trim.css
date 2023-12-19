@@ -79,6 +79,8 @@ body:not(.is-grabbing) .nav-folder-title.is-active:hover,
 .cm-underline,
 /* internal links */
 .cm-s-obsidian span.cm-hmd-internal-link,
+/* internal links in preview */
+.internal-link,
 /* external links */
 .cm-s-obsidian span.cm-url,
 /* external links in preview */

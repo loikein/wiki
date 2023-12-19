@@ -49,7 +49,9 @@ ruby -ropenssl -e "puts OpenSSL::VERSION"
 ```
 
 
-## Readings
+## \(Maybe\) Useful resources
+
+### Readings
 
 - [Peter Norvig](https://www.norvig.com/)
 - Self/independently-published coding books
@@ -66,3 +68,7 @@ ruby -ropenssl -e "puts OpenSSL::VERSION"
 <!-- seviche's bookmarks
 - [Airtable - About Coding](https://airtable.com/appUVHB29NzA8Tysi/shrpftxf6JgRomP2X/tblEvtThXHNBMQ8lW/viwMvPLTmjMGTL5fc)
  -->
+
+### Trainings
+
+- [Dashboard | HackerRank](https://www.hackerrank.com/dashboard)

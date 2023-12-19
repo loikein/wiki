@@ -5,6 +5,8 @@
 
 .prominent-decorated-file svg {
   fill: IndianRed;
+  height: var(--icon-s);
+  width: var(--icon-s);
 }
 
 .view-action.mod-bookmark {
