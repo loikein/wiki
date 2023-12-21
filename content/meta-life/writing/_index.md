@@ -6,6 +6,7 @@ title: "写作"
 ## General
 
 - [Homegrown Handouts | San José State University Writing Center](https://www.sjsu.edu/writingcenter/resources/handouts.php)
+- [写作入门 - by 汉洋 MasterPa - 汉洋叭叭](https://hanyang.wtf/p/c7a)
 
 
 ## Academic writing
@@ -29,19 +30,17 @@ title: "写作"
 ### General advice
 
 - [kill your darlings](https://en.wiktionary.org/wiki/kill_one%27s_darlings)
+- [汪曾祺《小说笔谈》](https://www.douban.com/note/139533008/)
 
 ### Articles
 
-- [写作入门 - by 汉洋 MasterPa - 汉洋叭叭](https://hanyang.wtf/p/c7a)
 - [「三幕構成・起承転結・序破急」（三幕構成8） | イルカとウマの文学村](https://irukauma.site/iruka/story/loglineandplot/4060/)
 - [Tropes - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes)
-
 
 ### Books
 
 - [物語要素事典 愛知学院大学](https://www.lib.agu.ac.jp/yousojiten/)
 - [Crafty TV Writing](http://www.craftyscreenwriting.com/CraftyTV.html)
-
 
 ### Authors
 

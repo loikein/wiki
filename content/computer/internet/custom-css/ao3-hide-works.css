@@ -1,0 +1,27 @@
+/* truncate & opacify works */
+/* by tag or work URL */
+.blurb:has(a[href*="Some%20Character*s*Another%20Character"]),
+.blurb:has(a[href*="/works/..."]) {
+  opacity: 0.3;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.blurb > .header {
+  opacity: inherit;
+}
+
+/* mark works with their languages */
+.blurb:has(.language[lang*="es"])::before {
+  content: "es";
+  position: absolute;
+  font-size: 50px;
+  right: 50px;
+  color: #900;
+}
+
+/* highlight works from certain users or pseuds */
+/* by author url */
+.blurb:has(a[href*="/users/.../pseuds/..."]) {
+  background: yellow;
+}

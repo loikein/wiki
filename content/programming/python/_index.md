@@ -16,6 +16,8 @@ title: "Python"
 - [Python - CopyProgramming](https://copyprogramming.com/t/python)
 - [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html)
     + Repository: [aeturrell/coding-for-economists](https://github.com/aeturrell/coding-for-economists)
+- [Python Cookbook 3rd Edition 中文版](https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html)
+    + Repo: [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
 
 
 ## Dictionary

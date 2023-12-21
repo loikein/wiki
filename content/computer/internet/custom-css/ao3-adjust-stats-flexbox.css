@@ -1,0 +1,23 @@
+ol.work > li.blurb {
+  display: flex;
+  flex-direction: column;
+  gap: .643em;
+}
+
+.blurb>.header, .blurb>dl, .blurb>blockquote {
+  margin: 0;
+}
+
+.blurb>.landmark {
+  display: none;
+  visibility: collapse;
+}
+
+.blurb>.header {
+  order: -2;
+}
+
+.blurb dl.stats {
+  order: -1;
+  text-align: left;
+}

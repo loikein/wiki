@@ -17,7 +17,7 @@ That means, you need to add the domain \(not subdomain, the whole domain\) to yo
 
 ### Binding your R2 bucket
 
-Go to Project > Settings > Functions > R2 bucket bindings, then add variable names and select buckets. Do not use Environment variables.
+Go to {{< menu `Project` `Settings` `Functions` `R2 bucket bindings` >}}, then add variable names and select buckets. Do not use Environment variables.
 
 
 ## R2
@@ -33,7 +33,7 @@ Reference: [S3 API compatibility · Cloudflare R2 docs](https://developers.cloud
 
 **Generate access token**:
 
-Go to R2 Overview > Manage R2 API Tokens > Create API token, choose `Write` permission, and then note down the Access Key ID and Secret Access Key.
+Go to {{< menu `R2 Overview` `Manage R2 API Tokens` `Create API token` >}}, choose `Write` permission, and then note down the Access Key ID and Secret Access Key.
 
 **PicGo S3 settings**:
 

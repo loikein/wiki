@@ -31,6 +31,10 @@ en route
 : 在去往某处的路上。常用：en route to
 : [Wiktionary](https://en.wiktionary.org/wiki/en_route)
 
+entourage
+: 随从
+: [Wiktionary](https://en.wiktionary.org/wiki/entourage)
+
 etiquette
 : _n._ 礼仪。区分：courtesy
 : [Wiktionary](https://en.wiktionary.org/wiki/etiquette)

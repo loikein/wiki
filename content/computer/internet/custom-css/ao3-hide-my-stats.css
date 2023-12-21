@@ -1,0 +1,17 @@
+/* search page */
+.blurb:has(a[href*="/users/..."]) .kudos,
+.blurb:has(a[href*="/users/..."]) .bookmarks,
+.blurb:has(a[href*="/users/..."]) .hits,
+/* work page meta */
+.works-show:has(.heading>a[href*="/users/..."]) .kudos,
+.works-show:has(.heading>a[href*="/users/..."]) .bookmarks,
+.works-show:has(.heading>a[href*="/users/..."]) .hits,
+/* work (chapter) page meta */
+.chapters-show:has(.heading>a[href*="/users/..."]) .kudos,
+.chapters-show:has(.heading>a[href*="/users/..."]) .bookmarks,
+.chapters-show:has(.heading>a[href*="/users/..."]) .hits,
+/* work page footer */
+.work:has(.heading>a[href*="/users/..."]) + #feedback .kudos{
+  display: none !important;
+  visibility: collapse !important;
+}

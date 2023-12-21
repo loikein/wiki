@@ -532,9 +532,11 @@ Editors/apps that I have tested:
 {{< details "General" >}}
 - [Obsidian Plugin Stats](https://obsidian-plugin-stats.vercel.app/)
 - [Actions for Obsidian](https://actions.work/actions-for-obsidian) \(As in: Shortcuts.app\)
+- [denolehov/obsidian-git: Backup your Obsidian.md vault with git](https://github.com/denolehov/obsidian-git)
 {{< /details >}}
 
 {{< details "For writing" >}}
+- [pourmand1376/obsidian-custom-font: A plugin to set custom font for obsidian](https://github.com/pourmand1376/obsidian-custom-font)
 - [Plugins for Writers - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Writers)
 - [Plugins for Editing Notes - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Editing+Notes)
 - [Chinese Language Plugins - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Chinese+Language+Plugins)
@@ -557,6 +559,7 @@ Editors/apps that I have tested:
 - [elias-sundqvist/obsidian-annotator: A plugin for reading and annotating PDFs and EPUBs in obsidian.](https://github.com/elias-sundqvist/obsidian-annotator) \(`doesn't work on iOS 16.3 or higher`\)
 - [stefanopagliari/bibnotes](https://github.com/stefanopagliari/bibnotes) \(Note: The annotation extraction depends on Zotero's extract annotations from PDF.\)
 - [obsidian-tasks-group/obsidian-tasks: Task management for the Obsidian knowledge base.](https://github.com/obsidian-tasks-group/obsidian-tasks)
+- [tgrosinger/advanced-tables-obsidian: Improved table navigation, formatting, and manipulation in Obsidian.md](https://github.com/tgrosinger/advanced-tables-obsidian)
 {{< /details >}}
 
 {{< details "For reading" >}}

@@ -53,99 +53,25 @@ Refs:
 - [How to Block Tags With Site Skins (And Get Real Specific About It) - Chapter 1 - najio - No Fandom \[Archive of Our Own\]](https://archiveofourown.org/works/41589201/chapters/104315178#workskin)
 - [Attribute selectors - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 
-```css
-/* truncate & opacify works */
-/* by tag or work URL */
-.blurb:has(a[href*="Some%20Character*s*Another%20Character"]),
-.blurb:has(a[href*="/works/..."]) {
-  opacity: 0.3;
-  max-height: 200px;
-  overflow: hidden;
-}
-
-.blurb > .header {
-  opacity: inherit;
-}
-
-/* mark works with their languages */
-.blurb:has(.language[lang*="es"])::before {
-  content: "es";
-  position: absolute;
-  font-size: 50px;
-  right: 50px;
-  color: #900;
-}
-
-/* highlight works from certain users or pseuds */
-/* by author url */
-.blurb:has(a[href*="/users/.../pseuds/..."]) {
-  background: yellow;
-}
-```
+{{< highlight-file file="ao3-hide-works.css" lang="css" >}}
 
 ### \(Unsuccessful\) Adjust order of elements in work blurb
 
 **Failed attempts** to make the stats (Language / Word count / Chapter plan) appear first, then tags, then summary.
 
 {{< details `Flexbox version that is not compatible with AO3 site skin system.` >}}
-```css
-ol.work > li.blurb {
-  display: flex;
-  flex-direction: column;
-  gap: .643em;
-}
-
-.blurb>.header, .blurb>dl, .blurb>blockquote {
-  margin: 0;
-}
-
-.blurb>.landmark {
-  display: none;
-  visibility: collapse;
-}
-
-.blurb>.header {
-  order: -2;
-}
-
-.blurb dl.stats {
-  order: -1;
-  text-align: left;
-}
-```
+{{< highlight-file file="ao3-adjust-stats-flexbox.css" lang="css" >}}
 {{< /details >}}
 
 {{< details `Clumsier table version that is compatible with AO3's site skin system, but not with iOS Safari.` >}}
-Bonus: It voids any height-clipping CSS for the work blurbs.
+Con: It voids any height-clipping CSS for the work blurbs.
 
 Ref: [html - Switching the order of block elements with CSS - Stack Overflow](https://stackoverflow.com/a/25309319)
 
-```css
-ol.work > li.blurb {
-  display: table;
-}
-
-ol.work > li.blurb >.header {
-  display: table-caption;
-  margin-top: .375em;
-  border-top: 5px solid #ddd;
-}
-
-ol.work > li.blurb > dl.stats {
-  float: none;
-  display: table-header-group;
-  text-align: left;
-}
-
-ol.work > li.blurb > ul.tags {
-  margin-top: .643em;
-}
-```
+{{< highlight-file file="ao3-adjust-stats-table.css" lang="css" >}}
 {{< /details >}}
 
 ### Hide in-text illustrations
-
-I'm sorry, authors, I don't want to see those AI-generated illustrations of my fav characters.
 
 ```css
 /* hide in-text illustrations */
@@ -154,6 +80,11 @@ I'm sorry, authors, I don't want to see those AI-generated illustrations of my f
   visibility: collapse !important;
 }
 ```
+
+### Hide my kudos and hit count
+
+{{< highlight-file file="ao3-hide-my-stats.css" lang="css" >}}
+
 
 ## GitHub
 

@@ -1,0 +1,19 @@
+ol.work > li.blurb {
+  display: table;
+}
+
+ol.work > li.blurb >.header {
+  display: table-caption;
+  margin-top: .375em;
+  border-top: 5px solid #ddd;
+}
+
+ol.work > li.blurb > dl.stats {
+  float: none;
+  display: table-header-group;
+  text-align: left;
+}
+
+ol.work > li.blurb > ul.tags {
+  margin-top: .643em;
+}
