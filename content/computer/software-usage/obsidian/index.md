@@ -3,7 +3,7 @@ weight: 400
 title: "Obsidian"
 ---
 
-> I use Obsidian with macOS 10.15 Catalina, iOS 17, and iPadOS 15. Unless stated, everything mentioned here should work everywhere.
+> I use Obsidian with macOS 10.15 Catalina, iOS 17, and iPadOS 15. Unless stated otherwise, everything mentioned here should work everywhere.
 > 
 > If some plugin does not actually work on iOS, but it tries to load every time nonetheless, you can put `"isDesktopOnly": true` in `vault/.obsidian/plugins/plugin-name/manifest.json` will turn it off on iOS.
 {.book-hint .info}
@@ -533,6 +533,7 @@ Editors/apps that I have tested:
 - [Obsidian Plugin Stats](https://obsidian-plugin-stats.vercel.app/)
 - [Actions for Obsidian](https://actions.work/actions-for-obsidian) \(As in: Shortcuts.app\)
 - [denolehov/obsidian-git: Backup your Obsidian.md vault with git](https://github.com/denolehov/obsidian-git)
+- [Obsidian plugin development: cross-platform mobile/desktop testing | Keath Milligan](https://keathmilligan.net/obsidian-plugin-cross-platform-testing)
 {{< /details >}}
 
 {{< details "For writing" >}}
@@ -573,6 +574,11 @@ Editors/apps that I have tested:
 - [iiz00/obsidian-daily-note-outline: Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items](https://github.com/iiz00/obsidian-daily-note-outline)
 - [liamcain/obsidian-periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian](https://github.com/liamcain/obsidian-periodic-notes)
 - [Kageetai/obsidian-plugin-journal-review: Review your daily notes on their anniversaries, like "what happened today last year"](https://github.com/Kageetai/obsidian-plugin-journal-review)
+{{< /details >}}
+
+{{< details "For developing Obsidian" >}}
+- [Save console messages to logfile for mobile debugging](https://gist.github.com/liamcain/3f21f1ee820cb30f18050d2f3ad85f3f)
+  + [velebit/obsidian-save-console-log: Obsidian plugin that redirects the developer console log to a file](https://github.com/velebit/obsidian-save-console-log)
 {{< /details >}}
 
 Remotely related:

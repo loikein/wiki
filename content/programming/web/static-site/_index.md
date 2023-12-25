@@ -1,6 +1,8 @@
 ---
 bookCollapseSection: true
 title: "Static Site Generators"
+cascade:
+  disable_latex: true
 ---
 
 ## Readings

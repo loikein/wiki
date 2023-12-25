@@ -32,7 +32,10 @@ DOING: Move from Douban.
 | Shark's Fin and Sichuan Pepper | Fuchsia Dunlop (何雨珈) | 上海译文出版社 | 2018 | [GoodReads](https://www.goodreads.com/book/show/1195268/), [豆瓣](https://book.douban.com/subject/30183051/) | 2020-06-17 | ★★★★☆ |  |
 | Grokking Algorithms | Aditya Bhargava (袁国忠) | 人民邮电出版社 | 2017 | [GoodReads](https://www.goodreads.com/book/show/22847284/), [豆瓣](https://book.douban.com/subject/26979890/) | 2020-08-20 | ★★★★☆ | 看完书再看[写给媳妇儿的算法](https://www.jianshu.com/nb/29241420)，效果尤佳。 |
 | 十個詞彙裡的中國 | 余華 | 麥田出版 | 2010 | [GoodReads](https://www.goodreads.com/book/show/12884314/) | 2020-08-20 | ★★★★☆ |  |
-| 地下：东欧萨米亚特随笔 (Samizdat Writings of Eastern Europe) | Ivan Klima et al (景凯旋) | 花城出版社 | 2010 | [豆瓣](https://book.douban.com/subject/4841640/) |  |  |  |
+| Lacan on Love | Bruce Fink (拉黑字幕组) | - | 2022 | [Goodreads](https://www.goodreads.com/en/book/show/26524710), [豆瓣](https://book.douban.com/subject/26831376/) | 2023-12-05 | ★★★★★ |  |
+| How Proust Can Change Your Life | Alain de Botton (余斌) | 上海译文出版社 | 2004 | [Goodreads](https://www.goodreads.com/en/book/show/23420), [豆瓣](https://book.douban.com/subject/1032672/) | 2023-12-23 | ★★★★★ | |
+
+<!-- | 地下：东欧萨米亚特随笔 (Samizdat Writings of Eastern Europe) | Ivan Klima et al (景凯旋) | 花城出版社 | 2010 | [豆瓣](https://book.douban.com/subject/4841640/) |  |  |  | -->
 
 ### Reference Book
 
@@ -49,7 +52,7 @@ DOING: Move from Douban.
 | 漱石と伦敦ミイラ杀人事件 | 島田荘司 (董炯明) | 当代世界出版社 | 2009 | [豆瓣](https://book.douban.com/subject/3926674/) | 2017-08-04 | ★★★☆☆ | |
 | Of Love and Other Demons | Gabriel García Márquez (陶玉平) | 南海出版公司 | 2016 | [GoodReads](https://www.goodreads.com/book/show/23876/), [豆瓣](https://book.douban.com/subject/3926674/)  | 2017-08-06 | ★★★★☆ | [🔗](https://blog.loikein.one/2017/08/blog-post_7.html) |
 | The Outsider | Albert Camus (柳鸣九) | 上海译文出版社 | ? | [GoodReads](https://www.goodreads.com/book/show/49552/), [豆瓣](https://book.douban.com/subject/4908885/) | 2017-08-06 | ★★★★★ | [🔗](https://blog.loikein.one/2017/08/blog-post.html) |
-| The Book of Sand | Jorge Luis Borges (王永年) | 上海译文出版社 | 2015 | [GoodReads](https://www.goodreads.com/book/show/146422/), [豆瓣](https://book.douban.com/subject/25796049/) | 2017-08-06 | ★★★★★ | 跟着偶像读书第二本。后记太可爱了。每一篇人名都多得崩溃。最后一篇与集子同题，令我感到了作者对自己极高的要求和期冀。 |
+| The Book of Sand | Jorge Luis Borges (王永年) | 上海译文出版社 | 2015 | [GoodReads](https://www.goodreads.com/book/show/146422/), [豆瓣](https://book.douban.com/subject/25796049/) | 2017-08-06 | ★★★★★ | 跟着偶像读书第二本。每一篇人名都多得崩溃。 |
 | Fahrenheit 451 | Ray Bradbury (于而彦) | 上海译文出版社 | 2012 | [GoodReads](https://www.goodreads.com/book/show/13079982/), [豆瓣](https://book.douban.com/subject/10608315/)  | 2018-06-06 | ★★★★★ | |
 | Never Let Me Go | Kazuo Ishiguro (Narrated: Rosalyn Landor) | Random House Audio | 2005 | [GoodReads](https://www.goodreads.com/book/show/13079982/), [豆瓣](https://book.douban.com/subject/5247109/)  | 2018-10-15 | ★★★★★ | |
 | Harry Potter and the Methods of Rationality | Eliezer Yudkowsky (HPMOR 翻译组) |  | 2015 | [GoodReads](https://www.goodreads.com/book/show/10016013/), [豆瓣](https://book.douban.com/subject/30180915/) | 2020-03-20 | ★★★★★ | |
@@ -62,7 +65,9 @@ DOING: Move from Douban.
 | 清道夫 | 秦明 | 湖南文艺出版社 | 2015 | [GoodReads](https://www.goodreads.com/book/show/25785472/), [豆瓣](https://book.douban.com/subject/26349251/) | 2020-08-22 | ★★★☆☆ | |
 | 幸存者 | 秦明 | 湖南文艺出版社 | 2016 | [GoodReads](https://www.goodreads.com/book/show/32613863/), [豆瓣](https://book.douban.com/subject/26772419/) | 2020-08-23 | ★★★★☆ | |
 | 偷窥者 | 秦明 | 湖南文艺出版社 | 2017 | [GoodReads](https://www.goodreads.com/book/show/36635542/), [豆瓣](https://book.douban.com/subject/27083910/) | Abandoned | | 一上来大段第三人称环境描写，不像纪实小说了，不喜欢。 |
-| Endymion | Dan Simmons (潘振华) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/3977/), [豆瓣](https://book.douban.com/subject/25941891/) | | | |
+| The Dispossessed | Ursula K. Le Guin (陶雪蕾) | 四川科学技术出版社 | 2009 | [Goodreads](https://www.goodreads.com/book/show/13651.The_Dispossessed), [豆瓣](https://book.douban.com/subject/3747044/) | 2023-12-25 | ★★★★★ | 反乌托邦神作，甚至可能比《1984》更好。 |
+
+<!-- | Endymion | Dan Simmons (潘振华) | 吉林出版集团有限责任公司 | 2014 | [GoodReads](https://www.goodreads.com/book/show/3977/), [豆瓣](https://book.douban.com/subject/25941891/) | | | | -->
 
 ## Manga
 

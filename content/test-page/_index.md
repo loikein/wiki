@@ -365,14 +365,6 @@ Native mode: \(No JS, with optional `lineNos` and `hlLines` params that work exa
 user="loikein"
 gist="27ef6913386b206d1b3c18b8e93c5768"
 file="hello-world.md"
-lang="markdown" >}}
-
-Horizontal scrolling with line numbers is a bit buggy:
-
-{{< gist
-user="loikein"
-gist="27ef6913386b206d1b3c18b8e93c5768"
-file="hello-world.md"
 lineNos="table"
 hlLines="2-4 7"
 lang="markdown" >}}

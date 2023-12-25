@@ -1,6 +1,5 @@
 ---
 title: "Hugo/Blogdown"
-disable_latex: true
 ---
 > Caution before you start:
 > 
@@ -30,28 +29,37 @@ disable_latex: true
 - [mfg92/hugo-shortcode-gallery: A theme components with a gallery shortcode for the static site generator hugo.](https://github.com/mfg92/hugo-shortcode-gallery)
 - [RoneoOrg/hugo-shortcode-roneo-collection: A shortcode collection for Hugo](https://github.com/RoneoOrg/hugo-shortcode-roneo-collection)
 - [Add-ons for Hugo | Hugo Codex](https://hugocodex.org/add-ons/) \(The breadcrumbs code on this wiki comes from here.\)
-  + [jhvanderschee/hugocodex: A website for front-end developers who want to learn Hugo.](https://github.com/jhvanderschee/hugocodex/tree/main)
+  + Repository: [jhvanderschee/hugocodex: A website for front-end developers who want to learn Hugo.](https://github.com/jhvanderschee/hugocodex/tree/main)
 - [loup-brun/hugo-cite: 📝 Easily manage your bibliography and in-text citations with Hugo, the popular static-site generator.](https://github.com/loup-brun/hugo-cite)
 - [liwenyip/hugo-easy-gallery: Automagical css image gallery in Hugo using shortcodes, with optional lightbox/carousel gadget using PhotoSwipe and jQuery.](https://github.com/liwenyip/hugo-easy-gallery)
 - [Roneo / Hugo Shortcode Collection · GitLab](https://gitlab.com/Roneo/hugo-shortcode-roneo-collection)
+- [Developing a Last.fm shortcode for Hugo | Eric Goebelbecker](https://ericgoebelbecker.com/post/hugo_lastfm_shortcode/)
+  + Repository: [egoebelbecker/hugo-last-fm-shortcode: Hugo Shortcode to Display Last.fm Now Playing](https://github.com/egoebelbecker/hugo-last-fm-shortcode)
+- [Filtering posts over multiple taxonomies in Hugo - Alexey Gronskiy](https://gronskiy.com/posts/filtering-posts-over-multiple-taxonomies-hugo/)
+  + Repository: [agronskiy/gronskiy.com/bin/tags-gen](https://github.com/agronskiy/gronskiy.com/tree/master/bin/tags-gen)
 {{< /details >}}
 
 {{< details "Sites to refer to" >}}
 - [brycewray/hugo-site: This is the repository from which the Hugo-generated version of https://www.brycewray.com is built.](https://github.com/brycewray/hugo-site)
-- [Articles - Veriphor](https://www.veriphor.com/articles/) \(Ran by [jmooring](https://github.com/jmooring)\)
 - [MelonKony/millmint.net: Central site for the Petticoat Project and its associated worldbuilding material.](https://github.com/MelonKony/millmint.net/tree/live)
+- [Brain Baking Archives | Brain Baking](https://brainbaking.com/archives/)
+  + Repository: [wgroeneveld/brainbaking: The Brain Baking Hugo-based repository. - brainbaking - Brain Baking Sources](https://git.brainbaking.com/wgroeneveld/brainbaking)
 - [Archive | pawelgrzybek.com](https://pawelgrzybek.com/archive/)
   + Repository: [GitHub - pawelgrzybek/pawelgrzybek.com](https://github.com/pawelgrzybek/pawelgrzybek.com)
 - [ii.com: Welcome to Infinite Ink](https://www.ii.com/)
 - [darktable 4.6 user manual - darktable](https://darktable-org.github.io/dtdocs/en/)
-  + [darktable-org/dtdocs: darktable user manual](https://github.com/darktable-org/dtdocs)
-  + [pixlsus/hugo-darktable-docs-epub-theme: Hugo epub theme for dtdocs](https://github.com/pixlsus/hugo-darktable-docs-epub-theme)
-  + [pixlsus/hugo-darktable-docs-pdf-theme: A Hugo theme for generating a PDF from the dtdocs project.](https://github.com/pixlsus/hugo-darktable-docs-pdf-theme)
+  + Repository: [darktable-org/dtdocs: darktable user manual](https://github.com/darktable-org/dtdocs)
+  + Theme 1: [pixlsus/hugo-darktable-docs-epub-theme: Hugo epub theme for dtdocs](https://github.com/pixlsus/hugo-darktable-docs-epub-theme)
+  + Theme 2: [pixlsus/hugo-darktable-docs-pdf-theme: A Hugo theme for generating a PDF from the dtdocs project.](https://github.com/pixlsus/hugo-darktable-docs-pdf-theme)
 {{< /details >}}
 
 {{< details "Tutorials" >}}
 - [External learning resources | Hugo](https://gohugo.io/getting-started/external-learning-resources/)
 - [Tutorials | CloudCannon](https://cloudcannon.com/tutorials/)
+- Tutorials over the Hugo forum
+  + [Initialize Sass variables from Hugo templates](https://discourse.gohugo.io/t/initialize-sass-variables-from-hugo-templates/42053)
+- Tutorials over Veriphor \(Ran by [jmooring](https://github.com/jmooring)\)
+  + [Link and image render hooks](https://www.veriphor.com/articles/link-and-image-render-hooks/)
 {{< /details >}}
 
 ## Basics
