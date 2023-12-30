@@ -34,6 +34,7 @@ DOING: Move from Douban.
 | 十個詞彙裡的中國 | 余華 | 麥田出版 | 2010 | [GoodReads](https://www.goodreads.com/book/show/12884314/) | 2020-08-20 | ★★★★☆ |  |
 | Lacan on Love | Bruce Fink (拉黑字幕组) | - | 2022 | [Goodreads](https://www.goodreads.com/en/book/show/26524710), [豆瓣](https://book.douban.com/subject/26831376/) | 2023-12-05 | ★★★★★ |  |
 | How Proust Can Change Your Life | Alain de Botton (余斌) | 上海译文出版社 | 2004 | [Goodreads](https://www.goodreads.com/en/book/show/23420), [豆瓣](https://book.douban.com/subject/1032672/) | 2023-12-23 | ★★★★★ | |
+| 想象一朵未来的玫瑰 (Álvaro de Campos) | Fernando Pessoa (杨铁军) | 中信出版集团 | 2019 | [豆瓣](https://book.douban.com/subject/30443973/) | 2023-12-28 | ★★★★★ |  |
 
 <!-- | 地下：东欧萨米亚特随笔 (Samizdat Writings of Eastern Europe) | Ivan Klima et al (景凯旋) | 花城出版社 | 2010 | [豆瓣](https://book.douban.com/subject/4841640/) |  |  |  | -->
 
