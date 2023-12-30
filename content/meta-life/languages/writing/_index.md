@@ -1,6 +1,6 @@
 ---
 # bookCollapseSection: true
-weight: 40
+weight: 90
 title: "写作"
 ---
 ## General
