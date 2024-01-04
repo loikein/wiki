@@ -1,12 +1,13 @@
 ---
 weight: 100
-title: "SCSS"
+title: "SCSS/Sass"
 ---
 
-Refs:
+## \(Maybe\) Useful resources
 
 - [Nesting in Sass and Less | @mdo](https://markdotto.com/2015/07/20/css-nesting/)
 - [Extending CSS With Sass | Ariel Salminen](https://arie.ls/2012/extending-css-with-sass/)
+- [Using lighten() and darken() in SASS](https://falkus.co/2017/05/using-lighten-and-darken-in-sass/)
 
 
 ## Dark mode spaghetti code with mixins and functions

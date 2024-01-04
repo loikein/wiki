@@ -21,6 +21,7 @@ language: zh-Hans
 ## 别人的摘抄
 
 - [Anch: Excerpts](https://anch.info/eng/excerpts/)
+- [edfabra - excerpts, reviews, short stories, and poems](https://sites.google.com/site/edfabra/home/excerptreviewsstoriespoems)
 
 
 ## 备注

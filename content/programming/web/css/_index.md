@@ -136,6 +136,7 @@ https://fonts.googleapis.com/css2
 Refs:
 
 - [CSS / Methodology / BEM](https://en.bem.info/methodology/css/)
+- [BEM — Naming](https://getbem.com/naming/)
 
 
 ## Queries
@@ -315,7 +316,7 @@ SVG code: \(see [EPUB editing #Image sizing](/programming/web/epub-editing#image
 ```
 
 
-## Readings
+## \(Maybe\) Useful resources
 
 - [The Guide To Responsive Design In 2023 and Beyond - Ahmad Shadeed](https://ishadeed.com/article/responsive-design/)
 - [A Complete Guide to CSS Concepts and Fundamentals | Tania Rascia](https://www.taniarascia.com/overview-of-css-concepts/)

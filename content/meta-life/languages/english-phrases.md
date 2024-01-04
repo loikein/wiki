@@ -128,7 +128,7 @@ conundrum
 : [Wiktionary](https://en.wiktionary.org/wiki/conundrum#English)
 
 erratum; corrigendum
-: _n._ 勘误表
+: _n._ 勘误表。erratum 指排版／出版错误，corrigendum 指原文错误。常用：erratum to…
 : [Wiktionary](https://en.wiktionary.org/wiki/erratum#English); [Wikipedia](https://en.wikipedia.org/wiki/Erratum)
 
 de facto
@@ -172,6 +172,10 @@ Refs:
 AFAIK
 : as far as I know，据我所知
 : [Wiktionary](https://en.wiktionary.org/wiki/as_far_as_one_knows#English)
+
+bottom line
+: 底线，原则，（语境为公司时）利润
+: [Wiktionary](https://en.wiktionary.org/wiki/bottom_line)
 
 BRB
 : be right back，马上回来

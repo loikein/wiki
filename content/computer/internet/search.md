@@ -131,6 +131,31 @@ Search across a customised list of websites at the same time.
 <!-- [可编程搜索 - 所有搜索引擎](https://programmablesearchengine.google.com/controlpanel/all) -->
 
 
+## Twitter
+
+Refs: 
+
+- [Search operators | Docs | Twitter Developer Platform Twitter Developer https://developer.twitter.com › docs › rules-and-filtering](https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators)
+- [Twitter Advanced Search - Use the Twitter search advanced commands](https://www.tweetbinder.com/blog/twitter-advanced-search/)
+
+### Search field operators
+
+> There must be no space around the `:`
+{.book-hint .warning}
+
+Example: `keyword filter:follows filter:media -filter:replies since:2021-12-30`  
+Searches for `keyword` in anyone the current logged-in account follows, that has media, that is not a reply, that is tweeted after Dec 30 2021.
+
+Note: The search results do not include private accounts, even if you are following them.
+
+| Param | Meaning | Some possible values |
+|-------|---|---|
+| `filter:` | Only show | `follows`, `media`, `images`, `replies`, `quote`, `retweets`, `links` |
+| `from:` | Search in account | Someone's handle (without `@`), case-insensitive |
+| `since:` | Search after date | `yyyy-mm-dd` |
+| `until:` | Search before date | `yyyy-mm-dd` |
+
+
 ## Entertainment
 
 ![xkcd 627 Tech Support Cheat Sheet: 'Hey Megan, it's your father. How do I print out a flowchart?'](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)

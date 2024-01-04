@@ -48,7 +48,7 @@ TV shows & Animes that I am watching/have watched.
 | ギルティクラウン | 荒木哲郎 | Production I.G | 2011 | [MyAnimeList](https://myanimelist.net/anime/10793/), [豆瓣](https://movie.douban.com/subject/6518736/) | 2021-07-16 | ★★★★☆ | 一群怪物笨拙地试图互相拯救，科幻风，好。 |
 | 賢者の弟子を名乗る賢者 | 元永慶太郎 | studio A-CAT | 2022 | [MyAnimeList](https://myanimelist.net/anime/73823/), [豆瓣](https://movie.douban.com/subject/35087641/) | 2022-08-02 | ★★☆☆☆ | 各方面都一般。工作室似乎是 3D 专精，任何手绘部分都有崩或缩水。 |
 | 本好きの下剋上 (S3) | 本郷みつる | 亜細亜堂 | 2022 | [MyAnimeList](https://myanimelist.net/anime/42429/), [豆瓣](https://movie.douban.com/subject/35141330/) | 2022-08-02 | ★★★★☆ | 虽然很久以前似乎就看过剧透了，但是结局真的难受。 |
-| SPY×FAMILY | 古橋一浩 | WIT STUDIO × CloverWorks | 2022 | [MyAnimeList](https://myanimelist.net/anime/50265/), [豆瓣](https://movie.douban.com/subject/35258427/) | 2022-08-02 | ★★★★★ | 挑个骨头：早见的经典声线实在太年轻了，每次听约尔讲话我都反应不过来。 |
+| SPY×FAMILY | 古橋一浩 | WIT STUDIO × CloverWorks | 2022 | [MyAnimeList](https://myanimelist.net/anime/50265/), [豆瓣](https://movie.douban.com/subject/35258427/) | 2022-08-02 | ★★★★★ | 早见的经典声线实在太年轻了，每次听约尔讲话我都反应不过来。 |
 | 蜘蛛ですが、なにか？ | 板垣伸 | Millepensee | 2021 |  [MyAnimeList](https://myanimelist.net/anime/37984/), [豆瓣](https://movie.douban.com/subject/30267273/) | 2022-08-03 | ★★★★☆ | 双线处理得非常好，3D 表现上佳。含有数不清的虫子镜头。 |
 | 無職転生 ～異世界行ったら本気だす～ | 岡本学 | StudioBind | 2021 | MyAnimeList [P1](https://myanimelist.net/anime/39535/) [P2](https://myanimelist.net/anime/45576/), 豆瓣[P1](https://movie.douban.com/subject/30513783/) [P2](https://movie.douban.com/subject/35306636/) | 2022-08-05 | ★★★☆☆ | 除了主角时不时过于猥琐，其它部分能打五星。 |
 | スライム倒して 300 年、知らないうちにレベルMAXになってました | 木村延景 | REVOROOT | 2021 | [MyAnimeList](https://myanimelist.net/anime/40586/), [豆瓣](https://movie.douban.com/subject/34867935/) | 2022-08-?? | ★★☆☆☆ | 无脑日常番，除 E10 之外几乎不存在任何剧情。 |
@@ -68,6 +68,7 @@ TV shows & Animes that I am watching/have watched.
 | Overlord (S1) | 伊藤尚往 | MADHOUSE | 2015 | [MyAnimeList](https://myanimelist.net/anime/29803/), [豆瓣](https://movie.douban.com/subject/25972406/) | 2023-11-26 | ★★★☆☆ | 挺有意思的，如果主角内心挣扎再多一些就更好了。 |
 | Overlord (S2) | 伊藤尚往 | MADHOUSE | 2018 | [MyAnimeList](https://myanimelist.net/anime/35073/), [豆瓣](https://movie.douban.com/subject/26994749/) | 2023-11-26 | ★★★☆☆ |  |
 | Overlord (S3) | 伊藤尚往 | MADHOUSE | 2018 | [MyAnimeList](https://myanimelist.net/anime/37675/), [豆瓣](https://movie.douban.com/subject/30187694/) | 2023-11-29 | ★★★☆☆ |  |
+| 無職転生 ～異世界行ったら本気だす～ (S2P1) | 平野宏樹 | StudioBind | 2023 | MyAnimeList [E0](https://myanimelist.net/anime/55818/) [P1](https://myanimelist.net/anime/51179/), [豆瓣](https://movie.douban.com/subject/35460731/) | 2023-12-30 | ★★★☆☆ | 感觉如果希露菲再晚一些暴露性别会更有张力。 |
 
 <!--
 | Title | Director | Production/Studio | Year | [MyAnimeList](), [豆瓣]() | Progress/Finish date | Rating | Review |
