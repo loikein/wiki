@@ -5,6 +5,9 @@ title: "Userscript"
 
 For the list of supported browsers, see [Greasy Fork #Step 1: install a user script manager](https://greasyfork.org/en#home-step-1).
 
+For iOS and latest versions of macOS, I heard good things about the free and open source [quoid/userscripts](https://github.com/quoid/userscripts), but have not tried it myself.
+
+
 ## Other Curated Lists
 
 - [bvolpato/awesome-userscripts: 📖 A curated list of Awesome Userscripts.](https://github.com/bvolpato/awesome-userscripts)
