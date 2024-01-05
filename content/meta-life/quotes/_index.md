@@ -7,7 +7,7 @@ cascade:
   bookHidden: true # hide all children
 language: zh-Hans
 ---
-此处收集一些我不一定完全同意，但对我造成了很大影响的文本。
+此处收集一些我不一定完全同意，但对我造成了很大影响的文本。如果是原文外语，在能找到的情况下我会尽量放双语对照版。
 
 {{% section2 %}}
 
