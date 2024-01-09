@@ -550,12 +550,13 @@ Editors/apps that I have tested:
 
 {{< details "For note-taking" >}}
 - [Vaccarini-Lorenzo/MagicCalendar: An obsidian plugin that exploit a natural language processing engine to find potential events and sync them with iCalendar](https://github.com/Vaccarini-Lorenzo/MagicCalendar)
-- [Obsidian Web Clipper — Steph Ango](https://stephanango.com/obsidian-web-clipper)
+- [Obsidian Web Clipper — Steph Ango](https://stephanango.com/obsidian-web-clipper) \(Does not work on my Mac for some reason. Firefox v122.0b4.\)
+  + [Code](https://gist.github.com/kepano/90c05f162c37cf730abb8ff027987ca3)
 - [SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
 - [MSzturc/obsidian-advanced-slides: Create markdown-based reveal.js presentations in Obsidian](https://github.com/MSzturc/obsidian-advanced-slides)
 - [Phantom1003/obsidian-slide-note](https://github.com/Phantom1003/obsidian-slide-note)
 - [The Obsidian Plugins I Actually Use – Curtis McHale](https://curtismchale.ca/2023/02/08/the-obsidian-plugins-i-actually-use/)
-- [GitHub - blacksmithgu/obsidian-dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/.](https://web.archive.org/web/20231006163948/https://github.com/blacksmithgu/obsidian-dataview)
+- [GitHub - blacksmithgu/obsidian-dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/.](https://github.com/blacksmithgu/obsidian-dataview)
 - [jeweljohnsonj/obsidian_template: A template vault folder for using Obsidian for literature note taking puporses](https://github.com/jeweljohnsonj/obsidian_template)
 - [elias-sundqvist/obsidian-annotator: A plugin for reading and annotating PDFs and EPUBs in obsidian.](https://github.com/elias-sundqvist/obsidian-annotator) \(`doesn't work on iOS 16.3 or higher`\)
 - [stefanopagliari/bibnotes](https://github.com/stefanopagliari/bibnotes) \(Note: The annotation extraction depends on Zotero's extract annotations from PDF.\)

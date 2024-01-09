@@ -40,6 +40,10 @@ etiquette
 : _n._ 礼仪。区分：courtesy
 : [Wiktionary](https://en.wiktionary.org/wiki/etiquette)
 
+faux pas
+: _n._ 错误，（社交场合的）失礼行为
+: [Wiktionary](https://en.wiktionary.org/wiki/faux_pas#English)
+
 fleur-de-lis
 : 鸢尾花饰，法国王室象征。⚜⚜️
 : [Wikipedia](https://en.wikipedia.org/wiki/Fleur-de-lis)

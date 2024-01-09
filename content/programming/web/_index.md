@@ -70,6 +70,9 @@ Lists:
 
 English sites:
 
+- [Essays · Gwern.net](https://gwern.net/)
+- [Home | beepb00p](https://beepb00p.xyz/)
+- [Blog | Koos Looijesteijn](https://www.kooslooijesteijn.net/)
 - [Web Developer and Designer | Electerious](https://electerious.com/)
 - [Brain Baking Archives | Brain Baking](https://brainbaking.com/archives/)
 - [Mark Thomas Miller](https://mtm.dev/)
@@ -77,7 +80,6 @@ English sites:
 - [Will Tarpey](https://www.willtarpey.com/)
 - [Snook.ca: Life & Times of a Web Developer.](https://snook.ca/)
 - [Website performance expert from Amsterdam | Usecue web development](https://www.usecue.com/)
-- [Blog | Koos Looijesteijn](https://www.kooslooijesteijn.net/)
 - [ARETE — Visual History of the Latin Alphabet](https://uclab.fh-potsdam.de/arete/en)
 - [Gareth L Devlin Portfolio](https://gld-portfolio.vercel.app/)
     + Repository: [GLD5000/GLD-Portfolio](https://github.com/GLD5000/GLD-Portfolio)
