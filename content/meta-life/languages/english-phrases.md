@@ -52,6 +52,10 @@ in lieu
 : 作为替代品。常用：in lieu of
 : [Wiktionary](https://en.wiktionary.org/wiki/in_lieu)
 
+mademoiselle (demoiselle)
+: 小姐（尊称）
+: [Wiktionary](https://en.wiktionary.org/wiki/mademoiselle#English); [Wikipedia](https://en.wikipedia.org/wiki/Mademoiselle_(title))
+
 monsieur
 : 先生（尊称）
 : [Wiktionary](https://en.wiktionary.org/wiki/monsieur#English); [Wikipedia](https://en.wikipedia.org/wiki/Monsieur)
@@ -116,12 +120,20 @@ abracadabra
 : [Wiktionary](https://en.wiktionary.org/wiki/abracadabra#English); [Wikipedia](https://en.wikipedia.org/wiki/Abracadabra)
 
 ad hoc
-: _adj._ 临时，特设，权宜之计
+: _adj./adv._ 临时，特设，权宜之计
 : [Wiktionary](https://en.wiktionary.org/wiki/ad_hoc#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hoc)
+
+ad hominem
+: _n./adj./adv._ 诉诸人身，人身攻击（作为辩论时的论据）
+: [Wiktionary](https://en.wiktionary.org/wiki/ad_hominem#English); [Wikipedia](https://en.wikipedia.org/wiki/Ad_hominem)
 
 addendum
 : _n._ 附录，补遗
 : [Wiktionary](https://en.wiktionary.org/wiki/addendum#English); [Wikipedia](https://en.wikipedia.org/wiki/Addendum)
+
+caveat
+: _n./vt._ 警告，提示
+: [Wiktionary](https://en.wiktionary.org/wiki/caveat#English)
 
 confer / cf.
 : _v._ 比较
@@ -136,11 +148,11 @@ erratum; corrigendum
 : [Wiktionary](https://en.wiktionary.org/wiki/erratum#English); [Wikipedia](https://en.wikipedia.org/wiki/Erratum)
 
 de facto
-: _adj._ 事实上的
+: _adj./adv._ 事实上的
 : [Wiktionary](https://en.wiktionary.org/wiki/de_facto#English); [Wikipedia](https://en.wikipedia.org/wiki/De_facto)
 
 de jure
-: _adj._ 名义上的，法律上的
+: _adj./adv._ 名义上的，法律上的
 : [Wiktionary](https://en.wiktionary.org/wiki/de_jure#English); [Wikipedia](https://en.wikipedia.org/wiki/De_jure)
 
 jure uxoris
