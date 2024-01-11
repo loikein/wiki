@@ -20,6 +20,10 @@ a la
 : _prep._ 就像
 : [Wiktionary](https://en.wiktionary.org/wiki/a_la#English)
 
+apropos
+: _adj._ 恰当的
+: [Wiktionary](https://en.wiktionary.org/wiki/apropos#English)
+
 avant-garde
 : _adj./n._ 前卫的，前卫艺术
 : [Wiktionary](https://en.wiktionary.org/wiki/avant-garde#English); [Wikipedia](https://en.wikipedia.org/wiki/Avant-garde#References)
@@ -33,7 +37,7 @@ en route
 : [Wiktionary](https://en.wiktionary.org/wiki/en_route)
 
 entourage
-: 随从
+: _n._ 随从
 : [Wiktionary](https://en.wiktionary.org/wiki/entourage)
 
 etiquette
@@ -45,7 +49,7 @@ faux pas
 : [Wiktionary](https://en.wiktionary.org/wiki/faux_pas#English)
 
 fleur-de-lis
-: 鸢尾花饰，法国王室象征。⚜⚜️
+: _n._ 鸢尾花饰，法国王室象征。⚜⚜️
 : [Wikipedia](https://en.wikipedia.org/wiki/Fleur-de-lis)
 
 in lieu
