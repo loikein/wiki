@@ -3,17 +3,20 @@ Add this as a subtitle to TOC.
 Must be used with {{% subsection2 %}}.
 
 This is different to section2 in the sense that it categorises the pages
-at the cost of summary.
+at the cost of no summary.
 
 I also made the executive decision that every subpage must only have one
 category, thus using "category" instead of the standard "categories",
 and use "eq"+string instead of "intersect"+(slice string).
+
+Set CitationCategory site parameter (as a list) to enable custom ordering.
 
 Ref:
 https://wellshapedwords.com/posts/shortcode-headings-in-toc/
 https://gohugo.io/functions/collections/where/
 https://discourse.gohugo.io/t/range-with-pages-with-specific-category/32345/6
 https://github.com/gohugoio/hugo/issues/3089#issuecomment-391743249
+https://discourse.gohugo.io/t/sorting-categories/21337/6
 */ -}}
 ## {{ i18n "pagesInThisSection" }}
 <dl>
@@ -26,14 +29,8 @@ https://github.com/gohugoio/hugo/issues/3089#issuecomment-391743249
 </dd>
 {{ end -}}
 
-{{- /*
-I would want to do something more general here, but did not find how.
-Maybe try:
-https://discourse.gohugo.io/t/sorting-categories/21337/6
- */ -}}
-
-{{- $categories := slice "Writing" -}}
-{{ range $k, $v := $categories -}}
+{{ range $k, $v := .Site.Params.CitationCategory -}}
+{{ if (len (where $.Page.Pages ".Params.category" "eq" $v)) }}
 <dt>
   {{ $v }}
 </dt>
@@ -41,6 +38,7 @@ https://discourse.gohugo.io/t/sorting-categories/21337/6
 <dd>
   <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
 </dd>
+{{ end -}}
 {{ end -}}
 {{ end }}
 </dl>

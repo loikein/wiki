@@ -48,6 +48,10 @@ faux pas
 : _n._ 错误，（社交场合的）失礼行为
 : [Wiktionary](https://en.wiktionary.org/wiki/faux_pas#English)
 
+finesse
+: _n./v._ （使用）策略，计谋
+: [Wiktionary](https://en.wiktionary.org/wiki/finesse#English)
+
 fleur-de-lis
 : _n._ 鸢尾花饰，法国王室象征。⚜⚜️
 : [Wikipedia](https://en.wikipedia.org/wiki/Fleur-de-lis)
@@ -63,6 +67,10 @@ mademoiselle (demoiselle)
 monsieur
 : 先生（尊称）
 : [Wiktionary](https://en.wiktionary.org/wiki/monsieur#English); [Wikipedia](https://en.wikipedia.org/wiki/Monsieur)
+
+parole
+: _n._ 假释，言语（语言学概念）
+: [Wiktionary](https://en.wiktionary.org/wiki/parole#English); [Wikipedia](https://en.wikipedia.org/wiki/Parole_(disambiguation))
 
 toodle-oo / toodeloo
 : 再见，浮夸或幽默地宣告自己的离开
@@ -170,6 +178,10 @@ nota bene / N.B.
 per se
 : _adv._ 严格意义上，本身，不考虑外界因素
 : [Wiktionary](https://en.wiktionary.org/wiki/per_se#English)
+
+pro bono
+: _adj./adv._ 公益的，无偿的
+: [Wiktionary](https://en.wiktionary.org/wiki/pro_bono#English)
 
 quorum
 : _n._ 举行会议所需的最小人数，法定人数

@@ -157,7 +157,7 @@ I personally found the open source [Lucide Icons](https://lucide.dev/icons/) \(a
 
 Repo: [isaaclyman/novel-word-count-obsidian: Obsidian plugin. Displays a word count or other statistic for each file, folder and vault in the File Explorer pane.](https://github.com/isaaclyman/novel-word-count-obsidian)
 
-Preference:
+Preferences:
 
 - Notes
   + First type: Character count \(pretty accurate, no need to turn on CJK support\)
@@ -173,9 +173,15 @@ Repo: [guopenghui/obsidian-quiet-outline](https://github.com/guopenghui/obsidian
 > This plugin never loads successfully on my iOS devices.
 {.book-hint .warning}
 
-Use {{< menu `Command palette` `Quiet Outline: Quiet Outline` >}} to activate.
+Use {{< menu `Command palette` `Quiet Outline: Quiet Outline` >}} to activate if did not auto-load.
 
-Turning on dragging titles to rearrange document for a pseudo block editing experience.
+Preferences:
+
+- Search Support: False
+- Level Switch: False
+- Default Level: `H5`
+- Auto Expand: False \(important for the Default Level to take effect\)
+- Drag headings to modify note: True \(for a pseudo block editing experience\)
 
 Some styles I wrote for more obvious current entry highlighting:
 

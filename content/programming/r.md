@@ -9,6 +9,7 @@ Moved from: \(Private repo\) [loikein/my-jupyter-notes](https://github.com/loike
 
 ## \(Maybe\) Useful resources
 
+- [Home | Bookdown](https://bookdown.org/)
 - [An Introduction to Statistical Learning](https://www.statlearning.com/)
   + [Resources - ISL with R, 2nd Edition — An Introduction to Statistical Learning](https://www.statlearning.com/resources-second-edition)
 - [cis-ds/course-site: Course site for Computing for Information Science (INFO 5940)](https://github.com/cis-ds/course-site)
