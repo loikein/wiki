@@ -20,5 +20,3 @@ What? → [Causal inference - Wikipedia](https://en.wikipedia.org/wiki/Causal_in
 SUTVA (stable unit treatment values assumption)
 
 \(As in: difference-in-differences\) Parallel trends assumption
-
-

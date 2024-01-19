@@ -1,5 +1,5 @@
 ---
-title: "Edward J. Dodson: The Principles of Cooperative Individualism (expert)"
+title: "Edward J. Dodson: The Principles of Cooperative Individualism (excerpt)"
 ---
 
 [Edward J. Dodson / "My principles are those of cooperative individualims." Would Henry George agree?](https://www.cooperative-individualism.org/dodson-edward_my-principles-are-cooperative-individualism-2001.htm)
