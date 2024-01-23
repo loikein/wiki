@@ -128,4 +128,4 @@ params:
   KaTeXCDN: "//cdn.jsdelivr.net/npm"
   customCSS: true
 
-  CitationCategory: ["General", "Feminism", "Writing", "Test"]
+  CitationCategory: ["General", "Miscellany", "Personal", "Society", "Feminism", "Writing", "Test"]

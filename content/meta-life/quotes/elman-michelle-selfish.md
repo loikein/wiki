@@ -1,5 +1,6 @@
 ---
 title: "Michelle Elman: The Joy of Being Selfish (excerpt)"
+category: "Personal"
 ---
 [The Joy of Being Selfish: Why you need boundaries and how to set them by Michelle Elman | Goodreads](https://www.goodreads.com/en/book/show/55714373)
 

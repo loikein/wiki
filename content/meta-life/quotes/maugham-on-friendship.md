@@ -1,5 +1,6 @@
 ---
 title: "毛姆：世上有两种友谊（《作家笔记》节选）"
+category: "Personal"
 ---
 {{% cols2 "en,zh-Hans" %}}
 English version: [A Writer's Notebook (Vintage International) by W. Somerset Maugham | Goodreads](https://www.goodreads.com/book/show/19086683-a-writer-s-notebook)

@@ -1,6 +1,6 @@
 ---
 title: "朱迪・布雷迪：我想要个妻（全文）"
-category: "Feminism"
+category: "Society"
 ---
 {{% cols2 "en,zh-Hans" %}}
 English version: [JUDY BRADY - I Want a Wife (1971)](https://www.wsfcs.k12.nc.us/cms/lib/NC01001395/Centricity/Domain/10659/I%20Want%20a%20Wife.pdf), reprinted from Ms. Magazine, 1972.
