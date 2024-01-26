@@ -212,6 +212,13 @@ When I was looking for an alternative of [cm-show-whitespace-obsidian](#cm-show-
 
 Any combination of plugins in the previous sector, plus…
 
+### EPUB readers that I am trying out
+
+- [elias-sundqvist/obsidian-annotator: A plugin for reading and annotating PDFs and EPUBs in obsidian.](https://github.com/elias-sundqvist/obsidian-annotator) \(Very fragile; doesn't work on iOS 16.3 or higher.\)
+- [AwesomeDog/obsidian-awesome-reader: Make Obsidian a proper Reader.](https://github.com/AwesomeDog/obsidian-awesome-reader/tree/master)
+- [caronchen/obsidian-epub-plugin: An ePub reader plugin for Obsidian.](https://github.com/caronchen/obsidian-epub-plugin/tree/master)
+- Using calibre Content server: [Workflow : Reading Ebook(epub, mobi, azw, etc ) in Obsidian - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/workflow-reading-ebook-epub-mobi-azw-etc-in-obsidian/17977/12)
+
 ### Full Calendar
 
 Repo: [davish/obsidian-full-calendar: Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.](https://github.com/davish/obsidian-full-calendar)
@@ -543,6 +550,7 @@ Editors/apps that I have tested:
 {{< /details >}}
 
 {{< details "For writing" >}}
+- [Writing a novel in Markdown - pdworkman.com](https://pdworkman.com/writing-a-novel-in-markdown/)
 - [pourmand1376/obsidian-custom-font: A plugin to set custom font for obsidian](https://github.com/pourmand1376/obsidian-custom-font)
 - [Plugins for Writers - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Writers)
 - [Plugins for Editing Notes - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Editing+Notes)
@@ -564,7 +572,6 @@ Editors/apps that I have tested:
 - [The Obsidian Plugins I Actually Use – Curtis McHale](https://curtismchale.ca/2023/02/08/the-obsidian-plugins-i-actually-use/)
 - [GitHub - blacksmithgu/obsidian-dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/.](https://github.com/blacksmithgu/obsidian-dataview)
 - [jeweljohnsonj/obsidian_template: A template vault folder for using Obsidian for literature note taking puporses](https://github.com/jeweljohnsonj/obsidian_template)
-- [elias-sundqvist/obsidian-annotator: A plugin for reading and annotating PDFs and EPUBs in obsidian.](https://github.com/elias-sundqvist/obsidian-annotator) \(`doesn't work on iOS 16.3 or higher`\)
 - [stefanopagliari/bibnotes](https://github.com/stefanopagliari/bibnotes) \(Note: The annotation extraction depends on Zotero's extract annotations from PDF.\)
 - [obsidian-tasks-group/obsidian-tasks: Task management for the Obsidian knowledge base.](https://github.com/obsidian-tasks-group/obsidian-tasks)
 - [tgrosinger/advanced-tables-obsidian: Improved table navigation, formatting, and manipulation in Obsidian.md](https://github.com/tgrosinger/advanced-tables-obsidian)

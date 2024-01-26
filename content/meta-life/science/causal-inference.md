@@ -15,8 +15,10 @@ What? → [Causal inference - Wikipedia](https://en.wikipedia.org/wiki/Causal_in
     + [scunning1975/mixtape: Data and Program files for Causal Inference: The Mixtape](https://github.com/scunning1975/mixtape)
 
 
-## Assumptions
+## Common assumptions
 
-SUTVA (stable unit treatment values assumption)
-
-\(As in: difference-in-differences\) Parallel trends assumption
+- SUTVA (stable unit treatment values assumption)
+- \(As in: difference-in-differences\)
+    - Parallel trends, or common trends
+        - VWCT \(variance-weighted common trend\)
+    - Time invariant treatment effects \(otherwise requires triple differences\)

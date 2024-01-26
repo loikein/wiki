@@ -2,6 +2,8 @@
 weight: 300
 title: "Browser extension"
 ---
+> [Choose your browser carefully](https://www.unixsheikh.com/articles/choose-your-browser-carefully.html)
+{.book-hint .warning}
 
 Todo: move from [Firefox ](/computer/software-usage/firefox/) and unify other browsers.
 
