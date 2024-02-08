@@ -18,6 +18,7 @@ title: "Python"
     + Repository: [aeturrell/coding-for-economists](https://github.com/aeturrell/coding-for-economists)
 - [Python Cookbook 3rd Edition 中文版](https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html)
     + Repo: [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
+- [R you ready for Python?](https://shiny.abdn.ac.uk/Stats/R_Python_tutorial/index.html) \(R/Python integration\)
 
 
 ## Dictionary

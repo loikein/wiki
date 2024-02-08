@@ -21,6 +21,7 @@ Moved from: \(Private repo\) [loikein/my-jupyter-notes](https://github.com/loike
 - [R 语言教程 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
   + [A R软件基础(\*) | 统计计算 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/statcomp/html/_statcompbook/appendix-rintro.html)
 - List: [XiangyunHuang/R-Tutorial: R 语言材料](https://github.com/XiangyunHuang/R-Tutorial)
+- [R you ready for Python?](https://shiny.abdn.ac.uk/Stats/R_Python_tutorial/index.html) \(R/Python integration\)
 
 
 ## Configuration

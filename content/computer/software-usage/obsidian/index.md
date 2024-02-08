@@ -231,6 +231,12 @@ Repo: [nuthrash/obsidian-html-plugin: This is a plugin for Obsidian (https://obs
 
 Add the ability to read \(no edit\) `.html` files in Obsidian.
 
+### Link Favicons
+
+Repo: [joethei/obsidian-link-favicon: See the favicon for a linked website.](https://github.com/joethei/obsidian-link-favicon?tab=readme-ov-file)
+
+Add favicons before or after links for better scan-ability.
+
 ### Linter
 
 Repo: [platers/obsidian-linter: An Obsidian plugin that formats and styles your notes with a focus on configurability and extensibility.](https://github.com/platers/obsidian-linter)
