@@ -3,6 +3,9 @@ weight: 400
 title: "File System & Path"
 ---
 > The following code has been adapted for use within Jupyter Lab.
+> 
+> Ref: [python 3.x - `__file__` does not exist in Jupyter Notebook - Stack Overflow](https://stackoverflow.com/questions/39125532/file-does-not-exist-in-jupyter-notebook)
+
 {.book-hint .warning}
 
 ## Enumerate Files
@@ -52,7 +55,10 @@ print(json.dumps(dict_all_files, sort_keys=True, indent=4))
 
 ### Change file name; move file
 
-Ref: [python - Recursively rename file extensions - Stack Overflow](https://stackoverflow.com/a/37016368)
+Refs:
+
+- [python - Recursively rename file extensions - Stack Overflow](https://stackoverflow.com/a/37016368)
+- [subdirectory - Browse files and subfolders in Python - Stack Overflow](https://stackoverflow.com/questions/5817209/browse-files-and-subfolders-in-python)
 
 ```python
 import os

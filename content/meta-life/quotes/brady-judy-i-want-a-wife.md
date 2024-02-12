@@ -1,5 +1,5 @@
 ---
-title: "朱迪・布雷迪：我想要个妻（全文）"
+title: "朱迪・布雷迪：我想要个妻（双语全文）"
 category: "Society"
 ---
 {{% cols2 "en,zh-Hans" %}}

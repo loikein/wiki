@@ -1,5 +1,5 @@
 ---
-title: "毛姆：世上有两种友谊（《作家笔记》节选）"
+title: "毛姆：世上有两种友谊（《作家笔记》双语节选）"
 category: "Personal"
 ---
 {{% cols2 "en,zh-Hans" %}}

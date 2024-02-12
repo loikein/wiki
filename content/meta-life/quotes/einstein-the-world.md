@@ -1,5 +1,5 @@
 ---
-title: "爱因斯坦：我的世界观（全文）"
+title: "爱因斯坦：我的世界观（双语全文）"
 category: "Personal"
 ---
 {{% cols2 "en,zh-Hans" %}}
