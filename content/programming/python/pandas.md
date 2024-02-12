@@ -311,7 +311,7 @@ First [check the rows contain same data](/programming/python/pandas/#list-rows-w
 `PerformanceWarning: DataFrame is highly fragmented` could happen after a concat, when no index is present in all sub-dfs, but somehow there are still repeated indices. Try the following:
 
 ```python
-df = df.reset_inde()
+df = df.reset_index()
 df = df.drop(["index"], axis=1)
 ```
 

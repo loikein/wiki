@@ -135,6 +135,12 @@ Range: URLs on the domain: `pandas.pydata.org`, `numpy.org`
 dt strong {
   color: var(--pst-color-primary);
 }
+
+/* hide back to top button */
+#pst-back-to-top {
+  display: none;
+  visibility: collapse;
+}
 ```
 
 Range: URLs on the domain: `seaborn.pydata.org`, `matplotlib.org` \(because their primary colour is too dark\)
