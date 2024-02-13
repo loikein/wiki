@@ -50,11 +50,13 @@ Read sheet:
 import pandas as pd
 
 df = pd.read_excel(
-    os.path.join("data", "data.xlsx"), # read ./data/data.xlsx
+    os.path.join("data", "data.xlsx"),  # read ./data/data.xlsx
     sheet_name="Sheet 1",
-    skiprows=1,   # if there are pre-data rows
-    header=[0,1], # if there are multiple (combined) header rows
-    nrows=100,    # only read first 100 rows
+    skiprows=1,                         # if there are pre-data rows
+    header=[0,1],                       # if there are multiple (combined) header rows
+    nrows=100,                          # only read first x rows
+    usecols=["ID", "Rating", "Date"],   # only import certain columns
+    index_col="Location ID",            # set index as soon as import
 )
 ```
 
@@ -80,6 +82,10 @@ import pandas as pd
 dfs = pd.read_excel(file_name, sheet_name=None)
 dfs.keys() # similar result as xl.sheet_names
 ```
+
+#### Custom `usecol` function for fuzzy column names
+
+See [Python #Match case \(Switch\)](/programming/python/#match-case-switch)
 
 ### CSV/TSV
 
@@ -304,7 +310,7 @@ df_subset = df[df["Average"].apply(lambda x: isinstance(x, np.ndarray))]
 
 If get `ValueError: Index contains duplicate entries, cannot reshape`, it means there are duplicate indices sets (rows where all indices are identical).
 
-First [check the rows contain same data](/programming/python/pandas/#list-rows-with-duplicated-values-of-indices), then [drop rows with duplicate indices](/programming/python/pandas/#drop-rows-with-duplicate-indices).
+First [check the rows contain same data](/programming/python/pandas/#list-rows-with-duplicated-values-of-indices), then [drop rows with duplicate indices](/programming/python/pandas/#drop-things).
 
 ---
 
@@ -630,7 +636,7 @@ df_subset = hse_micro.query('A == "Yes" | B == "Yes"')
 df_subset.groupby([["C", "D"]])[["AGE", "YEAR"]].mean()
 ```
 
-### Groupby column names \(custom groupby function\)
+### Groupby column names \(custom `groupby` function\)
 
 Use case: get average columns across multiple columns with similar names.
 
@@ -1109,22 +1115,38 @@ for ind, row in qof_perc.iterrows():
     break
 ```
 
+### Loop over list of DataFrames
+
+Ref: [python - Pandas Loop through list of Data Frames and Change Index - Stack Overflow](https://stackoverflow.com/a/44631098/10668706)
+
+Things would fail or stop operating after first iteration if use `for df in list`. Write instead:
+
+```python
+for i, df in enumerate(df_list):
+    # ...
+```
 
 ### Rename things
 
-Index column:
+Index columns:
 
 ```python
 df.index = df.index.set_names(["ID"])
 ```
 
-Normal column:
+Normal columns:
 
 ```python
 df = df.rename(columns={"A": "a", "B": "c"})
 
 # or (no quotation marks)
 df = df.rename(columns=dict(A="a", B="c"))
+```
+
+By column index \(for `None` columns that are otherwise helpless\): \([ref](https://stackoverflow.com/a/41096634/10668706)\)
+
+```python
+df.columns.values[0] = "Safe"
 ```
 
 Batch rename columns:
@@ -1137,7 +1159,26 @@ df = df.rename(columns=lambda x: x+"_PERC")
 # with regex
 # https://stackoverflow.com/a/26500249/10668706
 import re
+
 df = df.rename(columns=lambda x: re.sub(" $", "", x))
+```
+
+Custom regex rename function: \(inspired by [ref](https://stackoverflow.com/a/75089993), also see [Python #Match case \(Switch\)](/programming/python/#match-case-switch)\)
+
+```python
+import re
+
+class RegexEqual(str):
+    def __eq__(self, pattern):
+        return bool(re.match(pattern, self))
+
+def rename_fn(col):
+    match RegexEqual(col):
+        case "[A-z\s]*Date":
+            return "Date"
+        case "[A-z\s]*Rating":
+            return "Rating"
+    return col                  # otherwise could get None columns
 ```
 
 ### Find \& replace in all cells

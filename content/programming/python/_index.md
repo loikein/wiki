@@ -19,102 +19,12 @@ title: "Python"
 - [Python Cookbook 3rd Edition 中文版](https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html)
     + Repo: [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
 - [R you ready for Python?](https://shiny.abdn.ac.uk/Stats/R_Python_tutorial/index.html) \(R/Python integration\)
+- [nkmk note](https://note.nkmk.me/en/) \(in English & Japanese\)
 
 
-## Dictionary
+## Development
 
-### Append
-
-```python
-new_dict = {}
-new_dict.update({"name": number})
-```
-
-### Head
-
-Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)
-
-```python
-from itertools import islice
-
-dict(islice(my_dict.items(), 0, 5))
-```
-
-### Search
-
-Keys:
-
-```python
-if key in my_dict:
-    # ...
-```
-
-## Help
-
-Like R's `?` function.
-
-```python
-help(np.log)
-
-# If it is a method, need something that the method can run from:
-help(df.reset_index)
-```
-
-
-## List
-
-### Find index of
-
-Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/13301022/10668706)\)
-
-```python
-val, index = min((val, index) for (index, val) in enumerate(my_list))
-```
-
-### Find n-th element
-
-```python
-# first
-my_list[0]
-
-# last
-my_list[-1]
-
-# middle
-# https://stackoverflow.com/questions/38130895/find-middle-of-a-list#comment105177234_38131003
-my_list[int(len(my_list)//2)]
-```
-
-
-### Export to file
-
-Write a list to file: \([credit](https://pynative.com/python-write-list-to-file/)\)
-
-```python
-import os
-
-my_list = ["A", "B", "C"]
-
-# open file in write mode
-with open(os.path.join("data", "log.txt"), 'w') as f:
-    for item in my_list:
-        # write each item on a new line
-        f.write("%s\n" % item)
-
-print("Done.")
-```
-
-### Sort
-
-```python
-my_list = ["B", "C", "D"]
-my_list.sort()
-print(my_list)
-# ['B', 'C', 'D']
-```
-
-
-## Benchmarking
+### Benchmarking
 
 Ref: [performance - How to measure elapsed time in Python? - Stack Overflow](https://stackoverflow.com/questions/7370801/how-to-measure-elapsed-time-in-python)
 
@@ -131,17 +41,62 @@ elapsed = end - start
 print(elapsed)
 ```
 
+### Help
 
-## CSV
+Like R's `?` function.
+
+```python
+help(np.log)
+
+# If it is a method, need something that the method can run from:
+help(df.reset_index)
+```
+
+### List attributes
+
+List all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
+
+```python
+for attr in dir(object_a):
+    if not attr.startswith('_'):
+        print(attr)
+```
+
+List all methods of an object: \([credit](https://stackoverflow.com/a/34452/10668706)\)
+
+```python
+for method in dir(object_a):
+    if callable(getattr(object_a, method)) and (not method.startswith('_')):
+        print(method)
+```
+
+### Try except
+
+Refs:
+
+- [8. Errors and Exceptions — Python 3.12.2 documentation](https://docs.python.org/3/tutorial/errors.html)
+- [exception - What is the intended use of the optional "else" clause of the "try" statement in Python? - Stack Overflow](https://stackoverflow.com/questions/855759/)
+
+```python
+try:
+    assert(len(list) == 5)
+except AssertionError:
+    print("Error: List length is wrong.")
+except Exception as e:
+    print(e)
+```
+
+
+## File handling
+
+### CSV
 
 > This section focuses on the Python module `csv`. For the package `pandas`, see [Pandas](/programming/python/pandas/).
 {.book-hint .info}
 
 Docs: [csv — CSV File Reading and Writing — Python 3.11.4 documentation](https://docs.python.org/3/library/csv.html)
 
-### Import as list
-
-Ref: [Python import csv to list - Stack Overflow](https://stackoverflow.com/a/24662707/10668706)
+Import as list: \([Ref](https://stackoverflow.com/a/24662707/10668706)\)
 
 ```python
 import csv
@@ -156,7 +111,7 @@ print(data)
 # ]
 ```
 
-## JSON
+### JSON
 
 Split a big JSON file into smaller files: \([credit](https://plainenglish.io/blog/split-big-json-file-into-small-splits)\)
 
@@ -199,24 +154,86 @@ for i in range(1, split+1):
 
 ## Objects
 
-List all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
+### Dictionary
+
+#### Append
 
 ```python
-for attr in dir(object_a):
-    if not attr.startswith('_'):
-        print(attr)
+new_dict = {}
+new_dict.update({"name": number})
 ```
 
-List all methods of an object: \([credit](https://stackoverflow.com/a/34452/10668706)\)
+#### Head
+
+Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)
 
 ```python
-for method in dir(object_a):
-    if callable(getattr(object_a, method)) and (not method.startswith('_')):
-        print(method)
+from itertools import islice
+
+dict(islice(my_dict.items(), 0, 5))
 ```
 
+#### Search
 
-## Pickle
+Keys:
+
+```python
+if key in my_dict:
+    # ...
+```
+
+### List
+
+#### Find index of
+
+Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/13301022/10668706)\)
+
+```python
+val, index = min((val, index) for (index, val) in enumerate(my_list))
+```
+
+#### Find n-th element
+
+```python
+# first
+my_list[0]
+
+# last
+my_list[-1]
+
+# middle
+# https://stackoverflow.com/questions/38130895/find-middle-of-a-list#comment105177234_38131003
+my_list[int(len(my_list)//2)]
+```
+
+#### Export to file
+
+Write a list to file: \([credit](https://pynative.com/python-write-list-to-file/)\)
+
+```python
+import os
+
+my_list = ["A", "B", "C"]
+
+# open file in write mode
+with open(os.path.join("data", "log.txt"), 'w') as f:
+    for item in my_list:
+        # write each item on a new line
+        f.write("%s\n" % item)
+
+print("Done.")
+```
+
+#### Sort
+
+```python
+my_list = ["B", "C", "D"]
+my_list.sort()
+print(my_list)
+# ['B', 'C', 'D']
+```
+
+### Pickle
 
 See [Writing functions #Dark magic](/programming/python/writing-functions/#dark-magic) for the wrapper function version.
 
@@ -238,6 +255,31 @@ else:
     print("Pickle not found. Please create one first.")
 ```
 
+### String
+
+#### Add leading zeros
+
+Ref: [python - Best way to format integer as string with leading zeros? - Stack Overflow](https://stackoverflow.com/a/733478)
+
+```python
+year = [2015]
+month = list(range(1, 13))
+
+for y in year:
+    for m in month:
+        print(str(y) + "_" + str(m).zfill(2))
+```
+
+This gives the exact same output as below, but exposes year and month variables to tinker with: \([ref](https://stackoverflow.com/a/59755426)\)
+
+```python
+import pandas as pd
+
+pr = pd.period_range(start='2015-01',end='2015-12', freq='M')
+for period in pr:
+    print(period)
+```
+
 
 ## Print
 
@@ -248,9 +290,6 @@ Ref: [How can I print bold text in Python? - Stack Overflow](https://stackoverfl
 ```python
 print("\033[1m" + "hello world" + "\033[0m")
 ```
-
-
-## Pretty print
 
 ### Table
 
@@ -276,13 +315,37 @@ print(json.dumps(json_data, indent=4))
 ```
 
 
-## Try except
+## Statements
+
+### Match case \(Switch\)
+
+> This is [new feature in Python 3.10](https://docs.python.org/3/whatsnew/3.10.html).
+{.book-hint .info}
+
+Regex match I use to import some badly headed datasets: \([ref](https://stackoverflow.com/a/75089993)\)
 
 ```python
-try:
-    assert(len(list) == 5)
-except AssertionError:
-    print("Error: List length is wrong.")
-except:
-    print("Error: Unknown error.")
+import re
+
+
+class RegexEqual(str):
+    def __eq__(self, pattern):
+        return bool(re.match(pattern, self))
+
+def usecols_fn(col):
+    match RegexEqual(col):
+        case "ID":
+            return True
+        case "[A-z\s]*Date":
+            return True
+        case "[A-z\s]*Rating":
+            return True
+    return False
+
+df = pd.read_excel(
+    "data.xlsx",
+    sheet_name="Sheet 1",
+    usecols=usecols_fn,
+    index_col="ID",
+)
 ```

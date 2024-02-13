@@ -72,6 +72,10 @@ parole
 : _n._ 假释，言语（语言学概念）
 : [Wiktionary](https://en.wiktionary.org/wiki/parole#English); [Wikipedia](https://en.wikipedia.org/wiki/Parole_(disambiguation))
 
+repertoire
+: _n._ 常规节目，保留节目
+: [Wiktionary](https://en.wiktionary.org/wiki/repertoire#English)
+
 toodle-oo / toodeloo
 : 再见，浮夸或幽默地宣告自己的离开
 : [Wiktionary](https://en.wiktionary.org/wiki/toodeloo)
@@ -216,6 +220,10 @@ BRB
 ICYMI
 : in case you missed it，以防你错过了。用于引出背景信息，或提示一段时间以前已提到过的信息
 : [Wiktionary](https://en.wiktionary.org/wiki/ICYMI)
+
+IIUC
+: if I understand correctly，如果我没理解错的话
+: [Wiktionary](https://en.wiktionary.org/wiki/IIUC)
 
 just my two cents/pennies
 : 这只是我的想法（谦逊用语）

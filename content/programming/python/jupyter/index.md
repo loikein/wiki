@@ -126,7 +126,6 @@ Then I got: `/usr/local/Caskroom/miniconda/base/envs/google-maps/etc/jupyter/lab
 > ~ [Advanced Usage — JupyterLab 4.0.6 documentation #JupyterLab User Settings Directory](https://jupyterlab.readthedocs.io/en/stable/user/directories.html#jupyterlab-user-settings-directory)
 
 
-
 ## Useful Notebook Extensions
 
 Doc: [Extensions — JupyterLab 4.0.6 documentation](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)
@@ -134,10 +133,10 @@ Doc: [Extensions — JupyterLab 4.0.6 documentation](https://jupyterlab.readthed
 ```sh
 jupyter labextension list
 
-# JupyterLab v4.0.5
-# /usr/local/Caskroom/miniconda/base/envs/google-maps/share/jupyter/labextensions
-#         jupyterlab-jupytext v1.3.9 enabled  X (python, jupytext)
+# JupyterLab v4.1.1
+# /usr/local/Caskroom/miniconda/base/envs/myenv/share/jupyter/labextensions
+#         jupyterlab-jupytext v1.4.2 enabled OK (python, jupytext)
 #         jupyterlab_pygments v0.2.2 enabled  X (python, jupyterlab_pygments)
-#         jupyterlab-execute-time v3.0.1 enabled OK (python, jupyterlab_execute_time)
+#         jupyterlab-execute-time v3.1.1 enabled OK (python, jupyterlab_execute_time)
+#         jupyterlab-indent-guides v0.1.0 enabled OK (python, jupyterlab-indent-guides)
 ```
-

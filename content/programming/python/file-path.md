@@ -59,6 +59,7 @@ Refs:
 - [python - Recursively rename file extensions - Stack Overflow](https://stackoverflow.com/a/37016368)
 - [subdirectory - Browse files and subfolders in Python - Stack Overflow](https://stackoverflow.com/a/5817256)
 - [How to rename multiple files recursively using Python?](https://www.tutorialspoint.com/How-to-rename-multiple-files-recursively-using-Python)
+- [python - Case insensitive replace - Stack Overflow](https://stackoverflow.com/questions/919056/case-insensitive-replace#comment94426519_919074)
 
 ```python
 import os

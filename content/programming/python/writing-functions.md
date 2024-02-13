@@ -44,6 +44,12 @@ print_all(today="sunday", tomorrow="monday")
 
 Ref: [python - return, return None, and no return at all? - Stack Overflow](https://stackoverflow.com/a/15300671)
 
+
+## Wrappers
+
+`functools.partial`: [python - How does functools partial do what it does? - Stack Overflow](https://stackoverflow.com/a/15331841/10668706)
+
+
 ## Dark magic
 
 > Proceed at your own risk. You have been warned.
