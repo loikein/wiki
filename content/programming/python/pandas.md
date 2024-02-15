@@ -124,6 +124,8 @@ See [Python #CSV](/programming/python/#csv).
 > The newest code on GitHub supports `skiprows`, but not `nrows`. However, the pip version does not support `skiprows` yet. To get it, download and use the development version of the package.
 {.book-hint .warning}
 
+This is by far the fastest method, if you know the sheet name.
+
 ```python
 import pandas as pd
 from pandas_ods_reader import read_ods
@@ -454,6 +456,12 @@ Ref: [python - print the unique values in every column in a pandas dataframe - S
 print(df["Status Code"].unique())
 ```
 
+To sort the unique values, use: \(`dropna` in case there is NaN\)
+
+```python
+sorted(df["Status Code"].dropna().unique())
+```
+
 ### List rows with duplicated values of a column
 
 Ref: [How do I get a list of all the duplicate items using pandas in python? - Stack Overflow](https://stackoverflow.com/a/41786821/10668706)
@@ -466,6 +474,14 @@ df[df.duplicated(["ID"], keep=False)].sort_values("ID")
 
 ```python
 df[df.index.duplicated(keep='first')]
+```
+
+### List rows with NaN in certain columns
+
+Ref: [python - How to check if any value is NaN in a Pandas DataFrame - Stack Overflow](https://stackoverflow.com/a/47377251/10668706)
+
+```python
+df[df["Bad column"].isnull()]
 ```
 
 
@@ -816,6 +832,14 @@ data["Address"] = data["Address Line 1"].fillna("")
 
 for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 5", "Postcode"]:
     data["Address"] = data["Address"].astype(str) + " " + data[col].fillna("").astype(str)
+```
+
+### Fill NA with certain values
+
+Ref: [python - Pandas dataframe fillna() only some columns in place - Stack Overflow](https://stackoverflow.com/a/38134049/10668706)
+
+```python
+df[["a", "B"]] = df[["a", "B"]].fillna(value="Something")
 ```
 
 ### Get column-wise delta \(difference\)

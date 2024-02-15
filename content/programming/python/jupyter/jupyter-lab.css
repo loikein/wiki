@@ -28,3 +28,8 @@
 .jp-SidePanel-header {
   text-transform: none;
 }
+
+/* monospace toc */
+.jp-TableOfContents-tree {
+  font-family: monospace;
+}

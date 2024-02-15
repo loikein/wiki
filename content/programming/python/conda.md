@@ -91,6 +91,31 @@ If that doesn't work:
 1. Delete `my-env` with `conda remove -n my-env --all -y`
 1. Create it again with `conda env create -f environment.yml`
 
+
+## Magic commands
+
+Doc: [Built-in magic commands — IPython 8.21.0 documentation](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
+
+### System commands
+
+```python
+# Prints current working directory
+%pwd
+```
+
+### Show function definition
+
+Ref: [Can Python print a function definition? - Stack Overflow](https://stackoverflow.com/a/1562772/10668706)
+
+```python
+# help
+function_name?
+
+# definition
+function_name??
+```
+
+
 ## Use with direnv
 
 ### Auto activate environment
