@@ -90,3 +90,36 @@ If that doesn't work:
 1. Switch to base environment or run `conda deactivate`
 1. Delete `my-env` with `conda remove -n my-env --all -y`
 1. Create it again with `conda env create -f environment.yml`
+
+## Use with direnv
+
+### Auto activate environment
+
+`.envrc`:
+
+```sh
+cd /usr/local/Caskroom/miniconda/base/bin
+source activate myenv
+cd -
+```
+
+### Use local package
+
+`.envrc`:
+
+```sh
+export PROJECT_ROOT=$PWD
+export PYTHONPATH=$PROJECT_ROOT:$PYTHONPATH # prioritise local packages
+```
+
+The environment directory must look like this:
+
+```text
+.
+├── .envrc
+├── environment.yml
+├── my_package
+│   ├── __init__.py
+│   └── ...
+└── ...
+```

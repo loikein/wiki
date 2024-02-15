@@ -184,6 +184,8 @@ if key in my_dict:
 
 ### List
 
+Doc: [5. Data Structures — Python 3.12.2 documentation](https://docs.python.org/3/tutorial/datastructures.html)
+
 #### Find index of
 
 Find the index of minimum in a list: \([credit](https://stackoverflow.com/a/13301022/10668706)\)
@@ -283,6 +285,11 @@ for period in pr:
 
 ## Print
 
+Refs:
+
+- [7. Input and Output — Python 3.12.2 documentation](https://docs.python.org/3/tutorial/inputoutput.html)
+- [A Guide to the Newer Python String Format Techniques – Real Python](https://realpython.com/python-formatted-output/)
+
 ### Bold
 
 Ref: [How can I print bold text in Python? - Stack Overflow](https://stackoverflow.com/a/11784589/10668706)
@@ -316,6 +323,33 @@ print(json.dumps(json_data, indent=4))
 
 
 ## Statements
+
+### Loop
+
+Parallel iteration:
+
+> `zip` only goes through the shortest list given.
+{.book-hint .warning}
+
+```python
+lower = [a, b, c]
+upper = [A, B, C]
+
+for l, u in zip(lower, upper):
+    print(f"{l} = {u}")
+```
+
+Cartesian product of lists:
+
+```python
+import itertools
+
+year = [2015]
+month = list(range(1, 13))
+
+for period in itertools.product(year, month):
+    print(period)
+```
 
 ### Match case \(Switch\)
 

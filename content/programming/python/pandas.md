@@ -118,10 +118,10 @@ See [Python #CSV](/programming/python/#csv).
 
 #### `pandas-ods-reader`
 
-> Extra dependency: [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), `ezodf`, and `lxml`
+> Extra dependency: [`pandas-ods-reader`](https://github.com/iuvbio/pandas_ods_reader/tree/master), [`ezodf`](https://github.com/T0ha/ezodf), and `lxml`
 {.book-hint .info}
 
-> It supports `skiprows`, but not `nrows`.
+> The newest code on GitHub supports `skiprows`, but not `nrows`. However, the pip version does not support `skiprows` yet. To get it, download and use the development version of the package.
 {.book-hint .warning}
 
 ```python
@@ -129,16 +129,22 @@ import pandas as pd
 from pandas_ods_reader import read_ods
 
 df = read_ods(
-    os.path.join("data", "data.ods"), # read ./data/data.ods
-    2,                                # get 2nd sheet (1 based), default 1
+    os.path.join("data", "data.ods"),   # read ./data/data.ods
+    sheet=2,                            # get 2nd sheet (1 based), default 1
     # or
-    "sheet 1",                        # get sheet by name
+    sheet="sheet 1",                    # get sheet by name
+    skiprows=1,                         # only works if you have the development version
+    columns=["ID", "Rating", "Date"]    # this is NOT usecols!! it renames the columns, and truncates the sheet if list is shorter than # of columns
 )
+
+# Simulate usecols callable
+usecols = pd.array([usecols_fn(col) for col in df.columns], dtype="boolean")
+df = df.loc[:, usecols]
 ```
 
 #### `pd.read_excel`
 
-> Extra dependency: `odfpy`
+> Extra dependency: [`odfpy`](https://github.com/eea/odfpy)
 {.book-hint .info}
 
 > Since `odfpy` does not have row selection method when loading files,
@@ -260,10 +266,15 @@ with pd.io.stata.StataReader(path) as sr:
 
 ## Export DataFrame
 
-### As Excel file
+### As Excel/ODS file
+
+> Extra dependency: `openpyxl` or `odfpy`
+{.book-hint .info}
 
 ```python
 df.to_excel(os.path.join("data", "data.xlsx"))
+df.to_excel(os.path.join("data", "data.ods"))
+
 # or if the df is too big
 df.iloc[:1000, :1000].to_excel(os.path.join("data", "data.xlsx"))
 ```
@@ -1176,7 +1187,9 @@ def rename_fn(col):
     match RegexEqual(col):
         case "[A-z\s]*Date":
             return "Date"
-        case "[A-z\s]*Rating":
+        case "Previous Rating": # Checks something more specific
+            return "Previous"
+        case "[A-z\s]*Rating":  # Then a fuzzy check
             return "Rating"
     return col                  # otherwise could get None columns
 ```
