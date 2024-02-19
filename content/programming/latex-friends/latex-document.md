@@ -331,6 +331,16 @@ With package ulem:
 \end{enumerate}
 ```
 
+### Description list
+
+```latex
+\begin{description}[Part 2.] % put the longest item here for alignment
+  \item[Part 1.] ...
+  \item[Part 2.] ...
+  \item[Part 3.] ...
+\end{description}
+```
+
 ### Quick pseudo list
 
 Ref: [spacing - How can I force a \hspace at the beginning of a line? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/a/37349/206709)

@@ -1,5 +1,5 @@
 ---
-title: "日语词汇参考"
+title: "日语参考"
 weight: 10
 ---
 收集本人日常生活（？）中碰到的单词。释义是自己写的，不一定精确，主要用来领会精神。
@@ -16,9 +16,13 @@ Refs:
     + [インターネットスラング - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%82%B9%E3%83%A9%E3%83%B3%E3%82%B0)
     + [KY語](https://ja.wikipedia.org/wiki/KY%E8%AA%9E)
     + [KY語の検索結果 - 日本語俗語辞書](http://search.zokugo-dict.com/search.cgi?q=KY%B8%EC)
+
+辞典：
+
 - [日本語教育用アクセント辞典](https://accent.u-biq.org/)
 - [故事ことわざ辞典](https://kotowaza-dictionary.jp/)
 - [見出しの並べ方 | 岩波国語辞典](https://japanknowledge.com/contents/iwanami_kokugo/hanrei_03.html)
+- [辞遊人 — 文章に携わる人のための辞書・検索サイト](https://www.dictjuggler.net/)
 
 <!-- [助詞 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A9%E8%A9%9E) -->
 
@@ -99,6 +103,10 @@ Refs:
 
 オシャンティー
 : 时尚，有范儿
+
+おまいう
+: お前が言うな，你还好意思说
+: [ピクシブ百科事典](https://dic.pixiv.net/a/%E3%81%8A%E5%89%8D%E3%81%8C%E8%A8%80%E3%81%86%E3%81%AA)
 
 ガン見
 : 一直盯着看

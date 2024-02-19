@@ -49,3 +49,4 @@ title: "Other Online Tools"
 - [開放中文轉換 Open Chinese Convert (OpenCC)](https://opencc.byvoid.com/)
     - Repository: [BYVoid/OpenCC: Conversion between Traditional and Simplified Chinese](https://github.com/BYVoid/OpenCC)
 - [Convert HTML Tables to Markdown](https://tabletomarkdown.com/convert-website-table-to-markdown/) \(Works fine for tables with `colspan`, but you have to fix it in Markdown.\)
+- [OCR Space](https://ocr.space/)

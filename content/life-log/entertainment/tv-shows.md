@@ -69,6 +69,7 @@ TV shows & Animes that I am watching/have watched.
 | Overlord (S2) | 伊藤尚往 | MADHOUSE | 2018 | [MyAnimeList](https://myanimelist.net/anime/35073/), [豆瓣](https://movie.douban.com/subject/26994749/) | 2023-11-26 | ★★★☆☆ |  |
 | Overlord (S3) | 伊藤尚往 | MADHOUSE | 2018 | [MyAnimeList](https://myanimelist.net/anime/37675/), [豆瓣](https://movie.douban.com/subject/30187694/) | 2023-11-29 | ★★★☆☆ |  |
 | 無職転生 ～異世界行ったら本気だす～ (S2P1) | 平野宏樹 | StudioBind | 2023 | MyAnimeList [E0](https://myanimelist.net/anime/55818/) [P1](https://myanimelist.net/anime/51179/), [豆瓣](https://movie.douban.com/subject/35460731/) | 2023-12-30 | ★★★☆☆ | 感觉如果希露菲再晚一些暴露性别会更有张力。 |
+| 異世界おじさん | 河合滋樹 | Atelier Pontdarc | 2022 | [MyAnimeList](https://myanimelist.net/anime/49220/), [豆瓣](https://movie.douban.com/subject/35417872/) | 2024-02-18 | ★★☆☆☆ | 好痛苦，我不要看这样的异世界呱…… |
 
 <!--
 | Title | Director | Production/Studio | Year | [MyAnimeList](), [豆瓣]() | Progress/Finish date | Rating | Review |

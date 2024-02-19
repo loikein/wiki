@@ -1,5 +1,5 @@
 ---
-title: "英语词汇参考"
+title: "英语参考"
 weight: 10
 ---
 标题其实应该是「不是英语词汇参考」。
@@ -12,6 +12,7 @@ weight: 10
 ## 语法
 
 - [Singular “they” - APA Style](https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they): 即使在 they 当第三人称单数代词使用时，动词也是用复数形式。
+- [Punctuation and Spelling: Hyphenation](https://web.archive.org/web/20171228153349/http://college.cengage.com/english/raimes/digitalkeys/keyshtml/punctua6.htm)
 
 
 ## 法语相关
