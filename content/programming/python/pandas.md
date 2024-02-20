@@ -103,8 +103,9 @@ df = pd.read_csv(
     # sep='\t',                       # if tsv
     # quotechar="'",                  # if see extra quotation marks after import
     header=None,
-    index_col=[0,1],                  # only numbers, because there is no name yet
+    index_col=[0, 1],                 # can use names if given
     names=names_list,
+    usecols=[0, 1, 2, 3],             # can use names if given
     dtype={"Phone number": "str"},    # read columns as type
     nrows=100,                        # only read first 100 rows
 )
@@ -943,14 +944,17 @@ df_AB = pd.concat(
 
 #### Join  \(same indices\)
 
-> It is said by some people online that you can join single-indexed DataFrame with MultiIndex DataFrame using this commend, which is not correct (at least not stable). When the single shared index has different values, aka, `outer` does not equal `inner`, the join returns an error.
-> 
-> To avoid this, first use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])` to make the MultiIndex DataFrame single-indexed first, then perform the join.
-{.book-hint .warning}
-
-> Always use index to join. Do not use `on="col"` when performing join, pandas will raise `ValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat`.  
+> Always use index to join. Do not use `on="Data col"` when performing join, pandas will raise `ValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat`.  
 > If you do not want to modify the original df, use `df_AB = df_A.set_index("col").join(df_B.set_index("col"))`.
 {.book-hint .info}
+
+> You can join single-indexed DataFrame with MultiIndex DataFrame using this commend, but it must be approached very carefully. When the single shared index has different values, aka, `outer` does not equal `inner`, the join function returns an error.
+> 
+> Possible methods:
+> 
+> 1. Make the MultiIndex DataFrame single-indexed first. First use commands like `df_multi_index.index.set_names` and `df_multi_index.reset_index(level=[<all non-shared indices>])`.
+> 2. Avoid `how="outer"`. If the MultiIndex DataFrame is left, use `how="left"` and `on="<shared_single_index>"`.
+{.book-hint .warning}
 
 With two parts:
 

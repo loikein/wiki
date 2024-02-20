@@ -33,6 +33,10 @@ c'est la vie
 : 这就是人生。用于表示无奈
 : [Wiktionary](https://en.wiktionary.org/wiki/c%27est_la_vie#English)
 
+debris
+: _n._ 残骸，瓦砾
+: [Wiktionary](https://en.wiktionary.org/wiki/debris#English)
+
 en route
 : 在去往某处的路上。常用：en route to
 : [Wiktionary](https://en.wiktionary.org/wiki/en_route)
@@ -171,6 +175,10 @@ de facto
 de jure
 : _adj./adv._ 名义上的，法律上的
 : [Wiktionary](https://en.wiktionary.org/wiki/de_jure#English); [Wikipedia](https://en.wikipedia.org/wiki/De_jure)
+
+interim
+: _adj./n._ 临时的，中期的
+: [Wiktionary](https://en.wiktionary.org/wiki/interim#English)
 
 jure uxoris
 : _adv._ 通过妻子得到的（地位，财富，等等）
