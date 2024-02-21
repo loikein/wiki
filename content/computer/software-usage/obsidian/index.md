@@ -257,6 +257,19 @@ Seems not compatible with checklists. My tweaks:
 - y green
 - n grey
 
+### Number Headings
+
+Repo: [onlyafly/number-headings-obsidian: Automatically number headings in a document in Obsidian](https://github.com/onlyafly/number-headings-obsidian)
+
+> 1. It takes a long time for the Obsidian TOC to update after changing the numbers, if you have a relatively large file \(\~ 10KB\).
+> 2. Adding new headings requires a manual off-on refresh, or a few seconds of waiting time in auto mode.
+{.book-hint .warning}
+
+Preferences:
+
+- First heading level: `2`
+- Separator style: `.`
+
 ### Prominent \(Starred\) Files
 
 Repo: [javalent/prominent-files: Prominently display starred files in Obsidian.md](https://github.com/javalent/prominent-files/tree/main)

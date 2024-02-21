@@ -20,6 +20,9 @@ title: "Python"
     + Repo: [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
 - [R you ready for Python?](https://shiny.abdn.ac.uk/Stats/R_Python_tutorial/index.html) \(R/Python integration\)
 - [nkmk note](https://note.nkmk.me/en/) \(in English & Japanese\)
+- [Python Plotting for Exploratory Analysis](https://pythonplot.com/) \(compares code of the same graphs produced by Pandas/Matplotlib/Seaborn/plotnine/plotly/Altair/ggplot2\)
+    - Repository: [tdhopper/pythonplot.com](https://github.com/tdhopper/pythonplot.com)
+- [Plotly Open Source Graphing Libraries](https://plotly.com/graphing-libraries/)
 
 
 ## Development

@@ -7,6 +7,7 @@ For usage see: [Browser extension #Customise the web](/computer/internet/browser
 
 Some of the bugs may have been caused by my browser settings. Adopt after careful inspection.
 
+
 ## Universal
 
 Range: Everything
@@ -17,6 +18,7 @@ s, strike, del {
     opacity: 60%;
 }
 ```
+
 
 ## AO3
 
@@ -194,6 +196,15 @@ Range: URLs on the domain: `mathurinm.github.io`
 /* highlight param names */
 dt strong {
   color: var(--color-brand-content);
+}
+```
+
+Range: URLs on the domain: `geopandas.org`
+
+```css
+/* highlight param names */
+dt strong {
+  color: var(--pst-color-primary);
 }
 ```
 
