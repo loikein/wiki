@@ -167,6 +167,10 @@ Adjust position of labels:
 ax.xaxis.get_majorticklabels()[1].set_horizontalalignment("right")
 ```
 
+### Legend
+
+Doc: [matplotlib.pyplot.legend — Matplotlib 3.8.3 documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html)
+
 ### Annotation
 
 Docs:
@@ -357,6 +361,7 @@ Doc: [Frequently asked questions — seaborn 0.12.2 documentation](https://seabo
 
 For a list of all options see the `**kwargs` portion of: [matplotlib.axes.Axes.plot — Matplotlib 3.7.2 documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.plot.html)
 
+Application: [python - seaborn scatterplot marker size for ALL markers - Stack Overflow](https://stackoverflow.com/a/52785672)
 
 ### Plot With `jointplot`
 
@@ -547,6 +552,12 @@ sns.boxplot(
 
 plt.show()
 ```
+
+### FacetGrid
+
+[python - How to put the legend on first subplot of seaborn.FacetGrid? - Stack Overflow](https://stackoverflow.com/a/33631932)
+
+[python - how to change grid size using facet-grid in seabron - Stack Overflow](https://stackoverflow.com/a/57410739)
 
 
 ## Problem with plots

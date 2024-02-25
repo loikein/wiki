@@ -130,7 +130,7 @@ Range: URLs on the domain: `officeapps.live.com` (particularly within iframes)
 
 ## Python documentations
 
-Range: URLs on the domain: `pandas.pydata.org`, `numpy.org`
+Range: URLs on the domain: `pandas.pydata.org`, `numpy.org`, `geopandas.org`
 
 ```css
 /* highlight param names */
@@ -199,12 +199,12 @@ dt strong {
 }
 ```
 
-Range: URLs on the domain: `geopandas.org`
+Range: URLs on the domain: `scitools.org.uk` \(`cartopy`\)
 
 ```css
 /* highlight param names */
-dt strong {
-  color: var(--pst-color-primary);
+dd p strong {
+  color: var(--pst-color-secondary);
 }
 ```
 

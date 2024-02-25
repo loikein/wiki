@@ -116,3 +116,34 @@ Credit: [how to merge two webm files (video and audio) in ffmpeg? : youtubedl](h
 ```sh
 ffmpeg -i video.webm -i audio.webm -c copy output.mkv
 ```
+
+### Images to video
+
+Please mind this comment. The risk is very real.
+
+> Just a note of warning: do not think you can bypass ffmpeg's printf syntax and just use \*.jpg or something for more complex patterns. It will actually overwrite each and every one of your image files with the first one! I tried it myself.
+> 
+> ~ [Christian, Jan 2, 2013 at 16:34](https://superuser.com/questions/249101/how-can-i-combine-30-000-images-into-a-timelapse-movie/510295#comment635925_510295)
+{.book-hint .danger}
+
+Refs:
+
+- [merge\\concat all mp4 in folder, sorted by date : ffmpeg](https://old.reddit.com/r/ffmpeg/comments/nvf8b6/mergeconcat_all_mp4_in_folder_sorted_by_date/)
+- [video - How can I combine 30,000 images into a timelapse movie? - Super User](https://superuser.com/a/510295)
+- [Simple time-lapse using ffmpeg - Midnight Light Midnight Light](https://web.archive.org/web/20210226122212/https://www.dsebastien.net/2015/01/25/simple-time-lapse-using-ffmpeg/)
+- [How can I make ffmpeg be quieter/less verbose? - Super User](https://superuser.com/a/1045060)
+
+```sh
+for f in fig-*.png ; do echo file \'$f\' > list.txt; done && ffmpeg -r 1 -f concat -i list.txt output.mp4 -hide_banner -loglevel error
+```
+
+
+## Modify
+
+### Change speed
+
+Mute video: \(10 times slower\)
+
+```sh
+ffmpeg -i input.mov -filter:v "setpts=PTS*10" -an output.mov
+```
