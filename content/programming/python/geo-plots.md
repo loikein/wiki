@@ -238,6 +238,8 @@ Refs:
 ### Example with `cartopy` features
 
 
+<!-- 
+
 ### Example with `contextily` map
 
 > Refs for using `geopandas` CRS methods: \(haven't tried\)
@@ -289,6 +291,8 @@ ax.set_xlabel('Longitude')
 ax.set_ylabel('Latitude')
 plt.show()
 ```
+
+ -->
 
 ## Entertainment
 
