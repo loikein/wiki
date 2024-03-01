@@ -22,6 +22,8 @@ Moved from: \(Private repo\) [loikein/my-jupyter-notes](https://github.com/loike
   + [A R软件基础(\*) | 统计计算 李东风](https://www.math.pku.edu.cn/teachers/lidf/docs/statcomp/html/_statcompbook/appendix-rintro.html)
 - List: [XiangyunHuang/R-Tutorial: R 语言材料](https://github.com/XiangyunHuang/R-Tutorial)
 - [R you ready for Python?](https://shiny.abdn.ac.uk/Stats/R_Python_tutorial/index.html) \(R/Python integration\)
+- [Welcome | Advanced R](https://adv-r.hadley.nz/)
+  - Repo: [hadley/adv-r: Advanced R: a book](https://github.com/hadley/adv-r/tree/master)
 
 
 ## Configuration

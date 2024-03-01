@@ -23,6 +23,7 @@ title: "Python"
 - [Python Plotting for Exploratory Analysis](https://pythonplot.com/) \(compares code of the same graphs produced by Pandas/Matplotlib/Seaborn/plotnine/plotly/Altair/ggplot2\)
     - Repository: [tdhopper/pythonplot.com](https://github.com/tdhopper/pythonplot.com)
 - [Plotly Open Source Graphing Libraries](https://plotly.com/graphing-libraries/)
+- [Data Science for Energy System Modelling](https://fneum.github.io/data-science-for-esm/intro.html)
 
 
 ## Development

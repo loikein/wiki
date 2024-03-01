@@ -10,19 +10,19 @@ Courses:
     - [Automating-GIS-processes/CSC](https://github.com/Automating-GIS-processes/CSC/tree/master)
 - [Mapping and Data Visualization with Python (Full Course Material)](https://courses.spatialthoughts.com/python-dataviz.html) \(Covers many packages\)
 - [Welcome to Pangeo at AOES — Pangeo-at-AOES 0.1.1 documentation](https://kpegion.github.io/Pangeo-at-AOES/index.html)
+- [Pythia Foundations — Pythia Foundations](https://foundations.projectpythia.org/landing-page.html)
 
 {{< details "Things to check out later:" >}}
-- [The easiest way to plot data from Pandas on a world map | by Udi Yosovzon | Towards Data Science](https://archive.ph/gtWxc) \(GeoPandas \+ Matplotlib\)
 - [Geographic Data with Basemap | Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html) \(Matplotlib \+ Basemap\)
 - [Mapping with Matplotlib, Pandas, Geopandas and Basemap in Python | by Ashwani Dhankhar | Towards Data Science](https://archive.is/gooRj) \(The main example uses Matplotlib. The author uses the `shapefile` package which is now `pyshp`? to read the map file, but `GeoPandas` has similar importer functions.\)
-- [Geographical Plots with Python - KDnuggets](https://www.kdnuggets.com/2020/09/geographical-plots-python.html) \(plotly \+ Cufflinks\)
-- [Using python and geoPandas to map public green spaces in Manchester | by Camila Varó | Medium](https://archive.ph/JMyS8) \(GeoPandas \+ Matplotlib\)
-- \(\*\) [How I Created Animated Choropleth Map and Running Bar Plot using Python | by Girish Dev Kumar Chaurasiya | Python in Plain English](https://archive.ph/oYGgf) \(GeoPandas \+ Matplotlib\) \(May need this later\)
+- [Using python and geoPandas to map public green spaces in Manchester | by Camila Varó | Medium](https://archive.is/JMyS8) \(GeoPandas \+ Matplotlib \+ contextily\)
+- [How I Created Animated Choropleth Map and Running Bar Plot using Python | by Girish Dev Kumar Chaurasiya | Python in Plain English](https://archive.is/oYGgf) \(GeoPandas \+ Matplotlib, Pillow for output as GIF, plotly\)
+- [Easy Steps To Plot Geographic Data on a Map — Python | by Ahmed Qassim | Towards Data Science](https://archive.is/THz8O) \(Matplotlib, and a mini OpenStreetMap tutorial\)
+{{< /details >}}
+
+{{< details "Things to not check out later:" >}}
 - [Python Folium: Create Web Maps From Your Data – Real Python](https://realpython.com/python-folium-web-maps-from-data/) \(Folium\)
-- [Easy Steps To Plot Geographic Data on a Map — Python | by Ahmed Qassim | Towards Data Science](https://archive.ph/THz8O) \(Matplotlib, and a mini OpenStreetMap tutorial\)
-- [Plotting Maps With Geopandas and Contextily | by Gauti Sigthorsson | Geek Culture | Medium](https://archive.ph/x2LsX) \(GeoPandas \+ Matplotlib \+ contextily\)
-- [Creating a basemap in python using contextily | Andrew Wheeler](https://andrewpwheeler.com/2020/06/25/creating-a-basemap-in-python-using-contextily/) \(GeoPandas \+ Matplotlib \+ contextily\)
-- [Cartography and Mapping in Python](https://uoftcoders.github.io/studyGroup/lessons/python/cartography/lesson/)
+- [Geographical Plots with Python - KDnuggets](https://www.kdnuggets.com/2020/09/geographical-plots-python.html) \(plotly \+ Cufflinks\)
 - [Geography with Cartopy](https://tutorial.xarray.dev/fundamentals/04.3_geographic_plotting.html) \(Xarray \+ Matplotlib \+ cartopy\)
 {{< /details >}}
 
@@ -60,9 +60,11 @@ I will be mainly using `matplotlib` and `seaborn` to plot with `cartopy`. If I g
 : My go-to Python plotting packages. See [Matplotlib/Seaborn](/programming/python/matplotlib-seaborn/).
 
 `geoplot`
-: Claims to be a geospatial version of `seaborn`.
+: Claims to be a geospatial version of `seaborn`. May try later.
 : [Gallery — geoplot 0.5.0 documentation](https://residentmario.github.io/geoplot/gallery/index.html)
 
+Others
+: I was told that `folium`, `plotly`, `bokeh`, `geoviews` and many other plotting packages could plot geospatial figures as well. But since I am already familiar with `matplotlib` and `seaborn`, I decided against trying other packages. I remember trying `bokeh` a few years ago, but did not stick with it for some reason.
 
 ### How to get dataset with latitude/longitude
 
@@ -95,11 +97,10 @@ Refs:
 
 Toy example with no projection:
 
-```python {hlLines="5"}
+```python {hl_lines="4"}
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 
 # define extra features
@@ -115,6 +116,7 @@ urban_areas = cfeature.NaturalEarthFeature(
 )
 
 # begin plotting
+plt.clf()
 fig,ax = plt.subplots()
 sns.scatterplot(ax=ax, data=df, x="longitude", y="latitude", hue="Rating")
 
@@ -131,8 +133,9 @@ ax.add_feature(cfeature.BORDERS, edgecolor="white")
 # ax.add_feature(urban_areas, facecolor="silver, alpha=0.5)
 
 ax.gridlines(draw_labels=True, alpha=0.3)
-ax.legend(frameon=True)
 
+# matplotlib settings
+ax.legend(frameon=True)
 plt.show()
 ```
 
@@ -147,56 +150,63 @@ Docs:
 
 Toy example with no projection: \(remember `Stamen` is no longer available\)
 
-```python {hlLines="5"}
+```python {hl_lines="4"}
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import cartopy.crs as ccrs
 import cartopy.io.img_tiles as cimgt
 
 # begin plotting
+plt.clf()
 fig,ax = plt.subplots()
 sns.scatterplot(ax=ax, data=df, x="longitude", y="latitude", hue="Rating")
 
+# cartopy settings
 ax.set_global()
 ax.add_image(cimgt.OSM(), 5) # the larger zoom level, the smaller the label fonts
 ax.gridlines(draw_labels=True, alpha=0.3)
-ax.legend(frameon=True)
 
+# matplotlib settings
+ax.legend(frameon=True)
 plt.show()
 ```
 {{< /details >}}
-
 
 #### Adding map with `contextily`
 
 The maps are beautiful out of the box, but handling projection becomes a problem if you are not using `geopandas`.
 
-Toy example with `cartopy` and `seaborn` with no projection, which translates to equirectangular projection on plot axes, aka `PlateCarree`:
-
 Ref: [Creating a Map with XYZ Tiles using Geopandas, Matplotlib, Contextily, and XYZServices | Tutorials/Post - Remote Sensing, GIS, Earth System, Geo-AI/ML](https://thegeoint.com/article/2023/12/7/14.html)
 
-```python
+Toy example with `cartopy` and `seaborn` with no projection, which translates to equirectangular projection on plot axes, aka `PlateCarree`:
+
+```python {linenos="table", hl_lines="2 16"}
 import pandas as pd
 import contextily as ctx
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# begin plotting
+plt.clf()
 fig,ax = plt.subplots()
 sns.scatterplot(ax=ax, data=df, x="longitude", y="latitude", hue="Rating")
-ax.legend()
+
+# add map to background
 ctx.add_basemap(
     ax,
     source=ctx.providers.CartoDB.Positron,
     zoom="auto",
     crs="EPSG:4326",
 )
+
+# matplotlib settings
+ax.legend()
 ax.set_xlabel('Longitude')
 ax.set_ylabel('Latitude')
 plt.show()
 ```
 
-A more involved way of using the `add_basemap` function that I have yet to try. Source: [Adding a background map to plots — GeoPandas 0+untagged.50.g5558c35.dirty documentation](https://geopandas.org/en/stable/gallery/plotting_basemap_background.html#Adding-labels-as-an-overlay)
+A more involved way of using the `add_basemap` function that I have yet to try: [Adding a background map to plots — GeoPandas 0+untagged.50.g5558c35.dirty documentation](https://geopandas.org/en/stable/gallery/plotting_basemap_background.html#Adding-labels-as-an-overlay)
 
 <!-- 
 ```python
@@ -206,7 +216,7 @@ cx.add_basemap(ax, source=cx.providers.CartoDB.PositronOnlyLabels, zoom=10)
 ```
  -->
 
-## Handling map projection with `cartopy` and `seaborn`
+## Arbitrary map projection with `cartopy` and `seaborn`
 
 Most examples online read as if only FacetGrid could use custom projections, which is not true. I think any plot could use any projection with a proper amount of `matplotlib` setup.
 
@@ -215,15 +225,70 @@ Refs:
 - [Matplotlib interface (cartopy.mpl) — cartopy 0.22.0 documentation](https://scitools.org.uk/cartopy/docs/latest/reference/matplotlib.html) \(most important info: `class cartopy.mpl.geoaxes.GeoAxes` is a subclass of `matplotlib.axes.Axes`\)
 - [Faceted maps with Seaborn and Cartopy.ipynb](https://gist.github.com/shoyer/16db9cd187886a3effd8)
 
-### Get CRS
-
-Copy the `PROJ.4` text from
-[WGS 84 - WGS84 - World Geodetic System 1984, used in GPS - EPSG:4326](https://epsg.io/4326)
-
 ### `projection` vs `transform`
 
-[Understanding the transform and projection keywords — cartopy 0.22.0 documentation](https://scitools.org.uk/cartopy/docs/latest/tutorials/understanding_transform.html)
+Refs:
 
+- [Understanding the transform and projection keywords — cartopy 0.22.0 documentation](https://stackoverflow.com/a/57086213)
+- [Cartography and Mapping in Python](https://uoftcoders.github.io/studyGroup/lessons/python/cartography/lesson/)
+- [Cartopy projection list — cartopy 0.22.0 documentation](https://scitools.org.uk/cartopy/docs/latest/reference/projections.html)
+- [cartopy.crs.epsg — cartopy 0.22.0 documentation](https://scitools.org.uk/cartopy/docs/latest/reference/generated/cartopy.crs.epsg.html)
+- [python - Use ccrs.epsg() to plot zipcode perimeter shapefile with EPSG 4326 coordinate system - Stack Overflow](https://stackoverflow.com/questions/57030906/use-ccrs-epsg-to-plot-zipcode-perimeter-shapefile-with-epsg-4326-coordinate-sy)
+
+### Example with `cartopy` features
+
+
+### Example with `contextily` map
+
+> Refs for using `geopandas` CRS methods: \(haven't tried\)
+> 
+> - [Plotting Maps With Geopandas and Contextily | by Gauti Sigthorsson | Geek Culture | Medium](https://archive.is/x2LsX)
+> - [Creating a basemap in python using contextily | Andrew Wheeler](https://andrewpwheeler.com/2020/06/25/creating-a-basemap-in-python-using-contextily/)
+{.book-hint .info}
+
+Sometimes you need to manually get the CRS \(short for Coordinate Reference System\) data. It is weird to me that the projected axes from `cartopy` do not talk with `contextily`, but I can do nothing about it.
+
+On [EPSG.io](https://epsg.io/), find the CRS that you use for `projection`. For example, [ETRS89-extended / LAEA Europe - EPSG:3035](https://epsg.io/3035). Find and copy the `PROJ.4` text from the Export section.
+
+This is not the projection I used, but I imagine it would work:
+
+```python {hl_lines="5 8-10 15 20 28"}
+import pandas as pd
+import contextily as ctx
+import matplotlib.pyplot as plt
+import seaborn as sns
+import cartopy.crs as ccrs
+
+# define projection systems
+projection = ccrs.epsg(3035)        # use this when creating axes
+transform = ccrs.PlateCarree()      # use this when plotting
+crs = ccrs.CRS("+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs")  # use this with contextily
+
+# begin plotting
+plt.clf()
+fig = plt.figure(figsize=(10, 10))
+ax = fig.add_subplot(1, 1, 1, projection=projection)
+sns.scatterplot(
+    ax=ax,
+    data=df,
+    x='longitude', y='latitude', hue="Rating",
+    transform=transform,
+)
+
+# add map to background
+ctx.add_basemap(
+    ax,
+    source=ctx.providers.CartoDB.Positron,
+    zoom="auto",
+    crs=crs,
+)
+
+# matplotlib settings
+ax.legend()
+ax.set_xlabel('Longitude')
+ax.set_ylabel('Latitude')
+plt.show()
+```
 
 ## Entertainment
 
