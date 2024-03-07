@@ -26,71 +26,6 @@ title: "Python"
 - [Data Science for Energy System Modelling](https://fneum.github.io/data-science-for-esm/intro.html)
 
 
-## Development
-
-### Benchmarking
-
-Ref: [performance - How to measure elapsed time in Python? - Stack Overflow](https://stackoverflow.com/questions/7370801/how-to-measure-elapsed-time-in-python)
-
-```python
-import time
-
-# use round() if only the first digit is necessary
-start = time.time()
-
-# (some heavy load operations)
-
-end = time.time()
-elapsed = end - start
-print(elapsed)
-```
-
-### Help
-
-Like R's `?` function.
-
-```python
-help(np.log)
-
-# If it is a method, need something that the method can run from:
-help(df.reset_index)
-```
-
-### List attributes
-
-List all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
-
-```python
-for attr in dir(object_a):
-    if not attr.startswith('_'):
-        print(attr)
-```
-
-List all methods of an object: \([credit](https://stackoverflow.com/a/34452/10668706)\)
-
-```python
-for method in dir(object_a):
-    if callable(getattr(object_a, method)) and (not method.startswith('_')):
-        print(method)
-```
-
-### Try except
-
-Refs:
-
-- [8. Errors and Exceptions — Python 3.12.2 documentation](https://docs.python.org/3/tutorial/errors.html)
-- [exception - What is the intended use of the optional "else" clause of the "try" statement in Python? - Stack Overflow](https://stackoverflow.com/questions/855759/)
-
-```python
-try:
-    assert(len(list) == 5)
-except AssertionError:
-    print("Error: List length is wrong.")
-except Exception as e:
-    print(e)
-```
-
-
 ## File handling
 
 ### CSV
@@ -175,6 +110,22 @@ Get head of a dictionary: \([credit](https://stackoverflow.com/a/28704691)\)
 from itertools import islice
 
 dict(islice(my_dict.items(), 0, 5))
+```
+
+#### Loop
+
+```python
+# key only
+for key in my_dict:
+    print(key)
+
+# value only
+for value in my_dict.values():
+    print(value)
+
+# key-value
+for key, value in my_dict.items():
+  print(key, value)
 ```
 
 #### Search
@@ -360,11 +311,10 @@ for period in itertools.product(year, month):
 > This is [new feature in Python 3.10](https://docs.python.org/3/whatsnew/3.10.html).
 {.book-hint .info}
 
-Regex match I use to import some badly headed datasets: \([ref](https://stackoverflow.com/a/75089993)\)
+Regex match I use to import some badly headered datasets: \([ref](https://stackoverflow.com/a/75089993)\)
 
 ```python
 import re
-
 
 class RegexEqual(str):
     def __eq__(self, pattern):
@@ -387,3 +337,46 @@ df = pd.read_excel(
     index_col="ID",
 )
 ```
+
+
+## Useful tricks
+
+### Docstring/Help
+
+Like R's `?` function.
+
+```python
+help(np.log)
+
+# If it is a method, need something that the method can run from:
+help(df.reset_index)
+```
+
+### `functools.partial`
+
+Ref: [python - How does functools partial do what it does? - Stack Overflow](https://stackoverflow.com/a/15331841/10668706)
+
+### `lambda` functions
+
+
+### List attributes
+
+List all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
+
+```python
+for attr in dir(object_a):
+    if not attr.startswith('_'):
+        print(attr)
+```
+
+List all methods of an object: \([credit](https://stackoverflow.com/a/34452/10668706)\)
+
+```python
+for method in dir(object_a):
+    if callable(getattr(object_a, method)) and (not method.startswith('_')):
+        print(method)
+```
+
+### Ternary conditional operator
+
+Ref: [Does Python have a ternary conditional operator? - Stack Overflow](https://stackoverflow.com/a/394814)

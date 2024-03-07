@@ -52,6 +52,35 @@ print(json.dumps(dict_all_files, sort_keys=True, indent=4))
 
 ## Manipulate files
 
+### Check file or folder exists
+
+Folder: \([ref](https://stackoverflow.com/a/59050548)\)
+
+```python
+import os
+
+folder = "some/folder"
+
+if os.path.isdir(folder): # folder exists
+    if not os.listdir(folder): # folder is empty
+        print(folder, "is empty")
+    else:
+        raise Exception(folder + " is not empty")
+else: # create folder if doesn't exist
+    os.makedirs(folder)
+    print("Creating", folder)
+```
+
+File:
+
+```python
+import os
+
+file = "some/file.ext"
+
+print(os.path.isfile(file))
+```
+
 ### Change file name; move file
 
 Refs:

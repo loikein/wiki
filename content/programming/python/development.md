@@ -1,10 +1,34 @@
 ---
 weight: 301
-title: "Writing functions"
+title: "Development"
 ---
 
+## Error handling
 
-## `*args` vs `**kwargs`
+### Try except
+
+Refs:
+
+- [8. Errors and Exceptions — Python 3.12.2 documentation](https://docs.python.org/3/tutorial/errors.html)
+- [exception - What is the intended use of the optional "else" clause of the "try" statement in Python? - Stack Overflow](https://stackoverflow.com/questions/855759/)
+
+```python
+try:
+    assert(len(list) == 5)
+except AssertionError:
+    print("Error: List length is wrong.")
+except Exception as e:
+    print(e)
+```
+
+### `assert`
+
+Ref: [python - What's the difference between raise, try, and assert? - Stack Overflow](https://stackoverflow.com/a/40183030)
+
+
+## Function input
+
+### `*args` vs `**kwargs`
 
 Refs:
 
@@ -31,23 +55,39 @@ sum_all(2, 3, 4, 5, 6)                      # 20
 ```python
 def print_all(**kwargs):
     """Print key-value pairs."""
-    for k, v in kwargs.items():
-        print(k+" is "+v)
+    for key, value in kwargs.items():
+        print(key+" is "+value)
 
 print_all(today="sunday", tomorrow="monday")
 # today is sunday
 # tomorrow is monday
 ```
 
+## Function return
 
-## Return nothing
+### Return nothing
 
 Ref: [python - return, return None, and no return at all? - Stack Overflow](https://stackoverflow.com/a/15300671)
 
 
-## Wrappers
+## Useful tricks
 
-`functools.partial`: [python - How does functools partial do what it does? - Stack Overflow](https://stackoverflow.com/a/15331841/10668706)
+### Benchmarking
+
+Ref: [performance - How to measure elapsed time in Python? - Stack Overflow](https://stackoverflow.com/questions/7370801/how-to-measure-elapsed-time-in-python)
+
+```python
+import time
+
+# use round() if only the first digit is necessary
+start = time.time()
+
+# (some heavy load operations)
+
+end = time.time()
+elapsed = end - start
+print(elapsed)
+```
 
 
 ## Dark magic
