@@ -335,6 +335,12 @@ df = df.reset_index()
 df = df.drop(["index"], axis=1)
 ```
 
+### Convert series to frame with title
+
+```python
+sr.name = "Column"
+df = sr.to_frame()
+```
 
 ## Observe things
 
@@ -714,7 +720,7 @@ len(df_grouped.columns)
 Done!
 
 
-## Column-level operations
+## Column operations
 
 ### Convert number to range categories
 
@@ -835,6 +841,21 @@ for col in ["Address Line 2", "Address Line 3", "Address Line 4", "Address Line 
     data["Address"] = data["Address"].astype(str) + " " + data[col].fillna("").astype(str)
 ```
 
+### Divide columns by columns
+
+```python
+# Divide one column by another column
+# https://stackoverflow.com/a/34540647
+df["percent"] = df["numerator"].div(df["denominator"], axis=0)
+
+# Divide all elements in a df by all elements in another df
+# To avoid errors caused by NA
+df_perc = df_numerator.truediv(df_denominator)
+
+# Take the sum of every row first
+df_perc = df_numerator.sum(axis="columns").truediv(df_denominator.sum(axis="columns"))
+```
+
 ### Fill NA with certain values
 
 Ref: [python - Pandas dataframe fillna() only some columns in place - Stack Overflow](https://stackoverflow.com/a/38134049/10668706)
@@ -888,9 +909,23 @@ df = df[cols]
 ```
 
 
-## Index-level operations
+## Index operations
 
-Unset indices:
+### Set index
+
+From no index, or discard all old index \(warning: their values will be lost\).
+
+```python
+df = df.set_index(["ID", ...])
+```
+
+Add extra index columns besides existing index: \([ref](https://stackoverflow.com/a/37939246)\)
+
+```python
+df = df.set_index([df.index, "Status", "Level", ...])
+```
+
+### Unset index \(return to data columns\)
 
 ```python
 # return all indices back to normal columns
@@ -900,14 +935,16 @@ df = df.reset_index()
 df = df.reset_index(level=["Status", "Level", ...])
 ```
 
-Set new indices:
+### Drop redundant levels \(index or column\)
 
 ```python
-df = df.set_index(["ID", ...])
+df = df.droplevel("Unused", axis="index")
+
+df = df.droplevel("Unused", axis="columns")
 ```
 
 
-## DataFrame-level operations
+## DataFrame operations
 
 ### Combine two DataFrames
 
@@ -1137,7 +1174,7 @@ Docs:
 {.book-hint .danger}
 
 ```python
-for ind, row in qof_perc.iterrows():
+for ind, row in df.iterrows():
     print("\033[1m" + "ind:" + "\033[0m" + "\n")
     print(ind)              # A0001
     
@@ -1242,7 +1279,7 @@ df["rating"].replace(replace, inplace=True)
 
 ### Sort things
 
-Rows by values in columns:
+Rows by values in any combination of columns or indices:
 
 ```python
 df = df.sort_values(["ID","level"])

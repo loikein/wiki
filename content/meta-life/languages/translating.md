@@ -22,6 +22,9 @@ weight: 90
 
 - [漢語多功能字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/)（支持英汉查询）
 - [维基百科:汉字文化圈语言专有名词中译规则 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/Wikipedia:%E6%B1%89%E5%AD%97%E6%96%87%E5%8C%96%E5%9C%88%E8%AF%AD%E8%A8%80%E4%B8%93%E6%9C%89%E5%90%8D%E8%AF%8D%E4%B8%AD%E8%AF%91%E8%A7%84%E5%88%99)（[附：工具和资料](https://zh.wikipedia.org/zh-cn/Wikipedia:%E6%B1%89%E5%AD%97%E6%96%87%E5%8C%96%E5%9C%88%E8%AF%AD%E8%A8%80%E4%B8%93%E6%9C%89%E5%90%8D%E8%AF%8D%E4%B8%AD%E8%AF%91%E8%A7%84%E5%88%99#%E9%99%84%EF%BC%9A%E5%B7%A5%E5%85%B7%E5%92%8C%E8%B5%84%E6%96%99)一节记有各种韩语／越南语／日语／汉语在线字典）
+- [國際電腦漢字及異體字知識庫](https://chardb.iis.sinica.edu.tw/)
+
+<!-- [中文字典 Chinese Dictionaries - E-Dictionaries, Encyclopedias, & More - Research Guides at Hong Kong Baptist University](https://hkbu.libguides.com/c.php?g=928230&p=6706307) -->
 
 
 ## 参考

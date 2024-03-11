@@ -279,6 +279,42 @@ print(json.dumps(json_data, indent=4))
 
 ## Statements
 
+### `break`, `pass`, `continue`
+
+Ref: [How To Use Break, Continue, and Pass Statements when Working with Loops in Python 3 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3)
+
+`break`: stop the whole loop.
+
+```python
+for i in list(range(1, 11)):
+    print(i)
+    break
+
+# Output: 1
+```
+
+`continue`: skip everything else in the current iteration, and go to the next iteration.
+
+```python
+for file in files_list:
+    # we only want to download the files
+    if os.path.isfile(file): # file already exists
+        continue
+    # download
+```
+
+`pass`: skip the current `if` block, do everything else that is in the current iteration.
+
+```python
+for file in files_list:
+    # we want to download the file and further process it
+    if os.path.isfile(file): # file already exists
+        pass
+    else:
+        # download
+    # other things to do with the file
+```
+
 ### Loop
 
 Parallel iteration:

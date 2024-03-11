@@ -25,6 +25,10 @@ except Exception as e:
 
 Ref: [python - What's the difference between raise, try, and assert? - Stack Overflow](https://stackoverflow.com/a/40183030)
 
+```python
+assert(isinstance("hello", str))
+```
+
 
 ## Function input
 
