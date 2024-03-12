@@ -125,7 +125,14 @@ for value in my_dict.values():
 
 # key-value
 for key, value in my_dict.items():
-  print(key, value)
+    print(key, value)
+```
+
+Loop in reverse order: \([ref](https://stackoverflow.com/a/37382019/10668706)\)
+
+```python
+for key, value in sorted(my_dict.items(), key=lambda x: x[0], reverse=True):
+    print(key, value)
 ```
 
 #### Search

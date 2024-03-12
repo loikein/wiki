@@ -56,7 +56,7 @@ df = pd.read_excel(
     header=[0,1],                       # if there are multiple (combined) header rows
     nrows=100,                          # only read first x rows
     usecols=["ID", "Rating", "Date"],   # only import certain columns
-    index_col="Location ID",            # set index as soon as import
+    index_col="ID",            # set index as soon as import
 )
 ```
 
@@ -818,13 +818,12 @@ df["Rating"] = df["Rating"].astype(rate_type)
 With inline functions:
 
 ```python
-# datetime to string
-df["Date"] = [ cell.strftime("%Y") for cell in df["Date"] ]
+# datetime
+df["Date"] = [np.datetime64(cell) for cell in df["Date"]]
+df["Date"] = [cell.strftime("%Y") for cell in df["Date"]]
 
-
-df["Location ODS Code"] = [str(val) for val in df["Location ODS Code"]]
-df["Service / Population Group"] = [str(val) for val in df["Service / Population Group"]]
-df["Domain"] = [str(val) for val in df["Domain"]]
+# string
+df["ID"] = [str(val) for val in df["ID"]]
 ```
 
 ### Combine multiple columns
@@ -1031,8 +1030,8 @@ Credit: [python - Remove pandas rows with duplicate indices - Stack Overflow](ht
 df.index.is_unique
 # False
 
-# Look at content of all duplicated index
-df[df.index.duplicated()]
+# Look at rows of all duplicated index
+df[df.index.duplicated(keep=False)]
 
 # Drop all rows with duplicated index but the first instance
 df = df[~df.index.duplicated(keep='first')]
