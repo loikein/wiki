@@ -410,6 +410,42 @@ df.groupby(level=["ID","Date"]).size()
 # Length: 60, dtype: int64
 ```
 
+### Count number of values in columns
+
+```python
+df["Ratings"].value_counts()
+
+# If all columns are similar
+df.apply(lambda col: col.value_counts(), axis="index")
+
+# Count changes between two columns
+df.query[["2014-2015", "2015-2016"]].value_counts()
+df.query('`2014-2015`!=`2015-2016`')[["2014-2015", "2015-2016"]].value_counts()
+```
+
+### Count/find missing values
+
+Ref: [python - How to check if any value is NaN in a Pandas DataFrame - Stack Overflow](https://stackoverflow.com/a/29530601/10668706)
+
+```python
+# Check the whole df
+df.isnull().values.any()
+
+# Check each column
+df.isnull().sum(axis="index")
+
+# Check each row
+df.isnull().sum(axis="columns")
+
+# For a column, list rows with missing value
+# https://stackoverflow.com/a/47377251/10668706
+df[df["Bad column"].isnull()]
+
+# For a row, list columns with missing value
+# https://stackoverflow.com/a/57141046/10668706
+df.loc["Bad_ID", df.isnull().any()]
+```
+
 ### Display full width of a DataFrame
 
 Ref:
@@ -483,15 +519,6 @@ df[df.duplicated(["ID"], keep=False)].sort_values("ID")
 df[df.index.duplicated(keep='first')]
 ```
 
-### List rows with NaN in certain columns
-
-Ref: [python - How to check if any value is NaN in a Pandas DataFrame - Stack Overflow](https://stackoverflow.com/a/47377251/10668706)
-
-```python
-df[df["Bad column"].isnull()]
-```
-
-
 ## Select columns \(filter\)
 
 ### By name
@@ -536,9 +563,9 @@ Doc: [pandas.DataFrame.loc — pandas 2.1.0 documentation](https://pandas.pydata
 df.loc["A0001"]
 ```
 
-### By column value
+### By column value \(boolean indexing\)
 
-With boolean indexing:
+Doc: [Indexing and selecting data # Boolean indexing — pandas 2.2.1 documentation](https://pandas.pydata.org/docs/user_guide/indexing.html#boolean-indexing)
 
 ```python
 # only keep rows with certain value for a col
@@ -547,16 +574,28 @@ df_subset = df[df["Status Code"]=="A"]
 # only keep rows without certain value for a col
 df_subset = df[df["Status Code"]!="B"]
 
-# only keep rows with a certain starting
+# only keep rows with a certain starting…
 # https://stackoverflow.com/a/17958424/10668706
 df_subset = df[df["Name"].str.startswith("One d", na=False)]
+# …or without
+df_subset = df[~df["Name"].str.startswith("One d", na=False)]
 
 # especially, for nan values:
 df_subset = df[df["Status Code"].isna()]
 df_subset = df[df["Status Code"].notna()]
+
+# combining multiple conditions
+mask_1 = df["Status Code"].isna()
+mask_2 = ~df["Name"].str.startswith("One d", na=False)
+df_subset = df[mask_1 * mask_2]
 ```
 
-With query:
+### By column value \(query\)
+
+Docs:
+
+- [pandas.DataFrame.query — pandas 2.2.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html)
+- [Indexing and selecting data # The `query()` Method — pandas 2.2.1 documentation](https://pandas.pydata.org/docs/user_guide/indexing.html#the-query-method)
 
 > When the value of some cells are lists, pandas will raise `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`. In that case, try this method instead:
 > 
@@ -585,7 +624,7 @@ Also see: \(not tested\)
 - [python - Pandas filter data frame rows by function - Stack Overflow](https://stackoverflow.com/a/75839871)
 - [python - Pandas filtering not working - Stack Overflow](https://stackoverflow.com/a/47420094)
 
-### By column value from another DataFrame
+### By value from another DataFrame
 
 Ref: [python - pandas - filter dataframe by another dataframe by row elements - Stack Overflow](https://stackoverflow.com/a/33282617)
 
@@ -633,7 +672,7 @@ df_subset = df[df["Rating"].apply(lambda x: isinstance(x, float))]
 df_subset = df[df["Rating"].apply(lambda x: not isinstance(x, float))]
 ```
 
-### Select \(mask\) triangle of DataFrame
+### Select triangle of DataFrame
 
 [python - Melt the Upper Triangular Matrix of a Pandas Dataframe - Stack Overflow](https://stackoverflow.com/a/40391559/10668706)
 
@@ -1188,6 +1227,42 @@ for ind, row in df.iterrows():
         print(cell[1])      # cell value
 
     break
+```
+
+### Loop over columns
+
+**Method 1**: `enumerate`
+
+Ref: [python - How to iterate over columns of a pandas dataframe - Stack Overflow](https://stackoverflow.com/a/49986922/10668706)
+
+```python
+for i, column in enumerate(df):
+    print(i, column)         # 0-index
+    print(column)            # column name
+    print(df[column])        # values of the whole column
+# 0, col_1; 1, col_2; ...
+
+# completely the same:
+# for i, column in enumerate(df.columns)
+```
+
+**Method 2**: `items`
+
+Doc: [pandas.DataFrame.items — pandas 2.2.1 documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.items.html)
+
+```python
+for label, content in df.items():
+    print(label)             # column name
+    print(content)           # values of the whole column
+    break
+```
+
+**Method 3**: `apply`
+
+```python
+df.apply(lambda x: print(x.name), axis="index")
+
+df.apply(func, axis="index")
 ```
 
 ### Loop over list of DataFrames

@@ -13,6 +13,8 @@ title: "Python"
     + Repository: [yasoob/intermediatePython](https://github.com/yasoob/intermediatePython)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
     + Repository: [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+- [Python for Data Analysis, 3E](https://wesmckinney.com/book/) \(by the author of the pandas package\)
+    - Code: [wesm/pydata-book](https://github.com/wesm/pydata-book/tree/3rd-edition)
 - [Python - CopyProgramming](https://copyprogramming.com/t/python)
 - [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html)
     + Repository: [aeturrell/coding-for-economists](https://github.com/aeturrell/coding-for-economists)
@@ -348,6 +350,8 @@ month = list(range(1, 13))
 for period in itertools.product(year, month):
     print(period)
 ```
+
+Get previous and next iteration value: [python - Loop that also accesses previous and next values - Stack Overflow](https://stackoverflow.com/a/1012089/10668706)
 
 ### Match case \(Switch\)
 
