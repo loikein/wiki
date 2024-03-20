@@ -351,7 +351,29 @@ for period in itertools.product(year, month):
     print(period)
 ```
 
-Get previous and next iteration value: [python - Loop that also accesses previous and next values - Stack Overflow](https://stackoverflow.com/a/1012089/10668706)
+Get previous and next iteration value: \([Ref](https://stackoverflow.com/a/1012089/10668706), adopted for Python 3\)
+
+```python
+from itertools import tee, islice, chain
+
+def p_i_n(some_iterable):
+    prevs, items, nexts = tee(some_iterable, 3)
+    prevs = chain([None], prevs)
+    nexts = chain(islice(nexts, 1, None), [None])
+    return zip(prevs, items, nexts)
+
+for p,i,n in p_i_n(my_list):
+    print(p)
+    print(i)
+    print(n)
+    break
+
+for p,i,n in p_i_n(my_dict.items()):
+    key, value = i
+    print(key)
+    print(value)
+    break
+```
 
 ### Match case \(Switch\)
 
@@ -406,9 +428,9 @@ Ref: [python - How does functools partial do what it does? - Stack Overflow](htt
 ### `lambda` functions
 
 
-### List attributes
+### View all attributes/methods
 
-List all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
+Print all attributes \(\& methods\) of an object: \([credit](https://stackoverflow.com/a/48522820/10668706)\)
 
 ```python
 for attr in dir(object_a):
@@ -416,7 +438,7 @@ for attr in dir(object_a):
         print(attr)
 ```
 
-List all methods of an object: \([credit](https://stackoverflow.com/a/34452/10668706)\)
+Print all methods of an object: \([credit](https://stackoverflow.com/a/34452/10668706)\)
 
 ```python
 for method in dir(object_a):

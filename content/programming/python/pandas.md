@@ -342,6 +342,14 @@ sr.name = "Column"
 df = sr.to_frame()
 ```
 
+### Type conversion upon merge or join
+
+Ref: [python - How to prevent Pandas from converting my integers to floats when I merge two dataFrames? - Stack Overflow](https://stackoverflow.com/a/67004218/10668706)
+
+```python
+df = df.astype('Int64')
+```
+
 ## Observe things
 
 ### Calculate bivariate correlation coefficients and p-values matrix
@@ -421,6 +429,113 @@ df.apply(lambda col: col.value_counts(), axis="index")
 # Count changes between two columns
 df.query[["2014-2015", "2015-2016"]].value_counts()
 df.query('`2014-2015`!=`2015-2016`')[["2014-2015", "2015-2016"]].value_counts()
+```
+
+#### Elaborated use case: track changes between every two columns
+
+Refs:
+
+- [python - Pandas dataframe total row - Stack Overflow](https://stackoverflow.com/a/56720538)
+- [python - Creating an empty Pandas DataFrame, and then filling it - Stack Overflow](https://stackoverflow.com/a/56746204/10668706)
+- [python - Using .loc with a MultiIndex in pandas - Stack Overflow](https://stackoverflow.com/a/24436783)
+- [MultiIndex / advanced indexing — pandas 2.2.1 documentation](https://pandas.pydata.org/docs/user_guide/advanced.html)
+
+Also see: [Python #Loop](/programming/python/#loop-1)
+
+Track changes of any \(string/categorical\) value across every two columns
+
+```python
+import pandas as pd
+from itertools import tee, islice, chain
+
+def p_i_n(some_iterable):
+    prevs, items, nexts = tee(some_iterable, 3)
+    prevs = chain([None], prevs)
+    nexts = chain(islice(nexts, 1, None), [None])
+    return zip(prevs, items, nexts)
+
+def count_across(df):
+    count_across_list = []
+    cols_labels = ["Before", "After"]
+
+    for p,i,n in p_i_n(df.columns):
+        if None is p:
+            print("Start of list")
+        print("Processing", i)
+        if None is n:
+            continue
+        count = df[[i, n]].value_counts()
+        count.index = count.index.set_names(cols_labels)
+        count = count.to_frame().sort_values(cols_labels)
+        
+        col_name = i + "-" + n.split("-")[1]
+        count = count.rename(columns={0: col_name})
+        
+        count_across_list.append(count)
+
+    count_across_df = count_across_list[0].join(
+        count_across_list[1:],
+        how="outer",
+    ).astype('Int64').sort_values(cols_labels).reset_index()
+
+    mask_changed = (count_across_df["Before"] != count_across_df["After"])
+    count_across_df_changed = count_across_df[mask_changed].set_index(cols_labels)
+    count_across_df_changed.loc[("Total","Changed"),:] = count_across_df_changed.sum(axis="index")
+    
+    count_across_df_unchanged = count_across_df[~mask_changed].set_index(cols_labels)
+    count_across_df_unchanged.loc[("Total","Unchanged"),:] = count_across_df_unchanged.sum(axis="index")
+    
+    count_across_df = count_across_df.set_index(cols_labels)
+    count_across_df.loc[("Total","Total"),:] = count_across_df.sum(axis="index")
+    count_across_df.loc[("Total","Changed"),:] = count_across_df_changed.loc[("Total","Changed"),:]
+    count_across_df.loc[("Total","Unchanged"),:] = count_across_df_unchanged.loc[("Total","Unchanged"),:]
+
+    return count_across_df
+```
+
+Track changes of any \(ordinal categorical/numerical\) value across every two columns:
+
+```python
+import pandas as pd
+from itertools import tee, islice, chain
+
+def p_i_n(some_iterable):
+    prevs, items, nexts = tee(some_iterable, 3)
+    prevs = chain([None], prevs)
+    nexts = chain(islice(nexts, 1, None), [None])
+    return zip(prevs, items, nexts)
+
+def value_compare_across(df):
+    count_better_list = []
+    count_worse_list = []
+    count_same_list = []
+
+    for p,i,n in p_i_n(df.columns):
+        if None is p:
+            print("Start of list")
+        print("Processing", i)
+        if None is n:
+            continue
+    
+        better = sum(df[n] > df[i])
+        count_better_list.append(better)
+        
+        worse = sum(df[n] < df[i])
+        count_worse_list.append(worse)
+        
+        same = sum(df[n] == df[i])
+        count_same_list.append(same)
+
+    count_list = [count_better_list, count_worse_list, count_same_list]
+    count_df = pd.DataFrame(
+        count_list,
+        columns = df.columns[1:],
+        index=["Increased", "Decreased", "Same"]
+    )
+    count_df.loc["Changed"] = count_df.loc[["Increased","Decreased"]].sum(axis="index")
+    count_df.loc["Total"] = count_df.loc[["Changed","Same"]].sum(axis="index")
+
+    return count_df
 ```
 
 ### Count/find missing values
