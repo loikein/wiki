@@ -7,10 +7,12 @@ title: "Geographical Plots"
 Courses:
 
 - [Welcome to Introduction to Python GIS -course 2018! — Intro to Python GIS CSC documentation](https://automating-gis-processes.github.io/CSC/index.html)
-    - [Automating-GIS-processes/CSC](https://github.com/Automating-GIS-processes/CSC/tree/master)
+    - Repo: [Automating-GIS-processes/CSC](https://github.com/Automating-GIS-processes/CSC/tree/master)
 - [Mapping and Data Visualization with Python (Full Course Material)](https://courses.spatialthoughts.com/python-dataviz.html) \(Covers many packages\)
 - [Welcome to Pangeo at AOES — Pangeo-at-AOES 0.1.1 documentation](https://kpegion.github.io/Pangeo-at-AOES/index.html)
 - [Pythia Foundations — Pythia Foundations](https://foundations.projectpythia.org/landing-page.html)
+- [Home — Geographic Data Science with Python](https://geographicdata.science/book/intro.html)
+    - Repo: [gdsbook/book](https://github.com/gdsbook/book/tree/master)
 
 {{< details "Things to check out later:" >}}
 - [Geographic Data with Basemap | Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html) \(Matplotlib \+ Basemap\)
@@ -18,6 +20,8 @@ Courses:
 - [Using python and geoPandas to map public green spaces in Manchester | by Camila Varó | Medium](https://archive.is/JMyS8) \(GeoPandas \+ Matplotlib \+ contextily\)
 - [How I Created Animated Choropleth Map and Running Bar Plot using Python | by Girish Dev Kumar Chaurasiya | Python in Plain English](https://archive.is/oYGgf) \(GeoPandas \+ Matplotlib, Pillow for output as GIF, plotly\)
 - [Easy Steps To Plot Geographic Data on a Map — Python | by Ahmed Qassim | Towards Data Science](https://archive.is/THz8O) \(Matplotlib, and a mini OpenStreetMap tutorial\)
+- [PacktPublishing/Applied-Geospatial-Data-Science-with-Python: Applied Geospatial Data Science with Python, published by Packt](https://github.com/PacktPublishing/Applied-Geospatial-Data-Science-with-Python)
+- [PacktPublishing/Learning-Geospatial-Analysis-with-Python-Fourth-Edition: Learning Geospatial Analysis with Python - Fourth Edition, published by Packt](https://github.com/PacktPublishing/Learning-Geospatial-Analysis-with-Python-Fourth-Edition)
 {{< /details >}}
 
 {{< details "Things to not check out later:" >}}
@@ -237,6 +241,7 @@ Refs:
 
 ### Example with `cartopy` features
 
+TBA
 
 <!-- 
 
@@ -293,6 +298,49 @@ plt.show()
 ```
 
  -->
+
+
+## Calculations
+
+### Distance
+
+Example from: [python - Getting distance between two points based on latitude/longitude - Stack Overflow](https://stackoverflow.com/questions/19412462/getting-distance-between-two-points-based-on-latitude-longitude), [my answer](https://stackoverflow.com/a/78207442/10668706)
+
+```python
+import cartopy.geodesic as cgeo
+
+coords_1 = (52.2296756, 21.0122287)
+coords_2 = (52.406374, 16.9251681)
+coords_3 = (52.406374, 10)
+
+# Note: cartopy only accepts lon-lat pairs!!
+globe = cgeo.Geodesic()
+
+inv = globe.inverse(coords_1[::-1], coords_2[::-1])
+print(inv.T[0]/1000)
+# [279.3529016]
+
+inv_2 = globe.inverse(coords_1[::-1], [coords_2[::-1], coords_3[::-1]])
+print(inv_2.T[0]/1000)
+# [279.3529016  750.45799898]
+```
+
+Wrapper function for easier usage with DataFrame:
+
+```python
+import cartopy.geodesic as cgeo
+
+def distance(longitudes, latitudes):
+    assert(1 < len(longitudes))
+    assert(1 < len(latitudes))
+    assert(len(longitudes) == len(latitudes))
+
+    places = list(zip(longitudes, latitudes))
+    globe = cgeo.Geodesic()
+    inv = globe.inverse(places[0], places[1:])
+    return (inv.T[0]/1000)
+```
+
 
 ## Entertainment
 

@@ -454,7 +454,7 @@ def p_i_n(some_iterable):
     nexts = chain(islice(nexts, 1, None), [None])
     return zip(prevs, items, nexts)
 
-def count_across(df):
+def value_count_across(df):
     count_across_list = []
     cols_labels = ["Before", "After"]
 
@@ -536,6 +536,27 @@ def value_compare_across(df):
     count_df.loc["Total"] = count_df.loc[["Changed","Same"]].sum(axis="index")
 
     return count_df
+```
+
+### Assign ranks/observation count to rows
+
+Ref: [python - Number rows within group in increasing order in a pandas dataframe - Stack Overflow](https://stackoverflow.com/a/57787917/10668706)
+
+Doc: [pandas.DataFrame.rank — pandas 2.2.1 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rank.html)
+
+```python
+df["Obs"] = df.groupby(["ID", "Year"])["Date"].rank(method="first", ascending=True).astype('Int64')
+```
+
+Use rank instead of staggered dates to pivot:
+
+```python
+pd.pivot(
+    df,
+    index=["ID", "Year"],
+    columns="Obs",
+    values=["Rating", "Date"],
+)
 ```
 
 ### Count/find missing values

@@ -4,28 +4,36 @@ title: "Python"
 ---
 ## \(Maybe\) Useful resources
 
-- [Gallery of Jupyter Books - Executable Books](https://executablebooks.org/en/latest/gallery/)
-- [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+Tutorial/snippets/examples:
+
 - [nkmk/python-snippets](https://github.com/nkmk/python-snippets)
 - [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)
 - [Python Tutorials – Data to Fish](https://datatofish.com/python-tutorials/)
 - [Intermediate Python — Python Tips 0.1 documentation](https://book.pythontips.com/en/latest/index.html#)
     + Repository: [yasoob/intermediatePython](https://github.com/yasoob/intermediatePython)
+- [Python - CopyProgramming](https://copyprogramming.com/t/python)
+- [nkmk note](https://note.nkmk.me/en/) \(in English & Japanese\)
+- [Python Plotting for Exploratory Analysis](https://pythonplot.com/) \(compares code of the same graphs produced by Pandas/Matplotlib/Seaborn/plotnine/plotly/Altair/ggplot2\)
+    - Repository: [tdhopper/pythonplot.com](https://github.com/tdhopper/pythonplot.com)
+
+Books/courses:
+
+- [Gallery of Jupyter Books - Executable Books](https://executablebooks.org/en/latest/gallery/)
+- [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+- [Scientific Computing with Python — Scientific Computing with Python](https://caam37830.github.io/book/index.html)
+    - Repository: [caam37830/book](https://github.com/caam37830/book)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
     + Repository: [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 - [Python for Data Analysis, 3E](https://wesmckinney.com/book/) \(by the author of the pandas package\)
     - Code: [wesm/pydata-book](https://github.com/wesm/pydata-book/tree/3rd-edition)
-- [Python - CopyProgramming](https://copyprogramming.com/t/python)
 - [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html)
     + Repository: [aeturrell/coding-for-economists](https://github.com/aeturrell/coding-for-economists)
 - [Python Cookbook 3rd Edition 中文版](https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html)
-    + Repo: [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
+    + Repository: [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
 - [R you ready for Python?](https://shiny.abdn.ac.uk/Stats/R_Python_tutorial/index.html) \(R/Python integration\)
-- [nkmk note](https://note.nkmk.me/en/) \(in English & Japanese\)
-- [Python Plotting for Exploratory Analysis](https://pythonplot.com/) \(compares code of the same graphs produced by Pandas/Matplotlib/Seaborn/plotnine/plotly/Altair/ggplot2\)
-    - Repository: [tdhopper/pythonplot.com](https://github.com/tdhopper/pythonplot.com)
-- [Plotly Open Source Graphing Libraries](https://plotly.com/graphing-libraries/)
 - [Data Science for Energy System Modelling](https://fneum.github.io/data-science-for-esm/intro.html)
+- [dlsun/pods: Principles of Data Science book](https://github.com/dlsun/pods/tree/master)
+- [Plotly Open Source Graphing Libraries](https://plotly.com/graphing-libraries/)
 
 
 ## File handling
