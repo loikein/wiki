@@ -1,3 +1,5 @@
+/* style deathau/cm-show-whitespace-obsidian */
+
 body.plugin-cm-show-whitespace [class*=cm-trailing-space]::before,
 body.plugin-cm-show-whitespace [class*=cm-trailing-space]::after {
   color: var(--text-muted);
@@ -17,4 +19,21 @@ body.plugin-cm-show-whitespace [class*=cm-trailing-space]::after {
   font-weight: normal;
   opacity: 0.5;
   padding-inline-start: 2px;
+}
+
+/* style for ebullient/obsidian-show-whitespace-cm6 */
+
+.ͼ1 .cm-trailingSpace {
+  background: transparent;
+}
+
+.ͼ1 .cm-highlightSpace::before {
+  content: "·";
+  color: var(--text-muted);
+}
+
+.ͼ1 .cm-highlightTab {
+  display: inline-block;
+  width: 2ch;
+  background-position: right center;
 }

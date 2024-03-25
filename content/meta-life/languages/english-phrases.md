@@ -176,6 +176,10 @@ de jure
 : _adj./adv._ 名义上的，法律上的
 : [Wiktionary](https://en.wiktionary.org/wiki/de_jure#English); [Wikipedia](https://en.wikipedia.org/wiki/De_jure)
 
+innuendo
+: _n._ 性暗示，含沙射影
+: [Wiktionary](https://en.wiktionary.org/wiki/innuendo#English)
+
 interim
 : _adj./n._ 临时的，中期的
 : [Wiktionary](https://en.wiktionary.org/wiki/interim#English)

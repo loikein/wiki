@@ -8,6 +8,8 @@ title: "Web"
 
 ### Spaces
 
+[Whitespace character - Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character)
+
 `&#32;` or `&#x0020;`
 : The normal space \({{< kbd `space` >}}\)
 

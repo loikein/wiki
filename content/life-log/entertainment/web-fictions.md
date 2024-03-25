@@ -87,6 +87,7 @@ TODO: Dump Apple note.
 | 重生在夫君登基前 | 袖侧 | 2023 | [晋江](http://www.jjwxc.net/onebook.php?novelid=5977036)| 2023-09-02 | ★★☆☆☆ | 读得我又疑惑又惆怅。 |
 | 剑修风评被害后 | 成日冬眠 \(小熊蹦迪\) | 2022 \~ 2023 | [晋江](http://www.jjwxc.net/onebook.php?novelid=7228110)| 2023-09-09 | ★★★★☆ | 挺搞笑一文，就是感情线番外未免太短了，俺还没看够呢。 |
 | 这江山是本宫的了 | 衣青箬 | 2022 | [晋江](https://www.jjwxc.net/onebook.php?novelid=4274570)| 2023-10-05 | ★★☆☆☆ | 朋友推荐的，叫我别看（？），我还是看了，果然不应该看的（。） |
+| 娘娘负责躺赢 | 花气薰人欲破禅 | 2021 | [晋江](https://www.jjwxc.net/onebook.php?novelid=5298558)| 2024-03-14 | ★★★★☆ | 抠掉某一句台词就是完美的…… |
 
 <!-- | 一世之尊 | 爱潜水的乌贼 | 2014 | [起点](https://book.qidian.com/info/3249362/) |  |  | 第二次尝试，终于看下去了，还挺好的。 | -->
 
@@ -150,6 +151,10 @@ TODO: Dump Apple note.
 <!-- | 无威胁群体庇护协会 | matthia | 2014 | [扫文小院](http://saowen.net/novels/view/8285/) |  |  |  | -->
 
 ## Fan Fiction
+
+| Title | Author | Fandom | Year | Link | Finish/Progress | Rating | Review |
+|------------|-------------|------|------|-------|--------|--------|--------|
+| 林如海贾敏重生了！ | 辰木离火 \(书一行\) | 红楼梦 | 2021 | [晋江](https://www.jjwxc.net/onebook.php?novelid=5425495) | 2024-03-24 | ★★★★★ | 最近难得有如此女性主义但又不说教的文了。 |
 
 <!-- | Title | Author | Year | Link | Finish/Progress | Rating | Review |
 |------------|-------------|------|-------|--------|--------|--------|

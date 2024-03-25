@@ -5,7 +5,7 @@ title: "Obsidian"
 
 > I use Obsidian with macOS 10.15 Catalina, iOS 17, and iPadOS 15. Unless stated otherwise, everything mentioned here should work everywhere.
 > 
-> If some plugin does not actually work on iOS, but it tries to load every time nonetheless, you can put `"isDesktopOnly": true` in `vault/.obsidian/plugins/plugin-name/manifest.json` will turn it off on iOS.
+> If some plugin does not actually work on mobile, but it tries to load every time nonetheless, putting `"isDesktopOnly": true` in `vault/.obsidian/plugins/plugin-name/manifest.json` will turn it off on mobile.
 {.book-hint .info}
 
 ## Admin
@@ -59,7 +59,7 @@ If you want to use this solution, disable the previous cursor snippet, and add t
 {{< highlight-file file="plugin-ninja-cursor.css" lang="css" >}}
 
 
-## Plugins for focus \(zen\) mode / typewriter scroll
+## Focus \(zen\) mode / typewriter scroll
 
 ### Focus Active Sentence
 
@@ -116,6 +116,52 @@ On desktop, the focus does not disappear unless switch to another software. On m
 Use {{< menu `Command palette` `Typewriter Scroll: Toggle On/Off` >}} to activate scrolling, and use {{< menu `Command palette` `Typewriter Scroll: Toggle Zen Mode On/Off` >}} to activate focus mode.
 
 
+## Showing whitespace \(control characters)
+
+### Show Whitespace
+
+Repo: [deathau/cm-show-whitespace-obsidian](https://github.com/deathau/cm-show-whitespace-obsidian)
+
+{{< details "Reference: Core styles of this plugin, obtained from inspection" >}}
+Source: [deathau/cm-show-whitespace-obsidian/styles.scss](https://github.com/deathau/cm-show-whitespace-obsidian/blob/main/styles.scss)
+
+{{< highlight-file file="cm-show-whitespace-core.css" lang="css" >}}
+{{< /details >}}
+
+Because this plugin has been unmaintained for a while, a patch is needed to make everything look consistent. Add a CSS file with the following contents: \(the `<br>` style came from [here](https://stackoverflow.com/a/64912130)\)
+
+{{< highlight-file file="plugin-show-whitespace.css" lang="css" >}}
+
+### Control Characters
+
+Repo: [joethei/obsidian-control-characters](https://github.com/joethei/obsidian-control-characters)
+
+When I was looking for an alternative of [cm-show-whitespace-obsidian](#cm-show-whitespace-obsidian), I found this plugin which also integrates with [mgmeyers/obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) to make customising possible without fiddling with CSS files. However, I did not like the default SVGs, and could not bother with finding new SVGs right now, so I am still using the old plugin.
+
+### Show Whitespace \(CM6\)
+
+Repo: [ebullient/obsidian-show-whitespace-cm6](https://github.com/ebullient/obsidian-show-whitespace-cm6)
+
+This plugin is buggy with line breaks \([Issue #83](https://github.com/ebullient/obsidian-show-whitespace-cm6/issues/83)\), but it complements deathau/cm-show-whitespace-obsidian in the sense that it shows spaces (`␣`) very well. Following is setting and CSS styles for using them together.
+
+- Show Whitespace
+	- Toggle Show Whitespace: True
+  - Show space characters: False
+  - Show single space characters: False
+  - Show trailing space characters: False
+  - Show newline characters: True
+  - Show strict line break characters: True
+  - Show tab characters: False
+- Show Whitespace \(CM6\)
+	- Suppress plugin styles: True
+	- Always show blockquote markers: \(any\)
+	- Show all whitespace characters in code blocks: True
+	- Show all whitespace characters: True
+	- Outline list markers: \(any\)
+
+{{< highlight-file file="plugin-show-whitespace-cm6.css" lang="css" >}}
+
+
 ## Plugins \(for peaceful writing\)
 
 Most of my creative writings are in Chinese and published under my other online personae.
@@ -153,6 +199,18 @@ To visually indicate the status of a piece of writing in the file tree. Set icon
 
 I personally found the open source [Lucide Icons](https://lucide.dev/icons/) \(and [BoxIcons](https://boxicons.com/), but it has less options\) pack aesthetically pleasing and easy to see even on mobile. Also, Twemoji.
 
+### Longform
+
+Repo: [kevboh/longform: A plugin for Obsidian that helps you write and edit novels, screenplays, and other long projects.](https://github.com/kevboh/longform)
+
+I just wanted to automatically create a multi-chapter project, not really needing any of the compilation functionalities. Turns out it can also create single-chapter project, but ignores the scene template when doing so.
+
+Articles for reference:
+
+- [Writing a novel in Markdown - pdworkman.com](https://pdworkman.com/writing-a-novel-in-markdown/) \(With file structure and plugin recommendations for complex commercial projects\)
+- [Writing Long Form Content With Obsidian](https://www.eleanorkonik.com/writing-long-form-content/)
+
+
 ### Novel Word Count
 
 Repo: [isaaclyman/novel-word-count-obsidian: Obsidian plugin. Displays a word count or other statistic for each file, folder and vault in the File Explorer pane.](https://github.com/isaaclyman/novel-word-count-obsidian)
@@ -160,11 +218,14 @@ Repo: [isaaclyman/novel-word-count-obsidian: Obsidian plugin. Displays a word co
 Preferences:
 
 - Notes
-  + First type: Character count \(pretty accurate, no need to turn on CJK support\)
+  + First type: Word count
   + Suffix: `字`
   + Alignment: Right-aligned
 - Folders
   + First type: None
+- Show advanced options: True
+  - Exclude comments: True
+  - Word count method: Han/Kana/Hangul (CJK) \(Note: Using this option will exclude any non-CJK words when counting\)
 
 ### Quiet Outline
 
@@ -186,26 +247,6 @@ Preferences:
 Some styles I wrote for more obvious current entry highlighting:
 
 {{< highlight-file file="plugin-quiet-outline.css" lang="css" >}}
-
-### Show Whitespace
-
-Repo: [deathau/cm-show-whitespace-obsidian](https://github.com/deathau/cm-show-whitespace-obsidian)
-
-{{< details "Reference: Core styles of this plugin, obtained from inspection" >}}
-Source: [deathau/cm-show-whitespace-obsidian/styles.scss](https://github.com/deathau/cm-show-whitespace-obsidian/blob/main/styles.scss)
-
-{{< highlight-file file="cm-show-whitespace-core.css" lang="css" >}}
-{{< /details >}}
-
-Because this plugin has been unmaintained for a while, a patch is needed to make everything look consistent. Add a CSS file with the following contents: \(the `<br>` style came from [here](https://stackoverflow.com/a/64912130)\)
-
-{{< highlight-file file="plugin-show-whitespace.css" lang="css" >}}
-
-#### Control Characters
-
-Repo: [joethei/obsidian-control-characters](https://github.com/joethei/obsidian-control-characters)
-
-When I was looking for an alternative of [cm-show-whitespace-obsidian](#cm-show-whitespace-obsidian), I found this plugin which also integrates with [mgmeyers/obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings) to make customising possible without fiddling with CSS files. However, I did not like the default SVGs, and could not bother with finding new SVGs right now, so I am still using the old plugin.
 
 
 ## Plugins \(for aggressive note-taking\)
@@ -569,7 +610,6 @@ Editors/apps that I have tested:
 {{< /details >}}
 
 {{< details "For writing" >}}
-- [Writing a novel in Markdown - pdworkman.com](https://pdworkman.com/writing-a-novel-in-markdown/)
 - [pourmand1376/obsidian-custom-font: A plugin to set custom font for obsidian](https://github.com/pourmand1376/obsidian-custom-font)
 - [Plugins for Writers - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Writers)
 - [Plugins for Editing Notes - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Editing+Notes)
