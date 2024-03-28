@@ -726,6 +726,22 @@ mask_2 = ~df["Name"].str.startswith("One d", na=False)
 df_subset = df[mask_1 * mask_2]
 ```
 
+Get MultiIndex as a list from boolean masks: \([ref](https://stackoverflow.com/a/73837071/10668706), also see my comments\)
+
+```python
+import numpy as np
+import pandas as pd
+
+mask_1 = df["Status Code"].isna()
+index_list = np.array(mask_1.loc[lambda item: item].index.to_list())
+
+# all first indices
+index_list.T[0]
+
+# all second indices
+index_list.T[1]
+```
+
 ### By column value \(query\)
 
 Docs:
@@ -1189,9 +1205,11 @@ df_AB = df_A[["Rating"]].join(
 With a single list of DataFrames: \(index is `ID`\) \([credit](https://stackoverflow.com/a/38089112)\)
 
 ```python
-df = reduce(lambda x, y: pd.merge(x, y, on="ID"), df_list)
-```
+import pandas as pd
+from functools import reduce
 
+df = reduce(lambda x, y: pd.merge(x, y, on="ID", how="outer"), df_list)
+```
 
 ### Drop things
 
